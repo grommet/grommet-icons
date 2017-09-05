@@ -8,7 +8,7 @@ cache:
 script:
 - npm run check
 - |
-  if [ "${TRAVIS_PULL_REQUEST}" = "false" ] && [ "$TRAVIS_BRANCH" = "NEXT" ]; then
+  if [ "${TRAVIS_PULL_REQUEST}" = "false" ] && [ "$TRAVIS_BRANCH" = "master" ]; then
     git config --global user.name "Grommet Community Bot"
     git config --global user.email "grommet@hpe.com"
     npm run dist
