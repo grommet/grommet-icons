@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '6.11.2'
+sudo: false
+cache:
+  directories:
+  - node_modules
+script:
+- npm run check
+- |
+  if [ "${TRAVIS_PULL_REQUEST}" = "false" ] && [ "$TRAVIS_BRANCH" = "NEXT" ]; then
+    git config --global user.name "Grommet Community Bot"
+    git config --global user.email "grommet@hpe.com"
+    npm run dist
+    npm run release-stable
+  fi

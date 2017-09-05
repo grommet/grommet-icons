@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>status-critical-small</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="status-critical-small" stroke="#000000" fill="#000000">
+            <path d="M6.71239638,1.26313029 C6.31895072,0.869684641 5.68347072,0.867263198 5.28760362,1.26313029 L1.26313029,5.28760362 C0.869684641,5.68104928 0.867263198,6.31652928 1.26313029,6.71239638 L5.28760362,10.7368697 C5.68104928,11.1303154 6.31652928,11.1327368 6.71239638,10.7368697 L10.7368697,6.71239638 C11.1303154,6.31895072 11.1327368,5.68347072 10.7368697,5.28760362 L6.71239638,1.26313029 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

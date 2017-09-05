@@ -1,0 +1,11 @@
+import React from 'react';
+
+import Icon from '../Icon';
+
+const Task = props => (
+  <Icon a11yTitle='Task' {...props}>
+    <g stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'><g stroke='#000000' strokeWidth='2'><path d='M12,20 L24,20 M12,12 L24,12 M12,4 L24,4 M1,19 L4,22 L9,17 M1,11 L4,14 L9,9 M9,1 L4,6 L1,3' /></g></g>
+  </Icon>
+);
+
+export default Task;

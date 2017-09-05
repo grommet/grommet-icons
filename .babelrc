@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "./tools/grommet-babel-preset-es2015",
+    "stage-1",
+    "react"
+  ],
+  "plugins": [
+    ["styled-components", { "useFileName": false }]
+  ]
+}

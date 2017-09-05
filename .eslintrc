@@ -1,0 +1,47 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "it": true,
+    "expect": true,
+    "describe": true,
+    "jest": true,
+    "document": true,
+    "test": true,
+    "window": true,
+    "fetch": true,
+    "WebSocket": true,
+    "alert": true,
+    "URLSearchParams": true,
+    "defaultProps": true,
+    "childContextTypes": true,
+    "contextTypes": true,
+    "state": true,
+    "Event": true
+  },
+  "rules": {
+    "indent": "off",
+    "indent-legacy": ["error", 2],
+    "comma-dangle": ["error", "always-multiline"],
+    "jsx-quotes": ["error", "prefer-single"],
+    "no-console": 0,
+    "quote-props": ["error", "consistent"],
+    "react/forbid-prop-types": 0,  // Soft requirement now, try hard requ in future
+    "react/jsx-boolean-value": [1, "always"],
+    "react/jsx-filename-extension": 0,
+    "react/jsx-first-prop-new-line": [1, "multiline"],
+    "react/jsx-max-props-per-line": [1, { "when": "multiline" }],
+    "react/no-multi-comp": 0,  // Soft requirement now, try hard requ in future
+    "react/prefer-stateless-function": 0,  // Soft requirement now, try hard requ in future
+    "react/no-find-dom-node": 0,
+    "react/prop-types": 0,
+    "react/sort-comp": 0,
+    "import/no-extraneous-dependencies": 0,
+    "no-alert": 0,
+    "jsx-a11y/href-no-hash": 0
+  }
+}
