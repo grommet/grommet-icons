@@ -14,6 +14,8 @@ or
 
 `import { ZoomOut } from 'grommet-icons';`
 
+For now, to see all the icons available check this [folder](https://github.com/grommet/grommet-icons/tree/master/src/js/icons)
+
 ## Build 
 
 To build this library, execute the following commands:
