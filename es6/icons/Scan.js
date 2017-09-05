@@ -1,0 +1,23 @@
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+import React from 'react';
+
+import Icon from '../Icon';
+
+var Scan = function Scan(props) {
+  return React.createElement(
+    Icon,
+    _extends({ a11yTitle: 'Scan' }, props),
+    React.createElement(
+      'g',
+      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        'g',
+        { stroke: '#000000', strokeWidth: '2' },
+        React.createElement('path', { d: 'M20,14 L20,21 L4,21 L4,14 L4,14 M1,12 L23,12 L1,12 Z M4,11 L4,8 L4,11 Z M20,8 L20,11 L20,8 Z M7,3 L4,3 L4,6 M20,6 L20,3 L17,3 M9,3 L15,3 L9,3 Z', transform: 'translate(12.000000, 12.000000) scale(1, -1) translate(-12.000000, -12.000000) ' })
+      )
+    )
+  );
+};
+
+export default Scan;

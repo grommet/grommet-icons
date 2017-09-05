@@ -1,0 +1,23 @@
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+import React from 'react';
+
+import Icon from '../Icon';
+
+var Inbox = function Inbox(props) {
+  return React.createElement(
+    Icon,
+    _extends({ a11yTitle: 'Inbox' }, props),
+    React.createElement(
+      'g',
+      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        'g',
+        { stroke: '#000000', strokeWidth: '2' },
+        React.createElement('path', { d: 'M1,13 L6,2 L18,2 L23,13 L23,22 L1,22 L1,13 Z M1,13 L8,13 L8,16 L16,16 L16,13 L23,13' })
+      )
+    )
+  );
+};
+
+export default Inbox;

@@ -1,0 +1,33 @@
+'use strict';
+
+exports.__esModule = true;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Icon = require('../Icon');
+
+var _Icon2 = _interopRequireDefault(_Icon);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Risk = function Risk(props) {
+  return _react2.default.createElement(
+    _Icon2.default,
+    _extends({ a11yTitle: 'Risk' }, props),
+    _react2.default.createElement(
+      'g',
+      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      _react2.default.createElement(
+        'g',
+        { stroke: '#000000', strokeWidth: '2' },
+        _react2.default.createElement('path', { d: 'M14,10 L15,10 L15,9 L14,9 L14,10 Z M18,10 L19,10 L19,9 L18,9 L18,10 Z M18,6 L19,6 L19,5 L18,5 L18,6 Z M14,6 L15,6 L15,5 L14,5 L14,6 Z M9,19 L10,19 L10,18 L9,18 L9,19 Z M5,15 L6,15 L6,14 L5,14 L5,15 Z M10,10 L1,10 L1,23 L14,23 L14,14 M10,14 L23,14 L23,1 L10,1 L10,14 Z' })
+      )
+    )
+  );
+};
+
+exports.default = Risk;

@@ -1,0 +1,23 @@
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+import React from 'react';
+
+import Icon from '../Icon';
+
+var Shield = function Shield(props) {
+  return React.createElement(
+    Icon,
+    _extends({ a11yTitle: 'Shield' }, props),
+    React.createElement(
+      'g',
+      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        'g',
+        { stroke: '#000000', strokeWidth: '2' },
+        React.createElement('path', { d: 'M12,22 C12,22 3,18 3,5 C3,5 12,2 12,2 C12,2 21,5 21,5 C21,18 12,22 12,22 Z M4,11 L20,11 M12,2 L12,22' })
+      )
+    )
+  );
+};
+
+export default Shield;

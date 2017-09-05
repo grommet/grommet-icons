@@ -1,0 +1,23 @@
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+import React from 'react';
+
+import Icon from '../Icon';
+
+var Folder = function Folder(props) {
+  return React.createElement(
+    Icon,
+    _extends({ a11yTitle: 'Folder' }, props),
+    React.createElement(
+      'g',
+      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        'g',
+        { stroke: '#000000', strokeWidth: '2' },
+        React.createElement('path', { d: 'M2,10 L2,6 L2,2 L10,2 L13,6 L22,6 L22,10 L2,10 Z M2,10 L22,10 L22,22 L2,22 L2,10 Z' })
+      )
+    )
+  );
+};
+
+export default Folder;

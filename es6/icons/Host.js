@@ -1,0 +1,23 @@
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+import React from 'react';
+
+import Icon from '../Icon';
+
+var Host = function Host(props) {
+  return React.createElement(
+    Icon,
+    _extends({ a11yTitle: 'Host' }, props),
+    React.createElement(
+      'g',
+      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        'g',
+        { stroke: '#000000', strokeWidth: '2' },
+        React.createElement('path', { d: 'M17,4 L18,4 L18,5 L17,5 L17,4 Z M3,1 L21,1 L21,23 L3,23 L3,1 Z M3,13 L21,13 L3,13 Z M3,18 L21,18 L3,18 Z M3,8 L21,8 L3,8 Z' })
+      )
+    )
+  );
+};
+
+export default Host;
