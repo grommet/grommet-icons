@@ -1,3 +1,5 @@
+[![Slack](http://alansouzati.github.io/artic/img/slack-badge.svg)](http://slackin.grommet.io)  [![Build Status](https://travis-ci.org/grommet/grommet-icons.svg?branch=master)](https://travis-ci.org/grommet/grommet-icons) [![Test Coverage](https://codeclimate.com/github/grommet/grommet-icons/badges/coverage.svg)](https://codeclimate.com/github/grommet/grommet-icons/coverage)  [![Dependency Status](https://david-dm.org/grommet/grommet.svg)](https://david-dm.org/grommet/grommet) [![devDependency Status](https://david-dm.org/grommet/grommet/dev-status.svg)](https://david-dm.org/grommet/grommet#info=devDependencies)
+
 # grommet-icons
 
 iconography for grommet apps.
