@@ -30,6 +30,10 @@ To build this library, execute the following commands:
 
     $ npm run dist
 
-  4. Test and run linters:
+  3. Test and run linters:
 
     $ npm run check
+
+  4. Generate React icons:
+
+    $ npm run generate-icons
