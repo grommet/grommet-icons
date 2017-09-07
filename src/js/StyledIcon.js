@@ -16,7 +16,7 @@ const StyledIcon = styled.svg`
   flex: 0 0 auto;
 
   ${props => props.size && SIZE_MAP[props.size]}
-  ${props => props.colorIndex !== 'plain' && `
+  ${props => props.color !== 'plain' && `
     fill: ${props.theme.icon.color};
     stroke: ${props.theme.icon.color};
 
