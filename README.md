@@ -14,10 +14,78 @@ or
 
 ## Usage
 
-`import { ZoomOut } from 'grommet-icons';`
+```javascript
+import { SocialFacebook } from 'grommet-icons';
 
-For now, to see all the icons available check this [folder](https://github.com/grommet/grommet-icons/tree/master/src/js/icons)
+<SocialFacebook />
+<SocialFacebook color='plain' />
+<SocialFacebook size='large' />
+<SocialFacebook size='xlarge' />
+```
 
+For now, to see all the icons available check this [page](https://github.com/grommet/grommet-icons/wiki/Icons)
+
+## Try
+
+Check this [codesandbox](https://codesandbox.io/s/xvr25oxo4o)
+
+## Customize
+
+The theme for the icon supports different colors and sizes. The default object is:
+
+```
+  icon: {
+    color: '#666666',
+    size: {
+      large: '48px',
+      xlarge: '96px',
+    },
+  },
+```
+
+You can customize by sending a `theme` prop or a `theme` context.
+
+For example:
+
+```javascript
+  const theme = {
+    icon: {
+      color: '#333333'
+    },
+  };
+  <ZoomOut theme={theme} />
+```
+
+or 
+
+```javascript
+  const theme = {
+    icon: {
+      color: '#333333'
+    },
+  };
+  <ThemeProvider theme={theme}>
+    <ZoomOut />
+  </ThemeProvider>
+```
+
+If you need a more advanced customization you can use extend entry:
+
+```javascript
+  const advancedTheme = {
+    icon: {
+      extend: css`
+        ${props => props.color === 'sunny' && `
+          fill: yellow;
+          stroke: yellow;
+        ` }
+      `
+    },
+  };
+  <ThemeProvider theme={theme}>
+    <ZoomOut color='sunny' />
+  </ThemeProvider>
+```
 ## Build 
 
 To build this library, execute the following commands:
