@@ -18,15 +18,7 @@ var Split = function Split(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Split' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        _react2.default.createElement('path', { d: 'M1,22 L23,22 L23,2 L1,2 L1,22 Z M12,2 L12,22 L12,2 Z' })
-      )
-    )
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,22 L23,22 L23,2 L1,2 L1,22 Z M12,2 L12,22 L12,2 Z' })
   );
 };
 

@@ -8,15 +8,7 @@ var Cursor = function Cursor(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Cursor' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('polygon', { points: '6 3 18 14 13 15 16 20.5 13 22 10 16 6 19' })
-      )
-    )
+    React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '6 3 18 14 13 15 16 20.5 13 22 10 16 6 19' })
   );
 };
 

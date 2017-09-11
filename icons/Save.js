@@ -18,15 +18,7 @@ var Save = function Save(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Save' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        _react2.default.createElement('path', { d: 'M3,2 L3,21 L21,21 L21,3 L12,3 L12,14 M8,11 L12,15 L16,11' })
-      )
-    )
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M3,2 L3,21 L21,21 L21,3 L12,3 L12,14 M8,11 L12,15 L16,11' })
   );
 };
 

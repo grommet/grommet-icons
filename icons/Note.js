@@ -18,15 +18,7 @@ var Note = function Note(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Note' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        _react2.default.createElement('path', { d: 'M1,23 L16,23 L23,16 L23,1 L1,1 L1,23 Z M15,23 L15,15 L23,15' })
-      )
-    )
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,23 L16,23 L23,16 L23,1 L1,1 L1,23 Z M15,23 L15,15 L23,15' })
   );
 };
 

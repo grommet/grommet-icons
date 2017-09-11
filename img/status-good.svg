@@ -1,13 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
-    <title>status-good</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="status-good" stroke-width="2">
-            <circle id="Path" stroke="#000000" fill="#000000" cx="12" cy="12" r="10"></circle>
-            <polyline id="Good" stroke="#FFFFFF" points="7 12 11 15 16 8"></polyline>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g fill="none" fill-rule="evenodd" stroke-width="2">
+    <circle cx="12" cy="12" r="10" fill="#000" stroke="#000"/>
+    <polyline stroke="#FFF" points="7 12 11 15 16 8"/>
+  </g>
 </svg>

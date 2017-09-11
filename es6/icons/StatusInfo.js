@@ -10,13 +10,9 @@ var StatusInfo = function StatusInfo(props) {
     _extends({ a11yTitle: 'StatusInfo' }, props),
     React.createElement(
       'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2' },
-        React.createElement('rect', { stroke: '#000000', fill: '#000000', x: '2', y: '2', width: '20', height: '20', rx: '2' }),
-        React.createElement('path', { d: 'M12,10 L12,18 M12,6 L12,8', stroke: '#FFFFFF' })
-      )
+      { fill: 'none', fillRule: 'evenodd', strokeWidth: '2' },
+      React.createElement('rect', { width: '20', height: '20', x: '2', y: '2', fill: '#000', stroke: '#000', rx: '2' }),
+      React.createElement('path', { stroke: '#FFF', d: 'M12,10 L12,18 M12,6 L12,8' })
     )
   );
 };

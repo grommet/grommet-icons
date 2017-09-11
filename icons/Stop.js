@@ -18,15 +18,7 @@ var Stop = function Stop(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Stop' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        _react2.default.createElement('rect', { x: '4', y: '4', width: '16', height: '16' })
-      )
-    )
+    _react2.default.createElement('rect', { width: '16', height: '16', x: '4', y: '4', fill: 'none', stroke: '#000', strokeWidth: '2' })
   );
 };
 

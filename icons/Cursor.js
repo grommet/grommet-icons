@@ -18,15 +18,7 @@ var Cursor = function Cursor(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Cursor' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        _react2.default.createElement('polygon', { points: '6 3 18 14 13 15 16 20.5 13 22 10 16 6 19' })
-      )
-    )
+    _react2.default.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '6 3 18 14 13 15 16 20.5 13 22 10 16 6 19' })
   );
 };
 

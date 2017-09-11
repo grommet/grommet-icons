@@ -18,15 +18,7 @@ var BottomCorner = function BottomCorner(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'BottomCorner' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        _react2.default.createElement('polyline', { points: '8 20 20 20 20 8' })
-      )
-    )
+    _react2.default.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '8 20 20 20 20 8' })
   );
 };
 

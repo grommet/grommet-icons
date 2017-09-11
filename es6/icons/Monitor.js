@@ -8,15 +8,7 @@ var Monitor = function Monitor(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Monitor' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        React.createElement('path', { d: 'M1,16 L23,16 L23,2 L1,2 L1,16 Z M5,22 L19,22 L5,22 Z M9,22 L15,22 L15,16 L9,16 L9,22 Z' })
-      )
-    )
+    React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,16 L23,16 L23,2 L1,2 L1,16 Z M5,22 L19,22 L5,22 Z M9,22 L15,22 L15,16 L9,16 L9,22 Z' })
   );
 };
 

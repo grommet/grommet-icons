@@ -8,15 +8,7 @@ var Tip = function Tip(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Tip' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        React.createElement('path', { d: 'M16.0073529,18 L22,18 L22,2 L2,2 L2,18 L8.24264706,18 L12.125,22 L16.0073529,18 Z' })
-      )
-    )
+    React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M16.0073529,18 L22,18 L22,2 L2,2 L2,18 L8.24264706,18 L12.125,22 L16.0073529,18 Z' })
   );
 };
 

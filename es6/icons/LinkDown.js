@@ -8,15 +8,7 @@ var LinkDown = function LinkDown(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'LinkDown' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        React.createElement('path', { d: 'M12,2 L12,22 M3,11 L12,2 L21,11', transform: 'translate(12.000000, 12.000000) scale(1, -1) translate(-12.000000, -12.000000) ' })
-      )
-    )
+    React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M12,2 L12,22 M3,11 L12,2 L21,11', transform: 'matrix(1 0 0 -1 0 24)' })
   );
 };
 

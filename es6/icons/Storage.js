@@ -8,15 +8,7 @@ var Storage = function Storage(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Storage' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        React.createElement('path', { d: 'M3,24 L3,1 L21,1 L21,24 M9,6 L15,6 M9,16 L15,16 M3,11 L21,11 M3,21 L21,21' })
-      )
-    )
+    React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M3,24 L3,1 L21,1 L21,24 M9,6 L15,6 M9,16 L15,16 M3,11 L21,11 M3,21 L21,21' })
   );
 };
 

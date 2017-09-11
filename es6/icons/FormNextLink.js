@@ -8,15 +8,7 @@ var FormNextLink = function FormNextLink(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'FormNextLink' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        React.createElement('path', { d: 'M6,12.4 L18,12.4 M12.6,7 L18,12.4 L12.6,17.8' })
-      )
-    )
+    React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M6,12.4 L18,12.4 M12.6,7 L18,12.4 L12.6,17.8' })
   );
 };
 

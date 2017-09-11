@@ -18,15 +18,7 @@ var Storage = function Storage(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Storage' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        _react2.default.createElement('path', { d: 'M3,24 L3,1 L21,1 L21,24 M9,6 L15,6 M9,16 L15,16 M3,11 L21,11 M3,21 L21,21' })
-      )
-    )
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M3,24 L3,1 L21,1 L21,24 M9,6 L15,6 M9,16 L15,16 M3,11 L21,11 M3,21 L21,21' })
   );
 };
 

@@ -18,15 +18,7 @@ var New = function New(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'New' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        _react2.default.createElement('path', { d: 'M12,1 L12,23 M2,6 L22,18 M22.0000001,6 L2.00000008,18' })
-      )
-    )
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M12,1 L12,23 M2,6 L22,18 M22.0000001,6 L2.00000008,18' })
   );
 };
 

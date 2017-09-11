@@ -8,15 +8,7 @@ var CaretNext = function CaretNext(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'CaretNext' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('polygon', { points: '6 2 18 12 6 22' })
-      )
-    )
+    React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '6 2 18 12 6 22' })
   );
 };
 

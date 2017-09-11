@@ -18,15 +18,7 @@ var Download = function Download(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Download' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        _react2.default.createElement('path', { d: 'M1,17 L1,23 L23,23 L23,17 M12,2 L12,19 M5,12 L12,19 L19,12' })
-      )
-    )
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,17 L1,23 L23,23 L23,17 M12,2 L12,19 M5,12 L12,19 L19,12' })
   );
 };
 

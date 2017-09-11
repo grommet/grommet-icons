@@ -8,15 +8,7 @@ var Menu = function Menu(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Menu' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        React.createElement('path', { d: 'M2,19 L22,19 M2,5 L22,5 M2,12 L22,12' })
-      )
-    )
+    React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M2,19 L22,19 M2,5 L22,5 M2,12 L22,12' })
   );
 };
 

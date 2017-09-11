@@ -8,15 +8,7 @@ var Checkbox = function Checkbox(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Checkbox' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        React.createElement('rect', { x: '2', y: '2', width: '20', height: '20' })
-      )
-    )
+    React.createElement('rect', { width: '20', height: '20', x: '2', y: '2', fill: 'none', stroke: '#000', strokeWidth: '2' })
   );
 };
 

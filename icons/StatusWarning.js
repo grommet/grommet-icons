@@ -20,13 +20,9 @@ var StatusWarning = function StatusWarning(props) {
     _extends({ a11yTitle: 'StatusWarning' }, props),
     _react2.default.createElement(
       'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd', strokeLinejoin: 'round' },
-      _react2.default.createElement(
-        'g',
-        { strokeWidth: '2' },
-        _react2.default.createElement('polygon', { stroke: '#000000', fill: '#000000', points: '12 3 22 21 2 21' }),
-        _react2.default.createElement('path', { d: 'M12,9 L12,15 M12,16 L12,18', stroke: '#FFFFFF' })
-      )
+      { fill: 'none', fillRule: 'evenodd', strokeLinejoin: 'round', strokeWidth: '2' },
+      _react2.default.createElement('polygon', { fill: '#000', stroke: '#000', points: '12 3 22 21 2 21' }),
+      _react2.default.createElement('path', { stroke: '#FFF', d: 'M12,9 L12,15 M12,16 L12,18' })
     )
   );
 };

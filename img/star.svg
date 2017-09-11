@@ -1,12 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
-    <title>star</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="star" stroke-width="2" stroke="#000000">
-            <polygon id="Star" points="5 21 8 14 3 9 9 9 12 3 15 9 21 9 16 14 19 21 12 17"></polygon>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <polygon fill="none" stroke="#000" stroke-width="2" points="5 21 8 14 3 9 9 9 12 3 15 9 21 9 16 14 19 21 12 17"/>
 </svg>

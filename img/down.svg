@@ -1,12 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
-    <title>down</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="down" stroke-width="2" stroke="#000000">
-            <polyline id="Path" transform="translate(12.085739, 13.173763) scale(-1, 1) rotate(91.000000) translate(-12.085739, -13.173763) " points="7.08573898 3.17376254 17.085739 13.1737625 7.08573898 23.1737625"></polyline>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <polyline fill="none" stroke="#000" stroke-width="2" points="7.086 3.174 17.086 13.174 7.086 23.174" transform="scale(1 -1) rotate(-89 -1.32 0)"/>
 </svg>

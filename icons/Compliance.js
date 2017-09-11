@@ -18,15 +18,7 @@ var Compliance = function Compliance(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Compliance' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#231F20', strokeWidth: '2' },
-        _react2.default.createElement('path', { d: 'M8,6 L16,6 L16,1 L8,1 L8,6 L8,6 L8,6 Z M16,3 L21,3 L21,23 L3,23 L3,3 L8,3 M8,14 L11,17 L17,11' })
-      )
-    )
+    _react2.default.createElement('path', { fill: 'none', stroke: '#231F20', strokeWidth: '2', d: 'M8,6 L16,6 L16,1 L8,1 L8,6 L8,6 L8,6 Z M16,3 L21,3 L21,23 L3,23 L3,3 L8,3 M8,14 L11,17 L17,11' })
   );
 };
 

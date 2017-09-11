@@ -8,15 +8,7 @@ var Play = function Play(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Play' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('polygon', { points: '3 22.0000002 21 12 3 2' })
-      )
-    )
+    React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '3 22 21 12 3 2' })
   );
 };
 

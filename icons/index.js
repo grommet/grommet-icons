@@ -2,93 +2,12 @@
 
 exports.__esModule = true;
 
-var _AccessAccessibility = require('./AccessAccessibility');
+var _Accessibility = require('./Accessibility');
 
-Object.defineProperty(exports, 'AccessAccessibility', {
+Object.defineProperty(exports, 'Accessibility', {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_AccessAccessibility).default;
-  }
-});
-
-var _AccessAd = require('./AccessAd');
-
-Object.defineProperty(exports, 'AccessAd', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_AccessAd).default;
-  }
-});
-
-var _AccessAssistListening = require('./AccessAssistListening');
-
-Object.defineProperty(exports, 'AccessAssistListening', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_AccessAssistListening).default;
-  }
-});
-
-var _AccessBraille = require('./AccessBraille');
-
-Object.defineProperty(exports, 'AccessBraille', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_AccessBraille).default;
-  }
-});
-
-var _AccessSign = require('./AccessSign');
-
-Object.defineProperty(exports, 'AccessSign', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_AccessSign).default;
-  }
-});
-
-var _AccessTty = require('./AccessTty');
-
-Object.defineProperty(exports, 'AccessTty', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_AccessTty).default;
-  }
-});
-
-var _AccessVolumeControl = require('./AccessVolumeControl');
-
-Object.defineProperty(exports, 'AccessVolumeControl', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_AccessVolumeControl).default;
-  }
-});
-
-var _AccessWheelchairActive = require('./AccessWheelchairActive');
-
-Object.defineProperty(exports, 'AccessWheelchairActive', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_AccessWheelchairActive).default;
-  }
-});
-
-var _AccessWheelchair = require('./AccessWheelchair');
-
-Object.defineProperty(exports, 'AccessWheelchair', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_AccessWheelchair).default;
-  }
-});
-
-var _Accessible = require('./Accessible');
-
-Object.defineProperty(exports, 'Accessible', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Accessible).default;
+    return _interopRequireDefault(_Accessibility).default;
   }
 });
 
@@ -119,12 +38,30 @@ Object.defineProperty(exports, 'Actions', {
   }
 });
 
+var _Ad = require('./Ad');
+
+Object.defineProperty(exports, 'Ad', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Ad).default;
+  }
+});
+
 var _AddCircle = require('./AddCircle');
 
 Object.defineProperty(exports, 'AddCircle', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_AddCircle).default;
+  }
+});
+
+var _Add = require('./Add');
+
+Object.defineProperty(exports, 'Add', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Add).default;
   }
 });
 
@@ -182,6 +119,24 @@ Object.defineProperty(exports, 'Alert', {
   }
 });
 
+var _Amazon = require('./Amazon');
+
+Object.defineProperty(exports, 'Amazon', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Amazon).default;
+  }
+});
+
+var _Amex = require('./Amex');
+
+Object.defineProperty(exports, 'Amex', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Amex).default;
+  }
+});
+
 var _Analytics = require('./Analytics');
 
 Object.defineProperty(exports, 'Analytics', {
@@ -191,12 +146,39 @@ Object.defineProperty(exports, 'Analytics', {
   }
 });
 
+var _Android = require('./Android');
+
+Object.defineProperty(exports, 'Android', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Android).default;
+  }
+});
+
 var _Announce = require('./Announce');
 
 Object.defineProperty(exports, 'Announce', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Announce).default;
+  }
+});
+
+var _AppleAppStore = require('./AppleAppStore');
+
+Object.defineProperty(exports, 'AppleAppStore', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_AppleAppStore).default;
+  }
+});
+
+var _Apple = require('./Apple');
+
+Object.defineProperty(exports, 'Apple', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Apple).default;
   }
 });
 
@@ -218,6 +200,15 @@ Object.defineProperty(exports, 'Archive', {
   }
 });
 
+var _Archlinux = require('./Archlinux');
+
+Object.defineProperty(exports, 'Archlinux', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Archlinux).default;
+  }
+});
+
 var _Article = require('./Article');
 
 Object.defineProperty(exports, 'Article', {
@@ -227,12 +218,30 @@ Object.defineProperty(exports, 'Article', {
   }
 });
 
+var _Aruba = require('./Aruba');
+
+Object.defineProperty(exports, 'Aruba', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Aruba).default;
+  }
+});
+
 var _Ascend = require('./Ascend');
 
 Object.defineProperty(exports, 'Ascend', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Ascend).default;
+  }
+});
+
+var _AssistListening = require('./AssistListening');
+
+Object.defineProperty(exports, 'AssistListening', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_AssistListening).default;
   }
 });
 
@@ -308,6 +317,15 @@ Object.defineProperty(exports, 'Basket', {
   }
 });
 
+var _Bitcoin = require('./Bitcoin');
+
+Object.defineProperty(exports, 'Bitcoin', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Bitcoin).default;
+  }
+});
+
 var _Blog = require('./Blog');
 
 Object.defineProperty(exports, 'Blog', {
@@ -344,111 +362,12 @@ Object.defineProperty(exports, 'BottomCorner', {
   }
 });
 
-var _BrandAppleAppStore = require('./BrandAppleAppStore');
+var _Braille = require('./Braille');
 
-Object.defineProperty(exports, 'BrandAppleAppStore', {
+Object.defineProperty(exports, 'Braille', {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_BrandAppleAppStore).default;
-  }
-});
-
-var _BrandCodepenEdit = require('./BrandCodepenEdit');
-
-Object.defineProperty(exports, 'BrandCodepenEdit', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_BrandCodepenEdit).default;
-  }
-});
-
-var _BrandCodepenTry = require('./BrandCodepenTry');
-
-Object.defineProperty(exports, 'BrandCodepenTry', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_BrandCodepenTry).default;
-  }
-});
-
-var _BrandGooglePlay = require('./BrandGooglePlay');
-
-Object.defineProperty(exports, 'BrandGooglePlay', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_BrandGooglePlay).default;
-  }
-});
-
-var _BrandGrommetOutline = require('./BrandGrommetOutline');
-
-Object.defineProperty(exports, 'BrandGrommetOutline', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_BrandGrommetOutline).default;
-  }
-});
-
-var _BrandGrommetPath = require('./BrandGrommetPath');
-
-Object.defineProperty(exports, 'BrandGrommetPath', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_BrandGrommetPath).default;
-  }
-});
-
-var _BrandHpeElementOutline = require('./BrandHpeElementOutline');
-
-Object.defineProperty(exports, 'BrandHpeElementOutline', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_BrandHpeElementOutline).default;
-  }
-});
-
-var _BrandHpeElementPath = require('./BrandHpeElementPath');
-
-Object.defineProperty(exports, 'BrandHpeElementPath', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_BrandHpeElementPath).default;
-  }
-});
-
-var _BrandHpeLabsInsigniaOutline = require('./BrandHpeLabsInsigniaOutline');
-
-Object.defineProperty(exports, 'BrandHpeLabsInsigniaOutline', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_BrandHpeLabsInsigniaOutline).default;
-  }
-});
-
-var _BrandHpeLabsInsignia = require('./BrandHpeLabsInsignia');
-
-Object.defineProperty(exports, 'BrandHpeLabsInsignia', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_BrandHpeLabsInsignia).default;
-  }
-});
-
-var _BrandHpeStackCentered = require('./BrandHpeStackCentered');
-
-Object.defineProperty(exports, 'BrandHpeStackCentered', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_BrandHpeStackCentered).default;
-  }
-});
-
-var _BrandHpeStack = require('./BrandHpeStack');
-
-Object.defineProperty(exports, 'BrandHpeStack', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_BrandHpeStack).default;
+    return _interopRequireDefault(_Braille).default;
   }
 });
 
@@ -587,6 +506,15 @@ Object.defineProperty(exports, 'CarrotDown', {
   }
 });
 
+var _CarrotUp = require('./CarrotUp');
+
+Object.defineProperty(exports, 'CarrotUp', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_CarrotUp).default;
+  }
+});
+
 var _Cart = require('./Cart');
 
 Object.defineProperty(exports, 'Cart', {
@@ -611,6 +539,15 @@ Object.defineProperty(exports, 'Catalog', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Catalog).default;
+  }
+});
+
+var _Centos = require('./Centos');
+
+Object.defineProperty(exports, 'Centos', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Centos).default;
   }
 });
 
@@ -650,6 +587,15 @@ Object.defineProperty(exports, 'ChapterPrevious', {
   }
 });
 
+var _ChatOption = require('./ChatOption');
+
+Object.defineProperty(exports, 'ChatOption', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_ChatOption).default;
+  }
+});
+
 var _Chat = require('./Chat');
 
 Object.defineProperty(exports, 'Chat', {
@@ -674,6 +620,24 @@ Object.defineProperty(exports, 'Checkbox', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Checkbox).default;
+  }
+});
+
+var _Checkmark = require('./Checkmark');
+
+Object.defineProperty(exports, 'Checkmark', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Checkmark).default;
+  }
+});
+
+var _Chrome = require('./Chrome');
+
+Object.defineProperty(exports, 'Chrome', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Chrome).default;
   }
 });
 
@@ -758,6 +722,15 @@ Object.defineProperty(exports, 'Clone', {
   }
 });
 
+var _Close = require('./Close');
+
+Object.defineProperty(exports, 'Close', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Close).default;
+  }
+});
+
 var _ClosedCaption = require('./ClosedCaption');
 
 Object.defineProperty(exports, 'ClosedCaption', {
@@ -812,6 +785,15 @@ Object.defineProperty(exports, 'Cloud', {
   }
 });
 
+var _Cloudlinux = require('./Cloudlinux');
+
+Object.defineProperty(exports, 'Cloudlinux', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Cloudlinux).default;
+  }
+});
+
 var _Cluster = require('./Cluster');
 
 Object.defineProperty(exports, 'Cluster', {
@@ -836,6 +818,33 @@ Object.defineProperty(exports, 'Code', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Code).default;
+  }
+});
+
+var _CodepenEdit = require('./CodepenEdit');
+
+Object.defineProperty(exports, 'CodepenEdit', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_CodepenEdit).default;
+  }
+});
+
+var _CodepenTry = require('./CodepenTry');
+
+Object.defineProperty(exports, 'CodepenTry', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_CodepenTry).default;
+  }
+});
+
+var _Codepen = require('./Codepen');
+
+Object.defineProperty(exports, 'Codepen', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Codepen).default;
   }
 });
 
@@ -875,6 +884,15 @@ Object.defineProperty(exports, 'Compliance', {
   }
 });
 
+var _Configure = require('./Configure');
+
+Object.defineProperty(exports, 'Configure', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Configure).default;
+  }
+});
+
 var _Connect = require('./Connect');
 
 Object.defineProperty(exports, 'Connect', {
@@ -884,12 +902,30 @@ Object.defineProperty(exports, 'Connect', {
   }
 });
 
+var _Connectivity = require('./Connectivity');
+
+Object.defineProperty(exports, 'Connectivity', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Connectivity).default;
+  }
+});
+
 var _ContactInfo = require('./ContactInfo');
 
 Object.defineProperty(exports, 'ContactInfo', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_ContactInfo).default;
+  }
+});
+
+var _Contact = require('./Contact');
+
+Object.defineProperty(exports, 'Contact', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Contact).default;
   }
 });
 
@@ -911,165 +947,12 @@ Object.defineProperty(exports, 'Copy', {
   }
 });
 
-var _CoreAdd = require('./CoreAdd');
+var _CreativeCommons = require('./CreativeCommons');
 
-Object.defineProperty(exports, 'CoreAdd', {
+Object.defineProperty(exports, 'CreativeCommons', {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_CoreAdd).default;
-  }
-});
-
-var _CoreChat = require('./CoreChat');
-
-Object.defineProperty(exports, 'CoreChat', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreChat).default;
-  }
-});
-
-var _CoreCheckmark = require('./CoreCheckmark');
-
-Object.defineProperty(exports, 'CoreCheckmark', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreCheckmark).default;
-  }
-});
-
-var _CoreClose = require('./CoreClose');
-
-Object.defineProperty(exports, 'CoreClose', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreClose).default;
-  }
-});
-
-var _CoreConfigure = require('./CoreConfigure');
-
-Object.defineProperty(exports, 'CoreConfigure', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreConfigure).default;
-  }
-});
-
-var _CoreContact = require('./CoreContact');
-
-Object.defineProperty(exports, 'CoreContact', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreContact).default;
-  }
-});
-
-var _CoreDocument = require('./CoreDocument');
-
-Object.defineProperty(exports, 'CoreDocument', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreDocument).default;
-  }
-});
-
-var _CoreEdit = require('./CoreEdit');
-
-Object.defineProperty(exports, 'CoreEdit', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreEdit).default;
-  }
-});
-
-var _CoreFilter = require('./CoreFilter');
-
-Object.defineProperty(exports, 'CoreFilter', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreFilter).default;
-  }
-});
-
-var _CoreFlag = require('./CoreFlag');
-
-Object.defineProperty(exports, 'CoreFlag', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreFlag).default;
-  }
-});
-
-var _CoreMore = require('./CoreMore');
-
-Object.defineProperty(exports, 'CoreMore', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreMore).default;
-  }
-});
-
-var _CoreNextLink = require('./CoreNextLink');
-
-Object.defineProperty(exports, 'CoreNextLink', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreNextLink).default;
-  }
-});
-
-var _CoreNext = require('./CoreNext');
-
-Object.defineProperty(exports, 'CoreNext', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreNext).default;
-  }
-});
-
-var _CoreNotification = require('./CoreNotification');
-
-Object.defineProperty(exports, 'CoreNotification', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreNotification).default;
-  }
-});
-
-var _CoreRefresh = require('./CoreRefresh');
-
-Object.defineProperty(exports, 'CoreRefresh', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreRefresh).default;
-  }
-});
-
-var _CoreSearch = require('./CoreSearch');
-
-Object.defineProperty(exports, 'CoreSearch', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreSearch).default;
-  }
-});
-
-var _CoreShare = require('./CoreShare');
-
-Object.defineProperty(exports, 'CoreShare', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreShare).default;
-  }
-});
-
-var _CoreTrash = require('./CoreTrash');
-
-Object.defineProperty(exports, 'CoreTrash', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CoreTrash).default;
+    return _interopRequireDefault(_CreativeCommons).default;
   }
 });
 
@@ -1079,6 +962,15 @@ Object.defineProperty(exports, 'CreditCard', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_CreditCard).default;
+  }
+});
+
+var _Css = require('./Css3');
+
+Object.defineProperty(exports, 'Css3', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Css).default;
   }
 });
 
@@ -1154,6 +1046,15 @@ Object.defineProperty(exports, 'Database', {
   }
 });
 
+var _Debian = require('./Debian');
+
+Object.defineProperty(exports, 'Debian', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Debian).default;
+  }
+});
+
 var _Deliver = require('./Deliver');
 
 Object.defineProperty(exports, 'Deliver', {
@@ -1199,6 +1100,15 @@ Object.defineProperty(exports, 'Detach', {
   }
 });
 
+var _Device = require('./Device');
+
+Object.defineProperty(exports, 'Device', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Device).default;
+  }
+});
+
 var _Diamond = require('./Diamond');
 
 Object.defineProperty(exports, 'Diamond', {
@@ -1223,6 +1133,15 @@ Object.defineProperty(exports, 'Dislike', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Dislike).default;
+  }
+});
+
+var _Docker = require('./Docker');
+
+Object.defineProperty(exports, 'Docker', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Docker).default;
   }
 });
 
@@ -1496,12 +1415,30 @@ Object.defineProperty(exports, 'DocumentZip', {
   }
 });
 
+var _Document = require('./Document');
+
+Object.defineProperty(exports, 'Document', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Document).default;
+  }
+});
+
 var _Domain = require('./Domain');
 
 Object.defineProperty(exports, 'Domain', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Domain).default;
+  }
+});
+
+var _Dos = require('./Dos');
+
+Object.defineProperty(exports, 'Dos', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Dos).default;
   }
 });
 
@@ -1541,12 +1478,48 @@ Object.defineProperty(exports, 'DriveCage', {
   }
 });
 
+var _Dropbox = require('./Dropbox');
+
+Object.defineProperty(exports, 'Dropbox', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Dropbox).default;
+  }
+});
+
 var _Duplicate = require('./Duplicate');
 
 Object.defineProperty(exports, 'Duplicate', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Duplicate).default;
+  }
+});
+
+var _Dxc = require('./Dxc');
+
+Object.defineProperty(exports, 'Dxc', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Dxc).default;
+  }
+});
+
+var _Edge = require('./Edge');
+
+Object.defineProperty(exports, 'Edge', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Edge).default;
+  }
+});
+
+var _Edit = require('./Edit');
+
+Object.defineProperty(exports, 'Edit', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Edit).default;
   }
 });
 
@@ -1613,6 +1586,24 @@ Object.defineProperty(exports, 'Expand', {
   }
 });
 
+var _FacebookOption = require('./FacebookOption');
+
+Object.defineProperty(exports, 'FacebookOption', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_FacebookOption).default;
+  }
+});
+
+var _Facebook = require('./Facebook');
+
+Object.defineProperty(exports, 'Facebook', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Facebook).default;
+  }
+});
+
 var _Fan = require('./Fan');
 
 Object.defineProperty(exports, 'Fan', {
@@ -1640,12 +1631,57 @@ Object.defineProperty(exports, 'Favorite', {
   }
 });
 
+var _Fedora = require('./Fedora');
+
+Object.defineProperty(exports, 'Fedora', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Fedora).default;
+  }
+});
+
+var _Filter = require('./Filter');
+
+Object.defineProperty(exports, 'Filter', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Filter).default;
+  }
+});
+
 var _FingerPrint = require('./FingerPrint');
 
 Object.defineProperty(exports, 'FingerPrint', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_FingerPrint).default;
+  }
+});
+
+var _Fireball = require('./Fireball');
+
+Object.defineProperty(exports, 'Fireball', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Fireball).default;
+  }
+});
+
+var _Firefox = require('./Firefox');
+
+Object.defineProperty(exports, 'Firefox', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Firefox).default;
+  }
+});
+
+var _Flag = require('./Flag');
+
+Object.defineProperty(exports, 'Flag', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Flag).default;
   }
 });
 
@@ -1919,6 +1955,15 @@ Object.defineProperty(exports, 'ForwardTen', {
   }
 });
 
+var _Freebsd = require('./Freebsd');
+
+Object.defineProperty(exports, 'Freebsd', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Freebsd).default;
+  }
+});
+
 var _Gallery = require('./Gallery');
 
 Object.defineProperty(exports, 'Gallery', {
@@ -1946,12 +1991,66 @@ Object.defineProperty(exports, 'Gift', {
   }
 });
 
+var _Github = require('./Github');
+
+Object.defineProperty(exports, 'Github', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Github).default;
+  }
+});
+
 var _Globe = require('./Globe');
 
 Object.defineProperty(exports, 'Globe', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Globe).default;
+  }
+});
+
+var _Golang = require('./Golang');
+
+Object.defineProperty(exports, 'Golang', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Golang).default;
+  }
+});
+
+var _GooglePlay = require('./GooglePlay');
+
+Object.defineProperty(exports, 'GooglePlay', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_GooglePlay).default;
+  }
+});
+
+var _GooglePlus = require('./GooglePlus');
+
+Object.defineProperty(exports, 'GooglePlus', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_GooglePlus).default;
+  }
+});
+
+var _GoogleWallet = require('./GoogleWallet');
+
+Object.defineProperty(exports, 'GoogleWallet', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_GoogleWallet).default;
+  }
+});
+
+var _Google = require('./Google');
+
+Object.defineProperty(exports, 'Google', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Google).default;
   }
 });
 
@@ -1973,6 +2072,24 @@ Object.defineProperty(exports, 'Grid', {
   }
 });
 
+var _GrommetOutline = require('./GrommetOutline');
+
+Object.defineProperty(exports, 'GrommetOutline', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_GrommetOutline).default;
+  }
+});
+
+var _Grommet = require('./Grommet');
+
+Object.defineProperty(exports, 'Grommet', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Grommet).default;
+  }
+});
+
 var _Group = require('./Group');
 
 Object.defineProperty(exports, 'Group', {
@@ -1988,6 +2105,15 @@ Object.defineProperty(exports, 'Grow', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Grow).default;
+  }
+});
+
+var _Hadoop = require('./Hadoop');
+
+Object.defineProperty(exports, 'Hadoop', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Hadoop).default;
   }
 });
 
@@ -2009,6 +2135,15 @@ Object.defineProperty(exports, 'Help', {
   }
 });
 
+var _Heroku = require('./Heroku');
+
+Object.defineProperty(exports, 'Heroku', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Heroku).default;
+  }
+});
+
 var _History = require('./History');
 
 Object.defineProperty(exports, 'History', {
@@ -2027,6 +2162,15 @@ Object.defineProperty(exports, 'Home', {
   }
 });
 
+var _Horton = require('./Horton');
+
+Object.defineProperty(exports, 'Horton', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Horton).default;
+  }
+});
+
 var _HostMaintenance = require('./HostMaintenance');
 
 Object.defineProperty(exports, 'HostMaintenance', {
@@ -2042,6 +2186,87 @@ Object.defineProperty(exports, 'Host', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Host).default;
+  }
+});
+
+var _Hp = require('./Hp');
+
+Object.defineProperty(exports, 'Hp', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Hp).default;
+  }
+});
+
+var _HpeElementOutline = require('./HpeElementOutline');
+
+Object.defineProperty(exports, 'HpeElementOutline', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_HpeElementOutline).default;
+  }
+});
+
+var _HpeElement = require('./HpeElement');
+
+Object.defineProperty(exports, 'HpeElement', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_HpeElement).default;
+  }
+});
+
+var _HpeLabsInsigniaOutline = require('./HpeLabsInsigniaOutline');
+
+Object.defineProperty(exports, 'HpeLabsInsigniaOutline', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_HpeLabsInsigniaOutline).default;
+  }
+});
+
+var _HpeLabsInsignia = require('./HpeLabsInsignia');
+
+Object.defineProperty(exports, 'HpeLabsInsignia', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_HpeLabsInsignia).default;
+  }
+});
+
+var _HpeStackCentered = require('./HpeStackCentered');
+
+Object.defineProperty(exports, 'HpeStackCentered', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_HpeStackCentered).default;
+  }
+});
+
+var _HpeStack = require('./HpeStack');
+
+Object.defineProperty(exports, 'HpeStack', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_HpeStack).default;
+  }
+});
+
+var _Hpi = require('./Hpi');
+
+Object.defineProperty(exports, 'Hpi', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Hpi).default;
+  }
+});
+
+var _Html = require('./Html5');
+
+Object.defineProperty(exports, 'Html5', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Html).default;
   }
 });
 
@@ -2126,6 +2351,15 @@ Object.defineProperty(exports, 'Inspect', {
   }
 });
 
+var _Instagram = require('./Instagram');
+
+Object.defineProperty(exports, 'Instagram', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Instagram).default;
+  }
+});
+
 var _InstallOption = require('./InstallOption');
 
 Object.defineProperty(exports, 'InstallOption', {
@@ -2150,6 +2384,15 @@ Object.defineProperty(exports, 'Integration', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Integration).default;
+  }
+});
+
+var _InternetExplorer = require('./InternetExplorer');
+
+Object.defineProperty(exports, 'InternetExplorer', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_InternetExplorer).default;
   }
 });
 
@@ -2243,6 +2486,24 @@ Object.defineProperty(exports, 'LinkDown', {
   }
 });
 
+var _LinkNext = require('./LinkNext');
+
+Object.defineProperty(exports, 'LinkNext', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_LinkNext).default;
+  }
+});
+
+var _LinkPrevious = require('./LinkPrevious');
+
+Object.defineProperty(exports, 'LinkPrevious', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_LinkPrevious).default;
+  }
+});
+
 var _LinkTop = require('./LinkTop');
 
 Object.defineProperty(exports, 'LinkTop', {
@@ -2267,6 +2528,24 @@ Object.defineProperty(exports, 'Link', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Link).default;
+  }
+});
+
+var _LinkedinOption = require('./LinkedinOption');
+
+Object.defineProperty(exports, 'LinkedinOption', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_LinkedinOption).default;
+  }
+});
+
+var _Linkedin = require('./Linkedin');
+
+Object.defineProperty(exports, 'Linkedin', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Linkedin).default;
   }
 });
 
@@ -2360,6 +2639,15 @@ Object.defineProperty(exports, 'Mail', {
   }
 });
 
+var _Mandriva = require('./Mandriva');
+
+Object.defineProperty(exports, 'Mandriva', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Mandriva).default;
+  }
+});
+
 var _Manual = require('./Manual');
 
 Object.defineProperty(exports, 'Manual', {
@@ -2387,12 +2675,39 @@ Object.defineProperty(exports, 'Map', {
   }
 });
 
+var _Mastercard = require('./Mastercard');
+
+Object.defineProperty(exports, 'Mastercard', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Mastercard).default;
+  }
+});
+
+var _Medium = require('./Medium');
+
+Object.defineProperty(exports, 'Medium', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Medium).default;
+  }
+});
+
 var _Menu = require('./Menu');
 
 Object.defineProperty(exports, 'Menu', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Menu).default;
+  }
+});
+
+var _Microfocus = require('./Microfocus');
+
+Object.defineProperty(exports, 'Microfocus', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Microfocus).default;
   }
 });
 
@@ -2423,6 +2738,24 @@ Object.defineProperty(exports, 'Monitor', {
   }
 });
 
+var _More = require('./More');
+
+Object.defineProperty(exports, 'More', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_More).default;
+  }
+});
+
+var _Multimedia = require('./Multimedia');
+
+Object.defineProperty(exports, 'Multimedia', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Multimedia).default;
+  }
+});
+
 var _Multiple = require('./Multiple');
 
 Object.defineProperty(exports, 'Multiple', {
@@ -2438,6 +2771,15 @@ Object.defineProperty(exports, 'Music', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Music).default;
+  }
+});
+
+var _Mysql = require('./Mysql');
+
+Object.defineProperty(exports, 'Mysql', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Mysql).default;
   }
 });
 
@@ -2468,12 +2810,30 @@ Object.defineProperty(exports, 'New', {
   }
 });
 
+var _Next = require('./Next');
+
+Object.defineProperty(exports, 'Next', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Next).default;
+  }
+});
+
 var _Nodes = require('./Nodes');
 
 Object.defineProperty(exports, 'Nodes', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Nodes).default;
+  }
+});
+
+var _Norton = require('./Norton');
+
+Object.defineProperty(exports, 'Norton', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Norton).default;
   }
 });
 
@@ -2495,6 +2855,15 @@ Object.defineProperty(exports, 'Notes', {
   }
 });
 
+var _Notification = require('./Notification');
+
+Object.defineProperty(exports, 'Notification', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Notification).default;
+  }
+});
+
 var _ObjectGroup = require('./ObjectGroup');
 
 Object.defineProperty(exports, 'ObjectGroup', {
@@ -2513,12 +2882,48 @@ Object.defineProperty(exports, 'ObjectUngroup', {
   }
 });
 
+var _OfflineStorage = require('./OfflineStorage');
+
+Object.defineProperty(exports, 'OfflineStorage', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_OfflineStorage).default;
+  }
+});
+
+var _Onedrive = require('./Onedrive');
+
+Object.defineProperty(exports, 'Onedrive', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Onedrive).default;
+  }
+});
+
+var _Opera = require('./Opera');
+
+Object.defineProperty(exports, 'Opera', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Opera).default;
+  }
+});
+
 var _Optimize = require('./Optimize');
 
 Object.defineProperty(exports, 'Optimize', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Optimize).default;
+  }
+});
+
+var _Oracle = require('./Oracle');
+
+Object.defineProperty(exports, 'Oracle', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Oracle).default;
   }
 });
 
@@ -2576,6 +2981,24 @@ Object.defineProperty(exports, 'Pause', {
   }
 });
 
+var _Paypal = require('./Paypal');
+
+Object.defineProperty(exports, 'Paypal', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Paypal).default;
+  }
+});
+
+var _Performance = require('./Performance');
+
+Object.defineProperty(exports, 'Performance', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Performance).default;
+  }
+});
+
 var _PersonalComputer = require('./PersonalComputer');
 
 Object.defineProperty(exports, 'PersonalComputer', {
@@ -2594,6 +3017,15 @@ Object.defineProperty(exports, 'PieChart', {
   }
 });
 
+var _PiedPiper = require('./PiedPiper');
+
+Object.defineProperty(exports, 'PiedPiper', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_PiedPiper).default;
+  }
+});
+
 var _Pin = require('./Pin');
 
 Object.defineProperty(exports, 'Pin', {
@@ -2603,444 +3035,21 @@ Object.defineProperty(exports, 'Pin', {
   }
 });
 
+var _Pinterest = require('./Pinterest');
+
+Object.defineProperty(exports, 'Pinterest', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Pinterest).default;
+  }
+});
+
 var _Plan = require('./Plan');
 
 Object.defineProperty(exports, 'Plan', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Plan).default;
-  }
-});
-
-var _PlatformAmazon = require('./PlatformAmazon');
-
-Object.defineProperty(exports, 'PlatformAmazon', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformAmazon).default;
-  }
-});
-
-var _PlatformAndroid = require('./PlatformAndroid');
-
-Object.defineProperty(exports, 'PlatformAndroid', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformAndroid).default;
-  }
-});
-
-var _PlatformApple = require('./PlatformApple');
-
-Object.defineProperty(exports, 'PlatformApple', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformApple).default;
-  }
-});
-
-var _PlatformArchlinux = require('./PlatformArchlinux');
-
-Object.defineProperty(exports, 'PlatformArchlinux', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformArchlinux).default;
-  }
-});
-
-var _PlatformAruba = require('./PlatformAruba');
-
-Object.defineProperty(exports, 'PlatformAruba', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformAruba).default;
-  }
-});
-
-var _PlatformCentos = require('./PlatformCentos');
-
-Object.defineProperty(exports, 'PlatformCentos', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformCentos).default;
-  }
-});
-
-var _PlatformChrome = require('./PlatformChrome');
-
-Object.defineProperty(exports, 'PlatformChrome', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformChrome).default;
-  }
-});
-
-var _PlatformCloudlinux = require('./PlatformCloudlinux');
-
-Object.defineProperty(exports, 'PlatformCloudlinux', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformCloudlinux).default;
-  }
-});
-
-var _PlatformDebian = require('./PlatformDebian');
-
-Object.defineProperty(exports, 'PlatformDebian', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformDebian).default;
-  }
-});
-
-var _PlatformDocker = require('./PlatformDocker');
-
-Object.defineProperty(exports, 'PlatformDocker', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformDocker).default;
-  }
-});
-
-var _PlatformDos = require('./PlatformDos');
-
-Object.defineProperty(exports, 'PlatformDos', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformDos).default;
-  }
-});
-
-var _PlatformDropbox = require('./PlatformDropbox');
-
-Object.defineProperty(exports, 'PlatformDropbox', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformDropbox).default;
-  }
-});
-
-var _PlatformDxc = require('./PlatformDxc');
-
-Object.defineProperty(exports, 'PlatformDxc', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformDxc).default;
-  }
-});
-
-var _PlatformEdge = require('./PlatformEdge');
-
-Object.defineProperty(exports, 'PlatformEdge', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformEdge).default;
-  }
-});
-
-var _PlatformFedora = require('./PlatformFedora');
-
-Object.defineProperty(exports, 'PlatformFedora', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformFedora).default;
-  }
-});
-
-var _PlatformFirefox = require('./PlatformFirefox');
-
-Object.defineProperty(exports, 'PlatformFirefox', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformFirefox).default;
-  }
-});
-
-var _PlatformFreebsd = require('./PlatformFreebsd');
-
-Object.defineProperty(exports, 'PlatformFreebsd', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformFreebsd).default;
-  }
-});
-
-var _PlatformGolang = require('./PlatformGolang');
-
-Object.defineProperty(exports, 'PlatformGolang', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformGolang).default;
-  }
-});
-
-var _PlatformGoogle = require('./PlatformGoogle');
-
-Object.defineProperty(exports, 'PlatformGoogle', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformGoogle).default;
-  }
-});
-
-var _PlatformHadoop = require('./PlatformHadoop');
-
-Object.defineProperty(exports, 'PlatformHadoop', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformHadoop).default;
-  }
-});
-
-var _PlatformHeroku = require('./PlatformHeroku');
-
-Object.defineProperty(exports, 'PlatformHeroku', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformHeroku).default;
-  }
-});
-
-var _PlatformHorton = require('./PlatformHorton');
-
-Object.defineProperty(exports, 'PlatformHorton', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformHorton).default;
-  }
-});
-
-var _PlatformHp = require('./PlatformHp');
-
-Object.defineProperty(exports, 'PlatformHp', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformHp).default;
-  }
-});
-
-var _PlatformHpi = require('./PlatformHpi');
-
-Object.defineProperty(exports, 'PlatformHpi', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformHpi).default;
-  }
-});
-
-var _PlatformInternetExplorer = require('./PlatformInternetExplorer');
-
-Object.defineProperty(exports, 'PlatformInternetExplorer', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformInternetExplorer).default;
-  }
-});
-
-var _PlatformJava = require('./PlatformJava');
-
-Object.defineProperty(exports, 'PlatformJava', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformJava).default;
-  }
-});
-
-var _PlatformMandriva = require('./PlatformMandriva');
-
-Object.defineProperty(exports, 'PlatformMandriva', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformMandriva).default;
-  }
-});
-
-var _PlatformMicrofocus = require('./PlatformMicrofocus');
-
-Object.defineProperty(exports, 'PlatformMicrofocus', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformMicrofocus).default;
-  }
-});
-
-var _PlatformMysql = require('./PlatformMysql');
-
-Object.defineProperty(exports, 'PlatformMysql', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformMysql).default;
-  }
-});
-
-var _PlatformNorton = require('./PlatformNorton');
-
-Object.defineProperty(exports, 'PlatformNorton', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformNorton).default;
-  }
-});
-
-var _PlatformOnedrive = require('./PlatformOnedrive');
-
-Object.defineProperty(exports, 'PlatformOnedrive', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformOnedrive).default;
-  }
-});
-
-var _PlatformOpera = require('./PlatformOpera');
-
-Object.defineProperty(exports, 'PlatformOpera', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformOpera).default;
-  }
-});
-
-var _PlatformOracle = require('./PlatformOracle');
-
-Object.defineProperty(exports, 'PlatformOracle', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformOracle).default;
-  }
-});
-
-var _PlatformPiedPiper = require('./PlatformPiedPiper');
-
-Object.defineProperty(exports, 'PlatformPiedPiper', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformPiedPiper).default;
-  }
-});
-
-var _PlatformRaspberry = require('./PlatformRaspberry');
-
-Object.defineProperty(exports, 'PlatformRaspberry', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformRaspberry).default;
-  }
-});
-
-var _PlatformReactjs = require('./PlatformReactjs');
-
-Object.defineProperty(exports, 'PlatformReactjs', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformReactjs).default;
-  }
-});
-
-var _PlatformRedhat = require('./PlatformRedhat');
-
-Object.defineProperty(exports, 'PlatformRedhat', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformRedhat).default;
-  }
-});
-
-var _PlatformSafariOption = require('./PlatformSafariOption');
-
-Object.defineProperty(exports, 'PlatformSafariOption', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformSafariOption).default;
-  }
-});
-
-var _PlatformSco = require('./PlatformSco');
-
-Object.defineProperty(exports, 'PlatformSco', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformSco).default;
-  }
-});
-
-var _PlatformSolaris = require('./PlatformSolaris');
-
-Object.defineProperty(exports, 'PlatformSolaris', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformSolaris).default;
-  }
-});
-
-var _PlatformSuse = require('./PlatformSuse');
-
-Object.defineProperty(exports, 'PlatformSuse', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformSuse).default;
-  }
-});
-
-var _PlatformSwift = require('./PlatformSwift');
-
-Object.defineProperty(exports, 'PlatformSwift', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformSwift).default;
-  }
-});
-
-var _PlatformTurbolinux = require('./PlatformTurbolinux');
-
-Object.defineProperty(exports, 'PlatformTurbolinux', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformTurbolinux).default;
-  }
-});
-
-var _PlatformUbuntu = require('./PlatformUbuntu');
-
-Object.defineProperty(exports, 'PlatformUbuntu', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformUbuntu).default;
-  }
-});
-
-var _PlatformUnixware = require('./PlatformUnixware');
-
-Object.defineProperty(exports, 'PlatformUnixware', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformUnixware).default;
-  }
-});
-
-var _PlatformVmware = require('./PlatformVmware');
-
-Object.defineProperty(exports, 'PlatformVmware', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformVmware).default;
-  }
-});
-
-var _PlatformWindowsLegacy = require('./PlatformWindowsLegacy');
-
-Object.defineProperty(exports, 'PlatformWindowsLegacy', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformWindowsLegacy).default;
-  }
-});
-
-var _PlatformWindows = require('./PlatformWindows');
-
-Object.defineProperty(exports, 'PlatformWindows', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PlatformWindows).default;
   }
 });
 
@@ -3071,15 +3080,6 @@ Object.defineProperty(exports, 'Power', {
   }
 });
 
-var _PreviousLink = require('./PreviousLink');
-
-Object.defineProperty(exports, 'PreviousLink', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_PreviousLink).default;
-  }
-});
-
 var _Previous = require('./Previous');
 
 Object.defineProperty(exports, 'Previous', {
@@ -3098,6 +3098,15 @@ Object.defineProperty(exports, 'Print', {
   }
 });
 
+var _ProductHunt = require('./ProductHunt');
+
+Object.defineProperty(exports, 'ProductHunt', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_ProductHunt).default;
+  }
+});
+
 var _RadialSelected = require('./RadialSelected');
 
 Object.defineProperty(exports, 'RadialSelected', {
@@ -3113,6 +3122,51 @@ Object.defineProperty(exports, 'Radial', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Radial).default;
+  }
+});
+
+var _Raspberry = require('./Raspberry');
+
+Object.defineProperty(exports, 'Raspberry', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Raspberry).default;
+  }
+});
+
+var _Reactjs = require('./Reactjs');
+
+Object.defineProperty(exports, 'Reactjs', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Reactjs).default;
+  }
+});
+
+var _Reddit = require('./Reddit');
+
+Object.defineProperty(exports, 'Reddit', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Reddit).default;
+  }
+});
+
+var _Redhat = require('./Redhat');
+
+Object.defineProperty(exports, 'Redhat', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Redhat).default;
+  }
+});
+
+var _Refresh = require('./Refresh');
+
+Object.defineProperty(exports, 'Refresh', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Refresh).default;
   }
 });
 
@@ -3224,6 +3278,15 @@ Object.defineProperty(exports, 'Run', {
   }
 });
 
+var _SafariOption = require('./SafariOption');
+
+Object.defineProperty(exports, 'SafariOption', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_SafariOption).default;
+  }
+});
+
 var _Satellite = require('./Satellite');
 
 Object.defineProperty(exports, 'Satellite', {
@@ -3287,6 +3350,15 @@ Object.defineProperty(exports, 'Schedules', {
   }
 });
 
+var _Sco = require('./Sco');
+
+Object.defineProperty(exports, 'Sco', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Sco).default;
+  }
+});
+
 var _Scorecard = require('./Scorecard');
 
 Object.defineProperty(exports, 'Scorecard', {
@@ -3302,6 +3374,15 @@ Object.defineProperty(exports, 'SearchAdvanced', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_SearchAdvanced).default;
+  }
+});
+
+var _Search = require('./Search');
+
+Object.defineProperty(exports, 'Search', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Search).default;
   }
 });
 
@@ -3329,6 +3410,15 @@ Object.defineProperty(exports, 'Selection', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Selection).default;
+  }
+});
+
+var _Sematics = require('./Sematics');
+
+Object.defineProperty(exports, 'Sematics', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Sematics).default;
   }
 });
 
@@ -3404,6 +3494,15 @@ Object.defineProperty(exports, 'ShareOption', {
   }
 });
 
+var _Share = require('./Share');
+
+Object.defineProperty(exports, 'Share', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Share).default;
+  }
+});
+
 var _ShieldSecurity = require('./ShieldSecurity');
 
 Object.defineProperty(exports, 'ShieldSecurity', {
@@ -3449,300 +3548,48 @@ Object.defineProperty(exports, 'Sidebar', {
   }
 });
 
-var _SocialAmazon = require('./SocialAmazon');
+var _Sign = require('./Sign');
 
-Object.defineProperty(exports, 'SocialAmazon', {
+Object.defineProperty(exports, 'Sign', {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_SocialAmazon).default;
+    return _interopRequireDefault(_Sign).default;
   }
 });
 
-var _SocialAmex = require('./SocialAmex');
+var _Skype = require('./Skype');
 
-Object.defineProperty(exports, 'SocialAmex', {
+Object.defineProperty(exports, 'Skype', {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_SocialAmex).default;
+    return _interopRequireDefault(_Skype).default;
   }
 });
 
-var _SocialBitcoin = require('./SocialBitcoin');
+var _Slack = require('./Slack');
 
-Object.defineProperty(exports, 'SocialBitcoin', {
+Object.defineProperty(exports, 'Slack', {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_SocialBitcoin).default;
+    return _interopRequireDefault(_Slack).default;
   }
 });
 
-var _SocialCodepen = require('./SocialCodepen');
+var _Snapchat = require('./Snapchat');
 
-Object.defineProperty(exports, 'SocialCodepen', {
+Object.defineProperty(exports, 'Snapchat', {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_SocialCodepen).default;
+    return _interopRequireDefault(_Snapchat).default;
   }
 });
 
-var _SocialCreativeCommons = require('./SocialCreativeCommons');
+var _Solaris = require('./Solaris');
 
-Object.defineProperty(exports, 'SocialCreativeCommons', {
+Object.defineProperty(exports, 'Solaris', {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_SocialCreativeCommons).default;
-  }
-});
-
-var _SocialDropbox = require('./SocialDropbox');
-
-Object.defineProperty(exports, 'SocialDropbox', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialDropbox).default;
-  }
-});
-
-var _SocialFacebookOption = require('./SocialFacebookOption');
-
-Object.defineProperty(exports, 'SocialFacebookOption', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialFacebookOption).default;
-  }
-});
-
-var _SocialFacebook = require('./SocialFacebook');
-
-Object.defineProperty(exports, 'SocialFacebook', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialFacebook).default;
-  }
-});
-
-var _SocialGithub = require('./SocialGithub');
-
-Object.defineProperty(exports, 'SocialGithub', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialGithub).default;
-  }
-});
-
-var _SocialGooglePlus = require('./SocialGooglePlus');
-
-Object.defineProperty(exports, 'SocialGooglePlus', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialGooglePlus).default;
-  }
-});
-
-var _SocialGoogleWallet = require('./SocialGoogleWallet');
-
-Object.defineProperty(exports, 'SocialGoogleWallet', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialGoogleWallet).default;
-  }
-});
-
-var _SocialInstagram = require('./SocialInstagram');
-
-Object.defineProperty(exports, 'SocialInstagram', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialInstagram).default;
-  }
-});
-
-var _SocialLinkedinOption = require('./SocialLinkedinOption');
-
-Object.defineProperty(exports, 'SocialLinkedinOption', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialLinkedinOption).default;
-  }
-});
-
-var _SocialLinkedin = require('./SocialLinkedin');
-
-Object.defineProperty(exports, 'SocialLinkedin', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialLinkedin).default;
-  }
-});
-
-var _SocialMail = require('./SocialMail');
-
-Object.defineProperty(exports, 'SocialMail', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialMail).default;
-  }
-});
-
-var _SocialMastercard = require('./SocialMastercard');
-
-Object.defineProperty(exports, 'SocialMastercard', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialMastercard).default;
-  }
-});
-
-var _SocialMedium = require('./SocialMedium');
-
-Object.defineProperty(exports, 'SocialMedium', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialMedium).default;
-  }
-});
-
-var _SocialPaypal = require('./SocialPaypal');
-
-Object.defineProperty(exports, 'SocialPaypal', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialPaypal).default;
-  }
-});
-
-var _SocialPinterest = require('./SocialPinterest');
-
-Object.defineProperty(exports, 'SocialPinterest', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialPinterest).default;
-  }
-});
-
-var _SocialProductHunt = require('./SocialProductHunt');
-
-Object.defineProperty(exports, 'SocialProductHunt', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialProductHunt).default;
-  }
-});
-
-var _SocialReddit = require('./SocialReddit');
-
-Object.defineProperty(exports, 'SocialReddit', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialReddit).default;
-  }
-});
-
-var _SocialSkype = require('./SocialSkype');
-
-Object.defineProperty(exports, 'SocialSkype', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialSkype).default;
-  }
-});
-
-var _SocialSlack = require('./SocialSlack');
-
-Object.defineProperty(exports, 'SocialSlack', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialSlack).default;
-  }
-});
-
-var _SocialSnapchat = require('./SocialSnapchat');
-
-Object.defineProperty(exports, 'SocialSnapchat', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialSnapchat).default;
-  }
-});
-
-var _SocialSquare = require('./SocialSquare');
-
-Object.defineProperty(exports, 'SocialSquare', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialSquare).default;
-  }
-});
-
-var _SocialStackOverflow = require('./SocialStackOverflow');
-
-Object.defineProperty(exports, 'SocialStackOverflow', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialStackOverflow).default;
-  }
-});
-
-var _SocialStripe = require('./SocialStripe');
-
-Object.defineProperty(exports, 'SocialStripe', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialStripe).default;
-  }
-});
-
-var _SocialTumblr = require('./SocialTumblr');
-
-Object.defineProperty(exports, 'SocialTumblr', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialTumblr).default;
-  }
-});
-
-var _SocialTwitter = require('./SocialTwitter');
-
-Object.defineProperty(exports, 'SocialTwitter', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialTwitter).default;
-  }
-});
-
-var _SocialVimeo = require('./SocialVimeo');
-
-Object.defineProperty(exports, 'SocialVimeo', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialVimeo).default;
-  }
-});
-
-var _SocialVisa = require('./SocialVisa');
-
-Object.defineProperty(exports, 'SocialVisa', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialVisa).default;
-  }
-});
-
-var _SocialWordpress = require('./SocialWordpress');
-
-Object.defineProperty(exports, 'SocialWordpress', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialWordpress).default;
-  }
-});
-
-var _SocialYoutube = require('./SocialYoutube');
-
-Object.defineProperty(exports, 'SocialYoutube', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_SocialYoutube).default;
+    return _interopRequireDefault(_Solaris).default;
   }
 });
 
@@ -3782,102 +3629,30 @@ Object.defineProperty(exports, 'Splits', {
   }
 });
 
+var _Square = require('./Square');
+
+Object.defineProperty(exports, 'Square', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Square).default;
+  }
+});
+
+var _StackOverflow = require('./StackOverflow');
+
+Object.defineProperty(exports, 'StackOverflow', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_StackOverflow).default;
+  }
+});
+
 var _Stakeholder = require('./Stakeholder');
 
 Object.defineProperty(exports, 'Stakeholder', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Stakeholder).default;
-  }
-});
-
-var _Standards3dEffects = require('./Standards3dEffects');
-
-Object.defineProperty(exports, 'Standards3dEffects', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Standards3dEffects).default;
-  }
-});
-
-var _StandardsConnectivity = require('./StandardsConnectivity');
-
-Object.defineProperty(exports, 'StandardsConnectivity', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StandardsConnectivity).default;
-  }
-});
-
-var _StandardsCss = require('./StandardsCss3');
-
-Object.defineProperty(exports, 'StandardsCss3', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StandardsCss).default;
-  }
-});
-
-var _StandardsDevice = require('./StandardsDevice');
-
-Object.defineProperty(exports, 'StandardsDevice', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StandardsDevice).default;
-  }
-});
-
-var _StandardsFireball = require('./StandardsFireball');
-
-Object.defineProperty(exports, 'StandardsFireball', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StandardsFireball).default;
-  }
-});
-
-var _StandardsHtml = require('./StandardsHtml5');
-
-Object.defineProperty(exports, 'StandardsHtml5', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StandardsHtml).default;
-  }
-});
-
-var _StandardsMultimedia = require('./StandardsMultimedia');
-
-Object.defineProperty(exports, 'StandardsMultimedia', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StandardsMultimedia).default;
-  }
-});
-
-var _StandardsOfflineStorage = require('./StandardsOfflineStorage');
-
-Object.defineProperty(exports, 'StandardsOfflineStorage', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StandardsOfflineStorage).default;
-  }
-});
-
-var _StandardsPerformance = require('./StandardsPerformance');
-
-Object.defineProperty(exports, 'StandardsPerformance', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StandardsPerformance).default;
-  }
-});
-
-var _StandardsSematics = require('./StandardsSematics');
-
-Object.defineProperty(exports, 'StandardsSematics', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StandardsSematics).default;
   }
 });
 
@@ -3899,6 +3674,15 @@ Object.defineProperty(exports, 'Star', {
   }
 });
 
+var _StatusCriticalOutline = require('./StatusCriticalOutline');
+
+Object.defineProperty(exports, 'StatusCriticalOutline', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_StatusCriticalOutline).default;
+  }
+});
+
 var _StatusCriticalSmall = require('./StatusCriticalSmall');
 
 Object.defineProperty(exports, 'StatusCriticalSmall', {
@@ -3914,6 +3698,15 @@ Object.defineProperty(exports, 'StatusCritical', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_StatusCritical).default;
+  }
+});
+
+var _StatusDisabledOutline = require('./StatusDisabledOutline');
+
+Object.defineProperty(exports, 'StatusDisabledOutline', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_StatusDisabledOutline).default;
   }
 });
 
@@ -3935,6 +3728,15 @@ Object.defineProperty(exports, 'StatusDisabled', {
   }
 });
 
+var _StatusGoodOutline = require('./StatusGoodOutline');
+
+Object.defineProperty(exports, 'StatusGoodOutline', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_StatusGoodOutline).default;
+  }
+});
+
 var _StatusGoodSmall = require('./StatusGoodSmall');
 
 Object.defineProperty(exports, 'StatusGoodSmall', {
@@ -3950,6 +3752,15 @@ Object.defineProperty(exports, 'StatusGood', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_StatusGood).default;
+  }
+});
+
+var _StatusInfoOutline = require('./StatusInfoOutline');
+
+Object.defineProperty(exports, 'StatusInfoOutline', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_StatusInfoOutline).default;
   }
 });
 
@@ -3971,66 +3782,12 @@ Object.defineProperty(exports, 'StatusInfo', {
   }
 });
 
-var _StatusOutlineCritical = require('./StatusOutlineCritical');
+var _StatusPlaceholderOutline = require('./StatusPlaceholderOutline');
 
-Object.defineProperty(exports, 'StatusOutlineCritical', {
+Object.defineProperty(exports, 'StatusPlaceholderOutline', {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_StatusOutlineCritical).default;
-  }
-});
-
-var _StatusOutlineDisabled = require('./StatusOutlineDisabled');
-
-Object.defineProperty(exports, 'StatusOutlineDisabled', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StatusOutlineDisabled).default;
-  }
-});
-
-var _StatusOutlineGood = require('./StatusOutlineGood');
-
-Object.defineProperty(exports, 'StatusOutlineGood', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StatusOutlineGood).default;
-  }
-});
-
-var _StatusOutlineInfo = require('./StatusOutlineInfo');
-
-Object.defineProperty(exports, 'StatusOutlineInfo', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StatusOutlineInfo).default;
-  }
-});
-
-var _StatusOutlinePlaceholder = require('./StatusOutlinePlaceholder');
-
-Object.defineProperty(exports, 'StatusOutlinePlaceholder', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StatusOutlinePlaceholder).default;
-  }
-});
-
-var _StatusOutlineUnknown = require('./StatusOutlineUnknown');
-
-Object.defineProperty(exports, 'StatusOutlineUnknown', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StatusOutlineUnknown).default;
-  }
-});
-
-var _StatusOutlineWarning = require('./StatusOutlineWarning');
-
-Object.defineProperty(exports, 'StatusOutlineWarning', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_StatusOutlineWarning).default;
+    return _interopRequireDefault(_StatusPlaceholderOutline).default;
   }
 });
 
@@ -4052,6 +3809,15 @@ Object.defineProperty(exports, 'StatusPlaceholder', {
   }
 });
 
+var _StatusUnknownOutline = require('./StatusUnknownOutline');
+
+Object.defineProperty(exports, 'StatusUnknownOutline', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_StatusUnknownOutline).default;
+  }
+});
+
 var _StatusUnknownSmall = require('./StatusUnknownSmall');
 
 Object.defineProperty(exports, 'StatusUnknownSmall', {
@@ -4067,6 +3833,15 @@ Object.defineProperty(exports, 'StatusUnknown', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_StatusUnknown).default;
+  }
+});
+
+var _StatusWarningOutline = require('./StatusWarningOutline');
+
+Object.defineProperty(exports, 'StatusWarningOutline', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_StatusWarningOutline).default;
   }
 });
 
@@ -4142,6 +3917,15 @@ Object.defineProperty(exports, 'StreetView', {
   }
 });
 
+var _Stripe = require('./Stripe');
+
+Object.defineProperty(exports, 'Stripe', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Stripe).default;
+  }
+});
+
 var _SubtractCircle = require('./SubtractCircle');
 
 Object.defineProperty(exports, 'SubtractCircle', {
@@ -4166,6 +3950,24 @@ Object.defineProperty(exports, 'Support', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Support).default;
+  }
+});
+
+var _Suse = require('./Suse');
+
+Object.defineProperty(exports, 'Suse', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Suse).default;
+  }
+});
+
+var _Swift = require('./Swift');
+
+Object.defineProperty(exports, 'Swift', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Swift).default;
   }
 });
 
@@ -4220,6 +4022,15 @@ Object.defineProperty(exports, 'Tag', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Tag).default;
+  }
+});
+
+var _TapeOption = require('./TapeOption');
+
+Object.defineProperty(exports, 'TapeOption', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_TapeOption).default;
   }
 });
 
@@ -4322,6 +4133,15 @@ Object.defineProperty(exports, 'Threats', {
   }
 });
 
+var _ThreeDffects = require('./ThreeDffects');
+
+Object.defineProperty(exports, 'ThreeDffects', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_ThreeDffects).default;
+  }
+});
+
 var _ThreeD = require('./ThreeD');
 
 Object.defineProperty(exports, 'ThreeD', {
@@ -4394,6 +4214,15 @@ Object.defineProperty(exports, 'Transaction', {
   }
 });
 
+var _Trash = require('./Trash');
+
+Object.defineProperty(exports, 'Trash', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Trash).default;
+  }
+});
+
 var _TreeOption = require('./TreeOption');
 
 Object.defineProperty(exports, 'TreeOption', {
@@ -4439,6 +4268,60 @@ Object.defineProperty(exports, 'Troubleshoot', {
   }
 });
 
+var _Tty = require('./Tty');
+
+Object.defineProperty(exports, 'Tty', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Tty).default;
+  }
+});
+
+var _Tumblr = require('./Tumblr');
+
+Object.defineProperty(exports, 'Tumblr', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Tumblr).default;
+  }
+});
+
+var _Turbolinux = require('./Turbolinux');
+
+Object.defineProperty(exports, 'Turbolinux', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Turbolinux).default;
+  }
+});
+
+var _Twitter = require('./Twitter');
+
+Object.defineProperty(exports, 'Twitter', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Twitter).default;
+  }
+});
+
+var _Ubuntu = require('./Ubuntu');
+
+Object.defineProperty(exports, 'Ubuntu', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Ubuntu).default;
+  }
+});
+
+var _Unixware = require('./Unixware');
+
+Object.defineProperty(exports, 'Unixware', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Unixware).default;
+  }
+});
+
 var _Unlink = require('./Unlink');
 
 Object.defineProperty(exports, 'Unlink', {
@@ -4454,15 +4337,6 @@ Object.defineProperty(exports, 'Unlock', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Unlock).default;
-  }
-});
-
-var _UpCarrot = require('./UpCarrot');
-
-Object.defineProperty(exports, 'UpCarrot', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_UpCarrot).default;
   }
 });
 
@@ -4583,6 +4457,15 @@ Object.defineProperty(exports, 'UserWorker', {
   }
 });
 
+var _User = require('./User');
+
+Object.defineProperty(exports, 'User', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_User).default;
+  }
+});
+
 var _Validate = require('./Validate');
 
 Object.defineProperty(exports, 'Validate', {
@@ -4619,6 +4502,15 @@ Object.defineProperty(exports, 'View', {
   }
 });
 
+var _Vimeo = require('./Vimeo');
+
+Object.defineProperty(exports, 'Vimeo', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Vimeo).default;
+  }
+});
+
 var _VirtualMachine = require('./VirtualMachine');
 
 Object.defineProperty(exports, 'VirtualMachine', {
@@ -4628,12 +4520,39 @@ Object.defineProperty(exports, 'VirtualMachine', {
   }
 });
 
+var _Visa = require('./Visa');
+
+Object.defineProperty(exports, 'Visa', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Visa).default;
+  }
+});
+
 var _VmMaintenance = require('./VmMaintenance');
 
 Object.defineProperty(exports, 'VmMaintenance', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_VmMaintenance).default;
+  }
+});
+
+var _Vmware = require('./Vmware');
+
+Object.defineProperty(exports, 'Vmware', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Vmware).default;
+  }
+});
+
+var _VolumeControl = require('./VolumeControl');
+
+Object.defineProperty(exports, 'VolumeControl', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_VolumeControl).default;
   }
 });
 
@@ -4682,6 +4601,51 @@ Object.defineProperty(exports, 'Waypoint', {
   }
 });
 
+var _WheelchairActive = require('./WheelchairActive');
+
+Object.defineProperty(exports, 'WheelchairActive', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_WheelchairActive).default;
+  }
+});
+
+var _Wheelchair = require('./Wheelchair');
+
+Object.defineProperty(exports, 'Wheelchair', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Wheelchair).default;
+  }
+});
+
+var _WindowsLegacy = require('./WindowsLegacy');
+
+Object.defineProperty(exports, 'WindowsLegacy', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_WindowsLegacy).default;
+  }
+});
+
+var _Windows = require('./Windows');
+
+Object.defineProperty(exports, 'Windows', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Windows).default;
+  }
+});
+
+var _Wordpress = require('./Wordpress');
+
+Object.defineProperty(exports, 'Wordpress', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Wordpress).default;
+  }
+});
+
 var _Workshop = require('./Workshop');
 
 Object.defineProperty(exports, 'Workshop', {
@@ -4697,6 +4661,15 @@ Object.defineProperty(exports, 'Yoga', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Yoga).default;
+  }
+});
+
+var _Youtube = require('./Youtube');
+
+Object.defineProperty(exports, 'Youtube', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Youtube).default;
   }
 });
 

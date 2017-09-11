@@ -18,15 +18,7 @@ var Up = function Up(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Up' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        _react2.default.createElement('polyline', { transform: 'translate(12.085739, 11.173763) scale(-1, -1) rotate(91.000000) translate(-12.085739, -11.173763) ', points: '7.08573898 1.17376254 17.085739 11.1737625 7.08573898 21.1737625' })
-      )
-    )
+    _react2.default.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '7.086 1.174 17.086 11.174 7.086 21.174', transform: 'rotate(-89 12.086 11.174)' })
   );
 };
 

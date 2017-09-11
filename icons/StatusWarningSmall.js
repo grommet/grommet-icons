@@ -18,15 +18,7 @@ var StatusWarningSmall = function StatusWarningSmall(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'StatusWarningSmall' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd', strokeLinejoin: 'round' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', fill: '#000000' },
-        _react2.default.createElement('polygon', { points: '6 1 11 10 1 10' })
-      )
-    )
+    _react2.default.createElement('polygon', { fillRule: 'evenodd', stroke: '#000', strokeLinejoin: 'round', points: '6 1 11 10 1 10' })
   );
 };
 

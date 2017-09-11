@@ -8,15 +8,7 @@ var FormSubtract = function FormSubtract(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'FormSubtract' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        React.createElement('path', { d: 'M6,12 L18,12' })
-      )
-    )
+    React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M6,12 L18,12' })
   );
 };
 

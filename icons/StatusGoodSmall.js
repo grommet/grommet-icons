@@ -18,15 +18,7 @@ var StatusGoodSmall = function StatusGoodSmall(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'StatusGoodSmall' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', fill: '#000000' },
-        _react2.default.createElement('circle', { cx: '6', cy: '6', r: '5' })
-      )
-    )
+    _react2.default.createElement('circle', { cx: '6', cy: '6', r: '5', fillRule: 'evenodd', stroke: '#000' })
   );
 };
 

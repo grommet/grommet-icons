@@ -8,15 +8,7 @@ var Trigger = function Trigger(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Trigger' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('polygon', { points: '4 14 10 14 7 23 9 23 20 9 14 9 18 1 7 1' })
-      )
-    )
+    React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '4 14 10 14 7 23 9 23 20 9 14 9 18 1 7 1' })
   );
 };
 

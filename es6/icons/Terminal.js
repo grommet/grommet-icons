@@ -8,15 +8,7 @@ var Terminal = function Terminal(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Terminal' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        React.createElement('path', { d: 'M2,5 L8,11 L2,17 M9,17 L23,17' })
-      )
-    )
+    React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M2,5 L8,11 L2,17 M9,17 L23,17' })
   );
 };
 

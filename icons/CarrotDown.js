@@ -18,15 +18,7 @@ var CarrotDown = function CarrotDown(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'CarrotDown' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        _react2.default.createElement('polygon', { points: '22 8 12 20 2 8' })
-      )
-    )
+    _react2.default.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '22 8 12 20 2 8' })
   );
 };
 

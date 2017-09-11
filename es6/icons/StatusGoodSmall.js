@@ -8,15 +8,7 @@ var StatusGoodSmall = function StatusGoodSmall(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'StatusGoodSmall' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', fill: '#000000' },
-        React.createElement('circle', { cx: '6', cy: '6', r: '5' })
-      )
-    )
+    React.createElement('circle', { cx: '6', cy: '6', r: '5', fillRule: 'evenodd', stroke: '#000' })
   );
 };
 

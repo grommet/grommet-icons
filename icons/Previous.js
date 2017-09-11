@@ -18,15 +18,7 @@ var Previous = function Previous(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Previous' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        _react2.default.createElement('polyline', { transform: 'translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) ', points: '7 2 17 12 7 22' })
-      )
-    )
+    _react2.default.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '7 2 17 12 7 22', transform: 'matrix(-1 0 0 1 24 0)' })
   );
 };
 

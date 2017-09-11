@@ -8,15 +8,7 @@ var Bookmark = function Bookmark(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Bookmark' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('polygon', { points: '5 1 5 22 12 17 19 22 19 1' })
-      )
-    )
+    React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '5 1 5 22 12 17 19 22 19 1' })
   );
 };
 

@@ -8,15 +8,7 @@ var Code = function Code(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Code' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        React.createElement('path', { d: 'M9,22 L15,2 M17,17 L22,12 L17,7 M7,17 L2,12 L7,7' })
-      )
-    )
+    React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M9,22 L15,2 M17,17 L22,12 L17,7 M7,17 L2,12 L7,7' })
   );
 };
 

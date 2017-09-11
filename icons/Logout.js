@@ -18,15 +18,7 @@ var Logout = function Logout(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Logout' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#231F20', strokeWidth: '2' },
-        _react2.default.createElement('path', { d: 'M13,9 L13,2 L1,2 L1,22 L13,22 L13,15 M22,12 L5,12 M17,7 L22,12 L17,17' })
-      )
-    )
+    _react2.default.createElement('path', { fill: 'none', stroke: '#231F20', strokeWidth: '2', d: 'M13,9 L13,2 L1,2 L1,22 L13,22 L13,15 M22,12 L5,12 M17,7 L22,12 L17,17' })
   );
 };
 

@@ -8,15 +8,7 @@ var Split = function Split(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Split' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        React.createElement('path', { d: 'M1,22 L23,22 L23,2 L1,2 L1,22 Z M12,2 L12,22 L12,2 Z' })
-      )
-    )
+    React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,22 L23,22 L23,2 L1,2 L1,22 Z M12,2 L12,22 L12,2 Z' })
   );
 };
 

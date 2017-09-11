@@ -18,15 +18,7 @@ var Steps = function Steps(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Steps' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        _react2.default.createElement('polygon', { points: '16 6 11 6 11 11 6 11 6 16 1 16 1 23 23 23 23 1 16 1' })
-      )
-    )
+    _react2.default.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '16 6 11 6 11 11 6 11 6 16 1 16 1 23 23 23 23 1 16 1' })
   );
 };
 

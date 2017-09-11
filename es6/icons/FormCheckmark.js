@@ -8,15 +8,7 @@ var FormCheckmark = function FormCheckmark(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'FormCheckmark' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('polyline', { points: '6 13.0000002 10.2000002 16.6000004 18.0000005 7' })
-      )
-    )
+    React.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '6 13 10.2 16.6 18 7' })
   );
 };
 

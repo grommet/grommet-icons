@@ -8,15 +8,7 @@ var StatusInfoSmall = function StatusInfoSmall(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'StatusInfoSmall' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', fill: '#000000' },
-        React.createElement('rect', { x: '1', y: '1', width: '10', height: '10', rx: '1' })
-      )
-    )
+    React.createElement('rect', { width: '10', height: '10', x: '1', y: '1', fillRule: 'evenodd', stroke: '#000', rx: '1' })
   );
 };
 

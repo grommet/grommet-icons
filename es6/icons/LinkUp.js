@@ -8,15 +8,7 @@ var LinkUp = function LinkUp(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'LinkUp' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        React.createElement('path', { d: 'M12,2 L12,22 M3,11 L12,2 L21,11' })
-      )
-    )
+    React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M12,2 L12,22 M3,11 L12,2 L21,11' })
   );
 };
 

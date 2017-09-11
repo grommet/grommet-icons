@@ -18,15 +18,7 @@ var LinkUp = function LinkUp(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'LinkUp' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        _react2.default.createElement('path', { d: 'M12,2 L12,22 M3,11 L12,2 L21,11' })
-      )
-    )
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M12,2 L12,22 M3,11 L12,2 L21,11' })
   );
 };
 

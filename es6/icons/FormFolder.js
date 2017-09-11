@@ -8,15 +8,7 @@ var FormFolder = function FormFolder(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'FormFolder' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('polygon', { points: '6 18 6 6 10.8 6 12.6 8.4 18 8.4 18 18' })
-      )
-    )
+    React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '6 18 6 6 10.8 6 12.6 8.4 18 8.4 18 18' })
   );
 };
 

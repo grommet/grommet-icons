@@ -8,15 +8,7 @@ var StatusPlaceholder = function StatusPlaceholder(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'StatusPlaceholder' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2', fill: '#000000' },
-        React.createElement('rect', { x: '2', y: '2', width: '20', height: '20', rx: '2' })
-      )
-    )
+    React.createElement('rect', { width: '20', height: '20', x: '2', y: '2', fillRule: 'evenodd', stroke: '#000', strokeWidth: '2', rx: '2' })
   );
 };
 

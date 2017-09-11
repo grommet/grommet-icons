@@ -18,15 +18,7 @@ var Mail = function Mail(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Mail' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        _react2.default.createElement('path', { d: 'M1,5 L12,14 L23,5 M1,20 L23,20 L23,4 L1,4 L1,20 L1,20 Z' })
-      )
-    )
+    _react2.default.createElement('path', { fill: '#01A982', fillRule: 'evenodd', d: 'M23,20 L23,6 L12,15 L1,6 L1,20 L23,20 Z M12,12 L22,4 L2,4 L12,12 Z' })
   );
 };
 

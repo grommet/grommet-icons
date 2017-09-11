@@ -10,13 +10,9 @@ var StatusGood = function StatusGood(props) {
     _extends({ a11yTitle: 'StatusGood' }, props),
     React.createElement(
       'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2' },
-        React.createElement('circle', { stroke: '#000000', fill: '#000000', cx: '12', cy: '12', r: '10' }),
-        React.createElement('polyline', { stroke: '#FFFFFF', points: '7 12 11 15 16 8' })
-      )
+      { fill: 'none', fillRule: 'evenodd', strokeWidth: '2' },
+      React.createElement('circle', { cx: '12', cy: '12', r: '10', fill: '#000', stroke: '#000' }),
+      React.createElement('polyline', { stroke: '#FFF', points: '7 12 11 15 16 8' })
     )
   );
 };

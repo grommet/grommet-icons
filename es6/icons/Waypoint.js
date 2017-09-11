@@ -8,15 +8,7 @@ var Waypoint = function Waypoint(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Waypoint' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('polygon', { points: '3 11 11 13 13 21 21 3.00000001' })
-      )
-    )
+    React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '3 11 11 13 13 21 21 3' })
   );
 };
 

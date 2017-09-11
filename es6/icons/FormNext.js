@@ -8,15 +8,7 @@ var FormNext = function FormNext(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'FormNext' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('polyline', { points: '9 6 15 12 9 18' })
-      )
-    )
+    React.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '9 6 15 12 9 18' })
   );
 };
 

@@ -18,15 +18,7 @@ var StatusUnknownSmall = function StatusUnknownSmall(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'StatusUnknownSmall' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', fill: '#000000' },
-        _react2.default.createElement('rect', { x: '1', y: '1', width: '10', height: '10', rx: '1' })
-      )
-    )
+    _react2.default.createElement('rect', { width: '10', height: '10', x: '1', y: '1', fillRule: 'evenodd', stroke: '#000', rx: '1' })
   );
 };
 

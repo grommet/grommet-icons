@@ -18,15 +18,7 @@ var Trigger = function Trigger(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Trigger' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        _react2.default.createElement('polygon', { points: '4 14 10 14 7 23 9 23 20 9 14 9 18 1 7 1' })
-      )
-    )
+    _react2.default.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '4 14 10 14 7 23 9 23 20 9 14 9 18 1 7 1' })
   );
 };
 

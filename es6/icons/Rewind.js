@@ -8,15 +8,7 @@ var Rewind = function Rewind(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Rewind' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('polygon', { points: '22 3.5 22 20 13 14 13 20 2 12 13 4 13 10' })
-      )
-    )
+    React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '22 3.5 22 20 13 14 13 20 2 12 13 4 13 10' })
   );
 };
 

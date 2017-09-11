@@ -18,15 +18,7 @@ var Star = function Star(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'Star' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        _react2.default.createElement('polygon', { points: '5 21 8 14 3 9 9 9 12 3 15 9 21 9 16 14 19 21 12 17' })
-      )
-    )
+    _react2.default.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '5 21 8 14 3 9 9 9 12 3 15 9 21 9 16 14 19 21 12 17' })
   );
 };
 

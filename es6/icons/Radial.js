@@ -8,15 +8,7 @@ var Radial = function Radial(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'Radial' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('circle', { cx: '12', cy: '12', r: '11' })
-      )
-    )
+    React.createElement('circle', { cx: '12', cy: '12', r: '11', fill: 'none', stroke: '#000', strokeWidth: '2' })
   );
 };
 

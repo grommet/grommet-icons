@@ -18,15 +18,7 @@ var FormPreviousLink = function FormPreviousLink(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ a11yTitle: 'FormPreviousLink' }, props),
-    _react2.default.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      _react2.default.createElement(
-        'g',
-        { stroke: '#000000', strokeWidth: '2' },
-        _react2.default.createElement('path', { d: 'M6,12.4 L18,12.4 M12.6,7 L18,12.4 L12.6,17.8', transform: 'translate(12.000000, 12.400000) scale(-1, 1) translate(-12.000000, -12.400000) ' })
-      )
-    )
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M6,12.4 L18,12.4 M12.6,7 L18,12.4 L12.6,17.8', transform: 'matrix(-1 0 0 1 24 0)' })
   );
 };
 

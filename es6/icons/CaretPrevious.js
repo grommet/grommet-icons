@@ -8,15 +8,7 @@ var CaretPrevious = function CaretPrevious(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'CaretPrevious' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('polygon', { transform: 'translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) ', points: '6 2 18 12 6 22' })
-      )
-    )
+    React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '6 2 18 12 6 22', transform: 'matrix(-1 0 0 1 24 0)' })
   );
 };
 

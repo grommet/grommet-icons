@@ -8,15 +8,7 @@ var BottomCorner = function BottomCorner(props) {
   return React.createElement(
     Icon,
     _extends({ a11yTitle: 'BottomCorner' }, props),
-    React.createElement(
-      'g',
-      { stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
-      React.createElement(
-        'g',
-        { strokeWidth: '2', stroke: '#000000' },
-        React.createElement('polyline', { points: '8 20 20 20 20 8' })
-      )
-    )
+    React.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '8 20 20 20 20 8' })
   );
 };
 
