@@ -4,7 +4,7 @@ import Icon from '../Icon';
 
 const Radial = props => (
   <Icon a11yTitle='Radial' {...props}>
-    <g stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'><g strokeWidth='2' stroke='#000000'><circle cx='12' cy='12' r='11' /></g></g>
+    <circle cx='12' cy='12' r='11' fill='none' stroke='#000' strokeWidth='2' />
   </Icon>
 );
 

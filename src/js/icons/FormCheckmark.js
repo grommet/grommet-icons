@@ -4,7 +4,7 @@ import Icon from '../Icon';
 
 const FormCheckmark = props => (
   <Icon a11yTitle='FormCheckmark' {...props}>
-    <g stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'><g strokeWidth='2' stroke='#000000'><polyline points='6 13.0000002 10.2000002 16.6000004 18.0000005 7' /></g></g>
+    <polyline fill='none' stroke='#000' strokeWidth='2' points='6 13 10.2 16.6 18 7' />
   </Icon>
 );
 
