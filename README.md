@@ -15,12 +15,12 @@ or
 ## Usage
 
 ```javascript
-import { SocialFacebook } from 'grommet-icons';
+import { Facebook } from 'grommet-icons';
 
-<SocialFacebook />
-<SocialFacebook color='plain' />
-<SocialFacebook size='large' />
-<SocialFacebook size='xlarge' />
+<Facebook />
+<Facebook color='plain' />
+<Facebook size='large' />
+<Facebook size='xlarge' />
 ```
 
 For now, to see all the icons available check this [page](https://github.com/grommet/grommet-icons/wiki/Icons)
