@@ -2900,6 +2900,59 @@ exports[`Icon renders all icons 54`] = `
 }
 
 <svg
+  aria-label="CaretDown"
+  className="c0"
+  height="24px"
+  role="img"
+  version="1.1"
+  viewBox="0 0 24 24"
+  width="24px"
+>
+  <polygon
+    fill="none"
+    points="22 8 12 20 2 8"
+    stroke="#000"
+    strokeWidth="2"
+  />
+</svg>
+`;
+
+exports[`Icon renders all icons 55`] = `
+.c0 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-fill: #666666;
+  fill: #666666;
+  stroke: #666666;
+}
+
+.c0 g {
+  -webkit-fill: inherit;
+  fill: inherit;
+  stroke: inherit;
+}
+
+.c0 *:not([stroke])[fill="none"] {
+  stroke-width: 0;
+}
+
+.c0 *[stroke*="#"],
+.c0 *[STROKE*="#"] {
+  stroke: inherit;
+  -webkit-fill: none;
+  fill: none;
+}
+
+.c0 *[fill*="#"],
+.c0 *[FILL*="#"] {
+  -webkit-fill: inherit;
+  fill: inherit;
+  stroke: none;
+}
+
+<svg
   aria-label="CaretNext"
   className="c0"
   height="24px"
@@ -2917,7 +2970,7 @@ exports[`Icon renders all icons 54`] = `
 </svg>
 `;
 
-exports[`Icon renders all icons 55`] = `
+exports[`Icon renders all icons 56`] = `
 .c0 {
   display: inline-block;
   -webkit-flex: 0 0 auto;
@@ -2971,59 +3024,6 @@ exports[`Icon renders all icons 55`] = `
 </svg>
 `;
 
-exports[`Icon renders all icons 56`] = `
-.c0 {
-  display: inline-block;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  -webkit-fill: #666666;
-  fill: #666666;
-  stroke: #666666;
-}
-
-.c0 g {
-  -webkit-fill: inherit;
-  fill: inherit;
-  stroke: inherit;
-}
-
-.c0 *:not([stroke])[fill="none"] {
-  stroke-width: 0;
-}
-
-.c0 *[stroke*="#"],
-.c0 *[STROKE*="#"] {
-  stroke: inherit;
-  -webkit-fill: none;
-  fill: none;
-}
-
-.c0 *[fill*="#"],
-.c0 *[FILL*="#"] {
-  -webkit-fill: inherit;
-  fill: inherit;
-  stroke: none;
-}
-
-<svg
-  aria-label="CarrotDown"
-  className="c0"
-  height="24px"
-  role="img"
-  version="1.1"
-  viewBox="0 0 24 24"
-  width="24px"
->
-  <polygon
-    fill="none"
-    points="22 8 12 20 2 8"
-    stroke="#000"
-    strokeWidth="2"
-  />
-</svg>
-`;
-
 exports[`Icon renders all icons 57`] = `
 .c0 {
   display: inline-block;
@@ -3060,7 +3060,7 @@ exports[`Icon renders all icons 57`] = `
 }
 
 <svg
-  aria-label="CarrotUp"
+  aria-label="CaretUp"
   className="c0"
   height="24px"
   role="img"
