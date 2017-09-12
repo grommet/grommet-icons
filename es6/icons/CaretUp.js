@@ -4,12 +4,12 @@ import React from 'react';
 
 import Icon from '../Icon';
 
-var CarrotUp = function CarrotUp(props) {
+var CaretUp = function CaretUp(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'CarrotUp' }, props),
+    _extends({ a11yTitle: 'CaretUp' }, props),
     React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '22 4 12 16 2 4', transform: 'matrix(1 0 0 -1 0 20)' })
   );
 };
 
-export default CarrotUp;
+export default CaretUp;

@@ -4,12 +4,12 @@ import React from 'react';
 
 import Icon from '../Icon';
 
-var CarrotDown = function CarrotDown(props) {
+var CaretDown = function CaretDown(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'CarrotDown' }, props),
+    _extends({ a11yTitle: 'CaretDown' }, props),
     React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '22 8 12 20 2 8' })
   );
 };
 
-export default CarrotDown;
+export default CaretDown;

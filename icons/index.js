@@ -479,6 +479,15 @@ Object.defineProperty(exports, 'Car', {
   }
 });
 
+var _CaretDown = require('./CaretDown');
+
+Object.defineProperty(exports, 'CaretDown', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_CaretDown).default;
+  }
+});
+
 var _CaretNext = require('./CaretNext');
 
 Object.defineProperty(exports, 'CaretNext', {
@@ -497,21 +506,12 @@ Object.defineProperty(exports, 'CaretPrevious', {
   }
 });
 
-var _CarrotDown = require('./CarrotDown');
+var _CaretUp = require('./CaretUp');
 
-Object.defineProperty(exports, 'CarrotDown', {
+Object.defineProperty(exports, 'CaretUp', {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_CarrotDown).default;
-  }
-});
-
-var _CarrotUp = require('./CarrotUp');
-
-Object.defineProperty(exports, 'CarrotUp', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_CarrotUp).default;
+    return _interopRequireDefault(_CaretUp).default;
   }
 });
 

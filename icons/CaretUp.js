@@ -14,12 +14,12 @@ var _Icon2 = _interopRequireDefault(_Icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var CarrotUp = function CarrotUp(props) {
+var CaretUp = function CaretUp(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'CarrotUp' }, props),
+    _extends({ a11yTitle: 'CaretUp' }, props),
     _react2.default.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '22 4 12 16 2 4', transform: 'matrix(1 0 0 -1 0 20)' })
   );
 };
 
-exports.default = CarrotUp;
+exports.default = CaretUp;
