@@ -58,12 +58,16 @@ var Icon = function (_Component) {
         theme = _props.theme,
         rest = _objectWithoutProperties(_props, ['a11yTitle', 'children', 'theme']);
 
-    var contextTheme = this.context.theme;
+    var _context = this.context,
+        contextTheme = _context.theme,
+        _context$grommet = _context.grommet,
+        grommet = _context$grommet === undefined ? {} : _context$grommet;
     var stateTheme = this.state.theme;
 
     return React.createElement(
       StyledIcon,
       _extends({
+        dark: grommet.dark,
         width: '24px',
         height: '24px',
         viewBox: '0 0 24 24',
@@ -88,6 +92,7 @@ var Icon = function (_Component) {
 }(Component);
 
 Icon.contextTypes = (_Icon$contextTypes = {
+  grommet: PropTypes.object,
   theme: PropTypes.object
 }, _Icon$contextTypes[CHANNEL] = PropTypes.func, _Icon$contextTypes);
 
