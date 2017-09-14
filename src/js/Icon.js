@@ -7,6 +7,7 @@ import StyledIcon from './StyledIcon';
 
 class Icon extends Component {
   static contextTypes = {
+    grommet: PropTypes.object,
     theme: PropTypes.object,
     [CHANNEL]: PropTypes.func,
   };
@@ -30,10 +31,11 @@ class Icon extends Component {
 
   render() {
     const { a11yTitle, children, theme, ...rest } = this.props;
-    const { theme: contextTheme } = this.context;
+    const { theme: contextTheme, grommet = {} } = this.context;
     const { theme: stateTheme } = this.state;
     return (
       <StyledIcon
+        dark={grommet.dark}
         width='24px'
         height='24px'
         viewBox='0 0 24 24'
