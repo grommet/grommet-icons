@@ -18,7 +18,7 @@
     .spin {
       opacity: 0;
       animation: spin-in 0.5s 1 forwards, spin-out 0.3s 1 forwards;
-      animation-delay: 0s, 4.6s;
+      animation-delay: 0s, 4.7s;
     }
 
     .fade {
@@ -57,27 +57,21 @@
       -webkit-animation: none;
       background-color: #ccc;
     }
-    @-webkit-keyframes spin-in {
+    @keyframes spin-in {
       from { transform:rotateX(90deg); opacity: 0.5; }
       to { transform:rotateX(0deg); opacity: 1;  }
     }
-    @-webkit-keyframes spin-out {
+    @keyframes spin-out {
       from { transform:rotateX(0deg); opacity: 0.5 }
       to { transform:rotateX(90deg); opacity: 0;  }
     }
-    @-webkit-keyframes fade-in {
+    @keyframes fade-in {
       from { opacity: 0; }
       to { opacity: 1;  }
     }
-    @-webkit-keyframes fade-out {
+    @keyframes fade-out {
       from { opacity: 1; }
       to { opacity: 0;  }
-    }
-    @-webkit-keyframes pulse {
-      100% { background-color: #fff; }
-    }
-    @-moz-keyframes pulse {
-      100% { background-color: #fff; }
     }
     @keyframes pulse {
       100% { background-color: #fff; }
