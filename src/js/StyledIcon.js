@@ -37,6 +37,8 @@ const StyledIcon = styled.svg`
       fill: none;
     }
 
+    *[fill-rule],
+    *[FILL-RULE],
     *[fill*="#"],
     *[FILL*="#"] {
       fill: inherit;

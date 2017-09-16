@@ -28,7 +28,7 @@ function parseNode(node) {
   return undefined;
 }
 
-function buildIcon(fileName, svgChildren) {
+function buildIcon(fileName, svgChildren, viewBox) {
   const children = [];
   svgChildren.forEach((child) => {
     const node = parseNode(child);
@@ -41,8 +41,8 @@ function buildIcon(fileName, svgChildren) {
 import Icon from '../Icon';
 
 const ${pascalCase(fileName)} = props => (
-  <Icon a11yTitle='${pascalCase(fileName)}' {...props}>
-    ${children.join('\n')}
+  <Icon viewBox='${viewBox}' a11yTitle='${pascalCase(fileName)}' {...props}>
+    ${children.join('')}
   </Icon>
 );
 
@@ -60,7 +60,7 @@ function createReactIcon(fileName, content) {
       preserveChildrenOrder: true,
     });
     parser.addListener('end', (result) => {
-      resolve(buildIcon(fileName, result.svg.$$));
+      resolve(buildIcon(fileName, result.svg.$$, result.svg.$.viewBox));
     });
     parser.parseString(content);
   });

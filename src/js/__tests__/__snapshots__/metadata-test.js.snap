@@ -2,146 +2,140 @@
 
 exports[`metadata 1`] = `
 Object {
-  "add": Array [
+  "Add": Array [
     "create",
     "core",
     "increase",
     "increment",
     "plus",
   ],
-  "amazon": Array [
+  "Amazon": Array [
     "buy",
     "marketplace",
     "social",
   ],
-  "american-express": Array [
+  "AmericanExpress": Array [
     "card",
     "pay",
     "wallet",
     "social",
   ],
-  "bitcoin": Array [
+  "Bitcoin": Array [
     "social",
     "pay",
     "wallet",
   ],
-  "carrot-down": Array [
+  "CarrotDown": Array [
     "core",
     "down",
     "expand",
   ],
-  "carrot-up": Array [
+  "CarrotUp": Array [
     "collapse",
     "core",
     "up",
   ],
-  "chat": Array [
+  "Chat": Array [
     "core",
     "help",
     "message",
     "talk",
     "support",
   ],
-  "checkmark": Array [
+  "Checkmark": Array [
     "accept",
     "agree",
     "core",
     "good",
     "ok",
   ],
-  "close": Array [
+  "Close": Array [
     "core",
     "delete",
     "escape",
     "remove",
     "trash",
   ],
-  "codepen": Array [
+  "Codepen": Array [
     "code",
     "demo",
     "share",
     "social",
   ],
-  "configure": Array [
+  "Configure": Array [
     "core",
     "preferences",
     "settings",
     "tool",
   ],
-  "creative-commons": Array [
+  "CreativeCommons": Array [
     "license",
     "social",
   ],
-  "document": Array [
+  "Document": Array [
     "core",
     "file",
     "page",
   ],
-  "download": Array [
+  "Download": Array [
     "core",
     "import",
     "get",
     "receive",
   ],
-  "dropbox": Array [
+  "Dropbox": Array [
     "cloud",
     "share",
     "social",
   ],
-  "edit": Array [
+  "Edit": Array [
     "change",
     "core",
     "draw",
     "modify",
     "pencil",
   ],
-  "facebook": Array [
+  "Facebook": Array [
     "share",
     "social",
   ],
-  "facebook-option": Array [
+  "FacebookOption": Array [
     "share",
     "social",
   ],
-  "filter": Array [
+  "Filter": Array [
     "core",
     "funnel",
     "refine",
     "triage",
   ],
-  "flag": Array [
+  "Flag": Array [
     "core",
     "warn",
     "warning",
   ],
-  "form-add": Array [
+  "FormAdd": Array [
     "create",
     "form",
     "increase",
     "increment",
     "plus",
   ],
-  "form-attachment": Array [
-    "attach",
-    "clip",
-    "form",
-    "upload",
-  ],
-  "form-calendar": Array [
+  "FormCalendar": Array [
     "date",
     "day",
     "form",
     "month",
     "year",
   ],
-  "form-checkmark": Array [
+  "FormCheckmark": Array [
     "accept",
     "agree",
     "form",
     "good",
     "ok",
   ],
-  "form-clock": Array [
+  "FormClock": Array [
     "form",
     "hour",
     "minute",
@@ -149,7 +143,7 @@ Object {
     "time",
     "watch",
   ],
-  "form-close": Array [
+  "FormClose": Array [
     "close",
     "delete",
     "escape",
@@ -157,81 +151,81 @@ Object {
     "remove",
     "trash",
   ],
-  "form-cut": Array [
+  "FormCut": Array [
     "cisors",
     "form",
   ],
-  "form-dowm": Array [
+  "FormDowm": Array [
     "form",
     "down",
     "expand",
   ],
-  "form-filter": Array [
+  "FormFilter": Array [
     "form",
     "funnel",
     "refine",
     "triage",
   ],
-  "form-folder": Array [
+  "FormFolder": Array [
     "form",
     "organize",
   ],
-  "form-location": Array [
+  "FormLocation": Array [
     "directions",
     "form",
     "pin",
   ],
-  "form-lock": Array [
+  "FormLock": Array [
     "form",
     "locker",
     "permissions",
     "protect",
     "secure",
   ],
-  "form-next": Array [
+  "FormNext": Array [
     "form",
     "forward",
     "next",
     "right",
   ],
-  "form-previous": Array [
+  "FormPrevious": Array [
     "back",
     "backward",
     "form",
     "left",
     "return",
   ],
-  "form-previous-link": Array [
+  "FormPreviousLink": Array [
     "back",
     "backward",
     "form",
     "left",
     "return",
   ],
-  "form-refresh": Array [
+  "FormRefresh": Array [
     "form",
     "pull",
     "update",
   ],
-  "form-schedule": Array [
+  "FormSchedule": Array [
     "appointment",
     "form",
     "meeting",
   ],
-  "form-search": Array [
+  "FormSearch": Array [
     "find",
     "form",
     "lookup",
     "magnifier",
     "search",
   ],
-  "form-subtract": Array [
+  "FormSubtract": Array [
     "decrement",
     "form",
     "menus",
     "reduce",
   ],
-  "form-trash": Array [
+  "FormTrash": Array [
     "clear",
     "core",
     "delete",
@@ -240,45 +234,45 @@ Object {
     "form",
     "remove",
   ],
-  "form-up": Array [
+  "FormUp": Array [
     "collapse",
     "form",
     "up",
   ],
-  "form-upload": Array [
+  "FormUpload": Array [
     "attach",
     "attachment",
     "export",
     "form",
     "send",
   ],
-  "form-view": Array [
+  "FormView": Array [
     "eye",
     "form",
     "open",
   ],
-  "form-view-hide": Array [
+  "FormViewHide": Array [
     "close",
     "eye",
     "form",
   ],
-  "github": Array [
+  "Github": Array [
     "code",
     "demo",
     "share",
     "social",
     "opensource",
   ],
-  "google-plus": Array [
+  "GooglePlus": Array [
     "share",
     "social",
   ],
-  "google-wallet": Array [
+  "GoogleWallet": Array [
     "social",
     "pay",
     "wallet",
   ],
-  "instagram": Array [
+  "Instagram": Array [
     "image",
     "picture",
     "photo",
@@ -286,14 +280,14 @@ Object {
     "social",
     "video",
   ],
-  "link-next": Array [
+  "LinkNext": Array [
     "arrow",
     "core",
     "forward",
     "next",
     "right",
   ],
-  "link-previous": Array [
+  "LinkPrevious": Array [
     "arrow",
     "back",
     "backward",
@@ -301,41 +295,41 @@ Object {
     "left",
     "return",
   ],
-  "linkedin": Array [
+  "Linkedin": Array [
     "share",
     "social",
   ],
-  "linkedin-option": Array [
+  "LinkedinOption": Array [
     "share",
     "social",
   ],
-  "mail": Array [
+  "Mail": Array [
     "email",
     "message",
     "social",
   ],
-  "mastercard": Array [
+  "Mastercard": Array [
     "card",
     "pay",
     "wallet",
     "social",
   ],
-  "medium": Array [
+  "Medium": Array [
     "blog",
     "share",
     "social",
   ],
-  "more": Array [
+  "More": Array [
     "actions",
     "core",
   ],
-  "next": Array [
+  "Next": Array [
     "core",
     "forward",
     "next",
     "right",
   ],
-  "notification": Array [
+  "Notification": Array [
     "alert",
     "bell",
     "core",
@@ -343,54 +337,54 @@ Object {
     "warn",
     "warning",
   ],
-  "paypal": Array [
+  "Paypal": Array [
     "social",
     "pay",
     "wallet",
   ],
-  "pinterest": Array [
+  "Pinterest": Array [
     "share",
     "social",
   ],
-  "previous": Array [
+  "Previous": Array [
     "back",
     "backward",
     "core",
     "left",
     "return",
   ],
-  "product-hunt": Array [
+  "Product-hunt": Array [
     "share",
     "social",
   ],
-  "reddit": Array [
+  "Reddit": Array [
     "social",
     "share",
   ],
-  "refresh": Array [
+  "Refresh": Array [
     "core",
     "pull",
     "update",
   ],
-  "search": Array [
+  "Search": Array [
     "core",
     "find",
     "lookup",
     "magnifier",
   ],
-  "share": Array [
+  "Share": Array [
     "core",
     "open",
     "publish",
   ],
-  "skype": Array [
+  "Skype": Array [
     "call",
     "conference",
     "phone",
     "social",
     "video",
   ],
-  "slack": Array [
+  "Slack": Array [
     "chat",
     "help",
     "message",
@@ -399,7 +393,7 @@ Object {
     "social",
     "support",
   ],
-  "snapchat": Array [
+  "Snapchat": Array [
     "image",
     "picture",
     "photo",
@@ -407,29 +401,29 @@ Object {
     "social",
     "video",
   ],
-  "square": Array [
+  "Square": Array [
     "social",
     "pay",
     "wallet",
   ],
-  "stack-overflow": Array [
+  "StackOverflow": Array [
     "code",
     "help",
     "share",
     "social",
   ],
-  "stripe": Array [
+  "Stripe": Array [
     "social",
     "pay",
     "wallet",
   ],
-  "subtract": Array [
+  "Subtract": Array [
     "core",
     "decrement",
     "minus",
     "reduce",
   ],
-  "trash": Array [
+  "Trash": Array [
     "clear",
     "core",
     "delete",
@@ -437,7 +431,7 @@ Object {
     "escape",
     "remove",
   ],
-  "tumblr": Array [
+  "Tumblr": Array [
     "blog",
     "image",
     "picture",
@@ -446,47 +440,53 @@ Object {
     "social",
     "video",
   ],
-  "twitter": Array [
+  "Twitter": Array [
     "share",
     "social",
     "tweet",
   ],
-  "update": Array [
+  "Update": Array [
     "change",
     "core",
   ],
-  "upload": Array [
+  "Upload": Array [
     "attach",
     "attachment",
     "core",
     "export",
     "send",
   ],
-  "user": Array [
+  "User": Array [
     "core",
     "person",
     "profile",
   ],
-  "vimeo": Array [
+  "Vimeo": Array [
     "share",
     "social",
     "video",
   ],
-  "visa": Array [
+  "Visa": Array [
     "card",
     "pay",
     "wallet",
     "social",
   ],
-  "wordpress": Array [
+  "Wordpress": Array [
     "blog",
     "share",
     "social",
   ],
-  "youtube": Array [
+  "Youtube": Array [
     "share",
     "social",
     "video",
+  ],
+  "formAttachment": Array [
+    "attach",
+    "clip",
+    "form",
+    "upload",
   ],
 }
 `;
