@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Play = function Play(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Play' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Play' }, props),
     _react2.default.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '3 22 21 12 3 2' })
   );
 };

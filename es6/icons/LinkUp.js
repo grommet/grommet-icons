@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var LinkUp = function LinkUp(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'LinkUp' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'LinkUp' }, props),
     React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M12,2 L12,22 M3,11 L12,2 L21,11' })
   );
 };

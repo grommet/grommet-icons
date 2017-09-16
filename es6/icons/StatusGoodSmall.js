@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var StatusGoodSmall = function StatusGoodSmall(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'StatusGoodSmall' }, props),
+    _extends({ viewBox: '0 0 12 12', a11yTitle: 'StatusGoodSmall' }, props),
     React.createElement('circle', { cx: '6', cy: '6', r: '5', fillRule: 'evenodd', stroke: '#000' })
   );
 };

@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Sidebar = function Sidebar(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Sidebar' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Sidebar' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,22 L23,22 L23,2 L1,2 L1,22 Z M16,2 L16,22 L16,2 Z' })
   );
 };

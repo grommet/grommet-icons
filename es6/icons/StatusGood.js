@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var StatusGood = function StatusGood(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'StatusGood' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'StatusGood' }, props),
     React.createElement(
       'g',
       { fill: 'none', fillRule: 'evenodd', strokeWidth: '2' },

@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var LinkPrevious = function LinkPrevious(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'LinkPrevious' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'LinkPrevious' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M2,12 L22,12 M13,3 L22,12 L13,21', transform: 'matrix(-1 0 0 1 24 0)' })
   );
 };

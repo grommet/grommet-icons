@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var FormClose = function FormClose(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'FormClose' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'FormClose' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M7,7 L17,17 M7,17 L17,7' })
   );
 };

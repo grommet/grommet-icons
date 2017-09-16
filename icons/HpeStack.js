@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var HpeStack = function HpeStack(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'HpeStack' }, props),
+    _extends({ viewBox: '0 0 126 48', a11yTitle: 'HpeStack' }, props),
     _react2.default.createElement(
       'g',
       { fill: 'none', fillRule: 'evenodd' },

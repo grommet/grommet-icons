@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var Play = function Play(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Play' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Play' }, props),
     React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '3 22 21 12 3 2' })
   );
 };

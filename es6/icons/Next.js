@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var Next = function Next(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Next' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Next' }, props),
     React.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '7 2 17 12 7 22' })
   );
 };

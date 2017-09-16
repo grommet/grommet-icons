@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var StatusInfoSmall = function StatusInfoSmall(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'StatusInfoSmall' }, props),
+    _extends({ viewBox: '0 0 12 12', a11yTitle: 'StatusInfoSmall' }, props),
     React.createElement('rect', { width: '10', height: '10', x: '1', y: '1', fillRule: 'evenodd', stroke: '#000', rx: '1' })
   );
 };

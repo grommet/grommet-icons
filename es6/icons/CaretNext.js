@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var CaretNext = function CaretNext(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'CaretNext' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'CaretNext' }, props),
     React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '6 2 18 12 6 22' })
   );
 };

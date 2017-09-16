@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var WindowsLegacy = function WindowsLegacy(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'WindowsLegacy' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'WindowsLegacy' }, props),
     React.createElement(
       'g',
       { fill: 'none', fillRule: 'evenodd', transform: 'translate(0 1)' },

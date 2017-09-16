@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var TopCorner = function TopCorner(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'TopCorner' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'TopCorner' }, props),
     _react2.default.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '4 16 16 16 16 4', transform: 'rotate(180 10 10)' })
   );
 };

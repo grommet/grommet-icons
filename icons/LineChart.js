@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var LineChart = function LineChart(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'LineChart' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'LineChart' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,16 L8,9 L13,14 L23,4 M0,22 L23.999,22 M16,4 L23,4 L23,11' })
   );
 };

@@ -17,8 +17,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var StarHalf = function StarHalf(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'StarHalf' }, props),
-    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M5,21 L8,14 L3,9 L9,9 L12,3 L15,9 L21,9 L16,14 L19,21 L12,17 L5,21 Z M11,8 L11,16 L8,17.5 L9.5,14 L5.5,10 L10,10 L11,8 Z M8,11 L10,13 L10,11 L8,11 Z' })
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'StarHalf' }, props),
+    _react2.default.createElement(
+      'g',
+      { fill: 'none', fillRule: 'evenodd' },
+      _react2.default.createElement('polygon', { fill: '#000', fillOpacity: '.2', points: '12 16.667 12 2 14.5 9.5 22 9.5 16 14 19 22' }),
+      _react2.default.createElement('polygon', { fill: '#FFC95E', points: '12 16.667 5 22 8 14 2 9.5 9.5 9.5 12 2' })
+    )
   );
 };
 

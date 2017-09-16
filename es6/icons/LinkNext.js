@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var LinkNext = function LinkNext(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'LinkNext' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'LinkNext' }, props),
     React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M2,12 L22,12 M13,3 L22,12 L13,21' })
   );
 };

@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var BottomCorner = function BottomCorner(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'BottomCorner' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'BottomCorner' }, props),
     _react2.default.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '8 20 20 20 20 8' })
   );
 };

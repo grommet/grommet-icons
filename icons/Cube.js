@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Cube = function Cube(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Cube' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Cube' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M12,2 L22,7 L22,17 L12,22 L2,17 L2,7 L12,2 Z M2,7 L12,12 L22,7 M12,12 L12,21.9999998 L12,12 Z' })
   );
 };

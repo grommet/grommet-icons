@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var PersonalComputer = function PersonalComputer(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'PersonalComputer' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'PersonalComputer' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M3,18 L21,18 L21,4 L3,4 L3,18 Z M1,21 L23,21 L23,18 L1,18 L1,21 Z M6,15 L18,15 L18,7 L6,7 L6,15 Z' })
   );
 };

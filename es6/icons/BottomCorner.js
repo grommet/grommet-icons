@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var BottomCorner = function BottomCorner(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'BottomCorner' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'BottomCorner' }, props),
     React.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '8 20 20 20 20 8' })
   );
 };

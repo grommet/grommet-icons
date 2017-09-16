@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var FormAdd = function FormAdd(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'FormAdd' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'FormAdd' }, props),
     React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M12,18 L12,6 M6,12 L18,12' })
   );
 };

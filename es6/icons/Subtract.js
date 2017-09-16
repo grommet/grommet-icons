@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var Subtract = function Subtract(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Subtract' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Subtract' }, props),
     React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M2,12 L22,12' })
   );
 };

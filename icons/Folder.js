@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Folder = function Folder(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Folder' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Folder' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M2,10 L2,6 L2,2 L10,2 L13,6 L22,6 L22,10 L2,10 Z M2,10 L22,10 L22,22 L2,22 L2,10 Z' })
   );
 };

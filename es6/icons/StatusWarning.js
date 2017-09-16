@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var StatusWarning = function StatusWarning(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'StatusWarning' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'StatusWarning' }, props),
     React.createElement(
       'g',
       { fill: 'none', fillRule: 'evenodd', strokeLinejoin: 'round', strokeWidth: '2' },

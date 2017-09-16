@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Menu = function Menu(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Menu' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Menu' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M2,19 L22,19 M2,5 L22,5 M2,12 L22,12' })
   );
 };

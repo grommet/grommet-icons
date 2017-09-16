@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var StatusGoodSmall = function StatusGoodSmall(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'StatusGoodSmall' }, props),
+    _extends({ viewBox: '0 0 12 12', a11yTitle: 'StatusGoodSmall' }, props),
     _react2.default.createElement('circle', { cx: '6', cy: '6', r: '5', fillRule: 'evenodd', stroke: '#000' })
   );
 };

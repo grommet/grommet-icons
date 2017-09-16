@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var HpeStack = function HpeStack(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'HpeStack' }, props),
+    _extends({ viewBox: '0 0 126 48', a11yTitle: 'HpeStack' }, props),
     React.createElement(
       'g',
       { fill: 'none', fillRule: 'evenodd' },

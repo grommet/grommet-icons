@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var FormNext = function FormNext(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'FormNext' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'FormNext' }, props),
     _react2.default.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '9 6 15 12 9 18' })
   );
 };

@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var Template = function Template(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Template' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Template' }, props),
     React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,3 L23,3 L23,21 L1,21 L1,3 Z M1,8 L23,8 M7,8 L7,21' })
   );
 };

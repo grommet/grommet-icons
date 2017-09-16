@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var FastForward = function FastForward(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'FastForward' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'FastForward' }, props),
     _react2.default.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '9 2.059 9 8 1 2.059 1 22.059 9 16 9 22.059 22 12.059' })
   );
 };

@@ -7,8 +7,8 @@ import Icon from '../Icon';
 var Star = function Star(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Star' }, props),
-    React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '5 21 8 14 3 9 9 9 12 3 15 9 21 9 16 14 19 21 12 17' })
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Star' }, props),
+    React.createElement('polygon', { fill: '#FFC95E', fillRule: 'evenodd', points: '12 16.667 5 22 8 14 2 9.5 9.5 9.5 12 2 14.5 9.5 22 9.5 16 14 19 22' })
   );
 };
 

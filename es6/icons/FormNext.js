@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var FormNext = function FormNext(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'FormNext' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'FormNext' }, props),
     React.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '9 6 15 12 9 18' })
   );
 };

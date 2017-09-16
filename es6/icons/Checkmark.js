@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var Checkmark = function Checkmark(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Checkmark' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Checkmark' }, props),
     React.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '2 14 9 20 22 4' })
   );
 };

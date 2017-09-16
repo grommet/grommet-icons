@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Filter = function Filter(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Filter' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Filter' }, props),
     _react2.default.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '3 6 10 13 10 21 14 21 14 13 21 6 21 3 3 3' })
   );
 };

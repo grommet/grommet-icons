@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var StatusPlaceholderOutline = function StatusPlaceholderOutline(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'StatusPlaceholderOutline' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'StatusPlaceholderOutline' }, props),
     _react2.default.createElement('rect', { width: '20', height: '20', x: '2', y: '2', fill: 'none', stroke: '#000', strokeWidth: '2', rx: '2' })
   );
 };

@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Rewind = function Rewind(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Rewind' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Rewind' }, props),
     _react2.default.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '22 3.5 22 20 13 14 13 20 2 12 13 4 13 10' })
   );
 };

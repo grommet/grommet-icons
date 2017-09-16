@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var StatusWarningOutline = function StatusWarningOutline(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'StatusWarningOutline' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'StatusWarningOutline' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeLinejoin: 'round', strokeWidth: '2', d: 'M12,3 L22,21 L2,21 L12,3 Z M12,9 L12,15 M12,16 L12,18' })
   );
 };

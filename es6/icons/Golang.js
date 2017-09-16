@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var Golang = function Golang(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Golang' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Golang' }, props),
     React.createElement(
       'g',
       { fill: 'none' },

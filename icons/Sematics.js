@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Sematics = function Sematics(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Sematics' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Sematics' }, props),
     _react2.default.createElement('path', { fillRule: 'evenodd', d: 'M12.0026703,0 L24,6.06607718 L24,10.0551619 L12.0026703,3.98917843 L0,10.0551619 L0,6.06607718 L12.0026703,0 Z M12.0026703,6.96290918 L24,13.0289864 L24,17.0180711 L12.0026703,10.9520876 L0,17.0180711 L0,13.0289864 L12.0026703,6.96290918 Z M12.0026703,13.9277859 L24,19.9938631 L24,23.9829478 L12.0026703,17.9169643 L0,23.9829478 L0,19.9938631 L12.0026703,13.9277859 Z' })
   );
 };

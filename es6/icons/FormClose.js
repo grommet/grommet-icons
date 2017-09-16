@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var FormClose = function FormClose(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'FormClose' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'FormClose' }, props),
     React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M7,7 L17,17 M7,17 L17,7' })
   );
 };

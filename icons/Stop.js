@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Stop = function Stop(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Stop' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Stop' }, props),
     _react2.default.createElement('rect', { width: '16', height: '16', x: '4', y: '4', fill: 'none', stroke: '#000', strokeWidth: '2' })
   );
 };

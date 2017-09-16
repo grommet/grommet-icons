@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var Bookmark = function Bookmark(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Bookmark' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Bookmark' }, props),
     React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '5 1 5 22 12 17 19 22 19 1' })
   );
 };

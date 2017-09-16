@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var DocumentNotes = function DocumentNotes(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'DocumentNotes' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'DocumentNotes' }, props),
     React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M4.99787498,8.99999999 L4.99787498,0.999999992 L19.4999998,0.999999992 L22.9999998,4.50000005 L23,23 L4,23 M18,1 L18,6 L23,6 M9.75,12 L9.75,18.5 L9.5,18.5 L4.5,12 L4,12 L4,19 L4.25,19 L4.25,12.5 L4.5,12.5 L9.5,19 L10,19 L10,12 L9.75,12 Z' })
   );
 };

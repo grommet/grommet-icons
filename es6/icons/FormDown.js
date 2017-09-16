@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var FormDown = function FormDown(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'FormDown' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'FormDown' }, props),
     React.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '18 9 12 15 6 9' })
   );
 };

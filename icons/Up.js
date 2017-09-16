@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Up = function Up(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Up' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Up' }, props),
     _react2.default.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '7.086 1.174 17.086 11.174 7.086 21.174', transform: 'rotate(-89 12.086 11.174)' })
   );
 };

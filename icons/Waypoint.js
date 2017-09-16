@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Waypoint = function Waypoint(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Waypoint' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Waypoint' }, props),
     _react2.default.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '3 11 11 13 13 21 21 3' })
   );
 };

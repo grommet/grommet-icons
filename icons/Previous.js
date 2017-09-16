@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Previous = function Previous(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Previous' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Previous' }, props),
     _react2.default.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '7 2 17 12 7 22', transform: 'matrix(-1 0 0 1 24 0)' })
   );
 };

@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var HpeStackCentered = function HpeStackCentered(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'HpeStackCentered' }, props),
+    _extends({ viewBox: '0 0 126 48', a11yTitle: 'HpeStackCentered' }, props),
     React.createElement(
       'g',
       { fill: 'none', fillRule: 'evenodd' },

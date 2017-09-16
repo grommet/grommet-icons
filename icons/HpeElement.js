@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var HpeElement = function HpeElement(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'HpeElement' }, props),
+    _extends({ viewBox: '0 0 40 12', a11yTitle: 'HpeElement' }, props),
     _react2.default.createElement('polygon', { fill: 'none', stroke: '#01A982', strokeWidth: '3', points: '1.5 1.5 38.5 1.5 38.5 10.5 1.5 10.5' })
   );
 };

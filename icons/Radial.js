@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Radial = function Radial(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Radial' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Radial' }, props),
     _react2.default.createElement('circle', { cx: '12', cy: '12', r: '11', fill: 'none', stroke: '#000', strokeWidth: '2' })
   );
 };

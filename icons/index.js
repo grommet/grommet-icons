@@ -317,6 +317,15 @@ Object.defineProperty(exports, 'Basket', {
   }
 });
 
+var _Bike = require('./Bike');
+
+Object.defineProperty(exports, 'Bike', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Bike).default;
+  }
+});
+
 var _Bitcoin = require('./Bitcoin');
 
 Object.defineProperty(exports, 'Bitcoin', {
@@ -4202,6 +4211,15 @@ Object.defineProperty(exports, 'TopCorner', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_TopCorner).default;
+  }
+});
+
+var _Train = require('./Train');
+
+Object.defineProperty(exports, 'Train', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Train).default;
   }
 });
 

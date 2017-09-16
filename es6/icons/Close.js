@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var Close = function Close(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Close' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Close' }, props),
     React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M3,3 L21,21 M3,21 L21,3' })
   );
 };

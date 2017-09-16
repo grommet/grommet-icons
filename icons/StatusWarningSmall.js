@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var StatusWarningSmall = function StatusWarningSmall(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'StatusWarningSmall' }, props),
+    _extends({ viewBox: '0 0 12 12', a11yTitle: 'StatusWarningSmall' }, props),
     _react2.default.createElement('polygon', { fillRule: 'evenodd', stroke: '#000', strokeLinejoin: 'round', points: '6 1 11 10 1 10' })
   );
 };

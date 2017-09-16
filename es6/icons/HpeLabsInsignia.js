@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var HpeLabsInsignia = function HpeLabsInsignia(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'HpeLabsInsignia' }, props),
+    _extends({ viewBox: '0 0 34 48', a11yTitle: 'HpeLabsInsignia' }, props),
     React.createElement('polyline', { fill: 'none', stroke: '#01A982', strokeWidth: '4', points: '20 46 2 46 2 2 26 2 26 30 18 30 18 10 10 10 10 38 34 38' })
   );
 };

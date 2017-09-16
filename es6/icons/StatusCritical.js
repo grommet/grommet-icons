@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var StatusCritical = function StatusCritical(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'StatusCritical' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'StatusCritical' }, props),
     React.createElement(
       'g',
       { fill: 'none', fillRule: 'evenodd', strokeWidth: '2' },

@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Chat = function Chat(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'Chat' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Chat' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,1 L23,1 L23,17 L7,17 L1,22 L1,1 Z M5,7 L18,7 M5,11 L14,11' })
   );
 };

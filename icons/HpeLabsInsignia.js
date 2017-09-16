@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var HpeLabsInsignia = function HpeLabsInsignia(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'HpeLabsInsignia' }, props),
+    _extends({ viewBox: '0 0 34 48', a11yTitle: 'HpeLabsInsignia' }, props),
     _react2.default.createElement('polyline', { fill: 'none', stroke: '#01A982', strokeWidth: '4', points: '20 46 2 46 2 2 26 2 26 30 18 30 18 10 10 10 10 38 34 38' })
   );
 };

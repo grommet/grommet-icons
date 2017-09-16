@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var Reactjs = function Reactjs(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Reactjs' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Reactjs' }, props),
     React.createElement(
       'g',
       { fill: '#00D8FF', fillRule: 'evenodd' },

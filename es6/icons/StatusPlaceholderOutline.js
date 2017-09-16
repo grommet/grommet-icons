@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var StatusPlaceholderOutline = function StatusPlaceholderOutline(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'StatusPlaceholderOutline' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'StatusPlaceholderOutline' }, props),
     React.createElement('rect', { width: '20', height: '20', x: '2', y: '2', fill: 'none', stroke: '#000', strokeWidth: '2', rx: '2' })
   );
 };

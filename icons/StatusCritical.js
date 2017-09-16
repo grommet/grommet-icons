@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var StatusCritical = function StatusCritical(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'StatusCritical' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'StatusCritical' }, props),
     _react2.default.createElement(
       'g',
       { fill: 'none', fillRule: 'evenodd', strokeWidth: '2' },

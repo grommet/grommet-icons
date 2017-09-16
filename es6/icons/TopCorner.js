@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var TopCorner = function TopCorner(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'TopCorner' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'TopCorner' }, props),
     React.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '4 16 16 16 16 4', transform: 'rotate(180 10 10)' })
   );
 };

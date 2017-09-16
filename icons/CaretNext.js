@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var CaretNext = function CaretNext(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'CaretNext' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'CaretNext' }, props),
     _react2.default.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '6 2 18 12 6 22' })
   );
 };

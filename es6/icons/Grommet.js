@@ -7,8 +7,8 @@ import Icon from '../Icon';
 var Grommet = function Grommet(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Grommet' }, props),
-    React.createElement('path', { fill: 'none', stroke: '#865CD6', strokeWidth: '5', d: 'M24,42 C33.9411255,42 42,33.9411255 42,24 C42,14.0588745 33.9411255,6 24,6 C14.0588745,6 6,14.0588745 6,24 C6,33.9411255 14.0588745,42 24,42 Z' })
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Grommet' }, props),
+    React.createElement('path', { fill: 'none', stroke: '#865CD6', strokeWidth: '4', d: 'M12,2 C6.485,2 2,6.485 2,12 C2,17.515 6.485,22 12,22 C17.515,22 22,17.515 22,12 C22,6.485 17.515,2 12,2 Z' })
   );
 };
 

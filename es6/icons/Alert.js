@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var Alert = function Alert(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Alert' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Alert' }, props),
     React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M12,17 L12,19 M12,10 L12,16 M12,3 L2,22 L22,22 L12,3 Z' })
   );
 };

@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var VolumeMute = function VolumeMute(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'VolumeMute' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'VolumeMute' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,8 L1,16 L6.09901951,16 L12,21 L12,3 L6,8 L1,8 Z M15,9 L21,15 M21,9 L15,15' })
   );
 };

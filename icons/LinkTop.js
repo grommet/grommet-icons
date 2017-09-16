@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var LinkTop = function LinkTop(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'LinkTop' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'LinkTop' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M12,5 L12,23 M4,13 L12,5 L20,13 M2,2 L22,2' })
   );
 };

@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var FormUp = function FormUp(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ a11yTitle: 'FormUp' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'FormUp' }, props),
     _react2.default.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '18 9 12 15 6 9', transform: 'matrix(1 0 0 -1 0 24)' })
   );
 };

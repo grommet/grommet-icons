@@ -7,7 +7,7 @@ import Icon from '../Icon';
 var Chrome = function Chrome(props) {
   return React.createElement(
     Icon,
-    _extends({ a11yTitle: 'Chrome' }, props),
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Chrome' }, props),
     React.createElement(
       'g',
       { fill: 'none', fillRule: 'evenodd' },
