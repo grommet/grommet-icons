@@ -27,6 +27,12 @@
       animation-delay: 0.3s, 4.7s;
     }
 
+    #chomp-mouth {
+      opacity: 0;
+      animation: chomp-mouth 0.5s infinite;
+      animation-delay: 0.5s;
+    }
+
     body.loading {margin: 0px; width: 100vw; height: 100vh;
       background-image: radial-gradient(circle at 50% 15%, #fff, #fff 30%, #ccc);
     }
@@ -73,8 +79,26 @@
       from { opacity: 1; }
       to { opacity: 0;  }
     }
+    @keyframes chomp-mouth {
+      0% {
+        opacity: 0;
+      }
+      5% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 1;
+      }
+      51% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
     @keyframes pulse {
       100% { background-color: #fff; }
+    }
   </style>
 </head>
 <body class="loading">
