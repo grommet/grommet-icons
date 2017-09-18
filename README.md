@@ -23,7 +23,7 @@ import { Facebook } from 'grommet-icons';
 <Facebook size='xlarge' />
 ```
 
-For now, to see all the icons available check this [page](https://github.com/grommet/grommet-icons/wiki/Icons)
+Visit our [site](https://grommet.github.io/grommet-icons/) for more icons.
 
 ## Try
 
