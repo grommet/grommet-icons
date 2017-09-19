@@ -18,7 +18,7 @@ var Multimedia = function Multimedia(props) {
   return _react2.default.createElement(
     _Icon2.default,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Multimedia' }, props),
-    _react2.default.createElement('path', { fillRule: 'evenodd', d: 'M23.9901437,3 L18.6973306,3 L14.9519507,6.73552361 L20.2447639,6.73552361 L23.9901437,3 Z M12.0246407,6.73552361 L15.7601643,3 L10.4673511,3 L6.72197125,6.73552361 L12.0246407,6.73552361 Z M20.2546201,17.6464066 L3.73552361,17.6464066 L3.73552361,6.77494867 L7.52032854,3 L2.21765914,3 L0,5.21765914 L0,21.3917864 L24,21.3917864 L24,6.73552361 L20.2546201,6.73552361 L20.2546201,17.6464066 Z' })
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '2', d: 'M2,8 L2,22 L22,22 L22,9 M11,4 L7,8 M2,4 L2,8 L17,8 L21,4 L2,4 Z M16,4 L12,8' })
   );
 };
 

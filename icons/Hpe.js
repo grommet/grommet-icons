@@ -14,12 +14,12 @@ var _Icon2 = _interopRequireDefault(_Icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var HpeElementOutline = function HpeElementOutline(props) {
+var Hpe = function Hpe(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ viewBox: '0 0 40 12', a11yTitle: 'HpeElementOutline' }, props),
-    _react2.default.createElement('path', { fill: '#01A982', fillRule: 'evenodd', d: 'M0,12 L40,12 L40,0 L0,0 L0,12 Z M3,3 L37,3 L37,9 L3,9 L3,3 Z' })
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Hpe' }, props),
+    _react2.default.createElement('rect', { width: '22', height: '6', x: '1', y: '9', fill: 'none', stroke: '#01A982', strokeWidth: '3' })
   );
 };
 
-exports.default = HpeElementOutline;
+exports.default = Hpe;

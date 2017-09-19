@@ -14,12 +14,12 @@ var _Icon2 = _interopRequireDefault(_Icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var StatusWarningOutline = function StatusWarningOutline(props) {
+var HpeLabs = function HpeLabs(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ viewBox: '0 0 24 24', a11yTitle: 'StatusWarningOutline' }, props),
-    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeLinejoin: 'round', strokeWidth: '2', d: 'M12,3 L22,21 L2,21 L12,3 Z M12,9 L12,15 M12,16 L12,18' })
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'HpeLabs' }, props),
+    _react2.default.createElement('polyline', { fill: 'none', stroke: '#01A982', strokeWidth: '2', points: '14 23 5 23 5 2 17 2 17 15 13 15 13 6 9 6 9 19 20 19' })
   );
 };
 
-exports.default = StatusWarningOutline;
+exports.default = HpeLabs;

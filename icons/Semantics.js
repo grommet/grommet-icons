@@ -14,12 +14,12 @@ var _Icon2 = _interopRequireDefault(_Icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var GrommetOutline = function GrommetOutline(props) {
+var Semantics = function Semantics(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ viewBox: '0 0 48 48', a11yTitle: 'GrommetOutline' }, props),
-    _react2.default.createElement('path', { fill: '#865CD6', d: 'M24,44.5 C35.3218374,44.5 44.5,35.3218374 44.5,24 C44.5,12.6781626 35.3218374,3.5 24,3.5 C12.6781626,3.5 3.5,12.6781626 3.5,24 C3.5,35.3218374 12.6781626,44.5 24,44.5 L24,44.5 Z M24,39.5 C15.4395864,39.5 8.5,32.5604136 8.5,24 C8.5,15.4395864 15.4395864,8.5 24,8.5 C32.5604136,8.5 39.5,15.4395864 39.5,24 C39.5,32.5604136 32.5604136,39.5 24,39.5 L24,39.5 Z' })
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Semantics' }, props),
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M2,17 L12,12 L22,17 L22,21 L12,16 L2,21 L2,17 Z M2,8 L12,3 L22,8 L22,12 L12,7 L2,12 L2,8 Z' })
   );
 };
 
-exports.default = GrommetOutline;
+exports.default = Semantics;

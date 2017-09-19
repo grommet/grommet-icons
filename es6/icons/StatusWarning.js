@@ -8,12 +8,7 @@ var StatusWarning = function StatusWarning(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'StatusWarning' }, props),
-    React.createElement(
-      'g',
-      { fill: 'none', fillRule: 'evenodd', strokeLinejoin: 'round', strokeWidth: '2' },
-      React.createElement('polygon', { fill: '#000', stroke: '#000', points: '12 3 22 21 2 21' }),
-      React.createElement('path', { stroke: '#FFF', d: 'M12,9 L12,15 M12,16 L12,18' })
-    )
+    React.createElement('path', { fill: 'none', stroke: '#000', strokeLinejoin: 'round', strokeWidth: '2', d: 'M12,3 L22,21 L2,21 L12,3 Z M12,9 L12,15 M12,16 L12,18' })
   );
 };
 
