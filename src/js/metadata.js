@@ -69,7 +69,7 @@ export default {
   'Skype': ['call', 'chat', 'conference', 'logo', 'media', 'phone', 'social', 'video'],
   'Slack': ['chat', 'help', 'logo', 'media', 'message', 'talk', 'share', 'social', 'support'],
   'Snapchat': ['ghost', 'image', 'logo', 'media', 'picture', 'photo', 'share', 'social', 'video'],
-  'Square': ['logo', 'media','social', 'pay', 'wallet'],
+  'Square': ['logo', 'media', 'social', 'pay', 'wallet'],
   'StackOverflow': ['code', 'help', 'logo', 'media', 'share', 'social'],
   'Stripe': ['logo', 'media', 'pay', 'social', 'wallet'],
   'Subtract': ['core', 'decrement', 'minus', 'reduce'],
