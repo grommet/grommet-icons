@@ -1,6 +1,6 @@
 {
   "name": "grommet-icons",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "main": "index.js",
   "module": "es6/index.js",
   "jsnext:main": "es6/index.js",
@@ -28,12 +28,14 @@
     "test-update": "grommet check -t -- --updateSnapshot",
     "test-watch": "grommet check -t -- --watchAll"
   },
+  "peerDependencies": {
+    "react": ">= 15.3.0 < 16 || 16.x",
+    "react-dom": ">= 15.3.0 < 16 || 16.x",
+    "styled-components": ">= 2.1.1"
+  },
   "dependencies": {
     "codeclimate-test-reporter": "^0.5.0",
-    "deep-assign": "^2.0.0",
-    "react": "^15.4.0",
-    "react-dom": "^15.4.0",
-    "styled-components": "^2.1.2"
+    "deep-assign": "^2.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
@@ -42,7 +44,7 @@
     "babel-jest": "^20.0.0",
     "babel-loader": "^7.1.1",
     "babel-plugin-styled-components": "^1.2.0",
-    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-1": "^6.24.1",
     "camel-case": "^3.0.0",
@@ -62,8 +64,11 @@
     "json-loader": "^0.5.4",
     "pascal-case": "^2.0.1",
     "pre-commit": "^1.2.2",
-    "react-test-renderer": "^15.4.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-test-renderer": "^16.0.0",
     "simple-git": "^1.76.0",
+    "styled-components": ">= 2.1.1",
     "webpack": "^3.4.1",
     "xml2js": "^0.4.19",
     "xmlbuilder": "^9.0.4"
