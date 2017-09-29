@@ -68,7 +68,7 @@
     "react-dom": "^16.0.0",
     "react-test-renderer": "^16.0.0",
     "simple-git": "^1.76.0",
-    "styled-components": ">= 2.1.1",
+    "styled-components": "^2.1.1",
     "webpack": "^3.4.1",
     "xml2js": "^0.4.19",
     "xmlbuilder": "^9.0.4"
