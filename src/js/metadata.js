@@ -34,7 +34,7 @@ export default {
   'Basket': ['buy', 'carton', 'picnic', 'shopping'],
   'Bike': ['bicycle', 'cycle', 'transport'],
   'Bitcoin': ['coin', 'currency', 'finance', 'social', 'pay', 'money', 'wallet'],
-  'Blog': ['article','news', 'feed', 'web'],
+  'Blog': ['article', 'news', 'feed', 'web'],
   'Book': ['education', 'learning', 'reading', 'study'],
   'BusinessService': ['cloud', 'webservice'],
   'Cafeteria': ['cafe', 'dining', 'food', 'fork', 'meal', 'restaurant', 'silverware', 'spoon'],
