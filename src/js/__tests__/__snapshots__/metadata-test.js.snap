@@ -60,6 +60,7 @@ Object {
   "Aid": Array [
     "briefcase",
     "care",
+    "emergency",
     "first-aid",
     "first aid kit",
     "health",
@@ -68,6 +69,7 @@ Object {
   "AidOption": Array [
     "briefcase",
     "care",
+    "emergency",
     "first-aid",
     "first aid kit",
     "health",
@@ -140,7 +142,7 @@ Object {
     "box",
     "container",
     "document",
-    "file",
+    "files",
     "folder",
     "storage",
   ],
@@ -182,7 +184,7 @@ Object {
   ],
   "Attachment": Array [
     "clip",
-    "file",
+    "files",
     "paper",
     "paperclip",
   ],
@@ -280,7 +282,7 @@ Object {
   "Camera": Array [
     "image",
     "lens",
-    "photo",
+    "photos",
     "photograpy",
     "picture",
     "shot",
@@ -583,7 +585,7 @@ Object {
   "Copy": Array [
     "documents",
     "duplicate",
-    "file",
+    "files",
     "paste",
   ],
   "CreativeCommons": Array [
@@ -709,7 +711,7 @@ Object {
   ],
   "Document": Array [
     "core",
-    "file",
+    "files",
     "format",
     "folder",
     "page",
@@ -717,14 +719,14 @@ Object {
   ],
   "DocumentCloud": Array [
     "cloud",
-    "file",
+    "files",
     "folder",
     "page",
     "paper",
   ],
   "DocumentCsv": Array [
     "extension",
-    "file",
+    "files",
     "format",
     "folder",
     "page",
@@ -732,7 +734,7 @@ Object {
   ],
   "DocumentDownload": Array [
     "arrow",
-    "file",
+    "files",
     "import",
     "get",
     "page",
@@ -741,9 +743,10 @@ Object {
   ],
   "DocumentExcel": Array [
     "extension",
-    "file",
+    "files",
     "format",
     "folder",
+    "microsoft",
     "office",
     "page",
     "paper",
@@ -752,21 +755,21 @@ Object {
   "DocumentExe": Array [
     "executable",
     "extension",
-    "file",
+    "files",
     "folder",
     "page",
     "paper",
   ],
   "DocumentImage": Array [
-    "file",
+    "files",
     "folder",
     "page",
     "paper",
-    "photo",
+    "photos",
     "picture",
   ],
   "DocumentLocked": Array [
-    "file",
+    "files",
     "folder",
     "page",
     "paper",
@@ -777,7 +780,7 @@ Object {
   "DocumentMissing": Array [
     "delete",
     "error",
-    "file",
+    "files",
     "folder",
     "page",
     "paper",
@@ -785,22 +788,23 @@ Object {
   ],
   "DocumentNotes": Array [
     "extension",
-    "file",
+    "files",
     "folder",
     "page",
     "paper",
   ],
   "DocumentOutlook": Array [
     "extension",
-    "file",
+    "files",
     "folder",
+    "microsoft",
     "office",
     "page",
     "paper",
   ],
   "DocumentPdf": Array [
     "extension",
-    "file",
+    "files",
     "folder",
     "format",
     "page",
@@ -808,7 +812,7 @@ Object {
   ],
   "DocumentPerformance": Array [
     "arrow",
-    "file",
+    "files",
     "folder",
     "format",
     "page",
@@ -816,8 +820,9 @@ Object {
   ],
   "DocumentPpt": Array [
     "extension",
-    "file",
+    "files",
     "folder",
+    "microsoft",
     "office",
     "page",
     "paper",
@@ -825,7 +830,7 @@ Object {
   ],
   "DocumentRtf": Array [
     "extension",
-    "file",
+    "files",
     "folder",
     "format",
     "page",
@@ -833,7 +838,7 @@ Object {
   ],
   "DocumentSound": Array [
     "audio",
-    "file",
+    "files",
     "folder",
     "music",
     "page",
@@ -841,13 +846,13 @@ Object {
   ],
   "DocumentStore": Array [
     "data",
-    "file",
+    "files",
     "folder",
     "page",
     "paper",
   ],
   "DocumentTest": Array [
-    "file",
+    "files",
     "flask",
     "folder",
     "page",
@@ -855,7 +860,7 @@ Object {
   ],
   "DocumentText": Array [
     "extension",
-    "file",
+    "files",
     "folder",
     "format",
     "page",
@@ -864,7 +869,7 @@ Object {
   "DocumentThreat": Array [
     "bomb",
     "danger",
-    "file",
+    "files",
     "folder",
     "malware",
     "page",
@@ -875,21 +880,21 @@ Object {
     "alarm",
     "clock",
     "event",
-    "file",
+    "files",
     "folder",
     "page",
     "paper",
   ],
   "DocumentTransfer": Array [
     "arrow",
-    "file",
+    "files",
     "folder",
     "page",
     "paper",
   ],
   "DocumentTxt": Array [
     "extension",
-    "file",
+    "files",
     "folder",
     "format",
     "page",
@@ -897,7 +902,7 @@ Object {
   ],
   "DocumentUpdate": Array [
     "arrow",
-    "file",
+    "files",
     "folder",
     "page",
     "paper",
@@ -905,7 +910,7 @@ Object {
   ],
   "DocumentUpload": Array [
     "arrow",
-    "file",
+    "files",
     "import",
     "get",
     "page",
@@ -915,7 +920,7 @@ Object {
   "DocumentUser": Array [
     "account",
     "avatar",
-    "file",
+    "files",
     "folder",
     "page",
     "paper",
@@ -924,7 +929,7 @@ Object {
   ],
   "DocumentVerified": Array [
     "check",
-    "file",
+    "files",
     "folder",
     "mark",
     "page",
@@ -932,7 +937,7 @@ Object {
   ],
   "DocumentVideo": Array [
     "camera",
-    "file",
+    "files",
     "folder",
     "page",
     "paper",
@@ -940,8 +945,9 @@ Object {
   ],
   "DocumentWord": Array [
     "extension",
-    "file",
+    "files",
     "folder",
+    "microsoft",
     "office",
     "page",
     "paper",
@@ -949,7 +955,7 @@ Object {
   "DocumentZip": Array [
     "compressed",
     "extension",
-    "file",
+    "files",
     "folder",
     "format",
     "page",
@@ -963,7 +969,7 @@ Object {
   "Dos": Array [
     "command",
     "code",
-    "file",
+    "files",
     "os",
   ],
   "Down": Array [
@@ -1003,6 +1009,12 @@ Object {
   "Dxc": Array [
     "logo",
   ],
+  "Edge": Array [
+    "browser",
+    "logo",
+    "microsoft",
+    "web",
+  ],
   "Edit": Array [
     "change",
     "core",
@@ -1011,6 +1023,43 @@ Object {
     "pen",
     "pencil",
     "write",
+  ],
+  "Eject": Array [
+    "control",
+    "media",
+    "player",
+  ],
+  "Elevator": Array [
+    "down",
+    "lift",
+    "up",
+    "transport",
+  ],
+  "Emergency": Array [
+    "alert",
+    "asterisk",
+  ],
+  "EmptyCircle": Array [
+    "chart",
+    "donut",
+  ],
+  "Erase": Array [
+    "delete",
+    "eraser",
+    "remove",
+  ],
+  "Escalator": Array [
+    "stairs",
+    "staircase",
+    "moving",
+    "up",
+  ],
+  "Expand": Array [
+    "arrow",
+    "direction",
+    "maximize",
+    "full",
+    "screen",
   ],
   "Facebook": Array [
     "share",
@@ -1026,6 +1075,24 @@ Object {
     "network",
     "social",
   ],
+  "Fan": Array [
+    "air",
+    "cooling",
+    "ventilator",
+  ],
+  "FastForward": Array [
+    "arrow",
+    "next",
+    "right",
+  ],
+  "Favorite": Array [
+    "heart",
+    "like",
+  ],
+  "Fedora": Array [
+    "logo",
+    "os",
+  ],
   "Filter": Array [
     "core",
     "funnel",
@@ -1033,11 +1100,41 @@ Object {
     "sort",
     "triage",
   ],
+  "FingerPrint": Array [
+    "security",
+    "biometric",
+    "scan",
+  ],
+  "Fireball": Array [
+    "star",
+  ],
+  "Firefox": Array [
+    "browser",
+    "logo",
+    "web",
+  ],
   "Flag": Array [
     "core",
     "nation",
     "warn",
     "warning",
+  ],
+  "Folder": Array [
+    "documents",
+    "data",
+    "files",
+  ],
+  "FolderCycle": Array [
+    "documents",
+    "data",
+    "files",
+    "recycle",
+    "refresh",
+  ],
+  "FolderOpen": Array [
+    "documents",
+    "data",
+    "files",
   ],
   "FormAdd": Array [
     "create",
@@ -1105,7 +1202,6 @@ Object {
     "triage",
   ],
   "FormFolder": Array [
-    "file",
     "files",
     "document",
     "form",
@@ -1218,7 +1314,7 @@ Object {
     "attachment",
     "cloud",
     "export",
-    "file",
+    "files",
     "form",
     "send",
   ],
@@ -1232,6 +1328,22 @@ Object {
     "eye",
     "form",
   ],
+  "Gallery": Array [
+    "image",
+    "pictures",
+    "photos",
+  ],
+  "Gamepad": Array [
+    "joystick",
+    "play",
+    "sports",
+  ],
+  "Gift": Array [
+    "birthday",
+    "box",
+    "christmas",
+    "present",
+  ],
   "Github": Array [
     "code",
     "demo",
@@ -1240,6 +1352,21 @@ Object {
     "share",
     "social",
     "opensource",
+  ],
+  "Globe": Array [
+    "earth",
+    "global",
+    "planet",
+    "world",
+  ],
+  "Golang": Array [
+    "code",
+    "google",
+    "logo",
+  ],
+  "Google": Array [
+    "logo",
+    "search",
   ],
   "GooglePlus": Array [
     "logo",
@@ -1256,13 +1383,34 @@ Object {
     "transaction",
     "wallet",
   ],
+  "Gremlin": Array [
+    "awesome",
+    "grommet",
+  ],
+  "Grid": Array [
+    "line",
+    "layout",
+  ],
+  "Grommet": Array [
+    "awesome",
+    "logo",
+  ],
+  "Group": Array [
+    "people",
+    "team",
+    "users",
+  ],
+  "Grow": Array [
+    "growth",
+    "plant",
+  ],
   "Instagram": Array [
     "camera",
     "image",
     "logo",
     "media",
     "picture",
-    "photo",
+    "photos",
     "share",
     "social",
     "video",
@@ -1430,7 +1578,7 @@ Object {
     "logo",
     "media",
     "picture",
-    "photo",
+    "photos",
     "share",
     "social",
     "video",
@@ -1479,7 +1627,7 @@ Object {
     "logo",
     "media",
     "picture",
-    "photo",
+    "photos",
     "share",
     "social",
     "video",
@@ -1506,7 +1654,7 @@ Object {
     "cloud",
     "core",
     "export",
-    "file",
+    "files",
     "send",
   ],
   "User": Array [
@@ -1551,7 +1699,7 @@ Object {
   "formAttachment": Array [
     "attach",
     "clip",
-    "file",
+    "files",
     "form",
     "paper",
     "upload",
