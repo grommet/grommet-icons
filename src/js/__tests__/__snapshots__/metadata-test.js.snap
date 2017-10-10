@@ -180,6 +180,7 @@ Object {
     "card",
     "credit",
     "cash",
+    "finance",
     "money",
   ],
   "Attachment": Array [
@@ -533,7 +534,7 @@ Object {
   "Compare": Array [
     "ab",
     "a/b",
-    "analysis",
+    "analytics",
     "balance",
     "testing",
     "variations",
@@ -652,7 +653,6 @@ Object {
     "rack",
     "server",
     "storage",
-    "network",
   ],
   "Debian": Array [
     "logo",
@@ -675,6 +675,7 @@ Object {
   ],
   "Desktop": Array [
     "computer",
+    "display",
     "monitor",
     "pc",
     "screen",
@@ -1010,6 +1011,7 @@ Object {
     "copy",
   ],
   "Dxc": Array [
+    "awesome",
     "logo",
   ],
   "Edge": Array [
@@ -1086,6 +1088,7 @@ Object {
   "FastForward": Array [
     "arrow",
     "next",
+    "player",
     "right",
   ],
   "Favorite": Array [
@@ -1454,7 +1457,6 @@ Object {
     "server",
   ],
   "HostMaintenance": Array [
-    "database",
     "hosting",
     "rack",
     "server",
@@ -1722,12 +1724,44 @@ Object {
     "furniture",
     "sofa",
   ],
+  "Magic": Array [
+    "wand",
+    "wizard",
+  ],
   "Mail": Array [
     "email",
     "envelope",
     "letter",
     "message",
     "social",
+  ],
+  "MailOption": Array [
+    "email",
+    "envelope",
+    "letter",
+    "message",
+    "social",
+  ],
+  "Mandriva": Array [
+    "linux",
+    "logo",
+    "os",
+  ],
+  "Manual": Array [
+    "stick",
+    "joystick",
+  ],
+  "Map": Array [
+    "gps",
+    "location",
+    "navigation",
+    "pin",
+  ],
+  "MapLocation": Array [
+    "gps",
+    "location",
+    "navigation",
+    "pin",
   ],
   "Mastercard": Array [
     "card",
@@ -1745,10 +1779,81 @@ Object {
     "share",
     "social",
   ],
+  "Menu": Array [
+    "hamburger",
+    "list",
+    "navigation",
+    "options",
+  ],
+  "Microfocus": Array [
+    "awesome",
+    "logo",
+  ],
+  "Microphone": Array [
+    "audio",
+    "mic",
+    "music",
+    "sound",
+  ],
+  "Money": Array [
+    "cash",
+    "coins",
+    "currency",
+    "dollar",
+    "finance",
+  ],
+  "Monitor": Array [
+    "computer",
+    "crt",
+    "desktop",
+    "display",
+    "screen",
+  ],
   "More": Array [
     "actions",
     "core",
     "ellipses",
+  ],
+  "Multimedia": Array [
+    "clapboard",
+    "cinema",
+    "film",
+    "video",
+    "movie",
+  ],
+  "Multiple": Array [
+    "repeat",
+    "stack",
+    "steps",
+  ],
+  "Music": Array [
+    "audio",
+    "notes",
+    "sound",
+    "play",
+  ],
+  "Mysql": Array [
+    "database",
+    "logo",
+    "storage",
+  ],
+  "Navigate": Array [
+    "guide",
+    "road",
+    "sign",
+    "street",
+    "way",
+  ],
+  "New": Array [
+    "asterisk",
+    "add",
+    "create",
+    "plus",
+  ],
+  "NewWindow": Array [
+    "add",
+    "create",
+    "plus",
   ],
   "Next": Array [
     "arrow",
@@ -1757,6 +1862,24 @@ Object {
     "forward",
     "next",
     "right",
+  ],
+  "Nodes": Array [
+    "connection",
+    "network",
+  ],
+  "Norton": Array [
+    "logo",
+    "security",
+  ],
+  "Note": Array [
+    "document",
+    "file",
+    "paper",
+  ],
+  "Notes": Array [
+    "document",
+    "file",
+    "paper",
   ],
   "Notification": Array [
     "alarm",
@@ -1768,6 +1891,56 @@ Object {
     "warn",
     "warning",
   ],
+  "ObjectGroup": Array [
+    "",
+  ],
+  "ObjectUngroup": Array [
+    "",
+  ],
+  "OfflineStorage": Array [
+    "backup",
+    "tape",
+  ],
+  "Onedrive": Array [
+    "logo",
+    "office",
+  ],
+  "Opera": Array [
+    "browser",
+    "logo",
+    "web",
+  ],
+  "Optimize": Array [
+    "analytics",
+    "chart",
+    "growth",
+  ],
+  "Oracle": Array [
+    "cloud",
+    "database",
+    "logo",
+  ],
+  "Organization": Array [
+    "building",
+  ],
+  "Overview": Array [
+    "binoculars",
+  ],
+  "Paint": Array [
+    "bucket",
+    "color",
+  ],
+  "Pan": Array [
+    "arrow",
+    "drag",
+    "move",
+  ],
+  "Pause": Array [
+    "player",
+  ],
+  "PauseFill": Array [
+    "player",
+  ],
   "Paypal": Array [
     "card",
     "logo",
@@ -1777,11 +1950,53 @@ Object {
     "pay",
     "wallet",
   ],
+  "Performance": Array [
+    "optimization",
+  ],
+  "PersonalComputer": Array [
+    "pc",
+    "monitor",
+    "screen",
+  ],
+  "PieChart": Array [
+    "analytics",
+    "dontusepies",
+    "graph",
+  ],
+  "Pin": Array [
+    "gps",
+    "location",
+    "map",
+    "navigation",
+    "pin",
+    "tack",
+  ],
   "Pinterest": Array [
     "logo",
     "media",
     "share",
     "social",
+  ],
+  "Plan": Array [
+    "calendar",
+    "checklist",
+    "schedule",
+  ],
+  "Play": Array [
+    "media",
+    "music",
+    "player",
+    "video",
+  ],
+  "PlayFill": Array [
+    "media",
+    "music",
+    "player",
+    "video",
+  ],
+  "Power": Array [
+    "off",
+    "switch",
   ],
   "Previous": Array [
     "arrow",
@@ -1792,7 +2007,11 @@ Object {
     "left",
     "return",
   ],
-  "Product-hunt": Array [
+  "Print": Array [
+    "laser",
+    "printer",
+  ],
+  "ProductHunt": Array [
     "logo",
     "media",
     "share",
