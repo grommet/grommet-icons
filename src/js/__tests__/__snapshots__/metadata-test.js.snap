@@ -17,10 +17,12 @@ Object {
     "winner",
   ],
   "Action": Array [
+    "up4review",
     "connect",
     "plug",
   ],
   "Actions": Array [
+    "up4review",
     "gear",
     "sun",
   ],
@@ -305,6 +307,7 @@ Object {
     "vehicle",
   ],
   "BusinessService": Array [
+    "up4review",
     "briefcase",
     "services",
   ],
@@ -341,6 +344,7 @@ Object {
     "shot",
   ],
   "Capacity": Array [
+    "up4review",
     "bars",
   ],
   "Car": Array [
@@ -487,6 +491,7 @@ Object {
     "stop",
   ],
   "ClearOption": Array [
+    "up4review",
     "paintbrush",
   ],
   "Cli": Array [
@@ -628,10 +633,12 @@ Object {
     "wrench",
   ],
   "Connect": Array [
+    "up4review",
     "network",
     "plug",
   ],
   "Connectivity": Array [
+    "up4review",
     "network",
     "plug",
   ],
@@ -753,6 +760,7 @@ Object {
     "remove",
   ],
   "Device": Array [
+    "up4review",
     "iot",
     "technology",
     "tv",
@@ -1070,6 +1078,7 @@ Object {
     "receive",
   ],
   "Drag": Array [
+    "up4review",
     "drop",
   ],
   "DriveCage": Array [
@@ -1120,6 +1129,7 @@ Object {
     "transportation",
   ],
   "Emergency": Array [
+    "up4review",
     "alert",
     "asterisk",
   ],
@@ -1132,7 +1142,8 @@ Object {
     "eraser",
     "remove",
   ],
-  "Escalator": Array [
+  "Escalaton": Array [
+    "up4review",
     "stairs",
     "staircase",
     "moving",
@@ -1162,6 +1173,7 @@ Object {
     "social",
   ],
   "Fan": Array [
+    "up4review",
     "air",
     "cooling",
     "ventilator",
@@ -1604,6 +1616,7 @@ Object {
     "picture",
   ],
   "Impact": Array [
+    "up4review",
     "crash",
     "explode",
   ],
@@ -1781,6 +1794,7 @@ Object {
     "social",
   ],
   "Local": Array [
+    "up4review",
     "flag",
     "language",
     "location",
@@ -1850,6 +1864,7 @@ Object {
     "os",
   ],
   "Manual": Array [
+    "up4review",
     "stick",
     "joystick",
   ],
@@ -2001,6 +2016,7 @@ Object {
     "",
   ],
   "OfflineStorage": Array [
+    "up4review",
     "backup",
     "tape",
   ],
@@ -2085,6 +2101,7 @@ Object {
     "social",
   ],
   "Plan": Array [
+    "up4review",
     "calendar",
     "checklist",
     "schedule",
@@ -2125,11 +2142,13 @@ Object {
     "social",
   ],
   "Radial": Array [
+    "up4review",
     "circle",
     "radio",
     "off",
   ],
   "RadialSelected": Array [
+    "up4review",
     "circle",
     "radio",
     "on",
@@ -2270,6 +2289,7 @@ Object {
     "scanner",
   ],
   "Schedule": Array [
+    "up4review",
     "agenda",
     "appointment",
     "calendar",
@@ -2321,6 +2341,7 @@ Object {
     "zoom",
   ],
   "SearchAdvanced": Array [
+    "up4review",
     "find",
     "lookup",
     "magnifier",
@@ -2338,6 +2359,7 @@ Object {
     "selection",
   ],
   "Selection": Array [
+    "up4review",
     "column",
   ],
   "Semantics": Array [
@@ -2481,6 +2503,7 @@ Object {
     "unix",
   ],
   "Sort": Array [
+    "up4review",
     "bullets",
     "list",
     "items",
@@ -2700,6 +2723,7 @@ Object {
     "survey",
   ],
   "Tasks": Array [
+    "up4review",
     "bar",
     "progress",
   ],
@@ -2756,6 +2780,7 @@ Object {
     "rotation",
   ],
   "ThreeDffects": Array [
+    "up4review",
     "3d",
     "cube",
     "box",
