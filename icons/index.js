@@ -326,12 +326,30 @@ Object.defineProperty(exports, 'Bitcoin', {
   }
 });
 
+var _BlockQuote = require('./BlockQuote');
+
+Object.defineProperty(exports, 'BlockQuote', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_BlockQuote).default;
+  }
+});
+
 var _Blog = require('./Blog');
 
 Object.defineProperty(exports, 'Blog', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Blog).default;
+  }
+});
+
+var _Bold = require('./Bold');
+
+Object.defineProperty(exports, 'Bold', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Bold).default;
   }
 });
 
@@ -1532,6 +1550,15 @@ Object.defineProperty(exports, 'Emergency', {
   }
 });
 
+var _Emoji = require('./Emoji');
+
+Object.defineProperty(exports, 'Emoji', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Emoji).default;
+  }
+});
+
 var _EmptyCircle = require('./EmptyCircle');
 
 Object.defineProperty(exports, 'EmptyCircle', {
@@ -2324,6 +2351,15 @@ Object.defineProperty(exports, 'InternetExplorer', {
   }
 });
 
+var _Italic = require('./Italic');
+
+Object.defineProperty(exports, 'Italic', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Italic).default;
+  }
+});
+
 var _Iteration = require('./Iteration');
 
 Object.defineProperty(exports, 'Iteration', {
@@ -2666,6 +2702,15 @@ Object.defineProperty(exports, 'Monitor', {
   }
 });
 
+var _Monospace = require('./Monospace');
+
+Object.defineProperty(exports, 'Monospace', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Monospace).default;
+  }
+});
+
 var _More = require('./More');
 
 Object.defineProperty(exports, 'More', {
@@ -2852,6 +2897,15 @@ Object.defineProperty(exports, 'Oracle', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Oracle).default;
+  }
+});
+
+var _OrderedList = require('./OrderedList');
+
+Object.defineProperty(exports, 'OrderedList', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_OrderedList).default;
   }
 });
 
@@ -3089,6 +3143,15 @@ Object.defineProperty(exports, 'Redhat', {
   }
 });
 
+var _Redo = require('./Redo');
+
+Object.defineProperty(exports, 'Redo', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Redo).default;
+  }
+});
+
 var _Refresh = require('./Refresh');
 
 Object.defineProperty(exports, 'Refresh', {
@@ -3185,6 +3248,24 @@ Object.defineProperty(exports, 'Robot', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Robot).default;
+  }
+});
+
+var _RotateLeft = require('./RotateLeft');
+
+Object.defineProperty(exports, 'RotateLeft', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_RotateLeft).default;
+  }
+});
+
+var _RotateRight = require('./RotateRight');
+
+Object.defineProperty(exports, 'RotateRight', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_RotateRight).default;
   }
 });
 
@@ -3782,12 +3863,30 @@ Object.defineProperty(exports, 'StreetView', {
   }
 });
 
+var _StrikeThrough = require('./StrikeThrough');
+
+Object.defineProperty(exports, 'StrikeThrough', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_StrikeThrough).default;
+  }
+});
+
 var _Stripe = require('./Stripe');
 
 Object.defineProperty(exports, 'Stripe', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Stripe).default;
+  }
+});
+
+var _Subscript = require('./Subscript');
+
+Object.defineProperty(exports, 'Subscript', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Subscript).default;
   }
 });
 
@@ -3806,6 +3905,15 @@ Object.defineProperty(exports, 'Subtract', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Subtract).default;
+  }
+});
+
+var _Superscript = require('./Superscript');
+
+Object.defineProperty(exports, 'Superscript', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Superscript).default;
   }
 });
 
@@ -3977,6 +4085,42 @@ Object.defineProperty(exports, 'Test', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Test).default;
+  }
+});
+
+var _TextAlignCenter = require('./TextAlignCenter');
+
+Object.defineProperty(exports, 'TextAlignCenter', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_TextAlignCenter).default;
+  }
+});
+
+var _TextAlignFull = require('./TextAlignFull');
+
+Object.defineProperty(exports, 'TextAlignFull', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_TextAlignFull).default;
+  }
+});
+
+var _TextAlignLeft = require('./TextAlignLeft');
+
+Object.defineProperty(exports, 'TextAlignLeft', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_TextAlignLeft).default;
+  }
+});
+
+var _TextAlignRight = require('./TextAlignRight');
+
+Object.defineProperty(exports, 'TextAlignRight', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_TextAlignRight).default;
   }
 });
 
@@ -4187,6 +4331,24 @@ Object.defineProperty(exports, 'Ubuntu', {
   }
 });
 
+var _Underline = require('./Underline');
+
+Object.defineProperty(exports, 'Underline', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Underline).default;
+  }
+});
+
+var _Undo = require('./Undo');
+
+Object.defineProperty(exports, 'Undo', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Undo).default;
+  }
+});
+
 var _Unlink = require('./Unlink');
 
 Object.defineProperty(exports, 'Unlink', {
@@ -4202,6 +4364,15 @@ Object.defineProperty(exports, 'Unlock', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Unlock).default;
+  }
+});
+
+var _UnorderedList = require('./UnorderedList');
+
+Object.defineProperty(exports, 'UnorderedList', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_UnorderedList).default;
   }
 });
 
