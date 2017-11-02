@@ -257,11 +257,21 @@ Object {
     "money",
     "wallet",
   ],
+  "BlockQuote": Array [
+    "formatting",
+    "text",
+    "editor",
+  ],
   "Blog": Array [
     "article",
     "news",
     "feed",
     "web",
+  ],
+  "Bold": Array [
+    "formatting",
+    "text",
+    "editor",
   ],
   "Book": Array [
     "education",
@@ -1123,6 +1133,11 @@ Object {
     "alert",
     "asterisk",
   ],
+  "Emoji": Array [
+    "emoticon",
+    "reaction",
+    "comment",
+  ],
   "EmptyCircle": Array [
     "chart",
     "donut",
@@ -1677,6 +1692,11 @@ Object {
     "logo",
     "web",
   ],
+  "Italic": Array [
+    "formatting",
+    "text",
+    "editor",
+  ],
   "Iteration": Array [
     "cascade",
     "iterate",
@@ -1911,6 +1931,11 @@ Object {
     "display",
     "screen",
   ],
+  "Monospace": Array [
+    "formatting",
+    "text",
+    "editor",
+  ],
   "More": Array [
     "actions",
     "core",
@@ -2022,6 +2047,12 @@ Object {
     "cloud",
     "database",
     "logo",
+  ],
+  "OrderedList": Array [
+    "formatting",
+    "text",
+    "items",
+    "editor",
   ],
   "Organization": Array [
     "building",
@@ -2157,6 +2188,11 @@ Object {
     "Fedora",
     "os",
   ],
+  "Redo": Array [
+    "action",
+    "text",
+    "editor",
+  ],
   "Refresh": Array [
     "arrows",
     "backup",
@@ -2233,6 +2269,16 @@ Object {
     "job",
     "layoff",
     "machine",
+  ],
+  "RotateLeft": Array [
+    "direction",
+    "rotate",
+    "picture",
+  ],
+  "RotateRight": Array [
+    "direction",
+    "rotate",
+    "picture",
   ],
   "Rss": Array [
     "feed",
@@ -2609,12 +2655,22 @@ Object {
     "map",
     "person",
   ],
+  "StrikeThrough": Array [
+    "formatting",
+    "text",
+    "editor",
+  ],
   "Stripe": Array [
     "logo",
     "media",
     "pay",
     "social",
     "wallet",
+  ],
+  "Subscript": Array [
+    "formatting",
+    "text",
+    "editor",
   ],
   "Subtract": Array [
     "core",
@@ -2630,6 +2686,11 @@ Object {
     "reduce",
     "remove",
     "subtraction",
+  ],
+  "Superscript": Array [
+    "formatting",
+    "text",
+    "editor",
   ],
   "Support": Array [
     "help",
@@ -2739,6 +2800,34 @@ Object {
     "prototype",
     "research",
     "science",
+  ],
+  "TextAlignCenter": Array [
+    "formatting",
+    "center",
+    "text",
+    "align",
+    "editor",
+  ],
+  "TextAlignFull": Array [
+    "formatting",
+    "full",
+    "text",
+    "align",
+    "editor",
+  ],
+  "TextAlignLeft": Array [
+    "formatting",
+    "left",
+    "text",
+    "align",
+    "editor",
+  ],
+  "TextAlignRight": Array [
+    "formatting",
+    "right",
+    "text",
+    "align",
+    "editor",
   ],
   "TextWrap": Array [
     "around",
@@ -2878,6 +2967,16 @@ Object {
     "logo",
     "os",
   ],
+  "Underline": Array [
+    "formatting",
+    "text",
+    "editor",
+  ],
+  "Undo": Array [
+    "action",
+    "text",
+    "editor",
+  ],
   "Unlink": Array [
     "break",
     "chain",
@@ -2890,6 +2989,12 @@ Object {
     "protection",
     "secure",
     "security",
+  ],
+  "UnorderedList": Array [
+    "formatting",
+    "text",
+    "items",
+    "editor",
   ],
   "Up": Array [
     "arrows",
