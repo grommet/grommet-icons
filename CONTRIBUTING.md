@@ -1,7 +1,7 @@
 Contributing editor icons.
 
 The icons were design on UpWork by a freelancer with the express stipulation that the icons will be released to the 
-public domain under grommet-icons, link to UpWork contract and payment completion: https://www.upwork.com/ab/applicants/924373534500941824/job-details
+public domain under grommet-icons, link to UpWork contract and payment completion: https://www.upwork.com/ab/applicants/924373534500941824/job-details. All rights are released to grommet-icons and the entities behind it.
 
 The icons svg files are required to be cleaned of all extra tags and props gerenared by AI or similar tools.
 
@@ -14,8 +14,8 @@ To contribute -
 </svg>
 
 3. To generate the react components from the svg files, execute npm run generate-icons
-  a) This will create the react icons .js files in the src/js/icons folder
-  b) It will also update the indje.js file in the src/js/icons folder to include the newly generated icons
+* This will create the react icons .js files in the src/js/icons folder
+* It will also update the indje.js file in the src/js/icons folder to include the newly generated icons
   
 4. To update the icons meta information (used to seacrh for icons in the grommet-icons site), edit the file src/js/metadata.js
 and add some descriptive tags (that are not part of the icon's name) - i.e. 
