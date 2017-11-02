@@ -6,7 +6,7 @@ public domain under grommet-icons, link to UpWork contract and payment completio
 The icons svg files are required to be cleaned of all extra tags and props gerenared by AI or similar tools.
 
 To contribute - 
-1. Fork the grommet-icons project and and clone.
+1. Fork the grommet-icons project and clone.
 2. The svg files ned to be placed in grommet-icons/public.img in the format:
 
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
