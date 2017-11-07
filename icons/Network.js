@@ -14,12 +14,12 @@ var _Icon2 = _interopRequireDefault(_Icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Storage = function Storage(props) {
+var Network = function Network(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Storage' }, props),
-    _react2.default.createElement('path', { fill: 'none', stroke: '#000000', strokeWidth: '2', d: 'M2,5.07692308 C2,5.07692308 3.66666667,2 12,2 C20.3333333,2 22,5.07692308 22,5.07692308 L22,18.9230769 C22,18.9230769 20.3333333,22 12,22 C3.66666667,22 2,18.9230769 2,18.9230769 L2,5.07692308 Z M2,13 C2,13 5.33333333,16 12,16 C18.6666667,16 22,13 22,13 M2,7 C2,7 5.33333333,10 12,10 C18.6666667,10 22,7 22,7' })
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Network' }, props),
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000000', strokeWidth: '2', d: 'M7.5,7 L7.5,15.5142857 C7.5,19.7571429 13,18.3428571 13,22.1142857 L13,24 M11,10 L7.5,7 L4,10 M16.5,2 L16.5,10.440516 C16.5,14.5083612 13,13.1524128 13,16.7682752 L13,24 M13,5 L16.5,2 L20,5' })
   );
 };
 
-exports.default = Storage;
+exports.default = Network;

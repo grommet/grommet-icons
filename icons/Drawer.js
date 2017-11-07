@@ -14,12 +14,12 @@ var _Icon2 = _interopRequireDefault(_Icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Storage = function Storage(props) {
+var Drawer = function Drawer(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Storage' }, props),
-    _react2.default.createElement('path', { fill: 'none', stroke: '#000000', strokeWidth: '2', d: 'M2,5.07692308 C2,5.07692308 3.66666667,2 12,2 C20.3333333,2 22,5.07692308 22,5.07692308 L22,18.9230769 C22,18.9230769 20.3333333,22 12,22 C3.66666667,22 2,18.9230769 2,18.9230769 L2,5.07692308 Z M2,13 C2,13 5.33333333,16 12,16 C18.6666667,16 22,13 22,13 M2,7 C2,7 5.33333333,10 12,10 C18.6666667,10 22,7 22,7' })
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Drawer' }, props),
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000000', strokeWidth: '2', d: 'M1,14 L6,2 L18,2 L23,14 L21,22 L3,22 L1,14 Z M1,14 L23,14' })
   );
 };
 
-exports.default = Storage;
+exports.default = Drawer;

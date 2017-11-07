@@ -1469,6 +1469,15 @@ Object.defineProperty(exports, 'Drag', {
   }
 });
 
+var _Drawer = require('./Drawer');
+
+Object.defineProperty(exports, 'Drawer', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Drawer).default;
+  }
+});
+
 var _DriveCage = require('./DriveCage');
 
 Object.defineProperty(exports, 'DriveCage', {
@@ -2762,6 +2771,15 @@ Object.defineProperty(exports, 'Navigate', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Navigate).default;
+  }
+});
+
+var _Network = require('./Network');
+
+Object.defineProperty(exports, 'Network', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Network).default;
   }
 });
 
@@ -4553,6 +4571,15 @@ Object.defineProperty(exports, 'VirtualMachine', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_VirtualMachine).default;
+  }
+});
+
+var _VirtualStorage = require('./VirtualStorage');
+
+Object.defineProperty(exports, 'VirtualStorage', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_VirtualStorage).default;
   }
 });
 
