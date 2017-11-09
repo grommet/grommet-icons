@@ -34,7 +34,6 @@ const StyledIcon = styled.svg`
     *[stroke*="#"],
     *[STROKE*="#"] {
       stroke: inherit;
-      fill: none;
     }
 
     *[fill-rule],
@@ -42,7 +41,6 @@ const StyledIcon = styled.svg`
     *[fill*="#"],
     *[FILL*="#"] {
       fill: inherit;
-      stroke: none;
     }
   `}
 `;
