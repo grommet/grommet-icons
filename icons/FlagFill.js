@@ -14,12 +14,12 @@ var _Icon2 = _interopRequireDefault(_Icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Chat = function Chat(props) {
+var FlagFill = function FlagFill(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Chat' }, props),
-    _react2.default.createElement('path', { fill: 'none', stroke: '#000000', strokeWidth: '2', d: 'M5,1 L19,1 L19,1 C21.209139,1 23,2.790861 23,5 L23,13 L23,13 C23,15.209139 21.209139,17 19,17 L7,17 L1,22 L1,5 L1,5 C1,2.790861 2.790861,1 5,1 Z M5,7 L18,7 M5,11 L14,11', transform: 'matrix(-1 0 0 1 24 0)' })
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'FlagFill' }, props),
+    _react2.default.createElement('path', { fill: '#000000', fillRule: 'evenodd', stroke: '#000000', strokeWidth: '2', d: 'M2,24 L2,2 C10,-1.5238864 13,6.64375708 22,2 L22,14 C14,18.895222 9,9.89651097 2,14' })
   );
 };
 
-exports.default = Chat;
+exports.default = FlagFill;

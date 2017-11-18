@@ -14,12 +14,12 @@ var _Icon2 = _interopRequireDefault(_Icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Chat = function Chat(props) {
+var Projects = function Projects(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Chat' }, props),
-    _react2.default.createElement('path', { fill: 'none', stroke: '#000000', strokeWidth: '2', d: 'M5,1 L19,1 L19,1 C21.209139,1 23,2.790861 23,5 L23,13 L23,13 C23,15.209139 21.209139,17 19,17 L7,17 L1,22 L1,5 L1,5 C1,2.790861 2.790861,1 5,1 Z M5,7 L18,7 M5,11 L14,11', transform: 'matrix(-1 0 0 1 24 0)' })
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Projects' }, props),
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000000', strokeWidth: '2', d: 'M1,1 L9,1 L9,9 L1,9 L1,1 Z M15,1 L23,1 L23,9 L15,9 L15,1 Z M1,15 L9,15 L9,23 L1,23 L1,15 Z M15,15 L23,15 L23,23 L15,23 L15,15 Z' })
   );
 };
 
-exports.default = Chat;
+exports.default = Projects;
