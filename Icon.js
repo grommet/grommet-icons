@@ -54,17 +54,22 @@ var Icon = function (_Component) {
   Icon.prototype.componentWillMount = function componentWillMount() {
     var _this2 = this;
 
-    var subscribe = this.context[_ThemeProvider.CHANNEL];
-    if (typeof subscribe === 'function') {
-      this.unsubscribe = subscribe(function (theme) {
+    var styledContext = this.context[_ThemeProvider.CHANNEL_NEXT];
+    if (styledContext) {
+      var subscribe = styledContext.subscribe;
+
+      this.scSubscriptionId = subscribe(function (theme) {
         return _this2.setState({ theme: theme });
       });
     }
   };
 
   Icon.prototype.componentWillUnmount = function componentWillUnmount() {
-    if (typeof this.unsubscribe === 'function') {
-      this.unsubscribe();
+    var styledContext = this.context[_ThemeProvider.CHANNEL_NEXT];
+    if (this.scSubscriptionId) {
+      var unsubscribe = styledContext.unsubscribe;
+
+      unsubscribe(this.scSubscriptionId);
     }
   };
 
@@ -111,5 +116,5 @@ var Icon = function (_Component) {
 Icon.contextTypes = (_Icon$contextTypes = {
   grommet: _propTypes2.default.object,
   theme: _propTypes2.default.object
-}, _Icon$contextTypes[_ThemeProvider.CHANNEL] = _propTypes2.default.func, _Icon$contextTypes);
+}, _Icon$contextTypes[_ThemeProvider.CHANNEL_NEXT] = _ThemeProvider.CONTEXT_CHANNEL_SHAPE, _Icon$contextTypes);
 exports.default = Icon;

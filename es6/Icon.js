@@ -13,7 +13,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import deepAssign from 'deep-assign';
-import { CHANNEL } from 'styled-components/lib/models/ThemeProvider';
+import { CHANNEL_NEXT, CONTEXT_CHANNEL_SHAPE } from 'styled-components/lib/models/ThemeProvider';
 
 import StyledIcon from './StyledIcon';
 
@@ -37,17 +37,22 @@ var Icon = function (_Component) {
   Icon.prototype.componentWillMount = function componentWillMount() {
     var _this2 = this;
 
-    var subscribe = this.context[CHANNEL];
-    if (typeof subscribe === 'function') {
-      this.unsubscribe = subscribe(function (theme) {
+    var styledContext = this.context[CHANNEL_NEXT];
+    if (styledContext) {
+      var subscribe = styledContext.subscribe;
+
+      this.scSubscriptionId = subscribe(function (theme) {
         return _this2.setState({ theme: theme });
       });
     }
   };
 
   Icon.prototype.componentWillUnmount = function componentWillUnmount() {
-    if (typeof this.unsubscribe === 'function') {
-      this.unsubscribe();
+    var styledContext = this.context[CHANNEL_NEXT];
+    if (this.scSubscriptionId) {
+      var unsubscribe = styledContext.unsubscribe;
+
+      unsubscribe(this.scSubscriptionId);
     }
   };
 
@@ -94,7 +99,7 @@ var Icon = function (_Component) {
 Icon.contextTypes = (_Icon$contextTypes = {
   grommet: PropTypes.object,
   theme: PropTypes.object
-}, _Icon$contextTypes[CHANNEL] = PropTypes.func, _Icon$contextTypes);
+}, _Icon$contextTypes[CHANNEL_NEXT] = CONTEXT_CHANNEL_SHAPE, _Icon$contextTypes);
 
 
 export default Icon;
