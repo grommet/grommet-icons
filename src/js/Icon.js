@@ -19,21 +19,21 @@ class Icon extends Component {
     theme: undefined,
   };
 
-  unsubscribeId: -1;
+  scSubscriptionId: undefined;
 
   componentWillMount() {
     const styledContext = this.context[CHANNEL_NEXT];
-    if (styledContext !== undefined) {
+    if (styledContext) {
       const { subscribe } = styledContext;
-      this.unsubscriberId = subscribe(theme => this.setState({ theme }));
+      this.scSubscriptionId = subscribe(theme => this.setState({ theme }));
     }
   }
 
   componentWillUnmount() {
     const styledContext = this.context[CHANNEL_NEXT];
-    if (styledContext !== undefined && this.unsubscribeId !== -1) {
+    if (this.scSubscriptionId) {
       const { unsubscribe } = styledContext;
-      unsubscribe(this.unsubscribeId);
+      unsubscribe(this.scSubscriptionId);
     }
   }
 
