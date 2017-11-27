@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import deepAssign from 'deep-assign';
-import { CHANNEL } from 'styled-components/lib/models/ThemeProvider';
+import {
+  CHANNEL_NEXT,
+  CONTEXT_CHANNEL_SHAPE,
+} from 'styled-components/lib/models/ThemeProvider';
 
 import StyledIcon from './StyledIcon';
 
@@ -9,23 +12,28 @@ class Icon extends Component {
   static contextTypes = {
     grommet: PropTypes.object,
     theme: PropTypes.object,
-    [CHANNEL]: PropTypes.func,
+    [CHANNEL_NEXT]: CONTEXT_CHANNEL_SHAPE,
   };
 
   state = {
     theme: undefined,
   };
 
+  scSubscriptionId: undefined;
+
   componentWillMount() {
-    const subscribe = this.context[CHANNEL];
-    if (typeof subscribe === 'function') {
-      this.unsubscribe = subscribe(theme => this.setState({ theme }));
+    const styledContext = this.context[CHANNEL_NEXT];
+    if (styledContext) {
+      const { subscribe } = styledContext;
+      this.scSubscriptionId = subscribe(theme => this.setState({ theme }));
     }
   }
 
   componentWillUnmount() {
-    if (typeof this.unsubscribe === 'function') {
-      this.unsubscribe();
+    const styledContext = this.context[CHANNEL_NEXT];
+    if (this.scSubscriptionId) {
+      const { unsubscribe } = styledContext;
+      unsubscribe(this.scSubscriptionId);
     }
   }
 
