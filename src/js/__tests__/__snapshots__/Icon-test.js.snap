@@ -9145,7 +9145,7 @@ exports[`Icon renders all icons 177`] = `
 }
 
 <svg
-  aria-label="Escalaton"
+  aria-label="Escalator"
   className="c0"
   height="24px"
   role="img"
