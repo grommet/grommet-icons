@@ -174,7 +174,7 @@ export { default as Emergency } from './Emergency';
 export { default as Emoji } from './Emoji';
 export { default as EmptyCircle } from './EmptyCircle';
 export { default as Erase } from './Erase';
-export { default as Escalaton } from './Escalaton';
+export { default as Escalator } from './Escalator';
 export { default as Expand } from './Expand';
 export { default as FacebookOption } from './FacebookOption';
 export { default as Facebook } from './Facebook';
