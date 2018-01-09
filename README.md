@@ -2,7 +2,7 @@
 
 # grommet-icons
 
-iconography for grommet apps.
+Iconography for Grommet and React.js
 
 ## Install
 
