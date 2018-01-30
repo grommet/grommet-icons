@@ -27542,10 +27542,10 @@ exports[`Icon with ThemeProvider 1`] = `
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  width: 112px;
-  height: 112px;
-  fill: #888888;
-  stroke: #888888;
+  width: 96px;
+  height: 96px;
+  fill: #666666;
+  stroke: #666666;
 }
 
 .c0 g {

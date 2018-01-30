@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import deepAssign from 'deep-assign';
-import {
-  CHANNEL_NEXT,
-  CONTEXT_CHANNEL_SHAPE,
-} from 'styled-components/lib/models/ThemeProvider';
+import { ThemeProvider } from 'styled-components';
 
 import StyledIcon from './StyledIcon';
+
+const { CHANNEL_NEXT, CONTEXT_CHANNEL_SHAPE } = ThemeProvider;
 
 class Icon extends Component {
   static contextTypes = {
