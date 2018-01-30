@@ -18,7 +18,7 @@ var _deepAssign = require('deep-assign');
 
 var _deepAssign2 = _interopRequireDefault(_deepAssign);
 
-var _ThemeProvider = require('styled-components/lib/models/ThemeProvider');
+var _styledComponents = require('styled-components');
 
 var _StyledIcon = require('./StyledIcon');
 
@@ -33,6 +33,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var CHANNEL_NEXT = _styledComponents.ThemeProvider.CHANNEL_NEXT,
+    CONTEXT_CHANNEL_SHAPE = _styledComponents.ThemeProvider.CONTEXT_CHANNEL_SHAPE;
 
 var Icon = function (_Component) {
   _inherits(Icon, _Component);
@@ -54,7 +57,7 @@ var Icon = function (_Component) {
   Icon.prototype.componentWillMount = function componentWillMount() {
     var _this2 = this;
 
-    var styledContext = this.context[_ThemeProvider.CHANNEL_NEXT];
+    var styledContext = this.context[CHANNEL_NEXT];
     if (styledContext) {
       var subscribe = styledContext.subscribe;
 
@@ -65,7 +68,7 @@ var Icon = function (_Component) {
   };
 
   Icon.prototype.componentWillUnmount = function componentWillUnmount() {
-    var styledContext = this.context[_ThemeProvider.CHANNEL_NEXT];
+    var styledContext = this.context[CHANNEL_NEXT];
     if (this.scSubscriptionId) {
       var unsubscribe = styledContext.unsubscribe;
 
@@ -116,5 +119,5 @@ var Icon = function (_Component) {
 Icon.contextTypes = (_Icon$contextTypes = {
   grommet: _propTypes2.default.object,
   theme: _propTypes2.default.object
-}, _Icon$contextTypes[_ThemeProvider.CHANNEL_NEXT] = _ThemeProvider.CONTEXT_CHANNEL_SHAPE, _Icon$contextTypes);
+}, _Icon$contextTypes[CHANNEL_NEXT] = CONTEXT_CHANNEL_SHAPE, _Icon$contextTypes);
 exports.default = Icon;

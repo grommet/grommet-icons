@@ -13,9 +13,12 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import deepAssign from 'deep-assign';
-import { CHANNEL_NEXT, CONTEXT_CHANNEL_SHAPE } from 'styled-components/lib/models/ThemeProvider';
+import { ThemeProvider } from 'styled-components';
 
 import StyledIcon from './StyledIcon';
+
+var CHANNEL_NEXT = ThemeProvider.CHANNEL_NEXT,
+    CONTEXT_CHANNEL_SHAPE = ThemeProvider.CONTEXT_CHANNEL_SHAPE;
 
 var Icon = function (_Component) {
   _inherits(Icon, _Component);
