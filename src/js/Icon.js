@@ -1,27 +1,30 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import deepAssign from 'deep-assign';
-import { ThemeProvider } from 'styled-components';
 
 import StyledIcon from './StyledIcon';
 
-const { CHANNEL_NEXT, CONTEXT_CHANNEL_SHAPE } = ThemeProvider;
+const SC_CHANNEL = '__styled-components';
+const SC_CHANNEL_SHAPE = PropTypes.shape({
+  subscribe: PropTypes.func,
+  unsubscribe: PropTypes.func,
+});
 
 class Icon extends Component {
   static contextTypes = {
     grommet: PropTypes.object,
     theme: PropTypes.object,
-    [CHANNEL_NEXT]: CONTEXT_CHANNEL_SHAPE,
+    [SC_CHANNEL]: SC_CHANNEL_SHAPE,
   };
 
   state = {
     theme: undefined,
   };
 
-  scSubscriptionId: undefined;
+  scSubscriptionId = undefined;
 
   componentWillMount() {
-    const styledContext = this.context[CHANNEL_NEXT];
+    const styledContext = this.context[SC_CHANNEL];
     if (styledContext) {
       const { subscribe } = styledContext;
       this.scSubscriptionId = subscribe(theme => this.setState({ theme }));
@@ -29,7 +32,7 @@ class Icon extends Component {
   }
 
   componentWillUnmount() {
-    const styledContext = this.context[CHANNEL_NEXT];
+    const styledContext = this.context[SC_CHANNEL];
     if (this.scSubscriptionId) {
       const { unsubscribe } = styledContext;
       unsubscribe(this.scSubscriptionId);
