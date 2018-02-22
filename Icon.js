@@ -18,8 +18,6 @@ var _deepAssign = require('deep-assign');
 
 var _deepAssign2 = _interopRequireDefault(_deepAssign);
 
-var _styledComponents = require('styled-components');
-
 var _StyledIcon = require('./StyledIcon');
 
 var _StyledIcon2 = _interopRequireDefault(_StyledIcon);
@@ -34,8 +32,11 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var CHANNEL_NEXT = _styledComponents.ThemeProvider.CHANNEL_NEXT,
-    CONTEXT_CHANNEL_SHAPE = _styledComponents.ThemeProvider.CONTEXT_CHANNEL_SHAPE;
+var SC_CHANNEL = '__styled-components';
+var SC_CHANNEL_SHAPE = _propTypes2.default.shape({
+  subscribe: _propTypes2.default.func,
+  unsubscribe: _propTypes2.default.func
+});
 
 var Icon = function (_Component) {
   _inherits(Icon, _Component);
@@ -51,13 +52,13 @@ var Icon = function (_Component) {
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, _Component.call.apply(_Component, [this].concat(args))), _this), _this.state = {
       theme: undefined
-    }, _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.scSubscriptionId = undefined, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   Icon.prototype.componentWillMount = function componentWillMount() {
     var _this2 = this;
 
-    var styledContext = this.context[CHANNEL_NEXT];
+    var styledContext = this.context[SC_CHANNEL];
     if (styledContext) {
       var subscribe = styledContext.subscribe;
 
@@ -68,7 +69,7 @@ var Icon = function (_Component) {
   };
 
   Icon.prototype.componentWillUnmount = function componentWillUnmount() {
-    var styledContext = this.context[CHANNEL_NEXT];
+    var styledContext = this.context[SC_CHANNEL];
     if (this.scSubscriptionId) {
       var unsubscribe = styledContext.unsubscribe;
 
@@ -119,5 +120,5 @@ var Icon = function (_Component) {
 Icon.contextTypes = (_Icon$contextTypes = {
   grommet: _propTypes2.default.object,
   theme: _propTypes2.default.object
-}, _Icon$contextTypes[CHANNEL_NEXT] = CONTEXT_CHANNEL_SHAPE, _Icon$contextTypes);
+}, _Icon$contextTypes[SC_CHANNEL] = SC_CHANNEL_SHAPE, _Icon$contextTypes);
 exports.default = Icon;
