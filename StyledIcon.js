@@ -25,7 +25,7 @@ var SIZE_MAP = {
   })
 };
 
-var StyledIcon = /*#__PURE__*/_styledComponents2.default.svg.withConfig({
+var StyledIcon = _styledComponents2.default.svg.withConfig({
   displayName: 'StyledIcon'
 })(['display:inline-block;flex:0 0 auto;', ' ', ''], function (props) {
   return props.size && SIZE_MAP[props.size];
