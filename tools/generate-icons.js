@@ -10,9 +10,9 @@ const outputReactIconFolder = path.resolve('src/js/icons');
 
 const excludeAttributes = /^id$/;
 function getNodeAttributes(node) {
-  return node.$ ? Object.keys(node.$).filter(
-    key => !excludeAttributes.test(key)
-  ).map(attrKey => `${camelCase(attrKey)}='${node.$[attrKey]}'`) : undefined;
+  return node.$ ? Object.keys(node.$).filter(key =>
+    !excludeAttributes.test(key))
+    .map(attrKey => `${camelCase(attrKey)}='${node.$[attrKey]}'`) : undefined;
 }
 function parseNode(node) {
   if (node && !/^(title|defs|desc)$/.test(node['#name'])) {
@@ -82,21 +82,15 @@ fs.readdir(inputSVGFolder, (err, icons) => {
         g => (g.length > 1 ? g[1].toUpperCase() : g.toUpperCase()),
       );
       const content = fs.readFileSync(iconPath, 'utf8');
-      iconImports.push(
-        `export { default as ${pascalCase(fileName)} } from './${pascalCase(fileName)}';`
-      );
+      iconImports.push(`export { default as ${pascalCase(fileName)} } from './${pascalCase(fileName)}';`);
 
       createReactIcon(fileName, content).then((reactIcon) => {
-        const destinationFile = path.resolve(
-          outputReactIconFolder, `${fileName}.js`
-        );
+        const destinationFile = path.resolve(outputReactIconFolder, `${fileName}.js`);
         fs.writeFile(destinationFile, reactIcon);
       });
     }
   });
 
-  const destinationImportFile = path.resolve(
-    outputReactIconFolder, 'index.js'
-  );
+  const destinationImportFile = path.resolve(outputReactIconFolder, 'index.js');
   fs.writeFile(destinationImportFile, `${iconImports.join('\n')}\n`);
 });

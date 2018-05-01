@@ -40,7 +40,9 @@ class Icon extends Component {
   }
 
   render() {
-    const { a11yTitle, children, theme, ...rest } = this.props;
+    const {
+      a11yTitle, children, theme, ...rest
+    } = this.props;
     const { theme: contextTheme, grommet = {} } = this.context;
     const { theme: stateTheme } = this.state;
     return (

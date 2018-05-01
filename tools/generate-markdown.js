@@ -18,9 +18,7 @@ fs.readdir(inputSVGFolder, (err, icons) => {
         /^(.)|(-([a-z0-9]))+/g,
         g => (g.length > 1 ? g[1].toUpperCase() : g.toUpperCase()),
       );
-      iconMDRows.push(
-        `| ${pascalCase(fileName)} | ![${pascalCase(fileName)}](https://rawgithub.com/grommet/grommet-icons/master/public/img/${icon}) |`
-      );
+      iconMDRows.push(`| ${pascalCase(fileName)} | ![${pascalCase(fileName)}](https://rawgithub.com/grommet/grommet-icons/master/public/img/${icon}) |`);
     }
   });
 
