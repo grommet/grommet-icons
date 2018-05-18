@@ -17,8 +17,8 @@ const StyledIcon = styled.svg`
 
   ${props => props.size && SIZE_MAP[props.size]}
   ${props => props.color !== 'plain' && `
-    fill: ${props.theme.color};
-    stroke: ${props.theme.color};
+    fill: ${(props.theme.colors && props.theme.colors[props.color]) || props.theme.color};
+    stroke: ${(props.theme.colors && props.theme.colors[props.color]) || props.theme.color};
 
     g {
       fill: inherit;

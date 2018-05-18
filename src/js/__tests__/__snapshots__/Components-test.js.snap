@@ -478,6 +478,7 @@ Object {
     "_currentRenderer": null,
     "_currentValue": Object {
       "color": "#666666",
+      "colors": Object {},
       "size": Object {
         "large": "48px",
         "xlarge": "96px",
@@ -485,6 +486,7 @@ Object {
     },
     "_defaultValue": Object {
       "color": "#666666",
+      "colors": Object {},
       "size": Object {
         "large": "48px",
         "xlarge": "96px",
