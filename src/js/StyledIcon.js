@@ -2,12 +2,12 @@ import styled, { css } from 'styled-components';
 
 const SIZE_MAP = {
   'large': css`
-    width: ${props => props.theme.icon.size.large};
-    height: ${props => props.theme.icon.size.large};
+    width: ${props => props.theme.size.large};
+    height: ${props => props.theme.size.large};
   `,
   'xlarge': css`
-    width: ${props => props.theme.icon.size.xlarge};
-    height: ${props => props.theme.icon.size.xlarge};
+    width: ${props => props.theme.size.xlarge};
+    height: ${props => props.theme.size.xlarge};
   `,
 };
 
@@ -17,8 +17,8 @@ const StyledIcon = styled.svg`
 
   ${props => props.size && SIZE_MAP[props.size]}
   ${props => props.color !== 'plain' && `
-    fill: ${props.theme.icon.color};
-    stroke: ${props.theme.icon.color};
+    fill: ${props.theme.color};
+    stroke: ${props.theme.color};
 
     g {
       fill: inherit;
@@ -48,5 +48,5 @@ const StyledIcon = styled.svg`
 `;
 
 export default StyledIcon.extend`
-  ${props => props.theme.icon && props.theme.icon.extend}
+  ${props => props.theme && props.theme.extend}
 `;
