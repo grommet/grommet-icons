@@ -830,6 +830,15 @@ Object.defineProperty(exports, 'CoatCheck', {
   }
 });
 
+var _CodeSandbox = require('./CodeSandbox');
+
+Object.defineProperty(exports, 'CodeSandbox', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_CodeSandbox).default;
+  }
+});
+
 var _Code = require('./Code');
 
 Object.defineProperty(exports, 'Code', {

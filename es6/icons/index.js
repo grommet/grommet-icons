@@ -90,6 +90,7 @@ export { default as Cloud } from './Cloud';
 export { default as Cloudlinux } from './Cloudlinux';
 export { default as Cluster } from './Cluster';
 export { default as CoatCheck } from './CoatCheck';
+export { default as CodeSandbox } from './CodeSandbox';
 export { default as Code } from './Code';
 export { default as Codepen } from './Codepen';
 export { default as Columns } from './Columns';
