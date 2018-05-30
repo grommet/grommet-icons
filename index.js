@@ -1,7 +1,7 @@
 'use strict';
 
 exports.__esModule = true;
-exports.Blank = undefined;
+exports.ThemeContext = exports.Blank = undefined;
 
 var _icons = require('./icons');
 
@@ -21,6 +21,15 @@ Object.defineProperty(exports, 'Blank', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Blank).default;
+  }
+});
+
+var _ThemeContext = require('./ThemeContext');
+
+Object.defineProperty(exports, 'ThemeContext', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_ThemeContext).default;
   }
 });
 

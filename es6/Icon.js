@@ -12,9 +12,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import deepAssign from 'deep-assign';
 
 import StyledIcon from './StyledIcon';
+import ThemeContext from './ThemeContext';
 
 var SC_CHANNEL = '__styled-components';
 var SC_CHANNEL_SHAPE = PropTypes.shape({
@@ -25,32 +25,24 @@ var SC_CHANNEL_SHAPE = PropTypes.shape({
 var Icon = function (_Component) {
   _inherits(Icon, _Component);
 
-  function Icon() {
-    var _temp, _this, _ret;
-
+  function Icon(props, context) {
     _classCallCheck(this, Icon);
 
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
+    var _this = _possibleConstructorReturn(this, _Component.call(this, props, context));
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _Component.call.apply(_Component, [this].concat(args))), _this), _this.state = {
-      theme: undefined
-    }, _this.scSubscriptionId = undefined, _temp), _possibleConstructorReturn(_this, _ret);
-  }
+    _this.state = {};
+    _this.scSubscriptionId = undefined;
 
-  Icon.prototype.componentWillMount = function componentWillMount() {
-    var _this2 = this;
-
-    var styledContext = this.context[SC_CHANNEL];
+    var styledContext = context[SC_CHANNEL];
     if (styledContext) {
       var subscribe = styledContext.subscribe;
 
-      this.scSubscriptionId = subscribe(function (theme) {
-        return _this2.setState({ theme: theme });
+      _this.scSubscriptionId = subscribe(function (theme) {
+        return _this.setState({ theme: theme });
       });
     }
-  };
+    return _this;
+  }
 
   Icon.prototype.componentWillUnmount = function componentWillUnmount() {
     var styledContext = this.context[SC_CHANNEL];
@@ -65,46 +57,35 @@ var Icon = function (_Component) {
     var _props = this.props,
         a11yTitle = _props.a11yTitle,
         children = _props.children,
-        theme = _props.theme,
-        rest = _objectWithoutProperties(_props, ['a11yTitle', 'children', 'theme']);
+        rest = _objectWithoutProperties(_props, ['a11yTitle', 'children']);
 
-    var _context = this.context,
-        contextTheme = _context.theme,
-        _context$grommet = _context.grommet,
-        grommet = _context$grommet === undefined ? {} : _context$grommet;
     var stateTheme = this.state.theme;
 
     return React.createElement(
-      StyledIcon,
-      _extends({
-        dark: grommet.dark,
-        width: '24px',
-        height: '24px',
-        viewBox: '0 0 24 24',
-        version: '1.1',
-        role: 'img',
-        'aria-label': a11yTitle,
-        theme: deepAssign({
-          icon: {
-            color: '#666666',
-            size: {
-              large: '48px',
-              xlarge: '96px'
-            }
-          }
-        }, contextTheme, stateTheme, theme)
-      }, rest),
-      children
+      ThemeContext.Consumer,
+      null,
+      function (theme) {
+        return React.createElement(
+          StyledIcon,
+          _extends({
+            width: '24px',
+            height: '24px',
+            viewBox: '0 0 24 24',
+            version: '1.1',
+            role: 'img',
+            'aria-label': a11yTitle,
+            theme: stateTheme || theme
+          }, rest),
+          children
+        );
+      }
     );
   };
 
   return Icon;
 }(Component);
 
-Icon.contextTypes = (_Icon$contextTypes = {
-  grommet: PropTypes.object,
-  theme: PropTypes.object
-}, _Icon$contextTypes[SC_CHANNEL] = SC_CHANNEL_SHAPE, _Icon$contextTypes);
+Icon.contextTypes = (_Icon$contextTypes = {}, _Icon$contextTypes[SC_CHANNEL] = SC_CHANNEL_SHAPE, _Icon$contextTypes);
 
 
 export default Icon;

@@ -1,6 +1,6 @@
 {
   "name": "grommet-icons",
-  "version": "0.16.1",
+  "version": "1.0.0",
   "main": "index.js",
   "module": "es6/index.js",
   "jsnext:main": "es6/index.js",
@@ -29,13 +29,9 @@
     "test-watch": "jest --watchAll"
   },
   "peerDependencies": {
-    "react": ">= 15.3.0 < 16 || 16.x",
-    "react-dom": ">= 15.3.0 < 16 || 16.x",
-    "styled-components": ">= 3.1.1"
-  },
-  "dependencies": {
-    "codeclimate-test-reporter": "^0.5.0",
-    "deep-assign": "^2.0.0"
+    "react": ">= 16.3.2",
+    "react-dom": ">= 16.3.2",
+    "styled-components": ">= 3.2.6"
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
@@ -91,5 +87,8 @@
   "pre-commit": [
     "lint",
     "test"
-  ]
+  ],
+  "dependencies": {
+    "codeclimate-test-reporter": "^0.5.0"
+  }
 }
