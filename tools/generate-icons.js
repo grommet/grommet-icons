@@ -86,11 +86,11 @@ fs.readdir(inputSVGFolder, (err, icons) => {
 
       createReactIcon(fileName, content).then((reactIcon) => {
         const destinationFile = path.resolve(outputReactIconFolder, `${fileName}.js`);
-        fs.writeFile(destinationFile, reactIcon);
+        fs.writeFileSync(destinationFile, reactIcon);
       });
     }
   });
 
   const destinationImportFile = path.resolve(outputReactIconFolder, 'index.js');
-  fs.writeFile(destinationImportFile, `${iconImports.join('\n')}\n`);
+  fs.writeFileSync(destinationImportFile, `${iconImports.join('\n')}\n`);
 });

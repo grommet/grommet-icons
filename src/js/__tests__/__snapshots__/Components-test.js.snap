@@ -96,6 +96,7 @@ Object {
   "Cluster": [Function],
   "CoatCheck": [Function],
   "Code": [Function],
+  "CodeSandbox": [Function],
   "Codepen": [Function],
   "Columns": [Function],
   "Compare": [Function],
