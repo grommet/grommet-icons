@@ -8,7 +8,7 @@ Iconography for Grommet and React.js
 
 `npm install grommet-icons`
 
-or 
+or
 
 `yarn add grommet-icons`
 
@@ -31,62 +31,57 @@ Check this [codesandbox](https://codesandbox.io/s/xvr25oxo4o)
 
 ## Customize
 
-The theme for the icon supports different colors and sizes. The default object is:
+The theme for the icon supports different colors and sizes. The default definition is:
 
 ```
-  icon: {
-    color: '#666666',
-    size: {
-      large: '48px',
-      xlarge: '96px',
-    },
+  color: '#666666',
+  colors: {},
+  size: {
+    large: '48px',
+    xlarge: '96px',
   },
 ```
 
-You can customize by sending a `theme` prop or a `theme` context.
+You can customize sizing and/or colors by specifying your own theme context.
+The `colors` property allows you to use color names. For
+instance: `colors: { brand: '#ff0000' }` would allow you to use
+`<ZoomOut color='brand' />`.
 
 For example:
 
 ```javascript
+  import { ThemeContext } from 'grommet-icons';
+  ...
   const theme = {
-    icon: {
-      color: '#333333'
-    },
+    color: '#333333',
+    colors: { brand: '#ff0000' },
   };
-  <ZoomOut theme={theme} />
+  return (
+    <ThemeContext.Provider value={theme}>
+      <ZoomOut color='brand' />
+    </ThemeContext.Provider>
+  );
+  ...
 ```
 
-or 
+or
 
 ```javascript
+  import { ThemeProvider } from 'styled-components';
+  ...
   const theme = {
-    icon: {
-      color: '#333333'
-    },
+    color: '#333333'
+    colors: { brand: '#ff0000' },
   };
-  <ThemeProvider theme={theme}>
-    <ZoomOut />
-  </ThemeProvider>
+  return (
+    <ThemeProvider theme={theme}>
+      <ZoomOut color='brand' />
+    </ThemeProvider>
+  );
+  ...
 ```
 
-If you need a more advanced customization you can use extend entry:
-
-```javascript
-  const advancedTheme = {
-    icon: {
-      extend: css`
-        ${props => props.color === 'sunny' && `
-          fill: yellow;
-          stroke: yellow;
-        ` }
-      `
-    },
-  };
-  <ThemeProvider theme={theme}>
-    <ZoomOut color='sunny' />
-  </ThemeProvider>
-```
-## Build 
+## Build
 
 To build this library, execute the following commands:
 
