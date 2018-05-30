@@ -466,6 +466,33 @@ Object {
   "TextAlignLeft": [Function],
   "TextAlignRight": [Function],
   "TextWrap": [Function],
+  "ThemeContext": Object {
+    "$$typeof": Symbol(react.context),
+    "Consumer": [Circular],
+    "Provider": Object {
+      "$$typeof": Symbol(react.provider),
+      "_context": [Circular],
+    },
+    "_calculateChangedBits": null,
+    "_changedBits": 0,
+    "_currentRenderer": null,
+    "_currentValue": Object {
+      "color": "#666666",
+      "colors": Object {},
+      "size": Object {
+        "large": "48px",
+        "xlarge": "96px",
+      },
+    },
+    "_defaultValue": Object {
+      "color": "#666666",
+      "colors": Object {},
+      "size": Object {
+        "large": "48px",
+        "xlarge": "96px",
+      },
+    },
+  },
   "Threats": [Function],
   "ThreeD": [Function],
   "ThreeDffects": [Function],
