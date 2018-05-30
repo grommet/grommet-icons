@@ -23,7 +23,7 @@ fs.readdir(inputSVGFolder, (err, icons) => {
   });
 
   del.sync([outputMDFile]);
-  fs.writeFile(
+  fs.writeFileSync(
     outputMDFile,
     `| Name          | Icon           |
 |:-------------:|:-------------:|
