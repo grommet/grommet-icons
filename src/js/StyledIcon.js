@@ -1,21 +1,13 @@
-import styled, { css } from 'styled-components';
-
-const SIZE_MAP = {
-  'large': css`
-    width: ${props => props.theme.size.large};
-    height: ${props => props.theme.size.large};
-  `,
-  'xlarge': css`
-    width: ${props => props.theme.size.xlarge};
-    height: ${props => props.theme.size.xlarge};
-  `,
-};
+import styled from 'styled-components';
 
 const StyledIcon = styled.svg`
   display: inline-block;
   flex: 0 0 auto;
 
-  ${props => props.size && SIZE_MAP[props.size]}
+  ${props => props.size && props.theme && props.theme.size && props.theme.size[props.size] && `
+    width: ${props.theme.size[props.size]};
+    height: ${props.theme.size[props.size]};
+  `}
   ${props => props.color !== 'plain' && `
     fill: ${(props.theme.colors && props.theme.colors[props.color]) || props.theme.color};
     stroke: ${(props.theme.colors && props.theme.colors[props.color]) || props.theme.color};
