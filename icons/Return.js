@@ -14,12 +14,12 @@ var _Icon2 = _interopRequireDefault(_Icon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Projects = function Projects(props) {
+var Return = function Return(props) {
   return _react2.default.createElement(
     _Icon2.default,
-    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Projects' }, props),
-    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,1 L9,1 L9,9 L1,9 L1,1 Z M15,1 L23,1 L23,9 L15,9 L15,1 Z M1,15 L9,15 L9,23 L1,23 L1,15 Z M15,15 L23,15 L23,23 L15,23 L15,15 Z' })
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Return' }, props),
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M9,4 L4,9 L9,14 M18,19 L18,9 L5,9', transform: 'matrix(1 0 0 -1 0 23)' })
   );
 };
 
-exports.default = Projects;
+exports.default = Return;

@@ -146,6 +146,15 @@ Object.defineProperty(exports, 'Analytics', {
   }
 });
 
+var _Anchor = require('./Anchor');
+
+Object.defineProperty(exports, 'Anchor', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Anchor).default;
+  }
+});
+
 var _Android = require('./Android');
 
 Object.defineProperty(exports, 'Android', {
@@ -341,6 +350,15 @@ Object.defineProperty(exports, 'Blog', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Blog).default;
+  }
+});
+
+var _Bluetooth = require('./Bluetooth');
+
+Object.defineProperty(exports, 'Bluetooth', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Bluetooth).default;
   }
 });
 
@@ -863,6 +881,15 @@ Object.defineProperty(exports, 'Columns', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Columns).default;
+  }
+});
+
+var _Command = require('./Command');
+
+Object.defineProperty(exports, 'Command', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Command).default;
   }
 });
 
@@ -3260,6 +3287,15 @@ Object.defineProperty(exports, 'Resume', {
   }
 });
 
+var _Return = require('./Return');
+
+Object.defineProperty(exports, 'Return', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Return).default;
+  }
+});
+
 var _Revert = require('./Revert');
 
 Object.defineProperty(exports, 'Revert', {
@@ -4706,6 +4742,42 @@ Object.defineProperty(exports, 'Wheelchair', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Wheelchair).default;
+  }
+});
+
+var _WifiLow = require('./WifiLow');
+
+Object.defineProperty(exports, 'WifiLow', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_WifiLow).default;
+  }
+});
+
+var _WifiMedium = require('./WifiMedium');
+
+Object.defineProperty(exports, 'WifiMedium', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_WifiMedium).default;
+  }
+});
+
+var _WifiNone = require('./WifiNone');
+
+Object.defineProperty(exports, 'WifiNone', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_WifiNone).default;
+  }
+});
+
+var _Wifi = require('./Wifi');
+
+Object.defineProperty(exports, 'Wifi', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Wifi).default;
   }
 });
 
