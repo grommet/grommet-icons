@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "env",
+    "stage-1",
+    "react"
+  ],
+  "plugins": [
+    ["styled-components", { "useDisplayName": false }]
+  ]
+}
