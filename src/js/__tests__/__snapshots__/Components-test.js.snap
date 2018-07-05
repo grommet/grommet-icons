@@ -474,6 +474,7 @@ Object {
   "ThemeContext": Object {
     "$$typeof": Symbol(react.context),
     "Consumer": [Circular],
+    "Extend": [Function],
     "Provider": Object {
       "$$typeof": Symbol(react.provider),
       "_context": [Circular],
