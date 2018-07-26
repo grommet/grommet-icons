@@ -61,7 +61,7 @@ var Icon = function (_Component) {
   }
 
   Icon.prototype.componentWillUnmount = function componentWillUnmount() {
-    var styledContext = this.context[SC_CHANNEL];
+    var styledContext = this.context[SC_CHANNEL]; // eslint-disable-line
     if (this.scSubscriptionId) {
       var unsubscribe = styledContext.unsubscribe;
 

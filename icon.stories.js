@@ -21,7 +21,10 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var customTheme = {
-  color: '#2196f3'
+  color: '#2196f3',
+  colors: {
+    attention: '#ff3333'
+  }
 };
 
 (0, _react3.storiesOf)('Icon', module).add('Default', function () {
@@ -30,6 +33,16 @@ var customTheme = {
     return null;
   }
   return _react2.default.createElement(Icon, { size: (0, _addonKnobs.text)('Size', 'xlarge') });
+}).add('Color', function () {
+  var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Accessibility')];
+  if (!Icon) {
+    return null;
+  }
+  return _react2.default.createElement(
+    _ThemeContext2.default.Extend,
+    { value: customTheme },
+    _react2.default.createElement(Icon, { size: (0, _addonKnobs.text)('Size', 'xlarge'), color: (0, _addonKnobs.text)('Color', 'attention') })
+  );
 }).add('Custom Theme', function () {
   var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Accessibility')];
   if (!Icon) {
