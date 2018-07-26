@@ -1622,12 +1622,12 @@ Object.defineProperty(exports, 'Erase', {
   }
 });
 
-var _Escalaton = require('./Escalaton');
+var _Escalator = require('./Escalator');
 
-Object.defineProperty(exports, 'Escalaton', {
+Object.defineProperty(exports, 'Escalator', {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_Escalaton).default;
+    return _interopRequireDefault(_Escalator).default;
   }
 });
 
