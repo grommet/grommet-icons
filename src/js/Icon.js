@@ -29,7 +29,7 @@ class Icon extends Component {
   }
 
   componentWillUnmount() {
-    const styledContext = this.context[SC_CHANNEL];
+    const styledContext = this.context[SC_CHANNEL]; // eslint-disable-line
     if (this.scSubscriptionId) {
       const { unsubscribe } = styledContext;
       unsubscribe(this.scSubscriptionId);

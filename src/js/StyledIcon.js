@@ -4,13 +4,17 @@ const StyledIcon = styled.svg`
   display: inline-block;
   flex: 0 0 auto;
 
-  ${props => props.size && props.theme && props.theme.size && props.theme.size[props.size] && `
-    width: ${props.theme.size[props.size]};
-    height: ${props.theme.size[props.size]};
+  ${({ size, theme }) => size && theme && theme.size && theme.size[size] && `
+    width: ${theme.size[size]};
+    height: ${theme.size[size]};
   `}
-  ${props => props.color !== 'plain' && `
-    fill: ${(props.theme.colors && props.theme.colors[props.color]) || props.theme.color};
-    stroke: ${(props.theme.colors && props.theme.colors[props.color]) || props.theme.color};
+  ${({ color, theme }) => color !== 'plain' && `
+    fill: ${color
+      ? (theme.colors && theme.colors[color]) || color
+      : theme.color};
+    stroke: ${color
+      ? (theme.colors && theme.colors[color]) || color
+      : theme.color};
 
     g {
       fill: inherit;
@@ -40,5 +44,5 @@ const StyledIcon = styled.svg`
 `;
 
 export default StyledIcon.extend`
-  ${props => props.theme && props.theme.extend}
+  ${({ theme }) => theme && theme.extend}
 `;

@@ -7,6 +7,9 @@ import ThemeContext from './ThemeContext';
 
 const customTheme = {
   color: '#2196f3',
+  colors: {
+    attention: '#ff3333',
+  },
 };
 
 storiesOf('Icon', module)
@@ -16,6 +19,17 @@ storiesOf('Icon', module)
       return null;
     }
     return <Icon size={text('Size', 'xlarge')} />;
+  })
+  .add('Color', () => {
+    const Icon = Icons[text('Icon', 'Accessibility')];
+    if (!Icon) {
+      return null;
+    }
+    return (
+      <ThemeContext.Extend value={customTheme}>
+        <Icon size={text('Size', 'xlarge')} color={text('Color', 'attention')} />
+      </ThemeContext.Extend>
+    );
   })
   .add('Custom Theme', () => {
     const Icon = Icons[text('Icon', 'Accessibility')];
