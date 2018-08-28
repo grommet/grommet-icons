@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledIcon = styled.svg`
+export const StyledIcon = styled.svg`
   display: inline-block;
   flex: 0 0 auto;
 
@@ -41,8 +41,5 @@ const StyledIcon = styled.svg`
       stroke: none;
     }
   `}
-`;
-
-export default StyledIcon.extend`
   ${({ theme }) => theme && theme.extend}
 `;

@@ -38,15 +38,13 @@ function buildIcon(fileName, svgChildren, viewBox) {
   });
   return `import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-const ${pascalCase(fileName)} = props => (
+export const ${pascalCase(fileName)} = props => (
   <Icon viewBox='${viewBox}' a11yTitle='${pascalCase(fileName)}' {...props}>
     ${children.join('')}
   </Icon>
 );
-
-export default ${pascalCase(fileName)};
 `;
 }
 
@@ -82,7 +80,7 @@ fs.readdir(inputSVGFolder, (err, icons) => {
         g => (g.length > 1 ? g[1].toUpperCase() : g.toUpperCase()),
       );
       const content = fs.readFileSync(iconPath, 'utf8');
-      iconImports.push(`export { default as ${pascalCase(fileName)} } from './${pascalCase(fileName)}';`);
+      iconImports.push(`export * from './${pascalCase(fileName)}';`);
 
       createReactIcon(fileName, content).then((reactIcon) => {
         const destinationFile = path.resolve(outputReactIconFolder, `${fileName}.js`);

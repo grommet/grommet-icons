@@ -50,7 +50,7 @@ instance: `colors: { brand: '#ff0000' }` would allow you to use
 For example:
 
 ```javascript
-  import { ThemeContext } from 'grommet-icons';
+  import { ThemeContext } from 'grommet-icons/contexts';
   ...
   const theme = {
     color: '#333333',

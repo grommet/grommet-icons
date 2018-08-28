@@ -3,9 +3,8 @@ import renderer from 'react-test-renderer';
 import 'jest-styled-components';
 import { ThemeProvider } from 'styled-components';
 
-import Blank from '../Blank';
-import Icon from '../Icon';
-import ThemeContext from '../ThemeContext';
+import { Blank, Icon } from '..';
+import { ThemeContext } from '../contexts';
 
 import * as Icons from '../icons';
 
