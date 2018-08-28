@@ -1,4 +1,4 @@
-export default {
+export const base = {
   color: '#666666',
   colors: {},
   size: {

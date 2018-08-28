@@ -1,9 +1,9 @@
 import React from 'react';
-import defaultTheme from './defaultTheme';
+import { base } from '../themes';
 
-import { deepMerge } from './utils';
+import { deepMerge } from '../utils';
 
-const ThemeContext = React.createContext(defaultTheme);
+export const ThemeContext = React.createContext(base);
 
 ThemeContext.Extend = ({ children, value }) => (
   <ThemeContext.Consumer>
@@ -16,5 +16,3 @@ ThemeContext.Extend = ({ children, value }) => (
     )}
   </ThemeContext.Consumer>
 );
-
-export default ThemeContext;

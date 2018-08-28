@@ -1,7 +1,9 @@
 import path from 'path';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
+import CleanWebpackPlugin from 'clean-webpack-plugin';
 
 const plugins = [
+  new CleanWebpackPlugin(['dist']),
   new CopyWebpackPlugin([
     { from: './README.md' },
     { from: './package.json' },
