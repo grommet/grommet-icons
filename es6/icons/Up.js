@@ -2,14 +2,12 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var Up = function Up(props) {
+export var Up = function Up(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Up' }, props),
     React.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '7.086 1.174 17.086 11.174 7.086 21.174', transform: 'rotate(-89 12.086 11.174)' })
   );
 };
-
-export default Up;

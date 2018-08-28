@@ -1,9 +1,9 @@
 import React from 'react';
-import defaultTheme from './defaultTheme';
+import { base } from '../themes';
 
-import { deepMerge } from './utils';
+import { deepMerge } from '../utils';
 
-var ThemeContext = React.createContext(defaultTheme);
+export var ThemeContext = React.createContext(base);
 
 ThemeContext.Extend = function (_ref) {
   var children = _ref.children,
@@ -22,5 +22,3 @@ ThemeContext.Extend = function (_ref) {
     }
   );
 };
-
-export default ThemeContext;

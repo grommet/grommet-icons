@@ -2,9 +2,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var StrikeThrough = function StrikeThrough(props) {
+export var StrikeThrough = function StrikeThrough(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'StrikeThrough' }, props),
@@ -13,5 +13,3 @@ var StrikeThrough = function StrikeThrough(props) {
     React.createElement('path', { d: 'M8.89,11.21c.21.17.49.36.81.57h4.87c-.48-.29-1.07-.62-1.76-1A12.49,12.49,0,0,1,9.48,8.54,1.93,1.93,0,0,1,9,7.26a2.18,2.18,0,0,1,.77-1.63,2.72,2.72,0,0,1,1.93-.71,4.14,4.14,0,0,1,2,.53,3.78,3.78,0,0,1,1.49,1.43,6.6,6.6,0,0,1,.73,2.42h.41V4h-.41a1.39,1.39,0,0,1-.3.7.67.67,0,0,1-.48.17,2.64,2.64,0,0,1-.89-.28A6.45,6.45,0,0,0,11.68,4,4.49,4.49,0,0,0,8.47,5.21,3.75,3.75,0,0,0,7.21,8a3.57,3.57,0,0,0,.43,1.73A4.72,4.72,0,0,0,8.89,11.21Z' })
   );
 };
-
-export default StrikeThrough;

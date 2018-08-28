@@ -2,9 +2,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var Monospace = function Monospace(props) {
+export var Monospace = function Monospace(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Monospace' }, props),
@@ -14,5 +14,3 @@ var Monospace = function Monospace(props) {
     React.createElement('polygon', { points: '22.17 18 22.17 19.39 12.69 19.39 12.69 18 12.19 18 12.19 19.91 12.45 19.91 12.69 19.91 22.17 19.91 22.67 19.91 22.68 19.91 22.68 18 22.17 18' })
   );
 };
-
-export default Monospace;

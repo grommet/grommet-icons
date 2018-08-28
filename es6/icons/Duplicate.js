@@ -2,14 +2,12 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var Duplicate = function Duplicate(props) {
+export var Duplicate = function Duplicate(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Duplicate' }, props),
     React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M4.5,17 L1,17 L1,1 L1,1 L17,1 L17,4.5 M7,7 L23,7 L23,23 L7,23 L7,7 Z M15,11 L15,19 L15,11 Z M11,15 L19,15 L11,15 Z' })
   );
 };
-
-export default Duplicate;

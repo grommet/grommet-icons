@@ -2,14 +2,12 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var CaretUp = function CaretUp(props) {
+export var CaretUp = function CaretUp(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'CaretUp' }, props),
     React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '22 4 12 16 2 4', transform: 'matrix(1 0 0 -1 0 20)' })
   );
 };
-
-export default CaretUp;

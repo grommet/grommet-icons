@@ -2,9 +2,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var UnorderedList = function UnorderedList(props) {
+export var UnorderedList = function UnorderedList(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'UnorderedList' }, props),
@@ -16,5 +16,3 @@ var UnorderedList = function UnorderedList(props) {
     React.createElement('circle', { cx: '1.85', cy: '17.87', r: '1.52' })
   );
 };
-
-export default UnorderedList;

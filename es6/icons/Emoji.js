@@ -2,9 +2,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var Emoji = function Emoji(props) {
+export var Emoji = function Emoji(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Emoji' }, props),
@@ -14,5 +14,3 @@ var Emoji = function Emoji(props) {
     React.createElement('path', { d: 'M12.19,16.35A6.58,6.58,0,0,1,6.9,13.5a5.71,5.71,0,0,0,5.3,4,5.54,5.54,0,0,0,5.31-4A6.27,6.27,0,0,1,12.19,16.35Z' })
   );
 };
-
-export default Emoji;

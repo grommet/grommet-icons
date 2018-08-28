@@ -2,9 +2,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var Underline = function Underline(props) {
+export var Underline = function Underline(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Underline' }, props),
@@ -12,5 +12,3 @@ var Underline = function Underline(props) {
     React.createElement('path', { d: 'M4.93,20V19H19v1Z' })
   );
 };
-
-export default Underline;

@@ -2,14 +2,12 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var StatusPlaceholderSmall = function StatusPlaceholderSmall(props) {
+export var StatusPlaceholderSmall = function StatusPlaceholderSmall(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 12 12', a11yTitle: 'StatusPlaceholderSmall' }, props),
     React.createElement('rect', { width: '10', height: '10', x: '1', y: '1', fillRule: 'evenodd', stroke: '#000', rx: '1' })
   );
 };
-
-export default StatusPlaceholderSmall;

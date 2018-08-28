@@ -2,14 +2,12 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var FormPrevious = function FormPrevious(props) {
+export var FormPrevious = function FormPrevious(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'FormPrevious' }, props),
     React.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '9 6 15 12 9 18', transform: 'matrix(-1 0 0 1 24 0)' })
   );
 };
-
-export default FormPrevious;

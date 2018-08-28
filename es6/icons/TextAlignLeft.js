@@ -2,9 +2,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var TextAlignLeft = function TextAlignLeft(props) {
+export var TextAlignLeft = function TextAlignLeft(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'TextAlignLeft' }, props),
@@ -14,5 +14,3 @@ var TextAlignLeft = function TextAlignLeft(props) {
     React.createElement('rect', { x: '0.46', y: '18.76', width: '15.81', height: '2.18' })
   );
 };
-
-export default TextAlignLeft;

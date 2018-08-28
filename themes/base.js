@@ -1,7 +1,7 @@
 'use strict';
 
 exports.__esModule = true;
-exports.default = {
+var base = exports.base = {
   color: '#666666',
   colors: {},
   size: {

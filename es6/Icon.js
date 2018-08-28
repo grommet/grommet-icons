@@ -13,8 +13,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import StyledIcon from './StyledIcon';
-import ThemeContext from './ThemeContext';
+import { StyledIcon } from './StyledIcon';
+import { ThemeContext } from './contexts';
 
 var SC_CHANNEL = '__styled-components';
 var SC_CHANNEL_SHAPE = PropTypes.shape({
@@ -88,4 +88,4 @@ var Icon = function (_Component) {
 Icon.contextTypes = (_Icon$contextTypes = {}, _Icon$contextTypes[SC_CHANNEL] = SC_CHANNEL_SHAPE, _Icon$contextTypes);
 
 
-export default Icon;
+export { Icon };

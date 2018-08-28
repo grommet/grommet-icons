@@ -2,14 +2,12 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var StatusWarningSmall = function StatusWarningSmall(props) {
+export var StatusWarningSmall = function StatusWarningSmall(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 12 12', a11yTitle: 'StatusWarningSmall' }, props),
     React.createElement('polygon', { fillRule: 'evenodd', stroke: '#000', strokeLinejoin: 'round', points: '6 1 11 10 1 10' })
   );
 };
-
-export default StatusWarningSmall;

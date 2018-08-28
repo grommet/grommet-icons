@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { text } from '@storybook/addon-knobs';
 
 import * as Icons from './icons';
-import ThemeContext from './ThemeContext';
+import { ThemeContext } from './contexts';
 
 var customTheme = {
   color: '#2196f3',

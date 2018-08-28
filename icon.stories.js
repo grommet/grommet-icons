@@ -12,9 +12,7 @@ var _icons = require('./icons');
 
 var Icons = _interopRequireWildcard(_icons);
 
-var _ThemeContext = require('./ThemeContext');
-
-var _ThemeContext2 = _interopRequireDefault(_ThemeContext);
+var _contexts = require('./contexts');
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -39,7 +37,7 @@ var customTheme = {
     return null;
   }
   return _react2.default.createElement(
-    _ThemeContext2.default.Extend,
+    _contexts.ThemeContext.Extend,
     { value: customTheme },
     _react2.default.createElement(Icon, { size: (0, _addonKnobs.text)('Size', 'xlarge'), color: (0, _addonKnobs.text)('Color', 'attention') })
   );
@@ -49,7 +47,7 @@ var customTheme = {
     return null;
   }
   return _react2.default.createElement(
-    _ThemeContext2.default.Extend,
+    _contexts.ThemeContext.Extend,
     { value: customTheme },
     _react2.default.createElement(Icon, { size: (0, _addonKnobs.text)('Size', 'xlarge') })
   );

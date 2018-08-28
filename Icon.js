@@ -1,6 +1,7 @@
 'use strict';
 
 exports.__esModule = true;
+exports.Icon = undefined;
 
 var _Icon$contextTypes;
 
@@ -16,11 +17,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _StyledIcon = require('./StyledIcon');
 
-var _StyledIcon2 = _interopRequireDefault(_StyledIcon);
-
-var _ThemeContext = require('./ThemeContext');
-
-var _ThemeContext2 = _interopRequireDefault(_ThemeContext);
+var _contexts = require('./contexts');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -78,11 +75,11 @@ var Icon = function (_Component) {
     var stateTheme = this.state.theme;
 
     return _react2.default.createElement(
-      _ThemeContext2.default.Consumer,
+      _contexts.ThemeContext.Consumer,
       null,
       function (theme) {
         return _react2.default.createElement(
-          _StyledIcon2.default,
+          _StyledIcon.StyledIcon,
           _extends({
             width: '24px',
             height: '24px',
@@ -102,4 +99,4 @@ var Icon = function (_Component) {
 }(_react.Component);
 
 Icon.contextTypes = (_Icon$contextTypes = {}, _Icon$contextTypes[SC_CHANNEL] = SC_CHANNEL_SHAPE, _Icon$contextTypes);
-exports.default = Icon;
+exports.Icon = Icon;

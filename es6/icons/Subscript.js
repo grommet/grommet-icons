@@ -2,9 +2,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var Subscript = function Subscript(props) {
+export var Subscript = function Subscript(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Subscript' }, props),
@@ -12,5 +12,3 @@ var Subscript = function Subscript(props) {
     React.createElement('path', { d: 'M22.48,16.68h.33v5.59a1.13,1.13,0,0,0,.06.4.41.41,0,0,0,.17.21.63.63,0,0,0,.28.08h.4v.27H20.76V23l.45,0a.62.62,0,0,0,.29-.1.38.38,0,0,0,.15-.22,1.4,1.4,0,0,0,0-.37V18.42a4.45,4.45,0,0,0,0-.64c0-.15-.1-.23-.24-.23a.82.82,0,0,0-.28,0l-.3.13-.18-.25Z' })
   );
 };
-
-export default Subscript;

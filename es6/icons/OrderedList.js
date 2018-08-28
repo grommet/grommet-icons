@@ -2,9 +2,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var OrderedList = function OrderedList(props) {
+export var OrderedList = function OrderedList(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'OrderedList' }, props),
@@ -16,5 +16,3 @@ var OrderedList = function OrderedList(props) {
     React.createElement('path', { d: 'M2.09,18v-.1a1.88,1.88,0,0,0,.45-.17.67.67,0,0,0,.22-.25.69.69,0,0,0,.09-.34.55.55,0,0,0-.17-.41.58.58,0,0,0-.43-.17.8.8,0,0,0-.68.42l-.11,0A1.72,1.72,0,0,1,2,16.19a1.16,1.16,0,0,1,.71-.24.93.93,0,0,1,.66.24.76.76,0,0,1,.26.57.78.78,0,0,1-.12.41,1,1,0,0,1-.38.35,1.34,1.34,0,0,1,.51.4,1,1,0,0,1,.17.6,1.38,1.38,0,0,1-.44,1A1.62,1.62,0,0,1,2.2,20a1.24,1.24,0,0,1-.71-.16.34.34,0,0,1-.16-.29.32.32,0,0,1,.31-.32.41.41,0,0,1,.18,0l.32.25a.84.84,0,0,0,.52.23A.47.47,0,0,0,3,19.55a.61.61,0,0,0,.15-.42,1.1,1.1,0,0,0-.27-.72A1.42,1.42,0,0,0,2.09,18Z' })
   );
 };
-
-export default OrderedList;

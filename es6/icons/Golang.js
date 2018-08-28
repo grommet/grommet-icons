@@ -2,9 +2,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
-var Golang = function Golang(props) {
+export var Golang = function Golang(props) {
   return React.createElement(
     Icon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Golang' }, props),
@@ -17,5 +17,3 @@ var Golang = function Golang(props) {
     )
   );
 };
-
-export default Golang;

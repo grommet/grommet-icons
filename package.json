@@ -1,9 +1,10 @@
 {
   "name": "grommet-icons",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "index.js",
   "module": "es6/index.js",
   "jsnext:main": "es6/index.js",
+  "sideEffects": false,
   "description": "iconography for grommet apps.",
   "authors": [
     "Alan Souza",
@@ -47,6 +48,7 @@
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-1": "^6.24.1",
     "camel-case": "^3.0.0",
+    "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.5.1",
     "cross-env": "^5.2.0",
     "del": "^3.0.0",

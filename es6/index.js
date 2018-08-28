@@ -1,7 +1,6 @@
-import StyledIcon from './StyledIcon';
-
 export * from './icons';
-export { default as Blank } from './Blank';
-export { default as ThemeContext } from './ThemeContext';
+export * from './themes';
+export * from './contexts';
 
-export default StyledIcon;
+export { Blank } from './Blank';
+export { Icon } from './Icon';

@@ -1,4 +1,4 @@
-export default {
+export var base = {
   color: '#666666',
   colors: {},
   size: {
