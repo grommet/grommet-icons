@@ -10,7 +10,8 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var StyledIcon = exports.StyledIcon = _styledComponents2.default.svg.withConfig({
-  displayName: 'StyledIcon'
+  displayName: 'StyledIcon',
+  componentId: 'ofa7kd-0'
 })(['display:inline-block;flex:0 0 auto;', ' ', ' ', ''], function (_ref) {
   var size = _ref.size,
       theme = _ref.theme;

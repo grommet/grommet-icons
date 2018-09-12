@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export var StyledIcon = styled.svg.withConfig({
-  displayName: 'StyledIcon'
+  displayName: 'StyledIcon',
+  componentId: 'ofa7kd-0'
 })(['display:inline-block;flex:0 0 auto;', ' ', ' ', ''], function (_ref) {
   var size = _ref.size,
       theme = _ref.theme;
