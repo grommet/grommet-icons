@@ -6,7 +6,7 @@ import path from 'path';
 import xml2js from 'xml2js';
 
 const inputSVGFolder = path.resolve('public/img');
-const outputReactIconFolder = path.resolve('src/js/icons');
+const outputReactIconFolder = path.resolve('src/js/icons/components');
 
 const excludeAttributes = /^id$/;
 function getNodeAttributes(node) {

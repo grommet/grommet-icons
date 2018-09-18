@@ -6,7 +6,7 @@ import { ThemeProvider } from 'styled-components';
 import { Blank, Icon } from '..';
 import { ThemeContext } from '../contexts';
 
-import * as Icons from '../icons';
+import * as Icons from '../icons/components';
 
 test('Icon renders', () => {
   const component = renderer.create((
