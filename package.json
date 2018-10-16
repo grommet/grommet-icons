@@ -68,7 +68,7 @@
     "react-dom": "^16.4.1",
     "react-test-renderer": "^16.4.1",
     "simple-git": "^1.96.0",
-    "styled-components": "4.0.0-beta.1",
+    "styled-components": "^4.0.0",
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0",
     "xml2js": "^0.4.19",
@@ -94,6 +94,6 @@
     "test"
   ],
   "dependencies": {
-    "codeclimate-test-reporter": "^0.5.0"
+    "codeclimate-test-reporter": "^0.5.1"
   }
 }

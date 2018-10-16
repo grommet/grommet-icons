@@ -70,7 +70,8 @@ var Icon = function (_Component) {
     var _props = this.props,
         a11yTitle = _props.a11yTitle,
         children = _props.children,
-        rest = _objectWithoutProperties(_props, ['a11yTitle', 'children']);
+        color = _props.color,
+        rest = _objectWithoutProperties(_props, ['a11yTitle', 'children', 'color']);
 
     var stateTheme = this.state.theme;
 
@@ -81,6 +82,7 @@ var Icon = function (_Component) {
         return _react2.default.createElement(
           _StyledIcon.StyledIcon,
           _extends({
+            colorProp: color,
             width: '24px',
             height: '24px',
             viewBox: '0 0 24 24',
