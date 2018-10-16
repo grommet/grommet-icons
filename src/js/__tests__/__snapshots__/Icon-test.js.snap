@@ -28123,7 +28123,6 @@ exports[`Icon with ThemeContext colors 1`] = `
 
 <svg
   className="c0"
-  color="happy"
   height="24px"
   role="img"
   size="xlarge"

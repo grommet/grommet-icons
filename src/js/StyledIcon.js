@@ -8,12 +8,12 @@ export const StyledIcon = styled.svg`
     width: ${theme.size[size]};
     height: ${theme.size[size]};
   `}
-  ${({ color, theme }) => color !== 'plain' && `
-    fill: ${color
-      ? (theme.colors && theme.colors[color]) || color
+  ${({ colorProp, theme }) => colorProp !== 'plain' && `
+    fill: ${colorProp
+      ? (theme.colors && theme.colors[colorProp]) || colorProp
       : theme.color};
-    stroke: ${color
-      ? (theme.colors && theme.colors[color]) || color
+    stroke: ${colorProp
+      ? (theme.colors && theme.colors[colorProp]) || colorProp
       : theme.color};
 
     g {

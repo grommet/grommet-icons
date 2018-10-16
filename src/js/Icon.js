@@ -38,13 +38,14 @@ class Icon extends Component {
 
   render() {
     const {
-      a11yTitle, children, ...rest
+      a11yTitle, children, color, ...rest
     } = this.props;
     const { theme: stateTheme } = this.state;
     return (
       <ThemeContext.Consumer>
         {theme => (
           <StyledIcon
+            colorProp={color}
             width='24px'
             height='24px'
             viewBox='0 0 24 24'
