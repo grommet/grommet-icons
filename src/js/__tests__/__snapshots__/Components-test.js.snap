@@ -488,6 +488,8 @@ Object {
       "colors": Object {},
       "size": Object {
         "large": "48px",
+        "medium": "24px",
+        "small": "12px",
         "xlarge": "96px",
       },
     },
@@ -496,6 +498,8 @@ Object {
       "colors": Object {},
       "size": Object {
         "large": "48px",
+        "medium": "24px",
+        "small": "12px",
         "xlarge": "96px",
       },
     },
@@ -578,6 +582,8 @@ Object {
     "colors": Object {},
     "size": Object {
       "large": "48px",
+      "medium": "24px",
+      "small": "12px",
       "xlarge": "96px",
     },
   },

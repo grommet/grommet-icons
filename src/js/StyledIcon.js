@@ -4,9 +4,9 @@ export const StyledIcon = styled.svg`
   display: inline-block;
   flex: 0 0 auto;
 
-  ${({ size, theme }) => size && theme && theme.size && theme.size[size] && `
-    width: ${theme.size[size]};
-    height: ${theme.size[size]};
+  ${({ size, theme }) => size && `
+    width: ${theme.size[size] || size};
+    height: ${theme.size[size] || size};
   `}
   ${({ colorProp, theme }) => colorProp !== 'plain' && `
     fill: ${colorProp
