@@ -13,8 +13,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { StyledIcon } from './StyledIcon';
-import { ThemeContext } from './contexts';
+import { StyledIcon } from '../StyledIcon';
+import { ThemeContext } from '../contexts';
 
 var SC_CHANNEL = '__styled-components';
 var SC_CHANNEL_SHAPE = PropTypes.shape({
