@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { StyledIcon } from './StyledIcon';
-import { ThemeContext } from './contexts';
+import { StyledIcon } from '../StyledIcon';
+import { ThemeContext } from '../contexts';
 
 const SC_CHANNEL = '__styled-components';
 const SC_CHANNEL_SHAPE = PropTypes.shape({
