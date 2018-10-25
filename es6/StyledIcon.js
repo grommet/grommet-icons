@@ -6,7 +6,7 @@ export var StyledIcon = styled.svg.withConfig({
 })(['display:inline-block;flex:0 0 auto;', ' ', ' ', ''], function (_ref) {
   var size = _ref.size,
       theme = _ref.theme;
-  return size && theme && theme.size && theme.size[size] && '\n    width: ' + theme.size[size] + ';\n    height: ' + theme.size[size] + ';\n  ';
+  return size && '\n    width: ' + (theme.size[size] || size) + ';\n    height: ' + (theme.size[size] || size) + ';\n  ';
 }, function (_ref2) {
   var colorProp = _ref2.colorProp,
       theme = _ref2.theme;
