@@ -5,14 +5,17 @@ sudo: false
 cache:
   directories:
   - node_modules
-install:
-- yarn add codeclimate-test-reporter
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
 script:
 - npm run lint
 - npm run test
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
 after_success:
 - |
-  codeclimate-test-reporter < coverage/lcov.info
   if [ "${TRAVIS_PULL_REQUEST}" = "false" ] && [ "$TRAVIS_BRANCH" = "master" ]; then
     git config --global user.name "Grommet Community Bot"
     git config --global user.email "grommet@hpe.com"

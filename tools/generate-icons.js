@@ -6,7 +6,7 @@ import path from 'path';
 import xml2js from 'xml2js';
 
 const inputSVGFolder = path.resolve('public/img');
-const outputReactIconFolder = path.resolve('src/js/icons/components');
+const outputReactIconFolder = path.resolve('src/js/icons');
 
 const excludeAttributes = /^id$/;
 function getNodeAttributes(node) {
@@ -38,7 +38,7 @@ function buildIcon(fileName, svgChildren, viewBox) {
   });
   return `import React from 'react';
 
-import { Icon } from '../Icon';
+import { Icon } from './Icon';
 
 export const ${pascalCase(fileName)} = props => (
   <Icon viewBox='${viewBox}' a11yTitle='${pascalCase(fileName)}' {...props}>
@@ -88,6 +88,16 @@ fs.readdir(inputSVGFolder, (err, icons) => {
       });
     }
   });
+
+  iconImports.push('export * from \'./Blank\';');
+  iconImports.push('export * from \'./Icon\';');
+
+  fs.copyFileSync(
+    `${path.resolve('./tools/icons')}/Blank.js`, `${outputReactIconFolder}/Blank.js`
+  );
+  fs.copyFileSync(
+    `${path.resolve('./tools/icons')}/Icon.js`, `${outputReactIconFolder}/Icon.js`
+  );
 
   const destinationImportFile = path.resolve(outputReactIconFolder, 'index.js');
   fs.writeFileSync(destinationImportFile, `${iconImports.join('\n')}\n`);

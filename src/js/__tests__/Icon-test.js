@@ -3,10 +3,11 @@ import renderer from 'react-test-renderer';
 import 'jest-styled-components';
 import { ThemeProvider } from 'styled-components';
 
-import { Blank, Icon } from '..';
 import { ThemeContext } from '../contexts';
 
-import * as Icons from '../icons/components';
+import * as Icons from '../icons';
+
+const { Icon } = Icons;
 
 test('Icon renders', () => {
   const component = renderer.create((
@@ -19,7 +20,7 @@ test('Icon renders', () => {
 });
 
 test('Blank icon renders', () => {
-  const component = renderer.create(<Blank />);
+  const component = renderer.create(<Icons.Blank />);
   const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });
