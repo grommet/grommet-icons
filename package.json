@@ -92,8 +92,5 @@
   "pre-commit": [
     "lint",
     "test"
-  ],
-  "dependencies": {
-    "codeclimate-test-reporter": "^0.5.1"
-  }
+  ]
 }

@@ -1,0 +1,22 @@
+'use strict';
+
+exports.__esModule = true;
+exports.VirtualStorage = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Icon = require('./Icon');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var VirtualStorage = exports.VirtualStorage = function VirtualStorage(props) {
+  return _react2.default.createElement(
+    _Icon.Icon,
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'VirtualStorage' }, props),
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000000', strokeWidth: '2', d: 'M12,22 C16.9705627,22 21,19.7614237 21,17 C21,14.2385763 16.9705627,12 12,12 C7.02943725,12 3,14.2385763 3,17 C3,19.7614237 7.02943725,22 12,22 Z M12,17.5 C16.9705627,17.5 21,15.2614237 21,12.5 C21,9.73857625 16.9705627,7.5 12,7.5 C7.02943725,7.5 3,9.73857625 3,12.5 C3,15.2614237 7.02943725,17.5 12,17.5 Z M12,12 C16.9705627,12 21,9.76142375 21,7 C21,4.23857625 16.9705627,2 12,2 C7.02943725,2 3,4.23857625 3,7 C3,9.76142375 7.02943725,12 12,12 Z' })
+  );
+};

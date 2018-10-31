@@ -1,0 +1,22 @@
+'use strict';
+
+exports.__esModule = true;
+exports.Edit = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Icon = require('./Icon');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Edit = exports.Edit = function Edit(props) {
+  return _react2.default.createElement(
+    _Icon.Icon,
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Edit' }, props),
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M14,4 L20,10 L14,4 Z M22.2942268,5.29422684 C22.6840146,5.68401459 22.6812861,6.3187139 22.2864907,6.71350932 L9,20 L2,22 L4,15 L17.2864907,1.71350932 C17.680551,1.319449 18.3127724,1.31277239 18.7057732,1.70577316 L22.2942268,5.29422684 Z M3,19 L5,21 M7,17 L15,9' })
+  );
+};

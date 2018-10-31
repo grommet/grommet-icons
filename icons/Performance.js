@@ -1,0 +1,22 @@
+'use strict';
+
+exports.__esModule = true;
+exports.Performance = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Icon = require('./Icon');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Performance = exports.Performance = function Performance(props) {
+  return _react2.default.createElement(
+    _Icon.Icon,
+    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Performance' }, props),
+    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '2', d: 'M12,19 L10,22 L7,21 L6.5,17.5 L3,17 L2,14 L5,12 L2,10 L3,7 L6.5,6.5 L7,3 L10,2 L12,5 L14,2 L17,3 L17.5,6.5 L21,7 L22,10 L19,12 L22,14 L21,17 L17.5,17.5 L17,21 L14,22 L12,19 Z M12,16 C14.209139,16 16,14.209139 16,12 C16,9.790861 14.209139,8 12,8 C9.790861,8 8,9.790861 8,12 C8,14.209139 9.790861,16 12,16 Z' })
+  );
+};
