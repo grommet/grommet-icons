@@ -5,5 +5,4 @@
 3) Run `npm run generate-icons` to generate the react components from the raw svg files.
 4) Consider adding search metadata to this [file](https://github.com/grommet/grommet-icons/blob/master/src/js/metadata.js) to help finding your new icon.
 5) Run `npm run test-update` to recreate the test snapshot files.
-6) Run `npm run check` to make sure everything is passing (including js linting).
-7) Share with the community by submitting a PR.
+6) Share with the community by submitting a PR.
