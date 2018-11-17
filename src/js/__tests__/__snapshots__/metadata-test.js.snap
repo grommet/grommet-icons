@@ -1190,6 +1190,7 @@ Object {
   "Favorite": Array [
     "heart",
     "like",
+    "favorite",
   ],
   "Fedora": Array [
     "logo",
@@ -2569,10 +2570,12 @@ Object {
   "Star": Array [
     "badge",
     "rating",
+    "star",
   ],
   "StarHalf": Array [
     "badge",
     "rating",
+    "star",
   ],
   "StatusCritical": Array [
     "error",
