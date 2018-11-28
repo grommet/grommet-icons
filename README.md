@@ -91,11 +91,11 @@ To build this library, execute the following commands:
 
   2. Run pack
 
-    $ npm run dist
+    $ npm run build
 
   3. Test and run linters:
 
-    $ npm run check
+    $ npm run lint
 
   4. Generate React icons:
 
