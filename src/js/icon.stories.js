@@ -14,6 +14,9 @@ const customTheme = {
   },
   icon: {
     size: {
+      small: '12px',
+      medium: '24px',
+      large: '48px',
       xlarge: '300px',
     },
   },

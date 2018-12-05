@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 
-import { color as colorStyle } from 'grommet-styles';
+import { colorStyle } from 'grommet-styles';
 
 import { defaultProps } from './default-props';
 
