@@ -38,12 +38,12 @@ function buildIcon(fileName, svgChildren, viewBox) {
   });
   return `import React from 'react';
 
-import { Icon } from './Icon';
+import { StyledIcon } from '../StyledIcon';
 
 export const ${pascalCase(fileName)} = props => (
-  <Icon viewBox='${viewBox}' a11yTitle='${pascalCase(fileName)}' {...props}>
+  <StyledIcon viewBox='${viewBox}' a11yTitle='${pascalCase(fileName)}' {...props}>
     ${children.join('')}
-  </Icon>
+  </StyledIcon>
 );
 `;
 }
@@ -90,13 +90,9 @@ fs.readdir(inputSVGFolder, (err, icons) => {
   });
 
   iconImports.push('export * from \'./Blank\';');
-  iconImports.push('export * from \'./Icon\';');
 
   fs.copyFileSync(
     `${path.resolve('./tools/icons')}/Blank.js`, `${outputReactIconFolder}/Blank.js`
-  );
-  fs.copyFileSync(
-    `${path.resolve('./tools/icons')}/Icon.js`, `${outputReactIconFolder}/Icon.js`
   );
 
   const destinationImportFile = path.resolve(outputReactIconFolder, 'index.js');

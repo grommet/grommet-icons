@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { Icon } from './Icon';
+import { StyledIcon } from '../StyledIcon';
 
 export const StatusGoodSmall = props => (
-  <Icon viewBox='0 0 12 12' a11yTitle='StatusGoodSmall' {...props}>
+  <StyledIcon viewBox='0 0 12 12' a11yTitle='StatusGoodSmall' {...props}>
     <circle cx='6' cy='6' r='5' fillRule='evenodd' stroke='#000' />
-  </Icon>
+  </StyledIcon>
 );

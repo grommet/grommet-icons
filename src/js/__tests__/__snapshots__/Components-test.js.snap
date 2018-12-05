@@ -257,7 +257,6 @@ Object {
   "Hpi": [Function],
   "Html5": [Function],
   "IceCream": [Function],
-  "Icon": [Function],
   "Image": [Function],
   "Impact": [Function],
   "InProgress": [Function],
@@ -472,39 +471,6 @@ Object {
   "TextAlignLeft": [Function],
   "TextAlignRight": [Function],
   "TextWrap": [Function],
-  "ThemeContext": Object {
-    "$$typeof": Symbol(react.context),
-    "Consumer": [Circular],
-    "Extend": [Function],
-    "Provider": Object {
-      "$$typeof": Symbol(react.provider),
-      "_context": [Circular],
-    },
-    "_calculateChangedBits": null,
-    "_currentRenderer": null,
-    "_currentRenderer2": null,
-    "_currentValue": Object {
-      "color": "#666666",
-      "colors": Object {},
-      "size": Object {
-        "large": "48px",
-        "medium": "24px",
-        "small": "12px",
-        "xlarge": "96px",
-      },
-    },
-    "_currentValue2": Object {
-      "color": "#666666",
-      "colors": Object {},
-      "size": Object {
-        "large": "48px",
-        "medium": "24px",
-        "small": "12px",
-        "xlarge": "96px",
-      },
-    },
-    "unstable_read": [Function],
-  },
   "Threats": [Function],
   "ThreeD": [Function],
   "ThreeDffects": [Function],
@@ -578,14 +544,37 @@ Object {
   "ZoomOut": [Function],
   "__esModule": true,
   "base": Object {
-    "color": "#666666",
-    "colors": Object {},
-    "size": Object {
-      "large": "48px",
-      "medium": "24px",
-      "small": "12px",
-      "xlarge": "96px",
+    "global": Object {
+      "colors": Object {
+        "icon": "#666666",
+      },
+    },
+    "icon": Object {
+      "size": Object {
+        "large": "48px",
+        "medium": "24px",
+        "small": "12px",
+        "xlarge": "96px",
+      },
     },
   },
+  "defaultProps": Object {
+    "theme": Object {
+      "global": Object {
+        "colors": Object {
+          "icon": "#666666",
+        },
+      },
+      "icon": Object {
+        "size": Object {
+          "large": "48px",
+          "medium": "24px",
+          "small": "12px",
+          "xlarge": "96px",
+        },
+      },
+    },
+  },
+  "extendDefaultTheme": [Function],
 }
 `;

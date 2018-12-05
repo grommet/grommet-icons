@@ -34,51 +34,42 @@ Check this [codesandbox](https://codesandbox.io/s/xvr25oxo4o)
 The theme for the icon supports different colors and sizes. The default definition is:
 
 ```
-  color: '#666666',
-  colors: {},
-  size: {
-    large: '48px',
-    xlarge: '96px',
-  },
+  global: {
+    colors: {
+      icon: '#666666',
+    },
+    icon: {
+      size: {
+        small: '12px',
+        medium: '24px',
+        large: '48px',
+        xlarge: '96px',
+      },
+      extend: undefined,
+    },
+  }
 ```
 
-You can customize sizing and/or colors by specifying your own theme context.
+You can customize sizing and/or colors by specifying your own theme.
 The `colors` property allows you to use color names. For
 instance: `colors: { brand: '#ff0000' }` would allow you to use
 `<ZoomOut color='brand' />`.
 
-For example:
-
 ```javascript
-  import { ThemeContext } from 'grommet-icons/contexts';
-  ...
-  const theme = {
-    color: '#333333',
-    colors: { brand: '#ff0000' },
-  };
+  import { ThemeProvider } from 'styled-components';
+  import { base, deepMerge } from 'grommet-icons;
+  const theme = deepMerge(base, {
+    global: {
+      colors: {
+        brand: '#ff0000',
+      },
+    },
+  });
   return (
-    <ThemeContext.Provider value={theme}>
+    <ThemeContext.Provider theme={theme}>
       <ZoomOut color='brand' />
     </ThemeContext.Provider>
   );
-  ...
-```
-
-or
-
-```javascript
-  import { ThemeProvider } from 'styled-components';
-  ...
-  const theme = {
-    color: '#333333'
-    colors: { brand: '#ff0000' },
-  };
-  return (
-    <ThemeProvider theme={theme}>
-      <ZoomOut color='brand' />
-    </ThemeProvider>
-  );
-  ...
 ```
 
 ## Build
