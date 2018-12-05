@@ -6,11 +6,11 @@ Iconography for Grommet and React.js
 
 ## Install
 
-`npm install grommet-icons`
+`npm install grommet-icons grommet-styles --save`
 
 or
 
-`yarn add grommet-icons`
+`yarn add grommet-icons grommet-styles`
 
 ## Usage
 
