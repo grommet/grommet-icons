@@ -9,13 +9,13 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Icon = require('./Icon');
+var _StyledIcon = require('../StyledIcon');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Integration = exports.Integration = function Integration(props) {
   return _react2.default.createElement(
-    _Icon.Icon,
+    _StyledIcon.StyledIcon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Integration' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#231F20', strokeWidth: '2', d: 'M5,21 L23,21 L23,9 L5,9 M19,15 L1,15 L1,3 L19,3' })
   );

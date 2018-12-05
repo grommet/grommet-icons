@@ -9,13 +9,13 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Icon = require('./Icon');
+var _StyledIcon = require('../StyledIcon');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Mastercard = exports.Mastercard = function Mastercard(props) {
   return _react2.default.createElement(
-    _Icon.Icon,
+    _StyledIcon.StyledIcon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Mastercard' }, props),
     _react2.default.createElement(
       'g',

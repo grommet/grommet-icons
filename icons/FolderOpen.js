@@ -9,13 +9,13 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Icon = require('./Icon');
+var _StyledIcon = require('../StyledIcon');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var FolderOpen = exports.FolderOpen = function FolderOpen(props) {
   return _react2.default.createElement(
-    _Icon.Icon,
+    _StyledIcon.StyledIcon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'FolderOpen' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M5,2 L11,1.99999998 L13,6 L19,6 L19,10 L5,10 L5,2 Z M2,10 L22,10 L19,22 L5,22 L2,10 Z' })
   );

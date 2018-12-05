@@ -9,13 +9,13 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Icon = require('./Icon');
+var _StyledIcon = require('../StyledIcon');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var UnorderedList = exports.UnorderedList = function UnorderedList(props) {
   return _react2.default.createElement(
-    _Icon.Icon,
+    _StyledIcon.StyledIcon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'UnorderedList' }, props),
     _react2.default.createElement('rect', { x: '5.94', y: '6.42', width: '18.06', height: '1.75' }),
     _react2.default.createElement('rect', { x: '5.94', y: '11.71', width: '18.06', height: '1.75' }),

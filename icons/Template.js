@@ -9,13 +9,13 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Icon = require('./Icon');
+var _StyledIcon = require('../StyledIcon');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Template = exports.Template = function Template(props) {
   return _react2.default.createElement(
-    _Icon.Icon,
+    _StyledIcon.StyledIcon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Template' }, props),
     _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,3 L23,3 L23,21 L1,21 L1,3 Z M1,8 L23,8 M7,8 L7,21' })
   );

@@ -2,8 +2,8 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import { Icon } from './Icon';
+import { StyledIcon } from '../StyledIcon';
 
 export var Blank = function Blank(props) {
-  return React.createElement(Icon, _extends({ viewBox: '0 0 24 24', 'aria-hidden': true }, props));
+  return React.createElement(StyledIcon, _extends({ viewBox: '0 0 24 24', 'aria-hidden': true }, props));
 };

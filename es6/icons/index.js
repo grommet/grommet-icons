@@ -538,4 +538,3 @@ export * from './Youtube';
 export * from './ZoomIn';
 export * from './ZoomOut';
 export * from './Blank';
-export * from './Icon';

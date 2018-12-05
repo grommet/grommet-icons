@@ -2,11 +2,11 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import { Icon } from './Icon';
+import { StyledIcon } from '../StyledIcon';
 
 export var OrderedList = function OrderedList(props) {
   return React.createElement(
-    Icon,
+    StyledIcon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'OrderedList' }, props),
     React.createElement('rect', { x: '5.77', y: '6.42', width: '18.06', height: '1.75' }),
     React.createElement('rect', { x: '5.77', y: '11.71', width: '18.06', height: '1.75' }),

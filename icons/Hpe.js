@@ -9,13 +9,13 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Icon = require('./Icon');
+var _StyledIcon = require('../StyledIcon');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Hpe = exports.Hpe = function Hpe(props) {
   return _react2.default.createElement(
-    _Icon.Icon,
+    _StyledIcon.StyledIcon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Hpe' }, props),
     _react2.default.createElement('rect', { width: '22', height: '6', x: '1', y: '9', fill: 'none', stroke: '#01A982', strokeWidth: '3' })
   );

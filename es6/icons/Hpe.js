@@ -2,11 +2,11 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import { Icon } from './Icon';
+import { StyledIcon } from '../StyledIcon';
 
 export var Hpe = function Hpe(props) {
   return React.createElement(
-    Icon,
+    StyledIcon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Hpe' }, props),
     React.createElement('rect', { width: '22', height: '6', x: '1', y: '9', fill: 'none', stroke: '#01A982', strokeWidth: '3' })
   );

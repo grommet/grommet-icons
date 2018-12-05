@@ -2,11 +2,11 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import { Icon } from './Icon';
+import { StyledIcon } from '../StyledIcon';
 
 export var ThreeDffects = function ThreeDffects(props) {
   return React.createElement(
-    Icon,
+    StyledIcon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'ThreeDffects' }, props),
     React.createElement('polyline', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '11 3 13 3 22 6 22 17 12 20.5 2 17 2 6.5 4 6 13 8.5 11 9 2 6.5' })
   );

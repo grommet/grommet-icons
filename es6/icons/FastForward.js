@@ -2,11 +2,11 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import { Icon } from './Icon';
+import { StyledIcon } from '../StyledIcon';
 
 export var FastForward = function FastForward(props) {
   return React.createElement(
-    Icon,
+    StyledIcon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'FastForward' }, props),
     React.createElement('polygon', { fill: 'none', stroke: '#000', strokeWidth: '2', points: '9 2.059 9 8 1 2.059 1 22.059 9 16 9 22.059 22 12.059' })
   );

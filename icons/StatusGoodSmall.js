@@ -9,13 +9,13 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Icon = require('./Icon');
+var _StyledIcon = require('../StyledIcon');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var StatusGoodSmall = exports.StatusGoodSmall = function StatusGoodSmall(props) {
   return _react2.default.createElement(
-    _Icon.Icon,
+    _StyledIcon.StyledIcon,
     _extends({ viewBox: '0 0 12 12', a11yTitle: 'StatusGoodSmall' }, props),
     _react2.default.createElement('circle', { cx: '6', cy: '6', r: '5', fillRule: 'evenodd', stroke: '#000' })
   );

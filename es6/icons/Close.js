@@ -2,11 +2,11 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 import React from 'react';
 
-import { Icon } from './Icon';
+import { StyledIcon } from '../StyledIcon';
 
 export var Close = function Close(props) {
   return React.createElement(
-    Icon,
+    StyledIcon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'Close' }, props),
     React.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M3,3 L21,21 M3,21 L21,3' })
   );

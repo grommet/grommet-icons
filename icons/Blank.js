@@ -9,10 +9,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Icon = require('./Icon');
+var _StyledIcon = require('../StyledIcon');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Blank = exports.Blank = function Blank(props) {
-  return _react2.default.createElement(_Icon.Icon, _extends({ viewBox: '0 0 24 24', 'aria-hidden': true }, props));
+  return _react2.default.createElement(_StyledIcon.StyledIcon, _extends({ viewBox: '0 0 24 24', 'aria-hidden': true }, props));
 };

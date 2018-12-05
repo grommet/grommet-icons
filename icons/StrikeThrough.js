@@ -9,13 +9,13 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Icon = require('./Icon');
+var _StyledIcon = require('../StyledIcon');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var StrikeThrough = exports.StrikeThrough = function StrikeThrough(props) {
   return _react2.default.createElement(
-    _Icon.Icon,
+    _StyledIcon.StyledIcon,
     _extends({ viewBox: '0 0 24 24', a11yTitle: 'StrikeThrough' }, props),
     _react2.default.createElement('rect', { x: '5.77', y: '12.17', width: '12.46', height: '1.09' }),
     _react2.default.createElement('path', { d: 'M16.7,13.65H12.89c.59.34,1,.6,1.18.74a3.39,3.39,0,0,1,1,1.07,2.38,2.38,0,0,1,.31,1.14,2.3,2.3,0,0,1-.82,1.76,3.18,3.18,0,0,1-2.22.74,4.7,4.7,0,0,1-2.23-.54A3.77,3.77,0,0,1,8.56,17.2a7.41,7.41,0,0,1-.79-2.46H7.36V20h.41a1.35,1.35,0,0,1,.24-.7.59.59,0,0,1,.44-.17,6.5,6.5,0,0,1,1.39.35,12.63,12.63,0,0,0,1.45.41,7.26,7.26,0,0,0,1.25.1A4.87,4.87,0,0,0,16,18.72a4,4,0,0,0,1.34-3A3.8,3.8,0,0,0,16.92,14C16.86,13.87,16.78,13.77,16.7,13.65Z' }),

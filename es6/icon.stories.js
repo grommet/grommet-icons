@@ -2,13 +2,23 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { text } from '@storybook/addon-knobs';
 
+import { ThemeProvider } from 'styled-components';
 import * as Icons from './icons';
-import { ThemeContext } from './contexts';
 
 var customTheme = {
-  color: '#2196f3',
-  colors: {
-    attention: '#ff3333'
+  global: {
+    colors: {
+      icon: '#2196f3',
+      attention: '#ff3333'
+    }
+  },
+  icon: {
+    size: {
+      small: '12px',
+      medium: '24px',
+      large: '48px',
+      xlarge: '300px'
+    }
   }
 };
 
@@ -17,25 +27,27 @@ storiesOf('Icon', module).add('Default', function () {
   if (!Icon) {
     return null;
   }
-  return React.createElement(Icon, { size: text('Size', 'xlarge') });
+  return React.createElement(Icon, null);
 }).add('Color', function () {
   var Icon = Icons[text('Icon', 'Accessibility')];
   if (!Icon) {
     return null;
   }
   return React.createElement(
-    ThemeContext.Extend,
-    { value: customTheme },
+    ThemeProvider,
+    { theme: customTheme },
     React.createElement(Icon, { size: text('Size', 'xlarge'), color: text('Color', 'attention') })
   );
+}).add('Plain', function () {
+  return React.createElement(Icons.Facebook, { color: 'plain' });
 }).add('Custom Theme', function () {
   var Icon = Icons[text('Icon', 'Accessibility')];
   if (!Icon) {
     return null;
   }
   return React.createElement(
-    ThemeContext.Extend,
-    { value: customTheme },
+    ThemeProvider,
+    { theme: customTheme },
     React.createElement(Icon, { size: text('Size', 'xlarge') })
   );
 });
