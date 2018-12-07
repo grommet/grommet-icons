@@ -1,6 +1,6 @@
 {
   "name": "grommet-icons",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "main": "index.js",
   "module": "es6/index.js",
   "jsnext:main": "es6/index.js",
@@ -31,10 +31,12 @@
     "test-watch": "jest --watchAll"
   },
   "peerDependencies": {
-    "grommet-styles": ">= 0.2.0",
     "react": ">= 16.6.0",
     "react-dom": ">= 16.6.0",
     "styled-components": ">= 4.x"
+  },
+  "dependencies": {
+    "grommet-styles": "^0.2.0"
   },
   "devDependencies": {
     "@storybook/addon-knobs": "^3.4.8",
