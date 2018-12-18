@@ -1550,6 +1550,18 @@ Object.keys(_Directions).forEach(function (key) {
   });
 });
 
+var _Disc = require('./Disc');
+
+Object.keys(_Disc).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _Disc[key];
+    }
+  });
+});
+
 var _Dislike = require('./Dislike');
 
 Object.keys(_Dislike).forEach(function (key) {
@@ -3242,6 +3254,18 @@ Object.keys(_Java).forEach(function (key) {
   });
 });
 
+var _Keyboard = require('./Keyboard');
+
+Object.keys(_Keyboard).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _Keyboard[key];
+    }
+  });
+});
+
 var _Language = require('./Language');
 
 Object.keys(_Language).forEach(function (key) {
@@ -4150,6 +4174,54 @@ Object.keys(_Play).forEach(function (key) {
     enumerable: true,
     get: function get() {
       return _Play[key];
+    }
+  });
+});
+
+var _PowerCycle = require('./PowerCycle');
+
+Object.keys(_PowerCycle).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _PowerCycle[key];
+    }
+  });
+});
+
+var _PowerForceShutdown = require('./PowerForceShutdown');
+
+Object.keys(_PowerForceShutdown).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _PowerForceShutdown[key];
+    }
+  });
+});
+
+var _PowerReset = require('./PowerReset');
+
+Object.keys(_PowerReset).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _PowerReset[key];
+    }
+  });
+});
+
+var _PowerShutdown = require('./PowerShutdown');
+
+Object.keys(_PowerShutdown).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _PowerShutdown[key];
     }
   });
 });
