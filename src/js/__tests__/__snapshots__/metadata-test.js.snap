@@ -777,6 +777,10 @@ Object {
     "location",
     "navigation",
   ],
+  "Disc": Array [
+    "cd",
+    "disk",
+  ],
   "Dislike": Array [
     "thumbs",
     "down",
@@ -2137,6 +2141,10 @@ Object {
     "off",
     "switch",
   ],
+  "PowerCycle": Array [],
+  "PowerForceShutdown": Array [],
+  "PowerReset": Array [],
+  "PowerShutdown": Array [],
   "Previous": Array [
     "arrows",
     "back",
