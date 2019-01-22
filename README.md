@@ -57,7 +57,7 @@ instance: `colors: { brand: '#ff0000' }` would allow you to use
 
 ```javascript
   import { ThemeProvider } from 'styled-components';
-  import { base, deepMerge } from 'grommet-icons;
+  import { base, deepMerge } from 'grommet-icons';
   const theme = deepMerge(base, {
     global: {
       colors: {
