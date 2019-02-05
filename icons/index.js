@@ -242,6 +242,18 @@ Object.keys(_Apple).forEach(function (key) {
   });
 });
 
+var _ApppleAppStore = require('./ApppleAppStore');
+
+Object.keys(_ApppleAppStore).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _ApppleAppStore[key];
+    }
+  });
+});
+
 var _Apps = require('./Apps');
 
 Object.keys(_Apps).forEach(function (key) {
@@ -2782,6 +2794,18 @@ Object.keys(_Golang).forEach(function (key) {
     enumerable: true,
     get: function get() {
       return _Golang[key];
+    }
+  });
+});
+
+var _GooglePlay = require('./GooglePlay');
+
+Object.keys(_GooglePlay).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _GooglePlay[key];
     }
   });
 });
