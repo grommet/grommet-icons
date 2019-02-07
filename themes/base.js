@@ -1,7 +1,8 @@
-'use strict';
+"use strict";
 
 exports.__esModule = true;
-var base = exports.base = {
+exports.base = void 0;
+var base = {
   global: {
     colors: {
       icon: '#666666'
@@ -16,3 +17,4 @@ var base = exports.base = {
     }
   }
 };
+exports.base = base;

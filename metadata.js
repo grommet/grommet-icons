@@ -1,7 +1,8 @@
-'use strict';
+"use strict";
 
 exports.__esModule = true;
-exports.default = {
+exports.default = void 0;
+var _default = {
   'Accessibility': ['body', 'disabled', 'disability', 'human', 'person'],
   'Achievement': ['award', 'medal', 'prize', 'trophy', 'winner'],
   'Action': ['connect', 'plug'],
@@ -531,3 +532,4 @@ exports.default = {
   'ZoomIn': ['in', 'plus', 'magnify'],
   'ZoomOut': ['out', 'minus', 'magnify']
 };
+exports.default = _default;

@@ -1,12 +1,8 @@
-'use strict';
+"use strict";
 
 exports.__esModule = true;
+exports.base = void 0;
 
-var _base = require('./base');
+var _base = require("./base");
 
-Object.defineProperty(exports, 'base', {
-  enumerable: true,
-  get: function get() {
-    return _base.base;
-  }
-});
+exports.base = _base.base;

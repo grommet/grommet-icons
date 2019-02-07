@@ -1,22 +1,26 @@
-'use strict';
+"use strict";
 
 exports.__esModule = true;
-exports.Currency = undefined;
+exports.Currency = void 0;
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+var _react = _interopRequireDefault(require("react"));
 
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _StyledIcon = require('../StyledIcon');
+var _StyledIcon = require("../StyledIcon");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Currency = exports.Currency = function Currency(props) {
-  return _react2.default.createElement(
-    _StyledIcon.StyledIcon,
-    _extends({ viewBox: '0 0 24 24', a11yTitle: 'Currency' }, props),
-    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M1,5 L23,5 L23,19 L1,19 L1,5 Z M2,9 L2,9 C3.65685425,9 5,7.65685425 5,6 M2,15 L2,15 C3.65685425,15 5,16.3431458 5,18 M22,9 L22,9 C20.3431458,9 19,7.65685425 19,6 M22,15 L22,15 C20.3431458,15 19,16.3431458 19,18 M12,16 C13.6568542,16 15,14.209139 15,12 C15,9.790861 13.6568542,8 12,8 C10.3431458,8 9,9.790861 9,12 C9,14.209139 10.3431458,16 12,16 Z' })
-  );
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+var Currency = function Currency(props) {
+  return _react.default.createElement(_StyledIcon.StyledIcon, _extends({
+    viewBox: "0 0 24 24",
+    a11yTitle: "Currency"
+  }, props), _react.default.createElement("path", {
+    fill: "none",
+    stroke: "#000",
+    strokeWidth: "2",
+    d: "M1,5 L23,5 L23,19 L1,19 L1,5 Z M2,9 L2,9 C3.65685425,9 5,7.65685425 5,6 M2,15 L2,15 C3.65685425,15 5,16.3431458 5,18 M22,9 L22,9 C20.3431458,9 19,7.65685425 19,6 M22,15 L22,15 C20.3431458,15 19,16.3431458 19,18 M12,16 C13.6568542,16 15,14.209139 15,12 C15,9.790861 13.6568542,8 12,8 C10.3431458,8 9,9.790861 9,12 C9,14.209139 10.3431458,16 12,16 Z"
+  }));
 };
+
+exports.Currency = Currency;

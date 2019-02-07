@@ -1,20 +1,16 @@
-'use strict';
+"use strict";
 
-var _react = require('react');
+var _react = _interopRequireDefault(require("react"));
 
-var _react2 = _interopRequireDefault(_react);
+var _react2 = require("@storybook/react");
 
-var _react3 = require('@storybook/react');
+var _addonKnobs = require("@storybook/addon-knobs");
 
-var _addonKnobs = require('@storybook/addon-knobs');
+var _styledComponents = require("styled-components");
 
-var _styledComponents = require('styled-components');
+var Icons = _interopRequireWildcard(require("./icons"));
 
-var _icons = require('./icons');
-
-var Icons = _interopRequireWildcard(_icons);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -34,33 +30,41 @@ var customTheme = {
     }
   }
 };
-
-(0, _react3.storiesOf)('Icon', module).add('Default', function () {
+(0, _react2.storiesOf)('Icon', module).add('Default', function () {
   var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Accessibility')];
+
   if (!Icon) {
     return null;
   }
-  return _react2.default.createElement(Icon, null);
+
+  return _react.default.createElement(Icon, null);
 }).add('Color', function () {
   var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Accessibility')];
+
   if (!Icon) {
     return null;
   }
-  return _react2.default.createElement(
-    _styledComponents.ThemeProvider,
-    { theme: customTheme },
-    _react2.default.createElement(Icon, { size: (0, _addonKnobs.text)('Size', 'xlarge'), color: (0, _addonKnobs.text)('Color', 'attention') })
-  );
+
+  return _react.default.createElement(_styledComponents.ThemeProvider, {
+    theme: customTheme
+  }, _react.default.createElement(Icon, {
+    size: (0, _addonKnobs.text)('Size', 'xlarge'),
+    color: (0, _addonKnobs.text)('Color', 'attention')
+  }));
 }).add('Plain', function () {
-  return _react2.default.createElement(Icons.Facebook, { color: 'plain' });
+  return _react.default.createElement(Icons.Facebook, {
+    color: "plain"
+  });
 }).add('Custom Theme', function () {
   var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Accessibility')];
+
   if (!Icon) {
     return null;
   }
-  return _react2.default.createElement(
-    _styledComponents.ThemeProvider,
-    { theme: customTheme },
-    _react2.default.createElement(Icon, { size: (0, _addonKnobs.text)('Size', 'xlarge') })
-  );
+
+  return _react.default.createElement(_styledComponents.ThemeProvider, {
+    theme: customTheme
+  }, _react.default.createElement(Icon, {
+    size: (0, _addonKnobs.text)('Size', 'xlarge')
+  }));
 });

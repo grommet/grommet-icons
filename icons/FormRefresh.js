@@ -1,22 +1,26 @@
-'use strict';
+"use strict";
 
 exports.__esModule = true;
-exports.FormRefresh = undefined;
+exports.FormRefresh = void 0;
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+var _react = _interopRequireDefault(require("react"));
 
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _StyledIcon = require('../StyledIcon');
+var _StyledIcon = require("../StyledIcon");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var FormRefresh = exports.FormRefresh = function FormRefresh(props) {
-  return _react2.default.createElement(
-    _StyledIcon.StyledIcon,
-    _extends({ viewBox: '0 0 24 24', a11yTitle: 'FormRefresh' }, props),
-    _react2.default.createElement('path', { fill: 'none', stroke: '#000', strokeWidth: '2', d: 'M17.3333333,9.33333333 C16.3982691,7.36020781 14.3579813,6 12,6 C8.6862915,6 6,8.6862915 6,12 C6,15.3137085 8.6862915,18 12,18 C15.3137085,18 18,15.3137085 18,12 M18.5,6 L18.5,10 L14.5,10' })
-  );
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+var FormRefresh = function FormRefresh(props) {
+  return _react.default.createElement(_StyledIcon.StyledIcon, _extends({
+    viewBox: "0 0 24 24",
+    a11yTitle: "FormRefresh"
+  }, props), _react.default.createElement("path", {
+    fill: "none",
+    stroke: "#000",
+    strokeWidth: "2",
+    d: "M17.3333333,9.33333333 C16.3982691,7.36020781 14.3579813,6 12,6 C8.6862915,6 6,8.6862915 6,12 C6,15.3137085 8.6862915,18 12,18 C15.3137085,18 18,15.3137085 18,12 M18.5,6 L18.5,10 L14.5,10"
+  }));
 };
+
+exports.FormRefresh = FormRefresh;
