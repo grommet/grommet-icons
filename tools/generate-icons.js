@@ -112,10 +112,10 @@ export interface IconProps {
   size?: "small" | "medium" | "large" | "xlarge" | string;
 }
 
-export type IconType = React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
+export type Icon = React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
 
 ${iconNames.map(n => (
-  `export declare const ${n}: IconType;`))
+  `export declare const ${n}: Icon;`))
   .join('\n')}
 `,
   );
