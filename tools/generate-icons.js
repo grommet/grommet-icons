@@ -107,16 +107,16 @@ fs.readdir(inputSVGFolder, (err, icons) => {
     `import * as React from "react";
 
 export interface IconProps {
+  a11yTitle?: string;
   color?: string;
   size?: "small" | "medium" | "large" | "xlarge" | string;
 }
 
-${iconNames.map(n => (
-  `declare const ${n}: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;`))
-  .join('\n')}
+export type Icon = React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
 
-export {
-  ${iconNames.join(',\n  ')}
-}`,
+${iconNames.map(n => (
+  `export declare const ${n}: Icon;`))
+  .join('\n')}
+`,
   );
 });

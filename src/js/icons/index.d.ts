@@ -1,1106 +1,558 @@
 import * as React from "react";
 
 export interface IconProps {
+  a11yTitle?: string;
   color?: string;
   size?: "small" | "medium" | "large" | "xlarge" | string;
 }
 
-declare const Accessibility: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Achievement: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Action: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Actions: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Ad: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const AddCircle: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Add: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Aed: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Aggregate: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const AidOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Aid: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Alarm: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Alert: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Amazon: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Amex: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Analytics: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Anchor: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Android: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Announce: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Apple: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ApppleAppStore: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Apps: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Archive: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Archlinux: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Article: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Aruba: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Ascend: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const AssistListening: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Atm: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Attachment: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Attraction: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Baby: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const BackTen: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const BarChart: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Bar: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Basket: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Bike: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Bitcoin: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const BlockQuote: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Blog: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Bluetooth: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Bold: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Book: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Bookmark: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const BottomCorner: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Braille: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Briefcase: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Brush: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Bug: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Bundle: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Bus: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const BusinessService: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Cafeteria: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Calculator: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Calendar: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Camera: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Capacity: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Car: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CaretDown: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CaretNext: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CaretPrevious: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CaretUp: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Cart: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CatalogOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Catalog: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Centos: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Channel: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ChapterAdd: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ChapterNext: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ChapterPrevious: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ChatOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Chat: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CheckboxSelected: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Checkbox: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Checkmark: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Chrome: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CircleInformation: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CirclePlay: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CircleQuestion: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ClearOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Clear: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Cli: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Clipboard: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Clock: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Clone: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Close: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ClosedCaption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CloudComputer: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CloudDownload: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CloudSoftware: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CloudUpload: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Cloud: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Cloudlinux: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Cluster: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CoatCheck: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CodeSandbox: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Code: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Codepen: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Columns: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Command: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Compare: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Compass: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Compliance: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Configure: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Connect: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Connectivity: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ContactInfo: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Contact: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Contract: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Copy: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CreativeCommons: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const CreditCard: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Css3: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Cube: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Cubes: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Currency: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Cursor: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Cut: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Cycle: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Dashboard: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Database: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Debian: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Deliver: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Deploy: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Descend: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Desktop: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Detach: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Device: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Diamond: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Directions: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Disc: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Dislike: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Docker: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentCloud: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentConfig: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentCsv: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentDownload: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentExcel: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentImage: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentLocked: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentMissing: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentNotes: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentOutlook: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentPdf: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentPerformance: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentPpt: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentRtf: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentSound: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentStore: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentTest: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentText: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentThreat: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentTime: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentTransfer: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentTxt: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentUpdate: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentUpload: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentUser: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentVerified: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentVideo: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentWindows: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentWord: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DocumentZip: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Document: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Domain: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Dos: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Down: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Download: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Drag: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Drawer: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const DriveCage: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Dropbox: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Duplicate: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Dxc: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Edge: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Edit: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Eject: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Elevator: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Emergency: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Emoji: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const EmptyCircle: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Erase: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Escalator: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Expand: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FacebookOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Facebook: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Fan: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FastForward: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Favorite: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Fedora: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Filter: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FingerPrint: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Fireball: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Firefox: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FlagFill: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Flag: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FolderCycle: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FolderOpen: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Folder: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormAdd: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormAttachment: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormCalendar: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormCheckmark: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormClock: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormClose: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormCut: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormDown: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormEdit: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormFilter: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormFolder: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormLocation: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormLock: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormNextLink: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormNext: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormPreviousLink: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormPrevious: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormRefresh: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormSchedule: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormSearch: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormSubtract: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormTrash: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormUp: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormUpload: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormViewHide: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const FormView: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ForwardTen: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Freebsd: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Gallery: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Gamepad: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Gift: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Github: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Globe: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Golang: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const GooglePlay: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const GooglePlus: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const GoogleWallet: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Google: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Gremlin: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Grid: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Grommet: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Group: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Grow: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Hadoop: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Halt: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Help: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Heroku: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const History: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Home: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Horton: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const HostMaintenance: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Host: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Hp: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const HpeLabs: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Hpe: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Hpi: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Html5: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const IceCream: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Image: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Impact: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const InProgress: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Inbox: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Indicator: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Info: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Inherit: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Inspect: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Instagram: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const InstallOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Install: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Integration: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const InternetExplorer: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Italic: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Iteration: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Java: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Keyboard: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Language: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Launch: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Layer: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const License: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Like: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const LineChart: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const LinkBottom: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const LinkDown: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const LinkNext: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const LinkPrevious: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const LinkTop: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const LinkUp: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Link: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const LinkedinOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Linkedin: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Local: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const LocationPin: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Location: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Lock: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Login: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Logout: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Lounge: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Magic: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const MailOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Mail: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Mandriva: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Manual: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const MapLocation: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Map: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Mastercard: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Medium: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Menu: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Microfocus: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Microphone: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Money: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Monitor: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Monospace: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const More: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Multimedia: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Multiple: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Music: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Mysql: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Navigate: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Network: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const NewWindow: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const New: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Next: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Nodes: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Norton: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Note: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Notes: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Notification: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ObjectGroup: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ObjectUngroup: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const OfflineStorage: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Onedrive: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Opera: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Optimize: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Oracle: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const OrderedList: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Organization: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Overview: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Paint: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Pan: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const PauseFill: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Pause: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Paypal: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Performance: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const PersonalComputer: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const PieChart: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const PiedPiper: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Pin: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Pinterest: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Plan: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const PlayFill: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Play: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const PowerCycle: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const PowerForceShutdown: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const PowerReset: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const PowerShutdown: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Power: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Previous: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Print: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ProductHunt: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Projects: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const RadialSelected: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Radial: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Raspberry: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Reactjs: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Reddit: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Redhat: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Redo: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Refresh: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Resources: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Restaurant: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const RestroomMen: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const RestroomWomen: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Restroom: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Resume: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Return: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Revert: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Rewind: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Risk: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Robot: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const RotateLeft: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const RotateRight: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Rss: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Run: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const SafariOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Satellite: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Save: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Scan: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ScheduleNew: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const SchedulePlay: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Schedule: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Schedules: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Sco: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Scorecard: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const SearchAdvanced: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Search: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Secure: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Select: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Selection: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Semantics: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Send: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ServerCluster: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Server: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Servers: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ServicePlay: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Services: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const SettingsOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ShareOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Share: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ShieldSecurity: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Shield: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Shift: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Shop: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Sidebar: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Sign: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Skype: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Slack: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Snapchat: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Solaris: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Sort: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Spa: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Split: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Splits: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Square: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StackOverflow: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Stakeholder: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StarHalf: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Star: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusCriticalSmall: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusCritical: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusDisabledSmall: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusDisabled: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusGoodSmall: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusGood: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusInfoSmall: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusInfo: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusPlaceholderSmall: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusPlaceholder: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusUnknownSmall: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusUnknown: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusWarningSmall: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StatusWarning: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StepsOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Steps: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StopFill: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Stop: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Storage: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StreetView: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const StrikeThrough: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Stripe: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Subscript: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const SubtractCircle: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Subtract: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Superscript: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Support: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Suse: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Swift: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Swim: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Sync: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const System: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const TableAdd: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Table: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Tag: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const TapeOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Tape: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Target: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Task: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Tasks: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Technology: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Template: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Terminal: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const TestDesktop: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Test: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const TextAlignCenter: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const TextAlignFull: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const TextAlignLeft: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const TextAlignRight: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const TextWrap: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Threats: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ThreeDffects: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ThreeD: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Ticket: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Tip: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Toast: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Tools: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Tooltip: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const TopCorner: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Train: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Transaction: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Trash: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const TreeOption: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Tree: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Trigger: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Trophy: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Troubleshoot: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Tty: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Tumblr: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Turbolinux: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Twitter: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Ubuntu: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Underline: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Undo: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Unlink: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Unlock: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const UnorderedList: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Up: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Update: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Upgrade: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Upload: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const UserAdd: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const UserAdmin: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const UserExpert: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const UserFemale: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const UserManager: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const UserNew: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const UserPolice: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const UserSettings: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const UserWorker: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const User: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Validate: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Vend: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Video: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const View: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Vimeo: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const VirtualMachine: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const VirtualStorage: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Visa: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const VmMaintenance: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Vmware: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const VolumeControl: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const VolumeLow: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const VolumeMute: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Volume: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Vulnerability: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Waypoint: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const WheelchairActive: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Wheelchair: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const WifiLow: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const WifiMedium: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const WifiNone: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Wifi: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const WindowsLegacy: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Windows: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Wordpress: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Workshop: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Yoga: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Youtube: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ZoomIn: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const ZoomOut: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
-declare const Blank: React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
+export type Icon = React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
 
-export {
-  Accessibility,
-  Achievement,
-  Action,
-  Actions,
-  Ad,
-  AddCircle,
-  Add,
-  Aed,
-  Aggregate,
-  AidOption,
-  Aid,
-  Alarm,
-  Alert,
-  Amazon,
-  Amex,
-  Analytics,
-  Anchor,
-  Android,
-  Announce,
-  Apple,
-  ApppleAppStore,
-  Apps,
-  Archive,
-  Archlinux,
-  Article,
-  Aruba,
-  Ascend,
-  AssistListening,
-  Atm,
-  Attachment,
-  Attraction,
-  Baby,
-  BackTen,
-  BarChart,
-  Bar,
-  Basket,
-  Bike,
-  Bitcoin,
-  BlockQuote,
-  Blog,
-  Bluetooth,
-  Bold,
-  Book,
-  Bookmark,
-  BottomCorner,
-  Braille,
-  Briefcase,
-  Brush,
-  Bug,
-  Bundle,
-  Bus,
-  BusinessService,
-  Cafeteria,
-  Calculator,
-  Calendar,
-  Camera,
-  Capacity,
-  Car,
-  CaretDown,
-  CaretNext,
-  CaretPrevious,
-  CaretUp,
-  Cart,
-  CatalogOption,
-  Catalog,
-  Centos,
-  Channel,
-  ChapterAdd,
-  ChapterNext,
-  ChapterPrevious,
-  ChatOption,
-  Chat,
-  CheckboxSelected,
-  Checkbox,
-  Checkmark,
-  Chrome,
-  CircleInformation,
-  CirclePlay,
-  CircleQuestion,
-  ClearOption,
-  Clear,
-  Cli,
-  Clipboard,
-  Clock,
-  Clone,
-  Close,
-  ClosedCaption,
-  CloudComputer,
-  CloudDownload,
-  CloudSoftware,
-  CloudUpload,
-  Cloud,
-  Cloudlinux,
-  Cluster,
-  CoatCheck,
-  CodeSandbox,
-  Code,
-  Codepen,
-  Columns,
-  Command,
-  Compare,
-  Compass,
-  Compliance,
-  Configure,
-  Connect,
-  Connectivity,
-  ContactInfo,
-  Contact,
-  Contract,
-  Copy,
-  CreativeCommons,
-  CreditCard,
-  Css3,
-  Cube,
-  Cubes,
-  Currency,
-  Cursor,
-  Cut,
-  Cycle,
-  Dashboard,
-  Database,
-  Debian,
-  Deliver,
-  Deploy,
-  Descend,
-  Desktop,
-  Detach,
-  Device,
-  Diamond,
-  Directions,
-  Disc,
-  Dislike,
-  Docker,
-  DocumentCloud,
-  DocumentConfig,
-  DocumentCsv,
-  DocumentDownload,
-  DocumentExcel,
-  DocumentImage,
-  DocumentLocked,
-  DocumentMissing,
-  DocumentNotes,
-  DocumentOutlook,
-  DocumentPdf,
-  DocumentPerformance,
-  DocumentPpt,
-  DocumentRtf,
-  DocumentSound,
-  DocumentStore,
-  DocumentTest,
-  DocumentText,
-  DocumentThreat,
-  DocumentTime,
-  DocumentTransfer,
-  DocumentTxt,
-  DocumentUpdate,
-  DocumentUpload,
-  DocumentUser,
-  DocumentVerified,
-  DocumentVideo,
-  DocumentWindows,
-  DocumentWord,
-  DocumentZip,
-  Document,
-  Domain,
-  Dos,
-  Down,
-  Download,
-  Drag,
-  Drawer,
-  DriveCage,
-  Dropbox,
-  Duplicate,
-  Dxc,
-  Edge,
-  Edit,
-  Eject,
-  Elevator,
-  Emergency,
-  Emoji,
-  EmptyCircle,
-  Erase,
-  Escalator,
-  Expand,
-  FacebookOption,
-  Facebook,
-  Fan,
-  FastForward,
-  Favorite,
-  Fedora,
-  Filter,
-  FingerPrint,
-  Fireball,
-  Firefox,
-  FlagFill,
-  Flag,
-  FolderCycle,
-  FolderOpen,
-  Folder,
-  FormAdd,
-  FormAttachment,
-  FormCalendar,
-  FormCheckmark,
-  FormClock,
-  FormClose,
-  FormCut,
-  FormDown,
-  FormEdit,
-  FormFilter,
-  FormFolder,
-  FormLocation,
-  FormLock,
-  FormNextLink,
-  FormNext,
-  FormPreviousLink,
-  FormPrevious,
-  FormRefresh,
-  FormSchedule,
-  FormSearch,
-  FormSubtract,
-  FormTrash,
-  FormUp,
-  FormUpload,
-  FormViewHide,
-  FormView,
-  ForwardTen,
-  Freebsd,
-  Gallery,
-  Gamepad,
-  Gift,
-  Github,
-  Globe,
-  Golang,
-  GooglePlay,
-  GooglePlus,
-  GoogleWallet,
-  Google,
-  Gremlin,
-  Grid,
-  Grommet,
-  Group,
-  Grow,
-  Hadoop,
-  Halt,
-  Help,
-  Heroku,
-  History,
-  Home,
-  Horton,
-  HostMaintenance,
-  Host,
-  Hp,
-  HpeLabs,
-  Hpe,
-  Hpi,
-  Html5,
-  IceCream,
-  Image,
-  Impact,
-  InProgress,
-  Inbox,
-  Indicator,
-  Info,
-  Inherit,
-  Inspect,
-  Instagram,
-  InstallOption,
-  Install,
-  Integration,
-  InternetExplorer,
-  Italic,
-  Iteration,
-  Java,
-  Keyboard,
-  Language,
-  Launch,
-  Layer,
-  License,
-  Like,
-  LineChart,
-  LinkBottom,
-  LinkDown,
-  LinkNext,
-  LinkPrevious,
-  LinkTop,
-  LinkUp,
-  Link,
-  LinkedinOption,
-  Linkedin,
-  Local,
-  LocationPin,
-  Location,
-  Lock,
-  Login,
-  Logout,
-  Lounge,
-  Magic,
-  MailOption,
-  Mail,
-  Mandriva,
-  Manual,
-  MapLocation,
-  Map,
-  Mastercard,
-  Medium,
-  Menu,
-  Microfocus,
-  Microphone,
-  Money,
-  Monitor,
-  Monospace,
-  More,
-  Multimedia,
-  Multiple,
-  Music,
-  Mysql,
-  Navigate,
-  Network,
-  NewWindow,
-  New,
-  Next,
-  Nodes,
-  Norton,
-  Note,
-  Notes,
-  Notification,
-  ObjectGroup,
-  ObjectUngroup,
-  OfflineStorage,
-  Onedrive,
-  Opera,
-  Optimize,
-  Oracle,
-  OrderedList,
-  Organization,
-  Overview,
-  Paint,
-  Pan,
-  PauseFill,
-  Pause,
-  Paypal,
-  Performance,
-  PersonalComputer,
-  PieChart,
-  PiedPiper,
-  Pin,
-  Pinterest,
-  Plan,
-  PlayFill,
-  Play,
-  PowerCycle,
-  PowerForceShutdown,
-  PowerReset,
-  PowerShutdown,
-  Power,
-  Previous,
-  Print,
-  ProductHunt,
-  Projects,
-  RadialSelected,
-  Radial,
-  Raspberry,
-  Reactjs,
-  Reddit,
-  Redhat,
-  Redo,
-  Refresh,
-  Resources,
-  Restaurant,
-  RestroomMen,
-  RestroomWomen,
-  Restroom,
-  Resume,
-  Return,
-  Revert,
-  Rewind,
-  Risk,
-  Robot,
-  RotateLeft,
-  RotateRight,
-  Rss,
-  Run,
-  SafariOption,
-  Satellite,
-  Save,
-  Scan,
-  ScheduleNew,
-  SchedulePlay,
-  Schedule,
-  Schedules,
-  Sco,
-  Scorecard,
-  SearchAdvanced,
-  Search,
-  Secure,
-  Select,
-  Selection,
-  Semantics,
-  Send,
-  ServerCluster,
-  Server,
-  Servers,
-  ServicePlay,
-  Services,
-  SettingsOption,
-  ShareOption,
-  Share,
-  ShieldSecurity,
-  Shield,
-  Shift,
-  Shop,
-  Sidebar,
-  Sign,
-  Skype,
-  Slack,
-  Snapchat,
-  Solaris,
-  Sort,
-  Spa,
-  Split,
-  Splits,
-  Square,
-  StackOverflow,
-  Stakeholder,
-  StarHalf,
-  Star,
-  StatusCriticalSmall,
-  StatusCritical,
-  StatusDisabledSmall,
-  StatusDisabled,
-  StatusGoodSmall,
-  StatusGood,
-  StatusInfoSmall,
-  StatusInfo,
-  StatusPlaceholderSmall,
-  StatusPlaceholder,
-  StatusUnknownSmall,
-  StatusUnknown,
-  StatusWarningSmall,
-  StatusWarning,
-  StepsOption,
-  Steps,
-  StopFill,
-  Stop,
-  Storage,
-  StreetView,
-  StrikeThrough,
-  Stripe,
-  Subscript,
-  SubtractCircle,
-  Subtract,
-  Superscript,
-  Support,
-  Suse,
-  Swift,
-  Swim,
-  Sync,
-  System,
-  TableAdd,
-  Table,
-  Tag,
-  TapeOption,
-  Tape,
-  Target,
-  Task,
-  Tasks,
-  Technology,
-  Template,
-  Terminal,
-  TestDesktop,
-  Test,
-  TextAlignCenter,
-  TextAlignFull,
-  TextAlignLeft,
-  TextAlignRight,
-  TextWrap,
-  Threats,
-  ThreeDffects,
-  ThreeD,
-  Ticket,
-  Tip,
-  Toast,
-  Tools,
-  Tooltip,
-  TopCorner,
-  Train,
-  Transaction,
-  Trash,
-  TreeOption,
-  Tree,
-  Trigger,
-  Trophy,
-  Troubleshoot,
-  Tty,
-  Tumblr,
-  Turbolinux,
-  Twitter,
-  Ubuntu,
-  Underline,
-  Undo,
-  Unlink,
-  Unlock,
-  UnorderedList,
-  Up,
-  Update,
-  Upgrade,
-  Upload,
-  UserAdd,
-  UserAdmin,
-  UserExpert,
-  UserFemale,
-  UserManager,
-  UserNew,
-  UserPolice,
-  UserSettings,
-  UserWorker,
-  User,
-  Validate,
-  Vend,
-  Video,
-  View,
-  Vimeo,
-  VirtualMachine,
-  VirtualStorage,
-  Visa,
-  VmMaintenance,
-  Vmware,
-  VolumeControl,
-  VolumeLow,
-  VolumeMute,
-  Volume,
-  Vulnerability,
-  Waypoint,
-  WheelchairActive,
-  Wheelchair,
-  WifiLow,
-  WifiMedium,
-  WifiNone,
-  Wifi,
-  WindowsLegacy,
-  Windows,
-  Wordpress,
-  Workshop,
-  Yoga,
-  Youtube,
-  ZoomIn,
-  ZoomOut,
-  Blank
-}
+export declare const Accessibility: Icon;
+export declare const Achievement: Icon;
+export declare const Action: Icon;
+export declare const Actions: Icon;
+export declare const Ad: Icon;
+export declare const AddCircle: Icon;
+export declare const Add: Icon;
+export declare const Aed: Icon;
+export declare const Aggregate: Icon;
+export declare const AidOption: Icon;
+export declare const Aid: Icon;
+export declare const Alarm: Icon;
+export declare const Alert: Icon;
+export declare const Amazon: Icon;
+export declare const Amex: Icon;
+export declare const Analytics: Icon;
+export declare const Anchor: Icon;
+export declare const Android: Icon;
+export declare const Announce: Icon;
+export declare const Apple: Icon;
+export declare const ApppleAppStore: Icon;
+export declare const Apps: Icon;
+export declare const Archive: Icon;
+export declare const Archlinux: Icon;
+export declare const Article: Icon;
+export declare const Aruba: Icon;
+export declare const Ascend: Icon;
+export declare const AssistListening: Icon;
+export declare const Atm: Icon;
+export declare const Attachment: Icon;
+export declare const Attraction: Icon;
+export declare const Baby: Icon;
+export declare const BackTen: Icon;
+export declare const BarChart: Icon;
+export declare const Bar: Icon;
+export declare const Basket: Icon;
+export declare const Bike: Icon;
+export declare const Bitcoin: Icon;
+export declare const BlockQuote: Icon;
+export declare const Blog: Icon;
+export declare const Bluetooth: Icon;
+export declare const Bold: Icon;
+export declare const Book: Icon;
+export declare const Bookmark: Icon;
+export declare const BottomCorner: Icon;
+export declare const Braille: Icon;
+export declare const Briefcase: Icon;
+export declare const Brush: Icon;
+export declare const Bug: Icon;
+export declare const Bundle: Icon;
+export declare const Bus: Icon;
+export declare const BusinessService: Icon;
+export declare const Cafeteria: Icon;
+export declare const Calculator: Icon;
+export declare const Calendar: Icon;
+export declare const Camera: Icon;
+export declare const Capacity: Icon;
+export declare const Car: Icon;
+export declare const CaretDown: Icon;
+export declare const CaretNext: Icon;
+export declare const CaretPrevious: Icon;
+export declare const CaretUp: Icon;
+export declare const Cart: Icon;
+export declare const CatalogOption: Icon;
+export declare const Catalog: Icon;
+export declare const Centos: Icon;
+export declare const Channel: Icon;
+export declare const ChapterAdd: Icon;
+export declare const ChapterNext: Icon;
+export declare const ChapterPrevious: Icon;
+export declare const ChatOption: Icon;
+export declare const Chat: Icon;
+export declare const CheckboxSelected: Icon;
+export declare const Checkbox: Icon;
+export declare const Checkmark: Icon;
+export declare const Chrome: Icon;
+export declare const CircleInformation: Icon;
+export declare const CirclePlay: Icon;
+export declare const CircleQuestion: Icon;
+export declare const ClearOption: Icon;
+export declare const Clear: Icon;
+export declare const Cli: Icon;
+export declare const Clipboard: Icon;
+export declare const Clock: Icon;
+export declare const Clone: Icon;
+export declare const Close: Icon;
+export declare const ClosedCaption: Icon;
+export declare const CloudComputer: Icon;
+export declare const CloudDownload: Icon;
+export declare const CloudSoftware: Icon;
+export declare const CloudUpload: Icon;
+export declare const Cloud: Icon;
+export declare const Cloudlinux: Icon;
+export declare const Cluster: Icon;
+export declare const CoatCheck: Icon;
+export declare const CodeSandbox: Icon;
+export declare const Code: Icon;
+export declare const Codepen: Icon;
+export declare const Columns: Icon;
+export declare const Command: Icon;
+export declare const Compare: Icon;
+export declare const Compass: Icon;
+export declare const Compliance: Icon;
+export declare const Configure: Icon;
+export declare const Connect: Icon;
+export declare const Connectivity: Icon;
+export declare const ContactInfo: Icon;
+export declare const Contact: Icon;
+export declare const Contract: Icon;
+export declare const Copy: Icon;
+export declare const CreativeCommons: Icon;
+export declare const CreditCard: Icon;
+export declare const Css3: Icon;
+export declare const Cube: Icon;
+export declare const Cubes: Icon;
+export declare const Currency: Icon;
+export declare const Cursor: Icon;
+export declare const Cut: Icon;
+export declare const Cycle: Icon;
+export declare const Dashboard: Icon;
+export declare const Database: Icon;
+export declare const Debian: Icon;
+export declare const Deliver: Icon;
+export declare const Deploy: Icon;
+export declare const Descend: Icon;
+export declare const Desktop: Icon;
+export declare const Detach: Icon;
+export declare const Device: Icon;
+export declare const Diamond: Icon;
+export declare const Directions: Icon;
+export declare const Disc: Icon;
+export declare const Dislike: Icon;
+export declare const Docker: Icon;
+export declare const DocumentCloud: Icon;
+export declare const DocumentConfig: Icon;
+export declare const DocumentCsv: Icon;
+export declare const DocumentDownload: Icon;
+export declare const DocumentExcel: Icon;
+export declare const DocumentImage: Icon;
+export declare const DocumentLocked: Icon;
+export declare const DocumentMissing: Icon;
+export declare const DocumentNotes: Icon;
+export declare const DocumentOutlook: Icon;
+export declare const DocumentPdf: Icon;
+export declare const DocumentPerformance: Icon;
+export declare const DocumentPpt: Icon;
+export declare const DocumentRtf: Icon;
+export declare const DocumentSound: Icon;
+export declare const DocumentStore: Icon;
+export declare const DocumentTest: Icon;
+export declare const DocumentText: Icon;
+export declare const DocumentThreat: Icon;
+export declare const DocumentTime: Icon;
+export declare const DocumentTransfer: Icon;
+export declare const DocumentTxt: Icon;
+export declare const DocumentUpdate: Icon;
+export declare const DocumentUpload: Icon;
+export declare const DocumentUser: Icon;
+export declare const DocumentVerified: Icon;
+export declare const DocumentVideo: Icon;
+export declare const DocumentWindows: Icon;
+export declare const DocumentWord: Icon;
+export declare const DocumentZip: Icon;
+export declare const Document: Icon;
+export declare const Domain: Icon;
+export declare const Dos: Icon;
+export declare const Down: Icon;
+export declare const Download: Icon;
+export declare const Drag: Icon;
+export declare const Drawer: Icon;
+export declare const DriveCage: Icon;
+export declare const Dropbox: Icon;
+export declare const Duplicate: Icon;
+export declare const Dxc: Icon;
+export declare const Edge: Icon;
+export declare const Edit: Icon;
+export declare const Eject: Icon;
+export declare const Elevator: Icon;
+export declare const Emergency: Icon;
+export declare const Emoji: Icon;
+export declare const EmptyCircle: Icon;
+export declare const Erase: Icon;
+export declare const Escalator: Icon;
+export declare const Expand: Icon;
+export declare const FacebookOption: Icon;
+export declare const Facebook: Icon;
+export declare const Fan: Icon;
+export declare const FastForward: Icon;
+export declare const Favorite: Icon;
+export declare const Fedora: Icon;
+export declare const Filter: Icon;
+export declare const FingerPrint: Icon;
+export declare const Fireball: Icon;
+export declare const Firefox: Icon;
+export declare const FlagFill: Icon;
+export declare const Flag: Icon;
+export declare const FolderCycle: Icon;
+export declare const FolderOpen: Icon;
+export declare const Folder: Icon;
+export declare const FormAdd: Icon;
+export declare const FormAttachment: Icon;
+export declare const FormCalendar: Icon;
+export declare const FormCheckmark: Icon;
+export declare const FormClock: Icon;
+export declare const FormClose: Icon;
+export declare const FormCut: Icon;
+export declare const FormDown: Icon;
+export declare const FormEdit: Icon;
+export declare const FormFilter: Icon;
+export declare const FormFolder: Icon;
+export declare const FormLocation: Icon;
+export declare const FormLock: Icon;
+export declare const FormNextLink: Icon;
+export declare const FormNext: Icon;
+export declare const FormPreviousLink: Icon;
+export declare const FormPrevious: Icon;
+export declare const FormRefresh: Icon;
+export declare const FormSchedule: Icon;
+export declare const FormSearch: Icon;
+export declare const FormSubtract: Icon;
+export declare const FormTrash: Icon;
+export declare const FormUp: Icon;
+export declare const FormUpload: Icon;
+export declare const FormViewHide: Icon;
+export declare const FormView: Icon;
+export declare const ForwardTen: Icon;
+export declare const Freebsd: Icon;
+export declare const Gallery: Icon;
+export declare const Gamepad: Icon;
+export declare const Gift: Icon;
+export declare const Github: Icon;
+export declare const Globe: Icon;
+export declare const Golang: Icon;
+export declare const GooglePlay: Icon;
+export declare const GooglePlus: Icon;
+export declare const GoogleWallet: Icon;
+export declare const Google: Icon;
+export declare const Gremlin: Icon;
+export declare const Grid: Icon;
+export declare const Grommet: Icon;
+export declare const Group: Icon;
+export declare const Grow: Icon;
+export declare const Hadoop: Icon;
+export declare const Halt: Icon;
+export declare const Help: Icon;
+export declare const Heroku: Icon;
+export declare const History: Icon;
+export declare const Home: Icon;
+export declare const Horton: Icon;
+export declare const HostMaintenance: Icon;
+export declare const Host: Icon;
+export declare const Hp: Icon;
+export declare const HpeLabs: Icon;
+export declare const Hpe: Icon;
+export declare const Hpi: Icon;
+export declare const Html5: Icon;
+export declare const IceCream: Icon;
+export declare const Image: Icon;
+export declare const Impact: Icon;
+export declare const InProgress: Icon;
+export declare const Inbox: Icon;
+export declare const Indicator: Icon;
+export declare const Info: Icon;
+export declare const Inherit: Icon;
+export declare const Inspect: Icon;
+export declare const Instagram: Icon;
+export declare const InstallOption: Icon;
+export declare const Install: Icon;
+export declare const Integration: Icon;
+export declare const InternetExplorer: Icon;
+export declare const Italic: Icon;
+export declare const Iteration: Icon;
+export declare const Java: Icon;
+export declare const Keyboard: Icon;
+export declare const Language: Icon;
+export declare const Launch: Icon;
+export declare const Layer: Icon;
+export declare const License: Icon;
+export declare const Like: Icon;
+export declare const LineChart: Icon;
+export declare const LinkBottom: Icon;
+export declare const LinkDown: Icon;
+export declare const LinkNext: Icon;
+export declare const LinkPrevious: Icon;
+export declare const LinkTop: Icon;
+export declare const LinkUp: Icon;
+export declare const Link: Icon;
+export declare const LinkedinOption: Icon;
+export declare const Linkedin: Icon;
+export declare const Local: Icon;
+export declare const LocationPin: Icon;
+export declare const Location: Icon;
+export declare const Lock: Icon;
+export declare const Login: Icon;
+export declare const Logout: Icon;
+export declare const Lounge: Icon;
+export declare const Magic: Icon;
+export declare const MailOption: Icon;
+export declare const Mail: Icon;
+export declare const Mandriva: Icon;
+export declare const Manual: Icon;
+export declare const MapLocation: Icon;
+export declare const Map: Icon;
+export declare const Mastercard: Icon;
+export declare const Medium: Icon;
+export declare const Menu: Icon;
+export declare const Microfocus: Icon;
+export declare const Microphone: Icon;
+export declare const Money: Icon;
+export declare const Monitor: Icon;
+export declare const Monospace: Icon;
+export declare const More: Icon;
+export declare const Multimedia: Icon;
+export declare const Multiple: Icon;
+export declare const Music: Icon;
+export declare const Mysql: Icon;
+export declare const Navigate: Icon;
+export declare const Network: Icon;
+export declare const NewWindow: Icon;
+export declare const New: Icon;
+export declare const Next: Icon;
+export declare const Nodes: Icon;
+export declare const Norton: Icon;
+export declare const Note: Icon;
+export declare const Notes: Icon;
+export declare const Notification: Icon;
+export declare const ObjectGroup: Icon;
+export declare const ObjectUngroup: Icon;
+export declare const OfflineStorage: Icon;
+export declare const Onedrive: Icon;
+export declare const Opera: Icon;
+export declare const Optimize: Icon;
+export declare const Oracle: Icon;
+export declare const OrderedList: Icon;
+export declare const Organization: Icon;
+export declare const Overview: Icon;
+export declare const Paint: Icon;
+export declare const Pan: Icon;
+export declare const PauseFill: Icon;
+export declare const Pause: Icon;
+export declare const Paypal: Icon;
+export declare const Performance: Icon;
+export declare const PersonalComputer: Icon;
+export declare const PieChart: Icon;
+export declare const PiedPiper: Icon;
+export declare const Pin: Icon;
+export declare const Pinterest: Icon;
+export declare const Plan: Icon;
+export declare const PlayFill: Icon;
+export declare const Play: Icon;
+export declare const PowerCycle: Icon;
+export declare const PowerForceShutdown: Icon;
+export declare const PowerReset: Icon;
+export declare const PowerShutdown: Icon;
+export declare const Power: Icon;
+export declare const Previous: Icon;
+export declare const Print: Icon;
+export declare const ProductHunt: Icon;
+export declare const Projects: Icon;
+export declare const RadialSelected: Icon;
+export declare const Radial: Icon;
+export declare const Raspberry: Icon;
+export declare const Reactjs: Icon;
+export declare const Reddit: Icon;
+export declare const Redhat: Icon;
+export declare const Redo: Icon;
+export declare const Refresh: Icon;
+export declare const Resources: Icon;
+export declare const Restaurant: Icon;
+export declare const RestroomMen: Icon;
+export declare const RestroomWomen: Icon;
+export declare const Restroom: Icon;
+export declare const Resume: Icon;
+export declare const Return: Icon;
+export declare const Revert: Icon;
+export declare const Rewind: Icon;
+export declare const Risk: Icon;
+export declare const Robot: Icon;
+export declare const RotateLeft: Icon;
+export declare const RotateRight: Icon;
+export declare const Rss: Icon;
+export declare const Run: Icon;
+export declare const SafariOption: Icon;
+export declare const Satellite: Icon;
+export declare const Save: Icon;
+export declare const Scan: Icon;
+export declare const ScheduleNew: Icon;
+export declare const SchedulePlay: Icon;
+export declare const Schedule: Icon;
+export declare const Schedules: Icon;
+export declare const Sco: Icon;
+export declare const Scorecard: Icon;
+export declare const SearchAdvanced: Icon;
+export declare const Search: Icon;
+export declare const Secure: Icon;
+export declare const Select: Icon;
+export declare const Selection: Icon;
+export declare const Semantics: Icon;
+export declare const Send: Icon;
+export declare const ServerCluster: Icon;
+export declare const Server: Icon;
+export declare const Servers: Icon;
+export declare const ServicePlay: Icon;
+export declare const Services: Icon;
+export declare const SettingsOption: Icon;
+export declare const ShareOption: Icon;
+export declare const Share: Icon;
+export declare const ShieldSecurity: Icon;
+export declare const Shield: Icon;
+export declare const Shift: Icon;
+export declare const Shop: Icon;
+export declare const Sidebar: Icon;
+export declare const Sign: Icon;
+export declare const Skype: Icon;
+export declare const Slack: Icon;
+export declare const Snapchat: Icon;
+export declare const Solaris: Icon;
+export declare const Sort: Icon;
+export declare const Spa: Icon;
+export declare const Split: Icon;
+export declare const Splits: Icon;
+export declare const Square: Icon;
+export declare const StackOverflow: Icon;
+export declare const Stakeholder: Icon;
+export declare const StarHalf: Icon;
+export declare const Star: Icon;
+export declare const StatusCriticalSmall: Icon;
+export declare const StatusCritical: Icon;
+export declare const StatusDisabledSmall: Icon;
+export declare const StatusDisabled: Icon;
+export declare const StatusGoodSmall: Icon;
+export declare const StatusGood: Icon;
+export declare const StatusInfoSmall: Icon;
+export declare const StatusInfo: Icon;
+export declare const StatusPlaceholderSmall: Icon;
+export declare const StatusPlaceholder: Icon;
+export declare const StatusUnknownSmall: Icon;
+export declare const StatusUnknown: Icon;
+export declare const StatusWarningSmall: Icon;
+export declare const StatusWarning: Icon;
+export declare const StepsOption: Icon;
+export declare const Steps: Icon;
+export declare const StopFill: Icon;
+export declare const Stop: Icon;
+export declare const Storage: Icon;
+export declare const StreetView: Icon;
+export declare const StrikeThrough: Icon;
+export declare const Stripe: Icon;
+export declare const Subscript: Icon;
+export declare const SubtractCircle: Icon;
+export declare const Subtract: Icon;
+export declare const Superscript: Icon;
+export declare const Support: Icon;
+export declare const Suse: Icon;
+export declare const Swift: Icon;
+export declare const Swim: Icon;
+export declare const Sync: Icon;
+export declare const System: Icon;
+export declare const TableAdd: Icon;
+export declare const Table: Icon;
+export declare const Tag: Icon;
+export declare const TapeOption: Icon;
+export declare const Tape: Icon;
+export declare const Target: Icon;
+export declare const Task: Icon;
+export declare const Tasks: Icon;
+export declare const Technology: Icon;
+export declare const Template: Icon;
+export declare const Terminal: Icon;
+export declare const TestDesktop: Icon;
+export declare const Test: Icon;
+export declare const TextAlignCenter: Icon;
+export declare const TextAlignFull: Icon;
+export declare const TextAlignLeft: Icon;
+export declare const TextAlignRight: Icon;
+export declare const TextWrap: Icon;
+export declare const Threats: Icon;
+export declare const ThreeDffects: Icon;
+export declare const ThreeD: Icon;
+export declare const Ticket: Icon;
+export declare const Tip: Icon;
+export declare const Toast: Icon;
+export declare const Tools: Icon;
+export declare const Tooltip: Icon;
+export declare const TopCorner: Icon;
+export declare const Train: Icon;
+export declare const Transaction: Icon;
+export declare const Trash: Icon;
+export declare const TreeOption: Icon;
+export declare const Tree: Icon;
+export declare const Trigger: Icon;
+export declare const Trophy: Icon;
+export declare const Troubleshoot: Icon;
+export declare const Tty: Icon;
+export declare const Tumblr: Icon;
+export declare const Turbolinux: Icon;
+export declare const Twitter: Icon;
+export declare const Ubuntu: Icon;
+export declare const Underline: Icon;
+export declare const Undo: Icon;
+export declare const Unlink: Icon;
+export declare const Unlock: Icon;
+export declare const UnorderedList: Icon;
+export declare const Up: Icon;
+export declare const Update: Icon;
+export declare const Upgrade: Icon;
+export declare const Upload: Icon;
+export declare const UserAdd: Icon;
+export declare const UserAdmin: Icon;
+export declare const UserExpert: Icon;
+export declare const UserFemale: Icon;
+export declare const UserManager: Icon;
+export declare const UserNew: Icon;
+export declare const UserPolice: Icon;
+export declare const UserSettings: Icon;
+export declare const UserWorker: Icon;
+export declare const User: Icon;
+export declare const Validate: Icon;
+export declare const Vend: Icon;
+export declare const Video: Icon;
+export declare const View: Icon;
+export declare const Vimeo: Icon;
+export declare const VirtualMachine: Icon;
+export declare const VirtualStorage: Icon;
+export declare const Visa: Icon;
+export declare const VmMaintenance: Icon;
+export declare const Vmware: Icon;
+export declare const VolumeControl: Icon;
+export declare const VolumeLow: Icon;
+export declare const VolumeMute: Icon;
+export declare const Volume: Icon;
+export declare const Vulnerability: Icon;
+export declare const Waypoint: Icon;
+export declare const WheelchairActive: Icon;
+export declare const Wheelchair: Icon;
+export declare const WifiLow: Icon;
+export declare const WifiMedium: Icon;
+export declare const WifiNone: Icon;
+export declare const Wifi: Icon;
+export declare const WindowsLegacy: Icon;
+export declare const Windows: Icon;
+export declare const Wordpress: Icon;
+export declare const Workshop: Icon;
+export declare const Yoga: Icon;
+export declare const Youtube: Icon;
+export declare const ZoomIn: Icon;
+export declare const ZoomOut: Icon;
+export declare const Blank: Icon;
