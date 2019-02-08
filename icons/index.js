@@ -135,18 +135,18 @@ Object.keys(_Announce).forEach(function (key) {
   exports[key] = _Announce[key];
 });
 
+var _AppleAppStore = require("./AppleAppStore");
+
+Object.keys(_AppleAppStore).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _AppleAppStore[key];
+});
+
 var _Apple = require("./Apple");
 
 Object.keys(_Apple).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _Apple[key];
-});
-
-var _ApppleAppStore = require("./ApppleAppStore");
-
-Object.keys(_ApppleAppStore).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  exports[key] = _ApppleAppStore[key];
 });
 
 var _Apps = require("./Apps");
