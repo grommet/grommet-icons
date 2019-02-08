@@ -2,14 +2,15 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Schedule = function Schedule(props) {
+export var List = function List(props) {
   return React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
-    a11yTitle: "Schedule"
+    a11yTitle: "List"
   }, props), React.createElement("path", {
     fill: "none",
     stroke: "#000",
+    strokeLinecap: "round",
     strokeWidth: "2",
-    d: "M1,23 L23,23 L23,4 L1,4 L1,23 Z M18,4 L18,0 L18,4 Z M6,4 L6,0 L6,4 Z M1,8.5 L23,8.5 L1,8.5 Z M6,14 C6.55643465,12.6666667 7.38976798,12 8.5,12 C9.7998158,12 10.5,13 10.5,14 C10.5,15 9.5,16 8.5,17 C8.11410094,17.3858991 7.44743428,18.0525657 6.5,19 L6.5,19.5 L11.9045742,19.5 M16.984409,20.5 L17,12 L16.5,12 C16,13.5 14.5,14 13.7573,14"
+    d: "M9,6 L21,6 M9,12 L21,12 M9,18 L17,18 M4,7 C4.55228475,7 5,6.55228475 5,6 C5,5.44771525 4.55228475,5 4,5 C3.44771525,5 3,5.44771525 3,6 C3,6.55228475 3.44771525,7 4,7 Z M4,13 C4.55228475,13 5,12.5522847 5,12 C5,11.4477153 4.55228475,11 4,11 C3.44771525,11 3,11.4477153 3,12 C3,12.5522847 3.44771525,13 4,13 Z M4,19 C4.55228475,19 5,18.5522847 5,18 C5,17.4477153 4.55228475,17 4,17 C3.44771525,17 3,17.4477153 3,18 C3,18.5522847 3.44771525,19 4,19 Z"
   }));
 };

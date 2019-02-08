@@ -1,7 +1,7 @@
 "use strict";
 
 exports.__esModule = true;
-exports.Schedule = void 0;
+exports.Phone = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -11,16 +11,16 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-var Schedule = function Schedule(props) {
+var Phone = function Phone(props) {
   return _react.default.createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
-    a11yTitle: "Schedule"
+    a11yTitle: "Phone"
   }, props), _react.default.createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M1,23 L23,23 L23,4 L1,4 L1,23 Z M18,4 L18,0 L18,4 Z M6,4 L6,0 L6,4 Z M1,8.5 L23,8.5 L1,8.5 Z M6,14 C6.55643465,12.6666667 7.38976798,12 8.5,12 C9.7998158,12 10.5,13 10.5,14 C10.5,15 9.5,16 8.5,17 C8.11410094,17.3858991 7.44743428,18.0525657 6.5,19 L6.5,19.5 L11.9045742,19.5 M16.984409,20.5 L17,12 L16.5,12 C16,13.5 14.5,14 13.7573,14"
+    d: "M6.375,2 C5,2 3,3.5 2.5,4.5 C1.78539513,5.92920973 1.9033374,6.49067969 2.375,8 C3,10 4.83244154,13.545116 7.375,16 C11,19.5 14.375,21 15.875,21.5 C17.375,22 19,21.5 20,20.5 C21,19.5 22,18.5 20.875,17 C20.077805,15.9370734 18.9164827,14.7082413 17.5,14 C16.2120164,13.3560082 15.444427,13.5904184 15,14.5 C14.7543142,15.0028302 14.6780041,15.9659877 14.5,16.5 C14.2754227,17.173732 13.375,17 12.375,16.5 C11.4176235,16.0213117 9,14 7,11 C5.76086515,9.14129772 7.74150655,9.12924672 9,8.5 C10,8 10.3099909,6.84998476 9.5,5.5 C8,3 7.5,2 6.375,2 Z"
   }));
 };
 
-exports.Schedule = Schedule;
+exports.Phone = Phone;

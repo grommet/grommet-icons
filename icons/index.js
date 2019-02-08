@@ -1913,6 +1913,13 @@ Object.keys(_Java).forEach(function (key) {
   exports[key] = _Java[key];
 });
 
+var _Js = require("./Js");
+
+Object.keys(_Js).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Js[key];
+});
+
 var _Keyboard = require("./Keyboard");
 
 Object.keys(_Keyboard).forEach(function (key) {
@@ -2023,6 +2030,13 @@ var _Linkedin = require("./Linkedin");
 Object.keys(_Linkedin).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _Linkedin[key];
+});
+
+var _List = require("./List");
+
+Object.keys(_List).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _List[key];
 });
 
 var _Local = require("./Local");
@@ -2403,6 +2417,13 @@ Object.keys(_PersonalComputer).forEach(function (key) {
   exports[key] = _PersonalComputer[key];
 });
 
+var _Phone = require("./Phone");
+
+Object.keys(_Phone).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Phone[key];
+});
+
 var _PieChart = require("./PieChart");
 
 Object.keys(_PieChart).forEach(function (key) {
@@ -2513,6 +2534,13 @@ var _Projects = require("./Projects");
 Object.keys(_Projects).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _Projects[key];
+});
+
+var _Qr = require("./Qr");
+
+Object.keys(_Qr).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Qr[key];
 });
 
 var _RadialSelected = require("./RadialSelected");

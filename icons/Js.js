@@ -1,7 +1,7 @@
 "use strict";
 
 exports.__esModule = true;
-exports.Schedule = void 0;
+exports.Js = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -11,16 +11,22 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-var Schedule = function Schedule(props) {
+var Js = function Js(props) {
   return _react.default.createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
-    a11yTitle: "Schedule"
-  }, props), _react.default.createElement("path", {
+    a11yTitle: "Js"
+  }, props), _react.default.createElement("g", {
     fill: "none",
-    stroke: "#000",
+    fillRule: "evenodd"
+  }, _react.default.createElement("rect", {
+    width: "24",
+    height: "24",
+    fill: "#F1DC50"
+  }), _react.default.createElement("path", {
+    stroke: "#333",
     strokeWidth: "2",
-    d: "M1,23 L23,23 L23,4 L1,4 L1,23 Z M18,4 L18,0 L18,4 Z M6,4 L6,0 L6,4 Z M1,8.5 L23,8.5 L1,8.5 Z M6,14 C6.55643465,12.6666667 7.38976798,12 8.5,12 C9.7998158,12 10.5,13 10.5,14 C10.5,15 9.5,16 8.5,17 C8.11410094,17.3858991 7.44743428,18.0525657 6.5,19 L6.5,19.5 L11.9045742,19.5 M16.984409,20.5 L17,12 L16.5,12 C16,13.5 14.5,14 13.7573,14"
-  }));
+    d: "M12,11 C12,15.749205 12,18.4158717 12,19 C12,19.8761925 11.4771235,21 10,21 C7.61461794,21 7.5,19 7.5,19 M20.7899648,13.51604 C20.1898831,12.5053467 19.3944074,12 18.4035378,12 C16.8563489,12 16,13 16,14 C16,15 16.5,16 18.5084196,16.5 C19.7864643,16.8181718 21,17.5 21,19 C21,20.5 19.6845401,21 18.5,21 C16.9861609,21 15.9861609,20.3333333 15.5,19"
+  })));
 };
 
-exports.Schedule = Schedule;
+exports.Js = Js;
