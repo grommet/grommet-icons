@@ -142,6 +142,15 @@ Object {
     "mac",
     "macbook",
   ],
+  "ApppleAppStore": Array [
+    "donglebook",
+    "iphone",
+    "imac",
+    "logo",
+    "mac",
+    "macbook",
+    "store",
+  ],
   "Apps": Array [
     "grid",
     "menu",
@@ -1488,13 +1497,24 @@ Object {
     "logo",
     "search",
   ],
+  "GooglePlay": Array [
+    "google",
+    "logo",
+    "media",
+    "play",
+    "share",
+    "social",
+    "store",
+  ],
   "GooglePlus": Array [
+    "google",
     "logo",
     "media",
     "share",
     "social",
   ],
   "GoogleWallet": Array [
+    "google",
     "logo",
     "media",
     "online",
@@ -1715,6 +1735,11 @@ Object {
     "coding",
     "cup",
   ],
+  "Js": Array [
+    "javascript",
+    "react",
+    "reactjs",
+  ],
   "Language": Array [
     "earth",
     "internet",
@@ -1804,6 +1829,12 @@ Object {
     "media",
     "share",
     "social",
+  ],
+  "List": Array [
+    "hamburger",
+    "navigation",
+    "options",
+    "orderedlist",
   ],
   "Local": Array [
     "flag",
@@ -2096,6 +2127,14 @@ Object {
     "pc",
     "monitor",
     "screen",
+  ],
+  "Phone": Array [
+    "call",
+    "chat",
+    "conference",
+    "media",
+    "phone",
+    "social",
   ],
   "PieChart": Array [
     "analytics",
