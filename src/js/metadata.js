@@ -359,7 +359,7 @@ export default {
   'Reddit': ['logo', 'media', 'online', 'social', 'share'],
   'Redhat': ['linux', 'logo', 'Fedora', 'os'],
   'Redo': ['action', 'text', 'editor'],
-  'Refresh': ['arrows', 'backup', 'core', 'reload', 'repeat', 'pull', 'sync', 'update'],
+  'Refresh': ['arrows', 'backup', 'core', 'reload', 'repeat', 'pull', 'sync', 'update', 'refresh'],
   'Resources': ['cascade', 'layers', 'multiple', 'stack'],
   'Restaurant': ['chef', 'cook', 'food', 'hat'],
   'Restroom': ['bathroom', 'toilet', 'water', 'closet'],
