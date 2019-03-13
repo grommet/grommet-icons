@@ -331,6 +331,7 @@ export declare const Network: Icon;
 export declare const NewWindow: Icon;
 export declare const New: Icon;
 export declare const Next: Icon;
+export declare const Node: Icon;
 export declare const Nodes: Icon;
 export declare const Norton: Icon;
 export declare const Note: Icon;

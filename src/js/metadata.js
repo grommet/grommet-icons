@@ -313,6 +313,7 @@ export default {
   'New': ['asterisk', 'add', 'create', 'plus'],
   'NewWindow': ['add', 'create', 'plus'],
   'Next': ['arrows', 'core', 'direction', 'forward', 'next', 'right'],
+  'Node': ['js', 'logo', 'node'],
   'Nodes': ['connection', 'network'],
   'Norton': ['logo', 'security'],
   'Note': ['document', 'file', 'paper'],
