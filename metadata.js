@@ -98,6 +98,7 @@ var _default = {
   'CoatCheck': ['clothes', 'hanger', 'hotel'],
   'Code': ['application', 'coding', 'development', 'programming', 'web'],
   'Codepen': ['codepen.io', 'code', 'demo', 'logo', 'media', 'share', 'social'],
+  'Coffee': ['bean', 'caffeine', 'goodstuff', 'java'],
   'Columns': ['chart', 'graph', 'layout', 'table'],
   'Compare': ['ab', 'a/b', 'analytics', 'balance', 'testing', 'variations'],
   'Compass': ['direction', 'location', 'map', 'navigation', 'tools'],

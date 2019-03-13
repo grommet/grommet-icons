@@ -688,6 +688,13 @@ Object.keys(_Codepen).forEach(function (key) {
   exports[key] = _Codepen[key];
 });
 
+var _Coffee = require("./Coffee");
+
+Object.keys(_Coffee).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Coffee[key];
+});
+
 var _Columns = require("./Columns");
 
 Object.keys(_Columns).forEach(function (key) {
