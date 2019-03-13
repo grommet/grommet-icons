@@ -611,6 +611,12 @@ Object {
     "share",
     "social",
   ],
+  "Coffee": Array [
+    "bean",
+    "caffeine",
+    "goodstuff",
+    "java",
+  ],
   "Columns": Array [
     "chart",
     "graph",

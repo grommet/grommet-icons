@@ -106,6 +106,7 @@ export declare const CoatCheck: Icon;
 export declare const CodeSandbox: Icon;
 export declare const Code: Icon;
 export declare const Codepen: Icon;
+export declare const Coffee: Icon;
 export declare const Columns: Icon;
 export declare const Command: Icon;
 export declare const Compare: Icon;

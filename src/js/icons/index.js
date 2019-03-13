@@ -96,6 +96,7 @@ export * from './CoatCheck';
 export * from './CodeSandbox';
 export * from './Code';
 export * from './Codepen';
+export * from './Coffee';
 export * from './Columns';
 export * from './Command';
 export * from './Compare';
