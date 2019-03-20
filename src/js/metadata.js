@@ -415,6 +415,7 @@ export default {
   'Spa': ['lotus', 'plant', 'flower', 'yoga'],
   'Split': ['columns', 'layout', 'navigation'],
   'Splits': ['columns', 'layout', 'navigation'],
+  'Spotify': ['music', 'streaming'],
   'Square': ['logo', 'media', 'social', 'pay', 'wallet'],
   'StackOverflow': ['code', 'help', 'logo', 'media', 'share', 'social'],
   'Stakeholder': ['business', 'person'],

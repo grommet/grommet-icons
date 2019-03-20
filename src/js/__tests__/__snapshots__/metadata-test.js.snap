@@ -2608,6 +2608,10 @@ Object {
     "layout",
     "navigation",
   ],
+  "Spotify": Array [
+    "music",
+    "streaming",
+  ],
   "Square": Array [
     "logo",
     "media",
