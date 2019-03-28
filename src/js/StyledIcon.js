@@ -45,11 +45,11 @@ const StyledIcon = styled(IconInner)`
   flex: 0 0 auto;
 
   ${({ size = 'medium', theme }) => `
-    width: ${theme.icon.size[size] || size};
-    height: ${theme.icon.size[size] || size};
+    width: ${theme.global.icon.size[size] || size};
+    height: ${theme.global.icon.size[size] || size};
   `}
   ${({ color }) => color !== 'plain' && colorCss}
-  ${({ theme }) => theme && theme.icon.extend}
+  ${({ theme }) => theme && theme.global.icon.extend}
 `;
 
 StyledIcon.defaultProps = {};

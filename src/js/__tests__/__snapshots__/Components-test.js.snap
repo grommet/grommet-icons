@@ -562,13 +562,13 @@ Object {
       "colors": Object {
         "icon": "#666666",
       },
-    },
-    "icon": Object {
-      "size": Object {
-        "large": "48px",
-        "medium": "24px",
-        "small": "12px",
-        "xlarge": "96px",
+      "icon": Object {
+        "size": Object {
+          "large": "48px",
+          "medium": "24px",
+          "small": "12px",
+          "xlarge": "96px",
+        },
       },
     },
   },
@@ -578,13 +578,13 @@ Object {
         "colors": Object {
           "icon": "#666666",
         },
-      },
-      "icon": Object {
-        "size": Object {
-          "large": "48px",
-          "medium": "24px",
-          "small": "12px",
-          "xlarge": "96px",
+        "icon": Object {
+          "size": Object {
+            "large": "48px",
+            "medium": "24px",
+            "small": "12px",
+            "xlarge": "96px",
+          },
         },
       },
     },

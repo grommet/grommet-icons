@@ -61,11 +61,13 @@ test('Icon with ThemeProvider', () => {
           colors: {
             icon: '#888888',
           },
-        },
-        icon: {
-          size: {
-            large: '24px',
-            xlarge: '112px',
+          icon: {
+            size: {
+              xsmall: '8px',
+              large: '24px',
+              xlarge: '112px',
+            },
+            extend: () => {},
           },
         },
       }}
