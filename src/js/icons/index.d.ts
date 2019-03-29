@@ -435,6 +435,7 @@ export declare const Sort: Icon;
 export declare const Spa: Icon;
 export declare const Split: Icon;
 export declare const Splits: Icon;
+export declare const Spotify: Icon;
 export declare const Square: Icon;
 export declare const StackOverflow: Icon;
 export declare const Stakeholder: Icon;
