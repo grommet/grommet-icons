@@ -11,13 +11,13 @@ const customTheme = {
       icon: '#2196f3',
       attention: '#ff3333',
     },
-  },
-  icon: {
-    size: {
-      small: '12px',
-      medium: '24px',
-      large: '48px',
-      xlarge: '300px',
+    icon: {
+      size: {
+        small: '12px',
+        medium: '24px',
+        large: '48px',
+        xlarge: '300px',
+      },
     },
   },
 };
