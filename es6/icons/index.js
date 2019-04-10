@@ -425,6 +425,7 @@ export * from './Sort';
 export * from './Spa';
 export * from './Split';
 export * from './Splits';
+export * from './Spotify';
 export * from './Square';
 export * from './StackOverflow';
 export * from './Stakeholder';

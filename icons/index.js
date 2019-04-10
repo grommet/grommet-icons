@@ -2991,6 +2991,13 @@ Object.keys(_Splits).forEach(function (key) {
   exports[key] = _Splits[key];
 });
 
+var _Spotify = require("./Spotify");
+
+Object.keys(_Spotify).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Spotify[key];
+});
+
 var _Square = require("./Square");
 
 Object.keys(_Square).forEach(function (key) {
