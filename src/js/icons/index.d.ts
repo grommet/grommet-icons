@@ -432,6 +432,7 @@ export declare const Slack: Icon;
 export declare const Snapchat: Icon;
 export declare const Solaris: Icon;
 export declare const Sort: Icon;
+export declare const Soundcloud: Icon;
 export declare const Spa: Icon;
 export declare const Split: Icon;
 export declare const Splits: Icon;

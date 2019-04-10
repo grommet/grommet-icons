@@ -422,6 +422,7 @@ export * from './Slack';
 export * from './Snapchat';
 export * from './Solaris';
 export * from './Sort';
+export * from './Soundcloud';
 export * from './Spa';
 export * from './Split';
 export * from './Splits';

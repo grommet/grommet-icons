@@ -1,4 +1,4 @@
-**Steps to contribute icons to grommet-icons**
+[**Steps to contribute icons to grommet-icons**
 
 1) Fork the grommet-icons project and clone.
 2) Add your raw svg files in this [folder](https://github.com/grommet/grommet-icons/tree/master/public/img) (use the other raw svgs as a reference on how to structure your file content and naming conventions).
