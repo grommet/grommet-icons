@@ -2970,6 +2970,13 @@ Object.keys(_Sort).forEach(function (key) {
   exports[key] = _Sort[key];
 });
 
+var _Soundcloud = require("./Soundcloud");
+
+Object.keys(_Soundcloud).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Soundcloud[key];
+});
+
 var _Spa = require("./Spa");
 
 Object.keys(_Spa).forEach(function (key) {
