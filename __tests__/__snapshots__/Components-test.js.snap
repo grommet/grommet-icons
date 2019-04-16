@@ -333,6 +333,7 @@ Object {
   "Note": [Function],
   "Notes": [Function],
   "Notification": [Function],
+  "Npm": [Function],
   "ObjectGroup": [Function],
   "ObjectUngroup": [Function],
   "OfflineStorage": [Function],

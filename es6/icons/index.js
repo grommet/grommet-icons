@@ -328,6 +328,7 @@ export * from './Norton';
 export * from './Note';
 export * from './Notes';
 export * from './Notification';
+export * from './Npm';
 export * from './ObjectGroup';
 export * from './ObjectUngroup';
 export * from './OfflineStorage';

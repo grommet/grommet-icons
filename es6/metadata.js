@@ -320,6 +320,7 @@ export default {
   'Note': ['document', 'file', 'paper'],
   'Notes': ['document', 'file', 'paper'],
   'Notification': ['alarm', 'alert', 'bell', 'core', 'messages', 'notify', 'warn', 'warning'],
+  'Npm': ['logo', 'npm'],
   'ObjectGroup': [''],
   'ObjectUngroup': [''],
   'OfflineStorage': ['backup', 'tape'],

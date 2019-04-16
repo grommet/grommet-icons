@@ -2312,6 +2312,13 @@ Object.keys(_Notification).forEach(function (key) {
   exports[key] = _Notification[key];
 });
 
+var _Npm = require("./Npm");
+
+Object.keys(_Npm).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Npm[key];
+});
+
 var _ObjectGroup = require("./ObjectGroup");
 
 Object.keys(_ObjectGroup).forEach(function (key) {
