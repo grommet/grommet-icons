@@ -338,6 +338,7 @@ export declare const Norton: Icon;
 export declare const Note: Icon;
 export declare const Notes: Icon;
 export declare const Notification: Icon;
+export declare const Npm: Icon;
 export declare const ObjectGroup: Icon;
 export declare const ObjectUngroup: Icon;
 export declare const OfflineStorage: Icon;
