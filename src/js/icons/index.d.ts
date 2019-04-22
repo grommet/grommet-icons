@@ -435,6 +435,7 @@ export declare const Solaris: Icon;
 export declare const Sort: Icon;
 export declare const Soundcloud: Icon;
 export declare const Spa: Icon;
+export declare const Spectrum: Icon;
 export declare const Split: Icon;
 export declare const Splits: Icon;
 export declare const Spotify: Icon;

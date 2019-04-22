@@ -2602,6 +2602,17 @@ Object {
     "flower",
     "yoga",
   ],
+  "Spectrum": Array [
+    "chat",
+    "help",
+    "logo",
+    "media",
+    "messages",
+    "talk",
+    "share",
+    "social",
+    "support",
+  ],
   "Split": Array [
     "columns",
     "layout",

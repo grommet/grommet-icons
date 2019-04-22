@@ -425,6 +425,7 @@ export * from './Solaris';
 export * from './Sort';
 export * from './Soundcloud';
 export * from './Spa';
+export * from './Spectrum';
 export * from './Split';
 export * from './Splits';
 export * from './Spotify';

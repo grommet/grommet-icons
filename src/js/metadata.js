@@ -414,6 +414,7 @@ export default {
   'Solaris': ['logo', 'oracle', 'os', 'sun', 'unix'],
   'Sort': ['bullets', 'list', 'items'],
   'Spa': ['lotus', 'plant', 'flower', 'yoga'],
+  'Spectrum': ['chat', 'help', 'logo', 'media', 'messages', 'talk', 'share', 'social', 'support'],
   'Split': ['columns', 'layout', 'navigation'],
   'Splits': ['columns', 'layout', 'navigation'],
   'Spotify': ['logo', 'media', 'music', 'sound'],
