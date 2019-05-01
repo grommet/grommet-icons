@@ -1574,6 +1574,11 @@ Object {
     "logo",
     "paas",
   ],
+  "Hide": Array [
+    "eye",
+    "form",
+    "close",
+  ],
   "History": Array [
     "backup",
     "clock",
@@ -2601,6 +2606,16 @@ Object {
     "plant",
     "flower",
     "yoga",
+  ],
+  "Spectrum": Array [
+    "chat",
+    "logo",
+    "media",
+    "messages",
+    "talk",
+    "share",
+    "social",
+    "support",
   ],
   "Split": Array [
     "columns",
