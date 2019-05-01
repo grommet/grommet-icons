@@ -1316,6 +1316,16 @@ Object {
     "expand",
     "up",
   ],
+  "FormEdit": Array [
+    "form",
+    "edit",
+    "change",
+    "draw",
+    "modify",
+    "pen",
+    "pencil",
+    "write",
+  ],
   "FormFilter": Array [
     "form",
     "funnel",
