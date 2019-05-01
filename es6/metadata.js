@@ -201,6 +201,7 @@ export default {
   'FormClose': ['cancel', 'close', 'delete', 'escape', 'exit', 'form', 'remove', 'trash'],
   'FormCut': ['scissors', 'form', 'tools'],
   'FormDown': ['arrows', 'direction', 'form', 'down', 'expand', 'up'],
+  'FormEdit': ['form', 'edit', 'change', 'draw', 'modify', 'pen', 'pencil', 'write'],
   'FormFilter': ['form', 'funnel', 'refine', 'sort', 'triage'],
   'FormFolder': ['files', 'document', 'form', 'organize'],
   'FormLocation': ['directions', 'form', 'gps', 'map', 'navigation', 'pin'],
