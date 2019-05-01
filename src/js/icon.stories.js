@@ -42,7 +42,7 @@ storiesOf('Icon', module)
     );
   })
   .add('Plain', () => (
-    <Icons.FormEdit color='plain' />
+    <Icons.Facebook color='plain' />
     ))
   .add('Custom Theme', () => {
     const Icon = Icons[text('Icon', 'Accessibility')];
