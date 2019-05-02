@@ -1731,6 +1731,13 @@ Object.keys(_Heroku).forEach(function (key) {
   exports[key] = _Heroku[key];
 });
 
+var _Hide = require("./Hide");
+
+Object.keys(_Hide).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Hide[key];
+});
+
 var _History = require("./History");
 
 Object.keys(_History).forEach(function (key) {
@@ -2989,6 +2996,13 @@ var _Spa = require("./Spa");
 Object.keys(_Spa).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _Spa[key];
+});
+
+var _Spectrum = require("./Spectrum");
+
+Object.keys(_Spectrum).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Spectrum[key];
 });
 
 var _Split = require("./Split");
