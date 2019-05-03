@@ -1,4 +1,4 @@
-[![Slack](http://alansouzati.github.io/artic/img/slack-badge.svg)](http://slackin.grommet.io)  [![Build Status](https://travis-ci.org/grommet/grommet-icons.svg?branch=master)](https://travis-ci.org/grommet/grommet-icons) [![Test Coverage](https://codeclimate.com/github/grommet/grommet-icons/badges/coverage.svg)](https://codeclimate.com/github/grommet/grommet-icons/coverage)  [![Dependency Status](https://david-dm.org/grommet/grommet-icons.svg)](https://david-dm.org/grommet/grommet-icons) [![devDependency Status](https://david-dm.org/grommet/grommet-icons/dev-status.svg)](https://david-dm.org/grommet/grommet-icons#info=devDependencies)
+[![Slack](http://alansouzati.github.io/artic/img/slack-badge.svg)](http://slackin.grommet.io)  [![Build Status](https://travis-ci.org/grommet/grommet-icons.svg?branch=master)](https://travis-ci.org/grommet/grommet-icons) [![Test Coverage](https://codeclimate.com/github/grommet/grommet-icons/badges/coverage.svg)](https://codeclimate.com/github/grommet/grommet-icons/coverage)  [![Dependency Status](https://david-dm.org/grommet/grommet-icons.svg)](https://david-dm.org/grommet/grommet-icons) [![PRs Welcome](https://img.shields.io/badge/pr's-welcome-7d4cdb.svg)][contributing]
 
 # grommet-icons
 
@@ -34,20 +34,22 @@ Check this [codesandbox](https://codesandbox.io/s/xvr25oxo4o)
 The theme for the icon supports different colors and sizes. The default definition is:
 
 ```
+theme = {
   global: {
     colors: {
       icon: '#666666',
+    }
+  },
+  icon: {
+    size: {
+      small: '12px',
+      medium: '24px',
+      large: '48px',
+      xlarge: '96px',
     },
-    icon: {
-      size: {
-        small: '12px',
-        medium: '24px',
-        large: '48px',
-        xlarge: '96px',
-      },
-      extend: undefined,
-    },
-  }
+    extend: undefined,
+  },
+}
 ```
 
 You can customize sizing and/or colors by specifying your own theme.
@@ -91,3 +93,5 @@ To build this library, execute the following commands:
   4. Generate React icons:
 
     $ npm run generate-icons
+
+[contributing]: CONTRIBUTING.md
