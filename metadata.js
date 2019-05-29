@@ -226,6 +226,7 @@ var _default = {
   'ForwardTen': ['arrows', 'seconds', 'player', 'skip'],
   'Freebsd': ['logo', 'os', 'unix'],
   'Gallery': ['image', 'pictures', 'photography', 'photos'],
+  'GatsbyJs': ['code', 'gatsby', 'logo', 'opensource'],
   'Gamepad': ['joystick', 'play', 'sports'],
   'Gift': ['birthday', 'box', 'christmas', 'present'],
   'Github': ['code', 'demo', 'logo', 'media', 'share', 'social', 'opensource'],

@@ -1612,6 +1612,13 @@ Object.keys(_Gamepad).forEach(function (key) {
   exports[key] = _Gamepad[key];
 });
 
+var _Gatsbyjs = require("./Gatsbyjs");
+
+Object.keys(_Gatsbyjs).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Gatsbyjs[key];
+});
+
 var _Gift = require("./Gift");
 
 Object.keys(_Gift).forEach(function (key) {
