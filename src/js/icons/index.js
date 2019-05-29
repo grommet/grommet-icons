@@ -228,6 +228,7 @@ export * from './ForwardTen';
 export * from './Freebsd';
 export * from './Gallery';
 export * from './Gamepad';
+export * from './Gatsbyjs';
 export * from './Gift';
 export * from './Github';
 export * from './Globe';
