@@ -11,9 +11,9 @@ var _grommetStyles = require("grommet-styles");
 
 var _defaultProps = require("./default-props");
 
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; return newObj; } }
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -32,13 +32,13 @@ var IconInner = function IconInner(_ref) {
       theme = _ref.theme,
       rest = _objectWithoutPropertiesLoose(_ref, ["a11yTitle", "color", "size", "theme"]);
 
-  return _react.default.createElement("svg", _extends({
+  return _react["default"].createElement("svg", _extends({
     "aria-label": a11yTitle
   }, rest));
 };
 
 IconInner.displayName = 'Icon';
-var StyledIcon = (0, _styledComponents.default)(IconInner).withConfig({
+var StyledIcon = (0, _styledComponents["default"])(IconInner).withConfig({
   displayName: "StyledIcon",
   componentId: "ofa7kd-0"
 })(["display:inline-block;flex:0 0 auto;", " ", " ", ""], function (_ref2) {
