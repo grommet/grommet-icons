@@ -232,6 +232,7 @@ export default {
   'GooglePlay': ['google', 'logo', 'media', 'play', 'share', 'social', 'store'],
   'GooglePlus': ['google', 'logo', 'media', 'share', 'social'],
   'GoogleWallet': ['google', 'logo', 'media', 'online', 'pay', 'social', 'transaction', 'wallet'],
+  'GraphQl': ['data', 'facebook', 'graph', 'logo', 'opensource', 'query'],
   'Gremlin': ['awesome', 'grommet'],
   'Grid': ['line', 'layout'],
   'Grommet': ['awesome', 'logo'],
