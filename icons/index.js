@@ -1675,6 +1675,13 @@ Object.keys(_Google).forEach(function (key) {
   exports[key] = _Google[key];
 });
 
+var _GraphQl = require("./GraphQl");
+
+Object.keys(_GraphQl).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _GraphQl[key];
+});
+
 var _Gremlin = require("./Gremlin");
 
 Object.keys(_Gremlin).forEach(function (key) {

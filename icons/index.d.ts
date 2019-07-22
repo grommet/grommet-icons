@@ -247,6 +247,7 @@ export declare const GooglePlay: Icon;
 export declare const GooglePlus: Icon;
 export declare const GoogleWallet: Icon;
 export declare const Google: Icon;
+export declare const GraphQl: Icon;
 export declare const Gremlin: Icon;
 export declare const Grid: Icon;
 export declare const Grommet: Icon;

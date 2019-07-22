@@ -237,6 +237,7 @@ export * from './GooglePlay';
 export * from './GooglePlus';
 export * from './GoogleWallet';
 export * from './Google';
+export * from './GraphQl';
 export * from './Gremlin';
 export * from './Grid';
 export * from './Grommet';

@@ -242,6 +242,7 @@ Object {
   "GooglePlay": [Function],
   "GooglePlus": [Function],
   "GoogleWallet": [Function],
+  "GraphQl": [Function],
   "Gremlin": [Function],
   "Grid": [Function],
   "Grommet": [Function],

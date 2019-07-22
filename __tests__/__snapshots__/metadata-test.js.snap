@@ -1545,6 +1545,14 @@ Object {
     "transaction",
     "wallet",
   ],
+  "GraphQl": Array [
+    "data",
+    "facebook",
+    "graph",
+    "logo",
+    "opensource",
+    "query",
+  ],
   "Gremlin": Array [
     "awesome",
     "grommet",
