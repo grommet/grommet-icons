@@ -97,3 +97,13 @@ workflows:
             branches:
               only:
                 - master
+      - publish:
+          requires:
+            - jest
+            - lint
+            - build
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              ignore: /.*/
