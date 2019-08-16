@@ -22,7 +22,7 @@ var _default = {
   'Android': ['cyborg', 'droid', 'humanoid', 'mobile', 'os', 'phone', 'robot', 'smartphone'],
   'Announce': ['bullhorn', 'loud', 'speaker', 'megaphone'],
   'Apple': ['donglebook', 'iphone', 'imac', 'logo', 'mac', 'macbook'],
-  'ApppleAppStore': ['donglebook', 'iphone', 'imac', 'logo', 'mac', 'macbook', 'store'],
+  'AppleAppStore': ['donglebook', 'iphone', 'imac', 'logo', 'mac', 'macbook', 'store'],
   'Apps': ['grid', 'menu'],
   'Archive': ['backup', 'box', 'container', 'document', 'files', 'folder', 'storage'],
   'Archlinux': ['linux', 'logo', 'os'],
