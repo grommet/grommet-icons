@@ -315,6 +315,7 @@ export * from './Microphone';
 export * from './Money';
 export * from './Monitor';
 export * from './Monospace';
+export * from './MoreVertical';
 export * from './More';
 export * from './Multimedia';
 export * from './Multiple';
