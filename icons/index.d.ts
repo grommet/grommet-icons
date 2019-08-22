@@ -325,6 +325,7 @@ export declare const Microphone: Icon;
 export declare const Money: Icon;
 export declare const Monitor: Icon;
 export declare const Monospace: Icon;
+export declare const MoreVertical: Icon;
 export declare const More: Icon;
 export declare const Multimedia: Icon;
 export declare const Multiple: Icon;

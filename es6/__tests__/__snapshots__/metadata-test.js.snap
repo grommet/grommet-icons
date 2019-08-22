@@ -2013,6 +2013,12 @@ Object {
     "core",
     "ellipses",
   ],
+  "MoreVertical": Array [
+    "actions",
+    "core",
+    "ellipses",
+    "more",
+  ],
   "Multimedia": Array [
     "clapboard",
     "cinema",

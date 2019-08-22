@@ -314,6 +314,7 @@ var _default = {
   'Monitor': ['computer', 'crt', 'desktop', 'display', 'screen'],
   'Monospace': ['formatting', 'text', 'editor'],
   'More': ['actions', 'core', 'ellipses'],
+  'MoreVertical': ['actions', 'core', 'ellipses', 'more'],
   'Multimedia': ['clapboard', 'cinema', 'film', 'video', 'movie'],
   'Multiple': ['cascade', 'repeat', 'stack', 'steps'],
   'Music': ['audio', 'notes', 'sound', 'play'],

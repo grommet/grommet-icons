@@ -2221,6 +2221,13 @@ Object.keys(_Monospace).forEach(function (key) {
   exports[key] = _Monospace[key];
 });
 
+var _MoreVertical = require("./MoreVertical");
+
+Object.keys(_MoreVertical).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _MoreVertical[key];
+});
+
 var _More = require("./More");
 
 Object.keys(_More).forEach(function (key) {
