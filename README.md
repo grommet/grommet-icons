@@ -27,7 +27,7 @@ Visit our [site](https://icons.grommet.io/) for more icons.
 
 ## Try
 
-Check this [codesandbox](https://codesandbox.io/s/xvr25oxo4o)
+Check out this [codesandbox](https://codesandbox.io/s/xvr25oxo4o)
 
 ## Customize
 
