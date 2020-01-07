@@ -6,7 +6,9 @@ export interface IconProps {
   size?: "small" | "medium" | "large" | "xlarge" | string;
 }
 
-export type Icon = React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
+export type Icon = React.ComponentType<
+  IconProps & JSX.IntrinsicElements["svg"]
+>;
 
 export declare const Accessibility: Icon;
 export declare const Achievement: Icon;
@@ -277,7 +279,6 @@ export declare const Indicator: Icon;
 export declare const Info: Icon;
 export declare const Inherit: Icon;
 export declare const Inspect: Icon;
-export declare const Instagram: Icon;
 export declare const InstallOption: Icon;
 export declare const Install: Icon;
 export declare const Integration: Icon;
@@ -368,6 +369,7 @@ export declare const Pinterest: Icon;
 export declare const Plan: Icon;
 export declare const PlayFill: Icon;
 export declare const Play: Icon;
+export declare const Pocket: Icon;
 export declare const PowerCycle: Icon;
 export declare const PowerForceShutdown: Icon;
 export declare const PowerReset: Icon;

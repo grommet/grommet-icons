@@ -2227,6 +2227,12 @@ Object {
     "player",
     "video",
   ],
+  "Pocket": Array [
+    "logo",
+    "media",
+    "share",
+    "social",
+  ],
   "Power": Array [
     "off",
     "switch",
