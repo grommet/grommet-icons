@@ -267,6 +267,7 @@ export * from './Indicator';
 export * from './Info';
 export * from './Inherit';
 export * from './Inspect';
+export * from './Instagram';
 export * from './InstallOption';
 export * from './Install';
 export * from './Integration';
