@@ -6,9 +6,7 @@ export interface IconProps {
   size?: "small" | "medium" | "large" | "xlarge" | string;
 }
 
-export type Icon = React.ComponentType<
-  IconProps & JSX.IntrinsicElements["svg"]
->;
+export type Icon = React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
 
 export declare const Accessibility: Icon;
 export declare const Achievement: Icon;
