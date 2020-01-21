@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const Pocket = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='Pocket' {...props}>
-    <path fill='#fff' d='M388.8 88.9H123.2A47.4 47.4 0 0 0 76 136.5v131.9c0 2.4.2 4.8.5 7.2a101.8 101.8 0 0 0-.5 10.6c0 75.6 80.6 137 180 137s180-61.4 180-137c0-3.6-.2-7.1-.5-10.6.3-2.4.5-4.8.5-7.2v-132A47.4 47.4 0 0 0 388.8 89zm-22.4 132.6l-93 93c-4.7 4.6-11 7-17.1 7a23.8 23.8 0 0 1-17.7-7l-93-93a24 24 0 0 1 33.8-33.8l76.6 76.5 76.6-76.5a24 24 0 0 1 33.8 33.8z' />
+    <g fill='none' fillRule='evenodd'><path fill='#F50057' d='M12,2 L2,2 C0.8954305,2 0,2.8954305 0,4 C0,7 0,9 0,12 C0,17.9821415 6,23 12,23 C18,23 24,17.9821415 24,12 C24,9 24,7 24,4 C24,2.8954305 23.1045695,2 22,2 L12,2 Z' /><polyline stroke='#FFF' strokeLinecap='round' strokeLinejoin='round' strokeWidth='3' points='6 9 12.404 15 18 9' /></g>
   </StyledIcon>
 );
