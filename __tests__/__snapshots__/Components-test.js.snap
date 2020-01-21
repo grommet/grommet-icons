@@ -363,6 +363,7 @@ Object {
   "Plan": [Function],
   "Play": [Function],
   "PlayFill": [Function],
+  "Pocket": [Function],
   "Power": [Function],
   "PowerCycle": [Function],
   "PowerForceShutdown": [Function],

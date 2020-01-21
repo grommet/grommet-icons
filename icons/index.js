@@ -2522,6 +2522,13 @@ Object.keys(_Play).forEach(function (key) {
   exports[key] = _Play[key];
 });
 
+var _Pocket = require("./Pocket");
+
+Object.keys(_Pocket).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Pocket[key];
+});
+
 var _PowerCycle = require("./PowerCycle");
 
 Object.keys(_PowerCycle).forEach(function (key) {

@@ -355,6 +355,7 @@ var _default = {
   'Plan': ['calendar', 'checklist', 'schedule'],
   'Play': ['media', 'music', 'player', 'video'],
   'PlayFill': ['media', 'music', 'player', 'video'],
+  'Pocket': ['logo', 'media', 'share', 'social'],
   'Power': ['off', 'switch'],
   'PowerCycle': [],
   'PowerForceShutdown': [],
