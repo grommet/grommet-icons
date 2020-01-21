@@ -358,6 +358,7 @@ export * from './Pinterest';
 export * from './Plan';
 export * from './PlayFill';
 export * from './Play';
+export * from './Pocket';
 export * from './PowerCycle';
 export * from './PowerForceShutdown';
 export * from './PowerReset';

@@ -368,6 +368,7 @@ export declare const Pinterest: Icon;
 export declare const Plan: Icon;
 export declare const PlayFill: Icon;
 export declare const Play: Icon;
+export declare const Pocket: Icon;
 export declare const PowerCycle: Icon;
 export declare const PowerForceShutdown: Icon;
 export declare const PowerReset: Icon;
