@@ -54,7 +54,7 @@ var customTheme = {
     color: (0, _addonKnobs.text)('Color', 'attention')
   }));
 }).add('Plain', function () {
-  return _react["default"].createElement(Icons.Facebook, {
+  return _react["default"].createElement(Icons.Pocket, {
     color: "plain"
   });
 }).add('Custom Theme', function () {

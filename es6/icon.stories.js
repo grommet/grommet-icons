@@ -41,7 +41,7 @@ storiesOf('Icon', module).add('Default', function () {
     color: text('Color', 'attention')
   }));
 }).add('Plain', function () {
-  return React.createElement(Icons.Facebook, {
+  return React.createElement(Icons.Pocket, {
     color: "plain"
   });
 }).add('Custom Theme', function () {
