@@ -118,6 +118,10 @@ Object {
     "report",
     "statistics",
   ],
+  "Anchor": Array [
+    "anchor",
+    "link",
+  ],
   "Android": Array [
     "cyborg",
     "droid",
@@ -276,6 +280,11 @@ Object {
     "news",
     "feed",
     "web",
+  ],
+  "Bluetooth": Array [
+    "wire",
+    "wireless",
+    "hardware",
   ],
   "Bold": Array [
     "formatting",
@@ -610,6 +619,17 @@ Object {
     "media",
     "share",
     "social",
+    "tool",
+  ],
+  "Codesandbox": Array [
+    "sandbox",
+    "code",
+    "demo",
+    "logo",
+    "media",
+    "share",
+    "social",
+    "tool",
   ],
   "Coffee": Array [
     "bean",
@@ -622,6 +642,12 @@ Object {
     "graph",
     "layout",
     "table",
+  ],
+  "Command": Array [
+    "cli",
+    "line",
+    "console",
+    "code",
   ],
   "Compare": Array [
     "ab",
@@ -1101,6 +1127,9 @@ Object {
   "Drag": Array [
     "drop",
   ],
+  "Drawer": Array [
+    "open",
+  ],
   "DriveCage": Array [
     "data",
     "disk",
@@ -1241,6 +1270,13 @@ Object {
     "warn",
     "warning",
   ],
+  "FlagFill": Array [
+    "core",
+    "nation",
+    "warn",
+    "warning",
+    "fill",
+  ],
   "Folder": Array [
     "documents",
     "data",
@@ -1265,6 +1301,14 @@ Object {
     "increment",
     "new",
     "plus",
+  ],
+  "FormAttachment": Array [
+    "attach",
+    "clip",
+    "files",
+    "form",
+    "paper",
+    "upload",
   ],
   "FormCalendar": Array [
     "date",
@@ -1482,7 +1526,7 @@ Object {
     "play",
     "sports",
   ],
-  "GatsbyJs": Array [
+  "Gatsbyjs": Array [
     "code",
     "gatsby",
     "logo",
@@ -1776,6 +1820,10 @@ Object {
     "react",
     "reactjs",
   ],
+  "Keyboard": Array [
+    "accessibility",
+    "tab",
+  ],
   "Language": Array [
     "earth",
     "internet",
@@ -2050,6 +2098,13 @@ Object {
     "street",
     "way",
   ],
+  "Network": Array [
+    "media",
+    "connection",
+    "divergence",
+    "fork",
+    "branch",
+  ],
   "New": Array [
     "asterisk",
     "add",
@@ -2260,6 +2315,11 @@ Object {
     "share",
     "social",
   ],
+  "Projects": Array [
+    "Project",
+    "squares",
+    "tasks",
+  ],
   "Qr": Array [],
   "Radial": Array [
     "circle",
@@ -2349,6 +2409,11 @@ Object {
     "forward",
     "media",
     "player",
+  ],
+  "Return": Array [
+    "arrows",
+    "back",
+    "undo",
   ],
   "Revert": Array [
     "arrows",
@@ -2636,6 +2701,11 @@ Object {
     "bullets",
     "list",
     "items",
+  ],
+  "Soundcloud": Array [
+    "logo",
+    "cloud",
+    "sound",
   ],
   "Spa": Array [
     "lotus",
@@ -3262,6 +3332,13 @@ Object {
   "VirtualMachine": Array [
     "vmware",
   ],
+  "VirtualStorage": Array [
+    "storage",
+    "virtual",
+    "cloud",
+    "circles",
+    "stack",
+  ],
   "Visa": Array [
     "amex",
     "card",
@@ -3331,6 +3408,28 @@ Object {
     "handicap",
     "person",
   ],
+  "Wifi": Array [
+    "network",
+    "connection",
+    "signal",
+  ],
+  "WifiLow": Array [
+    "network",
+    "connection",
+    "weak",
+    "signal",
+  ],
+  "WifiMedium": Array [
+    "network",
+    "connection",
+    "medium",
+    "signal",
+  ],
+  "WifiNone": Array [
+    "network",
+    "connection",
+    "signal",
+  ],
   "Windows": Array [
     "pc",
     "logo",
@@ -3373,14 +3472,6 @@ Object {
     "out",
     "minus",
     "magnify",
-  ],
-  "formAttachment": Array [
-    "attach",
-    "clip",
-    "files",
-    "form",
-    "paper",
-    "upload",
   ],
 }
 `;
