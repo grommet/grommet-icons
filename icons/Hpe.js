@@ -13,12 +13,13 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 var Hpe = function Hpe(props) {
   return _react["default"].createElement(_StyledIcon.StyledIcon, _extends({
-    viewBox: "0 0 24 24",
+    viewBox: "0 0 48 24",
     a11yTitle: "Hpe"
   }, props), _react["default"].createElement("path", {
-    fill: "#00C781",
     fillRule: "evenodd",
-    d: "M5.32907052e-15,9 L24,9 L24,15 L5.32907052e-15,15 L5.32907052e-15,9 Z M1.5,10.5 L22.5,10.5 L22.5,13.5 L1.5,13.5 L1.5,10.5 Z"
+    clipRule: "evenodd",
+    d: "M2 6H46V18H2V6ZM5 9H43V15H5V9Z",
+    fill: "#00C781"
   }));
 };
 

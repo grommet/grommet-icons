@@ -40,14 +40,36 @@ var IconInner = function IconInner(_ref) {
 };
 
 IconInner.displayName = 'Icon';
+
+var parseMetricToNum = function parseMetricToNum(string) {
+  return parseFloat(string.match(/\d+(\.\d+)?/), 10);
+};
+
 var StyledIcon = (0, _styledComponents["default"])(IconInner).withConfig({
   displayName: "StyledIcon",
   componentId: "ofa7kd-0"
 })(["display:inline-block;flex:0 0 auto;", " ", " ", ""], function (_ref2) {
   var _ref2$size = _ref2.size,
       size = _ref2$size === void 0 ? 'medium' : _ref2$size,
-      theme = _ref2.theme;
-  return "\n    width: " + (theme.icon.size[size] || size) + ";\n    height: " + (theme.icon.size[size] || size) + ";\n  ";
+      theme = _ref2.theme,
+      viewBox = _ref2.viewBox;
+
+  var _split = (viewBox || '0 0 24 24').split(' '),
+      w = _split[2],
+      h = _split[3];
+
+  var scale = w / h;
+  var dimension = parseMetricToNum(theme.icon.size[size] || size);
+
+  if (w < h) {
+    return "\n      width: " + dimension + "px;\n      height: " + dimension / scale + "px;\n    ";
+  }
+
+  if (h < w) {
+    return "\n      width: " + dimension * scale + "px;\n      height: " + dimension + "px;\n    ";
+  }
+
+  return "\n      width: " + dimension + "px;\n      height: " + dimension + "px;\n    ";
 }, function (_ref3) {
   var color = _ref3.color;
   return color !== 'plain' && colorCss;
