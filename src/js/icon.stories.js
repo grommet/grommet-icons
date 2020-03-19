@@ -23,13 +23,13 @@ const customTheme = {
 };
 
 storiesOf('Icon', module)
-  .add('Default', () => {
-    const Icon = Icons[text('Icon', 'Accessibility')];
-    if (!Icon) {
-      return null;
-    }
-    return <Icon />;
-  })
+.add('Default', () => {
+  const Icon = Icons[text('Icon', 'Accessibility')];
+  if (!Icon) {
+    return null;
+  }
+  return <Icon />;
+})
   .add('Color', () => {
     const Icon = Icons[text('Icon', 'Accessibility')];
     if (!Icon) {
@@ -54,4 +54,46 @@ storiesOf('Icon', module)
         <Icon size={text('Size', 'xlarge')} />
       </ThemeProvider>
     );
+  })
+  .add('Js', () => {
+    const Icon = Icons[text('Icon', 'Js')];
+    if (!Icon) {
+      return null;
+    }
+    return <><Icon /><Icon color='plain' /></>;
+  })
+  .add('WifiNone', () => {
+    const Icon = Icons[text('Icon', 'WifiNone')];
+    if (!Icon) {
+      return null;
+    }
+    return <><Icon /><Icon color='plain' /></>;
+  })
+  .add('WifiMedium', () => {
+    const Icon = Icons[text('Icon', 'WifiMedium')];
+    if (!Icon) {
+      return null;
+    }
+    return <><Icon /><Icon color='plain' /></>;
+  })
+  .add('Coffee', () => {
+    const Icon = Icons[text('Icon', 'Coffee')];
+    if (!Icon) {
+      return null;
+    }
+    return <><Icon /><Icon color='plain' /></>;
+  })
+  .add('Amazon', () => {
+    const Icon = Icons[text('Icon', 'Amazon')];
+    if (!Icon) {
+      return null;
+    }
+    return <><Icon /><Icon color='plain' /></>;
+  })
+  .add('GooglePlay', () => {
+    const Icon = Icons[text('Icon', 'GooglePlay')];
+    if (!Icon) {
+      return null;
+    }
+    return <><Icon /><Icon color='plain' /></>;
   });
