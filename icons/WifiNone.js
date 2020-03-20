@@ -16,8 +16,7 @@ var WifiNone = function WifiNone(props) {
     viewBox: "0 0 24 24",
     a11yTitle: "WifiNone"
   }, props), _react["default"].createElement("g", {
-    fill: "none",
-    fillRule: "evenodd"
+    fill: "none"
   }, _react["default"].createElement("circle", {
     cx: "12",
     cy: "18",

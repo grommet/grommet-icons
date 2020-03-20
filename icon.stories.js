@@ -69,4 +69,64 @@ var customTheme = {
   }, _react["default"].createElement(Icon, {
     size: (0, _addonKnobs.text)('Size', 'xlarge')
   }));
+}).add('Js', function () {
+  var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Js')];
+
+  if (!Icon) {
+    return null;
+  }
+
+  return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(Icon, null), _react["default"].createElement(Icon, {
+    color: "plain"
+  }));
+}).add('WifiNone', function () {
+  var Icon = Icons[(0, _addonKnobs.text)('Icon', 'WifiNone')];
+
+  if (!Icon) {
+    return null;
+  }
+
+  return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(Icon, null), _react["default"].createElement(Icon, {
+    color: "plain"
+  }));
+}).add('WifiMedium', function () {
+  var Icon = Icons[(0, _addonKnobs.text)('Icon', 'WifiMedium')];
+
+  if (!Icon) {
+    return null;
+  }
+
+  return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(Icon, null), _react["default"].createElement(Icon, {
+    color: "plain"
+  }));
+}).add('Coffee', function () {
+  var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Coffee')];
+
+  if (!Icon) {
+    return null;
+  }
+
+  return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(Icon, null), _react["default"].createElement(Icon, {
+    color: "plain"
+  }));
+}).add('Amazon', function () {
+  var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Amazon')];
+
+  if (!Icon) {
+    return null;
+  }
+
+  return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(Icon, null), _react["default"].createElement(Icon, {
+    color: "plain"
+  }));
+}).add('GooglePlay', function () {
+  var Icon = Icons[(0, _addonKnobs.text)('Icon', 'GooglePlay')];
+
+  if (!Icon) {
+    return null;
+  }
+
+  return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(Icon, null), _react["default"].createElement(Icon, {
+    color: "plain"
+  }));
 });

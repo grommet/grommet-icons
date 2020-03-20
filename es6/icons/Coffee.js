@@ -8,7 +8,6 @@ export var Coffee = function Coffee(props) {
     a11yTitle: "Coffee"
   }, props), React.createElement("g", {
     fill: "none",
-    fillRule: "evenodd",
     transform: "rotate(35 6.328 18.929)"
   }, React.createElement("path", {
     stroke: "#000",

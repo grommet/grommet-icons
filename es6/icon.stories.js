@@ -56,4 +56,64 @@ storiesOf('Icon', module).add('Default', function () {
   }, React.createElement(Icon, {
     size: text('Size', 'xlarge')
   }));
+}).add('Js', function () {
+  var Icon = Icons[text('Icon', 'Js')];
+
+  if (!Icon) {
+    return null;
+  }
+
+  return React.createElement(React.Fragment, null, React.createElement(Icon, null), React.createElement(Icon, {
+    color: "plain"
+  }));
+}).add('WifiNone', function () {
+  var Icon = Icons[text('Icon', 'WifiNone')];
+
+  if (!Icon) {
+    return null;
+  }
+
+  return React.createElement(React.Fragment, null, React.createElement(Icon, null), React.createElement(Icon, {
+    color: "plain"
+  }));
+}).add('WifiMedium', function () {
+  var Icon = Icons[text('Icon', 'WifiMedium')];
+
+  if (!Icon) {
+    return null;
+  }
+
+  return React.createElement(React.Fragment, null, React.createElement(Icon, null), React.createElement(Icon, {
+    color: "plain"
+  }));
+}).add('Coffee', function () {
+  var Icon = Icons[text('Icon', 'Coffee')];
+
+  if (!Icon) {
+    return null;
+  }
+
+  return React.createElement(React.Fragment, null, React.createElement(Icon, null), React.createElement(Icon, {
+    color: "plain"
+  }));
+}).add('Amazon', function () {
+  var Icon = Icons[text('Icon', 'Amazon')];
+
+  if (!Icon) {
+    return null;
+  }
+
+  return React.createElement(React.Fragment, null, React.createElement(Icon, null), React.createElement(Icon, {
+    color: "plain"
+  }));
+}).add('GooglePlay', function () {
+  var Icon = Icons[text('Icon', 'GooglePlay')];
+
+  if (!Icon) {
+    return null;
+  }
+
+  return React.createElement(React.Fragment, null, React.createElement(Icon, null), React.createElement(Icon, {
+    color: "plain"
+  }));
 });

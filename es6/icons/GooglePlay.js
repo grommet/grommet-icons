@@ -7,8 +7,7 @@ export var GooglePlay = function GooglePlay(props) {
     viewBox: "0 0 24 24",
     a11yTitle: "GooglePlay"
   }, props), React.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd"
+    fill: "none"
   }, React.createElement("polygon", {
     stroke: "#444",
     strokeLinejoin: "round",

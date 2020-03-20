@@ -17,7 +17,6 @@ var Coffee = function Coffee(props) {
     a11yTitle: "Coffee"
   }, props), _react["default"].createElement("g", {
     fill: "none",
-    fillRule: "evenodd",
     transform: "rotate(35 6.328 18.929)"
   }, _react["default"].createElement("path", {
     stroke: "#000",

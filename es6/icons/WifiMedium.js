@@ -7,8 +7,7 @@ export var WifiMedium = function WifiMedium(props) {
     viewBox: "0 0 24 24",
     a11yTitle: "WifiMedium"
   }, props), React.createElement("g", {
-    fill: "none",
-    fillRule: "evenodd"
+    fill: "none"
   }, React.createElement("path", {
     stroke: "#000",
     strokeWidth: "2",
