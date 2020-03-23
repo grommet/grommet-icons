@@ -179,7 +179,7 @@ export declare const Down: Icon;
 export declare const Download: Icon;
 export declare const Drag: Icon;
 export declare const Drawer: Icon;
-export declare const Dribbble: Icon;
+export declare const Dribble: Icon;
 export declare const DriveCage: Icon;
 export declare const Dropbox: Icon;
 export declare const Duplicate: Icon;

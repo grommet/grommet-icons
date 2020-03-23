@@ -8548,7 +8548,7 @@ exports[`Icon renders all icons 172`] = `
 }
 
 <svg
-  aria-label="Dribbble"
+  aria-label="Dribble"
   className="c0"
   viewBox="0 0 24 24"
 >
