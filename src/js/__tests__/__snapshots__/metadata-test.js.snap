@@ -1130,6 +1130,12 @@ Object {
   "Drawer": Array [
     "open",
   ],
+  "Dribble": Array [
+    "designer",
+    "logo",
+    "networking",
+    "social",
+  ],
   "DriveCage": Array [
     "data",
     "disk",
@@ -1151,6 +1157,13 @@ Object {
   "Dxc": Array [
     "awesome",
     "logo",
+  ],
+  "Ebay": Array [
+    "buy",
+    "marketplace",
+    "online",
+    "shopping",
+    "social",
   ],
   "Edge": Array [
     "browser",
@@ -1243,6 +1256,11 @@ Object {
   "Fedora": Array [
     "logo",
     "os",
+  ],
+  "Figma": Array [
+    "designer",
+    "logo",
+    "tool",
   ],
   "Filter": Array [
     "core",
@@ -1829,6 +1847,12 @@ Object {
     "internet",
     "translate",
     "world",
+  ],
+  "Lastfm": Array [
+    "logo",
+    "media",
+    "music",
+    "sound",
   ],
   "Launch": Array [
     "rocket",
