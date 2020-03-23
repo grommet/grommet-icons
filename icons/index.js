@@ -1199,6 +1199,13 @@ Object.keys(_Drawer).forEach(function (key) {
   exports[key] = _Drawer[key];
 });
 
+var _Dribble = require("./Dribble");
+
+Object.keys(_Dribble).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Dribble[key];
+});
+
 var _DriveCage = require("./DriveCage");
 
 Object.keys(_DriveCage).forEach(function (key) {
@@ -1225,6 +1232,13 @@ var _Dxc = require("./Dxc");
 Object.keys(_Dxc).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _Dxc[key];
+});
+
+var _Ebay = require("./Ebay");
+
+Object.keys(_Ebay).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Ebay[key];
 });
 
 var _Edge = require("./Edge");
@@ -1337,6 +1351,13 @@ var _Fedora = require("./Fedora");
 Object.keys(_Fedora).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _Fedora[key];
+});
+
+var _Figma = require("./Figma");
+
+Object.keys(_Figma).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Figma[key];
 });
 
 var _Filter = require("./Filter");
@@ -1960,6 +1981,13 @@ var _Language = require("./Language");
 Object.keys(_Language).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _Language[key];
+});
+
+var _Lastfm = require("./Lastfm");
+
+Object.keys(_Lastfm).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Lastfm[key];
 });
 
 var _Launch = require("./Launch");
