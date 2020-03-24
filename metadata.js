@@ -174,7 +174,7 @@ var _default = {
   'Download': ['arrows', 'cloud', 'core', 'import', 'get', 'receive'],
   'Drag': ['drop'],
   'Drawer': ['open'],
-  'Dribble': ['designer', 'logo', 'networking', 'social'],
+  'Dribbble': ['designer', 'logo', 'networking', 'social'],
   'DriveCage': ['data', 'disk', 'rack', 'storage'],
   'Dropbox': ['box', 'cloud', 'logo', 'media', 'share', 'social'],
   'Duplicate': ['add', 'copy'],

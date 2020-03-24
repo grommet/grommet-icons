@@ -1199,11 +1199,11 @@ Object.keys(_Drawer).forEach(function (key) {
   exports[key] = _Drawer[key];
 });
 
-var _Dribble = require("./Dribble");
+var _Dribbble = require("./Dribbble");
 
-Object.keys(_Dribble).forEach(function (key) {
+Object.keys(_Dribbble).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  exports[key] = _Dribble[key];
+  exports[key] = _Dribbble[key];
 });
 
 var _DriveCage = require("./DriveCage");
