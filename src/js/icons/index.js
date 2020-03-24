@@ -169,7 +169,7 @@ export * from './Down';
 export * from './Download';
 export * from './Drag';
 export * from './Drawer';
-export * from './Dribble';
+export * from './Dribbble';
 export * from './DriveCage';
 export * from './Dropbox';
 export * from './Duplicate';
