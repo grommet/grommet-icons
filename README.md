@@ -37,6 +37,7 @@ export const MyIcon = props => (
       <circle cx="12" cy="12" r="5" />
     </svg>
   </Blank>
+);
 ```
 
 Visit our [site](https://icons.grommet.io/) for more icons.
