@@ -23,6 +23,8 @@ import { Facebook } from 'grommet-icons';
 <Facebook size='xlarge' />
 ```
 
+Visit our [site](https://icons.grommet.io/) for more icons.
+
 ## Create Your Own Grommet Icon
 Any 24x24px SVG may be converted to an icon using the `<Blank>` icon. For example:
 
@@ -39,8 +41,6 @@ export const MyIcon = props => (
   </Blank>
 );
 ```
-
-Visit our [site](https://icons.grommet.io/) for more icons.
 
 ## Try
 
