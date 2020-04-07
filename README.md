@@ -24,7 +24,7 @@ import { Facebook } from 'grommet-icons';
 ```
 
 ### `<Blank>` Icon
-Any 24x24px SVG may be converted to an icon using the `<Blank>` icon.
+Any 24x24px SVG may be converted to an icon using the `<Blank>` icon. For example:
 
 ```javascript
 import React from 'react';
