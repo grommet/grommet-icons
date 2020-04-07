@@ -23,7 +23,7 @@ import { Facebook } from 'grommet-icons';
 <Facebook size='xlarge' />
 ```
 
-### Create Your Own Grommet Icon
+## Create Your Own Grommet Icon
 Any 24x24px SVG may be converted to an icon using the `<Blank>` icon. For example:
 
 ```javascript
