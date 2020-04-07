@@ -32,7 +32,7 @@ import { Blank } from 'grommet-icons';
 
 export const MyIcon = props => (
   <Blank {...props}>
-    {/* [your 24x24 svg here - e.g. here's a 24x24px circle] */}
+    {/* your 24x24 svg goes here - e.g. here's a 24x24px circle */}
     <svg viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
       <circle cx="12" cy="12" r="5" />
     </svg>
