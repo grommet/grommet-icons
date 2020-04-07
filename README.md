@@ -29,6 +29,7 @@ Any 24x24px SVG may be converted to an icon using the `<Blank>` icon.
 ```javascript
 import React from 'react';
 import { Blank } from 'grommet-icons';
+
 export const MyIcon = props => (
   <Blank {...props}>
     {/* [your 24x24 svg here - e.g. here's a 24x24px circle] */}
