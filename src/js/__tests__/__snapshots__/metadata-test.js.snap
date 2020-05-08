@@ -2080,6 +2080,10 @@ Object {
     "text",
     "editor",
   ],
+  "Moon": Array [
+    "dark",
+    "nature",
+  ],
   "More": Array [
     "actions",
     "core",
@@ -2904,6 +2908,10 @@ Object {
     "reduce",
     "remove",
     "subtraction",
+  ],
+  "Sun": Array [
+    "light",
+    "nature",
   ],
   "Superscript": Array [
     "formatting",
