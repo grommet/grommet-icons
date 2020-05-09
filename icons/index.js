@@ -2249,6 +2249,13 @@ Object.keys(_Monospace).forEach(function (key) {
   exports[key] = _Monospace[key];
 });
 
+var _Moon = require("./Moon");
+
+Object.keys(_Moon).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Moon[key];
+});
+
 var _MoreVertical = require("./MoreVertical");
 
 Object.keys(_MoreVertical).forEach(function (key) {
@@ -3290,6 +3297,13 @@ var _Subtract = require("./Subtract");
 Object.keys(_Subtract).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _Subtract[key];
+});
+
+var _Sun = require("./Sun");
+
+Object.keys(_Sun).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Sun[key];
 });
 
 var _Superscript = require("./Superscript");
