@@ -580,5 +580,4 @@ export declare const Yoga: Icon;
 export declare const Youtube: Icon;
 export declare const ZoomIn: Icon;
 export declare const ZoomOut: Icon;
-export declare const Zoom: Icon;
 export declare const Blank: Icon;
