@@ -3533,6 +3533,13 @@ Object {
     "social",
     "video",
   ],
+  "Zoom": Array [
+    "chat",
+    "logo",
+    "social",
+    "talk",
+    "video",
+  ],
   "ZoomIn": Array [
     "in",
     "plus",

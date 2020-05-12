@@ -570,4 +570,5 @@ export * from './Yoga';
 export * from './Youtube';
 export * from './ZoomIn';
 export * from './ZoomOut';
+export * from './Zoom';
 export * from './Blank';
