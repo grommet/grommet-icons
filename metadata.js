@@ -572,7 +572,6 @@ var _default = {
   'Workshop': ['business', 'conference', 'speaker'],
   'Yoga': ['asana', 'person', 'sport'],
   'Youtube': ['logo', 'media', 'play', 'share', 'social', 'video'],
-  'Zoom': ['chat', 'logo', 'social', 'talk', 'video'],
   'ZoomIn': ['in', 'plus', 'magnify'],
   'ZoomOut': ['out', 'minus', 'magnify']
 };
