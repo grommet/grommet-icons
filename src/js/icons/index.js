@@ -502,6 +502,7 @@ export * from './Threats';
 export * from './ThreeDffects';
 export * from './ThreeD';
 export * from './Ticket';
+export * from './Time';
 export * from './Tip';
 export * from './Toast';
 export * from './Tools';
