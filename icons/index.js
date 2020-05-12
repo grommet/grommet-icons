@@ -4006,6 +4006,13 @@ Object.keys(_ZoomOut).forEach(function (key) {
   exports[key] = _ZoomOut[key];
 });
 
+var _Zoom = require("./Zoom");
+
+Object.keys(_Zoom).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Zoom[key];
+});
+
 var _Blank = require("./Blank");
 
 Object.keys(_Blank).forEach(function (key) {
