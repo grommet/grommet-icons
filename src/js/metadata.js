@@ -235,6 +235,7 @@ export default {
   'Gamepad': ['joystick', 'play', 'sports'],
   'Gift': ['birthday', 'box', 'christmas', 'present'],
   'Github': ['code', 'demo', 'logo', 'media', 'share', 'social', 'opensource'],
+  'Gitlab': ['code', 'demo', 'logo', 'media', 'share', 'social', 'opensource', 'devops'],
   'Globe': ['earth', 'global', 'internet', 'planet', 'world'],
   'Golang': ['code', 'google', 'logo'],
   'Google': ['logo', 'search'],
