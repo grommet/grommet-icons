@@ -3,17 +3,17 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 export var WifiLow = function WifiLow(props) {
-  return React.createElement(StyledIcon, _extends({
+  return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "WifiLow"
-  }, props), React.createElement("g", {
+  }, props), /*#__PURE__*/React.createElement("g", {
     fill: "none",
     fillRule: "evenodd"
-  }, React.createElement("path", {
+  }, /*#__PURE__*/React.createElement("path", {
     stroke: "#000",
     strokeWidth: "2",
     d: "M12,20 C13.1045695,20 14,19.1045695 14,18 C14,16.8954305 13.1045695,16 12,16 C10.8954305,16 10,16.8954305 10,18 C10,19.1045695 10.8954305,20 12,20 Z M7.75735931,13.7573593 C10.1005051,11.4142136 13.8994949,11.4142136 16.2426407,13.7573593"
-  }), React.createElement("path", {
+  }), /*#__PURE__*/React.createElement("path", {
     stroke: "#000",
     strokeOpacity: ".2",
     strokeWidth: "2",

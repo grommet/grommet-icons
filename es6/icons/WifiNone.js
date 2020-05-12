@@ -3,18 +3,18 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 export var WifiNone = function WifiNone(props) {
-  return React.createElement(StyledIcon, _extends({
+  return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "WifiNone"
-  }, props), React.createElement("g", {
+  }, props), /*#__PURE__*/React.createElement("g", {
     fill: "none"
-  }, React.createElement("circle", {
+  }, /*#__PURE__*/React.createElement("circle", {
     cx: "12",
     cy: "18",
     r: "2",
     stroke: "#000",
     strokeWidth: "2"
-  }), React.createElement("path", {
+  }), /*#__PURE__*/React.createElement("path", {
     stroke: "#000",
     strokeOpacity: ".2",
     strokeWidth: "2",

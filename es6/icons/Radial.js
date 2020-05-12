@@ -3,10 +3,10 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 export var Radial = function Radial(props) {
-  return React.createElement(StyledIcon, _extends({
+  return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Radial"
-  }, props), React.createElement("circle", {
+  }, props), /*#__PURE__*/React.createElement("circle", {
     cx: "12",
     cy: "12",
     r: "11",

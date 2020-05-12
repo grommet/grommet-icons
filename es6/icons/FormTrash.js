@@ -3,10 +3,10 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 export var FormTrash = function FormTrash(props) {
-  return React.createElement(StyledIcon, _extends({
+  return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "FormTrash"
-  }, props), React.createElement("path", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",

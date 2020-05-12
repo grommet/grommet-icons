@@ -3,10 +3,10 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 export var StatusInfoSmall = function StatusInfoSmall(props) {
-  return React.createElement(StyledIcon, _extends({
+  return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 12 12",
     a11yTitle: "StatusInfoSmall"
-  }, props), React.createElement("rect", {
+  }, props), /*#__PURE__*/React.createElement("rect", {
     width: "10",
     height: "10",
     x: "1",

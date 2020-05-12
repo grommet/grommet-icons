@@ -3,25 +3,25 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 export var TextAlignLeft = function TextAlignLeft(props) {
-  return React.createElement(StyledIcon, _extends({
+  return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "TextAlignLeft"
-  }, props), React.createElement("rect", {
+  }, props), /*#__PURE__*/React.createElement("rect", {
     x: "0.46",
     y: "3.06",
     width: "23.08",
     height: "2.18"
-  }), React.createElement("rect", {
+  }), /*#__PURE__*/React.createElement("rect", {
     x: "0.46",
     y: "8.29",
     width: "15.81",
     height: "2.18"
-  }), React.createElement("rect", {
+  }), /*#__PURE__*/React.createElement("rect", {
     x: "0.46",
     y: "13.53",
     width: "23.08",
     height: "2.18"
-  }), React.createElement("rect", {
+  }), /*#__PURE__*/React.createElement("rect", {
     x: "0.46",
     y: "18.76",
     width: "15.81",

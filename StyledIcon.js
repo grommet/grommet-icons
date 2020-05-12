@@ -34,7 +34,7 @@ var IconInner = function IconInner(_ref) {
       theme = _ref.theme,
       rest = _objectWithoutPropertiesLoose(_ref, ["a11yTitle", "color", "size", "theme"]);
 
-  return _react["default"].createElement("svg", _extends({
+  return /*#__PURE__*/_react["default"].createElement("svg", _extends({
     "aria-label": a11yTitle
   }, rest));
 };

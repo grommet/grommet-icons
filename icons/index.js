@@ -2501,6 +2501,27 @@ Object.keys(_PersonalComputer).forEach(function (key) {
   exports[key] = _PersonalComputer[key];
 });
 
+var _PhoneFlip = require("./PhoneFlip");
+
+Object.keys(_PhoneFlip).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _PhoneFlip[key];
+});
+
+var _PhoneHorizontal = require("./PhoneHorizontal");
+
+Object.keys(_PhoneHorizontal).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _PhoneHorizontal[key];
+});
+
+var _PhoneVertical = require("./PhoneVertical");
+
+Object.keys(_PhoneVertical).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _PhoneVertical[key];
+});
+
 var _Phone = require("./Phone");
 
 Object.keys(_Phone).forEach(function (key) {

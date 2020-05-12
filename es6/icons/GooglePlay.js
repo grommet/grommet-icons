@@ -3,21 +3,21 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 export var GooglePlay = function GooglePlay(props) {
-  return React.createElement(StyledIcon, _extends({
+  return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "GooglePlay"
-  }, props), React.createElement("g", {
+  }, props), /*#__PURE__*/React.createElement("g", {
     fill: "none"
-  }, React.createElement("polygon", {
+  }, /*#__PURE__*/React.createElement("polygon", {
     stroke: "#444",
     strokeLinejoin: "round",
     strokeWidth: "2",
     points: "3 2 3 22 21 12"
-  }), React.createElement("path", {
+  }), /*#__PURE__*/React.createElement("path", {
     stroke: "#444",
     strokeWidth: "2",
     d: "M3,2 L14,16"
-  }), React.createElement("path", {
+  }), /*#__PURE__*/React.createElement("path", {
     stroke: "#444",
     strokeWidth: "2",
     d: "M3,8 L14,22",

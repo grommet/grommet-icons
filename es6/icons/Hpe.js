@@ -3,10 +3,10 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 export var Hpe = function Hpe(props) {
-  return React.createElement(StyledIcon, _extends({
+  return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 48 24",
     a11yTitle: "Hpe"
-  }, props), React.createElement("path", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
     d: "M2 6H46V18H2V6ZM5 9H43V15H5V9Z",

@@ -3,18 +3,18 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 export var Mastercard = function Mastercard(props) {
-  return React.createElement(StyledIcon, _extends({
+  return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Mastercard"
-  }, props), React.createElement("g", {
+  }, props), /*#__PURE__*/React.createElement("g", {
     fill: "none",
     fillRule: "evenodd"
-  }, React.createElement("circle", {
+  }, /*#__PURE__*/React.createElement("circle", {
     cx: "7",
     cy: "12",
     r: "7",
     fill: "#EA001B"
-  }), React.createElement("circle", {
+  }), /*#__PURE__*/React.createElement("circle", {
     cx: "17",
     cy: "12",
     r: "7",

@@ -39,7 +39,7 @@ var customTheme = {
     return null;
   }
 
-  return _react["default"].createElement(Icon, null);
+  return /*#__PURE__*/_react["default"].createElement(Icon, null);
 }).add('Color', function () {
   var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Accessibility')];
 
@@ -47,14 +47,14 @@ var customTheme = {
     return null;
   }
 
-  return _react["default"].createElement(_styledComponents.ThemeProvider, {
+  return /*#__PURE__*/_react["default"].createElement(_styledComponents.ThemeProvider, {
     theme: customTheme
-  }, _react["default"].createElement(Icon, {
+  }, /*#__PURE__*/_react["default"].createElement(Icon, {
     size: (0, _addonKnobs.text)('Size', 'xlarge'),
     color: (0, _addonKnobs.text)('Color', 'attention')
   }));
 }).add('Plain', function () {
-  return _react["default"].createElement(Icons.Pocket, {
+  return /*#__PURE__*/_react["default"].createElement(Icons.Pocket, {
     color: "plain"
   });
 }).add('Custom Theme', function () {
@@ -64,9 +64,9 @@ var customTheme = {
     return null;
   }
 
-  return _react["default"].createElement(_styledComponents.ThemeProvider, {
+  return /*#__PURE__*/_react["default"].createElement(_styledComponents.ThemeProvider, {
     theme: customTheme
-  }, _react["default"].createElement(Icon, {
+  }, /*#__PURE__*/_react["default"].createElement(Icon, {
     size: (0, _addonKnobs.text)('Size', 'xlarge')
   }));
 }).add('Js', function () {
@@ -76,7 +76,7 @@ var customTheme = {
     return null;
   }
 
-  return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(Icon, null), _react["default"].createElement(Icon, {
+  return /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement(Icon, null), /*#__PURE__*/_react["default"].createElement(Icon, {
     color: "plain"
   }));
 }).add('WifiNone', function () {
@@ -86,7 +86,7 @@ var customTheme = {
     return null;
   }
 
-  return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(Icon, null), _react["default"].createElement(Icon, {
+  return /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement(Icon, null), /*#__PURE__*/_react["default"].createElement(Icon, {
     color: "plain"
   }));
 }).add('WifiMedium', function () {
@@ -96,7 +96,7 @@ var customTheme = {
     return null;
   }
 
-  return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(Icon, null), _react["default"].createElement(Icon, {
+  return /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement(Icon, null), /*#__PURE__*/_react["default"].createElement(Icon, {
     color: "plain"
   }));
 }).add('Coffee', function () {
@@ -106,7 +106,7 @@ var customTheme = {
     return null;
   }
 
-  return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(Icon, null), _react["default"].createElement(Icon, {
+  return /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement(Icon, null), /*#__PURE__*/_react["default"].createElement(Icon, {
     color: "plain"
   }));
 }).add('Amazon', function () {
@@ -116,7 +116,7 @@ var customTheme = {
     return null;
   }
 
-  return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(Icon, null), _react["default"].createElement(Icon, {
+  return /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement(Icon, null), /*#__PURE__*/_react["default"].createElement(Icon, {
     color: "plain"
   }));
 }).add('GooglePlay', function () {
@@ -126,7 +126,7 @@ var customTheme = {
     return null;
   }
 
-  return _react["default"].createElement(_react["default"].Fragment, null, _react["default"].createElement(Icon, null), _react["default"].createElement(Icon, {
+  return /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement(Icon, null), /*#__PURE__*/_react["default"].createElement(Icon, {
     color: "plain"
   }));
 });

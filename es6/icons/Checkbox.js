@@ -3,10 +3,10 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 export var Checkbox = function Checkbox(props) {
-  return React.createElement(StyledIcon, _extends({
+  return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Checkbox"
-  }, props), React.createElement("rect", {
+  }, props), /*#__PURE__*/React.createElement("rect", {
     width: "20",
     height: "20",
     x: "2",
