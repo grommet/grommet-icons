@@ -507,6 +507,7 @@ Object {
   "ThreeD": [Function],
   "ThreeDffects": [Function],
   "Ticket": [Function],
+  "Time": [Function],
   "Tip": [Function],
   "Toast": [Function],
   "Tools": [Function],

@@ -502,6 +502,7 @@ var _default = {
   'TextAlignLeft': ['formatting', 'left', 'text', 'align', 'editor'],
   'TextAlignRight': ['formatting', 'right', 'text', 'align', 'editor'],
   'TextWrap': ['around'],
+  'Time': ['chart', 'line', 'data'],
   'Threats': ['bomb', 'danger', 'explosive', 'security'],
   'ThreeD': ['3d', 'cube', 'box', 'rotation'],
   'ThreeDffects': ['3d', 'cube', 'box'],

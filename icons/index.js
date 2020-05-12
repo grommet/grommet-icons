@@ -3530,6 +3530,13 @@ Object.keys(_Ticket).forEach(function (key) {
   exports[key] = _Ticket[key];
 });
 
+var _Time = require("./Time");
+
+Object.keys(_Time).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Time[key];
+});
+
 var _Tip = require("./Tip");
 
 Object.keys(_Tip).forEach(function (key) {

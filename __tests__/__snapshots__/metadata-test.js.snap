@@ -3114,6 +3114,11 @@ Object {
     "movie",
     "travel",
   ],
+  "Time": Array [
+    "chart",
+    "line",
+    "data",
+  ],
   "Tip": Array [
     "bubble",
     "chat",
