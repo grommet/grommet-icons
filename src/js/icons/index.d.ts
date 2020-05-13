@@ -244,6 +244,7 @@ export declare const Gamepad: Icon;
 export declare const Gatsbyjs: Icon;
 export declare const Gift: Icon;
 export declare const Github: Icon;
+export declare const Gitlab: Icon;
 export declare const Globe: Icon;
 export declare const Golang: Icon;
 export declare const GooglePlay: Icon;
