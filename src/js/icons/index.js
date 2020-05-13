@@ -234,6 +234,7 @@ export * from './Gamepad';
 export * from './Gatsbyjs';
 export * from './Gift';
 export * from './Github';
+export * from './Gitlab';
 export * from './Globe';
 export * from './Golang';
 export * from './GooglePlay';
