@@ -255,6 +255,11 @@ Object {
     "picnic",
     "shopping",
   ],
+  "Beacon": Array [
+    "direction",
+    "guidance",
+    "technology",
+  ],
   "Bike": Array [
     "bicycle",
     "cycle",
@@ -269,6 +274,12 @@ Object {
     "pay",
     "money",
     "wallet",
+  ],
+  "BladesHorizontal": Array [
+    "technology",
+  ],
+  "BladesVertical": Array [
+    "technology",
   ],
   "BlockQuote": Array [
     "formatting",
@@ -686,6 +697,11 @@ Object {
     "network",
     "plug",
   ],
+  "Console": Array [
+    "core",
+    "debug",
+    "log",
+  ],
   "Contact": Array [
     "bubble",
     "ellipses",
@@ -706,6 +722,11 @@ Object {
     "duplicate",
     "files",
     "paste",
+  ],
+  "Cpu": Array [
+    "technology",
+    "processor",
+    "unit",
   ],
   "CreativeCommons": Array [
     "creative commons",
@@ -817,6 +838,9 @@ Object {
     "arrows",
     "location",
     "navigation",
+  ],
+  "DisabledOutline": Array [
+    "status",
   ],
   "Disc": Array [
     "cd",
@@ -1122,6 +1146,16 @@ Object {
     "core",
     "import",
     "get",
+    "navigation",
+    "receive",
+  ],
+  "DownloadOption": Array [
+    "arrows",
+    "cloud",
+    "core",
+    "import",
+    "get",
+    "navigation",
     "receive",
   ],
   "Drag": Array [
@@ -1223,6 +1257,10 @@ Object {
     "full",
     "screen",
   ],
+  "Ezmeral": Array [
+    "hpe",
+    "platform",
+  ],
   "Facebook": Array [
     "share",
     "logo",
@@ -1238,6 +1276,11 @@ Object {
     "social",
   ],
   "Fan": Array [
+    "air",
+    "cooling",
+    "ventilator",
+  ],
+  "FanOption": Array [
     "air",
     "cooling",
     "ventilator",
@@ -1282,6 +1325,11 @@ Object {
     "logo",
     "web",
   ],
+  "Firewall": Array [
+    "cyber",
+    "protect",
+    "web",
+  ],
   "Flag": Array [
     "core",
     "nation",
@@ -1294,6 +1342,9 @@ Object {
     "warn",
     "warning",
     "fill",
+  ],
+  "Flows": Array [
+    "core",
   ],
   "Folder": Array [
     "documents",
@@ -1544,11 +1595,19 @@ Object {
     "play",
     "sports",
   ],
+  "Gateway": Array [
+    "network",
+    "technology",
+  ],
   "Gatsbyjs": Array [
     "code",
     "gatsby",
     "logo",
     "opensource",
+  ],
+  "Gem": Array [
+    "miscellaneous",
+    "shape",
   ],
   "Gift": Array [
     "birthday",
@@ -2045,6 +2104,10 @@ Object {
     "share",
     "social",
   ],
+  "Memory": Array [
+    "technology",
+    "computer",
+  ],
   "Menu": Array [
     "hamburger",
     "list",
@@ -2095,6 +2158,10 @@ Object {
     "ellipses",
     "more",
   ],
+  "Mouse": Array [
+    "hardware",
+    "technology",
+  ],
   "Multimedia": Array [
     "clapboard",
     "cinema",
@@ -2132,6 +2199,14 @@ Object {
     "divergence",
     "fork",
     "branch",
+  ],
+  "NetworkDrive": Array [
+    "media",
+    "connection",
+    "divergence",
+    "fork",
+    "branch",
+    "technology",
   ],
   "New": Array [
     "asterisk",
@@ -2229,6 +2304,10 @@ Object {
   ],
   "Overview": Array [
     "binoculars",
+  ],
+  "Package": Array [
+    "controls",
+    "box",
   ],
   "Paint": Array [
     "bucket",
@@ -2342,6 +2421,9 @@ Object {
     "music",
     "player",
     "video",
+  ],
+  "Plug": Array [
+    "technology",
   ],
   "Pocket": Array [
     "logo",
@@ -2531,6 +2613,10 @@ Object {
     "logo",
     "web",
   ],
+  "Sans": Array [
+    "technology",
+    "type",
+  ],
   "Satellite": Array [
     "antenna",
     "communication",
@@ -2590,6 +2676,11 @@ Object {
     "clipboard",
     "game",
     "mark",
+  ],
+  "Sd": Array [
+    "hardware",
+    "card",
+    "technology",
   ],
   "Search": Array [
     "core",
@@ -2973,6 +3064,11 @@ Object {
     "swimmer",
     "swimming",
   ],
+  "Switch": Array [
+    "hardware",
+    "network",
+    "technology",
+  ],
   "Sync": Array [
     "refresh",
     "reload",
@@ -3112,6 +3208,11 @@ Object {
     "cinema",
     "concert",
     "movie",
+    "travel",
+  ],
+  "Tictok": Array [
+    "network",
+    "social",
     "travel",
   ],
   "Time": Array [
@@ -3285,6 +3386,11 @@ Object {
     "export",
     "files",
     "send",
+  ],
+  "UsbKey": Array [
+    "hardware",
+    "memory",
+    "technology",
   ],
   "User": Array [
     "account",
