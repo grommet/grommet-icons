@@ -10,3 +10,4 @@ yarn-error.log
 .tmp/
 icons.md
 package-lock.json
+storybook-static
