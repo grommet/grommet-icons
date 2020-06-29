@@ -8,11 +8,20 @@ import xml2js from 'xml2js';
 const inputSVGFolder = path.resolve('public/img');
 const outputReactIconFolder = path.resolve('src/js/icons');
 
+// Figma converts colors to their color names. Convert them back to hex codes.
+// We do this so the rules in StyledIcon work. '#' indicates a fill or stroke
+// is desired. Otherwise, it is treated like 'none'.
+function convertColors(text) {
+  if (text === 'black') return '#000';
+  if (text === 'white') return '#FFF';
+  return text;
+}
+
 const excludeAttributes = /^id$/;
 function getNodeAttributes(node) {
   return node.$ ? Object.keys(node.$).filter(key => (
     !excludeAttributes.test(key)))
-    .map(attrKey => `${camelCase(attrKey)}='${node.$[attrKey]}'`) : undefined;
+    .map(attrKey => `${camelCase(attrKey)}='${convertColors(node.$[attrKey])}'`) : undefined;
 }
 function parseNode(node) {
   if (node && !/^(title|defs|desc)$/.test(node['#name'])) {
