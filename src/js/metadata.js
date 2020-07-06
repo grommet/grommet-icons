@@ -294,6 +294,7 @@ export default {
   'Java': ['coffee', 'code', 'coding', 'cup'],
   'Js': ['javascript', 'logo', 'react', 'reactjs'],
   'Keyboard': ['accessibility', 'tab'],
+  'Kubernetes': ['k8s', 'kubectl', 'kube'],
   'Language': ['earth', 'internet', 'translate', 'world'],
   'Launch': ['rocket', 'spaceship', 'startup'],
   'Lastfm': ['logo', 'media', 'music', 'sound'],

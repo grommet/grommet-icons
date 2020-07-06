@@ -303,6 +303,7 @@ export declare const Iteration: Icon;
 export declare const Java: Icon;
 export declare const Js: Icon;
 export declare const Keyboard: Icon;
+export declare const Kubernetes: Icon;
 export declare const Language: Icon;
 export declare const Lastfm: Icon;
 export declare const Launch: Icon;
