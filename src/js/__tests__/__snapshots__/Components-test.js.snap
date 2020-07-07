@@ -298,6 +298,7 @@ Object {
   "Java": [Function],
   "Js": [Function],
   "Keyboard": [Function],
+  "Kubernetes": [Function],
   "Language": [Function],
   "Lastfm": [Function],
   "Launch": [Function],

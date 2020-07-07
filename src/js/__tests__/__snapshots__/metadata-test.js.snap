@@ -1901,6 +1901,11 @@ Object {
     "accessibility",
     "tab",
   ],
+  "Kubernetes": Array [
+    "k8s",
+    "kubectl",
+    "kube",
+  ],
   "Language": Array [
     "earth",
     "internet",
