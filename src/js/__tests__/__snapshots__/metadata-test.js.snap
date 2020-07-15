@@ -540,11 +540,9 @@ Object {
     "report",
   ],
   "Clock": Array [
-    "date",
-    "timer",
-    "hands",
-    "hour",
-    "watch",
+    "clock",
+    "core",
+    "time",
   ],
   "Clone": Array [
     "copy",
@@ -1711,10 +1709,8 @@ Object {
     "stop",
   ],
   "Help": Array [
-    "hint",
-    "information",
-    "service",
-    "support",
+    "core",
+    "help",
     "question",
   ],
   "Heroku": Array [
@@ -1929,8 +1925,8 @@ Object {
     "stack",
   ],
   "License": Array [
-    "key",
-    "lock",
+    "license",
+    "miscellaneous",
   ],
   "Like": Array [
     "favorite",
