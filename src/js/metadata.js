@@ -257,6 +257,7 @@ export default {
   'GraphQl': ['data', 'facebook', 'graph', 'logo', 'opensource', 'query'],
   'Gremlin': ['awesome', 'grommet'],
   'Grid': ['line', 'layout'],
+  'GridOption': ['grid', 'menu'],
   'Grommet': ['awesome', 'logo'],
   'Group': ['people', 'team', 'person', 'users'],
   'Grow': ['growth', 'plant'],

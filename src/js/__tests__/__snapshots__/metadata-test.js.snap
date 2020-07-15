@@ -1682,6 +1682,10 @@ Object {
     "line",
     "layout",
   ],
+  "GridOption": Array [
+    "grid",
+    "menu",
+  ],
   "Grommet": Array [
     "awesome",
     "logo",
