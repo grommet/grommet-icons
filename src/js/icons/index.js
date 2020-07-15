@@ -19,6 +19,7 @@ export * from './Android';
 export * from './Announce';
 export * from './AppleAppStore';
 export * from './Apple';
+export * from './Apps';
 export * from './Archive';
 export * from './Archlinux';
 export * from './Article';

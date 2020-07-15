@@ -23,6 +23,7 @@ Object {
   "Announce": [Function],
   "Apple": [Function],
   "AppleAppStore": [Function],
+  "Apps": [Function],
   "Archive": [Function],
   "Archlinux": [Function],
   "Article": [Function],

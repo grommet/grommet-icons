@@ -20,7 +20,7 @@ export default {
   'Announce': ['bullhorn', 'loud', 'speaker', 'megaphone'],
   'Apple': ['donglebook', 'iphone', 'imac', 'logo', 'mac', 'macbook'],
   'AppleAppStore': ['donglebook', 'iphone', 'imac', 'logo', 'mac', 'macbook', 'store'],
-  'Apps': ['grid', 'menu'],
+  'Apps': ['apps', 'core'],
   'Archive': ['backup', 'box', 'container', 'document', 'files', 'folder', 'storage'],
   'Archlinux': ['linux', 'logo', 'os'],
   'Article': ['blog', 'news', 'newspaper', 'press'],

@@ -156,8 +156,8 @@ Object {
     "store",
   ],
   "Apps": Array [
-    "grid",
-    "menu",
+    "apps",
+    "core",
   ],
   "Archive": Array [
     "backup",
