@@ -309,6 +309,7 @@ export * from './LinkPrevious';
 export * from './LinkTop';
 export * from './LinkUp';
 export * from './Link';
+export * from './LinkOption';
 export * from './LinkedinOption';
 export * from './Linkedin';
 export * from './List';

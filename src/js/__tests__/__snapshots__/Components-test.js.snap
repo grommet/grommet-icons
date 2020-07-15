@@ -311,6 +311,7 @@ Object {
   "LinkBottom": [Function],
   "LinkDown": [Function],
   "LinkNext": [Function],
+  "LinkOption": [Function],
   "LinkPrevious": [Function],
   "LinkTop": [Function],
   "LinkUp": [Function],

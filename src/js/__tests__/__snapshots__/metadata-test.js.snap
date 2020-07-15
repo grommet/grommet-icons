@@ -1902,8 +1902,8 @@ Object {
     "reactjs",
   ],
   "Keyboard": Array [
-    "accessibility",
-    "tab",
+    "keyboard",
+    "technology",
   ],
   "Language": Array [
     "earth",
@@ -1967,6 +1967,16 @@ Object {
     "forward",
     "next",
     "right",
+  ],
+  "LinkOption": Array [
+    "connections",
+    "sharing",
+    "score",
+    "social",
+    "media",
+    "open",
+    "network",
+    "publish",
   ],
   "LinkPrevious": Array [
     "arrows",
@@ -2766,14 +2776,8 @@ Object {
     "publish",
   ],
   "ShareOption": Array [
-    "connections",
-    "sharing",
-    "score",
-    "social",
-    "media",
-    "open",
-    "network",
-    "publish",
+    "core",
+    "share",
   ],
   "Shield": Array [
     "antivirus",
