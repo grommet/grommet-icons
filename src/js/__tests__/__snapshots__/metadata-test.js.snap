@@ -156,8 +156,8 @@ Object {
     "store",
   ],
   "Apps": Array [
-    "grid",
-    "menu",
+    "apps",
+    "core",
   ],
   "Archive": Array [
     "backup",
@@ -1682,6 +1682,10 @@ Object {
     "line",
     "layout",
   ],
+  "GridOption": Array [
+    "line",
+    "layout",
+  ],
   "Grommet": Array [
     "awesome",
     "logo",
@@ -1963,6 +1967,16 @@ Object {
     "forward",
     "next",
     "right",
+  ],
+  "LinkOption": Array [
+    "connections",
+    "sharing",
+    "score",
+    "social",
+    "media",
+    "open",
+    "network",
+    "publish",
   ],
   "LinkPrevious": Array [
     "arrows",
@@ -2762,14 +2776,8 @@ Object {
     "publish",
   ],
   "ShareOption": Array [
-    "connections",
-    "sharing",
-    "score",
-    "social",
-    "media",
-    "open",
-    "network",
-    "publish",
+    "core",
+    "share",
   ],
   "Shield": Array [
     "antivirus",
