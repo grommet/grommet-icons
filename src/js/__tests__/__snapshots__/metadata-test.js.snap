@@ -540,11 +540,9 @@ Object {
     "report",
   ],
   "Clock": Array [
-    "date",
-    "timer",
-    "hands",
-    "hour",
-    "watch",
+    "clock",
+    "core",
+    "time",
   ],
   "Clone": Array [
     "copy",
@@ -1707,10 +1705,8 @@ Object {
     "stop",
   ],
   "Help": Array [
-    "hint",
-    "information",
-    "service",
-    "support",
+    "core",
+    "help",
     "question",
   ],
   "Heroku": Array [
@@ -1736,6 +1732,10 @@ Object {
     "estate",
     "house",
     "real",
+  ],
+  "HomeOption": Array [
+    "core",
+    "home",
   ],
   "Horton": Array [
     "big",
@@ -1898,8 +1898,8 @@ Object {
     "reactjs",
   ],
   "Keyboard": Array [
-    "accessibility",
-    "tab",
+    "keyboard",
+    "technology",
   ],
   "Language": Array [
     "earth",
@@ -1925,8 +1925,8 @@ Object {
     "stack",
   ],
   "License": Array [
-    "key",
-    "lock",
+    "license",
+    "miscellaneous",
   ],
   "Like": Array [
     "favorite",
