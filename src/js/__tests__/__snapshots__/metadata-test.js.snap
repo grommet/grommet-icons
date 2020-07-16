@@ -540,11 +540,9 @@ Object {
     "report",
   ],
   "Clock": Array [
-    "date",
-    "timer",
-    "hands",
-    "hour",
-    "watch",
+    "clock",
+    "core",
+    "time",
   ],
   "Clone": Array [
     "copy",
@@ -1898,8 +1896,8 @@ Object {
     "reactjs",
   ],
   "Keyboard": Array [
-    "accessibility",
-    "tab",
+    "keyboard",
+    "technology",
   ],
   "Language": Array [
     "earth",
