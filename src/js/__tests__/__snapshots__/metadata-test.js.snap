@@ -1737,6 +1737,10 @@ Object {
     "house",
     "real",
   ],
+  "HomeOption": Array [
+    "core",
+    "home",
+  ],
   "Horton": Array [
     "big",
     "data",
@@ -3569,6 +3573,10 @@ Object {
     "gps",
     "location",
     "navigation",
+  ],
+  "Webcam": Array [
+    "camera",
+    "technology",
   ],
   "Wheelchair": Array [
     "accessibility",
