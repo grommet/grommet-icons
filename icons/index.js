@@ -1878,6 +1878,13 @@ Object.keys(_Home).forEach(function (key) {
   exports[key] = _Home[key];
 });
 
+var _HomeOption = require("./HomeOption");
+
+Object.keys(_HomeOption).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _HomeOption[key];
+});
+
 var _Horton = require("./Horton");
 
 Object.keys(_Horton).forEach(function (key) {
@@ -4081,6 +4088,13 @@ var _Waypoint = require("./Waypoint");
 Object.keys(_Waypoint).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _Waypoint[key];
+});
+
+var _Webcam = require("./Webcam");
+
+Object.keys(_Webcam).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Webcam[key];
 });
 
 var _WheelchairActive = require("./WheelchairActive");
