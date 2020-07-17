@@ -1709,6 +1709,7 @@ Object {
     "stop",
   ],
   "Help": Array [
+    "core",
     "hint",
     "information",
     "service",
@@ -1934,6 +1935,7 @@ Object {
   "License": Array [
     "key",
     "lock",
+    "miscellaneous",
   ],
   "Like": Array [
     "favorite",
