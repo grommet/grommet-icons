@@ -540,10 +540,12 @@ Object {
     "report",
   ],
   "Clock": Array [
+    "core",
     "date",
-    "timer",
     "hands",
     "hour",
+    "time",
+    "timer",
     "watch",
   ],
   "Clone": Array [
@@ -1900,6 +1902,7 @@ Object {
   "Keyboard": Array [
     "accessibility",
     "tab",
+    "technology",
   ],
   "Language": Array [
     "earth",
