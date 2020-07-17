@@ -540,7 +540,6 @@ Object {
     "report",
   ],
   "Clock": Array [
-    "clock",
     "core",
     "date",
     "hands",
@@ -1902,7 +1901,6 @@ Object {
   ],
   "Keyboard": Array [
     "accessibility",
-    "keyboard",
     "tab",
     "technology",
   ],
