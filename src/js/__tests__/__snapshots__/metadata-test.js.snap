@@ -542,7 +542,12 @@ Object {
   "Clock": Array [
     "clock",
     "core",
+    "date",
+    "hands",
+    "hour",
     "time",
+    "timer",
+    "watch",
   ],
   "Clone": Array [
     "copy",
@@ -1896,7 +1901,9 @@ Object {
     "reactjs",
   ],
   "Keyboard": Array [
+    "accessibility",
     "keyboard",
+    "tab",
     "technology",
   ],
   "Language": Array [
