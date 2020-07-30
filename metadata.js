@@ -82,6 +82,7 @@ var _default = {
   'CheckboxSelected': ['mark', 'tick'],
   'Checkmark': ['accept', 'agree', 'core', 'done', 'good', 'ok'],
   'Chrome': ['browser', 'google', 'logo', 'web'],
+  'CircleAlert': ['alert', 'status', 'validation'],
   'CircleInformation': ['document', 'faq', 'help', 'hint'],
   'CirclePlay': ['music', 'video'],
   'CircleQuestion': ['faq', 'help', 'support'],

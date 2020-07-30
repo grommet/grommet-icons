@@ -77,6 +77,7 @@ export * from './CheckboxSelected';
 export * from './Checkbox';
 export * from './Checkmark';
 export * from './Chrome';
+export * from './CircleAlert';
 export * from './CircleInformation';
 export * from './CirclePlay';
 export * from './CircleQuestion';

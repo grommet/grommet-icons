@@ -555,6 +555,13 @@ Object.keys(_Chrome).forEach(function (key) {
   exports[key] = _Chrome[key];
 });
 
+var _CircleAlert = require("./CircleAlert");
+
+Object.keys(_CircleAlert).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _CircleAlert[key];
+});
+
 var _CircleInformation = require("./CircleInformation");
 
 Object.keys(_CircleInformation).forEach(function (key) {
