@@ -508,6 +508,11 @@ Object {
     "logo",
     "web",
   ],
+  "CircleAlert": Array [
+    "alert",
+    "status",
+    "validation",
+  ],
   "CircleInformation": Array [
     "document",
     "faq",
