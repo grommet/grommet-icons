@@ -82,6 +82,7 @@ Object {
   "CheckboxSelected": [Function],
   "Checkmark": [Function],
   "Chrome": [Function],
+  "CircleAlert": [Function],
   "CircleInformation": [Function],
   "CirclePlay": [Function],
   "CircleQuestion": [Function],

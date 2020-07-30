@@ -87,6 +87,7 @@ export declare const CheckboxSelected: Icon;
 export declare const Checkbox: Icon;
 export declare const Checkmark: Icon;
 export declare const Chrome: Icon;
+export declare const CircleAlert: Icon;
 export declare const CircleInformation: Icon;
 export declare const CirclePlay: Icon;
 export declare const CircleQuestion: Icon;
