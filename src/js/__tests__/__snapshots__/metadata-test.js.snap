@@ -441,6 +441,10 @@ Object {
     "logo",
     "os",
   ],
+  "Certificate": Array [
+    "license",
+    "miscellaneous",
+  ],
   "Channel": Array [
     "communications",
     "media",
@@ -1720,6 +1724,15 @@ Object {
     "support",
     "question",
   ],
+  "HelpOption": Array [
+    "core",
+    "help",
+    "hint",
+    "information",
+    "service",
+    "support",
+    "question",
+  ],
   "Heroku": Array [
     "cloud",
     "deployment",
@@ -1907,6 +1920,10 @@ Object {
     "logo",
     "react",
     "reactjs",
+  ],
+  "Key": Array [
+    "key",
+    "lock",
   ],
   "Keyboard": Array [
     "accessibility",
