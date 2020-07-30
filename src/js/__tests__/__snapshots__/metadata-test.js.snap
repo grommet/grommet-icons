@@ -441,6 +441,10 @@ Object {
     "logo",
     "os",
   ],
+  "Certificate": Array [
+    "license",
+    "miscellaneous",
+  ],
   "Channel": Array [
     "communications",
     "media",
@@ -1709,6 +1713,15 @@ Object {
     "stop",
   ],
   "Help": Array [
+    "hint",
+    "information",
+    "service",
+    "support",
+    "question",
+  ],
+  "HelpOption": Array [
+    "core",
+    "help",
     "hint",
     "information",
     "service",
