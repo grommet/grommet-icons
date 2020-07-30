@@ -1916,6 +1916,10 @@ Object {
     "react",
     "reactjs",
   ],
+  "Key": Array [
+    "key",
+    "lock",
+  ],
   "Keyboard": Array [
     "accessibility",
     "tab",
@@ -1943,10 +1947,6 @@ Object {
     "cascade",
     "layers",
     "stack",
-  ],
-  "License": Array [
-    "key",
-    "lock",
   ],
   "Like": Array [
     "favorite",
