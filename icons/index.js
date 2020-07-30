@@ -485,6 +485,13 @@ Object.keys(_Centos).forEach(function (key) {
   exports[key] = _Centos[key];
 });
 
+var _Certificate = require("./Certificate");
+
+Object.keys(_Certificate).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Certificate[key];
+});
+
 var _Channel = require("./Channel");
 
 Object.keys(_Channel).forEach(function (key) {
@@ -1857,6 +1864,13 @@ Object.keys(_Help).forEach(function (key) {
   exports[key] = _Help[key];
 });
 
+var _HelpOption = require("./HelpOption");
+
+Object.keys(_HelpOption).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _HelpOption[key];
+});
+
 var _Heroku = require("./Heroku");
 
 Object.keys(_Heroku).forEach(function (key) {
@@ -2072,6 +2086,13 @@ var _Js = require("./Js");
 Object.keys(_Js).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _Js[key];
+});
+
+var _Key = require("./Key");
+
+Object.keys(_Key).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Key[key];
 });
 
 var _Keyboard = require("./Keyboard");
