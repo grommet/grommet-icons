@@ -24,14 +24,14 @@ const customTheme = {
 
 storiesOf('Icon', module)
 .add('Default', () => {
-  const Icon = Icons[text('Icon', 'Accessibility')];
+  const Icon = Icons[text('Icon', 'Apps')];
   if (!Icon) {
     return null;
   }
   return <Icon />;
 })
   .add('Color', () => {
-    const Icon = Icons[text('Icon', 'Accessibility')];
+    const Icon = Icons[text('Icon', 'Apps')];
     if (!Icon) {
       return null;
     }
@@ -45,7 +45,7 @@ storiesOf('Icon', module)
     <Icons.Pocket color='plain' />
     ))
   .add('Custom Theme', () => {
-    const Icon = Icons[text('Icon', 'Accessibility')];
+    const Icon = Icons[text('Icon', 'Apps')];
     if (!Icon) {
       return null;
     }

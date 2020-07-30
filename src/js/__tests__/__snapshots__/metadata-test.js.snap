@@ -441,6 +441,10 @@ Object {
     "logo",
     "os",
   ],
+  "Certificate": Array [
+    "license",
+    "miscellaneous",
+  ],
   "Channel": Array [
     "communications",
     "media",
@@ -504,6 +508,11 @@ Object {
     "logo",
     "web",
   ],
+  "CircleAlert": Array [
+    "alert",
+    "status",
+    "validation",
+  ],
   "CircleInformation": Array [
     "document",
     "faq",
@@ -540,10 +549,12 @@ Object {
     "report",
   ],
   "Clock": Array [
+    "core",
     "date",
-    "timer",
     "hands",
     "hour",
+    "time",
+    "timer",
     "watch",
   ],
   "Clone": Array [
@@ -1717,6 +1728,15 @@ Object {
     "support",
     "question",
   ],
+  "HelpOption": Array [
+    "core",
+    "help",
+    "hint",
+    "information",
+    "service",
+    "support",
+    "question",
+  ],
   "Heroku": Array [
     "cloud",
     "deployment",
@@ -1740,6 +1760,10 @@ Object {
     "estate",
     "house",
     "real",
+  ],
+  "HomeOption": Array [
+    "core",
+    "home",
   ],
   "Horton": Array [
     "big",
@@ -1901,9 +1925,14 @@ Object {
     "react",
     "reactjs",
   ],
+  "Key": Array [
+    "key",
+    "lock",
+  ],
   "Keyboard": Array [
     "accessibility",
     "tab",
+    "technology",
   ],
   "Language": Array [
     "earth",
@@ -3577,6 +3606,10 @@ Object {
     "gps",
     "location",
     "navigation",
+  ],
+  "Webcam": Array [
+    "camera",
+    "technology",
   ],
   "Wheelchair": Array [
     "accessibility",
