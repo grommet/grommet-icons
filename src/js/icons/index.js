@@ -301,6 +301,7 @@ export * from './Language';
 export * from './Lastfm';
 export * from './Launch';
 export * from './Layer';
+export * from './License';
 export * from './Like';
 export * from './LineChart';
 export * from './LinkBottom';

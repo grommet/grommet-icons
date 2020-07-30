@@ -310,6 +310,7 @@ export declare const Language: Icon;
 export declare const Lastfm: Icon;
 export declare const Launch: Icon;
 export declare const Layer: Icon;
+export declare const License: Icon;
 export declare const Like: Icon;
 export declare const LineChart: Icon;
 export declare const LinkBottom: Icon;

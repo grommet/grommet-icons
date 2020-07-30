@@ -302,6 +302,7 @@ export default {
   'Launch': ['rocket', 'spaceship', 'startup'],
   'Lastfm': ['logo', 'media', 'music', 'sound'],
   'Layer': ['arrange', 'cascade', 'layers', 'stack'],
+  'License': ['key', 'lock'],
   'Like': ['favorite', 'heart', 'thumbs', 'up'],
   'LineChart': ['graph', 'grow', 'time'],
   'Link': ['chain', 'connection', 'network', 'web'],

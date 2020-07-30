@@ -1948,6 +1948,10 @@ Object {
     "layers",
     "stack",
   ],
+  "License": Array [
+    "key",
+    "lock",
+  ],
   "Like": Array [
     "favorite",
     "heart",
