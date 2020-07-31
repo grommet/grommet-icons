@@ -2706,6 +2706,9 @@ Object {
     "game",
     "mark",
   ],
+  "Script": Array [
+    "miscellaneous",
+  ],
   "Sd": Array [
     "hardware",
     "card",
@@ -3415,6 +3418,11 @@ Object {
     "export",
     "files",
     "send",
+  ],
+  "UploadOption": Array [
+    "arrow",
+    "navigation",
+    "upload",
   ],
   "UsbKey": Array [
     "hardware",
