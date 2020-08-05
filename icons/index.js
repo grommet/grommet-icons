@@ -156,6 +156,13 @@ Object.keys(_Apps).forEach(function (key) {
   exports[key] = _Apps[key];
 });
 
+var _AppsRounded = require("./AppsRounded");
+
+Object.keys(_AppsRounded).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _AppsRounded[key];
+});
+
 var _Archive = require("./Archive");
 
 Object.keys(_Archive).forEach(function (key) {
@@ -3171,6 +3178,13 @@ var _Share = require("./Share");
 Object.keys(_Share).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _Share[key];
+});
+
+var _ShareRounded = require("./ShareRounded");
+
+Object.keys(_ShareRounded).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _ShareRounded[key];
 });
 
 var _ShieldSecurity = require("./ShieldSecurity");

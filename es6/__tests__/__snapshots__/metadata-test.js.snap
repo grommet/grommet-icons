@@ -159,6 +159,11 @@ Object {
     "grid",
     "menu",
   ],
+  "AppsRounded": Array [
+    "core",
+    "grid",
+    "menu",
+  ],
   "Archive": Array [
     "backup",
     "box",
@@ -2799,6 +2804,15 @@ Object {
     "score",
     "social",
     "media",
+    "open",
+    "network",
+    "publish",
+  ],
+  "ShareRounded": Array [
+    "connections",
+    "core",
+    "export",
+    "sharing",
     "open",
     "network",
     "publish",
