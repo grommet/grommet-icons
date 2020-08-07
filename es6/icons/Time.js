@@ -9,6 +9,7 @@ export var Time = function Time(props) {
   }, props), /*#__PURE__*/React.createElement("path", {
     d: "M1 13H5L7.5 4L12.5 20.5L17 9L19 13H23",
     stroke: "#000",
-    strokeWidth: "2"
+    strokeWidth: "2",
+    fill: "none"
   }));
 };
