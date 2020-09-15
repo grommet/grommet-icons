@@ -400,6 +400,14 @@ Object {
     "down",
     "expand",
   ],
+  "CaretDownFill": Array [
+    "arrows",
+    "core",
+    "direction",
+    "down",
+    "expand",
+    "fill",
+  ],
   "CaretNext": Array [
     "arrows",
     "core",
@@ -419,6 +427,14 @@ Object {
     "collapse",
     "core",
     "direction",
+    "up",
+  ],
+  "CaretUpFill": Array [
+    "arrows",
+    "collapse",
+    "core",
+    "direction",
+    "fill",
     "up",
   ],
   "Cart": Array [
