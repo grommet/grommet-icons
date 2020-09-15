@@ -12,7 +12,6 @@ export var HomeOption = function HomeOption(props) {
     width: "18",
     height: "18",
     rx: "4",
-    fill: "none",
     stroke: "#000",
     strokeWidth: "2"
   }));

@@ -149,18 +149,18 @@ Object.keys(_Apple).forEach(function (key) {
   exports[key] = _Apple[key];
 });
 
-var _Apps = require("./Apps");
-
-Object.keys(_Apps).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  exports[key] = _Apps[key];
-});
-
 var _AppsRounded = require("./AppsRounded");
 
 Object.keys(_AppsRounded).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _AppsRounded[key];
+});
+
+var _Apps = require("./Apps");
+
+Object.keys(_Apps).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Apps[key];
 });
 
 var _Archive = require("./Archive");
@@ -1864,18 +1864,18 @@ Object.keys(_Halt).forEach(function (key) {
   exports[key] = _Halt[key];
 });
 
-var _Help = require("./Help");
-
-Object.keys(_Help).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  exports[key] = _Help[key];
-});
-
 var _HelpOption = require("./HelpOption");
 
 Object.keys(_HelpOption).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _HelpOption[key];
+});
+
+var _Help = require("./Help");
+
+Object.keys(_Help).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Help[key];
 });
 
 var _Heroku = require("./Heroku");
@@ -1899,18 +1899,18 @@ Object.keys(_History).forEach(function (key) {
   exports[key] = _History[key];
 });
 
-var _Home = require("./Home");
-
-Object.keys(_Home).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  exports[key] = _Home[key];
-});
-
 var _HomeOption = require("./HomeOption");
 
 Object.keys(_HomeOption).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _HomeOption[key];
+});
+
+var _Home = require("./Home");
+
+Object.keys(_Home).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Home[key];
 });
 
 var _Horton = require("./Horton");
@@ -3173,18 +3173,18 @@ Object.keys(_ShareOption).forEach(function (key) {
   exports[key] = _ShareOption[key];
 });
 
-var _Share = require("./Share");
-
-Object.keys(_Share).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  exports[key] = _Share[key];
-});
-
 var _ShareRounded = require("./ShareRounded");
 
 Object.keys(_ShareRounded).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _ShareRounded[key];
+});
+
+var _Share = require("./Share");
+
+Object.keys(_Share).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Share[key];
 });
 
 var _ShieldSecurity = require("./ShieldSecurity");
