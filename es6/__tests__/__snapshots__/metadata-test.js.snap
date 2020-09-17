@@ -54,7 +54,7 @@ Object {
   ],
   "Aggregate": Array [
     "add",
-    "combinatin",
+    "combination",
     "combine",
     "join",
     "merge",
@@ -380,7 +380,7 @@ Object {
     "image",
     "lens",
     "photos",
-    "photograpy",
+    "photography",
     "picture",
     "shot",
   ],
@@ -817,7 +817,7 @@ Object {
     "repeat",
   ],
   "Dashboard": Array [
-    "guage",
+    "gauge",
     "speedometer",
   ],
   "Database": Array [
@@ -3368,7 +3368,7 @@ Object {
     "blog",
     "image",
     "logo",
-    "medi,ia",
+    "media",
     "picture",
     "photography",
     "photos",
