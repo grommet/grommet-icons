@@ -196,6 +196,12 @@ Object {
     "sort",
     "up",
   ],
+  "Ascending": Array [
+    "arrange",
+    "arrows",
+    "sort",
+    "up",
+  ],
   "AssistListening": Array [
     "accessibility",
     "audio",
@@ -841,6 +847,12 @@ Object {
   ],
   "Descend": Array [
     "arrows",
+    "downward",
+    "sort",
+  ],
+  "Descending": Array [
+    "arrows",
+    "down",
     "downward",
     "sort",
   ],
@@ -3422,6 +3434,13 @@ Object {
     "text",
     "items",
     "editor",
+  ],
+  "Unsorted": Array [
+    "arrows",
+    "up",
+    "down",
+    "sort",
+    "sortable",
   ],
   "Up": Array [
     "arrows",
