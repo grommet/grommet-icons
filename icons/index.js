@@ -198,6 +198,13 @@ Object.keys(_Ascend).forEach(function (key) {
   exports[key] = _Ascend[key];
 });
 
+var _Ascending = require("./Ascending");
+
+Object.keys(_Ascending).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Ascending[key];
+});
+
 var _AssistListening = require("./AssistListening");
 
 Object.keys(_AssistListening).forEach(function (key) {
@@ -952,6 +959,13 @@ var _Descend = require("./Descend");
 Object.keys(_Descend).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _Descend[key];
+});
+
+var _Descending = require("./Descending");
+
+Object.keys(_Descending).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Descending[key];
 });
 
 var _Desktop = require("./Desktop");
@@ -3920,6 +3934,13 @@ var _UnorderedList = require("./UnorderedList");
 Object.keys(_UnorderedList).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   exports[key] = _UnorderedList[key];
+});
+
+var _Unsorted = require("./Unsorted");
+
+Object.keys(_Unsorted).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  exports[key] = _Unsorted[key];
 });
 
 var _Up = require("./Up");
