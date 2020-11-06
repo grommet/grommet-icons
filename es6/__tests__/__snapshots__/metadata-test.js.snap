@@ -545,6 +545,7 @@ Object {
     "faq",
     "help",
     "hint",
+    "info",
   ],
   "CirclePlay": Array [
     "music",

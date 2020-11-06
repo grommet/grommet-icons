@@ -84,7 +84,7 @@ export default {
   'Checkmark': ['accept', 'agree', 'core', 'done', 'good', 'ok'],
   'Chrome': ['browser', 'google', 'logo', 'web'],
   'CircleAlert': ['alert', 'status', 'validation'],
-  'CircleInformation': ['document', 'faq', 'help', 'hint'],
+  'CircleInformation': ['document', 'faq', 'help', 'hint', 'info'],
   'CirclePlay': ['music', 'video'],
   'CircleQuestion': ['faq', 'help', 'support'],
   'Clear': ['forbidden', 'no', 'prohibited', 'stop'],
