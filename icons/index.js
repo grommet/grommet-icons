@@ -522,6 +522,14 @@ Object.keys(_CaretDown).forEach(function (key) {
   exports[key] = _CaretDown[key];
 });
 
+var _CaretLeftFill = require("./CaretLeftFill");
+
+Object.keys(_CaretLeftFill).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _CaretLeftFill[key]) return;
+  exports[key] = _CaretLeftFill[key];
+});
+
 var _CaretNext = require("./CaretNext");
 
 Object.keys(_CaretNext).forEach(function (key) {
@@ -536,6 +544,14 @@ Object.keys(_CaretPrevious).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _CaretPrevious[key]) return;
   exports[key] = _CaretPrevious[key];
+});
+
+var _CaretRightFill = require("./CaretRightFill");
+
+Object.keys(_CaretRightFill).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _CaretRightFill[key]) return;
+  exports[key] = _CaretRightFill[key];
 });
 
 var _CaretUpFill = require("./CaretUpFill");

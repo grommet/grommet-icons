@@ -414,6 +414,14 @@ Object {
     "expand",
     "fill",
   ],
+  "CaretLeftFill": Array [
+    "arrows",
+    "core",
+    "direction",
+    "left",
+    "expand",
+    "fill",
+  ],
   "CaretNext": Array [
     "arrows",
     "core",
@@ -427,6 +435,14 @@ Object {
     "direction",
     "rewind",
     "left",
+  ],
+  "CaretRightFill": Array [
+    "arrows",
+    "core",
+    "direction",
+    "right",
+    "expand",
+    "fill",
   ],
   "CaretUp": Array [
     "arrows",
