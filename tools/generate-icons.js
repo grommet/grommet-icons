@@ -58,7 +58,10 @@ export const ${pascalCase(fileName)} = props => (
 `;
 }
 const optimizeSvg = svg => {
-  const optimized = optimize(svg, { multipass: true });
+  const optimized = optimize(svg, {
+    multipass: true,
+    removeViewBox: false,
+  });
   return optimized.data;
 };
 
