@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const Java = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='Java' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M1,18 L1,9 L17,9 L17,18 C17,22 15,23 9,23 C3,23 1,22 1,18 Z M17,9 L17,12 C17,13.657 18.343,15 20,15 C21.657,15 23,13.657 23,12 C23,10.343 21.657,9 20,9 L17,9 Z M13,6 L13,2 M5,6 L5,4 M9,6 L9,0' />
+  <StyledIcon viewBox='undefined' a11yTitle='Java' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='M1 18V9h16v9c0 4-2 5-8 5s-8-1-8-5zm16-9v3a3 3 0 1 0 3-3h-3zm-4-3V2M5 6V4m4 2V0' />
   </StyledIcon>
 );

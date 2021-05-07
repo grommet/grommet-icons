@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const DocumentRtf = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='DocumentRtf' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M4.99787498,8.99999999 L4.99787498,0.999999992 L19.4999998,0.999999992 L22.9999998,4.50000005 L23,23 L4,23 M18,1 L18,6 L23,6 M20.5,12 L16.5,12 L16.5,19 M19.5,15.5 L16.5,15.5 M8.5,12 L14.5,12 M11.5,12 L11.5,19 M3,19 L3,12 L4.5,12 C5,12 7,12 7,14 C7,16 5,16 4.5,16 C4,16 3,16 3,16 M5.25,16 L7.5,19' />
+  <StyledIcon viewBox='undefined' a11yTitle='DocumentRtf' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='M4.998 9V1H19.5L23 4.5V23H4M18 1v5h5m-2.5 6h-4v7m3-3.5h-3m-8-3.5h6m-3 0v7M3 19v-7h1.5C5 12 7 12 7 14s-2 2-2.5 2H3m2.25 0 2.25 3' />
   </StyledIcon>
 );

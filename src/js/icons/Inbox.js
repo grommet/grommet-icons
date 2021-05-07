@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const Inbox = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='Inbox' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M1,13 L6,2 L18,2 L23,13 L23,22 L1,22 L1,13 Z M1,13 L8,13 L8,16 L16,16 L16,13 L23,13' />
+  <StyledIcon viewBox='undefined' a11yTitle='Inbox' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='M1 13 6 2h12l5 11v9H1v-9zm0 0h7v3h8v-3h7' />
   </StyledIcon>
 );

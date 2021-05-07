@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const DocumentOutlook = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='DocumentOutlook' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M2.99787498,8.99999999 L2.99787498,0.999999992 L17.4999998,0.999999992 L20.9999998,4.50000005 L21,23 L2,23 M16,1 L16,6 L21,6 M7.75,15.75 C7.75,13.5 6.49999991,12 5,12 C3.50000009,12 2.25,13.5 2.25,15.75 C2.25,18 3.50000006,19.5000002 5.00000003,19.5000001 C6.5,19.5 7.75,18 7.75,15.75 Z M5,12 C7.42537405,12 8,14.5 8,15.75 C8,17 7.5,19.5 5,19.5 C2.5,19.5 2,17 2,15.75 C2,14.5 2.559,12 5,12 Z' />
+  <StyledIcon viewBox='undefined' a11yTitle='DocumentOutlook' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='M2.998 9V1H17.5L21 4.5V23H2M16 1v5h5M7.75 15.75C7.75 13.5 6.5 12 5 12s-2.75 1.5-2.75 3.75S3.5 19.5 5 19.5s2.75-1.5 2.75-3.75zM5 12c2.425 0 3 2.5 3 3.75s-.5 3.75-3 3.75-3-2.5-3-3.75S2.559 12 5 12z' />
   </StyledIcon>
 );

@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const Coffee = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='Coffee' {...props}>
-    <g fill='none' transform='rotate(35 6.328 18.929)'><path stroke='#000' strokeWidth='2' d='M7,20 C12,20 14,15 14,10 C14,5 12,0 7,0 C2,8.74747714e-16 0,5 0,10 C2.1431319e-16,15 2,20 7,20 Z' /><path fill='#000' d='M7,2 C6,3 4,7 6,10 C8,13 7.5,17 7,18 C8.5,17 10,13 8,10 C6,7 6.5,3 7,2 Z' /></g>
+  <StyledIcon viewBox='undefined' a11yTitle='Coffee' {...props}>
+    <g fill='none'><path stroke='#000' strokeWidth='2' d='M6.264 20.192c4.096 2.868 8.602-.081 11.47-4.177 2.868-4.095 4.097-9.338.002-12.206-4.096-2.868-8.602.08-11.47 4.176-2.868 4.096-4.098 9.339-.002 12.207z' /><path fill='#000' d='M16.589 5.447c-1.393.246-5.326 2.375-5.408 5.98-.083 3.604-2.787 6.594-3.77 7.126 1.803.042 5.326-2.375 5.408-5.98.083-3.604 2.786-6.594 3.77-7.126z' /></g>
   </StyledIcon>
 );

@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const FormCalendar = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='FormCalendar' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M6,19 L18,19 L18,8 L6,8 L6,19 Z M15,8 L15,5 L15,8 Z M9,8 L9,5 L9,8 Z M6,11.5 L18,11.5 L6,11.5 Z' />
+  <StyledIcon viewBox='undefined' a11yTitle='FormCalendar' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='M6 19h12V8H6v11zm9-11V5v3zM9 8V5v3zm-3 3.5h12H6z' />
   </StyledIcon>
 );

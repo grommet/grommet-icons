@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const Like = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='Like' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M1,23 L20,23 C22,23 23,22 23,20 L23,10 L16,10 L16,4 C16,2 15,1 13,1 L11,1 C11,1 10.9842682,7 10.9842677,8.32575545 C10.9842672,9.65151089 10,11 8,11 L1,11 L1,23 Z M6,23 L6,11' />
+  <StyledIcon viewBox='undefined' a11yTitle='Like' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='M1 23h19c2 0 3-1 3-3V10h-7V4c0-2-1-3-3-3h-2s-.016 6-.016 7.326C10.984 9.652 10 11 8 11H1v12zm5 0V11' />
   </StyledIcon>
 );

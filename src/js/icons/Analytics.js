@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const Analytics = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='Analytics' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M20,7 C21.25,8.67 22,10.75 22,13 C22,18.52 17.52,23 12,23 C6.48,23 2,18.52 2,13 C2,7.48 6.48,3 12,3 M12,1 L12,13 L21.6,5.8 C19.41,2.89 15.92,1 12,1 L12,1 Z' />
+  <StyledIcon viewBox='undefined' a11yTitle='Analytics' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='M20 7c1.25 1.67 2 3.75 2 6 0 5.52-4.48 10-10 10S2 18.52 2 13 6.48 3 12 3m0-2v12l9.6-7.2C19.41 2.89 15.92 1 12 1z' />
   </StyledIcon>
 );

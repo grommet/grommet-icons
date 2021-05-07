@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const FormLocation = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='FormLocation' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M12,17 C12,17 8,14 8,11 C8,8.5 10,7 12,7 C14,7 16,8.5 16,11 C16,14 12,17 12,17 Z M12,12 C12.5523333,12 13,11.5523333 13,11 C13,10.4476667 12.5523333,10 12,10 C11.4476667,10 11,10.4476667 11,11 C11,11.5523333 11.4476667,12 12,12 L12,12 Z' />
+  <StyledIcon viewBox='undefined' a11yTitle='FormLocation' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='M12 17s-4-3-4-6c0-2.5 2-4 4-4s4 1.5 4 4c0 3-4 6-4 6zm0-5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z' />
   </StyledIcon>
 );

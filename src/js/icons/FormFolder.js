@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const FormFolder = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='FormFolder' {...props}>
-    <polygon fill='none' stroke='#000' strokeWidth='2' points='6 18 6 6 10.8 6 12.6 8.4 18 8.4 18 18' />
+  <StyledIcon viewBox='undefined' a11yTitle='FormFolder' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='M6 18V6h4.8l1.8 2.4H18V18z' />
   </StyledIcon>
 );

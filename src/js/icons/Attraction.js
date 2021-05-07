@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const Attraction = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='Attraction' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M13,2 L14.5,2.5 L13,3 L13,2 Z M14,18 L15,23 L13,23 L14,18 Z M14,16.5 L16,23 L12,23 L14,16.5 Z M12,6 L21,11 L21,13 L3,13 L3,11 L12,6 Z M4.5,13 L19.5,13 C19.5,17.1666667 21,23 21,23 L3,23 C3,23 4.5,17.1666667 4.5,13 Z M4.5,13 L19.5,13 C19.5,17.1666667 21,23 21,23 L3,23 C3,23 4.5,17.1666667 4.5,13 Z' />
+  <StyledIcon viewBox='undefined' a11yTitle='Attraction' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='m13 2 1.5.5L13 3V2zm1 16 1 5h-2l1-5zm0-1.5 2 6.5h-4l2-6.5zM12 6l9 5v2H3v-2l9-5zm-7.5 7h15c0 4.167 1.5 10 1.5 10H3s1.5-5.833 1.5-10zm0 0h15c0 4.167 1.5 10 1.5 10H3s1.5-5.833 1.5-10z' />
   </StyledIcon>
 );

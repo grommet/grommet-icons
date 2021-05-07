@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const Baby = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='Baby' {...props}>
-    <path fill='none' stroke='#000' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M10,15 L14,15 C14,15 13,16.5 12,16.5 C11,16.5 10,15 10,15 Z M12,6 C12.5522847,6 13,5.55228475 13,5 C13,4.44771525 12.5522847,4 12,4 C11.4477153,4 11,4.44771525 11,5 C11,5.55228475 11.4477153,6 12,6 Z M18,12 L14,9 M14,15 L17,17.5 L14.5,20 M6,12 L10,9 M10,15 L7.5,17.75 L10,20 M10,9 L14,9 L14,12 L10,12 L10,9 Z' />
+  <StyledIcon viewBox='undefined' a11yTitle='Baby' {...props}>
+    <path fill='none' stroke='#000' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M10 15h4s-1 1.5-2 1.5-2-1.5-2-1.5zm2-9a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm6 6-4-3m0 6 3 2.5-2.5 2.5M6 12l4-3m0 6-2.5 2.75L10 20m0-11h4v3h-4V9z' />
   </StyledIcon>
 );

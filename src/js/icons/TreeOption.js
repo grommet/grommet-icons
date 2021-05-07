@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const TreeOption = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='TreeOption' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M7,13 L11.375,6 L9,6 L12,2 L15,6 L12.625,6 L17,13 L15,13 L19,19.6666667 L5,19.6666667 L9,13 L7,13 Z M12,24 L12,20' />
+  <StyledIcon viewBox='undefined' a11yTitle='TreeOption' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='m7 13 4.375-7H9l3-4 3 4h-2.375L17 13h-2l4 6.667H5L9 13H7zm5 11v-4' />
   </StyledIcon>
 );

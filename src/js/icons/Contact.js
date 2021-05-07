@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const Contact = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='Contact' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M1,2 L22,2 L22,18 L14,18 L6,22 L6,18 L1,18 L1,2 Z M6,10 L7,10 L7,11 L6,11 L6,10 Z M11,10 L12,10 L12,11 L11,11 L11,10 Z M16,10 L17,10 L17,11 L16,11 L16,10 Z' />
+  <StyledIcon viewBox='undefined' a11yTitle='Contact' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='M1 2h21v16h-8l-8 4v-4H1V2zm5 8h1v1H6v-1zm5 0h1v1h-1v-1zm5 0h1v1h-1v-1z' />
   </StyledIcon>
 );

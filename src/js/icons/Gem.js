@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const Gem = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='Gem' {...props}>
-    <path fillRule='evenodd' clipRule='evenodd' d='M7 1H6.58579L6.29289 1.29289L3.29289 4.29289L3 4.58579V5V19V19.4142L3.29289 19.7071L6.29289 22.7071L6.58579 23H7H17H17.4142L17.7071 22.7071L20.7071 19.7071L21 19.4142V19V5V4.58579L20.7071 4.29289L17.7071 1.29289L17.4142 1H17H7ZM5 6V18H6V6H5ZM8 21H16V20H8V21ZM19 18V6H18V18H19ZM16 3H8V4H16V3ZM16 6V18H8V6H16Z' fill='#000' />
+  <StyledIcon viewBox='undefined' a11yTitle='Gem' {...props}>
+    <path fillRule='evenodd' clipRule='evenodd' d='M7 1h-.414l-.293.293-3 3L3 4.586v14.828l.293.293 3 3 .293.293h10.828l.293-.293 3-3 .293-.293V4.586l-.293-.293-3-3L17.414 1H7zM5 6v12h1V6H5zm3 15h8v-1H8v1zm11-3V6h-1v12h1zM16 3H8v1h8V3zm0 3v12H8V6h8z' fill='#000' />
   </StyledIcon>
 );

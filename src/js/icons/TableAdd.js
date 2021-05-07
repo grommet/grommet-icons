@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const TableAdd = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='TableAdd' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M8,5 L8,23 M16,5 L16,11 M1,11 L17,11 M1,5 L23,5 M1,17 L11,17 M17,23 L1,23 L1,1 L23,1 L23,17 M17,23 C20.3137085,23 23,20.3137085 23,17 C23,13.6862915 20.3137085,11 17,11 C13.6862915,11 11,13.6862915 11,17 C11,20.3137085 13.6862915,23 17,23 Z M17,14 L17,20 M17,14 L17,20 M14,17 L20,17' />
+  <StyledIcon viewBox='undefined' a11yTitle='TableAdd' {...props}>
+    <path fill='none' stroke='#000' strokeWidth='2' d='M8 5v18m8-18v6M1 11h16M1 5h22M1 17h10m6 6H1V1h22v16m-6 6a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm0-9v6m0-6v6m-3-3h6' />
   </StyledIcon>
 );

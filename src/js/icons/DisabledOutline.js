@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 export const DisabledOutline = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='DisabledOutline' {...props}>
-    <path fillRule='evenodd' clipRule='evenodd' d='M1 4C1 2.34315 2.34315 1 4 1H20C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4ZM4 3C3.44772 3 3 3.44772 3 4V20C3 20.5523 3.44772 21 4 21H20C20.5523 21 21 20.5523 21 20V4C21 3.44772 20.5523 3 20 3H4ZM6 11H18V13H6V11Z' fill='#000' />
+  <StyledIcon viewBox='undefined' a11yTitle='DisabledOutline' {...props}>
+    <path fillRule='evenodd' clipRule='evenodd' d='M1 4a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v16a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3V4zm3-1a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4zm2 8h12v2H6v-2z' fill='#000' />
   </StyledIcon>
 );
