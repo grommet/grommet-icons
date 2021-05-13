@@ -1908,7 +1908,6 @@ Object {
     "tree",
   ],
   "Insecure": Array [
-    "insecure",
     "open",
     "unlocked",
     "unprotected",
@@ -2790,7 +2789,6 @@ Object {
     "closed",
     "locked",
     "protected",
-    "secure",
     "security",
     "ssl",
   ],
