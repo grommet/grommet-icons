@@ -19,7 +19,7 @@ var Upload = function Upload(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M1,17 L1,23 L23,23 L23,17 M12,2 L12,19 M5,9 L12,2 L19,9"
+    d: "M1 17v6h22v-6M12 2v17M5 9l7-7 7 7"
   }));
 };
 

@@ -10,6 +10,6 @@ export var Share = function Share(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M19,13 L19,23 L1,23 L1,5 L1,5 L11,5 M14,1 L23,1 L23,10 M10,14 L22.9999998,1 L10,14 Z"
+    d: "M19 13v10H1V5h10m3-4h9v9m-13 4L23 1 10 14z"
   }));
 };

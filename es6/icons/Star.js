@@ -6,9 +6,9 @@ export var Star = function Star(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Star"
-  }, props), /*#__PURE__*/React.createElement("polygon", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     fill: "#FFC95E",
     fillRule: "evenodd",
-    points: "12 16.667 5 22 8 14 2 9.5 9.5 9.5 12 2 14.5 9.5 22 9.5 16 14 19 22"
+    d: "M12 16.667 5 22l3-8-6-4.5h7.5L12 2l2.5 7.5H22L16 14l3 8z"
   }));
 };

@@ -10,6 +10,6 @@ export var Resume = function Resume(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M1,20 L6,20 L6,4 L1,4 L1,20 Z M11,19.0000002 L22,12 L11,5 L11,19.0000002 Z"
+    d: "M1 20h5V4H1v16zm10-1 11-7-11-7v14z"
   }));
 };

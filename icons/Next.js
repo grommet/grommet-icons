@@ -15,11 +15,11 @@ var Next = function Next(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Next"
-  }, props), /*#__PURE__*/_react["default"].createElement("polyline", {
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "7 2 17 12 7 22"
+    d: "m7 2 10 10L7 22"
   }));
 };
 

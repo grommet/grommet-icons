@@ -6,10 +6,10 @@ export var FormCheckmark = function FormCheckmark(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "FormCheckmark"
-  }, props), /*#__PURE__*/React.createElement("polyline", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "6 13 10.2 16.6 18 7"
+    d: "m6 13 4.2 3.6L18 7"
   }));
 };

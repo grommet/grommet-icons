@@ -15,11 +15,11 @@ var FormDown = function FormDown(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "FormDown"
-  }, props), /*#__PURE__*/_react["default"].createElement("polyline", {
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "18 9 12 15 6 9"
+    d: "m18 9-6 6-6-6"
   }));
 };
 

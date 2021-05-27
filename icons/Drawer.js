@@ -17,9 +17,9 @@ var Drawer = function Drawer(props) {
     a11yTitle: "Drawer"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
-    stroke: "#000000",
+    stroke: "#000",
     strokeWidth: "2",
-    d: "M1,14 L6,2 L18,2 L23,14 L21,22 L3,22 L1,14 Z M1,14 L23,14"
+    d: "M1 14 6 2h12l5 12-2 8H3l-2-8zm0 0h22"
   }));
 };
 

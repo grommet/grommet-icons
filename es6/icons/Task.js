@@ -10,6 +10,6 @@ export var Task = function Task(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M12,20 L24,20 M12,12 L24,12 M12,4 L24,4 M1,19 L4,22 L9,17 M1,11 L4,14 L9,9 M9,1 L4,6 L1,3"
+    d: "M12 20h12m-12-8h12M12 4h12M1 19l3 3 5-5m-8-6 3 3 5-5m0-8L4 6 1 3"
   }));
 };

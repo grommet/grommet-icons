@@ -19,7 +19,7 @@ var FormSubtract = function FormSubtract(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M6,12 L18,12"
+    d: "M6 12h12"
   }));
 };
 

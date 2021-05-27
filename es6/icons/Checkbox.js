@@ -6,13 +6,10 @@ export var Checkbox = function Checkbox(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Checkbox"
-  }, props), /*#__PURE__*/React.createElement("rect", {
-    width: "20",
-    height: "20",
-    x: "2",
-    y: "2",
+  }, props), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    strokeWidth: "2"
+    strokeWidth: "2",
+    d: "M2 2h20v20H2z"
   }));
 };

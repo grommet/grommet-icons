@@ -15,12 +15,11 @@ var FormPrevious = function FormPrevious(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "FormPrevious"
-  }, props), /*#__PURE__*/_react["default"].createElement("polyline", {
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "9 6 15 12 9 18",
-    transform: "matrix(-1 0 0 1 24 0)"
+    d: "m15 6-6 6 6 6"
   }));
 };
 

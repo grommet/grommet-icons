@@ -10,6 +10,6 @@ export var Basket = function Basket(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M2,12 L22,12 L20,23 L4,23 L2,12 Z M20,8 L14,1 M4,8 L10,1 M1,8 L23,8 L23,12 L1,12 L1,8 Z M8,15 L8,20 M16,15 L16,20 M12,15 L12,20"
+    d: "M2 12h20l-2 11H4L2 12zm18-4-6-7M4 8l6-7M1 8h22v4H1V8zm7 7v5m8-5v5m-4-5v5"
   }));
 };

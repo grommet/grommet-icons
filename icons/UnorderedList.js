@@ -15,21 +15,8 @@ var UnorderedList = function UnorderedList(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "UnorderedList"
-  }, props), /*#__PURE__*/_react["default"].createElement("rect", {
-    x: "5.94",
-    y: "6.42",
-    width: "18.06",
-    height: "1.75"
-  }), /*#__PURE__*/_react["default"].createElement("rect", {
-    x: "5.94",
-    y: "11.71",
-    width: "18.06",
-    height: "1.75"
-  }), /*#__PURE__*/_react["default"].createElement("rect", {
-    x: "5.94",
-    y: "16.99",
-    width: "18.06",
-    height: "1.75"
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M5.94 6.42H24v1.75H5.94zm0 5.29H24v1.75H5.94zm0 5.28H24v1.75H5.94z"
   }), /*#__PURE__*/_react["default"].createElement("circle", {
     cx: "1.85",
     cy: "7.29",

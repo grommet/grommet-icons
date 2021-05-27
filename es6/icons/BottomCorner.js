@@ -6,10 +6,10 @@ export var BottomCorner = function BottomCorner(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "BottomCorner"
-  }, props), /*#__PURE__*/React.createElement("polyline", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "8 20 20 20 20 8"
+    d: "M8 20h12V8"
   }));
 };

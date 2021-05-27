@@ -19,7 +19,7 @@ var LinkTop = function LinkTop(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M12,5 L12,23 M4,13 L12,5 L20,13 M2,2 L22,2"
+    d: "M12 5v18M4 13l8-8 8 8M2 2h20"
   }));
 };
 

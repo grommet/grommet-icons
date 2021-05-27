@@ -10,6 +10,6 @@ export var FormAdd = function FormAdd(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M12,18 L12,6 M6,12 L18,12"
+    d: "M12 18V6m-6 6h12"
   }));
 };

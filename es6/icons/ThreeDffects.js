@@ -6,10 +6,10 @@ export var ThreeDffects = function ThreeDffects(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "ThreeDffects"
-  }, props), /*#__PURE__*/React.createElement("polyline", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "11 3 13 3 22 6 22 17 12 20.5 2 17 2 6.5 4 6 13 8.5 11 9 2 6.5"
+    d: "M11 3h2l9 3v11l-10 3.5L2 17V6.5L4 6l9 2.5-2 .5-9-2.5"
   }));
 };

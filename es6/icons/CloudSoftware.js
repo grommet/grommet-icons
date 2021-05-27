@@ -10,6 +10,6 @@ export var CloudSoftware = function CloudSoftware(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M8,23 L16,23 L16,12 L8,12 L8,23 Z M8,16 L16,16 M12,12 L12,16 M6,6 L6,5 C6,2 7.5,1 10,1 L14,1 C16.5,1 18,2.5 18,5 L18,6 C21,6 23,8 23,11 C23,14 21,16 18,16 M14,6 L6,6 C3,6 1,7.5 1,11 C1,14.5 3,16 6,16"
+    d: "M8 23h8V12H8v11zm0-7h8m-4-4v4M6 6V5c0-3 1.5-4 4-4h4c2.5 0 4 1.5 4 4v1c3 0 5 2 5 5s-2 5-5 5M14 6H6c-3 0-5 1.5-5 5s2 5 5 5"
   }));
 };

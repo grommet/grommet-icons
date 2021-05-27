@@ -10,6 +10,6 @@ export var Cluster = function Cluster(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M8,9 L16,9 L16,1 L8,1 L8,9 Z M1,23 L9,23 L9,15 L1,15 L1,23 Z M15,23 L23,23 L23,15 L15,15 L15,23 Z M5,15 L8,9 L5,15 Z M10,19 L14,19 L10,19 Z M16,9 L19,15 L16,9 Z"
+    d: "M8 9h8V1H8v8zM1 23h8v-8H1v8zm14 0h8v-8h-8v8zM5 15l3-6-3 6zm5 4h4-4zm6-10 3 6-3-6z"
   }));
 };

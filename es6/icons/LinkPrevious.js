@@ -10,7 +10,6 @@ export var LinkPrevious = function LinkPrevious(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M2,12 L22,12 M13,3 L22,12 L13,21",
-    transform: "matrix(-1 0 0 1 24 0)"
+    d: "M22 12H2m9-9-9 9 9 9"
   }));
 };

@@ -10,6 +10,6 @@ export var Erase = function Erase(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M7,21 L22,6 L18,2 L2,18 L5,21 L19,21 M6,14 L10,18"
+    d: "M7 21 22 6l-4-4L2 18l3 3h14M6 14l4 4"
   }));
 };

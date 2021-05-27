@@ -15,11 +15,11 @@ var FormNext = function FormNext(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "FormNext"
-  }, props), /*#__PURE__*/_react["default"].createElement("polyline", {
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "9 6 15 12 9 18"
+    d: "m9 6 6 6-6 6"
   }));
 };
 

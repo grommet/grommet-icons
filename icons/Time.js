@@ -16,7 +16,7 @@ var Time = function Time(props) {
     viewBox: "0 0 24 24",
     a11yTitle: "Time"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
-    d: "M1 13H5L7.5 4L12.5 20.5L17 9L19 13H23",
+    d: "M1 13h4l2.5-9 5 16.5L17 9l2 4h4",
     stroke: "#000",
     strokeWidth: "2"
   }));

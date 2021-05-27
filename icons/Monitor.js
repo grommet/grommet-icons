@@ -19,7 +19,7 @@ var Monitor = function Monitor(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M1,16 L23,16 L23,2 L1,2 L1,16 Z M5,22 L19,22 L5,22 Z M9,22 L15,22 L15,16 L9,16 L9,22 Z"
+    d: "M1 16h22V2H1v14zm4 6h14H5zm4 0h6v-6H9v6z"
   }));
 };
 

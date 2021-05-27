@@ -10,6 +10,6 @@ export var Selection = function Selection(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M5,18 L8,18 L8,6 L5,6 L5,18 Z M12,2 L12,22 L12,2 Z M1,22 L23,22 L23,2 L1,2 L1,22 Z"
+    d: "M5 18h3V6H5v12zm7-16v20V2zM1 22h22V2H1v20z"
   }));
 };

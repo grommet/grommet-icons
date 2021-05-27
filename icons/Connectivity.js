@@ -21,7 +21,7 @@ var Connectivity = function Connectivity(props) {
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeWidth: "2",
-    d: "M6,8 L6,12 L9,15 L15,9 L11,5 L5,5 L2.5,3 M17,7 L20,10 L20,17 M13,11 L16,14 M11,13 L14,16 M7,17 L10,20 L20,20"
+    d: "M6 8v4l3 3 6-6-4-4H5L2.5 3M17 7l3 3v7m-7-6 3 3m-5-1 3 3m-7 1 3 3h10"
   }));
 };
 

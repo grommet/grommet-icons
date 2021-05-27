@@ -9,7 +9,7 @@ export var CircleAlert = function CircleAlert(props) {
   }, props), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
-    d: "M23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12ZM12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM13 6V14H11V6H13ZM13 16V18H11V16H13Z",
+    d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11zm-11 9a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm1-15v8h-2V6h2zm0 10v2h-2v-2h2z",
     fill: "#000"
   }));
 };

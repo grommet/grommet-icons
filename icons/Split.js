@@ -19,7 +19,7 @@ var Split = function Split(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M1,22 L23,22 L23,2 L1,2 L1,22 Z M12,2 L12,22 L12,2 Z"
+    d: "M1 22h22V2H1v20zM12 2v20V2z"
   }));
 };
 

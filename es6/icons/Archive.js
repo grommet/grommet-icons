@@ -10,6 +10,6 @@ export var Archive = function Archive(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M3,23 L21,23 L21,6 L3,6 L3,23 Z M9,14 L15,14 L15,10 L9,10 L9,14 Z M1,6 L23,6 L23,1 L1,1 L1,6 Z"
+    d: "M3 23h18V6H3v17zm6-9h6v-4H9v4zM1 6h22V1H1v5z"
   }));
 };

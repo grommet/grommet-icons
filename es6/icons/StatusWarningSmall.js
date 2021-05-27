@@ -6,10 +6,10 @@ export var StatusWarningSmall = function StatusWarningSmall(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 12 12",
     a11yTitle: "StatusWarningSmall"
-  }, props), /*#__PURE__*/React.createElement("polygon", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     stroke: "#000",
     strokeLinejoin: "round",
-    points: "6 1 11 10 1 10"
+    d: "m6 1 5 9H1z"
   }));
 };

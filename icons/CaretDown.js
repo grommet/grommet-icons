@@ -15,11 +15,11 @@ var CaretDown = function CaretDown(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "CaretDown"
-  }, props), /*#__PURE__*/_react["default"].createElement("polygon", {
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "22 8 12 20 2 8"
+    d: "M22 8 12 20 2 8z"
   }));
 };
 

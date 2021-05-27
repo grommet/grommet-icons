@@ -6,10 +6,10 @@ export var Filter = function Filter(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Filter"
-  }, props), /*#__PURE__*/React.createElement("polygon", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "3 6 10 13 10 21 14 21 14 13 21 6 21 3 3 3"
+    d: "m3 6 7 7v8h4v-8l7-7V3H3z"
   }));
 };

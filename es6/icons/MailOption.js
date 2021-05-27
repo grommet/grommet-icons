@@ -10,6 +10,6 @@ export var MailOption = function MailOption(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M1,4 L23,4 L23,20 L1,20 L1,4 Z M1,5 L12,13.5 L23,5"
+    d: "M1 4h22v16H1V4zm0 1 11 8.5L23 5"
   }));
 };

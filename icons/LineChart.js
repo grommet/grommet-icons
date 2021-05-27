@@ -19,7 +19,7 @@ var LineChart = function LineChart(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M1,16 L8,9 L13,14 L23,4 M0,22 L23.999,22 M16,4 L23,4 L23,11"
+    d: "m1 16 7-7 5 5L23 4M0 22h23.999M16 4h7v7"
   }));
 };
 

@@ -10,6 +10,6 @@ export var Plan = function Plan(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M18,4 L18,0 L18,4 Z M7,18 L5,18 L7,18 Z M19,18 L9,18 L19,18 Z M7,14 L5,14 L7,14 Z M19,14 L9,14 L19,14 Z M6,4 L6,0 L6,4 Z M1,9 L23,9 L1,9 Z M1,23 L23,23 L23,4 L1,4 L1,23 Z"
+    d: "M18 4V0v4zM7 18H5h2zm12 0H9h10zM7 14H5h2zm12 0H9h10zM6 4V0v4zM1 9h22H1zm0 14h22V4H1v19z"
   }));
 };

@@ -18,13 +18,13 @@ var StarHalf = function StarHalf(props) {
   }, props), /*#__PURE__*/_react["default"].createElement("g", {
     fill: "none",
     fillRule: "evenodd"
-  }, /*#__PURE__*/_react["default"].createElement("polygon", {
+  }, /*#__PURE__*/_react["default"].createElement("path", {
     fill: "#000",
     fillOpacity: ".2",
-    points: "12 16.667 12 2 14.5 9.5 22 9.5 16 14 19 22"
-  }), /*#__PURE__*/_react["default"].createElement("polygon", {
+    d: "M12 16.667V2l2.5 7.5H22L16 14l3 8z"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "#FFC95E",
-    points: "12 16.667 5 22 8 14 2 9.5 9.5 9.5 12 2"
+    d: "M12 16.667 5 22l3-8-6-4.5h7.5L12 2z"
   })));
 };
 

@@ -10,6 +10,6 @@ export var Local = function Local(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M1,4 L23,4 L23,20 L1,20 L1,4 Z M11,8 L23,8 M1,16 L23,16 M1,12 L23,12 M11,4 L11,12"
+    d: "M1 4h22v16H1V4zm10 4h12M1 16h22M1 12h22M11 4v8"
   }));
 };

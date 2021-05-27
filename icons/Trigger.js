@@ -15,11 +15,11 @@ var Trigger = function Trigger(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Trigger"
-  }, props), /*#__PURE__*/_react["default"].createElement("polygon", {
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "4 14 10 14 7 23 9 23 20 9 14 9 18 1 7 1"
+    d: "M4 14h6l-3 9h2L20 9h-6l4-8H7z"
   }));
 };
 

@@ -18,7 +18,7 @@ var Mail = function Mail(props) {
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "#01A982",
     fillRule: "evenodd",
-    d: "M23,20 L23,6 L12,15 L1,6 L1,20 L23,20 Z M12,12 L22,4 L2,4 L12,12 Z"
+    d: "M23 20V6l-11 9L1 6v14h22zm-11-8 10-8H2l10 8z"
   }));
 };
 

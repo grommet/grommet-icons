@@ -6,11 +6,10 @@ export var TopCorner = function TopCorner(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "TopCorner"
-  }, props), /*#__PURE__*/React.createElement("polyline", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "4 16 16 16 16 4",
-    transform: "rotate(180 10 10)"
+    d: "M16 4H4v12"
   }));
 };

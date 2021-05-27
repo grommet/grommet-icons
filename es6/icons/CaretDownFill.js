@@ -7,7 +7,7 @@ export var CaretDownFill = function CaretDownFill(props) {
     viewBox: "0 0 24 24",
     a11yTitle: "CaretDownFill"
   }, props), /*#__PURE__*/React.createElement("path", {
-    d: "M18 9H6L12 15L18 9Z",
+    d: "M18 9H6l6 6 6-6z",
     fill: "#000"
   }));
 };

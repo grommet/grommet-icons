@@ -7,20 +7,13 @@ export var GooglePlay = function GooglePlay(props) {
     viewBox: "0 0 24 24",
     a11yTitle: "GooglePlay"
   }, props), /*#__PURE__*/React.createElement("g", {
-    fill: "none"
-  }, /*#__PURE__*/React.createElement("polygon", {
+    fill: "none",
     stroke: "#444",
+    strokeWidth: "2"
+  }, /*#__PURE__*/React.createElement("path", {
     strokeLinejoin: "round",
-    strokeWidth: "2",
-    points: "3 2 3 22 21 12"
+    d: "M3 2v20l18-10z"
   }), /*#__PURE__*/React.createElement("path", {
-    stroke: "#444",
-    strokeWidth: "2",
-    d: "M3,2 L14,16"
-  }), /*#__PURE__*/React.createElement("path", {
-    stroke: "#444",
-    strokeWidth: "2",
-    d: "M3,8 L14,22",
-    transform: "matrix(1 0 0 -1 0 30)"
+    d: "m3 2 11 14M3 22 14 8"
   })));
 };

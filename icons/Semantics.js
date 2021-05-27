@@ -19,7 +19,7 @@ var Semantics = function Semantics(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M2,17 L12,12 L22,17 L22,21 L12,16 L2,21 L2,17 Z M2,8 L12,3 L22,8 L22,12 L12,7 L2,12 L2,8 Z"
+    d: "m2 17 10-5 10 5v4l-10-5-10 5v-4zm0-9 10-5 10 5v4L12 7 2 12V8z"
   }));
 };
 

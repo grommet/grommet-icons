@@ -16,7 +16,7 @@ var Undo = function Undo(props) {
     viewBox: "0 0 24 24",
     a11yTitle: "Undo"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
-    d: "M7.18,4,8.6,5.44,6.06,8h9.71a6,6,0,0,1,0,12h-2V18h2a4,4,0,0,0,0-8H6.06L8.6,12.51,7.18,13.92,2.23,9Z"
+    d: "M7.18 4 8.6 5.44 6.06 8h9.71a6 6 0 0 1 0 12h-2v-2h2a4 4 0 0 0 0-8H6.06l2.54 2.51-1.42 1.41L2.23 9z"
   }));
 };
 

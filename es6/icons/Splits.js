@@ -10,6 +10,6 @@ export var Splits = function Splits(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M1,22 L23,22 L23,2 L1,2 L1,22 Z M8,2 L8,22 L8,2 Z M16,2 L16,22 L16,2 Z"
+    d: "M1 22h22V2H1v20zM8 2v20V2zm8 0v20V2z"
   }));
 };

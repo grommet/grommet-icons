@@ -6,13 +6,10 @@ export var Stop = function Stop(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Stop"
-  }, props), /*#__PURE__*/React.createElement("rect", {
-    width: "16",
-    height: "16",
-    x: "4",
-    y: "4",
+  }, props), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    strokeWidth: "2"
+    strokeWidth: "2",
+    d: "M4 4h16v16H4z"
   }));
 };

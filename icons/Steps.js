@@ -15,11 +15,11 @@ var Steps = function Steps(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Steps"
-  }, props), /*#__PURE__*/_react["default"].createElement("polygon", {
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "16 6 11 6 11 11 6 11 6 16 1 16 1 23 23 23 23 1 16 1"
+    d: "M16 6h-5v5H6v5H1v7h22V1h-7z"
   }));
 };
 

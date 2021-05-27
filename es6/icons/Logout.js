@@ -10,6 +10,6 @@ export var Logout = function Logout(props) {
     fill: "none",
     stroke: "#231F20",
     strokeWidth: "2",
-    d: "M13,9 L13,2 L1,2 L1,22 L13,22 L13,15 M22,12 L5,12 M17,7 L22,12 L17,17"
+    d: "M13 9V2H1v20h12v-7m9-3H5m12-5 5 5-5 5"
   }));
 };

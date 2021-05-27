@@ -19,7 +19,7 @@ var Navigate = function Navigate(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M20,11 L22,8 L20,5 L12,5 L12,11 L20,11 Z M12,24 L12,0 M4,2 L2,5 L4,8 L12,8 L12,2 L4,2 Z"
+    d: "m20 11 2-3-2-3h-8v6h8zm-8 13V0M4 2 2 5l2 3h8V2H4z"
   }));
 };
 

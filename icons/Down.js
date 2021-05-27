@@ -15,12 +15,11 @@ var Down = function Down(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Down"
-  }, props), /*#__PURE__*/_react["default"].createElement("polyline", {
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "7.086 3.174 17.086 13.174 7.086 23.174",
-    transform: "scale(1 -1) rotate(-89 -1.32 0)"
+    d: "m2 8.35 10.173 9.823L21.997 8"
   }));
 };
 

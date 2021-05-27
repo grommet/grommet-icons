@@ -15,11 +15,11 @@ var Cursor = function Cursor(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Cursor"
-  }, props), /*#__PURE__*/_react["default"].createElement("polygon", {
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "6 3 18 14 13 15 16 20.5 13 22 10 16 6 19"
+    d: "m6 3 12 11-5 1 3 5.5-3 1.5-3-6-4 3z"
   }));
 };
 

@@ -19,7 +19,7 @@ var FormLock = function FormLock(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M9,11 C9,11 9,8 9,8 C9,6.34314575 10.3431458,5 12,5 C13.6568542,5 15,6.34314575 15,8 L15,11 M12,13 L12,16 M17,18 L17,11 L7,11 L7,18 L17,18 Z"
+    d: "M9 11V8a3 3 0 0 1 6 0v3m-3 2v3m5 2v-7H7v7h10z"
   }));
 };
 

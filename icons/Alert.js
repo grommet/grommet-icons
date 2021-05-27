@@ -19,7 +19,7 @@ var Alert = function Alert(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M12,17 L12,19 M12,10 L12,16 M12,3 L2,22 L22,22 L12,3 Z"
+    d: "M12 17v2m0-9v6m0-13L2 22h20L12 3z"
   }));
 };
 

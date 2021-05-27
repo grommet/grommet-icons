@@ -19,7 +19,7 @@ var Add = function Add(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M12,22 L12,2 M2,12 L22,12"
+    d: "M12 22V2M2 12h20"
   }));
 };
 

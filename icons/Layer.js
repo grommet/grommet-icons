@@ -19,7 +19,7 @@ var Layer = function Layer(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M1,1 L17,1 L17,17 L1,17 L1,1 Z M20,7 L23,7 L23,23 L7,23 L7,20 L7,20"
+    d: "M1 1h16v16H1V1zm19 6h3v16H7v-3"
   }));
 };
 

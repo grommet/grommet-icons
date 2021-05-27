@@ -15,11 +15,11 @@ var FastForward = function FastForward(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "FastForward"
-  }, props), /*#__PURE__*/_react["default"].createElement("polygon", {
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "9 2.059 9 8 1 2.059 1 22.059 9 16 9 22.059 22 12.059"
+    d: "M9 2.059V8L1 2.059v20L9 16v6.059l13-10z"
   }));
 };
 

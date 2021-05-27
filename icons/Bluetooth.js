@@ -15,11 +15,11 @@ var Bluetooth = function Bluetooth(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Bluetooth"
-  }, props), /*#__PURE__*/_react["default"].createElement("polyline", {
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "7 7 17 16 12 20 12 4 17 8 7 16"
+    d: "m7 7 10 9-5 4V4l5 4-10 8"
   }));
 };
 

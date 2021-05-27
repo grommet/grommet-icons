@@ -6,25 +6,7 @@ export var TextAlignCenter = function TextAlignCenter(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "TextAlignCenter"
-  }, props), /*#__PURE__*/React.createElement("rect", {
-    x: "0.46",
-    y: "3.06",
-    width: "23.08",
-    height: "2.18"
-  }), /*#__PURE__*/React.createElement("rect", {
-    x: "4.1",
-    y: "8.29",
-    width: "15.81",
-    height: "2.18"
-  }), /*#__PURE__*/React.createElement("rect", {
-    x: "0.46",
-    y: "13.53",
-    width: "23.08",
-    height: "2.18"
-  }), /*#__PURE__*/React.createElement("rect", {
-    x: "4.1",
-    y: "18.76",
-    width: "15.81",
-    height: "2.18"
+  }, props), /*#__PURE__*/React.createElement("path", {
+    d: "M.46 3.06h23.08v2.18H.46zM4.1 8.29h15.81v2.18H4.1zM.46 13.53h23.08v2.18H.46zm3.64 5.23h15.81v2.18H4.1z"
   }));
 };

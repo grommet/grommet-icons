@@ -6,10 +6,10 @@ export var Waypoint = function Waypoint(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Waypoint"
-  }, props), /*#__PURE__*/React.createElement("polygon", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "3 11 11 13 13 21 21 3"
+    d: "m3 11 8 2 2 8 8-18z"
   }));
 };

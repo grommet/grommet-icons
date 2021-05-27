@@ -15,11 +15,11 @@ var Bookmark = function Bookmark(props) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Bookmark"
-  }, props), /*#__PURE__*/_react["default"].createElement("polygon", {
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "5 1 5 22 12 17 19 22 19 1"
+    d: "M5 1v21l7-5 7 5V1z"
   }));
 };
 

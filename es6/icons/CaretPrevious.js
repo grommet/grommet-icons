@@ -6,11 +6,10 @@ export var CaretPrevious = function CaretPrevious(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "CaretPrevious"
-  }, props), /*#__PURE__*/React.createElement("polygon", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "6 2 18 12 6 22",
-    transform: "matrix(-1 0 0 1 24 0)"
+    d: "M18 2 6 12l12 10z"
   }));
 };

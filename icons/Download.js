@@ -19,7 +19,7 @@ var Download = function Download(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M1,17 L1,23 L23,23 L23,17 M12,2 L12,19 M5,12 L12,19 L19,12"
+    d: "M1 17v6h22v-6M12 2v17m-7-7 7 7 7-7"
   }));
 };
 

@@ -6,11 +6,10 @@ export var Up = function Up(props) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     viewBox: "0 0 24 24",
     a11yTitle: "Up"
-  }, props), /*#__PURE__*/React.createElement("polyline", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    points: "7.086 1.174 17.086 11.174 7.086 21.174",
-    transform: "rotate(-89 12.086 11.174)"
+    d: "m2 15.999 10.173-9.824 9.824 10.173"
   }));
 };

@@ -10,6 +10,6 @@ export var Impact = function Impact(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M13,2 L22,6 L22,17 L13,22 L13,2 Z M22,6 L13,11 L22,6 Z M9,22 L9,2 L9,22 Z M9,12 L3,5 L9,12 Z M9,12 L1,12 L9,12 Z M9,12 L3,19 L9,12 Z"
+    d: "m13 2 9 4v11l-9 5V2zm9 4-9 5 9-5zM9 22V2v20zm0-10L3 5l6 7zm0 0H1h8zm0 0-6 7 6-7z"
   }));
 };

@@ -10,6 +10,6 @@ export var Code = function Code(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M9,22 L15,2 M17,17 L22,12 L17,7 M7,17 L2,12 L7,7"
+    d: "m9 22 6-20m2 15 5-5-5-5M7 17l-5-5 5-5"
   }));
 };

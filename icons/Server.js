@@ -19,7 +19,7 @@ var Server = function Server(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M14,19 L15,19 L15,18 L14,18 L14,19 Z M5,23 L19,23 L19,1 L5,1 L5,23 Z M8,5 L16,5 L8,5 Z M8,9 L16,9 L8,9 Z M8,13 L16,13 L8,13 Z"
+    d: "M14 19h1v-1h-1v1zm-9 4h14V1H5v22zM8 5h8-8zm0 4h8-8zm0 4h8-8z"
   }));
 };
 

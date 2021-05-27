@@ -19,7 +19,7 @@ var Login = function Login(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M9,15 L9,22 L22,22 L22,2 L9,2 L9,9 M18,12 L0,12 M13,7 L18,12 L13,17"
+    d: "M9 15v7h13V2H9v7m9 3H0m13-5 5 5-5 5"
   }));
 };
 

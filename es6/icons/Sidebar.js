@@ -10,6 +10,6 @@ export var Sidebar = function Sidebar(props) {
     fill: "none",
     stroke: "#000",
     strokeWidth: "2",
-    d: "M1,22 L23,22 L23,2 L1,2 L1,22 Z M16,2 L16,22 L16,2 Z"
+    d: "M1 22h22V2H1v20zM16 2v20V2z"
   }));
 };
