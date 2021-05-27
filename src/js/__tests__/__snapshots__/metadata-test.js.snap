@@ -1907,6 +1907,13 @@ Object {
     "pedigree",
     "tree",
   ],
+  "Insecure": Array [
+    "open",
+    "unlocked",
+    "unprotected",
+    "vulnerable",
+    "vulnerability",
+  ],
   "Inspect": Array [
     "eye",
     "glasses",
@@ -2781,7 +2788,9 @@ Object {
   "Secure": Array [
     "closed",
     "locked",
+    "protected",
     "security",
+    "ssl",
   ],
   "Select": Array [
     "cursor",

@@ -298,6 +298,7 @@ Object {
   "Indicator": [Function],
   "Info": [Function],
   "Inherit": [Function],
+  "Insecure": [Function],
   "Inspect": [Function],
   "Instagram": [Function],
   "Install": [Function],

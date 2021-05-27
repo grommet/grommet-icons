@@ -303,6 +303,7 @@ export declare const Inbox: Icon;
 export declare const Indicator: Icon;
 export declare const Info: Icon;
 export declare const Inherit: Icon;
+export declare const Insecure: Icon;
 export declare const Inspect: Icon;
 export declare const Instagram: Icon;
 export declare const InstallOption: Icon;

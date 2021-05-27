@@ -293,6 +293,7 @@ export * from './Inbox';
 export * from './Indicator';
 export * from './Info';
 export * from './Inherit';
+export * from './Insecure';
 export * from './Inspect';
 export * from './Instagram';
 export * from './InstallOption';
