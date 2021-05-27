@@ -2362,6 +2362,14 @@ Object.keys(_Inherit).forEach(function (key) {
   exports[key] = _Inherit[key];
 });
 
+var _Insecure = require("./Insecure");
+
+Object.keys(_Insecure).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _Insecure[key]) return;
+  exports[key] = _Insecure[key];
+});
+
 var _Inspect = require("./Inspect");
 
 Object.keys(_Inspect).forEach(function (key) {
