@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const Diamond = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='Diamond' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M6,3 L18,3 L22,9 L12,21 L2,9 L6,3 Z M2,9 L22,9 M11,3 L7,9 L12,20 M13,3 L17,9 L12,20' />
+    <path fill='none' stroke='#000' strokeWidth='2' d='M6 3h12l4 6-10 12L2 9l4-6zM2 9h20M11 3 7 9l5 11m1-17 4 6-5 11' />
   </StyledIcon>
 );

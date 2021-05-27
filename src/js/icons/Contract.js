@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const Contract = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='Contract' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M2,14 L10,14 L10,22 M1,23 L10,14 M23,1 L14,10 M22,10 L14,10 L14,2' />
+    <path fill='none' stroke='#000' strokeWidth='2' d='M2 14h8v8m-9 1 9-9M23 1l-9 9m8 0h-8V2' />
   </StyledIcon>
 );

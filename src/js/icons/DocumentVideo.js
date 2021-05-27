@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const DocumentVideo = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='DocumentVideo' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M4.99787498,6.99999999 L4.99787498,0.999999992 L19.4999998,0.999999992 L22.9999998,4.50000005 L22.9999998,23 L4,23 M18,1 L18,6 L23,6 M3,10 L12,10 L12,19 L3,19 L3,10 Z M12,13 L17,10.5 L17,18.5 L12,16 L12,13 Z' />
+    <path fill='none' stroke='#000' strokeWidth='2' d='M4.998 7V1H19.5L23 4.5V23H4M18 1v5h5M3 10h9v9H3v-9zm9 3 5-2.5v8L12 16v-3z' />
   </StyledIcon>
 );

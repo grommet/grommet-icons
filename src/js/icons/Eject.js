@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const Eject = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='Eject' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M21,14 L12,2 L3,14 L21,14 Z M2,22 L22,22 L22,18 L2,18 L2,22 Z' />
+    <path fill='none' stroke='#000' strokeWidth='2' d='M21 14 12 2 3 14h18zM2 22h20v-4H2v4z' />
   </StyledIcon>
 );

@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const BarChart = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='BarChart' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M0,22 L24,22 M22,2 L18,2 L18,18 L22,18 L22,2 Z M6,6 L2,6 L2,18 L6,18 L6,6 Z M14,18 L10,18 L10,10 L14,10 L14,18 Z' />
+    <path fill='none' stroke='#000' strokeWidth='2' d='M0 22h24M22 2h-4v16h4V2zM6 6H2v12h4V6zm8 12h-4v-8h4v8z' />
   </StyledIcon>
 );

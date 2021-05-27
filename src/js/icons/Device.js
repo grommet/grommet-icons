@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const Device = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='Device' {...props}>
-    <path fill='none' stroke='#000' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M2,7 L22,7 L22,21 L16,21 L12,17 L8,21 L2,21 L2,7 Z M6,2 L11,7 L12,7 L13,7 L18,2' />
+    <path fill='none' stroke='#000' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M2 7h20v14h-6l-4-4-4 4H2V7zm4-5 5 5h2l5-5' />
   </StyledIcon>
 );

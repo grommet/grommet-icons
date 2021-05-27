@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const PowerReset = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='PowerReset' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M20,8 C18.5974037,5.04031171 15.536972,3 12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 L12,21 C16.9705627,21 21,16.9705627 21,12 M21,3 L21,9 L15,9' />
+    <path fill='none' stroke='#000' strokeWidth='2' d='M20 8c-1.403-2.96-4.463-5-8-5a9 9 0 1 0 0 18 9 9 0 0 0 9-9m0-9v6h-6' />
   </StyledIcon>
 );

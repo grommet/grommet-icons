@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const HpeLabs = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='HpeLabs' {...props}>
-    <polyline fill='none' stroke='#01A982' strokeWidth='2' points='14 23 5 23 5 2 17 2 17 15 13 15 13 6 9 6 9 19 20 19' />
+    <path fill='none' stroke='#01A982' strokeWidth='2' d='M14 23H5V2h12v13h-4V6H9v13h11' />
   </StyledIcon>
 );

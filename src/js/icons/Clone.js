@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const Clone = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='Clone' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M7,23 L23,23 L23,7 L7,7 L7,23 Z M17,3.9997 L17,0.9997 L14,0.9997 M1,13.9997 L1,16.9997 L4,16.9997 M1,11.9997 L1,5.9997 L1,11.9997 Z M4,0.9997 L1,0.9997 L1,3.9997 M6,0.9997 L12,0.9997 L6,0.9997 Z' />
+    <path fill='none' stroke='#000' strokeWidth='2' d='M7 23h16V7H7v16zM17 4V1h-3M1 14v3h3m-3-5V6v6zM4 1H1v3m5-3h6-6z' />
   </StyledIcon>
 );

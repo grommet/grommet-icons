@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const Multimedia = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='Multimedia' {...props}>
-    <path fill='none' stroke='#000' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M2,8 L2,22 L22,22 L22,9 M11,4 L7,8 M2,4 L2,8 L17,8 L21,4 L2,4 Z M16,4 L12,8' />
+    <path fill='none' stroke='#000' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M2 8v14h20V9M11 4 7 8M2 4v4h15l4-4H2zm14 0-4 4' />
   </StyledIcon>
 );

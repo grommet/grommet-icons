@@ -86,6 +86,7 @@
     "react-test-renderer": "^16.4.1",
     "simple-git": "^1.96.0",
     "styled-components": "^5.0.0",
+    "svgo": "^2.3.0",
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0",
     "xml2js": "^0.4.19",

@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const Sd = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='Sd' {...props}>
-    <path fillRule='evenodd' clipRule='evenodd' d='M2 2C2 0.895431 2.89543 0 4 0H17C17.2652 0 17.5196 0.105357 17.7071 0.292893L21.7071 4.29289C21.8946 4.48043 22 4.73478 22 5V22C22 23.1046 21.1046 24 20 24H4C2.89543 24 2 23.1046 2 22V2ZM16.5858 2L4 2V22H20V5.41421L16.5858 2ZM5 7V3H7V7H5ZM8 3V7H10V3H8ZM11 7V3H13V7H11ZM14 5V7H16V5H14Z' fill='#000' />
+    <path fillRule='evenodd' clipRule='evenodd' d='M2 2a2 2 0 0 1 2-2h13a1 1 0 0 1 .707.293l4 4A1 1 0 0 1 22 5v17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm14.586 0H4v20h16V5.414L16.586 2zM5 7V3h2v4H5zm3-4v4h2V3H8zm3 4V3h2v4h-2zm3-2v2h2V5h-2z' fill='#000' />
   </StyledIcon>
 );

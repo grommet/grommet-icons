@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const DocumentWindows = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='DocumentWindows' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M4.99787498,8.99999999 L4.99787498,0.999999992 L19.4999998,0.999999992 L22.9999998,4.50000005 L23,23 L4,23 M18,1 L18,6 L23,6 M14.25,11.5 L8.25,18.5 M8.25,11.5 L14.25,18.5 M20.5,12 L16.5,12 L16.5,18 L20.5,18 M19.5,15 L16.5,15 M7,12 L3,12 L3,18 L7,18 M6,15 L3,15' />
+    <path fill='none' stroke='#000' strokeWidth='2' d='M4.998 9V1H19.5L23 4.5V23H4M18 1v5h5m-8.75 5.5-6 7m0-7 6 7M20.5 12h-4v6h4m-1-3h-3M7 12H3v6h4m-1-3H3' />
   </StyledIcon>
 );

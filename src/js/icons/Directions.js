@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const Directions = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='Directions' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M17,11 L22,6 L17,1 M22,6 L18,6 C14.686,6 12,8.686 12,12 L12,24 M7,6 L2,11 L7,16 M2,11 L6,11 C9.314,11 12,13.686 12,17 L12,24' />
+    <path fill='none' stroke='#000' strokeWidth='2' d='m17 11 5-5-5-5m5 5h-4a6 6 0 0 0-6 6v12M7 6l-5 5 5 5m-5-5h4a6 6 0 0 1 6 6v7' />
   </StyledIcon>
 );

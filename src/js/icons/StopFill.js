@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const StopFill = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='StopFill' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M4,4 L20,4 L20,20 L4,20 L4,4 Z M6,6 L18,6 L18,18 L6,18 L6,6 Z M8,8 L16,8 L16,16 L8,16 L8,8 Z M10,10 L14,10 L14,14 L10,14 L10,10 Z M11,11 L13,11 L13,13 L11,13 L11,11 Z' />
+    <path fill='none' stroke='#000' strokeWidth='2' d='M4 4h16v16H4V4zm2 2h12v12H6V6zm2 2h8v8H8V8zm2 2h4v4h-4v-4zm1 1h2v2h-2v-2z' />
   </StyledIcon>
 );
