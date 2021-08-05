@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 import { StyledIcon } from '../StyledIcon';
+import { useForwardedRef } from '../utils';
 
-export const Rewind = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='Rewind' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M22 3.5V20l-9-6v6L2 12l11-8v6z' />
-  </StyledIcon>
-);
+export const Rewind = forwardRef((props, ref) => {
+  const iconRef = useForwardedRef(ref);
+  return (
+    <StyledIcon ref={iconRef} viewBox='0 0 24 24' a11yTitle='Rewind' {...props}>
+      <path fill='none' stroke='#000' strokeWidth='2' d='M22 3.5V20l-9-6v6L2 12l11-8v6z' />
+    </StyledIcon>
+  );
+});

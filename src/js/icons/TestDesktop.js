@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 import { StyledIcon } from '../StyledIcon';
+import { useForwardedRef } from '../utils';
 
-export const TestDesktop = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='TestDesktop' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M18.218 1H23v18H1V1h5m11 9c-4-3-6 3-10 0M5 23h14H5zm5-22v4.773l-5 7.182V15h14v-2.045l-5-7.182V1M8 1h8-8zm0 22h8v-4H8v4z' />
-  </StyledIcon>
-);
+export const TestDesktop = forwardRef((props, ref) => {
+  const iconRef = useForwardedRef(ref);
+  return (
+    <StyledIcon ref={iconRef} viewBox='0 0 24 24' a11yTitle='TestDesktop' {...props}>
+      <path fill='none' stroke='#000' strokeWidth='2' d='M18.218 1H23v18H1V1h5m11 9c-4-3-6 3-10 0M5 23h14H5zm5-22v4.773l-5 7.182V15h14v-2.045l-5-7.182V1M8 1h8-8zm0 22h8v-4H8v4z' />
+    </StyledIcon>
+  );
+});

@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styled, { css } from 'styled-components';
 
 import { colorStyle } from 'grommet-styles';
 
 import { defaultProps } from './default-props';
+
+import { useForwardedRef } from './utils';
 
 const colorCss = css`
   ${props => colorStyle(
@@ -43,10 +45,13 @@ const colorCss = css`
   }
 `;
 
-const IconInner = ({
+const IconInner = forwardRef(
+  ({
  a11yTitle, color, size, theme, ...rest
-}) => (
-  <svg aria-label={a11yTitle} {...rest} />
+}, ref) => {
+    const iconRef = useForwardedRef(ref);
+    return <svg ref={iconRef} aria-label={a11yTitle} {...rest} />;
+  }
 );
 IconInner.displayName = 'Icon';
 

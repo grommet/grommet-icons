@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 import { StyledIcon } from '../StyledIcon';
+import { useForwardedRef } from '../utils';
 
-export const Plug = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='Plug' {...props}>
-    <path fillRule='evenodd' clipRule='evenodd' d='M16 5V1h-2v4h-4V1H8v4H5v8a3 3 0 0 0 3 3h3v8h2v-8h3a3 3 0 0 0 3-3V5h-3zm-9 8V7h10v6a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z' fill='#000' />
-  </StyledIcon>
-);
+export const Plug = forwardRef((props, ref) => {
+  const iconRef = useForwardedRef(ref);
+  return (
+    <StyledIcon ref={iconRef} viewBox='0 0 24 24' a11yTitle='Plug' {...props}>
+      <path fillRule='evenodd' clipRule='evenodd' d='M16 5V1h-2v4h-4V1H8v4H5v8a3 3 0 0 0 3 3h3v8h2v-8h3a3 3 0 0 0 3-3V5h-3zm-9 8V7h10v6a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z' fill='#000' />
+    </StyledIcon>
+  );
+});

@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 import { StyledIcon } from '../StyledIcon';
+import { useForwardedRef } from '../utils';
 
-export const CaretUp = props => (
-  <StyledIcon viewBox='0 0 24 24' a11yTitle='CaretUp' {...props}>
-    <path fill='none' stroke='#000' strokeWidth='2' d='M22 16 12 4 2 16z' />
-  </StyledIcon>
-);
+export const CaretUp = forwardRef((props, ref) => {
+  const iconRef = useForwardedRef(ref);
+  return (
+    <StyledIcon ref={iconRef} viewBox='0 0 24 24' a11yTitle='CaretUp' {...props}>
+      <path fill='none' stroke='#000' strokeWidth='2' d='M22 16 12 4 2 16z' />
+    </StyledIcon>
+  );
+});
