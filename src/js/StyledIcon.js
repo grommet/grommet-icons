@@ -5,8 +5,6 @@ import { colorStyle } from 'grommet-styles';
 
 import { defaultProps } from './default-props';
 
-import { useForwardedRef } from './utils';
-
 const colorCss = css`
   ${props => colorStyle(
       'fill',
@@ -48,10 +46,9 @@ const colorCss = css`
 const IconInner = forwardRef(
   ({
  a11yTitle, color, size, theme, ...rest
-}, ref) => {
-    const iconRef = useForwardedRef(ref);
-    return <svg ref={iconRef} aria-label={a11yTitle} {...rest} />;
-  }
+}, ref) => (
+  <svg ref={ref} aria-label={a11yTitle} {...rest} />
+  )
 );
 IconInner.displayName = 'Icon';
 
