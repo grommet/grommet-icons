@@ -33,7 +33,7 @@ var parseMetricToNum = function parseMetricToNum(string) {
 
 var StyledIcon = styled(IconInner).withConfig({
   displayName: "StyledIcon",
-  componentId: "ofa7kd-0"
+  componentId: "sc-ofa7kd-0"
 })(["display:inline-block;flex:0 0 auto;", " ", " ", ""], function (_ref2) {
   var _ref2$size = _ref2.size,
       size = _ref2$size === void 0 ? 'medium' : _ref2$size,
