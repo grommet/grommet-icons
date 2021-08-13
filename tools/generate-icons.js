@@ -54,12 +54,10 @@ function buildIcon(fileName, svgChildren, viewBox) {
   return `import React, { forwardRef } from 'react';
 
 import { StyledIcon } from '../StyledIcon';
-import { useForwardedRef } from '../utils';
 
-export const ${pascalCase(fileName)} = forwardRef((props, ref) => {
-  const iconRef = useForwardedRef(ref);
+export const ${pascalCase(fileName)} = forwardRef((props, ref) => {  
   return (
-    <StyledIcon ref={iconRef} viewBox='${viewBox}' a11yTitle='${pascalCase(
+    <StyledIcon ref={ref} viewBox='${viewBox}' a11yTitle='${pascalCase(
     fileName
   )}' {...props}>
       ${children.join("")}

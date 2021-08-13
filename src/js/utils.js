@@ -1,5 +1,3 @@
-import { useEffect, useRef, useLayoutEffect } from 'react';
-
 export function isObject(item) {
   return item && typeof item === 'object' && !Array.isArray(item);
 }
@@ -28,22 +26,4 @@ export function deepMerge(target, ...sources) {
   return output;
 }
 
-const updateRef = (ref, innerRef) => {
-  if (!ref) return;
-  if (typeof ref === 'function') {
-    ref(innerRef.current);
-  } else {
-    // eslint-disable-next-line no-param-reassign
-    ref.current = innerRef.current;
-  }
-};
-
-export const useForwardedRef = (ref) => {
-  const innerRef = useRef(null);
-  updateRef(ref, innerRef);
-  useLayoutEffect(() => updateRef(ref, innerRef));
-  useEffect(() => updateRef(ref, innerRef));
-  return innerRef;
-};
-
-export default { deepMerge, isObject, useForwardedRef };
+export default { deepMerge, isObject };
