@@ -1,9 +1,10 @@
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Save = function Save(props) {
+export var Save = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
+    ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "Save"
   }, props), /*#__PURE__*/React.createElement("path", {
@@ -12,4 +13,4 @@ export var Save = function Save(props) {
     strokeWidth: "2",
     d: "M3 2v19h18V3h-9v11m-4-3 4 4 4-4"
   }));
-};
+});

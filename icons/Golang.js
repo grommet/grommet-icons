@@ -3,16 +3,19 @@
 exports.__esModule = true;
 exports.Golang = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+var _react = _interopRequireWildcard(require("react"));
 
 var _StyledIcon = require("../StyledIcon");
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-var Golang = function Golang(props) {
+var Golang = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
+    ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "Golang"
   }, props), /*#__PURE__*/_react["default"].createElement("g", {
@@ -27,6 +30,5 @@ var Golang = function Golang(props) {
     fill: "#000",
     d: "M19.735 3.429c.046-.195.528-.288.797.046.324.398-.473.945-.51.723-.092-.603-.342-.575-.287-.77zm-14.854 0c.056.194-.195.166-.287.769-.037.222-.834-.325-.51-.723.26-.334.741-.241.797-.046zm10.86 4.512a1.056 1.056 0 1 1 0-2.112 1.056 1.056 0 0 1 0 2.112zm-.278-1.177a.334.334 0 1 0 0-.667.334.334 0 0 0 0 .667zm-4.105 2.67c.111-.427.5-.566.816-.575.806-.019 1.112.417 1.14.76.055.583-2.206.722-1.956-.186zM8.875 7.94a1.056 1.056 0 1 1 0-2.112 1.056 1.056 0 0 1 0 2.112zm.278-1.177a.334.334 0 1 0 0-.667.334.334 0 0 0 0 .667z"
   })));
-};
-
+});
 exports.Golang = Golang;

@@ -1,9 +1,10 @@
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Npm = function Npm(props) {
+export var Npm = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
+    ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "Npm"
   }, props), /*#__PURE__*/React.createElement("g", {
@@ -16,4 +17,4 @@ export var Npm = function Npm(props) {
     fill: "#FFF",
     d: "M16.718 7.928h-4.513V20.25H4V3h16v17.249h-3.282V7.93z"
   })));
-};
+});

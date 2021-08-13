@@ -1,9 +1,10 @@
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var WifiMedium = function WifiMedium(props) {
+export var WifiMedium = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
+    ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "WifiMedium"
   }, props), /*#__PURE__*/React.createElement("g", {
@@ -17,4 +18,4 @@ export var WifiMedium = function WifiMedium(props) {
     d: "M2.1 8.1c5.468-5.467 14.332-5.467 19.8 0",
     opacity: ".8"
   })));
-};
+});

@@ -1,9 +1,10 @@
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Slack = function Slack(props) {
+export var Slack = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
+    ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "Slack"
   }, props), /*#__PURE__*/React.createElement("g", {
@@ -22,4 +23,4 @@ export var Slack = function Slack(props) {
     fill: "#ECB22E",
     d: "M15.124 18.895a2.512 2.512 0 0 1 2.514 2.514 2.512 2.512 0 0 1-2.514 2.515 2.512 2.512 0 0 1-2.514-2.515v-2.514h2.514zm0-1.257a2.512 2.512 0 0 1-2.514-2.514 2.512 2.512 0 0 1 2.514-2.514h6.305a2.512 2.512 0 0 1 2.514 2.514 2.512 2.512 0 0 1-2.514 2.514h-6.305z"
   })));
-};
+});

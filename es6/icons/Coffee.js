@@ -1,9 +1,10 @@
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Coffee = function Coffee(props) {
+export var Coffee = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
+    ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "Coffee"
   }, props), /*#__PURE__*/React.createElement("g", {
@@ -16,4 +17,4 @@ export var Coffee = function Coffee(props) {
     fill: "#000",
     d: "M16.589 5.447c-1.393.246-5.326 2.375-5.408 5.98-.083 3.604-2.787 6.594-3.77 7.126 1.803.042 5.326-2.375 5.408-5.98.083-3.604 2.786-6.594 3.77-7.126z"
   })));
-};
+});

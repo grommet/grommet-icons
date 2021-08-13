@@ -1,9 +1,10 @@
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Qr = function Qr(props) {
+export var Qr = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
+    ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "Qr"
   }, props), /*#__PURE__*/React.createElement("g", {
@@ -17,4 +18,4 @@ export var Qr = function Qr(props) {
     strokeWidth: "2",
     d: "M15 2h7v7h-7V2zM2 2h7v7H2V2zm0 13h7v7H2v-7zM18 5h1v1h-1V5zM5 5h1v1H5V5zm0 13h1v1H5v-1z"
   })));
-};
+});

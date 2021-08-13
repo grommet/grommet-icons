@@ -4,7 +4,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styled, { css } from 'styled-components';
 import { colorStyle } from 'grommet-styles';
 import { defaultProps } from './default-props';
@@ -13,8 +13,7 @@ var colorCss = css(["", " ", " g{fill:inherit;stroke:inherit;}*:not([stroke]){&[
 }, function (props) {
   return colorStyle('stroke', props.color || props.theme.global.colors.icon, props.theme);
 });
-
-var IconInner = function IconInner(_ref) {
+var IconInner = /*#__PURE__*/forwardRef(function (_ref, ref) {
   var a11yTitle = _ref.a11yTitle,
       color = _ref.color,
       size = _ref.size,
@@ -22,10 +21,10 @@ var IconInner = function IconInner(_ref) {
       rest = _objectWithoutPropertiesLoose(_ref, _excluded);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
     "aria-label": a11yTitle
   }, rest));
-};
-
+});
 IconInner.displayName = 'Icon';
 
 var parseMetricToNum = function parseMetricToNum(string) {

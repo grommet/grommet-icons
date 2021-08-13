@@ -1,9 +1,10 @@
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Golang = function Golang(props) {
+export var Golang = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
+    ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "Golang"
   }, props), /*#__PURE__*/React.createElement("g", {
@@ -18,4 +19,4 @@ export var Golang = function Golang(props) {
     fill: "#000",
     d: "M19.735 3.429c.046-.195.528-.288.797.046.324.398-.473.945-.51.723-.092-.603-.342-.575-.287-.77zm-14.854 0c.056.194-.195.166-.287.769-.037.222-.834-.325-.51-.723.26-.334.741-.241.797-.046zm10.86 4.512a1.056 1.056 0 1 1 0-2.112 1.056 1.056 0 0 1 0 2.112zm-.278-1.177a.334.334 0 1 0 0-.667.334.334 0 0 0 0 .667zm-4.105 2.67c.111-.427.5-.566.816-.575.806-.019 1.112.417 1.14.76.055.583-2.206.722-1.956-.186zM8.875 7.94a1.056 1.056 0 1 1 0-2.112 1.056 1.056 0 0 1 0 2.112zm.278-1.177a.334.334 0 1 0 0-.667.334.334 0 0 0 0 .667z"
   })));
-};
+});

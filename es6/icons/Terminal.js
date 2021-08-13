@@ -1,9 +1,10 @@
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Terminal = function Terminal(props) {
+export var Terminal = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
+    ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "Terminal"
   }, props), /*#__PURE__*/React.createElement("path", {
@@ -12,4 +13,4 @@ export var Terminal = function Terminal(props) {
     strokeWidth: "2",
     d: "m2 5 6 6-6 6m7 0h14"
   }));
-};
+});

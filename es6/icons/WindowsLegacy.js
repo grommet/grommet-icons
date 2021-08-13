@@ -1,9 +1,10 @@
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var WindowsLegacy = function WindowsLegacy(props) {
+export var WindowsLegacy = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
+    ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "WindowsLegacy"
   }, props), /*#__PURE__*/React.createElement("g", {
@@ -22,4 +23,4 @@ export var WindowsLegacy = function WindowsLegacy(props) {
     fill: "#05A6F0",
     d: "m11.179 12.047-.366 1.261c-.623 2.156-1.249 4.312-1.866 6.47-.054.185-.103.19-.253.088-.857-.585-1.764-1.065-2.787-1.298-1.157-.264-2.309-.193-3.458.059-.72.157-1.418.384-2.106.649-.09.034-.183.085-.277.008-.105-.086-.06-.191-.03-.291l2.132-7.377a.282.282 0 0 1 .185-.203c1.18-.475 2.389-.844 3.663-.962 1.571-.144 3.026.212 4.372 1.029.23.14.457.285.684.43.058.038.138.07.107.137"
   })));
-};
+});

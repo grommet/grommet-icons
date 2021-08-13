@@ -3,16 +3,19 @@
 exports.__esModule = true;
 exports.WindowsLegacy = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+var _react = _interopRequireWildcard(require("react"));
 
 var _StyledIcon = require("../StyledIcon");
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-var WindowsLegacy = function WindowsLegacy(props) {
+var WindowsLegacy = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
+    ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "WindowsLegacy"
   }, props), /*#__PURE__*/_react["default"].createElement("g", {
@@ -31,6 +34,5 @@ var WindowsLegacy = function WindowsLegacy(props) {
     fill: "#05A6F0",
     d: "m11.179 12.047-.366 1.261c-.623 2.156-1.249 4.312-1.866 6.47-.054.185-.103.19-.253.088-.857-.585-1.764-1.065-2.787-1.298-1.157-.264-2.309-.193-3.458.059-.72.157-1.418.384-2.106.649-.09.034-.183.085-.277.008-.105-.086-.06-.191-.03-.291l2.132-7.377a.282.282 0 0 1 .185-.203c1.18-.475 2.389-.844 3.663-.962 1.571-.144 3.026.212 4.372 1.029.23.14.457.285.684.43.058.038.138.07.107.137"
   })));
-};
-
+});
 exports.WindowsLegacy = WindowsLegacy;
