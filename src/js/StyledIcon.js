@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styled, { css } from 'styled-components';
 
 import { colorStyle } from 'grommet-styles';
@@ -43,10 +43,12 @@ const colorCss = css`
   }
 `;
 
-const IconInner = ({
+const IconInner = forwardRef(
+  ({
  a11yTitle, color, size, theme, ...rest
-}) => (
-  <svg aria-label={a11yTitle} {...rest} />
+}, ref) => (
+  <svg ref={ref} aria-label={a11yTitle} {...rest} />
+  )
 );
 IconInner.displayName = 'Icon';
 
