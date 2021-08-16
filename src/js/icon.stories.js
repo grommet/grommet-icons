@@ -44,7 +44,7 @@ storiesOf('Icon', module)
       </ThemeProvider>
     );
   })
-  .add('Plain', () => <Icons.Pocket color='plain' />)
+  .add('Plain', () => <Icons.Pocket color="plain" />)
   .add('Custom Theme', () => {
     const Icon = Icons[text('Icon', 'Accessibility')];
     if (!Icon) {

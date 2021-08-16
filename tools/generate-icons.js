@@ -1,20 +1,20 @@
-import camelCase from "camel-case";
-import del from "del";
-import fs from "fs";
-import pascalCase from "pascal-case";
-import path from "path";
-import xml2js from "xml2js";
-import { extendDefaultPlugins, optimize } from "svgo";
+import { camelCase } from 'camel-case';
+import del from 'del';
+import fs from 'fs';
+import { pascalCase } from 'pascal-case';
+import path from 'path';
+import xml2js from 'xml2js';
+import { extendDefaultPlugins, optimize } from 'svgo';
 
-const inputSVGFolder = path.resolve("public/img");
-const outputReactIconFolder = path.resolve("src/js/icons");
+const inputSVGFolder = path.resolve('public/img');
+const outputReactIconFolder = path.resolve('src/js/icons');
 
 // Figma converts colors to their color names. Convert them back to hex codes.
 // We do this so the rules in StyledIcon work. '#' indicates a fill or stroke
 // is desired. Otherwise, it is treated like 'none'.
 function convertColors(text) {
-  if (text === "black") return "#000";
-  if (text === "white") return "#FFF";
+  if (text === 'black') return '#000';
+  if (text === 'white') return '#FFF';
   return text;
 }
 
@@ -24,21 +24,20 @@ function getNodeAttributes(node) {
     ? Object.keys(node.$)
         .filter((key) => !excludeAttributes.test(key))
         .map(
-          (attrKey) =>
-            `${camelCase(attrKey)}='${convertColors(node.$[attrKey])}'`
+          (attrKey) => `${camelCase(attrKey)}="${convertColors(node.$[attrKey])}"`,
         )
     : undefined;
 }
 function parseNode(node) {
-  if (node && !/^(title|defs|desc)$/.test(node["#name"])) {
+  if (node && !/^(title|defs|desc)$/.test(node['#name'])) {
     const attributes = getNodeAttributes(node);
     const children = [];
     (node.$$ || []).forEach((child) => children.push(parseNode(child)));
     return node.$$
-      ? `<${node["#name"]}${
-          attributes ? ` ${attributes.join(" ")}` : ""
-        }>${children.join("")}</${node["#name"]}>`
-      : `<${node["#name"]}${attributes ? ` ${attributes.join(" ")}` : ""} />`;
+      ? `<${node['#name']}${
+          attributes ? ` ${attributes.join(' ')}` : ''
+        }>${children.join('')}</${node['#name']}>`
+      : `<${node['#name']}${attributes ? ` ${attributes.join(' ')}` : ''} />`;
   }
   return undefined;
 }
@@ -55,15 +54,13 @@ function buildIcon(fileName, svgChildren, viewBox) {
 
 import { StyledIcon } from '../StyledIcon';
 
-export const ${pascalCase(fileName)} = forwardRef((props, ref) => {  
-  return (
-    <StyledIcon ref={ref} viewBox='${viewBox}' a11yTitle='${pascalCase(
-    fileName
-  )}' {...props}>
-      ${children.join("")}
-    </StyledIcon>
-  );
-});
+export const ${pascalCase(fileName)} = forwardRef((props, ref) => (
+  <StyledIcon ref={ref} viewBox="${viewBox}" a11yTitle="${pascalCase(
+  fileName,
+)}" {...props}>
+    ${children.join('')}
+  </StyledIcon>
+));
 `;
 }
 const optimizeSvg = (svg) => {
@@ -73,7 +70,7 @@ const optimizeSvg = (svg) => {
       // viewBox is required to resize SVGs with CSS.
       // @see https://github.com/svg/svgo/issues/1128
       {
-        name: "removeViewBox",
+        name: 'removeViewBox',
         active: false,
       },
     ]),
@@ -90,7 +87,7 @@ function createReactIcon(fileName, content) {
       explicitChildren: true,
       preserveChildrenOrder: true,
     });
-    parser.addListener("end", (result) => {
+    parser.addListener('end', (result) => {
       resolve(buildIcon(fileName, result.svg.$$, result.svg.$.viewBox));
     });
     parser.parseString(optimizeSvg(content));
@@ -107,39 +104,40 @@ fs.readdir(inputSVGFolder, (err, icons) => {
   icons.forEach((icon) => {
     if (/\.svg$/.test(icon)) {
       const iconPath = path.join(inputSVGFolder, icon);
-      let fileName = icon.replace(".svg", "");
-      fileName = fileName.replace(/^(.)|(-([a-z0-9]))+/g, (g) =>
-        g.length > 1 ? g[1].toUpperCase() : g.toUpperCase()
+      let fileName = icon.replace('.svg', '');
+      fileName = fileName.replace(
+        /^(.)|(-([a-z0-9]))+/g,
+        (g) => (g.length > 1 ? g[1].toUpperCase() : g.toUpperCase()),
       );
-      const content = fs.readFileSync(iconPath, "utf8");
+      const content = fs.readFileSync(iconPath, 'utf8');
       iconNames.push(pascalCase(fileName));
 
       createReactIcon(fileName, content).then((reactIcon) => {
         const destinationFile = path.resolve(
           outputReactIconFolder,
-          `${fileName}.js`
+          `${fileName}.js`,
         );
         fs.writeFileSync(destinationFile, reactIcon);
       });
     }
   });
 
-  iconNames.push("Blank");
+  iconNames.push('Blank');
 
   fs.copyFileSync(
-    `${path.resolve("./tools/icons")}/Blank.js`,
-    `${outputReactIconFolder}/Blank.js`
+    `${path.resolve('./tools/icons')}/Blank.js`,
+    `${outputReactIconFolder}/Blank.js`,
   );
 
-  const destinationImportFile = path.resolve(outputReactIconFolder, "index.js");
+  const destinationImportFile = path.resolve(outputReactIconFolder, 'index.js');
   fs.writeFileSync(
     destinationImportFile,
-    `${iconNames.map((n) => `export * from './${n}';`).join("\n")}\n`
+    `${iconNames.map((n) => `export * from './${n}';`).join('\n')}\n`,
   );
 
   const destinationTypesFile = path.resolve(
     outputReactIconFolder,
-    "index.d.ts"
+    'index.d.ts',
   );
   fs.writeFileSync(
     destinationTypesFile,
@@ -153,7 +151,7 @@ export interface IconProps {
 
 export type Icon = React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
 
-${iconNames.map((n) => `export declare const ${n}: Icon;`).join("\n")}
-`
+${iconNames.map((n) => `export declare const ${n}: Icon;`).join('\n')}
+`,
   );
 });
