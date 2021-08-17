@@ -1,14 +1,16 @@
 import path from 'path';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
-import CleanWebpackPlugin from 'clean-webpack-plugin';
+import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 
 const plugins = [
-  new CleanWebpackPlugin(['dist']),
-  new CopyWebpackPlugin([
-    { from: './README.md' },
-    { from: './package.json' },
-    { from: './public' },
-  ]),
+  new CleanWebpackPlugin(),
+  new CopyWebpackPlugin({
+    patterns: [
+      { from: './README.md' },
+      { from: './package.json' },
+      { from: './public' },
+    ],
+  }),
 ];
 
 export default {
@@ -29,11 +31,7 @@ export default {
     extensions: ['.js', '.json'],
   },
   plugins,
-  node: {
-    fs: 'empty',
-    net: 'empty',
-    tls: 'empty',
-  },
+  node: false,
   module: {
     rules: [
       {
