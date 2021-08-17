@@ -27,7 +27,7 @@
     "release-stable": "babel-node ./tools/release-stable",
     "lint": "eslint src",
     "storybook": "start-storybook -p 9002 -c storybook",
-    "build-storybook": "build-storybook -c storybook -o storybook-static -s ./storybook/public",
+    "build-storybook": "build-storybook -c storybook -o storybook-static",
     "test": "jest",
     "test-update": "jest --updateSnapshot",
     "test-watch": "jest --watchAll"
