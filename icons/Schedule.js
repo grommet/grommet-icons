@@ -26,3 +26,4 @@ var Schedule = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Schedule = Schedule;
+Schedule.displayName = 'Schedule';

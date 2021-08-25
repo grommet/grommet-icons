@@ -26,3 +26,4 @@ var ThreeD = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.ThreeD = ThreeD;
+ThreeD.displayName = 'ThreeD';

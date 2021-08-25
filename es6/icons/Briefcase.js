@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Briefcase = /*#__PURE__*/forwardRef(function (props, ref) {
+var Briefcase = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Briefcase = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M1 6h22v15H1V6zm5 0v15M18 6v15M8 6V3h8v3"
   }));
 });
+Briefcase.displayName = 'Briefcase';
+export { Briefcase };

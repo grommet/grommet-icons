@@ -26,3 +26,4 @@ var Camera = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Camera = Camera;
+Camera.displayName = 'Camera';

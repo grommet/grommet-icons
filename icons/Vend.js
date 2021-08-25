@@ -26,3 +26,4 @@ var Vend = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Vend = Vend;
+Vend.displayName = 'Vend';

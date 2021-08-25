@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Tooltip = /*#__PURE__*/forwardRef(function (props, ref) {
+var Tooltip = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Tooltip = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M16.5 18 12 22.5 7.5 18H1V1h22v17h-6.5zM6 10h1V9H6v1zm5.5 0h1V9h-1v1zm5.5 0h1V9h-1v1z"
   }));
 });
+Tooltip.displayName = 'Tooltip';
+export { Tooltip };

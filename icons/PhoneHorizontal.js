@@ -26,3 +26,4 @@ var PhoneHorizontal = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) 
   }));
 });
 exports.PhoneHorizontal = PhoneHorizontal;
+PhoneHorizontal.displayName = 'PhoneHorizontal';

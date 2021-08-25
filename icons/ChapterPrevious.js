@@ -26,3 +26,4 @@ var ChapterPrevious = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) 
   }));
 });
 exports.ChapterPrevious = ChapterPrevious;
+ChapterPrevious.displayName = 'ChapterPrevious';

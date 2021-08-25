@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var StatusPlaceholderSmall = /*#__PURE__*/forwardRef(function (props, ref) {
+var StatusPlaceholderSmall = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 12 12",
@@ -17,3 +17,5 @@ export var StatusPlaceholderSmall = /*#__PURE__*/forwardRef(function (props, ref
     rx: "1"
   }));
 });
+StatusPlaceholderSmall.displayName = 'StatusPlaceholderSmall';
+export { StatusPlaceholderSmall };

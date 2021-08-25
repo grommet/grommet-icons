@@ -26,3 +26,4 @@ var VolumeControl = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.VolumeControl = VolumeControl;
+VolumeControl.displayName = 'VolumeControl';

@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Detach = /*#__PURE__*/forwardRef(function (props, ref) {
+var Detach = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Detach = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "m4 4 16 16m2-8-5.28 5.28M15 19l-2 2c-6 6-15-3-9-9l2-2m2-2 5-5c4-4 10 2 6 6l-5 5m-2 2-2 2c-2 2-5-1-3-3l2-2m2-2 5-5"
   }));
 });
+Detach.displayName = 'Detach';
+export { Detach };

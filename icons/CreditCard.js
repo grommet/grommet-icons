@@ -26,3 +26,4 @@ var CreditCard = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.CreditCard = CreditCard;
+CreditCard.displayName = 'CreditCard';

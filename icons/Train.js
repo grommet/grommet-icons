@@ -26,3 +26,4 @@ var Train = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Train = Train;
+Train.displayName = 'Train';

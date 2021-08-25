@@ -25,3 +25,4 @@ var Apple = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Apple = Apple;
+Apple.displayName = 'Apple';

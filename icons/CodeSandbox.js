@@ -26,3 +26,4 @@ var CodeSandbox = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.CodeSandbox = CodeSandbox;
+CodeSandbox.displayName = 'CodeSandbox';

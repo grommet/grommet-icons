@@ -26,3 +26,4 @@ var DocumentUser = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.DocumentUser = DocumentUser;
+DocumentUser.displayName = 'DocumentUser';

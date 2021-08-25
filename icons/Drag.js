@@ -26,3 +26,4 @@ var Drag = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Drag = Drag;
+Drag.displayName = 'Drag';

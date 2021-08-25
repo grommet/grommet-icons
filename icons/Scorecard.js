@@ -26,3 +26,4 @@ var Scorecard = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Scorecard = Scorecard;
+Scorecard.displayName = 'Scorecard';

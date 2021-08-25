@@ -26,3 +26,4 @@ var Inherit = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Inherit = Inherit;
+Inherit.displayName = 'Inherit';

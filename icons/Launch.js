@@ -26,3 +26,4 @@ var Launch = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Launch = Launch;
+Launch.displayName = 'Launch';

@@ -26,3 +26,4 @@ var DocumentSound = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.DocumentSound = DocumentSound;
+DocumentSound.displayName = 'DocumentSound';

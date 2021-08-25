@@ -26,3 +26,4 @@ var Info = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Info = Info;
+Info.displayName = 'Info';

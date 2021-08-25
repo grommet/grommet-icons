@@ -26,3 +26,4 @@ var Threats = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Threats = Threats;
+Threats.displayName = 'Threats';

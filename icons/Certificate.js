@@ -26,3 +26,4 @@ var Certificate = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Certificate = Certificate;
+Certificate.displayName = 'Certificate';

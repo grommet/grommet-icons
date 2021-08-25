@@ -26,3 +26,4 @@ var Detach = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Detach = Detach;
+Detach.displayName = 'Detach';

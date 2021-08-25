@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var GooglePlay = /*#__PURE__*/forwardRef(function (props, ref) {
+var GooglePlay = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -18,3 +18,5 @@ export var GooglePlay = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "m3 2 11 14M3 22 14 8"
   })));
 });
+GooglePlay.displayName = 'GooglePlay';
+export { GooglePlay };

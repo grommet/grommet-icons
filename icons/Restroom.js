@@ -27,3 +27,4 @@ var Restroom = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Restroom = Restroom;
+Restroom.displayName = 'Restroom';

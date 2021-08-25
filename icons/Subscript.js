@@ -23,3 +23,4 @@ var Subscript = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Subscript = Subscript;
+Subscript.displayName = 'Subscript';

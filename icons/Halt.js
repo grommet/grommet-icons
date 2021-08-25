@@ -26,3 +26,4 @@ var Halt = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Halt = Halt;
+Halt.displayName = 'Halt';

@@ -26,3 +26,4 @@ var Rewind = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Rewind = Rewind;
+Rewind.displayName = 'Rewind';

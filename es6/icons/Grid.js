@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Grid = /*#__PURE__*/forwardRef(function (props, ref) {
+var Grid = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Grid = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M8 1v22m8-22v22M1 8h22M1 16h22M1 1h22v22H1V1z"
   }));
 });
+Grid.displayName = 'Grid';
+export { Grid };

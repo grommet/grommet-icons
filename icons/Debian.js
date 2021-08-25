@@ -25,3 +25,4 @@ var Debian = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Debian = Debian;
+Debian.displayName = 'Debian';

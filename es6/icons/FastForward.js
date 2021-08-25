@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var FastForward = /*#__PURE__*/forwardRef(function (props, ref) {
+var FastForward = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var FastForward = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M9 2.059V8L1 2.059v20L9 16v6.059l13-10z"
   }));
 });
+FastForward.displayName = 'FastForward';
+export { FastForward };

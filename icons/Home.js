@@ -26,3 +26,4 @@ var Home = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Home = Home;
+Home.displayName = 'Home';

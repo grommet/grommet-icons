@@ -27,3 +27,4 @@ var Shop = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Shop = Shop;
+Shop.displayName = 'Shop';

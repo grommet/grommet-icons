@@ -25,3 +25,4 @@ var Mandriva = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Mandriva = Mandriva;
+Mandriva.displayName = 'Mandriva';

@@ -26,3 +26,4 @@ var BusinessService = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) 
   }));
 });
 exports.BusinessService = BusinessService;
+BusinessService.displayName = 'BusinessService';

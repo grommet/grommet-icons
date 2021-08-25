@@ -26,3 +26,4 @@ var StatusWarningSmall = /*#__PURE__*/(0, _react.forwardRef)(function (props, re
   }));
 });
 exports.StatusWarningSmall = StatusWarningSmall;
+StatusWarningSmall.displayName = 'StatusWarningSmall';

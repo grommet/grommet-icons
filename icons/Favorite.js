@@ -26,3 +26,4 @@ var Favorite = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Favorite = Favorite;
+Favorite.displayName = 'Favorite';

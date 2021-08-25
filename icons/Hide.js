@@ -26,3 +26,4 @@ var Hide = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Hide = Hide;
+Hide.displayName = 'Hide';

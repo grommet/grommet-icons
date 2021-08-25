@@ -25,3 +25,4 @@ var Spotify = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Spotify = Spotify;
+Spotify.displayName = 'Spotify';

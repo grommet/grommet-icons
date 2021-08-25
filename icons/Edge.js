@@ -25,3 +25,4 @@ var Edge = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Edge = Edge;
+Edge.displayName = 'Edge';

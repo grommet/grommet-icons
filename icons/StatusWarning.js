@@ -27,3 +27,4 @@ var StatusWarning = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.StatusWarning = StatusWarning;
+StatusWarning.displayName = 'StatusWarning';

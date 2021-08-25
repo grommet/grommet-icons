@@ -35,3 +35,4 @@ var Ebay = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   })));
 });
 exports.Ebay = Ebay;
+Ebay.displayName = 'Ebay';

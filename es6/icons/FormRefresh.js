@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var FormRefresh = /*#__PURE__*/forwardRef(function (props, ref) {
+var FormRefresh = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var FormRefresh = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M17.333 9.333C16.398 7.36 14.358 6 12 6a6 6 0 1 0 6 6m.5-6v4h-4"
   }));
 });
+FormRefresh.displayName = 'FormRefresh';
+export { FormRefresh };

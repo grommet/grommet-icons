@@ -26,3 +26,4 @@ var Checkbox = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Checkbox = Checkbox;
+Checkbox.displayName = 'Checkbox';

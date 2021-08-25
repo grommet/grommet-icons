@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Gateway = /*#__PURE__*/forwardRef(function (props, ref) {
+var Gateway = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Gateway = /*#__PURE__*/forwardRef(function (props, ref) {
     fill: "#000"
   }));
 });
+Gateway.displayName = 'Gateway';
+export { Gateway };

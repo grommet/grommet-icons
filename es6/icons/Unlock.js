@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Unlock = /*#__PURE__*/forwardRef(function (props, ref) {
+var Unlock = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Unlock = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M23 23V11H9v12h14zm-9-6h4m-7-6V7c0-3 0-6-5-6S1 4 1 7v4"
   }));
 });
+Unlock.displayName = 'Unlock';
+export { Unlock };

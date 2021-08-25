@@ -26,3 +26,4 @@ var Ascend = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Ascend = Ascend;
+Ascend.displayName = 'Ascend';

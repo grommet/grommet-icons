@@ -26,3 +26,4 @@ var Cafeteria = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Cafeteria = Cafeteria;
+Cafeteria.displayName = 'Cafeteria';

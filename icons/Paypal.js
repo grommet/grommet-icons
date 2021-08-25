@@ -25,3 +25,4 @@ var Paypal = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Paypal = Paypal;
+Paypal.displayName = 'Paypal';

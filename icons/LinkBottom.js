@@ -26,3 +26,4 @@ var LinkBottom = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.LinkBottom = LinkBottom;
+LinkBottom.displayName = 'LinkBottom';

@@ -26,3 +26,4 @@ var UserSettings = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.UserSettings = UserSettings;
+UserSettings.displayName = 'UserSettings';

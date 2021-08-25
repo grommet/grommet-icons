@@ -26,3 +26,4 @@ var Tape = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Tape = Tape;
+Tape.displayName = 'Tape';

@@ -26,3 +26,4 @@ var DocumentExcel = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.DocumentExcel = DocumentExcel;
+DocumentExcel.displayName = 'DocumentExcel';

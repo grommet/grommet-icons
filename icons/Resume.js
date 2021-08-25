@@ -26,3 +26,4 @@ var Resume = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Resume = Resume;
+Resume.displayName = 'Resume';

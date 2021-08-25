@@ -25,3 +25,4 @@ var Emoji = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Emoji = Emoji;
+Emoji.displayName = 'Emoji';

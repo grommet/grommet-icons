@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Qr = /*#__PURE__*/forwardRef(function (props, ref) {
+var Qr = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -19,3 +19,5 @@ export var Qr = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M15 2h7v7h-7V2zM2 2h7v7H2V2zm0 13h7v7H2v-7zM18 5h1v1h-1V5zM5 5h1v1H5V5zm0 13h1v1H5v-1z"
   })));
 });
+Qr.displayName = 'Qr';
+export { Qr };

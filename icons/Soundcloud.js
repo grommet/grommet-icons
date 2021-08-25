@@ -25,3 +25,4 @@ var Soundcloud = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Soundcloud = Soundcloud;
+Soundcloud.displayName = 'Soundcloud';

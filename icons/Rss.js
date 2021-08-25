@@ -26,3 +26,4 @@ var Rss = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Rss = Rss;
+Rss.displayName = 'Rss';

@@ -26,3 +26,4 @@ var TapeOption = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.TapeOption = TapeOption;
+TapeOption.displayName = 'TapeOption';

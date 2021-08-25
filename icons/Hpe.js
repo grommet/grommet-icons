@@ -26,3 +26,4 @@ var Hpe = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Hpe = Hpe;
+Hpe.displayName = 'Hpe';

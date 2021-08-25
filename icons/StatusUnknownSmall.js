@@ -29,3 +29,4 @@ var StatusUnknownSmall = /*#__PURE__*/(0, _react.forwardRef)(function (props, re
   }));
 });
 exports.StatusUnknownSmall = StatusUnknownSmall;
+StatusUnknownSmall.displayName = 'StatusUnknownSmall';

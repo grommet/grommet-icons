@@ -27,3 +27,4 @@ var Elevator = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Elevator = Elevator;
+Elevator.displayName = 'Elevator';

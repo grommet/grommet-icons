@@ -26,3 +26,4 @@ var FolderCycle = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.FolderCycle = FolderCycle;
+FolderCycle.displayName = 'FolderCycle';

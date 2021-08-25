@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var InstallOption = /*#__PURE__*/forwardRef(function (props, ref) {
+var InstallOption = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var InstallOption = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M12 6v10V6zm0-5c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1zm5 11-5 5-5-5"
   }));
 });
+InstallOption.displayName = 'InstallOption';
+export { InstallOption };

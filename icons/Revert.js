@@ -26,3 +26,4 @@ var Revert = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Revert = Revert;
+Revert.displayName = 'Revert';

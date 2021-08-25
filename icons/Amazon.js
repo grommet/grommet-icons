@@ -25,3 +25,4 @@ var Amazon = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Amazon = Amazon;
+Amazon.displayName = 'Amazon';

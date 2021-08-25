@@ -26,3 +26,4 @@ var FormClock = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.FormClock = FormClock;
+FormClock.displayName = 'FormClock';

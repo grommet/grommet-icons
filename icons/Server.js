@@ -26,3 +26,4 @@ var Server = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Server = Server;
+Server.displayName = 'Server';

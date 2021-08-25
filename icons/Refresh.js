@@ -26,3 +26,4 @@ var Refresh = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Refresh = Refresh;
+Refresh.displayName = 'Refresh';

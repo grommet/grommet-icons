@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var MoreVertical = /*#__PURE__*/forwardRef(function (props, ref) {
+var MoreVertical = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -11,3 +11,5 @@ export var MoreVertical = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M14 14h-4v-4h4v4zm0-7h-4V3h4v4zm0 14h-4v-4h4v4z"
   }));
 });
+MoreVertical.displayName = 'MoreVertical';
+export { MoreVertical };

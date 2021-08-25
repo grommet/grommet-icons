@@ -26,3 +26,4 @@ var Contact = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Contact = Contact;
+Contact.displayName = 'Contact';

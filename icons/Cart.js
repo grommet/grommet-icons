@@ -26,3 +26,4 @@ var Cart = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Cart = Cart;
+Cart.displayName = 'Cart';

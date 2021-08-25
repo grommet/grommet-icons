@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var FormClose = /*#__PURE__*/forwardRef(function (props, ref) {
+var FormClose = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var FormClose = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "m7 7 10 10M7 17 17 7"
   }));
 });
+FormClose.displayName = 'FormClose';
+export { FormClose };

@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Microfocus = /*#__PURE__*/forwardRef(function (props, ref) {
+var Microfocus = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -13,3 +13,5 @@ export var Microfocus = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M1 5h4v14h14v4H1V5zm4-4h18v18h-4V5H5V1z"
   }));
 });
+Microfocus.displayName = 'Microfocus';
+export { Microfocus };

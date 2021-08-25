@@ -24,3 +24,4 @@ var Medium = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Medium = Medium;
+Medium.displayName = 'Medium';

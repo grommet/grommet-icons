@@ -26,3 +26,4 @@ var TopCorner = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.TopCorner = TopCorner;
+TopCorner.displayName = 'TopCorner';

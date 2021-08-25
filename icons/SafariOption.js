@@ -25,3 +25,4 @@ var SafariOption = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.SafariOption = SafariOption;
+SafariOption.displayName = 'SafariOption';

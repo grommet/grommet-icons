@@ -26,3 +26,4 @@ var ClearOption = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.ClearOption = ClearOption;
+ClearOption.displayName = 'ClearOption';

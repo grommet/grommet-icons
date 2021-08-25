@@ -33,3 +33,4 @@ var Google = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Google = Google;
+Google.displayName = 'Google';

@@ -26,3 +26,4 @@ var BladesVertical = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.BladesVertical = BladesVertical;
+BladesVertical.displayName = 'BladesVertical';

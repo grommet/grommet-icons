@@ -25,3 +25,4 @@ var Mysql = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Mysql = Mysql;
+Mysql.displayName = 'Mysql';

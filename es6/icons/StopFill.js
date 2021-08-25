@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var StopFill = /*#__PURE__*/forwardRef(function (props, ref) {
+var StopFill = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var StopFill = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M4 4h16v16H4V4zm2 2h12v12H6V6zm2 2h8v8H8V8zm2 2h4v4h-4v-4zm1 1h2v2h-2v-2z"
   }));
 });
+StopFill.displayName = 'StopFill';
+export { StopFill };

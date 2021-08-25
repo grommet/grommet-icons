@@ -26,3 +26,4 @@ var Shield = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Shield = Shield;
+Shield.displayName = 'Shield';

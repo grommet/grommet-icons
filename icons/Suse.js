@@ -25,3 +25,4 @@ var Suse = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Suse = Suse;
+Suse.displayName = 'Suse';

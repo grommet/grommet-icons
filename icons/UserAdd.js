@@ -26,3 +26,4 @@ var UserAdd = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.UserAdd = UserAdd;
+UserAdd.displayName = 'UserAdd';

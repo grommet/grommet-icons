@@ -26,3 +26,4 @@ var DocumentConfig = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.DocumentConfig = DocumentConfig;
+DocumentConfig.displayName = 'DocumentConfig';

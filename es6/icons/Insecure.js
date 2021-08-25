@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Insecure = /*#__PURE__*/forwardRef(function (props, ref) {
+var Insecure = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Insecure = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M7 6.919V6a4.724 4.724 0 0 1 5-5 4.724 4.724 0 0 1 5 5v5.052M12 23a7 7 0 1 0-7-7 7 7 0 0 0 7 7zm2.985-7h-5.97"
   }));
 });
+Insecure.displayName = 'Insecure';
+export { Insecure };

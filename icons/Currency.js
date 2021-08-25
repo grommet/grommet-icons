@@ -26,3 +26,4 @@ var Currency = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Currency = Currency;
+Currency.displayName = 'Currency';

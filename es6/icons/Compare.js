@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Compare = /*#__PURE__*/forwardRef(function (props, ref) {
+var Compare = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Compare = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M11 7H1v10h6V8m4-3v4l2-2-2-2zm0 12 2 2v-4l-2 2zm2 0h10V7h-6v9"
   }));
 });
+Compare.displayName = 'Compare';
+export { Compare };

@@ -24,3 +24,4 @@ var Gatsbyjs = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Gatsbyjs = Gatsbyjs;
+Gatsbyjs.displayName = 'Gatsbyjs';

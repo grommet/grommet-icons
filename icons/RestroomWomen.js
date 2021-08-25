@@ -28,3 +28,4 @@ var RestroomWomen = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.RestroomWomen = RestroomWomen;
+RestroomWomen.displayName = 'RestroomWomen';

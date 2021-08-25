@@ -26,3 +26,4 @@ var Pin = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Pin = Pin;
+Pin.displayName = 'Pin';

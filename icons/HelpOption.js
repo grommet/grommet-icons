@@ -26,3 +26,4 @@ var HelpOption = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.HelpOption = HelpOption;
+HelpOption.displayName = 'HelpOption';

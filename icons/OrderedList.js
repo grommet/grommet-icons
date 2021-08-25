@@ -23,3 +23,4 @@ var OrderedList = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.OrderedList = OrderedList;
+OrderedList.displayName = 'OrderedList';

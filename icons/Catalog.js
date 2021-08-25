@@ -26,3 +26,4 @@ var Catalog = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Catalog = Catalog;
+Catalog.displayName = 'Catalog';

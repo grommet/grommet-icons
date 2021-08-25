@@ -26,3 +26,4 @@ var Keyboard = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Keyboard = Keyboard;
+Keyboard.displayName = 'Keyboard';

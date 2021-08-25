@@ -26,3 +26,4 @@ var Stop = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Stop = Stop;
+Stop.displayName = 'Stop';

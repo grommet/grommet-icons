@@ -26,3 +26,4 @@ var ClosedCaption = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.ClosedCaption = ClosedCaption;
+ClosedCaption.displayName = 'ClosedCaption';

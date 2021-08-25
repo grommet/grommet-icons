@@ -26,3 +26,4 @@ var Grid = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Grid = Grid;
+Grid.displayName = 'Grid';

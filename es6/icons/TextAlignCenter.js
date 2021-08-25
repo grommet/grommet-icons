@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var TextAlignCenter = /*#__PURE__*/forwardRef(function (props, ref) {
+var TextAlignCenter = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -11,3 +11,5 @@ export var TextAlignCenter = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M.46 3.06h23.08v2.18H.46zM4.1 8.29h15.81v2.18H4.1zM.46 13.53h23.08v2.18H.46zm3.64 5.23h15.81v2.18H4.1z"
   }));
 });
+TextAlignCenter.displayName = 'TextAlignCenter';
+export { TextAlignCenter };

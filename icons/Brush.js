@@ -26,3 +26,4 @@ var Brush = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Brush = Brush;
+Brush.displayName = 'Brush';

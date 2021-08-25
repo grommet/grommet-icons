@@ -26,3 +26,4 @@ var ChapterNext = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.ChapterNext = ChapterNext;
+ChapterNext.displayName = 'ChapterNext';

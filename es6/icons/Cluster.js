@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Cluster = /*#__PURE__*/forwardRef(function (props, ref) {
+var Cluster = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Cluster = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M8 9h8V1H8v8zM1 23h8v-8H1v8zm14 0h8v-8h-8v8zM5 15l3-6-3 6zm5 4h4-4zm6-10 3 6-3-6z"
   }));
 });
+Cluster.displayName = 'Cluster';
+export { Cluster };

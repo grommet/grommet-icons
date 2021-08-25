@@ -26,3 +26,4 @@ var CloudDownload = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.CloudDownload = CloudDownload;
+CloudDownload.displayName = 'CloudDownload';

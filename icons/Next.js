@@ -26,3 +26,4 @@ var Next = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Next = Next;
+Next.displayName = 'Next';

@@ -26,3 +26,4 @@ var Edit = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Edit = Edit;
+Edit.displayName = 'Edit';

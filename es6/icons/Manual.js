@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Manual = /*#__PURE__*/forwardRef(function (props, ref) {
+var Manual = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Manual = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M14 9v8-8zm-4 0v8-8zM8 5a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM4 23h16v-3H4v3zm3-3h10v-3H7v3z"
   }));
 });
+Manual.displayName = 'Manual';
+export { Manual };

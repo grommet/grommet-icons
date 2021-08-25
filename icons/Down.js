@@ -26,3 +26,4 @@ var Down = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Down = Down;
+Down.displayName = 'Down';

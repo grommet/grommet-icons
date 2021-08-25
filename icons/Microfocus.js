@@ -25,3 +25,4 @@ var Microfocus = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Microfocus = Microfocus;
+Microfocus.displayName = 'Microfocus';

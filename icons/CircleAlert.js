@@ -26,3 +26,4 @@ var CircleAlert = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.CircleAlert = CircleAlert;
+CircleAlert.displayName = 'CircleAlert';

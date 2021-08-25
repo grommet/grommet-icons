@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var InProgress = /*#__PURE__*/forwardRef(function (props, ref) {
+var InProgress = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var InProgress = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M1 1h22M10 4.5h4V6c0 1-2 2-2 2s-2-1-2-2V4.5zM5 1v5c0 3 5 3.235 5 6s-5 3-5 6v5M19 1v5c0 3-5 3.235-5 6s5 3 5 6v5M1 23h22M8 21c0-2 4-4 4-4s4 2 4 4v2H8v-2z"
   }));
 });
+InProgress.displayName = 'InProgress';
+export { InProgress };

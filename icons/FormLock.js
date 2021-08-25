@@ -26,3 +26,4 @@ var FormLock = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.FormLock = FormLock;
+FormLock.displayName = 'FormLock';

@@ -26,3 +26,4 @@ var Wifi = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Wifi = Wifi;
+Wifi.displayName = 'Wifi';

@@ -26,3 +26,4 @@ var UserExpert = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.UserExpert = UserExpert;
+UserExpert.displayName = 'UserExpert';

@@ -26,3 +26,4 @@ var Grow = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Grow = Grow;
+Grow.displayName = 'Grow';

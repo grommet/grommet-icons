@@ -26,3 +26,4 @@ var Descend = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Descend = Descend;
+Descend.displayName = 'Descend';

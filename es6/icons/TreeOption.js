@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var TreeOption = /*#__PURE__*/forwardRef(function (props, ref) {
+var TreeOption = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var TreeOption = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "m7 13 4.375-7H9l3-4 3 4h-2.375L17 13h-2l4 6.667H5L9 13H7zm5 11v-4"
   }));
 });
+TreeOption.displayName = 'TreeOption';
+export { TreeOption };

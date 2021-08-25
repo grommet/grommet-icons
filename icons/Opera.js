@@ -25,3 +25,4 @@ var Opera = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Opera = Opera;
+Opera.displayName = 'Opera';

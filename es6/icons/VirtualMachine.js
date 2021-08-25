@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var VirtualMachine = /*#__PURE__*/forwardRef(function (props, ref) {
+var VirtualMachine = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var VirtualMachine = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M1 23h13V10H1v13zm9-4h13V6H10v13zm-5-5h13V1H5v13z"
   }));
 });
+VirtualMachine.displayName = 'VirtualMachine';
+export { VirtualMachine };

@@ -25,3 +25,4 @@ var Vmware = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Vmware = Vmware;
+Vmware.displayName = 'Vmware';

@@ -26,3 +26,4 @@ var Html5 = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Html5 = Html5;
+Html5.displayName = 'Html5';

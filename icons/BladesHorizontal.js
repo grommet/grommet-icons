@@ -26,3 +26,4 @@ var BladesHorizontal = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref)
   }));
 });
 exports.BladesHorizontal = BladesHorizontal;
+BladesHorizontal.displayName = 'BladesHorizontal';

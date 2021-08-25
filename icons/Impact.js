@@ -26,3 +26,4 @@ var Impact = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Impact = Impact;
+Impact.displayName = 'Impact';

@@ -25,3 +25,4 @@ var StatusCriticalSmall = /*#__PURE__*/(0, _react.forwardRef)(function (props, r
   }));
 });
 exports.StatusCriticalSmall = StatusCriticalSmall;
+StatusCriticalSmall.displayName = 'StatusCriticalSmall';

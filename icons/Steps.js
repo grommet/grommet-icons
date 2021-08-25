@@ -26,3 +26,4 @@ var Steps = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Steps = Steps;
+Steps.displayName = 'Steps';

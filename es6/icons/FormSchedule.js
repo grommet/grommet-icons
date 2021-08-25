@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var FormSchedule = /*#__PURE__*/forwardRef(function (props, ref) {
+var FormSchedule = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var FormSchedule = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M6 19h12V8H6v11zm2-4h2-2zm3 0h5-5zm4-7V5v3zM9 8V5v3zm-3 3.5h12H6z"
   }));
 });
+FormSchedule.displayName = 'FormSchedule';
+export { FormSchedule };

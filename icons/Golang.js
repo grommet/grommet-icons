@@ -32,3 +32,4 @@ var Golang = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   })));
 });
 exports.Golang = Golang;
+Golang.displayName = 'Golang';

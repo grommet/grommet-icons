@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var DocumentSound = /*#__PURE__*/forwardRef(function (props, ref) {
+var DocumentSound = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var DocumentSound = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M2.998 9V1H17.5L21 4.5V23h-3M16 1v5h5M1 14.01v4h3l4 3V11l-4 3.01H1zM11 18a2 2 0 1 0 0-4m0 8a6 6 0 1 0 0-12"
   }));
 });
+DocumentSound.displayName = 'DocumentSound';
+export { DocumentSound };

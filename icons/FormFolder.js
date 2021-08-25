@@ -26,3 +26,4 @@ var FormFolder = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.FormFolder = FormFolder;
+FormFolder.displayName = 'FormFolder';

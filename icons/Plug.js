@@ -26,3 +26,4 @@ var Plug = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Plug = Plug;
+Plug.displayName = 'Plug';

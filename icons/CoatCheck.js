@@ -28,3 +28,4 @@ var CoatCheck = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.CoatCheck = CoatCheck;
+CoatCheck.displayName = 'CoatCheck';

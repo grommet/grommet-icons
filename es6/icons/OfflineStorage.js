@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var OfflineStorage = /*#__PURE__*/forwardRef(function (props, ref) {
+var OfflineStorage = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var OfflineStorage = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M12 21a9 9 0 1 0 0-18 9 9 0 1 0 0 18zm8-12h-8a3 3 0 0 0 0 6h8"
   }));
 });
+OfflineStorage.displayName = 'OfflineStorage';
+export { OfflineStorage };

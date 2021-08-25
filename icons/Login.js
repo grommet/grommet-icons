@@ -26,3 +26,4 @@ var Login = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Login = Login;
+Login.displayName = 'Login';

@@ -23,3 +23,4 @@ var TextAlignLeft = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.TextAlignLeft = TextAlignLeft;
+TextAlignLeft.displayName = 'TextAlignLeft';

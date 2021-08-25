@@ -25,3 +25,4 @@ var Amex = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Amex = Amex;
+Amex.displayName = 'Amex';

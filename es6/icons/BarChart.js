@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var BarChart = /*#__PURE__*/forwardRef(function (props, ref) {
+var BarChart = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var BarChart = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M0 22h24M22 2h-4v16h4V2zM6 6H2v12h4V6zm8 12h-4v-8h4v8z"
   }));
 });
+BarChart.displayName = 'BarChart';
+export { BarChart };

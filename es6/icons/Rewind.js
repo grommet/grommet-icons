@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Rewind = /*#__PURE__*/forwardRef(function (props, ref) {
+var Rewind = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Rewind = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M22 3.5V20l-9-6v6L2 12l11-8v6z"
   }));
 });
+Rewind.displayName = 'Rewind';
+export { Rewind };

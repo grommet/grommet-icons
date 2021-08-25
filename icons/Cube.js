@@ -26,3 +26,4 @@ var Cube = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Cube = Cube;
+Cube.displayName = 'Cube';

@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Undo = /*#__PURE__*/forwardRef(function (props, ref) {
+var Undo = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -11,3 +11,5 @@ export var Undo = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M7.18 4 8.6 5.44 6.06 8h9.71a6 6 0 0 1 0 12h-2v-2h2a4 4 0 0 0 0-8H6.06l2.54 2.51-1.42 1.41L2.23 9z"
   }));
 });
+Undo.displayName = 'Undo';
+export { Undo };

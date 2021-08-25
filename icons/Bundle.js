@@ -26,3 +26,4 @@ var Bundle = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Bundle = Bundle;
+Bundle.displayName = 'Bundle';

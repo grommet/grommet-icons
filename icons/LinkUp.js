@@ -26,3 +26,4 @@ var LinkUp = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.LinkUp = LinkUp;
+LinkUp.displayName = 'LinkUp';

@@ -26,3 +26,4 @@ var SchedulePlay = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.SchedulePlay = SchedulePlay;
+SchedulePlay.displayName = 'SchedulePlay';

@@ -26,3 +26,4 @@ var Announce = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Announce = Announce;
+Announce.displayName = 'Announce';

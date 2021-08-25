@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Dislike = /*#__PURE__*/forwardRef(function (props, ref) {
+var Dislike = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Dislike = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M23 1H4C2 1 1 2 1 4v10h7v6c0 2 1 3 3 3h2s.016-6 .016-7.326C13.016 14.348 14 13 16 13h7V1zm-5 0v12"
   }));
 });
+Dislike.displayName = 'Dislike';
+export { Dislike };

@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Unlink = /*#__PURE__*/forwardRef(function (props, ref) {
+var Unlink = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Unlink = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "m17 11 4.586 4.586a1.998 1.998 0 0 1 0 2.828l-3.172 3.172a1.998 1.998 0 0 1-2.828 0L11 17m6-9h4m-5-1V3M8 21v-4m-5-1h4m0-3L2.414 8.414a1.998 1.998 0 0 1 0-2.828l3.172-3.172a1.998 1.998 0 0 1 2.828 0L13 7"
   }));
 });
+Unlink.displayName = 'Unlink';
+export { Unlink };

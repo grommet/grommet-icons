@@ -26,3 +26,4 @@ var View = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.View = View;
+View.displayName = 'View';

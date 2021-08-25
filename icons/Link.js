@@ -26,3 +26,4 @@ var Link = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Link = Link;
+Link.displayName = 'Link';

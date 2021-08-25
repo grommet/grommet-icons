@@ -26,3 +26,4 @@ var PhoneFlip = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.PhoneFlip = PhoneFlip;
+PhoneFlip.displayName = 'PhoneFlip';

@@ -25,3 +25,4 @@ var Twitter = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Twitter = Twitter;
+Twitter.displayName = 'Twitter';

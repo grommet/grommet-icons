@@ -26,3 +26,4 @@ var Atm = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Atm = Atm;
+Atm.displayName = 'Atm';

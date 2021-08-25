@@ -24,3 +24,4 @@ var Emergency = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Emergency = Emergency;
+Emergency.displayName = 'Emergency';

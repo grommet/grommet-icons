@@ -28,3 +28,4 @@ var Multimedia = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Multimedia = Multimedia;
+Multimedia.displayName = 'Multimedia';

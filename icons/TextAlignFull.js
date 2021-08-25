@@ -23,3 +23,4 @@ var TextAlignFull = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.TextAlignFull = TextAlignFull;
+TextAlignFull.displayName = 'TextAlignFull';

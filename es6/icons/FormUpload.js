@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var FormUpload = /*#__PURE__*/forwardRef(function (props, ref) {
+var FormUpload = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var FormUpload = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M6 14.182v3.273h12v-3.273M12 6v8M8.182 9.818 12 6l3.818 3.818"
   }));
 });
+FormUpload.displayName = 'FormUpload';
+export { FormUpload };

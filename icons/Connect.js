@@ -26,3 +26,4 @@ var Connect = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Connect = Connect;
+Connect.displayName = 'Connect';

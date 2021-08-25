@@ -26,3 +26,4 @@ var Stakeholder = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Stakeholder = Stakeholder;
+Stakeholder.displayName = 'Stakeholder';

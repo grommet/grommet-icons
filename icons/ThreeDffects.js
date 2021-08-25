@@ -26,3 +26,4 @@ var ThreeDffects = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.ThreeDffects = ThreeDffects;
+ThreeDffects.displayName = 'ThreeDffects';

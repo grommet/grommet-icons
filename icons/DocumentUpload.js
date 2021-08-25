@@ -26,3 +26,4 @@ var DocumentUpload = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.DocumentUpload = DocumentUpload;
+DocumentUpload.displayName = 'DocumentUpload';

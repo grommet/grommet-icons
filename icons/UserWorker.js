@@ -26,3 +26,4 @@ var UserWorker = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.UserWorker = UserWorker;
+UserWorker.displayName = 'UserWorker';

@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var ServerCluster = /*#__PURE__*/forwardRef(function (props, ref) {
+var ServerCluster = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var ServerCluster = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M1 8h22V1H1v7zm10-3h1V4h-1v1zm8 0h1V4h-1v1zm-4 0h1V4h-1v1zm-4 7h1v-1h-1v1zm8 0h1v-1h-1v1zm-4 0h1v-1h-1v1zm-4 7h1v-1h-1v1zm8 0h1v-1h-1v1zm-4 0h1v-1h-1v1zM1 15h22V8H1v7zm0 7h22v-7H1v7zm20 1H3"
   }));
 });
+ServerCluster.displayName = 'ServerCluster';
+export { ServerCluster };

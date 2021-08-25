@@ -26,3 +26,4 @@ var Trigger = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Trigger = Trigger;
+Trigger.displayName = 'Trigger';

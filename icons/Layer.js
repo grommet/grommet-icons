@@ -26,3 +26,4 @@ var Layer = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Layer = Layer;
+Layer.displayName = 'Layer';

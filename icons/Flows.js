@@ -26,3 +26,4 @@ var Flows = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Flows = Flows;
+Flows.displayName = 'Flows';

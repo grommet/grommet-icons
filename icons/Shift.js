@@ -26,3 +26,4 @@ var Shift = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Shift = Shift;
+Shift.displayName = 'Shift';

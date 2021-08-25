@@ -26,3 +26,4 @@ var Sync = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Sync = Sync;
+Sync.displayName = 'Sync';

@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Multiple = /*#__PURE__*/forwardRef(function (props, ref) {
+var Multiple = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Multiple = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M19 15h4V1H9v4m6 14h4V5H5v4M1 23h14V9H1v14z"
   }));
 });
+Multiple.displayName = 'Multiple';
+export { Multiple };

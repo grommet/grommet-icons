@@ -26,3 +26,4 @@ var Download = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Download = Download;
+Download.displayName = 'Download';

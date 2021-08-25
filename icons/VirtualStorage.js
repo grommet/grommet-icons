@@ -26,3 +26,4 @@ var VirtualStorage = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.VirtualStorage = VirtualStorage;
+VirtualStorage.displayName = 'VirtualStorage';

@@ -26,3 +26,4 @@ var Insecure = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Insecure = Insecure;
+Insecure.displayName = 'Insecure';

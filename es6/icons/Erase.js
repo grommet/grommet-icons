@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Erase = /*#__PURE__*/forwardRef(function (props, ref) {
+var Erase = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Erase = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M7 21 22 6l-4-4L2 18l3 3h14M6 14l4 4"
   }));
 });
+Erase.displayName = 'Erase';
+export { Erase };

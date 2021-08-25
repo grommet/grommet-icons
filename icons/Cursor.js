@@ -26,3 +26,4 @@ var Cursor = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Cursor = Cursor;
+Cursor.displayName = 'Cursor';

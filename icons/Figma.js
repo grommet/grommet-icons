@@ -42,3 +42,4 @@ var Figma = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   })));
 });
 exports.Figma = Figma;
+Figma.displayName = 'Figma';

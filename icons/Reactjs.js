@@ -31,3 +31,4 @@ var Reactjs = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   })));
 });
 exports.Reactjs = Reactjs;
+Reactjs.displayName = 'Reactjs';

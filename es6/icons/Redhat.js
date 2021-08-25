@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Redhat = /*#__PURE__*/forwardRef(function (props, ref) {
+var Redhat = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -18,3 +18,5 @@ export var Redhat = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M4.887 8.538c1.462 2.507 4.142 4.074 8.04 4.7 3.897.627 6.171 0 6.82-1.88.278 1.417.278 2.357 0 2.82-.914 1.527-3.411 1.969-6.09 1.646-3.897-.47-6.74-1.724-8.526-3.76-.487-.627-.731-1.175-.731-1.646 0-.47.162-1.096.487-1.88z"
   })));
 });
+Redhat.displayName = 'Redhat';
+export { Redhat };

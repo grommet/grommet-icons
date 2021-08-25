@@ -26,3 +26,4 @@ var Upgrade = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Upgrade = Upgrade;
+Upgrade.displayName = 'Upgrade';

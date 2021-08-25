@@ -30,3 +30,4 @@ var StatusPlaceholder = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref
   }));
 });
 exports.StatusPlaceholder = StatusPlaceholder;
+StatusPlaceholder.displayName = 'StatusPlaceholder';

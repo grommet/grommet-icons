@@ -26,3 +26,4 @@ var Like = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Like = Like;
+Like.displayName = 'Like';

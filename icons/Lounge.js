@@ -26,3 +26,4 @@ var Lounge = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Lounge = Lounge;
+Lounge.displayName = 'Lounge';

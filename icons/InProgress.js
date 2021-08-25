@@ -26,3 +26,4 @@ var InProgress = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.InProgress = InProgress;
+InProgress.displayName = 'InProgress';

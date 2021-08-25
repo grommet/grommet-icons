@@ -26,3 +26,4 @@ var Compass = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Compass = Compass;
+Compass.displayName = 'Compass';

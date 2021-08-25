@@ -23,3 +23,4 @@ var MoreVertical = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.MoreVertical = MoreVertical;
+MoreVertical.displayName = 'MoreVertical';

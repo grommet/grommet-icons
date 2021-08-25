@@ -30,3 +30,4 @@ var GooglePlay = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   })));
 });
 exports.GooglePlay = GooglePlay;
+GooglePlay.displayName = 'GooglePlay';

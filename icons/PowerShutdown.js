@@ -26,3 +26,4 @@ var PowerShutdown = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.PowerShutdown = PowerShutdown;
+PowerShutdown.displayName = 'PowerShutdown';

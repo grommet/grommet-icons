@@ -26,3 +26,4 @@ var DriveCage = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.DriveCage = DriveCage;
+DriveCage.displayName = 'DriveCage';

@@ -26,3 +26,4 @@ var Validate = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Validate = Validate;
+Validate.displayName = 'Validate';

@@ -26,3 +26,4 @@ var CatalogOption = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.CatalogOption = CatalogOption;
+CatalogOption.displayName = 'CatalogOption';

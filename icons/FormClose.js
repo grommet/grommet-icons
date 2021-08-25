@@ -26,3 +26,4 @@ var FormClose = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.FormClose = FormClose;
+FormClose.displayName = 'FormClose';

@@ -26,3 +26,4 @@ var FormEdit = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.FormEdit = FormEdit;
+FormEdit.displayName = 'FormEdit';

@@ -24,3 +24,4 @@ var AppleAppStore = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.AppleAppStore = AppleAppStore;
+AppleAppStore.displayName = 'AppleAppStore';

@@ -29,3 +29,4 @@ var StatusDisabledSmall = /*#__PURE__*/(0, _react.forwardRef)(function (props, r
   }));
 });
 exports.StatusDisabledSmall = StatusDisabledSmall;
+StatusDisabledSmall.displayName = 'StatusDisabledSmall';

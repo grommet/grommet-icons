@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Shield = /*#__PURE__*/forwardRef(function (props, ref) {
+var Shield = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var Shield = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M12 22S3 18 3 5l9-3 9 3c0 13-9 17-9 17zM4 11h16m-8-9v20"
   }));
 });
+Shield.displayName = 'Shield';
+export { Shield };

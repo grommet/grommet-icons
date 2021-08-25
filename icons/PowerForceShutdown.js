@@ -26,3 +26,4 @@ var PowerForceShutdown = /*#__PURE__*/(0, _react.forwardRef)(function (props, re
   }));
 });
 exports.PowerForceShutdown = PowerForceShutdown;
+PowerForceShutdown.displayName = 'PowerForceShutdown';

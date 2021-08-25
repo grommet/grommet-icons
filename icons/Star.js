@@ -25,3 +25,4 @@ var Star = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Star = Star;
+Star.displayName = 'Star';

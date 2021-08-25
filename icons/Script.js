@@ -26,3 +26,4 @@ var Script = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Script = Script;
+Script.displayName = 'Script';

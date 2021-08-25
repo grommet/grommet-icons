@@ -26,3 +26,4 @@ var Bar = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Bar = Bar;
+Bar.displayName = 'Bar';

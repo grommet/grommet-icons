@@ -27,3 +27,4 @@ var List = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.List = List;
+List.displayName = 'List';

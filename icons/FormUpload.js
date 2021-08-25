@@ -26,3 +26,4 @@ var FormUpload = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.FormUpload = FormUpload;
+FormUpload.displayName = 'FormUpload';

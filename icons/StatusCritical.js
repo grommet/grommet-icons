@@ -26,3 +26,4 @@ var StatusCritical = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.StatusCritical = StatusCritical;
+StatusCritical.displayName = 'StatusCritical';

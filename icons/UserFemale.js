@@ -26,3 +26,4 @@ var UserFemale = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.UserFemale = UserFemale;
+UserFemale.displayName = 'UserFemale';

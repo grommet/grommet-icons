@@ -26,3 +26,4 @@ var Package = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Package = Package;
+Package.displayName = 'Package';

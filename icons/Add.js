@@ -26,3 +26,4 @@ var Add = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Add = Add;
+Add.displayName = 'Add';

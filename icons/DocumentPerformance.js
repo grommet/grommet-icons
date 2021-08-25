@@ -26,3 +26,4 @@ var DocumentPerformance = /*#__PURE__*/(0, _react.forwardRef)(function (props, r
   }));
 });
 exports.DocumentPerformance = DocumentPerformance;
+DocumentPerformance.displayName = 'DocumentPerformance';

@@ -26,3 +26,4 @@ var Close = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Close = Close;
+Close.displayName = 'Close';

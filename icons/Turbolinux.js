@@ -25,3 +25,4 @@ var Turbolinux = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Turbolinux = Turbolinux;
+Turbolinux.displayName = 'Turbolinux';

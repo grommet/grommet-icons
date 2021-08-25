@@ -26,3 +26,4 @@ var License = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.License = License;
+License.displayName = 'License';

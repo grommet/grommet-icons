@@ -26,3 +26,4 @@ var CaretUp = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.CaretUp = CaretUp;
+CaretUp.displayName = 'CaretUp';

@@ -25,3 +25,4 @@ var Hpi = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Hpi = Hpi;
+Hpi.displayName = 'Hpi';

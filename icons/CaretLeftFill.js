@@ -24,3 +24,4 @@ var CaretLeftFill = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.CaretLeftFill = CaretLeftFill;
+CaretLeftFill.displayName = 'CaretLeftFill';

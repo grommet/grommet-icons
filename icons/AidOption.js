@@ -26,3 +26,4 @@ var AidOption = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.AidOption = AidOption;
+AidOption.displayName = 'AidOption';

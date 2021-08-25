@@ -26,3 +26,4 @@ var HpeLabs = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.HpeLabs = HpeLabs;
+HpeLabs.displayName = 'HpeLabs';

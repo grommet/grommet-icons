@@ -26,3 +26,4 @@ var History = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.History = History;
+History.displayName = 'History';

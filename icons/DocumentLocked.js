@@ -26,3 +26,4 @@ var DocumentLocked = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.DocumentLocked = DocumentLocked;
+DocumentLocked.displayName = 'DocumentLocked';

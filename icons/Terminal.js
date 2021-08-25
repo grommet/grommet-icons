@@ -26,3 +26,4 @@ var Terminal = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Terminal = Terminal;
+Terminal.displayName = 'Terminal';

@@ -26,3 +26,4 @@ var FormAttachment = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.FormAttachment = FormAttachment;
+FormAttachment.displayName = 'FormAttachment';

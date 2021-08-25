@@ -26,3 +26,4 @@ var Tasks = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Tasks = Tasks;
+Tasks.displayName = 'Tasks';

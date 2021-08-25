@@ -26,3 +26,4 @@ var ZoomOut = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.ZoomOut = ZoomOut;
+ZoomOut.displayName = 'ZoomOut';

@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var CirclePlay = /*#__PURE__*/forwardRef(function (props, ref) {
+var CirclePlay = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var CirclePlay = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm-2.5-6.5 6-3.5-6-3.5v7zm1-2 2-1.5-2-1.5v3z"
   }));
 });
+CirclePlay.displayName = 'CirclePlay';
+export { CirclePlay };

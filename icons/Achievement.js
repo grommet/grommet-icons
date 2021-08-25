@@ -26,3 +26,4 @@ var Achievement = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Achievement = Achievement;
+Achievement.displayName = 'Achievement';

@@ -29,3 +29,4 @@ var StatusPlaceholderSmall = /*#__PURE__*/(0, _react.forwardRef)(function (props
   }));
 });
 exports.StatusPlaceholderSmall = StatusPlaceholderSmall;
+StatusPlaceholderSmall.displayName = 'StatusPlaceholderSmall';

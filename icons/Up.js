@@ -26,3 +26,4 @@ var Up = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Up = Up;
+Up.displayName = 'Up';

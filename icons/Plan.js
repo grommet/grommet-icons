@@ -26,3 +26,4 @@ var Plan = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Plan = Plan;
+Plan.displayName = 'Plan';

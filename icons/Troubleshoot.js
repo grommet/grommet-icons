@@ -26,3 +26,4 @@ var Troubleshoot = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Troubleshoot = Troubleshoot;
+Troubleshoot.displayName = 'Troubleshoot';

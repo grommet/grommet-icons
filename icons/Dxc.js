@@ -24,3 +24,4 @@ var Dxc = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Dxc = Dxc;
+Dxc.displayName = 'Dxc';

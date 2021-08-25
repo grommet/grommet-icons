@@ -26,3 +26,4 @@ var Fireball = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Fireball = Fireball;
+Fireball.displayName = 'Fireball';

@@ -28,3 +28,4 @@ var AssistListening = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) 
   }));
 });
 exports.AssistListening = AssistListening;
+AssistListening.displayName = 'AssistListening';

@@ -28,3 +28,4 @@ var Css3 = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Css3 = Css3;
+Css3.displayName = 'Css3';

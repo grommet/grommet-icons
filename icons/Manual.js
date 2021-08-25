@@ -26,3 +26,4 @@ var Manual = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Manual = Manual;
+Manual.displayName = 'Manual';

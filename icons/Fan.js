@@ -26,3 +26,4 @@ var Fan = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Fan = Fan;
+Fan.displayName = 'Fan';

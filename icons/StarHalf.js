@@ -31,3 +31,4 @@ var StarHalf = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   })));
 });
 exports.StarHalf = StarHalf;
+StarHalf.displayName = 'StarHalf';

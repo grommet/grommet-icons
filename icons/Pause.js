@@ -26,3 +26,4 @@ var Pause = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Pause = Pause;
+Pause.displayName = 'Pause';

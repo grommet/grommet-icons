@@ -26,3 +26,4 @@ var LocationPin = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.LocationPin = LocationPin;
+LocationPin.displayName = 'LocationPin';

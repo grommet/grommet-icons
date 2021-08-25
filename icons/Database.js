@@ -26,3 +26,4 @@ var Database = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Database = Database;
+Database.displayName = 'Database';

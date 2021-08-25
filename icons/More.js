@@ -26,3 +26,4 @@ var More = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.More = More;
+More.displayName = 'More';

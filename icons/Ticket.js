@@ -26,3 +26,4 @@ var Ticket = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Ticket = Ticket;
+Ticket.displayName = 'Ticket';

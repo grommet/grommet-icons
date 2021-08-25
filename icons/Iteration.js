@@ -26,3 +26,4 @@ var Iteration = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Iteration = Iteration;
+Iteration.displayName = 'Iteration';

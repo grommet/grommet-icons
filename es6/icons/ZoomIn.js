@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var ZoomIn = /*#__PURE__*/forwardRef(function (props, ref) {
+var ZoomIn = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var ZoomIn = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "m16 16 7 7-7-7zm-6 2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-3V5m-5 5h10"
   }));
 });
+ZoomIn.displayName = 'ZoomIn';
+export { ZoomIn };

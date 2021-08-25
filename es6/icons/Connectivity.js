@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var Connectivity = /*#__PURE__*/forwardRef(function (props, ref) {
+var Connectivity = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -16,3 +16,5 @@ export var Connectivity = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M6 8v4l3 3 6-6-4-4H5L2.5 3M17 7l3 3v7m-7-6 3 3m-5-1 3 3m-7 1 3 3h10"
   }));
 });
+Connectivity.displayName = 'Connectivity';
+export { Connectivity };

@@ -29,3 +29,4 @@ var StatusInfoSmall = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) 
   }));
 });
 exports.StatusInfoSmall = StatusInfoSmall;
+StatusInfoSmall.displayName = 'StatusInfoSmall';

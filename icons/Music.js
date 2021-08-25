@@ -26,3 +26,4 @@ var Music = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Music = Music;
+Music.displayName = 'Music';

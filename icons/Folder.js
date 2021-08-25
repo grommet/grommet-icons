@@ -26,3 +26,4 @@ var Folder = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Folder = Folder;
+Folder.displayName = 'Folder';

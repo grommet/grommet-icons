@@ -25,3 +25,4 @@ var Time = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Time = Time;
+Time.displayName = 'Time';

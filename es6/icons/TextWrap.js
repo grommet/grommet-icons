@@ -2,7 +2,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
-export var TextWrap = /*#__PURE__*/forwardRef(function (props, ref) {
+var TextWrap = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
@@ -14,3 +14,5 @@ export var TextWrap = /*#__PURE__*/forwardRef(function (props, ref) {
     d: "M17 10h7-7zM1 14h13V2H1v12zm5-8a1 1 0 1 1-2 0 1 1 0 0 1 2 0m11 0h7-7zm0-4h7-7zm0 12h7-7zM0 18h24H0zm0 4h24H0zm14-8v-1l-4-5-3 3-1-1-4 4h12z"
   }));
 });
+TextWrap.displayName = 'TextWrap';
+export { TextWrap };

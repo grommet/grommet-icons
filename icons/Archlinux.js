@@ -25,3 +25,4 @@ var Archlinux = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Archlinux = Archlinux;
+Archlinux.displayName = 'Archlinux';

@@ -26,3 +26,4 @@ var Cycle = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }));
 });
 exports.Cycle = Cycle;
+Cycle.displayName = 'Cycle';
