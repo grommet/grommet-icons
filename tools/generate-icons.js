@@ -24,7 +24,8 @@ function getNodeAttributes(node) {
     ? Object.keys(node.$)
         .filter((key) => !excludeAttributes.test(key))
         .map(
-          (attrKey) => `${camelCase(attrKey)}="${convertColors(node.$[attrKey])}"`,
+          (attrKey) =>
+            `${camelCase(attrKey)}="${convertColors(node.$[attrKey])}"`,
         )
     : undefined;
 }
@@ -54,13 +55,17 @@ function buildIcon(fileName, svgChildren, viewBox) {
 
 import { StyledIcon } from '../StyledIcon';
 
-export const ${pascalCase(fileName)} = forwardRef((props, ref) => (
+const ${pascalCase(fileName)} = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="${viewBox}" a11yTitle="${pascalCase(
-  fileName,
-)}" {...props}>
+    fileName,
+  )}" {...props}>
     ${children.join('')}
   </StyledIcon>
 ));
+
+${pascalCase(fileName)}.displayName = '${pascalCase(fileName)}';
+
+export { ${pascalCase(fileName)} };
 `;
 }
 const optimizeSvg = (svg) => {
@@ -105,9 +110,8 @@ fs.readdir(inputSVGFolder, (err, icons) => {
     if (/\.svg$/.test(icon)) {
       const iconPath = path.join(inputSVGFolder, icon);
       let fileName = icon.replace('.svg', '');
-      fileName = fileName.replace(
-        /^(.)|(-([a-z0-9]))+/g,
-        (g) => (g.length > 1 ? g[1].toUpperCase() : g.toUpperCase()),
+      fileName = fileName.replace(/^(.)|(-([a-z0-9]))+/g, (g) =>
+        g.length > 1 ? g[1].toUpperCase() : g.toUpperCase(),
       );
       const content = fs.readFileSync(iconPath, 'utf8');
       iconNames.push(pascalCase(fileName));
