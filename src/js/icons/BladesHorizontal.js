@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const BladesHorizontal = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='BladesHorizontal' {...props}>
-    <path fillRule='evenodd' clipRule='evenodd' d='M4 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H4zm0 2h2v12H4V4zm0 14v2h2v-2H4zm7-16a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-2zm0 2h2v12h-2V4zm0 14h2v2h-2v-2zm5-14a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V4zm4 0h-2v12h2V4zm0 14h-2v2h2v-2z' fill='#000' />
+    <path stroke='#000' strokeWidth='2' d='M3 17h4m3 0h4m3 0h4M4 21h2a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1zm7 0h2a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1zm7 0h2a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1z' />
   </StyledIcon>
 );

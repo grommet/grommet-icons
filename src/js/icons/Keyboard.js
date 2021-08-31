@@ -4,6 +4,6 @@ import { StyledIcon } from '../StyledIcon';
 
 export const Keyboard = props => (
   <StyledIcon viewBox='0 0 24 24' a11yTitle='Keyboard' {...props}>
-    <path fillRule='evenodd' clipRule='evenodd' d='M24 7a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V7zm-2 0v10H2V7h20zM3 10h3V8H3v2zm2 3H3v-2h2v2zm-2 3h1v-2H3v2zm14-2v2H7v-2h10zm1 2h1v-2h-1v2zm3 0h-1v-2h1v2zm-3-3h3v-2h-3v2zm3-3h-2V8h2v2zm-5 0h2V8h-2v2zm-7 0H7V8h2v2zm1 0h2V8h-2v2zm5 0h-2V8h2v2zM5 16h1v-2H5v2zm3-3H6v-2h2v2zm1 0h2v-2H9v2zm5 0h-2v-2h2v2zm1 0h2v-2h-2v2z' fill='#000' />
+    <path stroke='#000' strokeWidth='2' d='M3 9h3m-3 3h2m-2 3h1m3 0h10m1 0h1m1 0h1m-3-3h3m-2-3h2m-5 0h2M7 9h2m1 0h2m1 0h2M5 15h1m0-3h2m1 0h2m1 0h2m1 0h2M1 7v10a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z' />
   </StyledIcon>
 );
