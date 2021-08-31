@@ -23,13 +23,13 @@ const customTheme = {
 };
 
 storiesOf('Icon', module)
-.add('Default', () => {
-  const Icon = Icons[text('Icon', 'Accessibility')];
-  if (!Icon) {
-    return null;
-  }
-  return <Icon />;
-})
+  .add('Default', () => {
+    const Icon = Icons[text('Icon', 'Accessibility')];
+    if (!Icon) {
+      return null;
+    }
+    return <Icon />;
+  })
   .add('Color', () => {
     const Icon = Icons[text('Icon', 'Accessibility')];
     if (!Icon) {
@@ -37,13 +37,14 @@ storiesOf('Icon', module)
     }
     return (
       <ThemeProvider theme={customTheme}>
-        <Icon size={text('Size', 'xlarge')} color={text('Color', 'attention')} />
+        <Icon
+          size={text('Size', 'xlarge')}
+          color={text('Color', 'attention')}
+        />
       </ThemeProvider>
     );
   })
-  .add('Plain', () => (
-    <Icons.Pocket color='plain' />
-    ))
+  .add('Plain', () => <Icons.Pocket color="plain" />)
   .add('Custom Theme', () => {
     const Icon = Icons[text('Icon', 'Accessibility')];
     if (!Icon) {

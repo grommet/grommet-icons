@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styled, { css } from 'styled-components';
 
 import { colorStyle } from 'grommet-styles';
@@ -6,15 +6,15 @@ import { colorStyle } from 'grommet-styles';
 import { defaultProps } from './default-props';
 
 const colorCss = css`
-  ${props => colorStyle(
+  ${(props) => colorStyle(
       'fill',
       props.color || props.theme.global.colors.icon,
-      props.theme
+      props.theme,
     )}
-  ${props => colorStyle(
+  ${(props) => colorStyle(
       'stroke',
       props.color || props.theme.global.colors.icon,
-      props.theme
+      props.theme,
     )}
 
   g {
@@ -43,14 +43,16 @@ const colorCss = css`
   }
 `;
 
-const IconInner = ({
+const IconInner = forwardRef(
+  ({
  a11yTitle, color, size, theme, ...rest
-}) => (
-  <svg aria-label={a11yTitle} {...rest} />
+}, ref) => (
+  <svg ref={ref} aria-label={a11yTitle} {...rest} />
+  ),
 );
 IconInner.displayName = 'Icon';
 
-const parseMetricToNum = string => parseFloat(string.match(/\d+(\.\d+)?/), 10);
+const parseMetricToNum = (string) => parseFloat(string.match(/\d+(\.\d+)?/), 10);
 
 const StyledIcon = styled(IconInner)`
   display: inline-block;

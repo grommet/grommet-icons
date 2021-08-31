@@ -1,7 +1,7 @@
-import camelCase from 'camel-case';
+import { camelCase } from 'camel-case';
 import del from 'del';
 import fs from 'fs';
-import pascalCase from 'pascal-case';
+import { pascalCase } from 'pascal-case';
 import path from 'path';
 import xml2js from 'xml2js';
 import { extendDefaultPlugins, optimize } from 'svgo';
@@ -20,20 +20,25 @@ function convertColors(text) {
 
 const excludeAttributes = /^id$/;
 function getNodeAttributes(node) {
-  return node.$ ? Object.keys(node.$).filter(key => (
-    !excludeAttributes.test(key)))
-    .map(attrKey => `${camelCase(attrKey)}='${convertColors(node.$[attrKey])}'`) : undefined;
+  return node.$
+    ? Object.keys(node.$)
+        .filter((key) => !excludeAttributes.test(key))
+        .map(
+          (attrKey) =>
+            `${camelCase(attrKey)}="${convertColors(node.$[attrKey])}"`,
+        )
+    : undefined;
 }
 function parseNode(node) {
   if (node && !/^(title|defs|desc)$/.test(node['#name'])) {
     const attributes = getNodeAttributes(node);
     const children = [];
-    (node.$$ || []).forEach(child => (children.push(parseNode(child))));
-    return node.$$ ? (
-      `<${node['#name']}${attributes ? ` ${attributes.join(' ')}` : ''}>${children.join('')}</${node['#name']}>`
-    ) : (
-      `<${node['#name']}${attributes ? ` ${attributes.join(' ')}` : ''} />`
-    );
+    (node.$$ || []).forEach((child) => children.push(parseNode(child)));
+    return node.$$
+      ? `<${node['#name']}${
+          attributes ? ` ${attributes.join(' ')}` : ''
+        }>${children.join('')}</${node['#name']}>`
+      : `<${node['#name']}${attributes ? ` ${attributes.join(' ')}` : ''} />`;
   }
   return undefined;
 }
@@ -46,18 +51,24 @@ function buildIcon(fileName, svgChildren, viewBox) {
       children.push(node);
     }
   });
-  return `import React from 'react';
+  return `import React, { forwardRef } from 'react';
 
 import { StyledIcon } from '../StyledIcon';
 
-export const ${pascalCase(fileName)} = props => (
-  <StyledIcon viewBox='${viewBox}' a11yTitle='${pascalCase(fileName)}' {...props}>
+const ${pascalCase(fileName)} = forwardRef((props, ref) => (
+  <StyledIcon ref={ref} viewBox="${viewBox}" a11yTitle="${pascalCase(
+    fileName,
+  )}" {...props}>
     ${children.join('')}
   </StyledIcon>
-);
+));
+
+${pascalCase(fileName)}.displayName = '${pascalCase(fileName)}';
+
+export { ${pascalCase(fileName)} };
 `;
 }
-const optimizeSvg = svg => {
+const optimizeSvg = (svg) => {
   const optimized = optimize(svg, {
     multipass: true,
     plugins: extendDefaultPlugins([
@@ -99,15 +110,17 @@ fs.readdir(inputSVGFolder, (err, icons) => {
     if (/\.svg$/.test(icon)) {
       const iconPath = path.join(inputSVGFolder, icon);
       let fileName = icon.replace('.svg', '');
-      fileName = fileName.replace(
-        /^(.)|(-([a-z0-9]))+/g,
-        g => (g.length > 1 ? g[1].toUpperCase() : g.toUpperCase()),
+      fileName = fileName.replace(/^(.)|(-([a-z0-9]))+/g, (g) =>
+        g.length > 1 ? g[1].toUpperCase() : g.toUpperCase(),
       );
       const content = fs.readFileSync(iconPath, 'utf8');
       iconNames.push(pascalCase(fileName));
 
       createReactIcon(fileName, content).then((reactIcon) => {
-        const destinationFile = path.resolve(outputReactIconFolder, `${fileName}.js`);
+        const destinationFile = path.resolve(
+          outputReactIconFolder,
+          `${fileName}.js`,
+        );
         fs.writeFileSync(destinationFile, reactIcon);
       });
     }
@@ -116,16 +129,20 @@ fs.readdir(inputSVGFolder, (err, icons) => {
   iconNames.push('Blank');
 
   fs.copyFileSync(
-    `${path.resolve('./tools/icons')}/Blank.js`, `${outputReactIconFolder}/Blank.js`
+    `${path.resolve('./tools/icons')}/Blank.js`,
+    `${outputReactIconFolder}/Blank.js`,
   );
 
   const destinationImportFile = path.resolve(outputReactIconFolder, 'index.js');
   fs.writeFileSync(
     destinationImportFile,
-    `${iconNames.map(n => `export * from './${n}';`).join('\n')}\n`,
+    `${iconNames.map((n) => `export * from './${n}';`).join('\n')}\n`,
   );
 
-  const destinationTypesFile = path.resolve(outputReactIconFolder, 'index.d.ts');
+  const destinationTypesFile = path.resolve(
+    outputReactIconFolder,
+    'index.d.ts',
+  );
   fs.writeFileSync(
     destinationTypesFile,
     `import * as React from "react";
@@ -138,9 +155,7 @@ export interface IconProps {
 
 export type Icon = React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
 
-${iconNames.map(n => (
-  `export declare const ${n}: Icon;`))
-  .join('\n')}
+${iconNames.map((n) => `export declare const ${n}: Icon;`).join('\n')}
 `,
   );
 });
