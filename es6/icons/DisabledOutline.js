@@ -8,10 +8,9 @@ var DisabledOutline = /*#__PURE__*/forwardRef(function (props, ref) {
     viewBox: "0 0 24 24",
     a11yTitle: "DisabledOutline"
   }, props), /*#__PURE__*/React.createElement("path", {
-    fillRule: "evenodd",
-    clipRule: "evenodd",
-    d: "M1 4a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v16a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3V4zm3-1a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4zm2 8h12v2H6v-2z",
-    fill: "#000"
+    stroke: "#000",
+    strokeWidth: "2",
+    d: "M18 12H6M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2z"
   }));
 });
 DisabledOutline.displayName = 'DisabledOutline';

@@ -19,10 +19,9 @@ var CircleAlert = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
     viewBox: "0 0 24 24",
     a11yTitle: "CircleAlert"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
-    fillRule: "evenodd",
-    clipRule: "evenodd",
-    d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11zm-11 9a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm1-15v8h-2V6h2zm0 10v2h-2v-2h2z",
-    fill: "#000"
+    stroke: "#000",
+    strokeWidth: "2",
+    d: "M12 14V6m0 12v-2m0-14C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z"
   }));
 });
 exports.CircleAlert = CircleAlert;

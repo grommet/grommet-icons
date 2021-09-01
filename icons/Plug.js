@@ -19,10 +19,9 @@ var Plug = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
     viewBox: "0 0 24 24",
     a11yTitle: "Plug"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
-    fillRule: "evenodd",
-    clipRule: "evenodd",
-    d: "M16 5V1h-2v4h-4V1H8v4H5v8a3 3 0 0 0 3 3h3v8h2v-8h3a3 3 0 0 0 3-3V5h-3zm-9 8V7h10v6a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z",
-    fill: "#000"
+    stroke: "#000",
+    strokeWidth: "2",
+    d: "M15 6V1m-3 23v-9M9 6V1M6 6h12v7a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V6z"
   }));
 });
 exports.Plug = Plug;
