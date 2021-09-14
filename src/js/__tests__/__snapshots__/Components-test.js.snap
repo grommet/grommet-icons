@@ -1119,6 +1119,10 @@ Object {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "HomeRounded": Object {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Horton": Object {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
