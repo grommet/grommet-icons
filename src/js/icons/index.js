@@ -276,6 +276,7 @@ export * from './Heroku';
 export * from './Hide';
 export * from './History';
 export * from './HomeOption';
+export * from './HomeRounded';
 export * from './Home';
 export * from './Horton';
 export * from './HostMaintenance';
