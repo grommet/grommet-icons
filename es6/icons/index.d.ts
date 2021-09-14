@@ -286,6 +286,7 @@ export declare const Heroku: Icon;
 export declare const Hide: Icon;
 export declare const History: Icon;
 export declare const HomeOption: Icon;
+export declare const HomeRounded: Icon;
 export declare const Home: Icon;
 export declare const Horton: Icon;
 export declare const HostMaintenance: Icon;

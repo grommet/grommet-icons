@@ -2226,6 +2226,14 @@ Object.keys(_HomeOption).forEach(function (key) {
   exports[key] = _HomeOption[key];
 });
 
+var _HomeRounded = require("./HomeRounded");
+
+Object.keys(_HomeRounded).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _HomeRounded[key]) return;
+  exports[key] = _HomeRounded[key];
+});
+
 var _Home = require("./Home");
 
 Object.keys(_Home).forEach(function (key) {
