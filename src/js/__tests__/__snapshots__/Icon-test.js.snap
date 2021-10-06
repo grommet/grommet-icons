@@ -24009,7 +24009,7 @@ exports[`Icon all icons 486`] = `
 }
 
 <svg
-  aria-label="StatusCriticalSmall"
+  aria-label="StatusCritical"
   class="c0"
   viewBox="0 0 12 12"
 >
@@ -24106,7 +24106,7 @@ exports[`Icon all icons 488`] = `
 }
 
 <svg
-  aria-label="StatusDisabledSmall"
+  aria-label="StatusDisabled"
   class="c0"
   viewBox="0 0 12 12"
 >
@@ -24207,7 +24207,7 @@ exports[`Icon all icons 490`] = `
 }
 
 <svg
-  aria-label="StatusGoodSmall"
+  aria-label="StatusGood"
   class="c0"
   viewBox="0 0 12 12"
 >
@@ -24306,7 +24306,7 @@ exports[`Icon all icons 492`] = `
 }
 
 <svg
-  aria-label="StatusInfoSmall"
+  aria-label="StatusInfo"
   class="c0"
   viewBox="0 0 12 12"
 >
@@ -24407,7 +24407,7 @@ exports[`Icon all icons 494`] = `
 }
 
 <svg
-  aria-label="StatusPlaceholderSmall"
+  aria-label="StatusPlaceholder"
   class="c0"
   viewBox="0 0 12 12"
 >
@@ -24512,7 +24512,7 @@ exports[`Icon all icons 496`] = `
 }
 
 <svg
-  aria-label="StatusUnknownSmall"
+  aria-label="StatusUnknown"
   class="c0"
   viewBox="0 0 12 12"
 >
@@ -24613,7 +24613,7 @@ exports[`Icon all icons 498`] = `
 }
 
 <svg
-  aria-label="StatusWarningSmall"
+  aria-label="StatusWarning"
   class="c0"
   viewBox="0 0 12 12"
 >
