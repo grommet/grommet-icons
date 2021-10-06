@@ -2,8 +2,12 @@ import React, { forwardRef } from 'react';
 
 import { StyledIcon } from '../StyledIcon';
 
-export const NetworkDrive = forwardRef((props, ref) => (
+const NetworkDrive = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="NetworkDrive" {...props}>
-    <path fillRule="evenodd" clipRule="evenodd" d="M1 6a2 2 0 0 1 2-2h18a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-8v2.17a3.001 3.001 0 1 1-2 0V14H3a2 2 0 0 1-2-2V6zm10 13a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM3 6v6h18V6H3zm3 1a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" fill="#000" />
+    <path stroke="#000" strokeWidth="2" d="M12 14v4M22 6v6a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1zM12 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM6 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
   </StyledIcon>
 ));
+
+NetworkDrive.displayName = 'NetworkDrive';
+
+export { NetworkDrive };
