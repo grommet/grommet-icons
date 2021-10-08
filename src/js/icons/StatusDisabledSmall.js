@@ -6,7 +6,7 @@ const StatusDisabledSmall = forwardRef((props, ref) => (
   <StyledIcon
     ref={ref}
     viewBox="0 0 12 12"
-    a11yTitle="Disabeled Status"
+    a11yTitle="Disabled Status"
     {...props}
   >
     <rect
