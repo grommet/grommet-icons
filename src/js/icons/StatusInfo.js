@@ -3,7 +3,7 @@ import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 const StatusInfo = forwardRef((props, ref) => (
-  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Info Status" {...props}>
+  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Information Status" {...props}>
     <path
       fill="none"
       stroke="#000"
