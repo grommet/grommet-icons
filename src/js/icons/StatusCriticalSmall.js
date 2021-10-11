@@ -6,7 +6,7 @@ const StatusCriticalSmall = forwardRef((props, ref) => (
   <StyledIcon
     ref={ref}
     viewBox="0 0 12 12"
-    a11yTitle="Critical Status"
+    a11yTitle="Status is critical"
     {...props}
   >
     <path

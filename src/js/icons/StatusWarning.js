@@ -6,7 +6,7 @@ const StatusWarning = forwardRef((props, ref) => (
   <StyledIcon
     ref={ref}
     viewBox="0 0 24 24"
-    a11yTitle="Warning Status"
+    a11yTitle="Status is warning"
     {...props}
   >
     <path
