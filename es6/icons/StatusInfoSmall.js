@@ -6,7 +6,7 @@ var StatusInfoSmall = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 12 12",
-    a11yTitle: "StatusInfoSmall"
+    a11yTitle: "Information Status"
   }, props), /*#__PURE__*/React.createElement("rect", {
     width: "10",
     height: "10",

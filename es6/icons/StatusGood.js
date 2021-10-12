@@ -6,7 +6,7 @@ var StatusGood = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
-    a11yTitle: "StatusGood"
+    a11yTitle: "Status is okay"
   }, props), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",

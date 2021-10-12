@@ -6,7 +6,7 @@ var StatusWarningSmall = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 12 12",
-    a11yTitle: "StatusWarningSmall"
+    a11yTitle: "Status is warning"
   }, props), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     stroke: "#000",

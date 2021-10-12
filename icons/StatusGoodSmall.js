@@ -17,7 +17,7 @@ var StatusGoodSmall = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) 
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 12 12",
-    a11yTitle: "StatusGoodSmall"
+    a11yTitle: "Status is okay"
   }, props), /*#__PURE__*/_react["default"].createElement("circle", {
     cx: "6",
     cy: "6",

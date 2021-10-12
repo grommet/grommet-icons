@@ -17,7 +17,7 @@ var StatusDisabledSmall = /*#__PURE__*/(0, _react.forwardRef)(function (props, r
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 12 12",
-    a11yTitle: "StatusDisabledSmall"
+    a11yTitle: "Status is disabled"
   }, props), /*#__PURE__*/_react["default"].createElement("rect", {
     width: "10",
     height: "10",

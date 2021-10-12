@@ -17,7 +17,7 @@ var StatusPlaceholder = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
-    a11yTitle: "StatusPlaceholder"
+    a11yTitle: "Placeholder Status"
   }, props), /*#__PURE__*/_react["default"].createElement("rect", {
     width: "20",
     height: "20",
