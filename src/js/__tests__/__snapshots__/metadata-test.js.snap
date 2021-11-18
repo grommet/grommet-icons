@@ -1811,6 +1811,13 @@ Object {
     "core",
     "home",
   ],
+  "HomeRounded": Array [
+    "home",
+    "house",
+    "building",
+    "estate",
+    "real",
+  ],
   "Horton": Array [
     "big",
     "data",
