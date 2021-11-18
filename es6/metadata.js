@@ -278,6 +278,7 @@ export default {
   'History': ['backup', 'clock', 'hands', 'timer', 'schedule'],
   'Home': ['building', 'estate', 'house', 'real'],
   'HomeOption': ['core', 'home'],
+  'HomeRounded': ['home', 'house', 'building', 'estate', 'real'],
   'Horton': ['big', 'data', 'logo'],
   'Host': ['computer', 'database', 'hosting', 'mainframe', 'rack', 'server'],
   'HostMaintenance': ['hosting', 'rack', 'server', 'service', 'settings', 'repair'],
