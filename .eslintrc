@@ -32,6 +32,7 @@
     "no-console": 0,
     "quote-props": ["error", "consistent"],
     "react/forbid-prop-types": 0,
+    "react/function-component-definition": [1, {"namedComponents": "arrow-function" }],
     "react/jsx-boolean-value": [1, "always"],
     "react/jsx-filename-extension": 0,
     "react/jsx-first-prop-new-line": [1, "multiline"],
