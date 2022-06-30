@@ -549,7 +549,7 @@ export declare const Threats: Icon;
 export declare const ThreeDffects: Icon;
 export declare const ThreeD: Icon;
 export declare const Ticket: Icon;
-export declare const Tictok: Icon;
+export declare const Tiktok: Icon;
 export declare const Time: Icon;
 export declare const Tip: Icon;
 export declare const Toast: Icon;

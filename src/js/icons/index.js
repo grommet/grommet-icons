@@ -539,7 +539,7 @@ export * from './Threats';
 export * from './ThreeDffects';
 export * from './ThreeD';
 export * from './Ticket';
-export * from './Tictok';
+export * from './Tiktok';
 export * from './Time';
 export * from './Tip';
 export * from './Toast';
