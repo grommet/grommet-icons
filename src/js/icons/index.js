@@ -539,6 +539,7 @@ export * from './Threats';
 export * from './ThreeDffects';
 export * from './ThreeD';
 export * from './Ticket';
+export { Tiktok as Tictok } from './Tiktok'; // @deprecated in favour of "Tiktok" - added for backwards compatability
 export * from './Tiktok';
 export * from './Time';
 export * from './Tip';
