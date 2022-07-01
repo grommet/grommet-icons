@@ -543,7 +543,7 @@ var _default = {
   'ThreeD': ['3d', 'cube', 'box', 'rotation'],
   'ThreeDffects': ['3d', 'cube', 'box'],
   'Ticket': ['cinema', 'concert', 'movie', 'travel'],
-  'Tictok': ['network', 'social', 'travel'],
+  'Tiktok': ['network', 'social', 'travel'],
   'Time': ['chart', 'line', 'data'],
   'Tip': ['bubble', 'chat', 'messages', 'tooltip'],
   'Toast': ['alert', 'food', 'messages'],

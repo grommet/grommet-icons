@@ -1,7 +1,7 @@
 "use strict";
 
 exports.__esModule = true;
-exports.Tictok = void 0;
+exports.Tiktok = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -13,11 +13,11 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-var Tictok = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
+var Tiktok = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
-    a11yTitle: "Tictok"
+    a11yTitle: "Tiktok"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "#FF004F",
     d: "M22.459 6.846v3.659c-.197 0-.433.04-.669.04a7.295 7.295 0 0 1-4.682-1.732v7.79a6.987 6.987 0 0 1-1.416 4.25 7.02 7.02 0 0 1-5.626 2.832 6.993 6.993 0 0 1-5.941-3.305c1.259 1.18 2.95 1.928 4.8 1.928a6.893 6.893 0 0 0 5.586-2.833c.866-1.18 1.417-2.636 1.417-4.249v-7.83c1.259 1.102 2.872 1.732 4.682 1.732.236 0 .433 0 .669-.04v-2.36c.354.079.669.118 1.023.118h.157z"
@@ -35,5 +35,5 @@ var Tictok = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
     d: "M16.203 1.534h-2.872v15.187c0 1.77-1.416 3.227-3.147 3.227-1.377 0-2.518-.866-2.951-2.125.511.354 1.14.59 1.81.59 1.73 0 3.147-1.416 3.147-3.187V0h3.817v.079c0 .157 0 .314.039.472 0 .315.079.669.157.983zm5.115 3.777v1.417c-1.574-.315-2.911-1.377-3.659-2.794a5.11 5.11 0 0 0 3.659 1.377z"
   })));
 });
-exports.Tictok = Tictok;
-Tictok.displayName = 'Tictok';
+exports.Tiktok = Tiktok;
+Tiktok.displayName = 'Tiktok';
