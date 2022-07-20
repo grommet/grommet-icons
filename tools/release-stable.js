@@ -1,5 +1,5 @@
 import path from 'path';
-import git from 'simple-git/promise';
+import git from 'simple-git';
 import del from 'del';
 import fs from 'fs-extra';
 
