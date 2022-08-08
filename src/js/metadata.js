@@ -223,7 +223,7 @@ export default {
   'FolderCycle': ['documents', 'data', 'files', 'recycle', 'refresh'],
   'FolderOpen': ['documents', 'data', 'files'],
   'FormAdd': ['create', 'form', 'increase', 'increment', 'new', 'plus'],
-  'FormAttachment': ['attach', 'clip', 'files', 'form', 'paper', 'upload'],
+  'FormAttachment': ['attachment','attach', 'clip', 'files', 'form', 'paper', 'upload'],
   'FormCalendar': ['date', 'day', 'event', 'form', 'month', 'schedule', 'year'],
   'FormCheckmark': ['accept', 'agree', 'done', 'form', 'good', 'ok'],
   'FormClock': ['alarm', 'form', 'hour', 'minute', 'second', 'time', 'timer', 'watch'],
