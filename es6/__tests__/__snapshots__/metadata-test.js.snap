@@ -1433,6 +1433,7 @@ Object {
     "plus",
   ],
   "FormAttachment": Array [
+    "attachment",
     "attach",
     "clip",
     "files",
