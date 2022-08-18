@@ -486,7 +486,7 @@ export default {
   'Stakeholder': ['business', 'person'],
   'Star': ['badge', 'rating', 'star'],
   'StarHalf': ['badge', 'rating', 'star'],
-  'StarUnfill':  ['badge', 'rating', 'star'],
+  'StarOutline':  ['badge', 'rating', 'star'],
   'StatusCritical': ['error', 'halt', 'stop', 'warning'],
   'StatusCriticalSmall': ['error', 'halt', 'stop', 'warning'],
   'StatusDisabled': ['off'],
