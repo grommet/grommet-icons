@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 
 import { StyledIcon } from '../StyledIcon';
 
-const StarUnfill = forwardRef((props, ref) => (
+const StarOutline = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Star" {...props}>
     <path
       stroke="#000"
@@ -13,6 +13,6 @@ const StarUnfill = forwardRef((props, ref) => (
   </StyledIcon>
 ));
 
-StarUnfill.displayName = 'StarUnfill';
+StarOutline.displayName = 'StarOutline';
 
-export { StarUnfill };
+export { StarOutline };

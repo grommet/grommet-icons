@@ -485,7 +485,7 @@ export * from './StackOverflow';
 export * from './Stakeholder';
 export * from './StarHalf';
 export * from './Star';
-export * from './StarUnfill';
+export * from './StarOutline';
 export * from './StatusCriticalSmall';
 export * from './StatusCritical';
 export * from './StatusDisabledSmall';

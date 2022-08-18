@@ -495,7 +495,7 @@ export declare const StackOverflow: Icon;
 export declare const Stakeholder: Icon;
 export declare const StarHalf: Icon;
 export declare const Star: Icon;
-export declare const StarUnfull: Icon;
+export declare const StarOutline: Icon;
 export declare const StatusCriticalSmall: Icon;
 export declare const StatusCritical: Icon;
 export declare const StatusDisabledSmall: Icon;
