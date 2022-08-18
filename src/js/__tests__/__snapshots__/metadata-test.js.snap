@@ -3039,7 +3039,7 @@ Object {
     "rating",
     "star",
   ],
-  "StarUnfill": Array [
+  "StarOutline": Array [
     "badge",
     "rating",
     "star",
