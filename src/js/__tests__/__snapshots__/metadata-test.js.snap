@@ -912,6 +912,11 @@ Object {
     "down",
     "like",
   ],
+  "DislikeFill": Array [
+    "thumbs",
+    "down",
+    "like",
+  ],
   "Docker": Array [
     "app",
     "container",
@@ -2028,6 +2033,12 @@ Object {
     "thumbs",
     "up",
   ],
+  "LikeFill": Array [
+    "favorite",
+    "heart",
+    "thumbs",
+    "up",
+  ],
   "LineChart": Array [
     "graph",
     "grow",
@@ -3024,6 +3035,11 @@ Object {
     "star",
   ],
   "StarHalf": Array [
+    "badge",
+    "rating",
+    "star",
+  ],
+  "StarUnfill": Array [
     "badge",
     "rating",
     "star",
