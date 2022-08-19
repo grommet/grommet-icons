@@ -1338,6 +1338,15 @@ Object.keys(_Dislike).forEach(function (key) {
   exports[key] = _Dislike[key];
 });
 
+var _DislikeFill = require("./DislikeFill");
+
+Object.keys(_DislikeFill).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _DislikeFill[key]) return;
+  exports[key] = _DislikeFill[key];
+});
+
 var _Docker = require("./Docker");
 
 Object.keys(_Docker).forEach(function (key) {
@@ -2848,6 +2857,15 @@ Object.keys(_Like).forEach(function (key) {
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
   if (key in exports && exports[key] === _Like[key]) return;
   exports[key] = _Like[key];
+});
+
+var _LikeFill = require("./LikeFill");
+
+Object.keys(_LikeFill).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _LikeFill[key]) return;
+  exports[key] = _LikeFill[key];
 });
 
 var _LineChart = require("./LineChart");
@@ -4378,6 +4396,15 @@ Object.keys(_Star).forEach(function (key) {
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
   if (key in exports && exports[key] === _Star[key]) return;
   exports[key] = _Star[key];
+});
+
+var _StarOutline = require("./StarOutline");
+
+Object.keys(_StarOutline).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _StarOutline[key]) return;
+  exports[key] = _StarOutline[key];
 });
 
 var _StatusCriticalSmall = require("./StatusCriticalSmall");
