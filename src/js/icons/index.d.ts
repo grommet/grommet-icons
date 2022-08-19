@@ -246,6 +246,7 @@ export declare const FormLocation: Icon;
 export declare const FormLock: Icon;
 export declare const FormNextLink: Icon;
 export declare const FormNext: Icon;
+export declare const FormPin: Icon;
 export declare const FormPreviousLink: Icon;
 export declare const FormPrevious: Icon;
 export declare const FormRefresh: Icon;
