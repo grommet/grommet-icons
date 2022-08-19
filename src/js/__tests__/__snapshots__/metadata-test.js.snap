@@ -1553,6 +1553,15 @@ Object {
     "next",
     "right",
   ],
+  "FormPin": Array [
+    "form",
+    "gps",
+    "location",
+    "map",
+    "navigation",
+    "pin",
+    "tack",
+  ],
   "FormPrevious": Array [
     "arrows",
     "back",

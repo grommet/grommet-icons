@@ -959,6 +959,10 @@ Object {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "FormPin": Object {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "FormPrevious": Object {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
