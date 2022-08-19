@@ -236,6 +236,7 @@ export * from './FormLocation';
 export * from './FormLock';
 export * from './FormNextLink';
 export * from './FormNext';
+export * from './FormPin';
 export * from './FormPreviousLink';
 export * from './FormPrevious';
 export * from './FormRefresh';
