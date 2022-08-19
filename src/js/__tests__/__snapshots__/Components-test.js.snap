@@ -595,6 +595,10 @@ Object {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "DislikeFill": Object {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Docker": Object {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1264,6 +1268,10 @@ Object {
     "render": [Function],
   },
   "Like": Object {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "LikeFill": Object {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1944,6 +1952,10 @@ Object {
     "render": [Function],
   },
   "StarHalf": Object {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "StarOutline": Object {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
