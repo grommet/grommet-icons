@@ -241,6 +241,7 @@ var _default = {
   'FormLock': ['close', 'form', 'locker', 'password', 'permissions', 'protection', 'secure', 'security'],
   'FormNext': ['arrows', 'direction', 'form', 'forward', 'next', 'right'],
   'FormNextLink': ['arrows', 'direction', 'form', 'forward', 'next', 'right'],
+  'FormPin': ['form', 'gps', 'location', 'map', 'navigation', 'pin', 'tack'],
   'FormPrevious': ['arrows', 'back', 'backward', 'direction', 'form', 'left', 'return'],
   'FormPreviousLink': ['arrows', 'back', 'backward', 'direction', 'form', 'left', 'return'],
   'FormRefresh': ['arrows', 'form', 'pull', 'reload', 'sync', 'update'],

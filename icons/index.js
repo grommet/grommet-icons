@@ -2148,6 +2148,15 @@ Object.keys(_FormNext).forEach(function (key) {
   exports[key] = _FormNext[key];
 });
 
+var _FormPin = require("./FormPin");
+
+Object.keys(_FormPin).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _FormPin[key]) return;
+  exports[key] = _FormPin[key];
+});
+
 var _FormPreviousLink = require("./FormPreviousLink");
 
 Object.keys(_FormPreviousLink).forEach(function (key) {
