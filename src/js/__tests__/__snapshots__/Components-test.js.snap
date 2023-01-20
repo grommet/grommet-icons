@@ -215,6 +215,10 @@ Object {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "Bucket": Object {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Bug": Object {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
