@@ -339,7 +339,6 @@ Object {
     "paint",
   ],
   "Bucket": Array [
-    "cloud",
     "container",
     "storage",
   ],

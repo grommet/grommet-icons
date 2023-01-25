@@ -52,7 +52,7 @@ export default {
   'Braille': ['accessibility', 'blind'],
   'Briefcase': ['luggage', 'travel'],
   'Brush': ['tools', 'paint'],
-  'Bucket': ['cloud', 'container', 'storage'],
+  'Bucket': ['container', 'storage'],
   'Bug': ['fixing', 'insect', 'repair', 'virus'],
   'Bundle': ['money', 'stack'],
   'Bus': ['directions', 'transportation', 'travel', 'vehicle'],
