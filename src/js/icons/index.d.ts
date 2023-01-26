@@ -61,6 +61,7 @@ export declare const BottomCorner: Icon;
 export declare const Braille: Icon;
 export declare const Briefcase: Icon;
 export declare const Brush: Icon;
+export declare const Bucket: Icon;
 export declare const Bug: Icon;
 export declare const Bundle: Icon;
 export declare const Bus: Icon;
