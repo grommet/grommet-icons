@@ -56,6 +56,7 @@ var _default = {
   'Braille': ['accessibility', 'blind'],
   'Briefcase': ['luggage', 'travel'],
   'Brush': ['tools', 'paint'],
+  'Bucket': ['container', 'storage'],
   'Bug': ['fixing', 'insect', 'repair', 'virus'],
   'Bundle': ['money', 'stack'],
   'Bus': ['directions', 'transportation', 'travel', 'vehicle'],

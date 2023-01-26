@@ -483,6 +483,15 @@ Object.keys(_Brush).forEach(function (key) {
   exports[key] = _Brush[key];
 });
 
+var _Bucket = require("./Bucket");
+
+Object.keys(_Bucket).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _Bucket[key]) return;
+  exports[key] = _Bucket[key];
+});
+
 var _Bug = require("./Bug");
 
 Object.keys(_Bug).forEach(function (key) {

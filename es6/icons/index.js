@@ -51,6 +51,7 @@ export * from './BottomCorner';
 export * from './Braille';
 export * from './Briefcase';
 export * from './Brush';
+export * from './Bucket';
 export * from './Bug';
 export * from './Bundle';
 export * from './Bus';

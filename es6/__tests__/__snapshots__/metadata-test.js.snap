@@ -338,6 +338,10 @@ Object {
     "tools",
     "paint",
   ],
+  "Bucket": Array [
+    "container",
+    "storage",
+  ],
   "Bug": Array [
     "fixing",
     "insect",
