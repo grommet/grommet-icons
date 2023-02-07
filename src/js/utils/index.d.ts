@@ -1,17 +1,8 @@
-type TObject = {
-  global?: {
-    colors?: {
-      [key: string]: string;
-    };
-  };
-  icon?: {
-    size?: {
-      [key: string]: string;
-    };
-  };
-};
+import { base } from '../themes';
 
-export function deepMerge<T extends keyof TObject>(
-  target: TObject,
-  ...sources: TObject[]
-): T;
+type Global = { global: { colors: { [key: string]: string } } };
+type Icon = { icon: { size: { [key: string]: string } } };
+type Source = Global | Icon | (Global & Icon);
+type Merged = Global & Icon;
+
+export function deepMerge(target: typeof base, ...sources: Source[]): Merged;
