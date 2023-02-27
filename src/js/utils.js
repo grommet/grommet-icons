@@ -1,3 +1,6 @@
+import { useContext } from 'react';
+import { ThemeContext } from 'styled-components';
+
 export function isObject(item) {
   return item && typeof item === 'object' && !Array.isArray(item);
 }
@@ -24,6 +27,16 @@ export function deepMerge(target, ...sources) {
     }
   });
   return output;
+}
+
+// scaleProps sets path properties to prevent scaling the stroke
+// when the theme doesn't want it for small sizes.
+export function useScaleProps(props) {
+  const theme = useContext(ThemeContext);
+  const { size } = props;
+  const result = {};
+  if (theme?.icon?.matchSize && size === 'small') result.vectorEffect = 'non-scaling-stroke';
+  return result;
 }
 
 export default { deepMerge, isObject };
