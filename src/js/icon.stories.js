@@ -13,6 +13,7 @@ const customTheme = {
     },
   },
   icon: {
+    disableScaleDown: true,
     size: {
       small: '12px',
       medium: '24px',

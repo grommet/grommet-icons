@@ -4,6 +4,7 @@ import styled, { css } from 'styled-components';
 import { colorStyle } from 'grommet-styles';
 
 import { defaultProps } from './default-props';
+import { parseMetricToNum } from './utils';
 
 const colorCss = css`
   ${(props) => colorStyle(
@@ -51,8 +52,6 @@ const IconInner = forwardRef(
   ),
 );
 IconInner.displayName = 'Icon';
-
-const parseMetricToNum = (string) => parseFloat(string.match(/\d+(\.\d+)?/), 10);
 
 const StyledIcon = styled(IconInner)`
   display: inline-block;
