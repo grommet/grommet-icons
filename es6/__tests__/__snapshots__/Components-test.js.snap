@@ -1,2501 +1,2501 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Components loads 1`] = `
-Object {
-  "Accessibility": Object {
+{
+  "Accessibility": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Achievement": Object {
+  "Achievement": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Action": Object {
+  "Action": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Actions": Object {
+  "Actions": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Ad": Object {
+  "Ad": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Add": Object {
+  "Add": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "AddCircle": Object {
+  "AddCircle": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Aed": Object {
+  "Aed": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Aggregate": Object {
+  "Aggregate": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Aid": Object {
+  "Aid": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "AidOption": Object {
+  "AidOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Alarm": Object {
+  "Alarm": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Alert": Object {
+  "Alert": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Amazon": Object {
+  "Amazon": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Amex": Object {
+  "Amex": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Analytics": Object {
+  "Analytics": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Anchor": Object {
+  "Anchor": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Android": Object {
+  "Android": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Announce": Object {
+  "Announce": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Apple": Object {
+  "Apple": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "AppleAppStore": Object {
+  "AppleAppStore": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Apps": Object {
+  "Apps": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "AppsRounded": Object {
+  "AppsRounded": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Archive": Object {
+  "Archive": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Archlinux": Object {
+  "Archlinux": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Article": Object {
+  "Article": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Aruba": Object {
+  "Aruba": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Ascend": Object {
+  "Ascend": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Ascending": Object {
+  "Ascending": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "AssistListening": Object {
+  "AssistListening": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Atm": Object {
+  "Atm": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Attachment": Object {
+  "Attachment": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Attraction": Object {
+  "Attraction": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Baby": Object {
+  "Baby": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "BackTen": Object {
+  "BackTen": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Bar": Object {
+  "Bar": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "BarChart": Object {
+  "BarChart": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Basket": Object {
+  "Basket": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Beacon": Object {
+  "Beacon": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Bike": Object {
+  "Bike": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Bitcoin": Object {
+  "Bitcoin": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "BladesHorizontal": Object {
+  "BladesHorizontal": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "BladesVertical": Object {
+  "BladesVertical": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "Blank": [Function],
-  "BlockQuote": Object {
+  "BlockQuote": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Blog": Object {
+  "Blog": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Bluetooth": Object {
+  "Bluetooth": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Bold": Object {
+  "Bold": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Book": Object {
+  "Book": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Bookmark": Object {
+  "Bookmark": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "BottomCorner": Object {
+  "BottomCorner": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Braille": Object {
+  "Braille": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Briefcase": Object {
+  "Briefcase": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Brush": Object {
+  "Brush": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Bucket": Object {
+  "Bucket": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Bug": Object {
+  "Bug": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Bundle": Object {
+  "Bundle": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Bus": Object {
+  "Bus": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "BusinessService": Object {
+  "BusinessService": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Cafeteria": Object {
+  "Cafeteria": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Calculator": Object {
+  "Calculator": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Calendar": Object {
+  "Calendar": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Camera": Object {
+  "Camera": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Capacity": Object {
+  "Capacity": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Car": Object {
+  "Car": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CaretDown": Object {
+  "CaretDown": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CaretDownFill": Object {
+  "CaretDownFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CaretLeftFill": Object {
+  "CaretLeftFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CaretNext": Object {
+  "CaretNext": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CaretPrevious": Object {
+  "CaretPrevious": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CaretRightFill": Object {
+  "CaretRightFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CaretUp": Object {
+  "CaretUp": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CaretUpFill": Object {
+  "CaretUpFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Cart": Object {
+  "Cart": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Catalog": Object {
+  "Catalog": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CatalogOption": Object {
+  "CatalogOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Centos": Object {
+  "Centos": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Certificate": Object {
+  "Certificate": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Channel": Object {
+  "Channel": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ChapterAdd": Object {
+  "ChapterAdd": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ChapterNext": Object {
+  "ChapterNext": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ChapterPrevious": Object {
+  "ChapterPrevious": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Chat": Object {
+  "Chat": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ChatOption": Object {
+  "ChatOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Checkbox": Object {
+  "Checkbox": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CheckboxSelected": Object {
+  "CheckboxSelected": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Checkmark": Object {
+  "Checkmark": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Chrome": Object {
+  "Chrome": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CircleAlert": Object {
+  "CircleAlert": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CircleInformation": Object {
+  "CircleInformation": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CirclePlay": Object {
+  "CirclePlay": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CircleQuestion": Object {
+  "CircleQuestion": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Clear": Object {
+  "Clear": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ClearOption": Object {
+  "ClearOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Cli": Object {
+  "Cli": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Clipboard": Object {
+  "Clipboard": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Clock": Object {
+  "Clock": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Clone": Object {
+  "Clone": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Close": Object {
+  "Close": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ClosedCaption": Object {
+  "ClosedCaption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Cloud": Object {
+  "Cloud": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CloudComputer": Object {
+  "CloudComputer": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CloudDownload": Object {
+  "CloudDownload": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CloudSoftware": Object {
+  "CloudSoftware": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CloudUpload": Object {
+  "CloudUpload": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Cloudlinux": Object {
+  "Cloudlinux": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Cluster": Object {
+  "Cluster": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CoatCheck": Object {
+  "CoatCheck": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Code": Object {
+  "Code": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CodeSandbox": Object {
+  "CodeSandbox": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Codepen": Object {
+  "Codepen": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Coffee": Object {
+  "Coffee": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Columns": Object {
+  "Columns": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Command": Object {
+  "Command": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Compare": Object {
+  "Compare": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Compass": Object {
+  "Compass": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Compliance": Object {
+  "Compliance": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Configure": Object {
+  "Configure": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Connect": Object {
+  "Connect": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Connectivity": Object {
+  "Connectivity": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Console": Object {
+  "Console": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Contact": Object {
+  "Contact": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ContactInfo": Object {
+  "ContactInfo": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Contract": Object {
+  "Contract": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Copy": Object {
+  "Copy": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Cpu": Object {
+  "Cpu": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CreativeCommons": Object {
+  "CreativeCommons": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CreditCard": Object {
+  "CreditCard": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Css3": Object {
+  "Css3": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Cube": Object {
+  "Cube": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Cubes": Object {
+  "Cubes": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Currency": Object {
+  "Currency": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Cursor": Object {
+  "Cursor": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Cut": Object {
+  "Cut": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Cycle": Object {
+  "Cycle": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Dashboard": Object {
+  "Dashboard": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Database": Object {
+  "Database": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Debian": Object {
+  "Debian": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Deliver": Object {
+  "Deliver": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Deploy": Object {
+  "Deploy": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Descend": Object {
+  "Descend": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Descending": Object {
+  "Descending": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Desktop": Object {
+  "Desktop": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Detach": Object {
+  "Detach": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Device": Object {
+  "Device": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Diamond": Object {
+  "Diamond": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Directions": Object {
+  "Directions": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DisabledOutline": Object {
+  "DisabledOutline": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Disc": Object {
+  "Disc": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Dislike": Object {
+  "Dislike": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DislikeFill": Object {
+  "DislikeFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Docker": Object {
+  "Docker": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Document": Object {
+  "Document": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentCloud": Object {
+  "DocumentCloud": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentConfig": Object {
+  "DocumentConfig": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentCsv": Object {
+  "DocumentCsv": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentDownload": Object {
+  "DocumentDownload": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentExcel": Object {
+  "DocumentExcel": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentImage": Object {
+  "DocumentImage": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentLocked": Object {
+  "DocumentLocked": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentMissing": Object {
+  "DocumentMissing": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentNotes": Object {
+  "DocumentNotes": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentOutlook": Object {
+  "DocumentOutlook": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentPdf": Object {
+  "DocumentPdf": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentPerformance": Object {
+  "DocumentPerformance": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentPpt": Object {
+  "DocumentPpt": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentRtf": Object {
+  "DocumentRtf": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentSound": Object {
+  "DocumentSound": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentStore": Object {
+  "DocumentStore": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentTest": Object {
+  "DocumentTest": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentText": Object {
+  "DocumentText": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentThreat": Object {
+  "DocumentThreat": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentTime": Object {
+  "DocumentTime": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentTransfer": Object {
+  "DocumentTransfer": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentTxt": Object {
+  "DocumentTxt": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentUpdate": Object {
+  "DocumentUpdate": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentUpload": Object {
+  "DocumentUpload": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentUser": Object {
+  "DocumentUser": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentVerified": Object {
+  "DocumentVerified": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentVideo": Object {
+  "DocumentVideo": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentWindows": Object {
+  "DocumentWindows": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentWord": Object {
+  "DocumentWord": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DocumentZip": Object {
+  "DocumentZip": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Domain": Object {
+  "Domain": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Dos": Object {
+  "Dos": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Down": Object {
+  "Down": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Download": Object {
+  "Download": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DownloadOption": Object {
+  "DownloadOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Drag": Object {
+  "Drag": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Drawer": Object {
+  "Drawer": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Dribbble": Object {
+  "Dribbble": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DriveCage": Object {
+  "DriveCage": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Dropbox": Object {
+  "Dropbox": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Duplicate": Object {
+  "Duplicate": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Dxc": Object {
+  "Dxc": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Ebay": Object {
+  "Ebay": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Edge": Object {
+  "Edge": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Edit": Object {
+  "Edit": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Eject": Object {
+  "Eject": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Elevator": Object {
+  "Elevator": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Emergency": Object {
+  "Emergency": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Emoji": Object {
+  "Emoji": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "EmptyCircle": Object {
+  "EmptyCircle": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Erase": Object {
+  "Erase": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Escalator": Object {
+  "Escalator": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Expand": Object {
+  "Expand": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Ezmeral": Object {
+  "Ezmeral": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Facebook": Object {
+  "Facebook": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FacebookOption": Object {
+  "FacebookOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Fan": Object {
+  "Fan": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FanOption": Object {
+  "FanOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FastForward": Object {
+  "FastForward": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Favorite": Object {
+  "Favorite": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Fedora": Object {
+  "Fedora": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Figma": Object {
+  "Figma": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Filter": Object {
+  "Filter": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FingerPrint": Object {
+  "FingerPrint": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Fireball": Object {
+  "Fireball": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Firefox": Object {
+  "Firefox": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Firewall": Object {
+  "Firewall": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Flag": Object {
+  "Flag": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FlagFill": Object {
+  "FlagFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Flows": Object {
+  "Flows": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Folder": Object {
+  "Folder": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FolderCycle": Object {
+  "FolderCycle": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FolderOpen": Object {
+  "FolderOpen": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormAdd": Object {
+  "FormAdd": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormAttachment": Object {
+  "FormAttachment": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormCalendar": Object {
+  "FormCalendar": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormCheckmark": Object {
+  "FormCheckmark": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormClock": Object {
+  "FormClock": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormClose": Object {
+  "FormClose": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormCut": Object {
+  "FormCut": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormDown": Object {
+  "FormDown": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormEdit": Object {
+  "FormEdit": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormFilter": Object {
+  "FormFilter": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormFolder": Object {
+  "FormFolder": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormLocation": Object {
+  "FormLocation": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormLock": Object {
+  "FormLock": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormNext": Object {
+  "FormNext": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormNextLink": Object {
+  "FormNextLink": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormPin": Object {
+  "FormPin": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormPrevious": Object {
+  "FormPrevious": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormPreviousLink": Object {
+  "FormPreviousLink": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormRefresh": Object {
+  "FormRefresh": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormSchedule": Object {
+  "FormSchedule": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormSearch": Object {
+  "FormSearch": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormSubtract": Object {
+  "FormSubtract": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormTrash": Object {
+  "FormTrash": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormUp": Object {
+  "FormUp": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormUpload": Object {
+  "FormUpload": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormView": Object {
+  "FormView": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormViewHide": Object {
+  "FormViewHide": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ForwardTen": Object {
+  "ForwardTen": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Freebsd": Object {
+  "Freebsd": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Gallery": Object {
+  "Gallery": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Gamepad": Object {
+  "Gamepad": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Gateway": Object {
+  "Gateway": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Gatsbyjs": Object {
+  "Gatsbyjs": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Gem": Object {
+  "Gem": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Gift": Object {
+  "Gift": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Github": Object {
+  "Github": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Globe": Object {
+  "Globe": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Golang": Object {
+  "Golang": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Google": Object {
+  "Google": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "GooglePlay": Object {
+  "GooglePlay": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "GooglePlus": Object {
+  "GooglePlus": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "GoogleWallet": Object {
+  "GoogleWallet": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "GraphQl": Object {
+  "GraphQl": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Gremlin": Object {
+  "Gremlin": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Grid": Object {
+  "Grid": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Grommet": Object {
+  "Grommet": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Group": Object {
+  "Group": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Grow": Object {
+  "Grow": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Hadoop": Object {
+  "Hadoop": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Halt": Object {
+  "Halt": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Help": Object {
+  "Help": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "HelpOption": Object {
+  "HelpOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Heroku": Object {
+  "Heroku": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Hide": Object {
+  "Hide": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "History": Object {
+  "History": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Home": Object {
+  "Home": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "HomeOption": Object {
+  "HomeOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "HomeRounded": Object {
+  "HomeRounded": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Horton": Object {
+  "Horton": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Host": Object {
+  "Host": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "HostMaintenance": Object {
+  "HostMaintenance": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Hp": Object {
+  "Hp": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Hpe": Object {
+  "Hpe": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "HpeLabs": Object {
+  "HpeLabs": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Hpi": Object {
+  "Hpi": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Html5": Object {
+  "Html5": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "IceCream": Object {
+  "IceCream": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Image": Object {
+  "Image": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Impact": Object {
+  "Impact": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "InProgress": Object {
+  "InProgress": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Inbox": Object {
+  "Inbox": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Indicator": Object {
+  "Indicator": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Info": Object {
+  "Info": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Inherit": Object {
+  "Inherit": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Insecure": Object {
+  "Insecure": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Inspect": Object {
+  "Inspect": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Instagram": Object {
+  "Instagram": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Install": Object {
+  "Install": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "InstallOption": Object {
+  "InstallOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Integration": Object {
+  "Integration": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "InternetExplorer": Object {
+  "InternetExplorer": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Italic": Object {
+  "Italic": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Iteration": Object {
+  "Iteration": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Java": Object {
+  "Java": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Js": Object {
+  "Js": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Key": Object {
+  "Key": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Keyboard": Object {
+  "Keyboard": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Language": Object {
+  "Language": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Lastfm": Object {
+  "Lastfm": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Launch": Object {
+  "Launch": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Layer": Object {
+  "Layer": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "License": Object {
+  "License": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Like": Object {
+  "Like": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "LikeFill": Object {
+  "LikeFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "LineChart": Object {
+  "LineChart": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Link": Object {
+  "Link": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "LinkBottom": Object {
+  "LinkBottom": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "LinkDown": Object {
+  "LinkDown": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "LinkNext": Object {
+  "LinkNext": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "LinkPrevious": Object {
+  "LinkPrevious": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "LinkTop": Object {
+  "LinkTop": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "LinkUp": Object {
+  "LinkUp": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Linkedin": Object {
+  "Linkedin": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "LinkedinOption": Object {
+  "LinkedinOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "List": Object {
+  "List": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Local": Object {
+  "Local": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Location": Object {
+  "Location": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "LocationPin": Object {
+  "LocationPin": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Lock": Object {
+  "Lock": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Login": Object {
+  "Login": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Logout": Object {
+  "Logout": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Lounge": Object {
+  "Lounge": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Magic": Object {
+  "Magic": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Mail": Object {
+  "Mail": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "MailOption": Object {
+  "MailOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Mandriva": Object {
+  "Mandriva": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Manual": Object {
+  "Manual": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Map": Object {
+  "Map": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "MapLocation": Object {
+  "MapLocation": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Mastercard": Object {
+  "Mastercard": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Medium": Object {
+  "Medium": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Memory": Object {
+  "Memory": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Menu": Object {
+  "Menu": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Microfocus": Object {
+  "Microfocus": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Microphone": Object {
+  "Microphone": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Money": Object {
+  "Money": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Monitor": Object {
+  "Monitor": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Monospace": Object {
+  "Monospace": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Moon": Object {
+  "Moon": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "More": Object {
+  "More": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "MoreVertical": Object {
+  "MoreVertical": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Mouse": Object {
+  "Mouse": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Multimedia": Object {
+  "Multimedia": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Multiple": Object {
+  "Multiple": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Music": Object {
+  "Music": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Mysql": Object {
+  "Mysql": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Navigate": Object {
+  "Navigate": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Network": Object {
+  "Network": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "NetworkDrive": Object {
+  "NetworkDrive": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "New": Object {
+  "New": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "NewWindow": Object {
+  "NewWindow": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Next": Object {
+  "Next": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Node": Object {
+  "Node": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Nodes": Object {
+  "Nodes": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Norton": Object {
+  "Norton": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Note": Object {
+  "Note": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Notes": Object {
+  "Notes": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Notification": Object {
+  "Notification": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Npm": Object {
+  "Npm": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ObjectGroup": Object {
+  "ObjectGroup": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ObjectUngroup": Object {
+  "ObjectUngroup": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "OfflineStorage": Object {
+  "OfflineStorage": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Onedrive": Object {
+  "Onedrive": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Opera": Object {
+  "Opera": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Optimize": Object {
+  "Optimize": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Oracle": Object {
+  "Oracle": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "OrderedList": Object {
+  "OrderedList": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Organization": Object {
+  "Organization": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Overview": Object {
+  "Overview": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Package": Object {
+  "Package": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Paint": Object {
+  "Paint": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Pan": Object {
+  "Pan": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Pause": Object {
+  "Pause": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PauseFill": Object {
+  "PauseFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Paypal": Object {
+  "Paypal": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Performance": Object {
+  "Performance": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PersonalComputer": Object {
+  "PersonalComputer": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Phone": Object {
+  "Phone": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PhoneFlip": Object {
+  "PhoneFlip": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PhoneHorizontal": Object {
+  "PhoneHorizontal": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PhoneVertical": Object {
+  "PhoneVertical": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PieChart": Object {
+  "PieChart": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PiedPiper": Object {
+  "PiedPiper": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Pin": Object {
+  "Pin": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Pinterest": Object {
+  "Pinterest": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Plan": Object {
+  "Plan": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Play": Object {
+  "Play": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PlayFill": Object {
+  "PlayFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Plug": Object {
+  "Plug": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Pocket": Object {
+  "Pocket": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Power": Object {
+  "Power": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PowerCycle": Object {
+  "PowerCycle": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PowerForceShutdown": Object {
+  "PowerForceShutdown": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PowerReset": Object {
+  "PowerReset": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PowerShutdown": Object {
+  "PowerShutdown": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Previous": Object {
+  "Previous": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Print": Object {
+  "Print": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ProductHunt": Object {
+  "ProductHunt": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Projects": Object {
+  "Projects": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Qr": Object {
+  "Qr": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Radial": Object {
+  "Radial": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "RadialSelected": Object {
+  "RadialSelected": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Raspberry": Object {
+  "Raspberry": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Reactjs": Object {
+  "Reactjs": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Reddit": Object {
+  "Reddit": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Redhat": Object {
+  "Redhat": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Redo": Object {
+  "Redo": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Refresh": Object {
+  "Refresh": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Resources": Object {
+  "Resources": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Restaurant": Object {
+  "Restaurant": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Restroom": Object {
+  "Restroom": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "RestroomMen": Object {
+  "RestroomMen": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "RestroomWomen": Object {
+  "RestroomWomen": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Resume": Object {
+  "Resume": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Return": Object {
+  "Return": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Revert": Object {
+  "Revert": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Rewind": Object {
+  "Rewind": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Risk": Object {
+  "Risk": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Robot": Object {
+  "Robot": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "RotateLeft": Object {
+  "RotateLeft": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "RotateRight": Object {
+  "RotateRight": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Rss": Object {
+  "Rss": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Run": Object {
+  "Run": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "SafariOption": Object {
+  "SafariOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Sans": Object {
+  "Sans": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Satellite": Object {
+  "Satellite": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Save": Object {
+  "Save": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Scan": Object {
+  "Scan": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Schedule": Object {
+  "Schedule": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ScheduleNew": Object {
+  "ScheduleNew": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "SchedulePlay": Object {
+  "SchedulePlay": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Schedules": Object {
+  "Schedules": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Sco": Object {
+  "Sco": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Scorecard": Object {
+  "Scorecard": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Script": Object {
+  "Script": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Sd": Object {
+  "Sd": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Search": Object {
+  "Search": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "SearchAdvanced": Object {
+  "SearchAdvanced": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Secure": Object {
+  "Secure": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Select": Object {
+  "Select": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Selection": Object {
+  "Selection": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Semantics": Object {
+  "Semantics": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Send": Object {
+  "Send": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Server": Object {
+  "Server": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ServerCluster": Object {
+  "ServerCluster": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Servers": Object {
+  "Servers": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ServicePlay": Object {
+  "ServicePlay": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Services": Object {
+  "Services": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "SettingsOption": Object {
+  "SettingsOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Share": Object {
+  "Share": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ShareOption": Object {
+  "ShareOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ShareRounded": Object {
+  "ShareRounded": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Shield": Object {
+  "Shield": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ShieldSecurity": Object {
+  "ShieldSecurity": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Shift": Object {
+  "Shift": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Shop": Object {
+  "Shop": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Sidebar": Object {
+  "Sidebar": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Sign": Object {
+  "Sign": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Skype": Object {
+  "Skype": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Slack": Object {
+  "Slack": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Snapchat": Object {
+  "Snapchat": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Solaris": Object {
+  "Solaris": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Sort": Object {
+  "Sort": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Soundcloud": Object {
+  "Soundcloud": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Spa": Object {
+  "Spa": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Spectrum": Object {
+  "Spectrum": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Split": Object {
+  "Split": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Splits": Object {
+  "Splits": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Spotify": Object {
+  "Spotify": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Square": Object {
+  "Square": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StackOverflow": Object {
+  "StackOverflow": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Stakeholder": Object {
+  "Stakeholder": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Star": Object {
+  "Star": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StarHalf": Object {
+  "StarHalf": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StarOutline": Object {
+  "StarOutline": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusCritical": Object {
+  "StatusCritical": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusCriticalSmall": Object {
+  "StatusCriticalSmall": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusDisabled": Object {
+  "StatusDisabled": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusDisabledSmall": Object {
+  "StatusDisabledSmall": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusGood": Object {
+  "StatusGood": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusGoodSmall": Object {
+  "StatusGoodSmall": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusInfo": Object {
+  "StatusInfo": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusInfoSmall": Object {
+  "StatusInfoSmall": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusPlaceholder": Object {
+  "StatusPlaceholder": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusPlaceholderSmall": Object {
+  "StatusPlaceholderSmall": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusUnknown": Object {
+  "StatusUnknown": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusUnknownSmall": Object {
+  "StatusUnknownSmall": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusWarning": Object {
+  "StatusWarning": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusWarningSmall": Object {
+  "StatusWarningSmall": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Steps": Object {
+  "Steps": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StepsOption": Object {
+  "StepsOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Stop": Object {
+  "Stop": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StopFill": Object {
+  "StopFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Storage": Object {
+  "Storage": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StreetView": Object {
+  "StreetView": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StrikeThrough": Object {
+  "StrikeThrough": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Stripe": Object {
+  "Stripe": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Subscript": Object {
+  "Subscript": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Subtract": Object {
+  "Subtract": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "SubtractCircle": Object {
+  "SubtractCircle": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Sun": Object {
+  "Sun": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Superscript": Object {
+  "Superscript": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Support": Object {
+  "Support": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Suse": Object {
+  "Suse": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Swift": Object {
+  "Swift": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Swim": Object {
+  "Swim": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Switch": Object {
+  "Switch": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Sync": Object {
+  "Sync": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "System": Object {
+  "System": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Table": Object {
+  "Table": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TableAdd": Object {
+  "TableAdd": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tag": Object {
+  "Tag": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tape": Object {
+  "Tape": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TapeOption": Object {
+  "TapeOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Target": Object {
+  "Target": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Task": Object {
+  "Task": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tasks": Object {
+  "Tasks": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Technology": Object {
+  "Technology": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Template": Object {
+  "Template": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Terminal": Object {
+  "Terminal": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Test": Object {
+  "Test": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TestDesktop": Object {
+  "TestDesktop": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TextAlignCenter": Object {
+  "TextAlignCenter": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TextAlignFull": Object {
+  "TextAlignFull": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TextAlignLeft": Object {
+  "TextAlignLeft": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TextAlignRight": Object {
+  "TextAlignRight": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TextWrap": Object {
+  "TextWrap": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Threats": Object {
+  "Threats": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ThreeD": Object {
+  "ThreeD": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ThreeDffects": Object {
+  "ThreeDffects": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Ticket": Object {
+  "Ticket": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tictok": Object {
+  "Tictok": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tiktok": Object {
+  "Tiktok": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Time": Object {
+  "Time": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tip": Object {
+  "Tip": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Toast": Object {
+  "Toast": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tools": Object {
+  "Tools": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tooltip": Object {
+  "Tooltip": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TopCorner": Object {
+  "TopCorner": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Train": Object {
+  "Train": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Transaction": Object {
+  "Transaction": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Trash": Object {
+  "Trash": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tree": Object {
+  "Tree": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TreeOption": Object {
+  "TreeOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Trigger": Object {
+  "Trigger": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Trophy": Object {
+  "Trophy": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Troubleshoot": Object {
+  "Troubleshoot": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tty": Object {
+  "Tty": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tumblr": Object {
+  "Tumblr": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Turbolinux": Object {
+  "Turbolinux": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Twitter": Object {
+  "Twitter": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Ubuntu": Object {
+  "Ubuntu": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Underline": Object {
+  "Underline": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Undo": Object {
+  "Undo": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Unlink": Object {
+  "Unlink": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Unlock": Object {
+  "Unlock": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "UnorderedList": Object {
+  "UnorderedList": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Unsorted": Object {
+  "Unsorted": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Up": Object {
+  "Up": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Update": Object {
+  "Update": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Upgrade": Object {
+  "Upgrade": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Upload": Object {
+  "Upload": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "UploadOption": Object {
+  "UploadOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "UsbKey": Object {
+  "UsbKey": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "User": Object {
+  "User": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "UserAdd": Object {
+  "UserAdd": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "UserAdmin": Object {
+  "UserAdmin": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "UserExpert": Object {
+  "UserExpert": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "UserFemale": Object {
+  "UserFemale": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "UserManager": Object {
+  "UserManager": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "UserNew": Object {
+  "UserNew": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "UserPolice": Object {
+  "UserPolice": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "UserSettings": Object {
+  "UserSettings": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "UserWorker": Object {
+  "UserWorker": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Validate": Object {
+  "Validate": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Vend": Object {
+  "Vend": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Video": Object {
+  "Video": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "View": Object {
+  "View": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Vimeo": Object {
+  "Vimeo": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "VirtualMachine": Object {
+  "VirtualMachine": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "VirtualStorage": Object {
+  "VirtualStorage": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Visa": Object {
+  "Visa": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "VmMaintenance": Object {
+  "VmMaintenance": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Vmware": Object {
+  "Vmware": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Volume": Object {
+  "Volume": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "VolumeControl": Object {
+  "VolumeControl": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "VolumeLow": Object {
+  "VolumeLow": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "VolumeMute": Object {
+  "VolumeMute": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Vulnerability": Object {
+  "Vulnerability": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Waypoint": Object {
+  "Waypoint": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Webcam": Object {
+  "Webcam": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Wheelchair": Object {
+  "Wheelchair": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "WheelchairActive": Object {
+  "WheelchairActive": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Wifi": Object {
+  "Wifi": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "WifiLow": Object {
+  "WifiLow": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "WifiMedium": Object {
+  "WifiMedium": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "WifiNone": Object {
+  "WifiNone": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Windows": Object {
+  "Windows": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "WindowsLegacy": Object {
+  "WindowsLegacy": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Wordpress": Object {
+  "Wordpress": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Workshop": Object {
+  "Workshop": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Yoga": Object {
+  "Yoga": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Youtube": Object {
+  "Youtube": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Zoom": Object {
+  "Zoom": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ZoomIn": Object {
+  "ZoomIn": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ZoomOut": Object {
+  "ZoomOut": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "__esModule": true,
-  "base": Object {
-    "global": Object {
-      "colors": Object {
+  "base": {
+    "global": {
+      "colors": {
         "icon": "#666666",
       },
     },
-    "icon": Object {
-      "size": Object {
+    "icon": {
+      "size": {
         "large": "48px",
         "medium": "24px",
         "small": "12px",
@@ -2503,15 +2503,15 @@ Object {
       },
     },
   },
-  "defaultProps": Object {
-    "theme": Object {
-      "global": Object {
-        "colors": Object {
+  "defaultProps": {
+    "theme": {
+      "global": {
+        "colors": {
           "icon": "#666666",
         },
       },
-      "icon": Object {
-        "size": Object {
+      "icon": {
+        "size": {
           "large": "48px",
           "medium": "24px",
           "small": "12px",

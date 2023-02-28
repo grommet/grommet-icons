@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { text } from '@storybook/addon-knobs';
+import { boolean as _boolean, text } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
 import * as Icons from './icons';
 var customTheme = {
@@ -21,21 +21,19 @@ var customTheme = {
 };
 storiesOf('Icon', module).add('Default', function () {
   var Icon = Icons[text('Icon', 'Accessibility')];
-
   if (!Icon) {
     return null;
   }
-
   return /*#__PURE__*/React.createElement(Icon, null);
 }).add('Color', function () {
   var Icon = Icons[text('Icon', 'Accessibility')];
-
   if (!Icon) {
     return null;
   }
-
+  var theme = JSON.parse(JSON.stringify(customTheme));
+  theme.icon.disableScaleDown = _boolean('disableScaleDown', false);
   return /*#__PURE__*/React.createElement(ThemeProvider, {
-    theme: customTheme
+    theme: theme
   }, /*#__PURE__*/React.createElement(Icon, {
     size: text('Size', 'xlarge'),
     color: text('Color', 'attention')
@@ -46,13 +44,13 @@ storiesOf('Icon', module).add('Default', function () {
   });
 }).add('Custom Theme', function () {
   var Icon = Icons[text('Icon', 'Accessibility')];
-
   if (!Icon) {
     return null;
   }
-
+  var theme = JSON.parse(JSON.stringify(customTheme));
+  theme.icon.disableScaleDown = _boolean('disableScaleDown', false);
   return /*#__PURE__*/React.createElement(ThemeProvider, {
-    theme: customTheme
+    theme: theme
   }, /*#__PURE__*/React.createElement(Icon, {
     size: text('Size', 'xlarge')
   }));

@@ -1,35 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`metadata 1`] = `
-Object {
-  "Accessibility": Array [
+{
+  "Accessibility": [
     "body",
     "disabled",
     "disability",
     "human",
     "person",
   ],
-  "Achievement": Array [
+  "Achievement": [
     "award",
     "medal",
     "prize",
     "trophy",
     "winner",
   ],
-  "Action": Array [
+  "Action": [
     "connect",
     "plug",
   ],
-  "Actions": Array [
+  "Actions": [
     "gear",
     "sun",
   ],
-  "Ad": Array [
+  "Ad": [
     "advertising",
     "marketing",
     "promotion",
   ],
-  "Add": Array [
+  "Add": [
     "create",
     "core",
     "increase",
@@ -37,14 +37,14 @@ Object {
     "new",
     "plus",
   ],
-  "AddCircle": Array [
+  "AddCircle": [
     "create",
     "increase",
     "increment",
     "new",
     "plus",
   ],
-  "Aed": Array [
+  "Aed": [
     "cpr",
     "defibrillator",
     "emergency",
@@ -52,14 +52,14 @@ Object {
     "medical",
     "shock",
   ],
-  "Aggregate": Array [
+  "Aggregate": [
     "add",
     "combination",
     "combine",
     "join",
     "merge",
   ],
-  "Aid": Array [
+  "Aid": [
     "briefcase",
     "care",
     "emergency",
@@ -68,7 +68,7 @@ Object {
     "health",
     "hospital",
   ],
-  "AidOption": Array [
+  "AidOption": [
     "briefcase",
     "care",
     "emergency",
@@ -77,7 +77,7 @@ Object {
     "health",
     "hospital",
   ],
-  "Alarm": Array [
+  "Alarm": [
     "alert",
     "alarmclock",
     "bell",
@@ -86,7 +86,7 @@ Object {
     "time",
     "timer",
   ],
-  "Alert": Array [
+  "Alert": [
     "alarm",
     "attention",
     "error",
@@ -94,14 +94,14 @@ Object {
     "important",
     "warning",
   ],
-  "Amazon": Array [
+  "Amazon": [
     "buy",
     "marketplace",
     "online",
     "shopping",
     "social",
   ],
-  "Amex": Array [
+  "Amex": [
     "atm",
     "card",
     "credit",
@@ -109,7 +109,7 @@ Object {
     "wallet",
     "social",
   ],
-  "Analytics": Array [
+  "Analytics": [
     "chart",
     "diagram",
     "dontusepies",
@@ -118,11 +118,11 @@ Object {
     "report",
     "statistics",
   ],
-  "Anchor": Array [
+  "Anchor": [
     "anchor",
     "link",
   ],
-  "Android": Array [
+  "Android": [
     "cyborg",
     "droid",
     "humanoid",
@@ -132,13 +132,13 @@ Object {
     "robot",
     "smartphone",
   ],
-  "Announce": Array [
+  "Announce": [
     "bullhorn",
     "loud",
     "speaker",
     "megaphone",
   ],
-  "Apple": Array [
+  "Apple": [
     "donglebook",
     "iphone",
     "imac",
@@ -146,7 +146,7 @@ Object {
     "mac",
     "macbook",
   ],
-  "AppleAppStore": Array [
+  "AppleAppStore": [
     "donglebook",
     "iphone",
     "imac",
@@ -155,16 +155,16 @@ Object {
     "macbook",
     "store",
   ],
-  "Apps": Array [
+  "Apps": [
     "grid",
     "menu",
   ],
-  "AppsRounded": Array [
+  "AppsRounded": [
     "core",
     "grid",
     "menu",
   ],
-  "Archive": Array [
+  "Archive": [
     "backup",
     "box",
     "container",
@@ -173,43 +173,43 @@ Object {
     "folder",
     "storage",
   ],
-  "Archlinux": Array [
+  "Archlinux": [
     "linux",
     "logo",
     "os",
   ],
-  "Article": Array [
+  "Article": [
     "blog",
     "news",
     "newspaper",
     "press",
   ],
-  "Aruba": Array [
+  "Aruba": [
     "hpe",
     "logo",
     "networks",
     "iot",
   ],
-  "Ascend": Array [
+  "Ascend": [
     "arrange",
     "arrows",
     "sort",
     "up",
   ],
-  "Ascending": Array [
+  "Ascending": [
     "arrange",
     "arrows",
     "sort",
     "up",
   ],
-  "AssistListening": Array [
+  "AssistListening": [
     "accessibility",
     "audio",
     "ear",
     "hear",
     "sound",
   ],
-  "Atm": Array [
+  "Atm": [
     "bank",
     "card",
     "credit",
@@ -217,27 +217,27 @@ Object {
     "finance",
     "money",
   ],
-  "Attachment": Array [
+  "Attachment": [
     "clip",
     "files",
     "paper",
     "paperclip",
   ],
-  "Attraction": Array [
+  "Attraction": [
     "amusement",
     "carnival",
     "circus",
     "festival",
     "tent",
   ],
-  "Baby": Array [
+  "Baby": [
     "child",
     "diaper",
     "kid",
     "newborn",
     "person",
   ],
-  "BackTen": Array [
+  "BackTen": [
     "arrows",
     "backward",
     "rewind",
@@ -245,39 +245,39 @@ Object {
     "seconds",
     "skip",
   ],
-  "Bar": Array [
+  "Bar": [
     "beer",
     "cocktail",
     "drink",
     "glass",
     "party",
   ],
-  "BarChart": Array [
+  "BarChart": [
     "analytics",
     "business",
     "chart",
     "graph",
     "diagram",
   ],
-  "Basket": Array [
+  "Basket": [
     "buy",
     "carton",
     "checkout",
     "picnic",
     "shopping",
   ],
-  "Beacon": Array [
+  "Beacon": [
     "direction",
     "guidance",
     "technology",
   ],
-  "Bike": Array [
+  "Bike": [
     "bicycle",
     "cycle",
     "sport",
     "transportation",
   ],
-  "Bitcoin": Array [
+  "Bitcoin": [
     "coin",
     "currency",
     "finance",
@@ -286,83 +286,83 @@ Object {
     "money",
     "wallet",
   ],
-  "BladesHorizontal": Array [
+  "BladesHorizontal": [
     "technology",
   ],
-  "BladesVertical": Array [
+  "BladesVertical": [
     "technology",
   ],
-  "BlockQuote": Array [
+  "BlockQuote": [
     "formatting",
     "text",
     "editor",
   ],
-  "Blog": Array [
+  "Blog": [
     "article",
     "news",
     "feed",
     "web",
   ],
-  "Bluetooth": Array [
+  "Bluetooth": [
     "wire",
     "wireless",
     "hardware",
   ],
-  "Bold": Array [
+  "Bold": [
     "formatting",
     "text",
     "editor",
   ],
-  "Book": Array [
+  "Book": [
     "education",
     "learning",
     "reading",
     "study",
   ],
-  "Bookmark": Array [
+  "Bookmark": [
     "document",
   ],
-  "BottomCorner": Array [
+  "BottomCorner": [
     "arrows",
     "right",
   ],
-  "Braille": Array [
+  "Braille": [
     "accessibility",
     "blind",
   ],
-  "Briefcase": Array [
+  "Briefcase": [
     "luggage",
     "travel",
   ],
-  "Brush": Array [
+  "Brush": [
     "tools",
     "paint",
   ],
-  "Bucket": Array [
+  "Bucket": [
     "container",
     "storage",
   ],
-  "Bug": Array [
+  "Bug": [
     "fixing",
     "insect",
     "repair",
     "virus",
   ],
-  "Bundle": Array [
+  "Bundle": [
     "money",
     "stack",
   ],
-  "Bus": Array [
+  "Bus": [
     "directions",
     "transportation",
     "travel",
     "vehicle",
   ],
-  "BusinessService": Array [
+  "BusinessService": [
     "briefcase",
     "services",
   ],
-  "Cafeteria": Array [
+  "Cafeteria": [
     "cafe",
     "dining",
     "food",
@@ -372,12 +372,12 @@ Object {
     "silverware",
     "spoon",
   ],
-  "Calculator": Array [
+  "Calculator": [
     "adding machine",
     "accounting",
     "math",
   ],
-  "Calendar": Array [
+  "Calendar": [
     "iappointment",
     "date",
     "day",
@@ -386,7 +386,7 @@ Object {
     "schedule",
     "month",
   ],
-  "Camera": Array [
+  "Camera": [
     "image",
     "lens",
     "photos",
@@ -394,23 +394,23 @@ Object {
     "picture",
     "shot",
   ],
-  "Capacity": Array [
+  "Capacity": [
     "bars",
   ],
-  "Car": Array [
+  "Car": [
     "auto",
     "directions",
     "transportation",
     "vehicle",
   ],
-  "CaretDown": Array [
+  "CaretDown": [
     "arrows",
     "core",
     "direction",
     "down",
     "expand",
   ],
-  "CaretDownFill": Array [
+  "CaretDownFill": [
     "arrows",
     "core",
     "direction",
@@ -418,7 +418,7 @@ Object {
     "expand",
     "fill",
   ],
-  "CaretLeftFill": Array [
+  "CaretLeftFill": [
     "arrows",
     "core",
     "direction",
@@ -426,21 +426,21 @@ Object {
     "expand",
     "fill",
   ],
-  "CaretNext": Array [
+  "CaretNext": [
     "arrows",
     "core",
     "direction",
     "forward",
     "right",
   ],
-  "CaretPrevious": Array [
+  "CaretPrevious": [
     "arrows",
     "core",
     "direction",
     "rewind",
     "left",
   ],
-  "CaretRightFill": Array [
+  "CaretRightFill": [
     "arrows",
     "core",
     "direction",
@@ -448,14 +448,14 @@ Object {
     "expand",
     "fill",
   ],
-  "CaretUp": Array [
+  "CaretUp": [
     "arrows",
     "collapse",
     "core",
     "direction",
     "up",
   ],
-  "CaretUpFill": Array [
+  "CaretUpFill": [
     "arrows",
     "collapse",
     "core",
@@ -463,57 +463,57 @@ Object {
     "fill",
     "up",
   ],
-  "Cart": Array [
+  "Cart": [
     "buy",
     "checkout",
     "ecommerce",
     "shopping",
   ],
-  "Catalog": Array [
+  "Catalog": [
     "catalogue",
     "book",
     "directory",
     "document",
     "index",
   ],
-  "CatalogOption": Array [
+  "CatalogOption": [
     "catalogue",
     "book",
     "directory",
     "document",
     "index",
   ],
-  "Centos": Array [
+  "Centos": [
     "linux",
     "logo",
     "os",
   ],
-  "Certificate": Array [
+  "Certificate": [
     "license",
     "miscellaneous",
   ],
-  "Channel": Array [
+  "Channel": [
     "communications",
     "media",
     "network",
     "tv",
     "television",
   ],
-  "ChapterAdd": Array [
+  "ChapterAdd": [
     "add",
     "create",
     "new",
     "plus",
   ],
-  "ChapterNext": Array [
+  "ChapterNext": [
     "arrows",
     "forward",
   ],
-  "ChapterPrevious": Array [
+  "ChapterPrevious": [
     "arrows",
     "backward",
   ],
-  "Chat": Array [
+  "Chat": [
     "bubble",
     "conversation",
     "communication",
@@ -523,7 +523,7 @@ Object {
     "talk",
     "support",
   ],
-  "ChatOption": Array [
+  "ChatOption": [
     "bubble",
     "conversation",
     "communication",
@@ -533,15 +533,15 @@ Object {
     "talk",
     "support",
   ],
-  "Checkbox": Array [
+  "Checkbox": [
     "mark",
     "tick",
   ],
-  "CheckboxSelected": Array [
+  "CheckboxSelected": [
     "mark",
     "tick",
   ],
-  "Checkmark": Array [
+  "Checkmark": [
     "accept",
     "agree",
     "core",
@@ -549,54 +549,54 @@ Object {
     "good",
     "ok",
   ],
-  "Chrome": Array [
+  "Chrome": [
     "browser",
     "google",
     "logo",
     "web",
   ],
-  "CircleAlert": Array [
+  "CircleAlert": [
     "alert",
     "status",
     "validation",
   ],
-  "CircleInformation": Array [
+  "CircleInformation": [
     "document",
     "faq",
     "help",
     "hint",
     "info",
   ],
-  "CirclePlay": Array [
+  "CirclePlay": [
     "music",
     "video",
   ],
-  "CircleQuestion": Array [
+  "CircleQuestion": [
     "faq",
     "help",
     "support",
   ],
-  "Clear": Array [
+  "Clear": [
     "forbidden",
     "no",
     "prohibited",
     "stop",
   ],
-  "ClearOption": Array [
+  "ClearOption": [
     "paintbrush",
   ],
-  "Cli": Array [
+  "Cli": [
     "dos",
     "line",
     "command",
     "console",
   ],
-  "Clipboard": Array [
+  "Clipboard": [
     "document",
     "list",
     "report",
   ],
-  "Clock": Array [
+  "Clock": [
     "core",
     "date",
     "hands",
@@ -605,12 +605,12 @@ Object {
     "timer",
     "watch",
   ],
-  "Clone": Array [
+  "Clone": [
     "copy",
     "duplicate",
     "layers",
   ],
-  "Close": Array [
+  "Close": [
     "cancel",
     "core",
     "delete",
@@ -619,37 +619,37 @@ Object {
     "remove",
     "trash",
   ],
-  "ClosedCaption": Array [
+  "ClosedCaption": [
     "accessibility",
   ],
-  "Cloud": Array [
+  "Cloud": [
     "computing",
     "data",
     "network",
     "storage",
     "weather",
   ],
-  "CloudComputer": Array [
+  "CloudComputer": [
     "computing",
     "data",
     "network",
     "storage",
   ],
-  "CloudDownload": Array [
+  "CloudDownload": [
     "arrows",
     "computing",
     "data",
     "network",
     "storage",
   ],
-  "CloudSoftware": Array [
+  "CloudSoftware": [
     "application",
     "computing",
     "data",
     "network",
     "storage",
   ],
-  "CloudUpload": Array [
+  "CloudUpload": [
     "arrows",
     "backup",
     "computing",
@@ -659,29 +659,29 @@ Object {
     "save",
     "storage",
   ],
-  "Cloudlinux": Array [
+  "Cloudlinux": [
     "hosting",
     "logo",
     "os",
   ],
-  "Cluster": Array [
+  "Cluster": [
     "interconnect",
     "map",
     "network",
   ],
-  "CoatCheck": Array [
+  "CoatCheck": [
     "clothes",
     "hanger",
     "hotel",
   ],
-  "Code": Array [
+  "Code": [
     "application",
     "coding",
     "development",
     "programming",
     "web",
   ],
-  "Codepen": Array [
+  "Codepen": [
     "codepen.io",
     "code",
     "demo",
@@ -691,7 +691,7 @@ Object {
     "social",
     "tool",
   ],
-  "Codesandbox": Array [
+  "Codesandbox": [
     "sandbox",
     "code",
     "demo",
@@ -701,25 +701,25 @@ Object {
     "social",
     "tool",
   ],
-  "Coffee": Array [
+  "Coffee": [
     "bean",
     "caffeine",
     "goodstuff",
     "java",
   ],
-  "Columns": Array [
+  "Columns": [
     "chart",
     "graph",
     "layout",
     "table",
   ],
-  "Command": Array [
+  "Command": [
     "cli",
     "line",
     "console",
     "code",
   ],
-  "Compare": Array [
+  "Compare": [
     "ab",
     "a/b",
     "analytics",
@@ -727,20 +727,20 @@ Object {
     "testing",
     "variations",
   ],
-  "Compass": Array [
+  "Compass": [
     "direction",
     "location",
     "map",
     "navigation",
     "tools",
   ],
-  "Compliance": Array [
+  "Compliance": [
     "checklist",
     "clipboard",
     "mark",
     "protection",
   ],
-  "Configure": Array [
+  "Configure": [
     "core",
     "preferences",
     "setting",
@@ -748,51 +748,51 @@ Object {
     "tools",
     "wrench",
   ],
-  "Connect": Array [
+  "Connect": [
     "network",
     "plug",
   ],
-  "Connectivity": Array [
+  "Connectivity": [
     "network",
     "plug",
   ],
-  "Console": Array [
+  "Console": [
     "core",
     "debug",
     "log",
   ],
-  "Contact": Array [
+  "Contact": [
     "bubble",
     "ellipses",
   ],
-  "ContactInfo": Array [
+  "ContactInfo": [
     "avatar",
     "icommunication",
     "phone",
     "profile",
   ],
-  "Contract": Array [
+  "Contract": [
     "arrows",
     "exit fullscreen",
     "minimize",
   ],
-  "Copy": Array [
+  "Copy": [
     "documents",
     "duplicate",
     "files",
     "paste",
   ],
-  "Cpu": Array [
+  "Cpu": [
     "technology",
     "processor",
     "unit",
   ],
-  "CreativeCommons": Array [
+  "CreativeCommons": [
     "creative commons",
     "license",
     "social",
   ],
-  "CreditCard": Array [
+  "CreditCard": [
     "amex",
     "atm",
     "debit",
@@ -800,135 +800,135 @@ Object {
     "visa",
     "wallet",
   ],
-  "Css3": Array [
+  "Css3": [
     "code",
     "coding",
     "logo",
     "stylesheet",
   ],
-  "Cube": Array [
+  "Cube": [
     "3d",
     "box",
     "container",
     "database",
     "package",
   ],
-  "Cubes": Array [
+  "Cubes": [
     "3d",
     "box",
     "container",
     "database",
     "package",
   ],
-  "Currency": Array [
+  "Currency": [
     "cash",
     "dollar",
     "finance",
     "payment",
     "money",
   ],
-  "Cursor": Array [
+  "Cursor": [
     "arrows",
     "click",
     "mouse",
     "pointer",
   ],
-  "Cut": Array [
+  "Cut": [
     "scissors",
     "tools",
   ],
-  "Cycle": Array [
+  "Cycle": [
     "arrows",
     "recycle",
     "refresh",
     "repeat",
   ],
-  "Dashboard": Array [
+  "Dashboard": [
     "gauge",
     "speedometer",
   ],
-  "Database": Array [
+  "Database": [
     "rack",
     "server",
     "storage",
   ],
-  "Debian": Array [
+  "Debian": [
     "logo",
     "os",
   ],
-  "Deliver": Array [
+  "Deliver": [
     "delivery",
     "shipping",
     "transportation",
     "truck",
   ],
-  "Deploy": Array [
+  "Deploy": [
     "rocket",
     "spaceship",
   ],
-  "Descend": Array [
+  "Descend": [
     "arrows",
     "downward",
     "sort",
   ],
-  "Descending": Array [
+  "Descending": [
     "arrows",
     "down",
     "downward",
     "sort",
   ],
-  "Desktop": Array [
+  "Desktop": [
     "computer",
     "display",
     "monitor",
     "pc",
     "screen",
   ],
-  "Detach": Array [
+  "Detach": [
     "cut",
     "paperclip",
     "remove",
   ],
-  "Device": Array [
+  "Device": [
     "iot",
     "technology",
     "tv",
   ],
-  "Diamond": Array [
+  "Diamond": [
     "gem",
     "jewelry",
     "stone",
   ],
-  "Directions": Array [
+  "Directions": [
     "arrows",
     "location",
     "navigation",
   ],
-  "DisabledOutline": Array [
+  "DisabledOutline": [
     "status",
   ],
-  "Disc": Array [
+  "Disc": [
     "cd",
     "disk",
   ],
-  "Dislike": Array [
+  "Dislike": [
     "thumbs",
     "down",
     "like",
   ],
-  "DislikeFill": Array [
+  "DislikeFill": [
     "thumbs",
     "down",
     "like",
   ],
-  "Docker": Array [
+  "Docker": [
     "app",
     "container",
     "logo",
     "media",
     "social",
   ],
-  "Document": Array [
+  "Document": [
     "core",
     "files",
     "format",
@@ -936,21 +936,21 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentCloud": Array [
+  "DocumentCloud": [
     "cloud",
     "files",
     "folder",
     "page",
     "paper",
   ],
-  "DocumentConfig": Array [
+  "DocumentConfig": [
     "files",
     "folder",
     "gear",
     "page",
     "paper",
   ],
-  "DocumentCsv": Array [
+  "DocumentCsv": [
     "extension",
     "files",
     "format",
@@ -958,7 +958,7 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentDownload": Array [
+  "DocumentDownload": [
     "arrows",
     "files",
     "import",
@@ -967,7 +967,7 @@ Object {
     "paper",
     "receive",
   ],
-  "DocumentExcel": Array [
+  "DocumentExcel": [
     "extension",
     "files",
     "format",
@@ -978,7 +978,7 @@ Object {
     "paper",
     "xls",
   ],
-  "DocumentImage": Array [
+  "DocumentImage": [
     "files",
     "folder",
     "page",
@@ -987,7 +987,7 @@ Object {
     "photos",
     "picture",
   ],
-  "DocumentLocked": Array [
+  "DocumentLocked": [
     "files",
     "folder",
     "page",
@@ -996,7 +996,7 @@ Object {
     "secure",
     "security",
   ],
-  "DocumentMissing": Array [
+  "DocumentMissing": [
     "delete",
     "error",
     "files",
@@ -1005,14 +1005,14 @@ Object {
     "paper",
     "remove",
   ],
-  "DocumentNotes": Array [
+  "DocumentNotes": [
     "extension",
     "files",
     "folder",
     "page",
     "paper",
   ],
-  "DocumentOutlook": Array [
+  "DocumentOutlook": [
     "extension",
     "files",
     "folder",
@@ -1021,7 +1021,7 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentPdf": Array [
+  "DocumentPdf": [
     "extension",
     "files",
     "folder",
@@ -1029,7 +1029,7 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentPerformance": Array [
+  "DocumentPerformance": [
     "arrows",
     "files",
     "folder",
@@ -1037,7 +1037,7 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentPpt": Array [
+  "DocumentPpt": [
     "extension",
     "files",
     "folder",
@@ -1047,7 +1047,7 @@ Object {
     "paper",
     "powerpoint",
   ],
-  "DocumentRtf": Array [
+  "DocumentRtf": [
     "extension",
     "files",
     "folder",
@@ -1055,7 +1055,7 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentSound": Array [
+  "DocumentSound": [
     "audio",
     "files",
     "folder",
@@ -1063,14 +1063,14 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentStore": Array [
+  "DocumentStore": [
     "data",
     "files",
     "folder",
     "page",
     "paper",
   ],
-  "DocumentTest": Array [
+  "DocumentTest": [
     "biology",
     "chemistry",
     "files",
@@ -1081,7 +1081,7 @@ Object {
     "research",
     "science",
   ],
-  "DocumentText": Array [
+  "DocumentText": [
     "extension",
     "files",
     "folder",
@@ -1089,7 +1089,7 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentThreat": Array [
+  "DocumentThreat": [
     "bomb",
     "danger",
     "files",
@@ -1099,7 +1099,7 @@ Object {
     "paper",
     "virus",
   ],
-  "DocumentTime": Array [
+  "DocumentTime": [
     "alarm",
     "clock",
     "event",
@@ -1109,14 +1109,14 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentTransfer": Array [
+  "DocumentTransfer": [
     "arrows",
     "files",
     "folder",
     "page",
     "paper",
   ],
-  "DocumentTxt": Array [
+  "DocumentTxt": [
     "extension",
     "files",
     "folder",
@@ -1124,7 +1124,7 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentUpdate": Array [
+  "DocumentUpdate": [
     "arrows",
     "files",
     "folder",
@@ -1132,7 +1132,7 @@ Object {
     "paper",
     "refresh",
   ],
-  "DocumentUpload": Array [
+  "DocumentUpload": [
     "arrows",
     "files",
     "import",
@@ -1141,7 +1141,7 @@ Object {
     "paper",
     "send",
   ],
-  "DocumentUser": Array [
+  "DocumentUser": [
     "account",
     "avatar",
     "files",
@@ -1151,7 +1151,7 @@ Object {
     "person",
     "profile",
   ],
-  "DocumentVerified": Array [
+  "DocumentVerified": [
     "check",
     "files",
     "folder",
@@ -1159,7 +1159,7 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentVideo": Array [
+  "DocumentVideo": [
     "camera",
     "files",
     "folder",
@@ -1167,7 +1167,7 @@ Object {
     "paper",
     "video",
   ],
-  "DocumentWindows": Array [
+  "DocumentWindows": [
     "executable",
     "extension",
     "files",
@@ -1175,7 +1175,7 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentWord": Array [
+  "DocumentWord": [
     "extension",
     "files",
     "folder",
@@ -1184,7 +1184,7 @@ Object {
     "page",
     "paper",
   ],
-  "DocumentZip": Array [
+  "DocumentZip": [
     "compressed",
     "extension",
     "files",
@@ -1193,24 +1193,24 @@ Object {
     "page",
     "paper",
   ],
-  "Domain": Array [
+  "Domain": [
     "internet",
     "website",
     "www",
   ],
-  "Dos": Array [
+  "Dos": [
     "command",
     "code",
     "files",
     "os",
   ],
-  "Down": Array [
+  "Down": [
     "arrows",
     "expand",
     "direction",
     "drop",
   ],
-  "Download": Array [
+  "Download": [
     "arrows",
     "cloud",
     "core",
@@ -1219,7 +1219,7 @@ Object {
     "navigation",
     "receive",
   ],
-  "DownloadOption": Array [
+  "DownloadOption": [
     "arrows",
     "cloud",
     "core",
@@ -1228,25 +1228,25 @@ Object {
     "navigation",
     "receive",
   ],
-  "Drag": Array [
+  "Drag": [
     "drop",
   ],
-  "Drawer": Array [
+  "Drawer": [
     "open",
   ],
-  "Dribbble": Array [
+  "Dribbble": [
     "designer",
     "logo",
     "networking",
     "social",
   ],
-  "DriveCage": Array [
+  "DriveCage": [
     "data",
     "disk",
     "rack",
     "storage",
   ],
-  "Dropbox": Array [
+  "Dropbox": [
     "box",
     "cloud",
     "logo",
@@ -1254,28 +1254,28 @@ Object {
     "share",
     "social",
   ],
-  "Duplicate": Array [
+  "Duplicate": [
     "add",
     "copy",
   ],
-  "Dxc": Array [
+  "Dxc": [
     "awesome",
     "logo",
   ],
-  "Ebay": Array [
+  "Ebay": [
     "buy",
     "marketplace",
     "online",
     "shopping",
     "social",
   ],
-  "Edge": Array [
+  "Edge": [
     "browser",
     "logo",
     "microsoft",
     "web",
   ],
-  "Edit": Array [
+  "Edit": [
     "change",
     "core",
     "draw",
@@ -1284,35 +1284,35 @@ Object {
     "pencil",
     "write",
   ],
-  "Eject": Array [
+  "Eject": [
     "media",
     "player",
   ],
-  "Elevator": Array [
+  "Elevator": [
     "down",
     "lift",
     "up",
     "transportation",
   ],
-  "Emergency": Array [
+  "Emergency": [
     "alert",
     "asterisk",
   ],
-  "Emoji": Array [
+  "Emoji": [
     "emoticon",
     "reaction",
     "comment",
   ],
-  "EmptyCircle": Array [
+  "EmptyCircle": [
     "chart",
     "donut",
   ],
-  "Erase": Array [
+  "Erase": [
     "delete",
     "eraser",
     "remove",
   ],
-  "Escalator": Array [
+  "Escalator": [
     "stairs",
     "staircase",
     "moving",
@@ -1320,120 +1320,120 @@ Object {
     "person",
     "up",
   ],
-  "Expand": Array [
+  "Expand": [
     "arrows",
     "direction",
     "maximize",
     "full",
     "screen",
   ],
-  "Ezmeral": Array [
+  "Ezmeral": [
     "hpe",
     "platform",
   ],
-  "Facebook": Array [
+  "Facebook": [
     "share",
     "logo",
     "media",
     "network",
     "social",
   ],
-  "FacebookOption": Array [
+  "FacebookOption": [
     "share",
     "logo",
     "media",
     "network",
     "social",
   ],
-  "Fan": Array [
+  "Fan": [
     "air",
     "cooling",
     "ventilator",
   ],
-  "FanOption": Array [
+  "FanOption": [
     "air",
     "cooling",
     "ventilator",
   ],
-  "FastForward": Array [
+  "FastForward": [
     "arrows",
     "next",
     "player",
     "right",
   ],
-  "Favorite": Array [
+  "Favorite": [
     "heart",
     "like",
     "favorite",
   ],
-  "Fedora": Array [
+  "Fedora": [
     "logo",
     "os",
   ],
-  "Figma": Array [
+  "Figma": [
     "designer",
     "logo",
     "tool",
   ],
-  "Filter": Array [
+  "Filter": [
     "core",
     "funnel",
     "refine",
     "sort",
     "triage",
   ],
-  "FingerPrint": Array [
+  "FingerPrint": [
     "security",
     "biometric",
     "scan",
   ],
-  "Fireball": Array [
+  "Fireball": [
     "star",
   ],
-  "Firefox": Array [
+  "Firefox": [
     "browser",
     "logo",
     "web",
   ],
-  "Firewall": Array [
+  "Firewall": [
     "cyber",
     "protect",
     "web",
   ],
-  "Flag": Array [
+  "Flag": [
     "core",
     "nation",
     "warn",
     "warning",
   ],
-  "FlagFill": Array [
+  "FlagFill": [
     "core",
     "nation",
     "warn",
     "warning",
     "fill",
   ],
-  "Flows": Array [
+  "Flows": [
     "core",
   ],
-  "Folder": Array [
+  "Folder": [
     "documents",
     "data",
     "files",
   ],
-  "FolderCycle": Array [
+  "FolderCycle": [
     "documents",
     "data",
     "files",
     "recycle",
     "refresh",
   ],
-  "FolderOpen": Array [
+  "FolderOpen": [
     "documents",
     "data",
     "files",
   ],
-  "FormAdd": Array [
+  "FormAdd": [
     "create",
     "form",
     "increase",
@@ -1441,7 +1441,7 @@ Object {
     "new",
     "plus",
   ],
-  "FormAttachment": Array [
+  "FormAttachment": [
     "attachment",
     "attach",
     "clip",
@@ -1450,7 +1450,7 @@ Object {
     "paper",
     "upload",
   ],
-  "FormCalendar": Array [
+  "FormCalendar": [
     "date",
     "day",
     "event",
@@ -1459,7 +1459,7 @@ Object {
     "schedule",
     "year",
   ],
-  "FormCheckmark": Array [
+  "FormCheckmark": [
     "accept",
     "agree",
     "done",
@@ -1467,7 +1467,7 @@ Object {
     "good",
     "ok",
   ],
-  "FormClock": Array [
+  "FormClock": [
     "alarm",
     "form",
     "hour",
@@ -1477,7 +1477,7 @@ Object {
     "timer",
     "watch",
   ],
-  "FormClose": Array [
+  "FormClose": [
     "cancel",
     "close",
     "delete",
@@ -1487,12 +1487,12 @@ Object {
     "remove",
     "trash",
   ],
-  "FormCut": Array [
+  "FormCut": [
     "scissors",
     "form",
     "tools",
   ],
-  "FormDown": Array [
+  "FormDown": [
     "arrows",
     "direction",
     "form",
@@ -1500,7 +1500,7 @@ Object {
     "expand",
     "up",
   ],
-  "FormEdit": Array [
+  "FormEdit": [
     "form",
     "edit",
     "change",
@@ -1510,20 +1510,20 @@ Object {
     "pencil",
     "write",
   ],
-  "FormFilter": Array [
+  "FormFilter": [
     "form",
     "funnel",
     "refine",
     "sort",
     "triage",
   ],
-  "FormFolder": Array [
+  "FormFolder": [
     "files",
     "document",
     "form",
     "organize",
   ],
-  "FormLocation": Array [
+  "FormLocation": [
     "directions",
     "form",
     "gps",
@@ -1531,7 +1531,7 @@ Object {
     "navigation",
     "pin",
   ],
-  "FormLock": Array [
+  "FormLock": [
     "close",
     "form",
     "locker",
@@ -1541,7 +1541,7 @@ Object {
     "secure",
     "security",
   ],
-  "FormNext": Array [
+  "FormNext": [
     "arrows",
     "direction",
     "form",
@@ -1549,7 +1549,7 @@ Object {
     "next",
     "right",
   ],
-  "FormNextLink": Array [
+  "FormNextLink": [
     "arrows",
     "direction",
     "form",
@@ -1557,7 +1557,7 @@ Object {
     "next",
     "right",
   ],
-  "FormPin": Array [
+  "FormPin": [
     "form",
     "gps",
     "location",
@@ -1566,7 +1566,7 @@ Object {
     "pin",
     "tack",
   ],
-  "FormPrevious": Array [
+  "FormPrevious": [
     "arrows",
     "back",
     "backward",
@@ -1575,7 +1575,7 @@ Object {
     "left",
     "return",
   ],
-  "FormPreviousLink": Array [
+  "FormPreviousLink": [
     "arrows",
     "back",
     "backward",
@@ -1584,7 +1584,7 @@ Object {
     "left",
     "return",
   ],
-  "FormRefresh": Array [
+  "FormRefresh": [
     "arrows",
     "form",
     "pull",
@@ -1592,7 +1592,7 @@ Object {
     "sync",
     "update",
   ],
-  "FormSchedule": Array [
+  "FormSchedule": [
     "appointment",
     "calendar",
     "date",
@@ -1601,14 +1601,14 @@ Object {
     "meeting",
     "time",
   ],
-  "FormSearch": Array [
+  "FormSearch": [
     "find",
     "form",
     "lookup",
     "magnifier",
     "search",
   ],
-  "FormSubtract": Array [
+  "FormSubtract": [
     "decrement",
     "delete",
     "form",
@@ -1616,7 +1616,7 @@ Object {
     "reduce",
     "remove",
   ],
-  "FormTrash": Array [
+  "FormTrash": [
     "bin",
     "clear",
     "core",
@@ -1626,14 +1626,14 @@ Object {
     "garbage",
     "remove",
   ],
-  "FormUp": Array [
+  "FormUp": [
     "arrows",
     "direction",
     "collapse",
     "form",
     "up",
   ],
-  "FormUpload": Array [
+  "FormUpload": [
     "arrows",
     "attach",
     "attachment",
@@ -1643,59 +1643,59 @@ Object {
     "form",
     "send",
   ],
-  "FormView": Array [
+  "FormView": [
     "eye",
     "form",
     "open",
   ],
-  "FormViewHide": Array [
+  "FormViewHide": [
     "close",
     "eye",
     "form",
   ],
-  "ForwardTen": Array [
+  "ForwardTen": [
     "arrows",
     "seconds",
     "player",
     "skip",
   ],
-  "Freebsd": Array [
+  "Freebsd": [
     "logo",
     "os",
     "unix",
   ],
-  "Gallery": Array [
+  "Gallery": [
     "image",
     "pictures",
     "photography",
     "photos",
   ],
-  "Gamepad": Array [
+  "Gamepad": [
     "joystick",
     "play",
     "sports",
   ],
-  "Gateway": Array [
+  "Gateway": [
     "network",
     "technology",
   ],
-  "Gatsbyjs": Array [
+  "Gatsbyjs": [
     "code",
     "gatsby",
     "logo",
     "opensource",
   ],
-  "Gem": Array [
+  "Gem": [
     "miscellaneous",
     "shape",
   ],
-  "Gift": Array [
+  "Gift": [
     "birthday",
     "box",
     "christmas",
     "present",
   ],
-  "Github": Array [
+  "Github": [
     "code",
     "demo",
     "logo",
@@ -1704,23 +1704,23 @@ Object {
     "social",
     "opensource",
   ],
-  "Globe": Array [
+  "Globe": [
     "earth",
     "global",
     "internet",
     "planet",
     "world",
   ],
-  "Golang": Array [
+  "Golang": [
     "code",
     "google",
     "logo",
   ],
-  "Google": Array [
+  "Google": [
     "logo",
     "search",
   ],
-  "GooglePlay": Array [
+  "GooglePlay": [
     "google",
     "logo",
     "media",
@@ -1729,14 +1729,14 @@ Object {
     "social",
     "store",
   ],
-  "GooglePlus": Array [
+  "GooglePlus": [
     "google",
     "logo",
     "media",
     "share",
     "social",
   ],
-  "GoogleWallet": Array [
+  "GoogleWallet": [
     "google",
     "logo",
     "media",
@@ -1746,7 +1746,7 @@ Object {
     "transaction",
     "wallet",
   ],
-  "GraphQl": Array [
+  "GraphQl": [
     "data",
     "facebook",
     "graph",
@@ -1754,46 +1754,46 @@ Object {
     "opensource",
     "query",
   ],
-  "Gremlin": Array [
+  "Gremlin": [
     "awesome",
     "grommet",
   ],
-  "Grid": Array [
+  "Grid": [
     "line",
     "layout",
   ],
-  "Grommet": Array [
+  "Grommet": [
     "awesome",
     "logo",
   ],
-  "Group": Array [
+  "Group": [
     "people",
     "team",
     "person",
     "users",
   ],
-  "Grow": Array [
+  "Grow": [
     "growth",
     "plant",
   ],
-  "Hadoop": Array [
+  "Hadoop": [
     "big",
     "database",
     "logo",
   ],
-  "Halt": Array [
+  "Halt": [
     "hand",
     "sign",
     "stop",
   ],
-  "Help": Array [
+  "Help": [
     "hint",
     "information",
     "service",
     "support",
     "question",
   ],
-  "HelpOption": Array [
+  "HelpOption": [
     "core",
     "help",
     "hint",
@@ -1802,47 +1802,47 @@ Object {
     "support",
     "question",
   ],
-  "Heroku": Array [
+  "Heroku": [
     "cloud",
     "deployment",
     "logo",
     "paas",
   ],
-  "Hide": Array [
+  "Hide": [
     "eye",
     "form",
     "close",
   ],
-  "History": Array [
+  "History": [
     "backup",
     "clock",
     "hands",
     "timer",
     "schedule",
   ],
-  "Home": Array [
+  "Home": [
     "building",
     "estate",
     "house",
     "real",
   ],
-  "HomeOption": Array [
+  "HomeOption": [
     "core",
     "home",
   ],
-  "HomeRounded": Array [
+  "HomeRounded": [
     "home",
     "house",
     "building",
     "estate",
     "real",
   ],
-  "Horton": Array [
+  "Horton": [
     "big",
     "data",
     "logo",
   ],
-  "Host": Array [
+  "Host": [
     "computer",
     "database",
     "hosting",
@@ -1850,7 +1850,7 @@ Object {
     "rack",
     "server",
   ],
-  "HostMaintenance": Array [
+  "HostMaintenance": [
     "hosting",
     "rack",
     "server",
@@ -1858,13 +1858,13 @@ Object {
     "settings",
     "repair",
   ],
-  "Hp": Array [
+  "Hp": [
     "awesome",
     "hewlett",
     "logo",
     "packard",
   ],
-  "Hpe": Array [
+  "Hpe": [
     "awesome",
     "enterprise",
     "hewlett",
@@ -1872,54 +1872,54 @@ Object {
     "logo",
     "packard",
   ],
-  "HpeLabs": Array [
+  "HpeLabs": [
     "awesome",
     "enterprise",
     "hewlett",
     "logo",
     "packard",
   ],
-  "Hpi": Array [
+  "Hpi": [
     "awesome",
     "hewlett",
     "logo",
     "packard",
   ],
-  "Html5": Array [
+  "Html5": [
     "code",
     "coding",
     "web",
   ],
-  "IceCream": Array [
+  "IceCream": [
     "dessert",
     "food",
   ],
-  "Image": Array [
+  "Image": [
     "photography",
     "photos",
     "picture",
   ],
-  "Impact": Array [
+  "Impact": [
     "crash",
     "explode",
   ],
-  "InProgress": Array [
+  "InProgress": [
     "clock",
     "hourglass",
     "timer",
   ],
-  "Inbox": Array [
+  "Inbox": [
     "email",
     "messages",
     "letter",
     "tray",
   ],
-  "Indicator": Array [
+  "Indicator": [
     "location",
     "marker",
     "pin",
   ],
-  "Info": Array [
+  "Info": [
     "bulb",
     "data",
     "help",
@@ -1928,24 +1928,24 @@ Object {
     "light",
     "support",
   ],
-  "Inherit": Array [
+  "Inherit": [
     "family",
     "pedigree",
     "tree",
   ],
-  "Insecure": Array [
+  "Insecure": [
     "open",
     "unlocked",
     "unprotected",
     "vulnerable",
     "vulnerability",
   ],
-  "Inspect": Array [
+  "Inspect": [
     "eye",
     "glasses",
     "spectacles",
   ],
-  "Instagram": Array [
+  "Instagram": [
     "camera",
     "image",
     "logo",
@@ -1957,124 +1957,124 @@ Object {
     "social",
     "video",
   ],
-  "Install": Array [
+  "Install": [
     "configuration",
     "download",
     "settings",
     "setup",
   ],
-  "InstallOption": Array [
+  "InstallOption": [
     "arrows",
     "configuration",
     "download",
     "settings",
     "setup",
   ],
-  "Integration": Array [
+  "Integration": [
     "connection",
     "plug",
     "system",
   ],
-  "InternetExplorer": Array [
+  "InternetExplorer": [
     "browser",
     "logo",
     "web",
   ],
-  "Italic": Array [
+  "Italic": [
     "formatting",
     "text",
     "editor",
   ],
-  "Iteration": Array [
+  "Iteration": [
     "cascade",
     "iterate",
     "repeat",
     "stack",
     "steps",
   ],
-  "Java": Array [
+  "Java": [
     "coffee",
     "code",
     "coding",
     "cup",
   ],
-  "Js": Array [
+  "Js": [
     "javascript",
     "logo",
     "react",
     "reactjs",
   ],
-  "Key": Array [
+  "Key": [
     "key",
     "lock",
   ],
-  "Keyboard": Array [
+  "Keyboard": [
     "accessibility",
     "tab",
     "technology",
   ],
-  "Language": Array [
+  "Language": [
     "earth",
     "internet",
     "translate",
     "world",
   ],
-  "Lastfm": Array [
+  "Lastfm": [
     "logo",
     "media",
     "music",
     "sound",
   ],
-  "Launch": Array [
+  "Launch": [
     "rocket",
     "spaceship",
     "startup",
   ],
-  "Layer": Array [
+  "Layer": [
     "arrange",
     "cascade",
     "layers",
     "stack",
   ],
-  "License": Array [
+  "License": [
     "key",
     "lock",
   ],
-  "Like": Array [
+  "Like": [
     "favorite",
     "heart",
     "thumbs",
     "up",
   ],
-  "LikeFill": Array [
+  "LikeFill": [
     "favorite",
     "heart",
     "thumbs",
     "up",
   ],
-  "LineChart": Array [
+  "LineChart": [
     "graph",
     "grow",
     "time",
   ],
-  "Link": Array [
+  "Link": [
     "chain",
     "connection",
     "network",
     "web",
   ],
-  "LinkBottom": Array [
+  "LinkBottom": [
     "align",
     "arrows",
     "direction",
     "down",
   ],
-  "LinkDown": Array [
+  "LinkDown": [
     "arrows",
     "direction",
     "down",
   ],
-  "LinkNext": Array [
+  "LinkNext": [
     "arrows",
     "core",
     "direction",
@@ -2082,7 +2082,7 @@ Object {
     "next",
     "right",
   ],
-  "LinkPrevious": Array [
+  "LinkPrevious": [
     "arrows",
     "back",
     "backward",
@@ -2091,55 +2091,55 @@ Object {
     "left",
     "return",
   ],
-  "LinkTop": Array [
+  "LinkTop": [
     "arrows",
     "direction",
     "up",
   ],
-  "LinkUp": Array [
+  "LinkUp": [
     "arrows",
     "direction",
     "up",
   ],
-  "Linkedin": Array [
+  "Linkedin": [
     "logo",
     "network",
     "media",
     "share",
     "social",
   ],
-  "LinkedinOption": Array [
+  "LinkedinOption": [
     "logo",
     "network",
     "media",
     "share",
     "social",
   ],
-  "List": Array [
+  "List": [
     "hamburger",
     "navigation",
     "options",
     "orderedlist",
   ],
-  "Local": Array [
+  "Local": [
     "flag",
     "language",
     "location",
     "usa",
   ],
-  "Location": Array [
+  "Location": [
     "gps",
     "map",
     "navigation",
     "pin",
   ],
-  "LocationPin": Array [
+  "LocationPin": [
     "gps",
     "map",
     "navigation",
     "pin",
   ],
-  "Lock": Array [
+  "Lock": [
     "close",
     "key",
     "password",
@@ -2147,14 +2147,14 @@ Object {
     "secure",
     "security",
   ],
-  "Login": Array [
+  "Login": [
     "account",
     "arrows",
     "door",
     "password",
     "security",
   ],
-  "Logout": Array [
+  "Logout": [
     "account",
     "arrows",
     "door",
@@ -2162,51 +2162,51 @@ Object {
     "password",
     "security",
   ],
-  "Lounge": Array [
+  "Lounge": [
     "chair",
     "furniture",
     "sofa",
   ],
-  "Magic": Array [
+  "Magic": [
     "wand",
     "wizard",
   ],
-  "Mail": Array [
+  "Mail": [
     "email",
     "envelope",
     "letter",
     "messages",
     "social",
   ],
-  "MailOption": Array [
+  "MailOption": [
     "email",
     "envelope",
     "letter",
     "messages",
     "social",
   ],
-  "Mandriva": Array [
+  "Mandriva": [
     "linux",
     "logo",
     "os",
   ],
-  "Manual": Array [
+  "Manual": [
     "stick",
     "joystick",
   ],
-  "Map": Array [
+  "Map": [
     "gps",
     "location",
     "navigation",
     "pin",
   ],
-  "MapLocation": Array [
+  "MapLocation": [
     "gps",
     "location",
     "navigation",
     "pin",
   ],
-  "Mastercard": Array [
+  "Mastercard": [
     "card",
     "credit",
     "logo",
@@ -2215,110 +2215,110 @@ Object {
     "social",
     "visa",
   ],
-  "Medium": Array [
+  "Medium": [
     "blog",
     "logo",
     "media",
     "share",
     "social",
   ],
-  "Memory": Array [
+  "Memory": [
     "technology",
     "computer",
   ],
-  "Menu": Array [
+  "Menu": [
     "hamburger",
     "list",
     "navigation",
     "options",
   ],
-  "Microfocus": Array [
+  "Microfocus": [
     "awesome",
     "logo",
   ],
-  "Microphone": Array [
+  "Microphone": [
     "audio",
     "mic",
     "music",
     "sound",
   ],
-  "Money": Array [
+  "Money": [
     "cash",
     "coins",
     "currency",
     "dollar",
     "finance",
   ],
-  "Monitor": Array [
+  "Monitor": [
     "computer",
     "crt",
     "desktop",
     "display",
     "screen",
   ],
-  "Monospace": Array [
+  "Monospace": [
     "formatting",
     "text",
     "editor",
   ],
-  "Moon": Array [
+  "Moon": [
     "dark",
     "nature",
   ],
-  "More": Array [
+  "More": [
     "actions",
     "core",
     "ellipses",
   ],
-  "MoreVertical": Array [
+  "MoreVertical": [
     "actions",
     "core",
     "ellipses",
     "more",
   ],
-  "Mouse": Array [
+  "Mouse": [
     "hardware",
     "technology",
   ],
-  "Multimedia": Array [
+  "Multimedia": [
     "clapboard",
     "cinema",
     "film",
     "video",
     "movie",
   ],
-  "Multiple": Array [
+  "Multiple": [
     "cascade",
     "repeat",
     "stack",
     "steps",
   ],
-  "Music": Array [
+  "Music": [
     "audio",
     "notes",
     "sound",
     "play",
   ],
-  "Mysql": Array [
+  "Mysql": [
     "database",
     "logo",
     "storage",
   ],
-  "Navigate": Array [
+  "Navigate": [
     "guide",
     "road",
     "sign",
     "street",
     "way",
   ],
-  "Network": Array [
+  "Network": [
     "media",
     "connection",
     "divergence",
     "fork",
     "branch",
   ],
-  "NetworkDrive": Array [
+  "NetworkDrive": [
     "media",
     "connection",
     "divergence",
@@ -2326,18 +2326,18 @@ Object {
     "branch",
     "technology",
   ],
-  "New": Array [
+  "New": [
     "asterisk",
     "add",
     "create",
     "plus",
   ],
-  "NewWindow": Array [
+  "NewWindow": [
     "add",
     "create",
     "plus",
   ],
-  "Next": Array [
+  "Next": [
     "arrows",
     "core",
     "direction",
@@ -2345,30 +2345,30 @@ Object {
     "next",
     "right",
   ],
-  "Node": Array [
+  "Node": [
     "js",
     "logo",
     "node",
   ],
-  "Nodes": Array [
+  "Nodes": [
     "connection",
     "network",
   ],
-  "Norton": Array [
+  "Norton": [
     "logo",
     "security",
   ],
-  "Note": Array [
+  "Note": [
     "document",
     "file",
     "paper",
   ],
-  "Notes": Array [
+  "Notes": [
     "document",
     "file",
     "paper",
   ],
-  "Notification": Array [
+  "Notification": [
     "alarm",
     "alert",
     "bell",
@@ -2378,71 +2378,71 @@ Object {
     "warn",
     "warning",
   ],
-  "Npm": Array [
+  "Npm": [
     "logo",
     "npm",
   ],
-  "ObjectGroup": Array [
+  "ObjectGroup": [
     "",
   ],
-  "ObjectUngroup": Array [
+  "ObjectUngroup": [
     "",
   ],
-  "OfflineStorage": Array [
+  "OfflineStorage": [
     "backup",
     "tape",
   ],
-  "Onedrive": Array [
+  "Onedrive": [
     "logo",
     "office",
   ],
-  "Opera": Array [
+  "Opera": [
     "browser",
     "logo",
     "web",
   ],
-  "Optimize": Array [
+  "Optimize": [
     "analytics",
     "chart",
     "growth",
   ],
-  "Oracle": Array [
+  "Oracle": [
     "cloud",
     "database",
     "logo",
   ],
-  "OrderedList": Array [
+  "OrderedList": [
     "formatting",
     "text",
     "items",
     "editor",
   ],
-  "Organization": Array [
+  "Organization": [
     "building",
   ],
-  "Overview": Array [
+  "Overview": [
     "binoculars",
   ],
-  "Package": Array [
+  "Package": [
     "controls",
     "box",
   ],
-  "Paint": Array [
+  "Paint": [
     "bucket",
     "color",
   ],
-  "Pan": Array [
+  "Pan": [
     "arrows",
     "drag",
     "move",
   ],
-  "Pause": Array [
+  "Pause": [
     "player",
   ],
-  "PauseFill": Array [
+  "PauseFill": [
     "player",
   ],
-  "Paypal": Array [
+  "Paypal": [
     "card",
     "logo",
     "media",
@@ -2451,15 +2451,15 @@ Object {
     "pay",
     "wallet",
   ],
-  "Performance": Array [
+  "Performance": [
     "optimization",
   ],
-  "PersonalComputer": Array [
+  "PersonalComputer": [
     "pc",
     "monitor",
     "screen",
   ],
-  "Phone": Array [
+  "Phone": [
     "call",
     "chat",
     "conference",
@@ -2469,7 +2469,7 @@ Object {
     "social",
     "technology",
   ],
-  "PhoneFlip": Array [
+  "PhoneFlip": [
     "call",
     "chat",
     "conference",
@@ -2480,7 +2480,7 @@ Object {
     "social",
     "technology",
   ],
-  "PhoneHorizontal": Array [
+  "PhoneHorizontal": [
     "call",
     "chat",
     "conference",
@@ -2490,7 +2490,7 @@ Object {
     "social",
     "technology",
   ],
-  "PhoneVertical": Array [
+  "PhoneVertical": [
     "call",
     "chat",
     "conference",
@@ -2500,16 +2500,16 @@ Object {
     "social",
     "technology",
   ],
-  "PieChart": Array [
+  "PieChart": [
     "analytics",
     "dontusepies",
     "graph",
   ],
-  "PiedPiper": Array [
+  "PiedPiper": [
     "logo",
     "storage",
   ],
-  "Pin": Array [
+  "Pin": [
     "gps",
     "location",
     "map",
@@ -2517,47 +2517,47 @@ Object {
     "pin",
     "tack",
   ],
-  "Pinterest": Array [
+  "Pinterest": [
     "logo",
     "media",
     "share",
     "social",
   ],
-  "Plan": Array [
+  "Plan": [
     "calendar",
     "checklist",
     "schedule",
   ],
-  "Play": Array [
+  "Play": [
     "media",
     "music",
     "player",
     "video",
   ],
-  "PlayFill": Array [
+  "PlayFill": [
     "media",
     "music",
     "player",
     "video",
   ],
-  "Plug": Array [
+  "Plug": [
     "technology",
   ],
-  "Pocket": Array [
+  "Pocket": [
     "logo",
     "media",
     "share",
     "social",
   ],
-  "Power": Array [
+  "Power": [
     "off",
     "switch",
   ],
-  "PowerCycle": Array [],
-  "PowerForceShutdown": Array [],
-  "PowerReset": Array [],
-  "PowerShutdown": Array [],
-  "Previous": Array [
+  "PowerCycle": [],
+  "PowerForceShutdown": [],
+  "PowerReset": [],
+  "PowerShutdown": [],
+  "Previous": [
     "arrows",
     "back",
     "backward",
@@ -2566,61 +2566,61 @@ Object {
     "left",
     "return",
   ],
-  "Print": Array [
+  "Print": [
     "laser",
     "printer",
   ],
-  "ProductHunt": Array [
+  "ProductHunt": [
     "logo",
     "media",
     "share",
     "social",
   ],
-  "Projects": Array [
+  "Projects": [
     "Project",
     "squares",
     "tasks",
   ],
-  "Qr": Array [],
-  "Radial": Array [
+  "Qr": [],
+  "Radial": [
     "circle",
     "radio",
     "off",
   ],
-  "RadialSelected": Array [
+  "RadialSelected": [
     "circle",
     "radio",
     "on",
   ],
-  "Raspberry": Array [
+  "Raspberry": [
     "logo",
     "pc",
     "pie",
     "iot",
   ],
-  "Reactjs": Array [
+  "Reactjs": [
     "javascript",
     "logo",
   ],
-  "Reddit": Array [
+  "Reddit": [
     "logo",
     "media",
     "online",
     "social",
     "share",
   ],
-  "Redhat": Array [
+  "Redhat": [
     "linux",
     "logo",
     "Fedora",
     "os",
   ],
-  "Redo": Array [
+  "Redo": [
     "action",
     "text",
     "editor",
   ],
-  "Refresh": Array [
+  "Refresh": [
     "arrows",
     "backup",
     "core",
@@ -2630,25 +2630,25 @@ Object {
     "sync",
     "update",
   ],
-  "Resources": Array [
+  "Resources": [
     "cascade",
     "layers",
     "multiple",
     "stack",
   ],
-  "Restaurant": Array [
+  "Restaurant": [
     "chef",
     "cook",
     "food",
     "hat",
   ],
-  "Restroom": Array [
+  "Restroom": [
     "bathroom",
     "toilet",
     "water",
     "closet",
   ],
-  "RestroomMen": Array [
+  "RestroomMen": [
     "bathroom",
     "closet",
     "man",
@@ -2657,7 +2657,7 @@ Object {
     "water",
     "wc",
   ],
-  "RestroomWomen": Array [
+  "RestroomWomen": [
     "bathroom",
     "closet",
     "person",
@@ -2666,34 +2666,34 @@ Object {
     "wc",
     "woman",
   ],
-  "Resume": Array [
+  "Resume": [
     "forward",
     "media",
     "player",
   ],
-  "Return": Array [
+  "Return": [
     "arrows",
     "back",
     "undo",
   ],
-  "Revert": Array [
+  "Revert": [
     "arrows",
     "history",
     "undo",
   ],
-  "Rewind": Array [
+  "Rewind": [
     "back",
     "media",
     "player",
   ],
-  "Risk": Array [
+  "Risk": [
     "casino",
     "dice",
     "game",
     "gaming",
     "probability",
   ],
-  "Robot": Array [
+  "Robot": [
     "android",
     "automatic",
     "automation",
@@ -2702,23 +2702,23 @@ Object {
     "layoff",
     "machine",
   ],
-  "RotateLeft": Array [
+  "RotateLeft": [
     "direction",
     "rotate",
     "picture",
   ],
-  "RotateRight": Array [
+  "RotateRight": [
     "direction",
     "rotate",
     "picture",
   ],
-  "Rss": Array [
+  "Rss": [
     "feed",
     "news",
     "signal",
     "syndication",
   ],
-  "Run": Array [
+  "Run": [
     "exit",
     "evacuation",
     "fire",
@@ -2726,32 +2726,32 @@ Object {
     "person",
     "sport",
   ],
-  "SafariOption": Array [
+  "SafariOption": [
     "browser",
     "logo",
     "web",
   ],
-  "Sans": Array [
+  "Sans": [
     "technology",
     "type",
   ],
-  "Satellite": Array [
+  "Satellite": [
     "antenna",
     "communication",
     "dish",
     "space",
   ],
-  "Save": Array [
+  "Save": [
     "arrows",
     "floppy",
     "store",
     "storage",
   ],
-  "Scan": Array [
+  "Scan": [
     "document",
     "scanner",
   ],
-  "Schedule": Array [
+  "Schedule": [
     "agenda",
     "appointment",
     "calendar",
@@ -2759,7 +2759,7 @@ Object {
     "month",
     "plan",
   ],
-  "ScheduleNew": Array [
+  "ScheduleNew": [
     "add",
     "agenda",
     "asterisk",
@@ -2769,7 +2769,7 @@ Object {
     "month",
     "plan",
   ],
-  "SchedulePlay": Array [
+  "SchedulePlay": [
     "agenda",
     "appointment",
     "calendar",
@@ -2777,7 +2777,7 @@ Object {
     "month",
     "plan",
   ],
-  "Schedules": Array [
+  "Schedules": [
     "agenda",
     "appointment",
     "calendar",
@@ -2785,98 +2785,98 @@ Object {
     "month",
     "plan",
   ],
-  "Sco": Array [
+  "Sco": [
     "logo",
     "os",
     "unix",
   ],
-  "Scorecard": Array [
+  "Scorecard": [
     "clipboard",
     "game",
     "mark",
   ],
-  "Script": Array [
+  "Script": [
     "miscellaneous",
   ],
-  "Sd": Array [
+  "Sd": [
     "hardware",
     "card",
     "technology",
   ],
-  "Search": Array [
+  "Search": [
     "core",
     "find",
     "lookup",
     "magnifier",
     "zoom",
   ],
-  "SearchAdvanced": Array [
+  "SearchAdvanced": [
     "find",
     "lookup",
     "magnifier",
     "plus",
     "zoom",
   ],
-  "Secure": Array [
+  "Secure": [
     "closed",
     "locked",
     "protected",
     "security",
     "ssl",
   ],
-  "Select": Array [
+  "Select": [
     "cursor",
     "pointer",
     "selection",
   ],
-  "Selection": Array [
+  "Selection": [
     "column",
   ],
-  "Semantics": Array [
+  "Semantics": [
     "chevron",
     "html",
     "w3c",
   ],
-  "Send": Array [
+  "Send": [
     "airplane",
     "email",
     "messages",
     "paper",
   ],
-  "Server": Array [
+  "Server": [
     "computer",
     "hosting",
     "mainframe",
     "servers",
   ],
-  "ServerCluster": Array [
+  "ServerCluster": [
     "cluster",
     "computer",
     "hosting",
     "mainframe",
     "servers",
   ],
-  "Servers": Array [
+  "Servers": [
     "cluster",
     "computer",
     "hosting",
     "mainframe",
     "servers",
   ],
-  "ServicePlay": Array [
+  "ServicePlay": [
     "cloud",
     "services",
   ],
-  "Services": Array [
+  "Services": [
     "action",
     "cloud",
     "gears",
   ],
-  "SettingsOption": Array [
+  "SettingsOption": [
     "configure",
     "gear",
   ],
-  "Share": Array [
+  "Share": [
     "connections",
     "export",
     "sharing",
@@ -2884,7 +2884,7 @@ Object {
     "network",
     "publish",
   ],
-  "ShareOption": Array [
+  "ShareOption": [
     "connections",
     "sharing",
     "score",
@@ -2894,7 +2894,7 @@ Object {
     "network",
     "publish",
   ],
-  "ShareRounded": Array [
+  "ShareRounded": [
     "connections",
     "core",
     "export",
@@ -2903,37 +2903,37 @@ Object {
     "network",
     "publish",
   ],
-  "Shield": Array [
+  "Shield": [
     "antivirus",
     "secure",
     "security",
   ],
-  "ShieldSecurity": Array [
+  "ShieldSecurity": [
     "gear",
     "secure",
     "security",
     "settings",
   ],
-  "Shift": Array [
+  "Shift": [
     "divide",
     "partition",
     "separate",
     "split",
   ],
-  "Shop": Array [
+  "Shop": [
     "buy",
     "cart",
     "checkout",
     "bag",
     "shopping",
   ],
-  "Sidebar": Array [
+  "Sidebar": [
     "columns",
     "layout",
     "navigation",
     "right",
   ],
-  "Sign": Array [
+  "Sign": [
     "devil",
     "hand",
     "heavy",
@@ -2941,7 +2941,7 @@ Object {
     "metal",
     "rock",
   ],
-  "Skype": Array [
+  "Skype": [
     "call",
     "chat",
     "conference",
@@ -2951,7 +2951,7 @@ Object {
     "social",
     "video",
   ],
-  "Slack": Array [
+  "Slack": [
     "chat",
     "help",
     "logo",
@@ -2962,7 +2962,7 @@ Object {
     "social",
     "support",
   ],
-  "Snapchat": Array [
+  "Snapchat": [
     "ghost",
     "image",
     "logo",
@@ -2974,30 +2974,30 @@ Object {
     "social",
     "video",
   ],
-  "Solaris": Array [
+  "Solaris": [
     "logo",
     "oracle",
     "os",
     "sun",
     "unix",
   ],
-  "Sort": Array [
+  "Sort": [
     "bullets",
     "list",
     "items",
   ],
-  "Soundcloud": Array [
+  "Soundcloud": [
     "logo",
     "cloud",
     "sound",
   ],
-  "Spa": Array [
+  "Spa": [
     "lotus",
     "plant",
     "flower",
     "yoga",
   ],
-  "Spectrum": Array [
+  "Spectrum": [
     "chat",
     "logo",
     "media",
@@ -3007,30 +3007,30 @@ Object {
     "social",
     "support",
   ],
-  "Split": Array [
+  "Split": [
     "columns",
     "layout",
     "navigation",
   ],
-  "Splits": Array [
+  "Splits": [
     "columns",
     "layout",
     "navigation",
   ],
-  "Spotify": Array [
+  "Spotify": [
     "logo",
     "media",
     "music",
     "sound",
   ],
-  "Square": Array [
+  "Square": [
     "logo",
     "media",
     "social",
     "pay",
     "wallet",
   ],
-  "StackOverflow": Array [
+  "StackOverflow": [
     "code",
     "help",
     "logo",
@@ -3038,124 +3038,124 @@ Object {
     "share",
     "social",
   ],
-  "Stakeholder": Array [
+  "Stakeholder": [
     "business",
     "person",
   ],
-  "Star": Array [
+  "Star": [
     "badge",
     "rating",
     "star",
   ],
-  "StarHalf": Array [
+  "StarHalf": [
     "badge",
     "rating",
     "star",
   ],
-  "StarOutline": Array [
+  "StarOutline": [
     "badge",
     "rating",
     "star",
   ],
-  "StatusCritical": Array [
+  "StatusCritical": [
     "error",
     "halt",
     "stop",
     "warning",
   ],
-  "StatusCriticalSmall": Array [
+  "StatusCriticalSmall": [
     "error",
     "halt",
     "stop",
     "warning",
   ],
-  "StatusDisabled": Array [
+  "StatusDisabled": [
     "off",
   ],
-  "StatusDisabledSmall": Array [
+  "StatusDisabledSmall": [
     "off",
   ],
-  "StatusGood": Array [
+  "StatusGood": [
     "accept",
     "check",
     "ok",
   ],
-  "StatusGoodSmall": Array [
+  "StatusGoodSmall": [
     "accept",
     "check",
     "ok",
   ],
-  "StatusInfo": Array [
+  "StatusInfo": [
     "faq",
     "help",
     "hint",
     "information",
   ],
-  "StatusInfoSmall": Array [
+  "StatusInfoSmall": [
     "faq",
     "help",
     "hint",
     "information",
   ],
-  "StatusPlaceholder": Array [
+  "StatusPlaceholder": [
     "box",
   ],
-  "StatusUnknown": Array [
+  "StatusUnknown": [
     "question",
   ],
-  "StatusUnknownSmall": Array [
+  "StatusUnknownSmall": [
     "question",
   ],
-  "StatusWarning": Array [
+  "StatusWarning": [
     "exclamation",
   ],
-  "StatusWarningSmall": Array [
+  "StatusWarningSmall": [
     "exclamation",
   ],
-  "Steps": Array [
+  "Steps": [
     "staircase",
     "stairs",
   ],
-  "StepsOption": Array [
+  "StepsOption": [
     "staircase",
     "stairs",
     "stairway",
   ],
-  "Stop": Array [
+  "Stop": [
     "halt",
     "player",
   ],
-  "StopFill": Array [
+  "StopFill": [
     "halt",
     "player",
   ],
-  "Storage": Array [
+  "Storage": [
     "archives",
     "drawers",
   ],
-  "StreetView": Array [
+  "StreetView": [
     "location",
     "map",
     "person",
   ],
-  "StrikeThrough": Array [
+  "StrikeThrough": [
     "formatting",
     "text",
     "editor",
   ],
-  "Stripe": Array [
+  "Stripe": [
     "logo",
     "media",
     "pay",
     "social",
     "wallet",
   ],
-  "Subscript": Array [
+  "Subscript": [
     "formatting",
     "text",
     "editor",
   ],
-  "Subtract": Array [
+  "Subtract": [
     "core",
     "decrement",
     "minus",
@@ -3163,118 +3163,118 @@ Object {
     "remove",
     "subtraction",
   ],
-  "SubtractCircle": Array [
+  "SubtractCircle": [
     "decrement",
     "minus",
     "reduce",
     "remove",
     "subtraction",
   ],
-  "Sun": Array [
+  "Sun": [
     "light",
     "nature",
   ],
-  "Superscript": Array [
+  "Superscript": [
     "formatting",
     "text",
     "editor",
   ],
-  "Support": Array [
+  "Support": [
     "help",
     "life",
     "lifesaver",
     "preserver",
     "safety",
   ],
-  "Suse": Array [
+  "Suse": [
     "logo",
     "linux",
     "os",
   ],
-  "Swift": Array [
+  "Swift": [
     "code",
     "logo",
   ],
-  "Swim": Array [
+  "Swim": [
     "person",
     "sport",
     "swimmer",
     "swimming",
   ],
-  "Switch": Array [
+  "Switch": [
     "hardware",
     "network",
     "technology",
   ],
-  "Sync": Array [
+  "Sync": [
     "refresh",
     "reload",
     "update",
   ],
-  "System": Array [
+  "System": [
     "computer",
     "configuration",
     "gear",
     "settings",
   ],
-  "Table": Array [
+  "Table": [
     "spreadsheet",
   ],
-  "TableAdd": Array [
+  "TableAdd": [
     "new",
     "plus",
     "spreadsheet",
   ],
-  "Tag": Array [
+  "Tag": [
     "label",
     "retail",
     "ticket",
     "travel",
   ],
-  "Tape": Array [
+  "Tape": [
     "archive",
     "backup",
     "storage",
   ],
-  "TapeOption": Array [
+  "TapeOption": [
     "archive",
     "backup",
     "storage",
   ],
-  "Target": Array [
+  "Target": [
     "bulleye",
     "darts",
     "goal",
   ],
-  "Task": Array [
+  "Task": [
     "details",
     "done",
     "list",
     "survey",
   ],
-  "Tasks": Array [
+  "Tasks": [
     "bar",
     "progress",
   ],
-  "Technology": Array [
+  "Technology": [
     "circuit",
     "device",
     "electronics",
   ],
-  "Template": Array [
+  "Template": [
     "application",
     "columns",
     "layout",
     "navigation",
   ],
-  "Terminal": Array [
+  "Terminal": [
     "admin",
     "command",
     "console",
     "dos",
     "prompt",
   ],
-  "Test": Array [
+  "Test": [
     "biology",
     "chemistry",
     "experiment",
@@ -3284,7 +3284,7 @@ Object {
     "research",
     "science",
   ],
-  "TestDesktop": Array [
+  "TestDesktop": [
     "biology",
     "chemistry",
     "experiment",
@@ -3293,106 +3293,106 @@ Object {
     "research",
     "science",
   ],
-  "TextAlignCenter": Array [
+  "TextAlignCenter": [
     "formatting",
     "center",
     "text",
     "align",
     "editor",
   ],
-  "TextAlignFull": Array [
+  "TextAlignFull": [
     "formatting",
     "full",
     "text",
     "align",
     "editor",
   ],
-  "TextAlignLeft": Array [
+  "TextAlignLeft": [
     "formatting",
     "left",
     "text",
     "align",
     "editor",
   ],
-  "TextAlignRight": Array [
+  "TextAlignRight": [
     "formatting",
     "right",
     "text",
     "align",
     "editor",
   ],
-  "TextWrap": Array [
+  "TextWrap": [
     "around",
   ],
-  "Threats": Array [
+  "Threats": [
     "bomb",
     "danger",
     "explosive",
     "security",
   ],
-  "ThreeD": Array [
+  "ThreeD": [
     "3d",
     "cube",
     "box",
     "rotation",
   ],
-  "ThreeDffects": Array [
+  "ThreeDffects": [
     "3d",
     "cube",
     "box",
   ],
-  "Ticket": Array [
+  "Ticket": [
     "cinema",
     "concert",
     "movie",
     "travel",
   ],
-  "Tiktok": Array [
+  "Tiktok": [
     "network",
     "social",
     "travel",
   ],
-  "Time": Array [
+  "Time": [
     "chart",
     "line",
     "data",
   ],
-  "Tip": Array [
+  "Tip": [
     "bubble",
     "chat",
     "messages",
     "tooltip",
   ],
-  "Toast": Array [
+  "Toast": [
     "alert",
     "food",
     "messages",
   ],
-  "Tools": Array [
+  "Tools": [
     "hammer",
     "mallet",
   ],
-  "Tooltip": Array [
+  "Tooltip": [
     "bubble",
     "chat",
     "elipses",
     "messages",
   ],
-  "TopCorner": Array [
+  "TopCorner": [
     "arrows",
     "left",
   ],
-  "Train": Array [
+  "Train": [
     "railroad",
     "subway",
     "transportation",
     "travel",
   ],
-  "Transaction": Array [
+  "Transaction": [
     "activity",
     "arrows",
   ],
-  "Trash": Array [
+  "Trash": [
     "bin",
     "clear",
     "core",
@@ -3401,18 +3401,18 @@ Object {
     "garbage",
     "remove",
   ],
-  "Tree": Array [
+  "Tree": [
     "branch",
     "flow",
     "organizstion",
     "view",
   ],
-  "TreeOption": Array [
+  "TreeOption": [
     "branch",
     "forest",
     "plant",
   ],
-  "Trigger": Array [
+  "Trigger": [
     "bolt",
     "electricity",
     "lightning",
@@ -3420,7 +3420,7 @@ Object {
     "quick",
     "storm",
   ],
-  "Trophy": Array [
+  "Trophy": [
     "award",
     "cup",
     "medal",
@@ -3428,18 +3428,18 @@ Object {
     "trophy",
     "winner",
   ],
-  "Troubleshoot": Array [
+  "Troubleshoot": [
     "screwdriver",
     "tools",
     "wrench",
   ],
-  "Tty": Array [
+  "Tty": [
     "accessibility",
     "teletype",
     "teleprinter",
     "tdd",
   ],
-  "Tumblr": Array [
+  "Tumblr": [
     "blog",
     "image",
     "logo",
@@ -3451,12 +3451,12 @@ Object {
     "social",
     "video",
   ],
-  "Turbolinux": Array [
+  "Turbolinux": [
     "linux",
     "logo",
     "os",
   ],
-  "Twitter": Array [
+  "Twitter": [
     "bird",
     "logo",
     "media",
@@ -3464,27 +3464,27 @@ Object {
     "social",
     "tweet",
   ],
-  "Ubuntu": Array [
+  "Ubuntu": [
     "linux",
     "logo",
     "os",
   ],
-  "Underline": Array [
+  "Underline": [
     "formatting",
     "text",
     "editor",
   ],
-  "Undo": Array [
+  "Undo": [
     "action",
     "text",
     "editor",
   ],
-  "Unlink": Array [
+  "Unlink": [
     "break",
     "chain",
     "disconnect",
   ],
-  "Unlock": Array [
+  "Unlock": [
     "open",
     "key",
     "password",
@@ -3492,36 +3492,36 @@ Object {
     "secure",
     "security",
   ],
-  "UnorderedList": Array [
+  "UnorderedList": [
     "formatting",
     "text",
     "items",
     "editor",
   ],
-  "Unsorted": Array [
+  "Unsorted": [
     "arrows",
     "up",
     "down",
     "sort",
     "sortable",
   ],
-  "Up": Array [
+  "Up": [
     "arrows",
     "collapse",
     "direction",
   ],
-  "Update": Array [
+  "Update": [
     "arrows",
     "change",
     "core",
     "reload",
     "refresh",
   ],
-  "Upgrade": Array [
+  "Upgrade": [
     "arrows",
     "circle",
   ],
-  "Upload": Array [
+  "Upload": [
     "arrows",
     "attach",
     "attachment",
@@ -3531,17 +3531,17 @@ Object {
     "files",
     "send",
   ],
-  "UploadOption": Array [
+  "UploadOption": [
     "arrow",
     "navigation",
     "upload",
   ],
-  "UsbKey": Array [
+  "UsbKey": [
     "hardware",
     "memory",
     "technology",
   ],
-  "User": Array [
+  "User": [
     "account",
     "avatar",
     "core",
@@ -3550,7 +3550,7 @@ Object {
     "male",
     "man",
   ],
-  "UserAdd": Array [
+  "UserAdd": [
     "add",
     "account",
     "avatar",
@@ -3558,7 +3558,7 @@ Object {
     "person",
     "profile",
   ],
-  "UserAdmin": Array [
+  "UserAdmin": [
     "account",
     "avatar",
     "person",
@@ -3566,7 +3566,7 @@ Object {
     "security",
     "key",
   ],
-  "UserExpert": Array [
+  "UserExpert": [
     "account",
     "admin",
     "avatar",
@@ -3576,7 +3576,7 @@ Object {
     "security",
     "key",
   ],
-  "UserFemale": Array [
+  "UserFemale": [
     "account",
     "avatar",
     "core",
@@ -3584,14 +3584,14 @@ Object {
     "profile",
     "woman",
   ],
-  "UserManager": Array [
+  "UserManager": [
     "account",
     "avatar",
     "boss",
     "person",
     "profile",
   ],
-  "UserNew": Array [
+  "UserNew": [
     "add",
     "account",
     "avatar",
@@ -3599,7 +3599,7 @@ Object {
     "person",
     "profile",
   ],
-  "UserPolice": Array [
+  "UserPolice": [
     "account",
     "avatar",
     "marshal",
@@ -3608,7 +3608,7 @@ Object {
     "profile",
     "sheriff",
   ],
-  "UserSettings": Array [
+  "UserSettings": [
     "account",
     "avatar",
     "gear",
@@ -3616,7 +3616,7 @@ Object {
     "profile",
     "settings",
   ],
-  "UserWorker": Array [
+  "UserWorker": [
     "account",
     "avatar",
     "construction",
@@ -3626,45 +3626,45 @@ Object {
     "profile",
     "safety",
   ],
-  "Validate": Array [
+  "Validate": [
     "accept",
     "approve",
     "ok",
     "success",
   ],
-  "Vend": Array [
+  "Vend": [
     "automated",
     "dispensing",
     "snacks",
     "vending",
   ],
-  "Video": Array [
+  "Video": [
     "camera",
     "movie",
   ],
-  "View": Array [
+  "View": [
     "eye",
     "open",
     "visibility",
   ],
-  "Vimeo": Array [
+  "Vimeo": [
     "logo",
     "media",
     "share",
     "social",
     "video",
   ],
-  "VirtualMachine": Array [
+  "VirtualMachine": [
     "vmware",
   ],
-  "VirtualStorage": Array [
+  "VirtualStorage": [
     "storage",
     "virtual",
     "cloud",
     "circles",
     "stack",
   ],
-  "Visa": Array [
+  "Visa": [
     "amex",
     "card",
     "credit",
@@ -3674,44 +3674,44 @@ Object {
     "social",
     "wallet",
   ],
-  "VmMaintenance": Array [
+  "VmMaintenance": [
     "tools",
     "vmware",
     "wrench",
   ],
-  "Vmware": Array [
+  "Vmware": [
     "logo",
     "virtual",
   ],
-  "Volume": Array [
+  "Volume": [
     "audio",
     "sound",
     "speaker",
   ],
-  "VolumeControl": Array [
+  "VolumeControl": [
     "audio",
     "sound",
     "speaker",
   ],
-  "VolumeLow": Array [
+  "VolumeLow": [
     "audio",
     "sound",
     "speaker",
   ],
-  "VolumeMute": Array [
+  "VolumeMute": [
     "audio",
     "mute",
     "sound",
     "speaker",
   ],
-  "Vulnerability": Array [
+  "Vulnerability": [
     "aim",
     "crosshairs",
     "hunting",
     "security",
     "target",
   ],
-  "Waypoint": Array [
+  "Waypoint": [
     "arrows",
     "cursor",
     "compass",
@@ -3719,72 +3719,72 @@ Object {
     "location",
     "navigation",
   ],
-  "Webcam": Array [
+  "Webcam": [
     "camera",
     "technology",
   ],
-  "Wheelchair": Array [
+  "Wheelchair": [
     "accessibility",
     "disabled",
     "disability",
     "handicap",
     "person",
   ],
-  "WheelchairActive": Array [
+  "WheelchairActive": [
     "accessibility",
     "disabled",
     "disability",
     "handicap",
     "person",
   ],
-  "Wifi": Array [
+  "Wifi": [
     "network",
     "connection",
     "signal",
   ],
-  "WifiLow": Array [
+  "WifiLow": [
     "network",
     "connection",
     "weak",
     "signal",
   ],
-  "WifiMedium": Array [
+  "WifiMedium": [
     "network",
     "connection",
     "medium",
     "signal",
   ],
-  "WifiNone": Array [
+  "WifiNone": [
     "network",
     "connection",
     "signal",
   ],
-  "Windows": Array [
+  "Windows": [
     "pc",
     "logo",
   ],
-  "WindowsLegacy": Array [
+  "WindowsLegacy": [
     "pc",
     "logo",
   ],
-  "Wordpress": Array [
+  "Wordpress": [
     "blog",
     "logo",
     "media",
     "share",
     "social",
   ],
-  "Workshop": Array [
+  "Workshop": [
     "business",
     "conference",
     "speaker",
   ],
-  "Yoga": Array [
+  "Yoga": [
     "asana",
     "person",
     "sport",
   ],
-  "Youtube": Array [
+  "Youtube": [
     "logo",
     "media",
     "play",
@@ -3792,19 +3792,19 @@ Object {
     "social",
     "video",
   ],
-  "Zoom": Array [
+  "Zoom": [
     "chat",
     "logo",
     "social",
     "talk",
     "video",
   ],
-  "ZoomIn": Array [
+  "ZoomIn": [
     "in",
     "plus",
     "magnify",
   ],
-  "ZoomOut": Array [
+  "ZoomOut": [
     "out",
     "minus",
     "magnify",
