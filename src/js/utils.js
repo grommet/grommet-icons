@@ -29,7 +29,7 @@ export function deepMerge(target, ...sources) {
   return output;
 }
 
-export const parseMetricToNum = (string) =>
+export const parseMetricToNum = (string = '') =>
   parseFloat(string.match(/\d+(\.\d+)?/), 10);
 
 // scaleProps sets path properties to prevent scaling the stroke
