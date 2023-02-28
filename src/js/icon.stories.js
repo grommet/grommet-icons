@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { text } from '@storybook/addon-knobs';
+import { boolean, text } from '@storybook/addon-knobs';
 
 import { ThemeProvider } from 'styled-components';
 import * as Icons from './icons';
@@ -35,8 +35,10 @@ storiesOf('Icon', module)
     if (!Icon) {
       return null;
     }
+    const theme = JSON.parse(JSON.stringify(customTheme));
+    theme.icon.disableScaleDown = boolean('disableScaleDown', false);
     return (
-      <ThemeProvider theme={customTheme}>
+      <ThemeProvider theme={theme}>
         <Icon
           size={text('Size', 'xlarge')}
           color={text('Color', 'attention')}
@@ -50,8 +52,10 @@ storiesOf('Icon', module)
     if (!Icon) {
       return null;
     }
+    const theme = JSON.parse(JSON.stringify(customTheme));
+    theme.icon.disableScaleDown = boolean('disableScaleDown', false);
     return (
-      <ThemeProvider theme={customTheme}>
+      <ThemeProvider theme={theme}>
         <Icon size={text('Size', 'xlarge')} />
       </ThemeProvider>
     );
