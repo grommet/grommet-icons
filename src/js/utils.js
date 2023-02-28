@@ -1,3 +1,6 @@
+import { useContext } from 'react';
+import { ThemeContext } from 'styled-components';
+
 export function isObject(item) {
   return item && typeof item === 'object' && !Array.isArray(item);
 }
@@ -26,4 +29,20 @@ export function deepMerge(target, ...sources) {
   return output;
 }
 
-export default { deepMerge, isObject };
+export const parseMetricToNum = (string) =>
+  parseFloat(string.match(/\d+(\.\d+)?/), 10);
+
+// scaleProps sets path properties to prevent scaling the stroke
+// when the theme doesn't want it for small sizes.
+export function useScaleProps(props) {
+  const theme = useContext(ThemeContext);
+  const { size } = props;
+  const result = {};
+  if (theme?.icon?.disableScaleDown) {
+    const dimension = parseMetricToNum(theme.icon.size[size] || size);
+    if (dimension < 24) result.vectorEffect = 'non-scaling-stroke';
+  }
+  return result;
+}
+
+export default { deepMerge, isObject, parseMetricToNum, useScaleProps };
