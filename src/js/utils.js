@@ -45,4 +45,30 @@ export function useScaleProps(props) {
   return result;
 }
 
-export default { deepMerge, isObject, parseMetricToNum, useScaleProps };
+// iconPad applies top/bottom padding to icon to ensure it aligns
+// with text line-height
+export function useIconPad(props) {
+  const { size = 'medium' } = props;
+  const theme = useContext(ThemeContext);
+
+  let style = '';
+  if (theme?.icon?.height?.[size]) {
+    const dimension = parseMetricToNum(theme.icon.size[size] || size);
+    const height = parseMetricToNum(theme.icon.height[size]);
+
+    if (height > dimension) {
+      const pad = `${(height - dimension) / 2}px`;
+      style += `padding-top: ${pad}; padding-bottom: ${pad};`;
+    }
+  }
+
+  return style;
+}
+
+export default {
+  deepMerge,
+  isObject,
+  parseMetricToNum,
+  useIconPad,
+  useScaleProps,
+};

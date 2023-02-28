@@ -11,5 +11,11 @@ export const base = {
       large: '48px',
       xlarge: '96px',
     },
+    // height: {
+    //   small: undefined,
+    //   medium: undefined,
+    //   large: undefined,
+    //   xlarge: undefined,
+    // },
   },
 };
