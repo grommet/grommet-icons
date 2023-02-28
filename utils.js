@@ -39,6 +39,9 @@ function deepMerge(target) {
   return output;
 }
 var parseMetricToNum = function parseMetricToNum(string) {
+  if (string === void 0) {
+    string = '';
+  }
   return parseFloat(string.match(/\d+(\.\d+)?/), 10);
 };
 
