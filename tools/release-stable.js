@@ -1,16 +1,17 @@
 import del from 'del';
 import fs from 'fs-extra';
-import git from 'simple-git/promise';
+import git from 'simple-git';
 import path from 'path';
+import debug from 'debug';
 
 const repoURL = `https://${process.env.GH_TOKEN}@github.com/grommet/grommet-icons.git`;
 const localFolder = path.resolve('.tmp/grommet-icons');
 const localDist = path.resolve('dist');
 
 if (process.env.CI) {
+  debug.enable('simple-git,simple-git:*');
   del(localFolder).then(() => {
     git()
-      .silent(false)
       .clone(repoURL, localFolder)
       .then(() => git(localFolder).checkout('stable'))
       .then(() => del([`${localFolder}/**/*`]))
