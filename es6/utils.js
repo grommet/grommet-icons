@@ -50,9 +50,31 @@ export function useScaleProps(props) {
   }
   return result;
 }
+
+// iconPad applies top/bottom padding to icon to ensure it aligns
+// with text line-height
+export function iconPad(props) {
+  var _theme$text, _theme$text$height;
+  var height = props.height,
+    _props$size = props.size,
+    size = _props$size === void 0 ? 'medium' : _props$size;
+  var theme = useContext(ThemeContext);
+  var style = '';
+  if (theme != null && (_theme$text = theme.text) != null && (_theme$text$height = _theme$text[height]) != null && _theme$text$height.height) {
+    var _theme$icon2, _theme$icon2$size, _theme$text2, _theme$text2$height;
+    var dimension = parseMetricToNum(((_theme$icon2 = theme.icon) == null ? void 0 : (_theme$icon2$size = _theme$icon2.size) == null ? void 0 : _theme$icon2$size[size]) || size);
+    var lineHeight = parseMetricToNum(theme == null ? void 0 : (_theme$text2 = theme.text) == null ? void 0 : (_theme$text2$height = _theme$text2[height]) == null ? void 0 : _theme$text2$height.height);
+    if (lineHeight > dimension) {
+      var pad = (lineHeight - dimension) / 2 + "px";
+      style += "padding-top: " + pad + "; padding-bottom: " + pad + ";";
+    }
+  }
+  return style;
+}
 export default {
   deepMerge: deepMerge,
   isObject: isObject,
   parseMetricToNum: parseMetricToNum,
+  iconPad: iconPad,
   useScaleProps: useScaleProps
 };
