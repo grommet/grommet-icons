@@ -47,7 +47,7 @@ export function useScaleProps(props) {
 
 // iconPad applies top/bottom padding to icon to ensure it aligns
 // with text line-height
-export function useIconPad(props) {
+export function useIconPad({ size = 'medium' }) {
   const { size = 'medium' } = props;
   const theme = useContext(ThemeContext);
 
