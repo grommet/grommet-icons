@@ -47,17 +47,17 @@ export function useScaleProps(props) {
 
 // iconPad applies top/bottom padding to icon to ensure it aligns
 // with text line-height
-export function useIconPad(props) {
-  const { size = 'medium' } = props;
+export function iconPad(props) {
+  const { height, size = 'medium' } = props;
   const theme = useContext(ThemeContext);
 
   let style = '';
-  if (theme?.icon?.height?.[size]) {
-    const dimension = parseMetricToNum(theme.icon.size[size] || size);
-    const height = parseMetricToNum(theme.icon.height[size]);
+  if (theme?.text?.[height]?.height) {
+    const dimension = parseMetricToNum(theme.icon?.size?.[size] || size);
+    const lineHeight = parseMetricToNum(theme?.text?.[height]?.height);
 
-    if (height > dimension) {
-      const pad = `${(height - dimension) / 2}px`;
+    if (lineHeight > dimension) {
+      const pad = `${(lineHeight - dimension) / 2}px`;
       style += `padding-top: ${pad}; padding-bottom: ${pad};`;
     }
   }
@@ -69,6 +69,6 @@ export default {
   deepMerge,
   isObject,
   parseMetricToNum,
-  useIconPad,
+  iconPad,
   useScaleProps,
 };
