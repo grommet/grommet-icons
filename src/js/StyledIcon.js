@@ -4,17 +4,15 @@ import styled, { css } from 'styled-components';
 import { colorStyle } from 'grommet-styles';
 
 import { defaultProps } from './default-props';
-import { iconPad, parseMetricToNum } from './utils';
+import { parseMetricToNum } from './utils';
 
 const colorCss = css`
-  ${(props) =>
-    colorStyle(
+  ${(props) => colorStyle(
       'fill',
       props.color || props.theme.global.colors.icon,
       props.theme,
     )}
-  ${(props) =>
-    colorStyle(
+  ${(props) => colorStyle(
       'stroke',
       props.color || props.theme.global.colors.icon,
       props.theme,
@@ -26,21 +24,21 @@ const colorCss = css`
   }
 
   *:not([stroke]) {
-    &[fill='none'] {
+    &[fill="none"] {
       stroke-width: 0;
     }
   }
 
-  *[stroke*='#'],
-  *[STROKE*='#'] {
+  *[stroke*="#"],
+  *[STROKE*="#"] {
     stroke: inherit;
     fill: none;
   }
 
   *[fill-rule],
   *[FILL-RULE],
-  *[fill*='#'],
-  *[FILL*='#'] {
+  *[fill*="#"],
+  *[FILL*="#"] {
     fill: inherit;
     stroke: none;
   }
@@ -80,7 +78,6 @@ const StyledIcon = styled(IconInner)`
     `;
   }}
   ${({ color }) => color !== 'plain' && colorCss}
-  ${(props) => props.height && iconPad(props)}
   ${({ theme }) => theme && theme.icon.extend}
 `;
 
