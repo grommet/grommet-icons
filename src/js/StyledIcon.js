@@ -51,7 +51,12 @@ const IconInner = forwardRef(
 );
 IconInner.displayName = 'Icon';
 
-const StyledIcon = styled(IconInner)`
+const StyledIcon = styled(IconInner).withConfig({
+  // don't let height attribute leak to DOM
+  // https://styled-components.com/docs/api#shouldforwardprop
+  shouldForwardProp: (prop) =>
+    !['height'].includes(prop), 
+})`
   display: inline-block;
   flex: 0 0 auto;
 
