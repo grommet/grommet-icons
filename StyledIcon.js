@@ -32,7 +32,7 @@ IconInner.displayName = 'Icon';
 var StyledIcon = (0, _styledComponents["default"])(IconInner).withConfig({
   displayName: "StyledIcon",
   componentId: "sc-ofa7kd-0"
-})(["display:inline-block;flex:0 0 auto;", " ", " ", ""], function (_ref2) {
+})(["display:inline-block;flex:0 0 auto;", " ", " ", " ", ""], function (_ref2) {
   var _ref2$size = _ref2.size,
     size = _ref2$size === void 0 ? 'medium' : _ref2$size,
     theme = _ref2.theme,
@@ -52,6 +52,8 @@ var StyledIcon = (0, _styledComponents["default"])(IconInner).withConfig({
 }, function (_ref3) {
   var color = _ref3.color;
   return color !== 'plain' && colorCss;
+}, function (props) {
+  return props.height && (0, _utils.iconPad)(props);
 }, function (_ref4) {
   var theme = _ref4.theme;
   return theme && theme.icon.extend;

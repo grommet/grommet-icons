@@ -5,7 +5,7 @@ import React, { forwardRef } from 'react';
 import styled, { css } from 'styled-components';
 import { colorStyle } from 'grommet-styles';
 import { defaultProps } from './default-props';
-import { parseMetricToNum } from './utils';
+import { iconPad, parseMetricToNum } from './utils';
 var colorCss = css(["", " ", " g{fill:inherit;stroke:inherit;}*:not([stroke]){&[fill=\"none\"]{stroke-width:0;}}*[stroke*=\"#\"],*[STROKE*=\"#\"]{stroke:inherit;fill:none;}*[fill-rule],*[FILL-RULE],*[fill*=\"#\"],*[FILL*=\"#\"]{fill:inherit;stroke:none;}"], function (props) {
   return colorStyle('fill', props.color || props.theme.global.colors.icon, props.theme);
 }, function (props) {
@@ -26,7 +26,7 @@ IconInner.displayName = 'Icon';
 var StyledIcon = styled(IconInner).withConfig({
   displayName: "StyledIcon",
   componentId: "sc-ofa7kd-0"
-})(["display:inline-block;flex:0 0 auto;", " ", " ", ""], function (_ref2) {
+})(["display:inline-block;flex:0 0 auto;", " ", " ", " ", ""], function (_ref2) {
   var _ref2$size = _ref2.size,
     size = _ref2$size === void 0 ? 'medium' : _ref2$size,
     theme = _ref2.theme,
@@ -46,6 +46,8 @@ var StyledIcon = styled(IconInner).withConfig({
 }, function (_ref3) {
   var color = _ref3.color;
   return color !== 'plain' && colorCss;
+}, function (props) {
+  return props.height && iconPad(props);
 }, function (_ref4) {
   var theme = _ref4.theme;
   return theme && theme.icon.extend;
