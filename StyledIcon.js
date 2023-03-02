@@ -30,6 +30,12 @@ var IconInner = /*#__PURE__*/(0, _react.forwardRef)(function (_ref, ref) {
 });
 IconInner.displayName = 'Icon';
 var StyledIcon = (0, _styledComponents["default"])(IconInner).withConfig({
+  // don't let height attribute leak to DOM
+  // https://styled-components.com/docs/api#shouldforwardprop
+  shouldForwardProp: function shouldForwardProp(prop) {
+    return !['height'].includes(prop);
+  }
+}).withConfig({
   displayName: "StyledIcon",
   componentId: "sc-ofa7kd-0"
 })(["display:inline-block;flex:0 0 auto;", " ", " ", " ", ""], function (_ref2) {
