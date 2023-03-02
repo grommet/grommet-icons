@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components';
 import { colorStyle } from 'grommet-styles';
 
 import { defaultProps } from './default-props';
-import { parseMetricToNum } from './utils';
+import { iconPad, parseMetricToNum } from './utils';
 
 const colorCss = css`
   ${(props) => colorStyle(
@@ -78,6 +78,7 @@ const StyledIcon = styled(IconInner)`
     `;
   }}
   ${({ color }) => color !== 'plain' && colorCss}
+  ${(props) => props.height && iconPad(props)}
   ${({ theme }) => theme && theme.icon.extend}
 `;
 
