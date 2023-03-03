@@ -55,7 +55,7 @@ const StyledIcon = styled(IconInner).withConfig({
   // don't let height attribute leak to DOM
   // https://styled-components.com/docs/api#shouldforwardprop
   shouldForwardProp: (prop) =>
-    !['height'].includes(prop), 
+    !['height', 'width'].includes(prop), 
 })`
   display: inline-block;
   flex: 0 0 auto;
@@ -83,7 +83,7 @@ const StyledIcon = styled(IconInner).withConfig({
     `;
   }}
   ${({ color }) => color !== 'plain' && colorCss}
-  ${(props) => props.height && iconPad(props)}
+  ${(props) => (props.height || props.width) && iconPad(props)}
   ${({ theme }) => theme && theme.icon.extend}
 `;
 

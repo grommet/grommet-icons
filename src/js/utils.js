@@ -45,20 +45,31 @@ export function useScaleProps(props) {
   return result;
 }
 
-// iconPad applies top/bottom padding to icon to ensure it aligns
-// with text line-height
+const calculatePad = (value, iconDimension) => `${(value - iconDimension) / 2}px`;
+
+// iconPad applies padding to icon to ensure it aligns
+// with text line-height or desired width
 export function iconPad(props) {
-  const { height, size = 'medium' } = props;
+  const { height, size = 'medium', width } = props;
   const theme = useContext(ThemeContext);
+  const iconDimension = parseMetricToNum(theme.icon?.size?.[size] || size);
 
   let style = '';
-  if (theme?.text?.[height]?.height) {
-    const dimension = parseMetricToNum(theme.icon?.size?.[size] || size);
-    const lineHeight = parseMetricToNum(theme?.text?.[height]?.height);
+  if (height && theme?.text?.[height]?.height) {
+    const lineHeight = parseMetricToNum(theme.text[height].height);
 
-    if (lineHeight > dimension) {
-      const pad = `${(lineHeight - dimension) / 2}px`;
+    if (lineHeight > iconDimension) {
+      const pad = calculatePad(lineHeight, iconDimension);
       style += `padding-top: ${pad}; padding-bottom: ${pad};`;
+    }
+  }
+
+  if (width && theme?.text?.[width]?.height) {
+    const desiredWidth = parseMetricToNum(theme.text[width].height);
+
+    if (desiredWidth > iconDimension) {
+      const pad = calculatePad(desiredWidth, iconDimension);
+      style += `padding-left: ${pad}; padding-right: ${pad};`;
     }
   }
 
