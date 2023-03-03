@@ -45,6 +45,8 @@ export function useScaleProps(props) {
   return result;
 }
 
+const calculatePad = (value, iconDimension) => `${(value - iconDimension) / 2}px`;
+
 // iconPad applies padding to icon to ensure it aligns
 // with text line-height or desired width
 export function iconPad(props) {
@@ -57,7 +59,7 @@ export function iconPad(props) {
     const lineHeight = parseMetricToNum(theme.text[height].height);
 
     if (lineHeight > iconDimension) {
-      const pad = `${(lineHeight - iconDimension) / 2}px`;
+      const pad = calculatePad(lineHeight, iconDimension);
       style += `padding-top: ${pad}; padding-bottom: ${pad};`;
     }
   }
@@ -66,7 +68,7 @@ export function iconPad(props) {
     const desiredWidth = parseMetricToNum(theme.text[width].height);
 
     if (desiredWidth > iconDimension) {
-      const pad = `${(desiredWidth - iconDimension) / 2}px`;
+      const pad = calculatePad(desiredWidth, iconDimension);
       style += `padding-left: ${pad}; padding-right: ${pad};`;
     }
   }
