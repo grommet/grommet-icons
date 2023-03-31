@@ -9,6 +9,7 @@ var UploadOption = /*#__PURE__*/forwardRef(function (props, ref) {
   }, props), /*#__PURE__*/React.createElement("path", {
     stroke: "#000",
     strokeWidth: "2",
+    fill: "none",
     d: "m17 12-5-5-5 5m5-4v10m0 5c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11z"
   }));
 });

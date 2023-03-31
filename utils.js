@@ -73,7 +73,7 @@ function iconPad(props) {
     size = _props$size === void 0 ? 'medium' : _props$size,
     width = props.width;
   var theme = (0, _react.useContext)(_styledComponents.ThemeContext);
-  var iconDimension = parseMetricToNum(((_theme$icon2 = theme.icon) == null ? void 0 : (_theme$icon2$size = _theme$icon2.size) == null ? void 0 : _theme$icon2$size[size]) || size);
+  var iconDimension = parseMetricToNum((theme == null ? void 0 : (_theme$icon2 = theme.icon) == null ? void 0 : (_theme$icon2$size = _theme$icon2.size) == null ? void 0 : _theme$icon2$size[size]) || size);
   var style = '';
   if (height && theme != null && (_theme$text = theme.text) != null && (_theme$text$height = _theme$text[height]) != null && _theme$text$height.height) {
     var lineHeight = parseMetricToNum(theme.text[height].height);

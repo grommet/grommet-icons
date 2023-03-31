@@ -9,6 +9,7 @@ var Mouse = /*#__PURE__*/forwardRef(function (props, ref) {
   }, props), /*#__PURE__*/React.createElement("path", {
     stroke: "#000",
     strokeWidth: "2",
+    fill: "none",
     d: "M12 4a5 5 0 0 1 5 5v6a5 5 0 0 1-10 0V9a5 5 0 0 1 5-5zm0 0v6m-6 0h12"
   }));
 });

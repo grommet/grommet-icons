@@ -19,7 +19,8 @@ var HomeOption = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
     height: "18",
     rx: "4",
     stroke: "#000",
-    strokeWidth: "2"
+    strokeWidth: "2",
+    fill: "none"
   }));
 });
 exports.HomeOption = HomeOption;

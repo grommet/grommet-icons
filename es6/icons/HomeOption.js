@@ -13,7 +13,8 @@ var HomeOption = /*#__PURE__*/forwardRef(function (props, ref) {
     height: "18",
     rx: "4",
     stroke: "#000",
-    strokeWidth: "2"
+    strokeWidth: "2",
+    fill: "none"
   }));
 });
 HomeOption.displayName = 'HomeOption';

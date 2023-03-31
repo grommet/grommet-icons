@@ -15,6 +15,7 @@ var DisabledOutline = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) 
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
     stroke: "#000",
     strokeWidth: "2",
+    fill: "none",
     d: "M18 12H6M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2z"
   }));
 });

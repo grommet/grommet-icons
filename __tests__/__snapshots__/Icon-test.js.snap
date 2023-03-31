@@ -2211,6 +2211,7 @@ exports[`Icon all icons 43`] = `
 >
   <path
     d="M3 17h4m3 0h4m3 0h4M4 21h2a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1zm7 0h2a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1zm7 0h2a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -2259,6 +2260,7 @@ exports[`Icon all icons 44`] = `
 >
   <path
     d="M17 3v4m0 3v4m0 3v4m4-17v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1zm0 7v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1zm0 7v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -3910,6 +3912,7 @@ exports[`Icon all icons 78`] = `
 >
   <path
     d="M15 19H2V1h16v4m0 0a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm-3 9v8l3-2 3 2v-8M5 8h6m-6 3h5m-5 3h2M5 5h2"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -4463,6 +4466,7 @@ exports[`Icon all icons 89`] = `
 >
   <path
     d="M12 14V6m0 12v-2m0-14C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -6286,6 +6290,7 @@ exports[`Icon all icons 126`] = `
 >
   <path
     d="M1 18h3m-3-4h3m-3-4h3M1 6h3m16 12h3m-3-4h3m-3-4h3m-3-4h3M6 1v3m4-3v3m4-3v3m4-3v3M6 20v3m4-3v3m4-3v3m4-3v3M5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm8-13h4v4h-4V7z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -7365,6 +7370,7 @@ exports[`Icon all icons 148`] = `
 >
   <path
     d="M18 12H6M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -10416,6 +10422,7 @@ exports[`Icon all icons 210`] = `
   viewBox="0 0 24 24"
 >
   <rect
+    fill="none"
     height="20"
     rx="1"
     stroke="#000"
@@ -10425,6 +10432,7 @@ exports[`Icon all icons 210`] = `
     y="2"
   />
   <rect
+    fill="none"
     height="20"
     rx="10"
     stroke="#000"
@@ -10435,12 +10443,14 @@ exports[`Icon all icons 210`] = `
   />
   <path
     d="M15 9.5c.5-.333.9-1.7.5-2.5S13.333 5.667 13 5.5m1 5c1.5-2 0-3.5-2.5-5-1.546-.927 2-1.5 4.5.5 1.875 1.5 1 2.5-2 5.5v-1zm-5.015 3.902c-.5.333-.9 1.7-.5 2.5s2.167 1.333 2.5 1.5m-1-5c-1.5 2 0 3.5 2.5 5 1.546.927-2 1.5-4.5-.5-1.875-1.5-1-2.5 2-5.5v1zm-.443-4.458c-.334-.5-1.7-.9-2.5-.5s-1.334 2.166-1.5 2.5m5-1c-2-1.5-3.5 0-5 2.5-.928 1.546-1.5-2 .5-4.5 1.5-1.875 2.5-1 5.5 2h-1zm3.902 5.014c.333.5 1.7.9 2.5.5s1.333-2.166 1.5-2.5m-5 1c2 1.5 3.5 0 5-2.5.927-1.546 1.5 2-.5 4.5-1.5 1.876-2.5 1-5.5-2h1z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
   <path
     clip-rule="evenodd"
     d="M3.5 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm0 17a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm17 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm0-17a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -11098,6 +11108,7 @@ exports[`Icon all icons 223`] = `
 >
   <path
     d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5zm0 11a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -12811,6 +12822,7 @@ exports[`Icon all icons 258`] = `
 >
   <path
     d="M12 20v-5m0-6V4m-7 8h5m9 0h-5m-.969-4.031L12 9.344l-1.031-1.375h2.062zm-2.062 8.07L12 14.664l1.031 1.375H10.97zM6 13.031 4.625 12 6 10.969v2.062zm12-2.062L19.375 12 18 13.031V10.97zM12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -14003,6 +14015,7 @@ exports[`Icon all icons 282`] = `
   viewBox="0 0 24 24"
 >
   <rect
+    fill="none"
     height="18"
     rx="4"
     stroke="#000"
@@ -14056,6 +14069,7 @@ exports[`Icon all icons 283`] = `
 >
   <path
     d="M1 22V9.76a2 2 0 0 1 .851-1.636l9.575-6.72a1 1 0 0 1 1.149 0l9.574 6.72A2 2 0 0 1 23 9.76V22a1 1 0 0 1-1 1h-5.333a1 1 0 0 1-1-1v-5.674a1 1 0 0 0-1-1H9.333a1 1 0 0 0-1 1V22a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -15523,6 +15537,7 @@ exports[`Icon all icons 313`] = `
 >
   <path
     d="M3 9h3m-3 3h2m-2 3h1m3 0h10m1 0h1m1 0h1m-3-3h3m-2-3h2m-5 0h2M7 9h2m1 0h2m1 0h2M5 15h1m0-3h2m1 0h2m1 0h2m1 0h2M1 7v10a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -17243,6 +17258,7 @@ exports[`Icon all icons 348`] = `
 >
   <path
     d="M10 18h4m-4-4h4m-4-4h4m-4-4h4m6 12h3m-3-4h3m-3-4h3m-3-4h3M1 18h3m-3-4h3m-3-4h3M1 6h3m11 14h4a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zM5 20h4a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -17581,6 +17597,7 @@ exports[`Icon all icons 355`] = `
 >
   <path
     d="M9.874 5.008c2.728-1.68 6.604-1.014 8.25.197-2.955.84-5.11 3.267-5.242 6.415-.18 4.28 3.006 6.588 5.24 7.152-1.964 1.343-4.36 1.293-5.235 1.172-3.568-.492-6.902-3.433-7.007-7.711-.106-4.278 2.573-6.35 3.994-7.225z"
+    fill="none"
     stroke="#000"
     stroke-linejoin="round"
     stroke-width="2"
@@ -17725,6 +17742,7 @@ exports[`Icon all icons 358`] = `
 >
   <path
     d="M12 4a5 5 0 0 1 5 5v6a5 5 0 0 1-10 0V9a5 5 0 0 1 5-5zm0 0v6m-6 0h12"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -18019,6 +18037,7 @@ exports[`Icon all icons 364`] = `
 >
   <path
     d="M12 14v4M22 6v6a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1zM12 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM6 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -20023,6 +20042,7 @@ exports[`Icon all icons 405`] = `
 >
   <path
     d="M15 6V1m-3 23v-9M9 6V1M6 6h12v7a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V6z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -21815,6 +21835,7 @@ exports[`Icon all icons 441`] = `
 >
   <path
     d="M1 12h22M2 22h20a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v18a1 1 0 0 0 1 1zM5 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -25562,6 +25583,7 @@ exports[`Icon all icons 517`] = `
 >
   <path
     d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.657-5.657L19.07 4.93M4.93 19.07l1.414-1.414m0-11.314L4.93 4.93m14.14 14.14-1.414-1.414M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"
+    fill="none"
     stroke="#000"
     stroke-linecap="round"
     stroke-linejoin="round"
@@ -27134,6 +27156,7 @@ exports[`Icon all icons 549`] = `
 >
   <path
     d="M1 13h4l2.5-9 5 16.5L17 9l2 4h4"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -28508,6 +28531,7 @@ exports[`Icon all icons 577`] = `
 >
   <path
     d="m17 12-5-5-5 5m5-4v10m0 5c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
@@ -29925,36 +29949,42 @@ exports[`Icon all icons 606`] = `
 >
   <path
     d="M20 22H4"
+    fill="none"
     stroke="#000"
     stroke-linecap="round"
     stroke-width="2"
   />
   <path
     d="M15.5 18v3m-7.5.5V18"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
   <path
     clip-rule="evenodd"
     d="M12 19a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
   <path
     clip-rule="evenodd"
     d="M12 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
   <path
     clip-rule="evenodd"
     d="M12 14a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />
   <path
     clip-rule="evenodd"
     d="M12 11a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+    fill="none"
     stroke="#000"
     stroke-width="2"
   />

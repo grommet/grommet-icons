@@ -15,7 +15,8 @@ var Time = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
     d: "M1 13h4l2.5-9 5 16.5L17 9l2 4h4",
     stroke: "#000",
-    strokeWidth: "2"
+    strokeWidth: "2",
+    fill: "none"
   }));
 });
 exports.Time = Time;

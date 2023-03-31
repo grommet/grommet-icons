@@ -14,6 +14,7 @@ var Sun = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
     a11yTitle: "Sun"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
     stroke: "#000",
+    fill: "none",
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeWidth: "2",
