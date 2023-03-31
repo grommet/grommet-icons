@@ -52,7 +52,7 @@ const calculatePad = (value, iconDimension) => `${(value - iconDimension) / 2}px
 export function iconPad(props) {
   const { height, size = 'medium', width } = props;
   const theme = useContext(ThemeContext);
-  const iconDimension = parseMetricToNum(theme.icon?.size?.[size] || size);
+  const iconDimension = parseMetricToNum(theme?.icon?.size?.[size] || size);
 
   let style = '';
   if (height && theme?.text?.[height]?.height) {
