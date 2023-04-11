@@ -3,10 +3,33 @@ function _extends() { _extends = Object.assign ? Object.assign.bind() : function
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 import React, { forwardRef } from 'react';
 import styled, { css } from 'styled-components';
-import { colorStyle } from 'grommet-styles';
 import { defaultProps } from './default-props';
 import { iconPad, parseMetricToNum } from './utils';
-var colorCss = css(["", " ", " g{fill:inherit;stroke:inherit;}*:not([stroke]){&[fill=\"none\"]{stroke-width:0;}}*[stroke*=\"#\"],*[STROKE*=\"#\"]{stroke:inherit;fill:none;}*[fill-rule],*[FILL-RULE],*[fill*=\"#\"],*[FILL*=\"#\"]{fill:inherit;stroke:none;}"], function (props) {
+
+// Returns the specific color that should be used according to the theme.
+// If 'dark' is supplied, it takes precedence over 'theme.dark'.
+// Can return undefined.
+var normalizeColor = function normalizeColor(color, theme, dark) {
+  var colorSpec = theme.global && theme.global.colors[color] !== undefined ? theme.global.colors[color] : color;
+  // If the color has a light or dark object, use that
+  var result = colorSpec;
+  if (colorSpec) {
+    if ((dark === true || dark === undefined && theme.dark) && colorSpec.dark !== undefined) {
+      result = colorSpec.dark;
+    } else if ((dark === false || !theme.dark) && colorSpec.light !== undefined) {
+      result = colorSpec.light;
+    }
+  }
+  // allow one level of indirection in color names
+  if (result && theme.global && theme.global.colors[result] !== undefined) {
+    result = normalizeColor(result, theme, dark);
+  }
+  return result;
+};
+var colorStyle = function colorStyle(name, value, theme, required) {
+  return css(["", ":", ";"], name, normalizeColor(value, theme, required));
+};
+var colorCss = css(["", " ", " g{fill:inherit;stroke:inherit;}*:not([stroke]){&[fill='none']{stroke-width:0;}}*[stroke*='#'],*[STROKE*='#']{stroke:inherit;fill:none;}*[fill-rule],*[FILL-RULE],*[fill*='#'],*[FILL*='#']{fill:inherit;stroke:none;}"], function (props) {
   return colorStyle('fill', props.color || props.theme.global.colors.icon, props.theme);
 }, function (props) {
   return colorStyle('stroke', props.color || props.theme.global.colors.icon, props.theme);
