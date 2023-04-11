@@ -1,18 +1,53 @@
 import React, { forwardRef } from 'react';
 import styled, { css } from 'styled-components';
 
-import { colorStyle } from 'grommet-styles';
-
 import { defaultProps } from './default-props';
 import { iconPad, parseMetricToNum } from './utils';
 
+// Returns the specific color that should be used according to the theme.
+// If 'dark' is supplied, it takes precedence over 'theme.dark'.
+// Can return undefined.
+const normalizeColor = (color, theme, dark) => {
+  const colorSpec =
+    theme.global && theme.global.colors[color] !== undefined
+      ? theme.global.colors[color]
+      : color;
+  // If the color has a light or dark object, use that
+  let result = colorSpec;
+  if (colorSpec) {
+    if (
+      (dark === true || (dark === undefined && theme.dark)) &&
+      colorSpec.dark !== undefined
+    ) {
+      result = colorSpec.dark;
+    } else if (
+      (dark === false || !theme.dark) &&
+      colorSpec.light !== undefined
+    ) {
+      result = colorSpec.light;
+    }
+  }
+  // allow one level of indirection in color names
+  if (result && theme.global && theme.global.colors[result] !== undefined) {
+    result = normalizeColor(result, theme, dark);
+  }
+
+  return result;
+};
+
+const colorStyle = (name, value, theme, required) => css`
+  ${name}: ${normalizeColor(value, theme, required)};
+`;
+
 const colorCss = css`
-  ${(props) => colorStyle(
+  ${(props) =>
+    colorStyle(
       'fill',
       props.color || props.theme.global.colors.icon,
       props.theme,
     )}
-  ${(props) => colorStyle(
+  ${(props) =>
+    colorStyle(
       'stroke',
       props.color || props.theme.global.colors.icon,
       props.theme,
@@ -24,21 +59,21 @@ const colorCss = css`
   }
 
   *:not([stroke]) {
-    &[fill="none"] {
+    &[fill='none'] {
       stroke-width: 0;
     }
   }
 
-  *[stroke*="#"],
-  *[STROKE*="#"] {
+  *[stroke*='#'],
+  *[STROKE*='#'] {
     stroke: inherit;
     fill: none;
   }
 
   *[fill-rule],
   *[FILL-RULE],
-  *[fill*="#"],
-  *[FILL*="#"] {
+  *[fill*='#'],
+  *[FILL*='#'] {
     fill: inherit;
     stroke: none;
   }
@@ -54,8 +89,7 @@ IconInner.displayName = 'Icon';
 const StyledIcon = styled(IconInner).withConfig({
   // don't let height attribute leak to DOM
   // https://styled-components.com/docs/api#shouldforwardprop
-  shouldForwardProp: (prop) =>
-    !['height', 'width'].includes(prop), 
+  shouldForwardProp: (prop) => !['height', 'width'].includes(prop),
 })`
   display: inline-block;
   flex: 0 0 auto;
