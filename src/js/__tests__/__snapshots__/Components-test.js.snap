@@ -491,6 +491,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "ContextualHelp": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Contract": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],

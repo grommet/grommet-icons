@@ -120,6 +120,7 @@ export * from './Connectivity';
 export * from './Console';
 export * from './ContactInfo';
 export * from './Contact';
+export * from './ContextualHelp';
 export * from './Contract';
 export * from './Copy';
 export * from './Cpu';
