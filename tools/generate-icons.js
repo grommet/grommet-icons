@@ -4,7 +4,7 @@ import fs from 'fs';
 import { pascalCase } from 'pascal-case';
 import path from 'path';
 import xml2js from 'xml2js';
-import { extendDefaultPlugins, optimize } from 'svgo';
+import { optimize } from 'svgo';
 
 const inputSVGFolder = path.resolve('public/img');
 const outputReactIconFolder = path.resolve('src/js/icons');
@@ -71,14 +71,18 @@ export { ${pascalCase(fileName)} };
 const optimizeSvg = (svg) => {
   const optimized = optimize(svg, {
     multipass: true,
-    plugins: extendDefaultPlugins([
-      // viewBox is required to resize SVGs with CSS.
-      // @see https://github.com/svg/svgo/issues/1128
+    plugins: [
       {
-        name: 'removeViewBox',
-        active: false,
+        name: 'preset-default',
+        params: {
+          overrides: {
+            // viewBox is required to resize SVGs with CSS.
+            // @see https://github.com/svg/svgo/issues/1128
+            removeViewBox: false,
+          },
+        },
       },
-    ]),
+    ],
   });
   return optimized.data;
 };
