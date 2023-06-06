@@ -121,6 +121,7 @@ export default {
   'Console': ['core', 'debug', 'log'],
   'Contact': ['bubble', 'ellipses'],
   'ContactInfo': ['avatar', 'icommunication', 'phone', 'profile'],
+  'ContextualHelp': ['help', 'learning', 'support'],
   'Contract': ['arrows', 'exit fullscreen', 'minimize'],
   'Copy': ['documents', 'duplicate', 'files', 'paste'],
   'Cpu': ['technology', 'processor', 'unit'],

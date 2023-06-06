@@ -859,6 +859,13 @@ Object.keys(_Contact).forEach(function (key) {
   if (key in exports && exports[key] === _Contact[key]) return;
   exports[key] = _Contact[key];
 });
+var _ContextualHelp = require("./ContextualHelp");
+Object.keys(_ContextualHelp).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _ContextualHelp[key]) return;
+  exports[key] = _ContextualHelp[key];
+});
 var _Contract = require("./Contract");
 Object.keys(_Contract).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
