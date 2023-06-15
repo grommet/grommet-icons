@@ -13,6 +13,7 @@ var AppsRounded = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
     viewBox: "0 0 24 24",
     a11yTitle: "AppsRounded"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
+    fill: "none",
     stroke: "#000",
     strokeLinejoin: "round",
     strokeWidth: "2",

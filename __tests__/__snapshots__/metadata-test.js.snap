@@ -771,11 +771,6 @@ exports[`metadata 1`] = `
     "phone",
     "profile",
   ],
-  "ContextualHelp": [
-    "help",
-    "learning",
-    "support",
-  ],
   "Contract": [
     "arrows",
     "exit fullscreen",
@@ -1797,6 +1792,12 @@ exports[`metadata 1`] = `
     "service",
     "support",
     "question",
+  ],
+  "HelpBook": [
+    "contextual",
+    "help",
+    "learning",
+    "support",
   ],
   "HelpOption": [
     "core",

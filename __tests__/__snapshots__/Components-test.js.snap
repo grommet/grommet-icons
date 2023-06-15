@@ -491,10 +491,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ContextualHelp": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Contract": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1108,6 +1104,10 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Help": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "HelpBook": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },

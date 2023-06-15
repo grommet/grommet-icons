@@ -8,7 +8,6 @@ var WifiLow = /*#__PURE__*/forwardRef(function (props, ref) {
     a11yTitle: "WifiLow"
   }, props), /*#__PURE__*/React.createElement("g", {
     fill: "none",
-    fillRule: "evenodd",
     stroke: "#000",
     strokeWidth: "2"
   }, /*#__PURE__*/React.createElement("path", {

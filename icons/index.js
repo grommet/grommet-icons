@@ -859,13 +859,6 @@ Object.keys(_Contact).forEach(function (key) {
   if (key in exports && exports[key] === _Contact[key]) return;
   exports[key] = _Contact[key];
 });
-var _ContextualHelp = require("./ContextualHelp");
-Object.keys(_ContextualHelp).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  if (key in exports && exports[key] === _ContextualHelp[key]) return;
-  exports[key] = _ContextualHelp[key];
-});
 var _Contract = require("./Contract");
 Object.keys(_Contract).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -1048,19 +1041,19 @@ Object.keys(_Disc).forEach(function (key) {
   if (key in exports && exports[key] === _Disc[key]) return;
   exports[key] = _Disc[key];
 });
-var _Dislike = require("./Dislike");
-Object.keys(_Dislike).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  if (key in exports && exports[key] === _Dislike[key]) return;
-  exports[key] = _Dislike[key];
-});
 var _DislikeFill = require("./DislikeFill");
 Object.keys(_DislikeFill).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
   if (key in exports && exports[key] === _DislikeFill[key]) return;
   exports[key] = _DislikeFill[key];
+});
+var _Dislike = require("./Dislike");
+Object.keys(_Dislike).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _Dislike[key]) return;
+  exports[key] = _Dislike[key];
 });
 var _Docker = require("./Docker");
 Object.keys(_Docker).forEach(function (key) {
@@ -1937,6 +1930,13 @@ Object.keys(_Halt).forEach(function (key) {
   if (key in exports && exports[key] === _Halt[key]) return;
   exports[key] = _Halt[key];
 });
+var _HelpBook = require("./HelpBook");
+Object.keys(_HelpBook).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _HelpBook[key]) return;
+  exports[key] = _HelpBook[key];
+});
 var _HelpOption = require("./HelpOption");
 Object.keys(_HelpOption).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -2231,19 +2231,19 @@ Object.keys(_License).forEach(function (key) {
   if (key in exports && exports[key] === _License[key]) return;
   exports[key] = _License[key];
 });
-var _Like = require("./Like");
-Object.keys(_Like).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  if (key in exports && exports[key] === _Like[key]) return;
-  exports[key] = _Like[key];
-});
 var _LikeFill = require("./LikeFill");
 Object.keys(_LikeFill).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
   if (key in exports && exports[key] === _LikeFill[key]) return;
   exports[key] = _LikeFill[key];
+});
+var _Like = require("./Like");
+Object.keys(_Like).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _Like[key]) return;
+  exports[key] = _Like[key];
 });
 var _LineChart = require("./LineChart");
 Object.keys(_LineChart).forEach(function (key) {
@@ -3428,19 +3428,19 @@ Object.keys(_StarHalf).forEach(function (key) {
   if (key in exports && exports[key] === _StarHalf[key]) return;
   exports[key] = _StarHalf[key];
 });
-var _Star = require("./Star");
-Object.keys(_Star).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  if (key in exports && exports[key] === _Star[key]) return;
-  exports[key] = _Star[key];
-});
 var _StarOutline = require("./StarOutline");
 Object.keys(_StarOutline).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
   if (key in exports && exports[key] === _StarOutline[key]) return;
   exports[key] = _StarOutline[key];
+});
+var _Star = require("./Star");
+Object.keys(_Star).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _Star[key]) return;
+  exports[key] = _Star[key];
 });
 var _StatusCriticalSmall = require("./StatusCriticalSmall");
 Object.keys(_StatusCriticalSmall).forEach(function (key) {
