@@ -1,12 +1,14 @@
-import * as React from "react";
+import * as React from 'react';
 
 export interface IconProps {
   a11yTitle?: string;
   color?: string;
-  size?: "small" | "medium" | "large" | "xlarge" | string;
+  size?: 'small' | 'medium' | 'large' | 'xlarge' | string;
 }
 
-export type Icon = React.ComponentType<IconProps & JSX.IntrinsicElements['svg']>;
+export type Icon = React.ComponentType<
+  IconProps & JSX.IntrinsicElements['svg']
+>;
 
 export declare const Accessibility: Icon;
 export declare const Achievement: Icon;
@@ -130,7 +132,6 @@ export declare const Connectivity: Icon;
 export declare const Console: Icon;
 export declare const ContactInfo: Icon;
 export declare const Contact: Icon;
-export declare const ContextualHelp: Icon;
 export declare const Contract: Icon;
 export declare const Copy: Icon;
 export declare const Cpu: Icon;
@@ -284,6 +285,7 @@ export declare const Group: Icon;
 export declare const Grow: Icon;
 export declare const Hadoop: Icon;
 export declare const Halt: Icon;
+export declare const HelpBook: Icon;
 export declare const HelpOption: Icon;
 export declare const Help: Icon;
 export declare const Heroku: Icon;
