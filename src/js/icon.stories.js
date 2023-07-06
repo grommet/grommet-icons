@@ -1,5 +1,4 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
 import { boolean, text } from '@storybook/addon-knobs';
 
 import { ThemeProvider } from 'styled-components';
@@ -22,41 +21,44 @@ const customTheme = {
   },
 };
 
-storiesOf('Icon', module)
-  .add('Default', () => {
-    const Icon = Icons[text('Icon', 'Accessibility')];
-    if (!Icon) {
-      return null;
-    }
-    return <Icon />;
-  })
-  .add('Color', () => {
-    const Icon = Icons[text('Icon', 'Accessibility')];
-    if (!Icon) {
-      return null;
-    }
-    const theme = JSON.parse(JSON.stringify(customTheme));
-    theme.icon.disableScaleDown = boolean('disableScaleDown', false);
-    return (
-      <ThemeProvider theme={theme}>
-        <Icon
-          size={text('Size', 'xlarge')}
-          color={text('Color', 'attention')}
-        />
-      </ThemeProvider>
-    );
-  })
-  .add('Plain', () => <Icons.Pocket color="plain" />)
-  .add('Custom Theme', () => {
-    const Icon = Icons[text('Icon', 'Accessibility')];
-    if (!Icon) {
-      return null;
-    }
-    const theme = JSON.parse(JSON.stringify(customTheme));
-    theme.icon.disableScaleDown = boolean('disableScaleDown', false);
-    return (
-      <ThemeProvider theme={theme}>
-        <Icon size={text('Size', 'xlarge')} />
-      </ThemeProvider>
-    );
-  });
+export default {
+  title: 'Icon',
+};
+
+export const Default = () => {
+  const Icon = Icons[text('Icon', 'Accessibility')];
+  if (!Icon) {
+    return null;
+  }
+  return <Icon />;
+};
+
+export const Color = () => {
+  const Icon = Icons[text('Icon', 'Accessibility')];
+  if (!Icon) {
+    return null;
+  }
+  const theme = JSON.parse(JSON.stringify(customTheme));
+  theme.icon.disableScaleDown = boolean('disableScaleDown', false);
+  return (
+    <ThemeProvider theme={theme}>
+      <Icon size={text('Size', 'xlarge')} color={text('Color', 'attention')} />
+    </ThemeProvider>
+  );
+};
+
+export const Plain = () => <Icons.Pocket color="plain" />;
+
+export const CustomTheme = () => {
+  const Icon = Icons[text('Icon', 'Accessibility')];
+  if (!Icon) {
+    return null;
+  }
+  const theme = JSON.parse(JSON.stringify(customTheme));
+  theme.icon.disableScaleDown = boolean('disableScaleDown', false);
+  return (
+    <ThemeProvider theme={theme}>
+      <Icon size={text('Size', 'xlarge')} />
+    </ThemeProvider>
+  );
+};
