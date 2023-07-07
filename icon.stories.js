@@ -1,7 +1,8 @@
 "use strict";
 
+exports.__esModule = true;
+exports["default"] = exports.Plain = exports.Default = exports.CustomTheme = exports.Color = void 0;
 var _react = _interopRequireDefault(require("react"));
-var _react2 = require("@storybook/react");
 var _addonKnobs = require("@storybook/addon-knobs");
 var _styledComponents = require("styled-components");
 var Icons = _interopRequireWildcard(require("./icons"));
@@ -24,13 +25,19 @@ var customTheme = {
     }
   }
 };
-(0, _react2.storiesOf)('Icon', module).add('Default', function () {
+var _default = {
+  title: 'Icon'
+};
+exports["default"] = _default;
+var Default = function Default() {
   var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Accessibility')];
   if (!Icon) {
     return null;
   }
   return /*#__PURE__*/_react["default"].createElement(Icon, null);
-}).add('Color', function () {
+};
+exports.Default = Default;
+var Color = function Color() {
   var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Accessibility')];
   if (!Icon) {
     return null;
@@ -43,11 +50,15 @@ var customTheme = {
     size: (0, _addonKnobs.text)('Size', 'xlarge'),
     color: (0, _addonKnobs.text)('Color', 'attention')
   }));
-}).add('Plain', function () {
+};
+exports.Color = Color;
+var Plain = function Plain() {
   return /*#__PURE__*/_react["default"].createElement(Icons.Pocket, {
     color: "plain"
   });
-}).add('Custom Theme', function () {
+};
+exports.Plain = Plain;
+var CustomTheme = function CustomTheme() {
   var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Accessibility')];
   if (!Icon) {
     return null;
@@ -59,4 +70,5 @@ var customTheme = {
   }, /*#__PURE__*/_react["default"].createElement(Icon, {
     size: (0, _addonKnobs.text)('Size', 'xlarge')
   }));
-});
+};
+exports.CustomTheme = CustomTheme;

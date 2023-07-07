@@ -67,22 +67,22 @@ var calculatePad = function calculatePad(value, iconDimension) {
 // iconPad applies padding to icon to ensure it aligns
 // with text line-height or desired width
 function iconPad(props) {
-  var _theme$icon2, _theme$icon2$size, _theme$text, _theme$text$height, _theme$text2, _theme$text2$width;
+  var _theme$icon2, _theme$text, _theme$text2;
   var height = props.height,
     _props$size = props.size,
     size = _props$size === void 0 ? 'medium' : _props$size,
     width = props.width;
   var theme = (0, _react.useContext)(_styledComponents.ThemeContext);
-  var iconDimension = parseMetricToNum((theme == null ? void 0 : (_theme$icon2 = theme.icon) == null ? void 0 : (_theme$icon2$size = _theme$icon2.size) == null ? void 0 : _theme$icon2$size[size]) || size);
+  var iconDimension = parseMetricToNum((theme == null || (_theme$icon2 = theme.icon) == null || (_theme$icon2 = _theme$icon2.size) == null ? void 0 : _theme$icon2[size]) || size);
   var style = '';
-  if (height && theme != null && (_theme$text = theme.text) != null && (_theme$text$height = _theme$text[height]) != null && _theme$text$height.height) {
+  if (height && theme != null && (_theme$text = theme.text) != null && (_theme$text = _theme$text[height]) != null && _theme$text.height) {
     var lineHeight = parseMetricToNum(theme.text[height].height);
     if (lineHeight > iconDimension) {
       var pad = calculatePad(lineHeight, iconDimension);
       style += "padding-top: " + pad + "; padding-bottom: " + pad + ";";
     }
   }
-  if (width && theme != null && (_theme$text2 = theme.text) != null && (_theme$text2$width = _theme$text2[width]) != null && _theme$text2$width.height) {
+  if (width && theme != null && (_theme$text2 = theme.text) != null && (_theme$text2 = _theme$text2[width]) != null && _theme$text2.height) {
     var desiredWidth = parseMetricToNum(theme.text[width].height);
     if (desiredWidth > iconDimension) {
       var _pad = calculatePad(desiredWidth, iconDimension);

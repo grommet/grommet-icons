@@ -1,5 +1,4 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
 import { boolean as _boolean, text } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
 import * as Icons from './icons';
@@ -19,13 +18,17 @@ var customTheme = {
     }
   }
 };
-storiesOf('Icon', module).add('Default', function () {
+export default {
+  title: 'Icon'
+};
+export var Default = function Default() {
   var Icon = Icons[text('Icon', 'Accessibility')];
   if (!Icon) {
     return null;
   }
   return /*#__PURE__*/React.createElement(Icon, null);
-}).add('Color', function () {
+};
+export var Color = function Color() {
   var Icon = Icons[text('Icon', 'Accessibility')];
   if (!Icon) {
     return null;
@@ -38,11 +41,13 @@ storiesOf('Icon', module).add('Default', function () {
     size: text('Size', 'xlarge'),
     color: text('Color', 'attention')
   }));
-}).add('Plain', function () {
+};
+export var Plain = function Plain() {
   return /*#__PURE__*/React.createElement(Icons.Pocket, {
     color: "plain"
   });
-}).add('Custom Theme', function () {
+};
+export var CustomTheme = function CustomTheme() {
   var Icon = Icons[text('Icon', 'Accessibility')];
   if (!Icon) {
     return null;
@@ -54,4 +59,4 @@ storiesOf('Icon', module).add('Default', function () {
   }, /*#__PURE__*/React.createElement(Icon, {
     size: text('Size', 'xlarge')
   }));
-});
+};
