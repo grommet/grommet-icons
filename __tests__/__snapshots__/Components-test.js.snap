@@ -30,6 +30,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "AdobeCreativeCloud": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Aed": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -83,6 +87,14 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "AppleAppStore": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "AppleMusic": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "ApplePodcasts": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1059,6 +1071,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "GooglePay": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "GooglePlay": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1255,6 +1271,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "Kubernetes": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Language": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1396,6 +1416,10 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Menu": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "Meta": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1760,6 +1784,10 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "SafariOption": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "SamsungPay": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2175,6 +2203,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "Threads": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Threats": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -2264,6 +2296,10 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Turbolinux": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "Twitch": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2371,6 +2407,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "Venmo": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Video": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -2427,7 +2467,15 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "WeChat": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Webcam": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "WhatsApp": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2468,6 +2516,14 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Workshop": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "X": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "Xing": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },

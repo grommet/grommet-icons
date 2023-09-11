@@ -54,6 +54,13 @@ Object.keys(_Add).forEach(function (key) {
   if (key in exports && exports[key] === _Add[key]) return;
   exports[key] = _Add[key];
 });
+var _AdobeCreativeCloud = require("./AdobeCreativeCloud");
+Object.keys(_AdobeCreativeCloud).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _AdobeCreativeCloud[key]) return;
+  exports[key] = _AdobeCreativeCloud[key];
+});
 var _Aed = require("./Aed");
 Object.keys(_Aed).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -144,6 +151,20 @@ Object.keys(_AppleAppStore).forEach(function (key) {
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
   if (key in exports && exports[key] === _AppleAppStore[key]) return;
   exports[key] = _AppleAppStore[key];
+});
+var _AppleMusic = require("./AppleMusic");
+Object.keys(_AppleMusic).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _AppleMusic[key]) return;
+  exports[key] = _AppleMusic[key];
+});
+var _ApplePodcasts = require("./ApplePodcasts");
+Object.keys(_ApplePodcasts).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _ApplePodcasts[key]) return;
+  exports[key] = _ApplePodcasts[key];
 });
 var _Apple = require("./Apple");
 Object.keys(_Apple).forEach(function (key) {
@@ -1846,6 +1867,13 @@ Object.keys(_Golang).forEach(function (key) {
   if (key in exports && exports[key] === _Golang[key]) return;
   exports[key] = _Golang[key];
 });
+var _GooglePay = require("./GooglePay");
+Object.keys(_GooglePay).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _GooglePay[key]) return;
+  exports[key] = _GooglePay[key];
+});
 var _GooglePlay = require("./GooglePlay");
 Object.keys(_GooglePlay).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -2196,6 +2224,13 @@ Object.keys(_Keyboard).forEach(function (key) {
   if (key in exports && exports[key] === _Keyboard[key]) return;
   exports[key] = _Keyboard[key];
 });
+var _Kubernetes = require("./Kubernetes");
+Object.keys(_Kubernetes).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _Kubernetes[key]) return;
+  exports[key] = _Kubernetes[key];
+});
 var _Language = require("./Language");
 Object.keys(_Language).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -2447,6 +2482,13 @@ Object.keys(_Menu).forEach(function (key) {
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
   if (key in exports && exports[key] === _Menu[key]) return;
   exports[key] = _Menu[key];
+});
+var _Meta = require("./Meta");
+Object.keys(_Meta).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _Meta[key]) return;
+  exports[key] = _Meta[key];
 });
 var _Microfocus = require("./Microfocus");
 Object.keys(_Microfocus).forEach(function (key) {
@@ -3084,6 +3126,13 @@ Object.keys(_SafariOption).forEach(function (key) {
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
   if (key in exports && exports[key] === _SafariOption[key]) return;
   exports[key] = _SafariOption[key];
+});
+var _SamsungPay = require("./SamsungPay");
+Object.keys(_SamsungPay).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _SamsungPay[key]) return;
+  exports[key] = _SamsungPay[key];
 });
 var _Sans = require("./Sans");
 Object.keys(_Sans).forEach(function (key) {
@@ -3806,6 +3855,13 @@ Object.keys(_TextWrap).forEach(function (key) {
   if (key in exports && exports[key] === _TextWrap[key]) return;
   exports[key] = _TextWrap[key];
 });
+var _Threads = require("./Threads");
+Object.keys(_Threads).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _Threads[key]) return;
+  exports[key] = _Threads[key];
+});
 var _Threats = require("./Threats");
 Object.keys(_Threats).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -3960,6 +4016,13 @@ Object.keys(_Turbolinux).forEach(function (key) {
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
   if (key in exports && exports[key] === _Turbolinux[key]) return;
   exports[key] = _Turbolinux[key];
+});
+var _Twitch = require("./Twitch");
+Object.keys(_Twitch).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _Twitch[key]) return;
+  exports[key] = _Twitch[key];
 });
 var _Twitter = require("./Twitter");
 Object.keys(_Twitter).forEach(function (key) {
@@ -4143,6 +4206,13 @@ Object.keys(_Vend).forEach(function (key) {
   if (key in exports && exports[key] === _Vend[key]) return;
   exports[key] = _Vend[key];
 });
+var _Venmo = require("./Venmo");
+Object.keys(_Venmo).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _Venmo[key]) return;
+  exports[key] = _Venmo[key];
+});
 var _Video = require("./Video");
 Object.keys(_Video).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -4248,6 +4318,20 @@ Object.keys(_Webcam).forEach(function (key) {
   if (key in exports && exports[key] === _Webcam[key]) return;
   exports[key] = _Webcam[key];
 });
+var _WeChat = require("./WeChat");
+Object.keys(_WeChat).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _WeChat[key]) return;
+  exports[key] = _WeChat[key];
+});
+var _WhatsApp = require("./WhatsApp");
+Object.keys(_WhatsApp).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _WhatsApp[key]) return;
+  exports[key] = _WhatsApp[key];
+});
 var _WheelchairActive = require("./WheelchairActive");
 Object.keys(_WheelchairActive).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -4317,6 +4401,20 @@ Object.keys(_Workshop).forEach(function (key) {
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
   if (key in exports && exports[key] === _Workshop[key]) return;
   exports[key] = _Workshop[key];
+});
+var _X = require("./X");
+Object.keys(_X).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _X[key]) return;
+  exports[key] = _X[key];
+});
+var _Xing = require("./Xing");
+Object.keys(_Xing).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _Xing[key]) return;
+  exports[key] = _Xing[key];
 });
 var _Yoga = require("./Yoga");
 Object.keys(_Yoga).forEach(function (key) {
