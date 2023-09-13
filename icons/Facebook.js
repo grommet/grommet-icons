@@ -12,11 +12,17 @@ var Facebook = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
     ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "Facebook"
-  }, props), /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "#3B5998",
-    fillRule: "evenodd",
-    d: "M23 0H1a1 1 0 0 0-1 1v22a1 1 0 0 0 1 1h11.75v-9h-3v-3.75h3v-3c0-3.1 1.963-4.625 4.728-4.625 1.324 0 2.463.099 2.794.142v3.24l-1.917.001c-1.504 0-1.855.715-1.855 1.763v2.479h3.75L19.5 15h-3l.06 9H23a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1"
-  }));
+  }, props), /*#__PURE__*/_react["default"].createElement("g", {
+    clipPath: "url(#a)"
+  }, /*#__PURE__*/_react["default"].createElement("path", {
+    fill: "#1089FB",
+    d: "M12 0C5.373 0 0 5.373 0 12c0 6.016 4.432 10.984 10.207 11.852V15.18h-2.97v-3.155h2.97V9.927c0-3.475 1.693-5 4.58-5 1.384 0 2.115.102 2.462.149v2.753h-1.97c-1.226 0-1.655 1.163-1.655 2.473v1.724h3.594l-.488 3.155h-3.106v8.696C19.481 23.083 24 18.075 24 12c0-6.627-5.373-12-12-12Z"
+  })), /*#__PURE__*/_react["default"].createElement("defs", null, /*#__PURE__*/_react["default"].createElement("clipPath", {
+    id: "a"
+  }, /*#__PURE__*/_react["default"].createElement("path", {
+    fill: "#fff",
+    d: "M0 0h24v24H0z"
+  }))));
 });
 exports.Facebook = Facebook;
 Facebook.displayName = 'Facebook';
