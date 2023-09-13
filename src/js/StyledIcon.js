@@ -94,26 +94,29 @@ const StyledIcon = styled(IconInner).withConfig({
   display: inline-block;
   flex: 0 0 auto;
 
-  ${({ size = 'medium', theme, viewBox }) => {
+  ${({ size: sizeProp = 'medium', theme, viewBox }) => {
     const [, , w, h] = (viewBox || '0 0 24 24').split(' ');
     const scale = w / h;
-    const dimension = parseMetricToNum(theme.icon.size[size] || size);
+    const size = theme.icon.size[sizeProp] || sizeProp;
+    const dimension = parseMetricToNum(size);
+    // grab rem, em, px value from resolved size value
+    const unit = size.match(/[a-z]+$/)?.[0] || 'px';
 
     if (w < h) {
       return `
-      width: ${dimension}px;
-      height: ${dimension / scale}px;
+      width: ${dimension}${unit};
+      height: ${dimension / scale}${unit};
     `;
     }
     if (h < w) {
       return `
-      width: ${dimension * scale}px;
-      height: ${dimension}px;
+      width: ${dimension * scale}${unit};
+      height: ${dimension}${unit};
     `;
     }
     return `
-      width: ${dimension}px;
-      height: ${dimension}px;
+      width: ${dimension}${unit};
+      height: ${dimension}${unit};
     `;
   }}
   ${({ color }) => color !== 'plain' && colorCss}
