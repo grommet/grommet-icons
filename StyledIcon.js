@@ -61,22 +61,26 @@ var StyledIcon = (0, _styledComponents["default"])(IconInner).withConfig({
   displayName: "StyledIcon",
   componentId: "sc-ofa7kd-0"
 })(["display:inline-block;flex:0 0 auto;", " ", " ", " ", ""], function (_ref2) {
+  var _size$match;
   var _ref2$size = _ref2.size,
-    size = _ref2$size === void 0 ? 'medium' : _ref2$size,
+    sizeProp = _ref2$size === void 0 ? 'medium' : _ref2$size,
     theme = _ref2.theme,
     viewBox = _ref2.viewBox;
   var _split = (viewBox || '0 0 24 24').split(' '),
     w = _split[2],
     h = _split[3];
   var scale = w / h;
-  var dimension = (0, _utils.parseMetricToNum)(theme.icon.size[size] || size);
+  var size = theme.icon.size[sizeProp] || sizeProp;
+  var dimension = (0, _utils.parseMetricToNum)(size);
+  // grab rem, em, px value from resolved size value
+  var unit = ((_size$match = size.match(/[a-z]+$/)) == null ? void 0 : _size$match[0]) || 'px';
   if (w < h) {
-    return "\n      width: " + dimension + "px;\n      height: " + dimension / scale + "px;\n    ";
+    return "\n      width: " + dimension + unit + ";\n      height: " + dimension / scale + unit + ";\n    ";
   }
   if (h < w) {
-    return "\n      width: " + dimension * scale + "px;\n      height: " + dimension + "px;\n    ";
+    return "\n      width: " + dimension * scale + unit + ";\n      height: " + dimension + unit + ";\n    ";
   }
-  return "\n      width: " + dimension + "px;\n      height: " + dimension + "px;\n    ";
+  return "\n      width: " + dimension + unit + ";\n      height: " + dimension + unit + ";\n    ";
 }, function (_ref3) {
   var color = _ref3.color;
   return color !== 'plain' && colorCss;
