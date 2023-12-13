@@ -4,16 +4,18 @@ exports.__esModule = true;
 exports.GooglePay = void 0;
 var _react = _interopRequireWildcard(require("react"));
 var _StyledIcon = require("../StyledIcon");
+var _utils = require("../utils");
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 var GooglePay = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
+  var prefix = (0, _utils.generatePrefix)('GooglePay');
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "GooglePay"
   }, props), /*#__PURE__*/_react["default"].createElement("g", {
-    clipPath: "url(#a)"
+    clipPath: "url(#" + prefix + "-a)"
   }, /*#__PURE__*/_react["default"].createElement("path", {
     fill: "#EB4434",
     d: "m12.645 14.34 5.937-10.285 3.234 1.867a4.366 4.366 0 0 1 1.598 5.964l-3.344 5.791a2.732 2.732 0 0 1-3.728 1l-3.002-1.732a1.909 1.909 0 0 1-.695-2.606Z"
@@ -27,7 +29,7 @@ var GooglePay = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
     fill: "#2B7AF0",
     d: "M9.496 6.885 6.971 5.43a2.357 2.357 0 0 0-3.215.86L.725 11.524a5.383 5.383 0 0 0 1.977 7.363l1.923 1.108 2.332 1.343 1.012.582a4.138 4.138 0 0 1-1.27-5.51l.786-1.355 2.872-4.964a2.343 2.343 0 0 0-.86-3.207Z"
   })), /*#__PURE__*/_react["default"].createElement("defs", null, /*#__PURE__*/_react["default"].createElement("clipPath", {
-    id: "a"
+    id: prefix + "-a"
   }, /*#__PURE__*/_react["default"].createElement("path", {
     fill: "#fff",
     d: "M0 0h24v24H0z"

@@ -2,7 +2,7 @@
 
 exports.__esModule = true;
 exports.deepMerge = deepMerge;
-exports["default"] = void 0;
+exports.generatePrefix = exports["default"] = void 0;
 exports.iconPad = iconPad;
 exports.isObject = isObject;
 exports.parseMetricToNum = void 0;
@@ -91,6 +91,16 @@ function iconPad(props) {
   }
   return style;
 }
+
+// ensure icons that rely on urls don't have id collision
+// Date.now + Math.random is unique enough for icon use cases
+var generatePrefix = function generatePrefix(name) {
+  return "_grommeticons-" + name + "-" + (
+  // don't include time-based/random id generation in snapshot tests to avoid
+  // needing to update snapshots with every commit
+  process.env.NODE_ENV !== 'test' ? Date.now() + Math.random() : '');
+};
+exports.generatePrefix = generatePrefix;
 var _default = {
   deepMerge: deepMerge,
   isObject: isObject,
