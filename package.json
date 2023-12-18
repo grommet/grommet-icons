@@ -108,6 +108,9 @@
       "<rootDir>[/\\\\](dist|node_modules)[/\\\\]"
     ]
   },
+  "resolutions": {
+    "jackspeak": "2.1.1"
+  },
   "pre-commit": [
     "lint",
     "test"
