@@ -1,4 +1,5 @@
-import { changeCase } from 'change-case';
+import pascalCase from 'just-pascal-case';
+import camelCase from 'just-camel-case';
 import del from 'del';
 import fs from 'fs';
 import path from 'path';
@@ -24,9 +25,7 @@ function getNodeAttributes(node) {
         .filter((key) => !excludeAttributes.test(key))
         .map(
           (attrKey) =>
-            `${changeCase.camelCase(attrKey)}="${convertColors(
-              node.$[attrKey],
-            )}"`,
+            `${camelCase(attrKey)}="${convertColors(node.$[attrKey])}"`,
         )
     : undefined;
 }
@@ -56,19 +55,17 @@ function buildIcon(fileName, svgChildren, viewBox) {
 
 import { StyledIcon } from '../StyledIcon';
 
-const ${changeCase.pascalCase(fileName)} = forwardRef((props, ref) => (
-  <StyledIcon ref={ref} viewBox="${viewBox}" a11yTitle="${changeCase.pascalCase(
+const ${pascalCase(fileName)} = forwardRef((props, ref) => (
+  <StyledIcon ref={ref} viewBox="${viewBox}" a11yTitle="${pascalCase(
     fileName,
   )}" {...props}>
     ${children.join('')}
   </StyledIcon>
 ));
 
-${changeCase.pascalCase(fileName)}.displayName = '${changeCase.pascalCase(
-    fileName,
-  )}';
+${pascalCase(fileName)}.displayName = '${pascalCase(fileName)}';
 
-export { ${changeCase.pascalCase(fileName)} };
+export { ${pascalCase(fileName)} };
 `;
 }
 const optimizeSvg = (svg) => {
@@ -121,7 +118,7 @@ fs.readdir(inputSVGFolder, (err, icons) => {
         g.length > 1 ? g[1].toUpperCase() : g.toUpperCase(),
       );
       const content = fs.readFileSync(iconPath, 'utf8');
-      iconNames.push(changeCase.pascalCase(fileName));
+      iconNames.push(pascalCase(fileName));
 
       createReactIcon(fileName, content).then((reactIcon) => {
         const destinationFile = path.resolve(
