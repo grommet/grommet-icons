@@ -39,7 +39,7 @@ function deepMerge(target) {
   });
   return output;
 }
-var parseMetricToNum = function parseMetricToNum(string) {
+var parseMetricToNum = exports.parseMetricToNum = function parseMetricToNum(string) {
   if (string === void 0) {
     string = '';
   }
@@ -48,7 +48,6 @@ var parseMetricToNum = function parseMetricToNum(string) {
 
 // scaleProps sets path properties to prevent scaling the stroke
 // when the theme doesn't want it for small sizes.
-exports.parseMetricToNum = parseMetricToNum;
 function useScaleProps(props) {
   var _theme$icon;
   var theme = (0, _react.useContext)(_styledComponents.ThemeContext);
@@ -94,18 +93,16 @@ function iconPad(props) {
 
 // ensure icons that rely on urls don't have id collision
 // Date.now + Math.random is unique enough for icon use cases
-var generatePrefix = function generatePrefix(name) {
+var generatePrefix = exports.generatePrefix = function generatePrefix(name) {
   return "_grommeticons-" + name + "-" + (
   // don't include time-based/random id generation in snapshot tests to avoid
   // needing to update snapshots with every commit
   process.env.NODE_ENV !== 'test' ? Date.now() + Math.random() : '');
 };
-exports.generatePrefix = generatePrefix;
-var _default = {
+var _default = exports["default"] = {
   deepMerge: deepMerge,
   isObject: isObject,
   parseMetricToNum: parseMetricToNum,
   iconPad: iconPad,
   useScaleProps: useScaleProps
 };
-exports["default"] = _default;

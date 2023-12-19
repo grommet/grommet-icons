@@ -2,7 +2,7 @@
 
 exports.__esModule = true;
 exports.base = void 0;
-var base = {
+var base = exports.base = {
   global: {
     colors: {
       icon: '#666666'
@@ -17,4 +17,3 @@ var base = {
     }
   }
 };
-exports.base = base;

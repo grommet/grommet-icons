@@ -2,7 +2,7 @@
 
 exports.__esModule = true;
 exports["default"] = void 0;
-var _default = {
+var _default = exports["default"] = {
   Accessibility: ['body', 'disabled', 'disability', 'human', 'person'],
   Achievement: ['award', 'medal', 'prize', 'trophy', 'winner'],
   Action: ['connect', 'plug'],
@@ -624,4 +624,3 @@ var _default = {
   ZoomIn: ['in', 'plus', 'magnify'],
   ZoomOut: ['out', 'minus', 'magnify']
 };
-exports["default"] = _default;

@@ -6,8 +6,8 @@ var _react = _interopRequireDefault(require("react"));
 var _addonKnobs = require("@storybook/addon-knobs");
 var _styledComponents = require("styled-components");
 var Icons = _interopRequireWildcard(require("./icons"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { "default": e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n["default"] = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 var customTheme = {
   global: {
@@ -25,19 +25,17 @@ var customTheme = {
     }
   }
 };
-var _default = {
+var _default = exports["default"] = {
   title: 'Icon'
 };
-exports["default"] = _default;
-var Default = function Default() {
+var Default = exports.Default = function Default() {
   var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Accessibility')];
   if (!Icon) {
     return null;
   }
   return /*#__PURE__*/_react["default"].createElement(Icon, null);
 };
-exports.Default = Default;
-var Color = function Color() {
+var Color = exports.Color = function Color() {
   var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Accessibility')];
   if (!Icon) {
     return null;
@@ -51,14 +49,12 @@ var Color = function Color() {
     color: (0, _addonKnobs.text)('Color', 'attention')
   }));
 };
-exports.Color = Color;
-var Plain = function Plain() {
+var Plain = exports.Plain = function Plain() {
   return /*#__PURE__*/_react["default"].createElement(Icons.Pocket, {
     color: "plain"
   });
 };
-exports.Plain = Plain;
-var CustomTheme = function CustomTheme() {
+var CustomTheme = exports.CustomTheme = function CustomTheme() {
   var Icon = Icons[(0, _addonKnobs.text)('Icon', 'Accessibility')];
   if (!Icon) {
     return null;
@@ -71,4 +67,3 @@ var CustomTheme = function CustomTheme() {
     size: (0, _addonKnobs.text)('Size', 'xlarge')
   }));
 };
-exports.CustomTheme = CustomTheme;
