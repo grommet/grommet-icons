@@ -1,7 +1,7 @@
-import { camelCase } from 'camel-case';
+import pascalCase from 'just-pascal-case';
+import camelCase from 'just-camel-case';
 import del from 'del';
 import fs from 'fs';
-import { pascalCase } from 'pascal-case';
 import path from 'path';
 import xml2js from 'xml2js';
 import { optimize } from 'svgo';
