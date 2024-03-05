@@ -1,4 +1,5 @@
 "use strict";
+'use client';
 
 exports.__esModule = true;
 var _defaultProps = require("./default-props");
