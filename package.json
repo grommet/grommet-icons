@@ -21,7 +21,7 @@
     "url": "https://github.com/grommet/grommet-icons.git"
   },
   "scripts": {
-    "build": "webpack --mode production && babel ./src/js/ --ignore '__tests__' --out-dir ./dist --copy-files && cross-env BABEL_ENV=es6 babel ./src/js/ --ignore '__tests__' --out-dir ./dist/es6 --copy-files",
+    "build": "webpack --mode production && babel ./src/js/ --ignore '__tests__' --out-dir ./dist --copy-files && cross-env BABEL_ENV=es6 babel ./src/js/ --ignore '__tests__' --out-dir ./dist/es6 --copy-files && babel LICENSE COPYRIGHT.md --out-dir ./dist --copy-files",
     "generate-icons": "babel-node ./tools/generate-icons",
     "generate-markdown": "babel-node ./tools/generate-markdown",
     "release-stable": "babel-node ./tools/release-stable",
