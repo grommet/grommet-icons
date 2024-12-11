@@ -57,7 +57,9 @@ export function iconPad(props) {
 
   let style = '';
   if (height && theme?.text?.[height]?.height) {
-    const lineHeight = parseMetricToNum(theme.text[height].height);
+    const unit = theme.text[height].height.match(/[a-z]+$/)?.[0] || 'px';
+    const lineHeight =
+      parseMetricToNum(theme.text[height].height) * (unit === 'rem' ? 16 : 1);
 
     if (lineHeight > iconDimension) {
       const pad = calculatePad(lineHeight, iconDimension);
