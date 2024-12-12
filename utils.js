@@ -75,7 +75,15 @@ function iconPad(props) {
   var iconDimension = parseMetricToNum((theme == null || (_theme$icon2 = theme.icon) == null || (_theme$icon2 = _theme$icon2.size) == null ? void 0 : _theme$icon2[size]) || size);
   var style = '';
   if (height && theme != null && (_theme$text = theme.text) != null && (_theme$text = _theme$text[height]) != null && _theme$text.height) {
+    var _window;
+    // browser default is 16px, but accommodate if app has modified
+    // include fallback in case window is undefined
+    var rootFontSize = parseMetricToNum(((_window = window) == null ? void 0 : _window.getComputedStyle(document.body).getPropertyValue('font-size')) || '16px');
+    // the unit on theme text
+    var _theme$text$height$he = theme.text[height].height.match(/(px|rem)/),
+      unit = _theme$text$height$he[0];
     var lineHeight = parseMetricToNum(theme.text[height].height);
+    if (unit === 'rem') lineHeight *= rootFontSize;
     if (lineHeight > iconDimension) {
       var pad = calculatePad(lineHeight, iconDimension);
       style += "padding-top: " + pad + "; padding-bottom: " + pad + ";";
