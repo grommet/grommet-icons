@@ -64,7 +64,7 @@ export function iconPad(props) {
         '16px',
     );
     // the unit on theme text
-    const unit = theme.text[height].height.match(/[a-z]+$/)?.[0];
+    const unit = theme.text[height].height.match(/(px|rem)/);
     let lineHeight = parseMetricToNum(theme.text[height].height);
     if (unit === 'rem') lineHeight *= rootFontSize;
 
