@@ -57,7 +57,16 @@ export function iconPad(props) {
 
   let style = '';
   if (height && theme?.text?.[height]?.height) {
-    const lineHeight = parseMetricToNum(theme.text[height].height);
+    // browser default is 16px, but accommodate if app has modified
+    // include fallback in case window is undefined
+    const rootFontSize = parseMetricToNum(
+      window?.getComputedStyle(document.body).getPropertyValue('font-size') ||
+        '16px',
+    );
+    // the unit on theme text
+    const [unit] = theme.text[height].height.match(/(px|rem)/);
+    let lineHeight = parseMetricToNum(theme.text[height].height);
+    if (unit === 'rem') lineHeight *= rootFontSize;
 
     if (lineHeight > iconDimension) {
       const pad = calculatePad(lineHeight, iconDimension);
