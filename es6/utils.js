@@ -57,7 +57,7 @@ var calculatePad = function calculatePad(value, iconDimension) {
 // iconPad applies padding to icon to ensure it aligns
 // with text line-height or desired width
 export function iconPad(props) {
-  var _theme$icon2, _theme$text, _theme$text2;
+  var _theme$icon2, _window, _theme$text, _theme$text2;
   var height = props.height,
     _props$size = props.size,
     size = _props$size === void 0 ? 'medium' : _props$size,
@@ -65,11 +65,10 @@ export function iconPad(props) {
   var theme = useContext(ThemeContext);
   var iconDimension = parseMetricToNum((theme == null || (_theme$icon2 = theme.icon) == null || (_theme$icon2 = _theme$icon2.size) == null ? void 0 : _theme$icon2[size]) || size);
   var style = '';
+  // browser default is 16px, but accommodate if app has modified
+  // include fallback in case window is undefined
+  var rootFontSize = parseMetricToNum(((_window = window) == null ? void 0 : _window.getComputedStyle(document.body).getPropertyValue('font-size')) || '16px');
   if (height && theme != null && (_theme$text = theme.text) != null && (_theme$text = _theme$text[height]) != null && _theme$text.height) {
-    var _window;
-    // browser default is 16px, but accommodate if app has modified
-    // include fallback in case window is undefined
-    var rootFontSize = parseMetricToNum(((_window = window) == null ? void 0 : _window.getComputedStyle(document.body).getPropertyValue('font-size')) || '16px');
     // the unit on theme text
     var _theme$text$height$he = theme.text[height].height.match(/(px|rem)/),
       unit = _theme$text$height$he[0];
@@ -81,7 +80,11 @@ export function iconPad(props) {
     }
   }
   if (width && theme != null && (_theme$text2 = theme.text) != null && (_theme$text2 = _theme$text2[width]) != null && _theme$text2.height) {
+    // the unit on theme text
+    var _theme$text$width$hei = theme.text[width].height.match(/(px|rem)/),
+      _unit = _theme$text$width$hei[0];
     var desiredWidth = parseMetricToNum(theme.text[width].height);
+    if (_unit === 'rem') desiredWidth *= rootFontSize;
     if (desiredWidth > iconDimension) {
       var _pad = calculatePad(desiredWidth, iconDimension);
       style += "padding-left: " + _pad + "; padding-right: " + _pad + ";";

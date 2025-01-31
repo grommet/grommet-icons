@@ -136,7 +136,7 @@ describe('Icon', function () {
       container = _render8.container;
     expect(container.firstChild).toMatchSnapshot();
   });
-  test('height with rem text sizes', function () {
+  test('height and width with rem text sizes', function () {
     var _render9 = render( /*#__PURE__*/React.createElement(ThemeProvider, {
         theme: {
           global: {
@@ -158,7 +158,8 @@ describe('Icon', function () {
         }
       }, /*#__PURE__*/React.createElement(StyledIcon, {
         size: "medium",
-        height: "medium"
+        height: "medium",
+        width: "medium"
       }, /*#__PURE__*/React.createElement("g", {
         stroke: "none",
         strokeWidth: "1",

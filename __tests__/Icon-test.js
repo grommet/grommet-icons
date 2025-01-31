@@ -141,7 +141,7 @@ describe('Icon', function () {
       container = _render8.container;
     expect(container.firstChild).toMatchSnapshot();
   });
-  test('height with rem text sizes', function () {
+  test('height and width with rem text sizes', function () {
     var _render9 = (0, _react2.render)( /*#__PURE__*/_react["default"].createElement(_styledComponents.ThemeProvider, {
         theme: {
           global: {
@@ -163,7 +163,8 @@ describe('Icon', function () {
         }
       }, /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, {
         size: "medium",
-        height: "medium"
+        height: "medium",
+        width: "medium"
       }, /*#__PURE__*/_react["default"].createElement("g", {
         stroke: "none",
         strokeWidth: "1",

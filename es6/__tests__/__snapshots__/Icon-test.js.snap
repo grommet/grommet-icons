@@ -31999,7 +31999,7 @@ exports[`Icon custom rem size 1`] = `
 </svg>
 `;
 
-exports[`Icon height with rem text sizes 1`] = `
+exports[`Icon height and width with rem text sizes 1`] = `
 <DocumentFragment>
   .c0 {
   display: inline-block;
@@ -32012,6 +32012,8 @@ exports[`Icon height with rem text sizes 1`] = `
   stroke: #888888;
   padding-top: 3px;
   padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .c0 g {
