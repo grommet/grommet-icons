@@ -14,15 +14,9 @@ const customTheme = {
   icon: {
     size: {
       small: '12px',
-      medium: '18px',
+      medium: '24px',
       large: '48px',
       xlarge: '300px',
-    },
-  },
-  text: {
-    medium: {
-      size: '1.125rem',
-      height: '1.5rem',
     },
   },
 };
@@ -48,12 +42,7 @@ export const Color = () => {
   theme.icon.disableScaleDown = boolean('disableScaleDown', false);
   return (
     <ThemeProvider theme={theme}>
-      <Icon
-        size={text('Size', 'medium')}
-        color={text('Color', 'attention')}
-        height="medium"
-        width="medium"
-      />
+      <Icon size={text('Size', 'xlarge')} color={text('Color', 'attention')} />
     </ThemeProvider>
   );
 };
