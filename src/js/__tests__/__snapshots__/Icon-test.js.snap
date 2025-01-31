@@ -31999,7 +31999,7 @@ exports[`Icon custom rem size 1`] = `
 </svg>
 `;
 
-exports[`Icon height with rem text sizes 1`] = `
+exports[`Icon height and width with rem text sizes 1`] = `
 <DocumentFragment>
   .c0 {
   display: inline-block;

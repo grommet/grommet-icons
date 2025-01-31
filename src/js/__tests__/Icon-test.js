@@ -123,7 +123,7 @@ describe('Icon', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('height with rem text sizes', () => {
+  test('height and width with rem text sizes', () => {
     const { asFragment } = render(
       <ThemeProvider
         theme={{
