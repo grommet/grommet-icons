@@ -58,11 +58,12 @@ export function iconPad(props) {
   let style = '';
   // browser default is 16px, but accommodate if app has modified
   // include fallback in case window is undefined
-  const FALLBACK = '16px'
-  let rootFontSize = parseMetricToNum(FALLBACK); 
+  const FALLBACK = '16px';
+  let rootFontSize = parseMetricToNum(FALLBACK);
   if (typeof window !== 'undefined') {
     rootFontSize = parseMetricToNum(
-      window?.getComputedStyle(document.body).getPropertyValue('font-size') || FALLBACK,
+      window?.getComputedStyle(document.body).getPropertyValue('font-size') ||
+        FALLBACK,
     );
   }
   if (height && theme?.text?.[height]?.height) {
