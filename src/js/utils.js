@@ -58,6 +58,7 @@ export function iconPad(props) {
   let style = '';
   // browser default is 16px, but accommodate if app has modified
   // include fallback in case window is undefined
+  let rootFontSize = parseMetricToNum('16'); 
   if (typeof window !== 'undefined') {
     rootFontSize = parseMetricToNum(
       window.getComputedStyle(document.body).getPropertyValue('font-size') || '16px'
