@@ -66,7 +66,7 @@ var calculatePad = function calculatePad(value, iconDimension) {
 // iconPad applies padding to icon to ensure it aligns
 // with text line-height or desired width
 function iconPad(props) {
-  var _theme$icon2, _window, _theme$text, _theme$text2;
+  var _theme$icon2, _theme$text, _theme$text2;
   var height = props.height,
     _props$size = props.size,
     size = _props$size === void 0 ? 'medium' : _props$size,
@@ -76,7 +76,12 @@ function iconPad(props) {
   var style = '';
   // browser default is 16px, but accommodate if app has modified
   // include fallback in case window is undefined
-  var rootFontSize = parseMetricToNum(((_window = window) == null ? void 0 : _window.getComputedStyle(document.body).getPropertyValue('font-size')) || '16px');
+  var FALLBACK = '16px';
+  var rootFontSize = parseMetricToNum(FALLBACK);
+  if (typeof window !== 'undefined') {
+    var _window;
+    rootFontSize = parseMetricToNum(((_window = window) == null ? void 0 : _window.getComputedStyle(document.body).getPropertyValue('font-size')) || FALLBACK);
+  }
   if (height && theme != null && (_theme$text = theme.text) != null && (_theme$text = _theme$text[height]) != null && _theme$text.height) {
     // the unit on theme text
     var _theme$text$height$he = theme.text[height].height.match(/(px|rem)/),
