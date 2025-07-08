@@ -1051,6 +1051,14 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "GenAI": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "GenAIFill": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Gift": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],

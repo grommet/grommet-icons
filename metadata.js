@@ -262,6 +262,8 @@ var _default = exports["default"] = {
   Gateway: ['network', 'technology'],
   Gatsbyjs: ['code', 'gatsby', 'logo', 'opensource'],
   Gem: ['miscellaneous', 'shape'],
+  GenAI: ['ai', 'sparkle', 'gen ai', 'generative', 'generative ai', 'artificial intelligence'],
+  GenAIFill: ['ai', 'sparkle', 'gen ai', 'generative', 'generative ai', 'artificial intelligence'],
   Gift: ['birthday', 'box', 'christmas', 'present'],
   Github: ['code', 'demo', 'logo', 'media', 'share', 'social', 'opensource'],
   Globe: ['earth', 'global', 'internet', 'planet', 'world'],
