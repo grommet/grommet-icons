@@ -1689,7 +1689,7 @@ exports[`metadata 1`] = `
     "miscellaneous",
     "shape",
   ],
-  "GenAi": [
+  "GenAI": [
     "ai",
     "sparkle",
     "gen ai",
@@ -1697,7 +1697,7 @@ exports[`metadata 1`] = `
     "generative ai",
     "artificial intelligence",
   ],
-  "GenAiFill": [
+  "GenAIFill": [
     "ai",
     "sparkle",
     "gen ai",

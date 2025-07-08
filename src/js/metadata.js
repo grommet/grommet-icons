@@ -597,7 +597,7 @@ export default {
   Gateway: ['network', 'technology'],
   Gatsbyjs: ['code', 'gatsby', 'logo', 'opensource'],
   Gem: ['miscellaneous', 'shape'],
-  GenAi: [
+  GenAI: [
     'ai',
     'sparkle',
     'gen ai',
@@ -605,7 +605,7 @@ export default {
     'generative ai',
     'artificial intelligence',
   ],
-  GenAiFill: [
+  GenAIFill: [
     'ai',
     'sparkle',
     'gen ai',
