@@ -260,6 +260,7 @@ export * from './Gamepad';
 export * from './Gateway';
 export * from './Gatsbyjs';
 export * from './Gem';
+export * from './GenAi';
 export * from './Gift';
 export * from './Github';
 export * from './Globe';
