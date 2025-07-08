@@ -273,6 +273,7 @@ export declare const Gateway: Icon;
 export declare const Gatsbyjs: Icon;
 export declare const Gem: Icon;
 export declare const GenAi: Icon;
+export declare const GenAiFill: Icon;
 export declare const Gift: Icon;
 export declare const Github: Icon;
 export declare const Globe: Icon;

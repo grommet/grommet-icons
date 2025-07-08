@@ -261,6 +261,7 @@ export * from './Gateway';
 export * from './Gatsbyjs';
 export * from './Gem';
 export * from './GenAi';
+export * from './GenAiFill';
 export * from './Gift';
 export * from './Github';
 export * from './Globe';
