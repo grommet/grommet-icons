@@ -90,24 +90,40 @@ workflows:
     jobs:
       - checkout:
           filters:
+            branches:
+              only:
+                - master
+                - NEXT
             tags:
               only: /.*/
       - lint:
           requires:
             - checkout
           filters:
+            branches:
+              only:
+                - master
+                - NEXT
             tags:
               only: /.*/
       - jest:
           requires:
             - checkout
           filters:
+            branches:
+              only:
+                - master
+                - NEXT
             tags:
               only: /.*/
       - build:
           requires:
             - checkout
           filters:
+            branches:
+              only:
+                - master
+                - NEXT
             tags:
               only: /.*/
       - release:
