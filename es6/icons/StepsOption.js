@@ -1,0 +1,17 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import React, { forwardRef } from 'react';
+import { StyledIcon } from '../StyledIcon';
+var StepsOption = /*#__PURE__*/forwardRef(function (props, ref) {
+  return /*#__PURE__*/React.createElement(StyledIcon, _extends({
+    ref: ref,
+    viewBox: "0 0 24 24",
+    a11yTitle: "StepsOption"
+  }, props), /*#__PURE__*/React.createElement("path", {
+    fill: "none",
+    stroke: "#000",
+    strokeWidth: "2",
+    d: "M24 9h-5v5h-5v5H9v5m-8 0v-7.003c0-.55.313-1.31.703-1.7L15.297 1.703c.388-.388 1.156-.703 1.7-.703H24"
+  }));
+});
+StepsOption.displayName = 'StepsOption';
+export { StepsOption };

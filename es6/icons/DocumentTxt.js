@@ -1,0 +1,17 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import React, { forwardRef } from 'react';
+import { StyledIcon } from '../StyledIcon';
+var DocumentTxt = /*#__PURE__*/forwardRef(function (props, ref) {
+  return /*#__PURE__*/React.createElement(StyledIcon, _extends({
+    ref: ref,
+    viewBox: "0 0 24 24",
+    a11yTitle: "DocumentTxt"
+  }, props), /*#__PURE__*/React.createElement("path", {
+    fill: "none",
+    stroke: "#000",
+    strokeWidth: "2",
+    d: "M4.998 9V1H19.5L23 4.5V23H4M18 1v5h5M2 12h5m-2.5 0v7M16 12h5m-2.5 0v7m-4-7.5-6 7m0-7 6 7"
+  }));
+});
+DocumentTxt.displayName = 'DocumentTxt';
+export { DocumentTxt };
