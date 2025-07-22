@@ -9,6 +9,7 @@ const localFolder = path.resolve('.tmp/grommet-icons');
 const BUILD_DIR = 'dist';
 const localDist = path.resolve(BUILD_DIR);
 
+// Find which branch to update
 const [BRANCH] = process.argv
   .find((v) => v.includes('--branch='))
   .split('=')
