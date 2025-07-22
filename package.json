@@ -25,6 +25,7 @@
     "generate-icons": "babel-node ./tools/generate-icons",
     "generate-markdown": "babel-node ./tools/generate-markdown",
     "release-stable": "babel-node ./tools/release-stable",
+    "release-next-stable": "babel-node ./tools/release-stable --branch=NEXT-stable",
     "lint": "eslint src",
     "storybook": "storybook dev -p 9002 -c storybook",
     "build-storybook": "storybook build -c storybook -o storybook-static",
