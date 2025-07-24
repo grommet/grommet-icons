@@ -10,7 +10,7 @@ var StatusCriticalSmall = /*#__PURE__*/forwardRef(function (props, ref) {
     fillRule: "evenodd",
     clipRule: "evenodd",
     d: "M13.557 1.64693C12.6971 0.787004 11.3082 0.781712 10.4429 1.64693L1.6469 10.443C0.786974 11.3029 0.781681 12.6918 1.6469 13.557L10.4429 22.3531C11.3029 23.213 12.6918 23.2183 13.557 22.3531L22.353 13.557C23.213 12.6971 23.2183 11.3082 22.353 10.443L13.557 1.64693Z",
-    fill: "#EC3331"
+    fill: "#000"
   }));
 });
 StatusCriticalSmall.displayName = 'StatusCriticalSmall';
