@@ -10,12 +10,12 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
 var Hpe = exports.Hpe = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     ref: ref,
-    viewBox: "0 0 48 24",
+    viewBox: "0 0 24 24",
     a11yTitle: "Hpe"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
-    d: "M2 6h44v12H2V6zm3 3h38v6H5V9z",
+    d: "M2 6H46V18H2V6ZM5 9H43V15H5V9Z",
     fill: "#00C781"
   }));
 });

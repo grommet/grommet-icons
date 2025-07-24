@@ -10,14 +10,11 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
 var StatusGoodSmall = exports.StatusGoodSmall = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     ref: ref,
-    viewBox: "0 0 12 12",
-    a11yTitle: "Status is okay"
-  }, props), /*#__PURE__*/_react["default"].createElement("circle", {
-    cx: "6",
-    cy: "6",
-    r: "5",
-    fillRule: "evenodd",
-    stroke: "#000"
+    viewBox: "0 0 24 24",
+    a11yTitle: "StatusGoodSmall"
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23Z",
+    fill: "#009A71"
   }));
 });
 StatusGoodSmall.displayName = 'StatusGoodSmall';

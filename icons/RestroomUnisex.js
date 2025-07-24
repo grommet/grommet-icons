@@ -1,0 +1,29 @@
+"use strict";
+
+exports.__esModule = true;
+exports.RestroomUnisex = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var _StyledIcon = require("../StyledIcon");
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { "default": e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && {}.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n["default"] = e, t && t.set(e, n), n; }
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+var RestroomUnisex = exports.RestroomUnisex = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
+  return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
+    ref: ref,
+    viewBox: "0 0 24 24",
+    a11yTitle: "RestroomUnisex"
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M10.0004 6.70996C10.5525 6.71017 11.0004 7.1578 11.0004 7.70996V14.71C11.0004 15.2621 10.5525 15.7098 10.0004 15.71H9.46918L8.99848 22.7764C8.96175 23.3273 8.48487 23.7445 7.93403 23.708C7.38301 23.6713 6.96572 23.1946 7.00239 22.6436L7.84321 10.0166L2.65082 14.4688C2.23156 14.8281 1.60109 14.7795 1.24164 14.3604C0.882222 13.941 0.930717 13.3106 1.35004 12.9512L8.35004 6.95117L8.41938 6.89551C8.58823 6.77512 8.79159 6.70996 9.00043 6.70996H10.0004Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M14.0004 6.70996C14.239 6.71005 14.4697 6.7959 14.6508 6.95117L21.6508 12.9512C22.0699 13.3106 22.1184 13.9411 21.7592 14.3604C21.3999 14.7796 20.7694 14.828 20.35 14.4688L14.6723 9.60156L14.559 10.2246L16.9487 17.3936C17.0503 17.6984 16.9998 18.0342 16.812 18.2949C16.6241 18.5556 16.3217 18.7098 16.0004 18.71H14.0004V22.71C14.0004 23.2621 13.5525 23.7098 13.0004 23.71C12.4481 23.71 12.0004 23.2622 12.0004 22.71V7.70996C12.0004 7.15768 12.4481 6.70996 13.0004 6.70996H14.0004Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M10.0004 1.70996C10.5525 1.71017 11.0004 2.1578 11.0004 2.70996V4.70996C11.0004 5.26212 10.5525 5.70975 10.0004 5.70996C8.89586 5.70996 8.00043 4.81453 8.00043 3.70996C8.00043 2.60539 8.89586 1.70996 10.0004 1.70996Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M13.0004 1.70996C14.1048 1.71017 15.0004 2.60552 15.0004 3.70996C15.0004 4.8144 14.1048 5.70975 13.0004 5.70996C12.4481 5.70996 12.0004 5.26225 12.0004 4.70996V2.70996L12.0053 2.60742C12.0567 2.10331 12.4828 1.70996 13.0004 1.70996Z",
+    fill: "#000"
+  }));
+});
+RestroomUnisex.displayName = 'RestroomUnisex';

@@ -1,0 +1,20 @@
+"use strict";
+
+exports.__esModule = true;
+exports.Gpu = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var _StyledIcon = require("../StyledIcon");
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { "default": e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && {}.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n["default"] = e, t && t.set(e, n), n; }
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+var Gpu = exports.Gpu = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
+  return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
+    ref: ref,
+    viewBox: "0 0 24 24",
+    a11yTitle: "Gpu"
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M3 2.27686C4.10457 2.27686 5 3.17229 5 4.27686V5.27686H21C22.6569 5.27686 24 6.62 24 8.27686V18.2769C24 19.9337 22.6569 21.2769 21 21.2769H5V22.2769C5 22.8291 4.55228 23.2769 4 23.2769C3.44772 23.2769 3 22.8291 3 22.2769V4.27686H1C0.447715 4.27686 0 3.82914 0 3.27686C0 2.72457 0.447715 2.27686 1 2.27686H3ZM5 19.2769H21C21.5523 19.2769 22 18.8291 22 18.2769V8.27686C22 7.72457 21.5523 7.27686 21 7.27686H5V19.2769ZM9 15.2769C9.55228 15.2769 10 15.7246 10 16.2769C10 16.8291 9.55228 17.2769 9 17.2769H7C6.44772 17.2769 6 16.8291 6 16.2769C6 15.7246 6.44772 15.2769 7 15.2769H9ZM16 9.27686C18.2091 9.27686 20 11.0677 20 13.2769C20 15.486 18.2091 17.2769 16 17.2769C13.7909 17.2769 12 15.486 12 13.2769C12 11.0677 13.7909 9.27686 16 9.27686ZM16 11.2769C14.8954 11.2769 14 12.1723 14 13.2769C14 14.3814 14.8954 15.2769 16 15.2769C17.1046 15.2769 18 14.3814 18 13.2769C18 12.1723 17.1046 11.2769 16 11.2769ZM9 12.2769C9.55228 12.2769 10 12.7246 10 13.2769C10 13.8291 9.55228 14.2769 9 14.2769H7C6.44772 14.2769 6 13.8291 6 13.2769C6 12.7246 6.44772 12.2769 7 12.2769H9ZM9 9.27686C9.55228 9.27686 10 9.72457 10 10.2769C10 10.8291 9.55228 11.2769 9 11.2769H7C6.44772 11.2769 6 10.8291 6 10.2769C6 9.72457 6.44772 9.27686 7 9.27686H9Z",
+    fill: "#000"
+  }));
+});
+Gpu.displayName = 'Gpu';

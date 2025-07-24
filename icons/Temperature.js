@@ -1,0 +1,20 @@
+"use strict";
+
+exports.__esModule = true;
+exports.Temperature = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var _StyledIcon = require("../StyledIcon");
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { "default": e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && {}.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n["default"] = e, t && t.set(e, n), n; }
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+var Temperature = exports.Temperature = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
+  return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
+    ref: ref,
+    viewBox: "0 0 24 24",
+    a11yTitle: "Temperature"
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M12 0C14.2091 0 16 1.79086 16 4V11.2578C17.811 12.5216 19 14.6206 19 17C19 20.866 15.866 24 12 24C8.13401 24 5 20.866 5 17C5.00001 14.6206 6.18896 12.5216 8 11.2578V4C8 1.79086 9.79086 0 12 0ZM12 2C10.8954 2 10 2.89543 10 4V12.3799L9.50098 12.668C8.00388 13.534 7.00002 15.1506 7 17C7 19.7614 9.23858 22 12 22C14.7614 22 17 19.7614 17 17C17 15.1506 15.9961 13.534 14.499 12.668L14 12.3799V4C14 2.89543 13.1046 2 12 2ZM12 3C12.5523 3 13 3.44772 13 4V14.1738C14.1647 14.5859 15 15.6941 15 17C15 18.6569 13.6569 20 12 20C10.3431 20 9 18.6569 9 17C9 15.6941 9.83532 14.5859 11 14.1738V4C11 3.44772 11.4477 3 12 3ZM12 16C11.4477 16 11 16.4477 11 17C11 17.5523 11.4477 18 12 18C12.5523 18 13 17.5523 13 17C13 16.4477 12.5523 16 12 16ZM21 8C21.5523 8 22 8.44772 22 9C22 9.55228 21.5523 10 21 10H18C17.4477 10 17 9.55228 17 9C17 8.44772 17.4477 8 18 8H21ZM19 5C19.5523 5 20 5.44772 20 6C20 6.55228 19.5523 7 19 7H18C17.4477 7 17 6.55228 17 6C17 5.44772 17.4477 5 18 5H19ZM21 2C21.5523 2 22 2.44772 22 3C22 3.55228 21.5523 4 21 4H18C17.4477 4 17 3.55228 17 3C17 2.44772 17.4477 2 18 2H21Z",
+    fill: "#000"
+  }));
+});
+Temperature.displayName = 'Temperature';

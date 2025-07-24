@@ -1,0 +1,26 @@
+"use strict";
+
+exports.__esModule = true;
+exports.SensorOff = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var _StyledIcon = require("../StyledIcon");
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { "default": e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && {}.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n["default"] = e, t && t.set(e, n), n; }
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+var SensorOff = exports.SensorOff = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
+  return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
+    ref: ref,
+    viewBox: "0 0 24 24",
+    a11yTitle: "SensorOff"
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M21.293 1.57015C21.6836 1.1798 22.3166 1.17968 22.7071 1.57015C23.0974 1.96063 23.0974 2.59374 22.7071 2.98421L2.7071 22.9842C2.31662 23.3745 1.68351 23.3745 1.29304 22.9842C0.90258 22.5938 0.902717 21.9607 1.29304 21.5702L3.34968 19.5125C-0.51474 15.1526 0.133969 8.65812 4.22175 4.57015C4.61228 4.17969 5.24531 4.17965 5.63581 4.57015C6.02622 4.96066 6.02624 5.59371 5.63581 5.98421C2.22274 9.39748 1.78418 14.6179 4.76862 18.0936L6.14069 16.7215C4.0876 13.9119 4.60336 9.84498 7.04987 7.39827C7.44033 7.00785 8.0734 7.00797 8.46393 7.39827C8.85442 7.78879 8.85442 8.42182 8.46393 8.81234C6.71149 10.565 6.37511 13.3406 7.58112 15.2811L9.22468 13.6375C9.04592 13.2039 9.0001 12.7593 9.00007 12.3485C9.00007 10.6917 10.3433 9.34857 12.0001 9.34847C12.3573 9.34847 12.8468 9.3469 13.3399 9.5223L21.293 1.57015Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M20.7296 7.3641C21.2339 7.13948 21.8251 7.36571 22.0499 7.86995C23.8482 11.9083 23.0924 16.8118 19.7774 20.1268C19.3868 20.5167 18.7537 20.5171 18.3633 20.1268C17.9729 19.7363 17.973 19.1023 18.3633 18.7118C21.0735 16.0016 21.6952 11.9914 20.2227 8.68441C19.9981 8.18005 20.2254 7.58893 20.7296 7.3641Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M17.7266 10.2928C18.2699 10.195 18.7896 10.5562 18.8878 11.0994C19.2808 13.2776 18.6358 15.6111 16.9493 17.2977C16.5588 17.688 15.9257 17.6881 15.5352 17.2977C15.1449 16.9072 15.145 16.2741 15.5352 15.8836C16.7388 14.68 17.2016 13.0157 16.92 11.4549C16.8219 10.9115 17.1832 10.391 17.7266 10.2928Z",
+    fill: "#000"
+  }));
+});
+SensorOff.displayName = 'SensorOff';

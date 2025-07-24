@@ -13,10 +13,14 @@ var Code = exports.Code = /*#__PURE__*/(0, _react.forwardRef)(function (props, r
     viewBox: "0 0 24 24",
     a11yTitle: "Code"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "none",
-    stroke: "#000",
-    strokeWidth: "2",
-    d: "m9 22 6-20m2 15 5-5-5-5M7 17l-5-5 5-5"
+    d: "M15.958 2.56396L9.95801 22.564L8.04199 21.9897L14.042 1.98975L15.958 2.56396Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M7.70703 7.98389L3.41406 12.2769L7.70703 16.5698L6.29297 17.9839L0.585938 12.2769L6.29297 6.56982L7.70703 7.98389Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M23.4141 12.2769L17.707 17.9839L16.293 16.5698L20.5859 12.2769L16.293 7.98389L17.707 6.56982L23.4141 12.2769Z",
+    fill: "#000"
   }));
 });
 Code.displayName = 'Code';

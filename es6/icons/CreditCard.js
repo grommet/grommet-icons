@@ -7,10 +7,16 @@ var CreditCard = /*#__PURE__*/forwardRef(function (props, ref) {
     viewBox: "0 0 24 24",
     a11yTitle: "CreditCard"
   }, props), /*#__PURE__*/React.createElement("path", {
-    fill: "none",
-    stroke: "#000",
-    strokeWidth: "2",
-    d: "M1 5c0-.552.44-1 1.002-1h19.996A1 1 0 0 1 23 5v14c0 .552-.44 1-1.002 1H2.002A1 1 0 0 1 1 19V5zm0 3h22v2H1V8zm4 7h2v.5H5V15zm5 0h6v.5h-6V15z"
+    d: "M6.75 15C7.44036 15 8 15.5596 8 16.25C8 16.9404 7.44036 17.5 6.75 17.5H5.25C4.55964 17.5 4 16.9404 4 16.25C4 15.5596 4.55964 15 5.25 15H6.75Z",
+    fill: "#000"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M15.75 15C16.4404 15 17 15.5596 17 16.25C17 16.9404 16.4404 17.5 15.75 17.5H10.25C9.55964 17.5 9 16.9404 9 16.25C9 15.5596 9.55964 15 10.25 15H15.75Z",
+    fill: "#000"
+  }), /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M20 3C21.6569 3 23 4.34315 23 6V18C23 19.6569 21.6569 21 20 21H4C2.34315 21 1 19.6569 1 18V6C1 4.34315 2.34315 3 4 3H20ZM3 18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18V11H3V18ZM4 5C3.44772 5 3 5.44772 3 6V7H21V6C21 5.44772 20.5523 5 20 5H4Z",
+    fill: "#000"
   }));
 });
 CreditCard.displayName = 'CreditCard';

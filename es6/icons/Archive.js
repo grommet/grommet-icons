@@ -7,10 +7,13 @@ var Archive = /*#__PURE__*/forwardRef(function (props, ref) {
     viewBox: "0 0 24 24",
     a11yTitle: "Archive"
   }, props), /*#__PURE__*/React.createElement("path", {
-    fill: "none",
-    stroke: "#000",
-    strokeWidth: "2",
-    d: "M3 23h18V6H3v17zm6-9h6v-4H9v4zM1 6h22V1H1v5z"
+    d: "M15 9C16.1046 9 17 9.89543 17 11C17 12.1046 16.1046 13 15 13H9C7.89543 13 7 12.1046 7 11C7 9.89543 7.89543 9 9 9H15Z",
+    fill: "#000"
+  }), /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M21 1C22.1046 1 23 1.89543 23 3V5C23 5.73976 22.5971 6.3835 22 6.72949V19C22 21.2091 20.2091 23 18 23H6C3.79086 23 2 21.2091 2 19V6.72949C1.4029 6.3835 1 5.73976 1 5V3C1 1.89543 1.89543 1 3 1H21ZM4 19C4 20.1046 4.89543 21 6 21H18C19.1046 21 20 20.1046 20 19V7H4V19ZM3 5H21V3H3V5Z",
+    fill: "#000"
   }));
 });
 Archive.displayName = 'Archive';

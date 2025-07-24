@@ -7,10 +7,10 @@ var EmptyCircle = /*#__PURE__*/forwardRef(function (props, ref) {
     viewBox: "0 0 24 24",
     a11yTitle: "EmptyCircle"
   }, props), /*#__PURE__*/React.createElement("path", {
-    fill: "none",
-    stroke: "#000",
-    strokeWidth: "2",
-    d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0-6a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M12 1.45361C18.0751 1.45361 23 6.37848 23 12.4536C23 18.5287 18.0751 23.4536 12 23.4536C5.92487 23.4536 1 18.5287 1 12.4536C1 6.37848 5.92487 1.45361 12 1.45361ZM12 3.45361C7.02944 3.45361 3 7.48305 3 12.4536C3 17.4242 7.02944 21.4536 12 21.4536C16.9706 21.4536 21 17.4242 21 12.4536C21 7.48305 16.9706 3.45361 12 3.45361Z",
+    fill: "#000"
   }));
 });
 EmptyCircle.displayName = 'EmptyCircle';

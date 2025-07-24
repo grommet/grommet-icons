@@ -7,10 +7,18 @@ var DocumentWindows = /*#__PURE__*/forwardRef(function (props, ref) {
     viewBox: "0 0 24 24",
     a11yTitle: "DocumentWindows"
   }, props), /*#__PURE__*/React.createElement("path", {
-    fill: "none",
-    stroke: "#000",
-    strokeWidth: "2",
-    d: "M4.998 9V1H19.5L23 4.5V23H4M18 1v5h5m-8.75 5.5-6 7m0-7 6 7M20.5 12h-4v6h4m-1-3h-3M7 12H3v6h4m-1-3H3"
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M12 16.0498L13.4912 14H16.25L13.249 18L16.25 22H13.4912L12 19.9492L10.5088 22H1V14H10.5088L12 16.0498ZM8 16H3V17H7V19H3V20H8V21.666L10.75 18L8 14.333V16Z",
+    fill: "#000"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M24 16H19V17H23V19H19V20H24V22H17V14H24V16Z",
+    fill: "#000"
+  }), /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M13.5205 1C14.714 1.00005 15.8682 1.42739 16.7744 2.2041L21.2529 6.04297C22.3612 6.99288 23 8.38022 23 9.83984V11C23 11.5523 22.5523 12 22 12C21.4477 12 21 11.5523 21 11V9.83984C21 9.55255 20.9577 9.27017 20.8789 9H17C15.3431 9 14 7.65685 14 6V3.04004C13.8423 3.01447 13.6821 3.00001 13.5205 3H6C4.34315 3 3 4.34315 3 6V11C3 11.5523 2.55228 12 2 12C1.44772 12 1 11.5523 1 11V6C1 3.23858 3.23858 1 6 1H13.5205ZM16 6C16 6.55228 16.4477 7 17 7H19.2969L16 4.17383V6Z",
+    fill: "#000"
   }));
 });
 DocumentWindows.displayName = 'DocumentWindows';

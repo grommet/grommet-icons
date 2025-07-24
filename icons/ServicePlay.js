@@ -13,10 +13,15 @@ var ServicePlay = exports.ServicePlay = /*#__PURE__*/(0, _react.forwardRef)(func
     viewBox: "0 0 24 24",
     a11yTitle: "ServicePlay"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "none",
-    stroke: "#000",
-    strokeWidth: "2",
-    d: "M7 13A6 6 0 1 0 7 1a6 6 0 0 0 0 12zm7.995 3.657a6 6 0 1 0-1.89-10.22m-8.281 6.255A6 6 0 0 0 9 23a6 6 0 0 0 2.127-11.612M6.5 6 8 7 6.5 8V6z"
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M6 6.86816C6.00026 5.27105 7.78038 4.31828 9.10938 5.2041L12.3066 7.33594C13.4941 8.12758 13.4941 9.87242 12.3066 10.6641L9.10938 12.7959C7.78038 13.6817 6.00026 12.7289 6 11.1318V6.86816ZM8 11.1318L11.1973 9L8 6.86816V11.1318Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M12 1C14.7614 1 17 3.23858 17 6V7H18C20.7614 7 23 9.23858 23 12V18C23 20.7614 20.7614 23 18 23H12C9.23858 23 7 20.7614 7 18V17H6C3.23858 17 1 14.7614 1 12V6C1 3.23858 3.23858 1 6 1H12ZM17 12C17 14.7614 14.7614 17 12 17H9V18C9 19.6569 10.3431 21 12 21H18C19.6569 21 21 19.6569 21 18V12C21 10.3431 19.6569 9 18 9H17V12ZM6 3C4.34315 3 3 4.34315 3 6V12C3 13.6569 4.34315 15 6 15H12C13.6569 15 15 13.6569 15 12V6C15 4.34315 13.6569 3 12 3H6Z",
+    fill: "#000"
   }));
 });
 ServicePlay.displayName = 'ServicePlay';

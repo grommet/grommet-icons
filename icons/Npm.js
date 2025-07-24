@@ -15,12 +15,13 @@ var Npm = exports.Npm = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref
   }, props), /*#__PURE__*/_react["default"].createElement("g", {
     fill: "none",
     fillRule: "evenodd"
-  }, /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "#D40001",
-    d: "M0 0h24v24H0z"
+  }, /*#__PURE__*/_react["default"].createElement("rect", {
+    width: "24",
+    height: "24",
+    fill: "#D40001"
   }), /*#__PURE__*/_react["default"].createElement("path", {
     fill: "#FFF",
-    d: "M16.718 7.928h-4.513V20.25H4V3h16v17.249h-3.282V7.93z"
+    d: "M16.7179487,7.92840493 L12.2051282,7.92840493 L12.2051282,20.2494172 L4,20.2494172 L4,3 L12.2051282,3 L20,3 L20,7.92840493 L20,20.2494172 L16.7179487,20.2494172 L16.7179487,7.92840493 Z"
   })));
 });
 Npm.displayName = 'Npm';

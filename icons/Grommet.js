@@ -16,7 +16,7 @@ var Grommet = exports.Grommet = /*#__PURE__*/(0, _react.forwardRef)(function (pr
     fill: "none",
     stroke: "#865CD6",
     strokeWidth: "4",
-    d: "M12 2C6.485 2 2 6.485 2 12s4.485 10 10 10 10-4.485 10-10S17.515 2 12 2z"
+    d: "M12,2 C6.485,2 2,6.485 2,12 C2,17.515 6.485,22 12,22 C17.515,22 22,17.515 22,12 C22,6.485 17.515,2 12,2 Z"
   }));
 });
 Grommet.displayName = 'Grommet';

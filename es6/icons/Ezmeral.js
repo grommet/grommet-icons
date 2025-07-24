@@ -4,19 +4,34 @@ import { StyledIcon } from '../StyledIcon';
 var Ezmeral = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
-    viewBox: "0 0 48 24",
+    viewBox: "0 0 24 24",
     a11yTitle: "Ezmeral"
   }, props), /*#__PURE__*/React.createElement("path", {
-    d: "M7 8h34v8H7V8z",
+    d: "M7 8H41V16H7V8Z",
     fill: "#01A982"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M1 8h6v8H1V8zm40 0h6v8h-6V8zM7 16h34v6H7v-6z",
+    d: "M1 8H7V16H1V8Z",
     fill: "#00775B"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7 2h34v6H7V2z",
+    d: "M41 8H47V16H41V8Z",
+    fill: "#00775B"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M7 16H41V22H7V16Z",
+    fill: "#00775B"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M7 2H41V8H7V2Z",
     fill: "#00C781"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "m1 8 6-6v6H1zm0 8 6 6v-6H1zm46-8-6-6v6h6zm0 8-6 6v-6h6z",
+    d: "M1 8L7 2V8H1Z",
+    fill: "#01A982"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M1 16L7 22V16H1Z",
+    fill: "#01A982"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M47 8L41 2V8H47Z",
+    fill: "#01A982"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M47 16L41 22V16H47Z",
     fill: "#01A982"
   }));
 });

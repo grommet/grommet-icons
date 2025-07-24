@@ -13,10 +13,11 @@ var PauseFill = exports.PauseFill = /*#__PURE__*/(0, _react.forwardRef)(function
     viewBox: "0 0 24 24",
     a11yTitle: "PauseFill"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "none",
-    stroke: "#000",
-    strokeWidth: "2",
-    d: "M3 21h6V3H3v18zm1-2h4V5H4v14zm1-2h2V7H5v10zm10 4h6V3h-6v18zm1-2h4V5h-4v14zm1-2h2V7h-2v10z"
+    d: "M6 1C8.20914 1 10 2.79086 10 5V19C10 21.2091 8.20914 23 6 23C3.79086 23 2 21.2091 2 19V5C2 2.79086 3.79086 1 6 1Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M18 1C20.2091 1 22 2.79086 22 5V19C22 21.2091 20.2091 23 18 23C15.7909 23 14 21.2091 14 19V5C14 2.79086 15.7909 1 18 1Z",
+    fill: "#000"
   }));
 });
 PauseFill.displayName = 'PauseFill';

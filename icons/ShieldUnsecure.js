@@ -1,0 +1,25 @@
+"use strict";
+
+exports.__esModule = true;
+exports.ShieldUnsecure = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var _StyledIcon = require("../StyledIcon");
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { "default": e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && {}.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n["default"] = e, t && t.set(e, n), n; }
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+var ShieldUnsecure = exports.ShieldUnsecure = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
+  return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
+    ref: ref,
+    viewBox: "0 0 24 24",
+    a11yTitle: "ShieldUnsecure"
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M14.793 6.79214C15.1834 6.40216 15.8166 6.40216 16.207 6.79214C16.5974 7.18253 16.5972 7.81565 16.207 8.20621L13.4131 10.9992L16.2422 13.8283C16.6326 14.2187 16.6325 14.8518 16.2422 15.2423C15.8516 15.6326 15.2185 15.6328 14.8281 15.2423L12 12.4132L9.17188 15.2423C8.78146 15.6328 8.14836 15.6326 7.75781 15.2423C7.36752 14.8518 7.36736 14.2187 7.75781 13.8283L10.5859 10.9992L7.79297 8.20621C7.40285 7.81565 7.40258 7.18253 7.79297 6.79214C8.18339 6.40216 8.81661 6.40216 9.20703 6.79214L12 9.58511L14.793 6.79214Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M10.8857 0.368315C11.6009 0.0823064 12.3991 0.0823063 13.1143 0.368315L21.1143 3.56851C22.253 4.0241 22.9998 5.12722 23 6.35367V10.9992C23 14.3399 21.0099 16.9905 18.8906 18.8732C16.7572 20.7683 14.3413 22.0243 13.1523 22.5822C12.4183 22.9266 11.5817 22.9266 10.8477 22.5822C9.65868 22.0243 7.24276 20.7683 5.10938 18.8732C2.99013 16.9905 1 14.3399 1 10.9992V6.35367C1.00019 5.12722 1.74704 4.0241 2.88574 3.56851L10.8857 0.368315ZM12.3711 2.22476C12.133 2.12966 11.867 2.12966 11.6289 2.22476L3.62891 5.42496C3.24939 5.57676 3.00019 5.94495 3 6.35367V10.9992C3 13.5029 4.49595 15.6522 6.4375 17.3771C8.36456 19.089 10.5848 20.2497 11.6973 20.7716C11.8931 20.8635 12.1069 20.8635 12.3027 20.7716C13.4152 20.2497 15.6354 19.089 17.5625 17.3771C19.504 15.6522 21 13.5029 21 10.9992V6.35367C20.9998 5.94495 20.7506 5.57676 20.3711 5.42496L12.3711 2.22476Z",
+    fill: "#000"
+  }));
+});
+ShieldUnsecure.displayName = 'ShieldUnsecure';

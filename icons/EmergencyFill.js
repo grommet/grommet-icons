@@ -1,0 +1,20 @@
+"use strict";
+
+exports.__esModule = true;
+exports.EmergencyFill = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var _StyledIcon = require("../StyledIcon");
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { "default": e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && {}.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n["default"] = e, t && t.set(e, n), n; }
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+var EmergencyFill = exports.EmergencyFill = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
+  return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
+    ref: ref,
+    viewBox: "0 0 24 24",
+    a11yTitle: "EmergencyFill"
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M14.1024 1.00488C14.6066 1.05617 14.9999 1.48229 14.9999 2V6.80371L19.16 4.40234L19.2479 4.35645C19.4575 4.26165 19.6947 4.2418 19.9188 4.30176C20.1749 4.37038 20.3936 4.53809 20.5263 4.76758L22.5263 8.23242C22.785 8.68091 22.6573 9.24663 22.246 9.54297L22.16 9.59766L17.9989 12L22.16 14.4023C22.6381 14.6785 22.8021 15.2894 22.5263 15.7676L20.5263 19.2324C20.3936 19.4619 20.1749 19.6296 19.9188 19.6982C19.6947 19.7582 19.4575 19.7383 19.2479 19.6436L19.16 19.5977L14.9999 17.1953V22C14.9999 22.5523 14.5521 22.9999 13.9999 23H9.99989C9.4477 22.9999 8.99989 22.5522 8.99989 22V17.1953L4.83973 19.5977C4.3914 19.8565 3.8257 19.7293 3.52919 19.3184L3.47352 19.2324L1.47352 15.7676C1.3411 15.538 1.30531 15.2648 1.37391 15.0088C1.44259 14.7529 1.61028 14.5349 1.83973 14.4023L5.99989 12L1.83973 9.59766C1.3617 9.32153 1.19771 8.7106 1.47352 8.23242L3.47352 4.76758L3.52723 4.68457C3.66138 4.49775 3.85684 4.36181 4.08094 4.30176C4.33707 4.23318 4.6101 4.26977 4.83973 4.40234L8.99989 6.80371V2L9.00477 1.89746C9.05609 1.39339 9.4823 1.0001 9.99989 1H13.9999L14.1024 1.00488Z",
+    fill: "#000"
+  }));
+});
+EmergencyFill.displayName = 'EmergencyFill';

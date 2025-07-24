@@ -1,0 +1,25 @@
+"use strict";
+
+exports.__esModule = true;
+exports.CloudLocked = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var _StyledIcon = require("../StyledIcon");
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { "default": e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && {}.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n["default"] = e, t && t.set(e, n), n; }
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+var CloudLocked = exports.CloudLocked = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
+  return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
+    ref: ref,
+    viewBox: "0 0 24 24",
+    a11yTitle: "CloudLocked"
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M13 1.27686C14.5767 1.27686 16.079 1.53331 17.2061 2.33838C18.4004 3.19147 19 4.53027 19 6.27686C19.0013 6.27994 19.0066 6.29127 19.0215 6.30713C19.0546 6.34235 19.1157 6.37976 19.1914 6.39502C21.9343 6.9481 24 9.37027 24 12.2769C24 12.8291 23.5523 13.2769 23 13.2769C22.4477 13.2769 22 12.8291 22 12.2769C22 10.341 20.6238 8.72451 18.7959 8.35596C17.9096 8.17725 17 7.41939 17 6.27686C17 5.02344 16.5996 4.36224 16.0439 3.96533C15.421 3.5204 14.4233 3.27686 13 3.27686H11C9.57673 3.27686 8.57896 3.5204 7.95605 3.96533C7.40038 4.36224 7 5.02344 7 6.27686H11C11.5523 6.27686 12 6.72457 12 7.27686C12 7.82914 11.5523 8.27686 11 8.27686H6C3.79086 8.27686 2 10.0677 2 12.2769C2 14.2127 3.3762 15.8292 5.2041 16.1978L5.37012 16.2378C6.2004 16.4724 7 17.2056 7 18.2769C7 19.5303 7.40038 20.1915 7.95605 20.5884C8.57896 21.0333 9.57673 21.2769 11 21.2769H13C13.5523 21.2769 14 21.7246 14 22.2769C14 22.8291 13.5523 23.2769 13 23.2769H11C9.42327 23.2769 7.92104 23.0204 6.79395 22.2153C5.59962 21.3622 5 20.0234 5 18.2769C4.9987 18.2738 4.99341 18.2624 4.97852 18.2466C4.95361 18.2201 4.91291 18.1921 4.8623 18.1733L4.80859 18.1587C2.06569 17.6056 0 15.1834 0 12.2769C0 9.30392 2.16237 6.83699 5 6.36084V6.27686C5 4.53027 5.59962 3.19147 6.79395 2.33838C7.92104 1.53331 9.42327 1.27686 11 1.27686H13Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M19 12.2769C20.6569 12.2769 22 13.62 22 15.2769V16.5464C22.5973 16.8923 23 17.5369 23 18.2769V21.2769C23 22.3814 22.1046 23.2769 21 23.2769H17C15.8954 23.2769 15 22.3814 15 21.2769V18.2769C15 17.5369 15.4027 16.8923 16 16.5464V15.2769C16 13.62 17.3431 12.2769 19 12.2769ZM17 21.2769H21V18.2769H17V21.2769ZM19 14.2769C18.4477 14.2769 18 14.7246 18 15.2769V16.2769H20V15.2769C20 14.7246 19.5523 14.2769 19 14.2769Z",
+    fill: "#000"
+  }));
+});
+CloudLocked.displayName = 'CloudLocked';

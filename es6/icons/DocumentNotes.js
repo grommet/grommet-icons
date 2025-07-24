@@ -7,10 +7,13 @@ var DocumentNotes = /*#__PURE__*/forwardRef(function (props, ref) {
     viewBox: "0 0 24 24",
     a11yTitle: "DocumentNotes"
   }, props), /*#__PURE__*/React.createElement("path", {
-    fill: "none",
-    stroke: "#000",
-    strokeWidth: "2",
-    d: "M4.998 9V1H19.5L23 4.5V23H4M18 1v5h5M9.75 12v6.5H9.5l-5-6.5H4v7h.25v-6.5h.25l5 6.5h.5v-7h-.25z"
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M13.5205 1C14.714 1.00005 15.8682 1.42739 16.7744 2.2041L21.2529 6.04297C22.3612 6.99288 23 8.38022 23 9.83984V18C23 20.7614 20.7614 23 18 23H15C14.4477 23 14 22.5523 14 22C14 21.4477 14.4477 21 15 21H18C19.6569 21 21 19.6569 21 18V9.83984C21 9.55255 20.9577 9.27017 20.8789 9H17C15.3431 9 14 7.65685 14 6V3.04004C13.8423 3.01447 13.6821 3.00001 13.5205 3H6C4.34315 3 3 4.34315 3 6V8C3 8.55228 2.55228 9 2 9C1.44772 9 1 8.55228 1 8V6C1 3.23858 3.23858 1 6 1H13.5205ZM16 6C16 6.55228 16.4477 7 17 7H19.2969L16 4.17383V6Z",
+    fill: "#000"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M8.75 17.8848V13H11V22H9.00781L5.25 17.1152V22H3V13H4.99219L8.75 17.8848Z",
+    fill: "#000"
   }));
 });
 DocumentNotes.displayName = 'DocumentNotes';

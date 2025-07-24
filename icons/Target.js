@@ -13,10 +13,18 @@ var Target = exports.Target = /*#__PURE__*/(0, _react.forwardRef)(function (prop
     viewBox: "0 0 24 24",
     a11yTitle: "Target"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "none",
-    stroke: "#000",
-    strokeWidth: "2",
-    d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11zm-5 0c0-3.309-2.691-6-6-6s-6 2.691-6 6 2.691 6 6 6 6-2.691 6-6zm-5 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"
+    d: "M12 10C13.1043 10 14 10.8957 14 12C14 13.1043 13.1043 14 12 14C10.8957 14 10 13.1043 10 12C10 10.8957 10.8957 10 12 10Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M12 5C15.8613 5 19 8.13872 19 12C19 15.8613 15.8613 19 12 19C8.13872 19 5 15.8613 5 12C5 8.13872 8.13872 5 12 5ZM12 7C9.24328 7 7 9.24328 7 12C7 14.7567 9.24328 17 12 17C14.7567 17 17 14.7567 17 12C17 9.24328 14.7567 7 12 7Z",
+    fill: "#000"
+  }), /*#__PURE__*/_react["default"].createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M12 0C18.6273 0 24 5.37272 24 12C24 18.6273 18.6273 24 12 24C5.37272 24 0 18.6273 0 12C0 5.37272 5.37272 0 12 0ZM12 2C6.47728 2 2 6.47728 2 12C2 17.5227 6.47728 22 12 22C17.5227 22 22 17.5227 22 12C22 6.47728 17.5227 2 12 2Z",
+    fill: "#000"
   }));
 });
 Target.displayName = 'Target';
