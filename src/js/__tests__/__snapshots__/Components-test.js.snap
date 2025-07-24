@@ -1007,11 +1007,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Genai": {
+  "GenAI": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "GenaiFill": {
+  "GenAIFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2487,6 +2487,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "WeChat": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Webcam": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -2495,11 +2499,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Wechat": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Whatsapp": {
+  "WhatsApp": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
