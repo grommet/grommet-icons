@@ -18,4 +18,5 @@ const StatusWarningSmall = forwardRef((props, ref) => (
 ));
 
 StatusWarningSmall.displayName = 'StatusWarningSmall';
+
 export { StatusWarningSmall };
