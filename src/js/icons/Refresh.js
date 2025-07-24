@@ -1,13 +1,11 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const Refresh = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Refresh" {...props}>
-    <path fill="none" stroke="#000" strokeWidth="2" d="M20 8c-1.403-2.96-4.463-5-8-5a9 9 0 1 0 0 18 9 9 0 0 0 9-9m0-9v6h-6" />
+    <path d="M12 1C15.7455 1 19.0616 2.87413 21 5.74023V3C21 2.44772 21.4477 2 22 2C22.5523 2 23 2.44772 23 3V8C23 8.55228 22.5523 9 22 9H17C16.4477 9 16 8.55228 16 8C16 7.44772 16.4477 7 17 7H19.4346C17.8759 4.596 15.1294 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.353 21 19.9865 17.9084 20.8203 13.8008C20.9303 13.2597 21.4579 12.9097 21.999 13.0195C22.5403 13.1294 22.8901 13.658 22.7803 14.1992C21.7609 19.2205 17.3228 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 Refresh.displayName = 'Refresh';
-
 export { Refresh };

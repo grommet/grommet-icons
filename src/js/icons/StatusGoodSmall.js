@@ -1,18 +1,11 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const StatusGoodSmall = forwardRef((props, ref) => (
-  <StyledIcon
-    ref={ref}
-    viewBox="0 0 12 12"
-    a11yTitle="Status is okay"
-    {...props}
-  >
-    <circle cx="6" cy="6" r="5" fillRule="evenodd" stroke="#000" />
+  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="StatusGoodSmall" {...props}>
+    <path d="M12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23Z" fill="#009A71"/>
   </StyledIcon>
 ));
 
 StatusGoodSmall.displayName = 'StatusGoodSmall';
-
 export { StatusGoodSmall };
