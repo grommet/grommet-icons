@@ -1,22 +1,11 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const StatusCriticalSmall = forwardRef((props, ref) => (
-  <StyledIcon
-    ref={ref}
-    viewBox="0 0 12 12"
-    a11yTitle="Status is critical"
-    {...props}
-  >
-    <path
-      fillRule="evenodd"
-      stroke="#000"
-      d="M6.712 1.263a1.005 1.005 0 0 0-1.424 0L1.263 5.288a1.005 1.005 0 0 0 0 1.424l4.025 4.025a1.005 1.005 0 0 0 1.424 0l4.025-4.025a1.005 1.005 0 0 0 0-1.424L6.712 1.263z"
-    />
+  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="StatusCriticalSmall" {...props}>
+    <path fillRule="evenodd" clipRule="evenodd" d="M13.557 1.64693C12.6971 0.787004 11.3082 0.781712 10.4429 1.64693L1.6469 10.443C0.786974 11.3029 0.781681 12.6918 1.6469 13.557L10.4429 22.3531C11.3029 23.213 12.6918 23.2183 13.557 22.3531L22.353 13.557C23.213 12.6971 23.2183 11.3082 22.353 10.443L13.557 1.64693Z" fill="#EC3331"/>
   </StyledIcon>
 ));
 
 StatusCriticalSmall.displayName = 'StatusCriticalSmall';
-
 export { StatusCriticalSmall };

@@ -1,13 +1,11 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const CodeSandbox = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="CodeSandbox" {...props}>
-    <path fill="none" stroke="#444" strokeWidth="2" d="m12 1.5-9 5v11l9 5 9-5v-11l-9-5zm0 21v-11m9-5-9 5m0 0-9-5m18 11V12l-4.5 2.5V20l4.5-2.5zm-18 0V12l4.5 2.5V20L3 17.5zm9-16L7.5 4 12 6.5 16.5 4 12 1.5z" />
+    <path fill="none" stroke="#444" strokeWidth="2" d="M12,1.5 L3,6.5 L3,17.5 L12,22.5 L21,17.5 L21,6.5 L12,1.5 Z M12,22.5 L12,11.5 M21,6.5 L12,11.5 M12,11.5 L3,6.5 M21,17.5 L21,12 L16.5,14.5 L16.5,20 L21,17.5 Z M3,17.5 L3,12 L7.5,14.5 L7.5,20 L3,17.5 Z M12,1.5 L7.5,4 L12,6.5 L16.5,4 L12,1.5 Z"/>
   </StyledIcon>
 ));
 
 CodeSandbox.displayName = 'CodeSandbox';
-
 export { CodeSandbox };

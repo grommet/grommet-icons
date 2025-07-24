@@ -1,23 +1,11 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
-import { useScaleProps } from '../utils';
 
-const LinkDown = forwardRef((props, ref) => {
-  const scaleProps = useScaleProps(props);
-  return (
-    <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="LinkDown" {...props}>
-      <path
-        fill="none"
-        stroke="#000"
-        strokeWidth="2"
-        d="M12 22V2M3 13l9 9 9-9"
-        {...scaleProps}
-      />
-    </StyledIcon>
-  );
-});
+const LinkDown = forwardRef((props, ref) => (
+  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="LinkDown" {...props}>
+    <path d="M12.0001 1C12.5523 1.00006 13.0001 1.44778 13.0001 2V19.5859L19.2931 13.293C19.6836 12.9025 20.3166 12.9025 20.7071 13.293C21.0976 13.6835 21.0976 14.3165 20.7071 14.707L12.0001 23.4141L3.29307 14.707C2.90255 14.3165 2.90255 13.6835 3.29307 13.293C3.68361 12.9025 4.31664 12.9025 4.70714 13.293L11.0001 19.5859V2C11.0001 1.44779 11.4479 1.00007 12.0001 1Z" fill="#555555"/>
+  </StyledIcon>
+));
 
 LinkDown.displayName = 'LinkDown';
-
 export { LinkDown };
