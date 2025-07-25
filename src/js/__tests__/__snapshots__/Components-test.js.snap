@@ -1327,6 +1327,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "Lodging": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Login": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -2148,6 +2152,10 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Switch": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "SwitchOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
