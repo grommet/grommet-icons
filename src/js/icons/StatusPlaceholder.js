@@ -15,7 +15,7 @@ const StatusPlaceholder = forwardRef((props, ref) => (
       x="2"
       y="2"
       fill="none"
-      stroke="#000"
+      stroke="currentColor"
       strokeWidth="2"
       rx="2"
     />

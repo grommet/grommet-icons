@@ -11,7 +11,7 @@ const StatusWarningSmall = forwardRef((props, ref) => (
   >
     <path
       fillRule="evenodd"
-      stroke="#000"
+      stroke="currentColor"
       strokeLinejoin="round"
       d="m6 1 5 9H1z"
     />

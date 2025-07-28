@@ -9,7 +9,7 @@ const StatusGoodSmall = forwardRef((props, ref) => (
     a11yTitle="Status is okay"
     {...props}
   >
-    <circle cx="6" cy="6" r="5" fillRule="evenodd" stroke="#000" />
+    <circle cx="6" cy="6" r="5" fillRule="evenodd" stroke="currentColor" />
   </StyledIcon>
 ));
 

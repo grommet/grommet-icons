@@ -65,7 +65,9 @@ const colorCss = css`
   }
 
   *[stroke*='#'],
-  *[STROKE*='#'] {
+  *[STROKE*='#'],
+  *[stroke*='currentColor'],
+  *[STROKE*='currentColor'] {
     stroke: inherit;
     fill: none;
   }
@@ -73,7 +75,9 @@ const colorCss = css`
   *[fill-rule],
   *[FILL-RULE],
   *[fill*='#'],
-  *[FILL*='#'] {
+  *[FILL*='#'],
+  *[fill*='currentColor'],
+  *[FILL*='currentColor'] {
     fill: inherit;
     stroke: none;
   }

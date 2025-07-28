@@ -15,7 +15,7 @@ const StatusPlaceholderSmall = forwardRef((props, ref) => (
       x="1"
       y="1"
       fillRule="evenodd"
-      stroke="#000"
+      stroke="currentColor"
       rx="1"
     />
   </StyledIcon>

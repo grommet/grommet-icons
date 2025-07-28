@@ -11,7 +11,7 @@ const StatusWarning = forwardRef((props, ref) => (
   >
     <path
       fill="none"
-      stroke="#000"
+      stroke="currentColor"
       strokeLinejoin="round"
       strokeWidth="2"
       d="m12 3 10 18H2L12 3zm0 6v6m0 1v2"
