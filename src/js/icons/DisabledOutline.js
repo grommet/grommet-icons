@@ -2,9 +2,22 @@ import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
 
 const DisabledOutline = forwardRef((props, ref) => (
-  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="DisabledOutline" {...props}>
-    <path d="M17 11C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12C6 11.4477 6.44772 11 7 11H17Z" fill="#555555"/>
-<path fillRule="evenodd" clipRule="evenodd" d="M18 1C20.7614 1 23 3.23858 23 6V18C23 20.7614 20.7614 23 18 23H6C3.23858 23 1 20.7614 1 18V6C1 3.23858 3.23858 1 6 1H18ZM6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6Z" fill="#555555"/>
+  <StyledIcon
+    ref={ref}
+    viewBox="0 0 24 24"
+    a11yTitle="DisabledOutline"
+    {...props}
+  >
+    <path
+      d="M17 11C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12C6 11.4477 6.44772 11 7 11H17Z"
+      fill="#000"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M18 1C20.7614 1 23 3.23858 23 6V18C23 20.7614 20.7614 23 18 23H6C3.23858 23 1 20.7614 1 18V6C1 3.23858 3.23858 1 6 1H18ZM6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6Z"
+      fill="#000"
+    />
   </StyledIcon>
 ));
 

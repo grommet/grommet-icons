@@ -2,6 +2,14 @@
 
 exports[`Components loads 1`] = `
 {
+  "AIGen": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "AIGenFill": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Accessibility": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -39,14 +47,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Aggregate": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "AiGen": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "AiGenFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2495,6 +2495,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "WeChat": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Webcam": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -2503,11 +2507,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Wechat": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Whatsapp": {
+  "WhatsApp": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
