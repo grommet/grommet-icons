@@ -9,15 +9,7 @@ const StatusPlaceholderSmall = forwardRef((props, ref) => (
     a11yTitle="Placeholder Status"
     {...props}
   >
-    <rect
-      width="10"
-      height="10"
-      x="1"
-      y="1"
-      fillRule="evenodd"
-      stroke="#000"
-      rx="1"
-    />
+    <rect width="10" height="10" x="1" y="1" fillRule="evenodd" rx="1" />
   </StyledIcon>
 ));
 
