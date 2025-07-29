@@ -11,7 +11,6 @@ const VmMaintenance = forwardRef((props, ref) => (
   >
     <path
       fill="none"
-      stroke="currentColor"
       strokeWidth="2"
       d="M19 10V2H7v12h7V7H2v12h8m4 4 6-6m1-3a2 2 0 1 0 2 2"
     />

@@ -6,7 +6,6 @@ const Tip = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Tip" {...props}>
     <path
       fill="none"
-      stroke="currentColor"
       strokeWidth="2"
       d="M16.007 18H22V2H2v16h6.243l3.882 4 3.882-4z"
     />

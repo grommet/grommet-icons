@@ -9,12 +9,7 @@ const FormPreviousLink = forwardRef((props, ref) => (
     a11yTitle="FormPreviousLink"
     {...props}
   >
-    <path
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      d="M18 12.4H6M11.4 7 6 12.4l5.4 5.4"
-    />
+    <path fill="none" strokeWidth="2" d="M18 12.4H6M11.4 7 6 12.4l5.4 5.4" />
   </StyledIcon>
 ));
 

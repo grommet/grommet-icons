@@ -9,12 +9,7 @@ const CheckboxSelected = forwardRef((props, ref) => (
     a11yTitle="CheckboxSelected"
     {...props}
   >
-    <path
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      d="M2 2h20v20H2V2zm3 11 5 4 9-11"
-    />
+    <path fill="none" strokeWidth="2" d="M2 2h20v20H2V2zm3 11 5 4 9-11" />
   </StyledIcon>
 ));
 

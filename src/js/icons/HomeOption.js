@@ -10,7 +10,6 @@ const HomeOption = forwardRef((props, ref) => (
       width="18"
       height="18"
       rx="4"
-      stroke="currentColor"
       strokeWidth="2"
       fill="none"
     />

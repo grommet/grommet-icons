@@ -9,12 +9,7 @@ const StatusWarningSmall = forwardRef((props, ref) => (
     a11yTitle="Status is warning"
     {...props}
   >
-    <path
-      fillRule="evenodd"
-      stroke="currentColor"
-      strokeLinejoin="round"
-      d="m6 1 5 9H1z"
-    />
+    <path fillRule="evenodd" strokeLinejoin="round" d="m6 1 5 9H1z" />
   </StyledIcon>
 ));
 

@@ -11,7 +11,6 @@ const DocumentDownload = forwardRef((props, ref) => (
   >
     <path
       fill="none"
-      stroke="currentColor"
       strokeWidth="2"
       d="M2.998 1H17.5L21 4.5V23H3L2.998 1zM16 1v5h5m-9 3v9m-4-3 4 4 4-4"
     />

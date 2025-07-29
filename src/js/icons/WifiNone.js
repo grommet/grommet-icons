@@ -4,7 +4,7 @@ import { StyledIcon } from '../StyledIcon';
 
 const WifiNone = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="WifiNone" {...props}>
-    <g fill="none" stroke="currentColor" strokeWidth="2">
+    <g fill="none" strokeWidth="2">
       <circle cx="12" cy="18" r="2" />
       <path
         strokeOpacity=".2"

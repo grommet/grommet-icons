@@ -6,7 +6,6 @@ const Coffee = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Coffee" {...props}>
     <g fill="none">
       <path
-        stroke="currentColor"
         strokeWidth="2"
         d="M6.264 20.192c4.096 2.868 8.602-.081 11.47-4.177 2.868-4.095 4.097-9.338.002-12.206-4.096-2.868-8.602.08-11.47 4.176-2.868 4.096-4.098 9.339-.002 12.207z"
       />

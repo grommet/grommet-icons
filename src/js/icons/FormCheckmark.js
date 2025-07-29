@@ -9,12 +9,7 @@ const FormCheckmark = forwardRef((props, ref) => (
     a11yTitle="FormCheckmark"
     {...props}
   >
-    <path
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      d="m6 13 4.2 3.6L18 7"
-    />
+    <path fill="none" strokeWidth="2" d="m6 13 4.2 3.6L18 7" />
   </StyledIcon>
 ));
 

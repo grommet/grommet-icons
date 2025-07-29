@@ -11,7 +11,6 @@ const DocumentSound = forwardRef((props, ref) => (
   >
     <path
       fill="none"
-      stroke="currentColor"
       strokeWidth="2"
       d="M2.998 9V1H17.5L21 4.5V23h-3M16 1v5h5M1 14.01v4h3l4 3V11l-4 3.01H1zM11 18a2 2 0 1 0 0-4m0 8a6 6 0 1 0 0-12"
     />

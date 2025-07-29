@@ -5,7 +5,6 @@ import { StyledIcon } from '../StyledIcon';
 const Sun = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Sun" {...props}>
     <path
-      stroke="currentColor"
       fill="none"
       strokeLinecap="round"
       strokeLinejoin="round"

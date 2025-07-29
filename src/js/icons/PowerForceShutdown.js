@@ -11,7 +11,6 @@ const PowerForceShutdown = forwardRef((props, ref) => (
   >
     <path
       fill="none"
-      stroke="currentColor"
       strokeWidth="2"
       d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm0-13v8"
     />

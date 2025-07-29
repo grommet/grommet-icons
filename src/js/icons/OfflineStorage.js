@@ -11,7 +11,6 @@ const OfflineStorage = forwardRef((props, ref) => (
   >
     <path
       fill="none"
-      stroke="currentColor"
       strokeWidth="2"
       d="M12 21a9 9 0 1 0 0-18 9 9 0 1 0 0 18zm8-12h-8a3 3 0 0 0 0 6h8"
     />

@@ -11,7 +11,6 @@ const ObjectUngroup = forwardRef((props, ref) => (
   >
     <path
       fill="none"
-      stroke="currentColor"
       strokeWidth="2"
       d="M1 1h3v3H1V1zm12 0h3v3h-3V1zM4 2h9m2 7h5M4 15h9M1 13h3v3H1v-3zm12 0h3v3h-3v-3zM2 4v9m13-9v9m5-5h3v3h-3V8zm-9 14h9M8 20h3v3H8v-3zm12 0h3v3h-3v-3zM9 16v4m13-9v9"
     />

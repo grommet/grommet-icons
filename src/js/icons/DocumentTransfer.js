@@ -11,7 +11,6 @@ const DocumentTransfer = forwardRef((props, ref) => (
   >
     <path
       fill="none"
-      stroke="currentColor"
       strokeWidth="2"
       d="M4.998 9V1H19.5L23 4.5V23H4M18 1v5h5M8 12l-4 4 4 4m-4-4h11"
     />

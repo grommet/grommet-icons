@@ -11,7 +11,6 @@ const VirtualMachine = forwardRef((props, ref) => (
   >
     <path
       fill="none"
-      stroke="currentColor"
       strokeWidth="2"
       d="M1 23h13V10H1v13zm9-4h13V6H10v13zm-5-5h13V1H5v13z"
     />

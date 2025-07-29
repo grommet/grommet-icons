@@ -11,7 +11,6 @@ const DocumentMissing = forwardRef((props, ref) => (
   >
     <path
       fill="none"
-      stroke="currentColor"
       strokeWidth="2"
       d="M2.998 1H17.5L21 4.5V23H3L2.998 1zM16 1v5h5M9 12l6 6m0-6-6 6"
     />

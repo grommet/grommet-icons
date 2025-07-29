@@ -9,15 +9,7 @@ const StatusInfoSmall = forwardRef((props, ref) => (
     a11yTitle="Information Status"
     {...props}
   >
-    <rect
-      width="10"
-      height="10"
-      x="1"
-      y="1"
-      fillRule="evenodd"
-      stroke="currentColor"
-      rx="1"
-    />
+    <rect width="10" height="10" x="1" y="1" fillRule="evenodd" rx="1" />
   </StyledIcon>
 ));
 

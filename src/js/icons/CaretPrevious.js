@@ -9,12 +9,7 @@ const CaretPrevious = forwardRef((props, ref) => (
     a11yTitle="CaretPrevious"
     {...props}
   >
-    <path
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      d="M18 2 6 12l12 10z"
-    />
+    <path fill="none" strokeWidth="2" d="M18 2 6 12l12 10z" />
   </StyledIcon>
 ));
 
