@@ -13,8 +13,8 @@ var X = exports.X = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
     viewBox: "0 0 24 24",
     a11yTitle: "X"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "#000",
-    d: "m.058 1 9.267 12.39L0 23.462h2.099l8.163-8.82 6.596 8.82H24l-9.788-13.087L22.892 1h-2.1l-7.517 8.122L7.2 1H.058Zm3.087 1.546h3.28l14.488 19.37h-3.28L3.145 2.547Z"
+    d: "M0.058 1L9.325 13.39L0 23.462H2.099L10.262 14.642L16.858 23.462H24L14.212 10.375L22.892 1H20.792L13.275 9.122L7.2 1H0.058ZM3.145 2.546H6.425L20.913 21.916H17.633L3.145 2.546Z",
+    fill: "black"
   }));
 });
 X.displayName = 'X';

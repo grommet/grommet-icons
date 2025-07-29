@@ -4,7 +4,7 @@ import { StyledIcon } from '../StyledIcon';
 var LogoGrommet = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
-    viewBox: "0 0 25 24",
+    viewBox: "0 0 24 24",
     a11yTitle: "LogoGrommet"
   }, props), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",

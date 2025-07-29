@@ -13,10 +13,8 @@ var Grommet = exports.Grommet = /*#__PURE__*/(0, _react.forwardRef)(function (pr
     viewBox: "0 0 24 24",
     a11yTitle: "Grommet"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "none",
-    stroke: "#865CD6",
-    strokeWidth: "4",
-    d: "M12,2 C6.485,2 2,6.485 2,12 C2,17.515 6.485,22 12,22 C17.515,22 22,17.515 22,12 C22,6.485 17.515,2 12,2 Z"
+    d: "M20 12C20 7.58957 16.4104 4 12 4C7.58957 4 4 7.58957 4 12C4 16.4104 7.58957 20 12 20C16.4104 20 20 16.4104 20 12ZM24 12C24 18.6196 18.6196 24 12 24C5.38043 24 0 18.6196 0 12C0 5.38043 5.38043 0 12 0C18.6196 0 24 5.38043 24 12Z",
+    fill: "#865CD6"
   }));
 });
 Grommet.displayName = 'Grommet';

@@ -4,7 +4,7 @@ import { StyledIcon } from '../StyledIcon';
 var LogoHpe = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
-    viewBox: "0 0 24 24",
+    viewBox: "0 0 49 24",
     a11yTitle: "LogoHpe"
   }, props), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",

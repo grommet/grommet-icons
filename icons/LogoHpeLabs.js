@@ -10,7 +10,7 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
 var LogoHpeLabs = exports.LogoHpeLabs = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     ref: ref,
-    viewBox: "0 0 25 24",
+    viewBox: "0 0 24 24",
     a11yTitle: "LogoHpeLabs"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fillRule: "evenodd",

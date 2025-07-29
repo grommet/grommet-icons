@@ -12,16 +12,9 @@ var Facebook = exports.Facebook = /*#__PURE__*/(0, _react.forwardRef)(function (
     ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "Facebook"
-  }, props), /*#__PURE__*/_react["default"].createElement("g", {
-    clipPath: "url(#a)"
-  }, /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "#1089FB",
-    d: "M12 0C5.373 0 0 5.373 0 12c0 6.016 4.432 10.984 10.207 11.852V15.18h-2.97v-3.155h2.97V9.927c0-3.475 1.693-5 4.58-5 1.384 0 2.115.102 2.462.149v2.753h-1.97c-1.226 0-1.655 1.163-1.655 2.473v1.724h3.594l-.488 3.155h-3.106v8.696C19.481 23.083 24 18.075 24 12c0-6.627-5.373-12-12-12Z"
-  })), /*#__PURE__*/_react["default"].createElement("defs", null, /*#__PURE__*/_react["default"].createElement("clipPath", {
-    id: "a"
-  }, /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "#fff",
-    d: "M0 0h24v24H0z"
-  }))));
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M12 0C5.373 0 0 5.373 0 12C0 18.016 4.432 22.984 10.207 23.852V15.18H7.237V12.025H10.207V9.927C10.207 6.452 11.9 4.927 14.787 4.927C16.171 4.927 16.902 5.029 17.249 5.076V7.829H15.279C14.053 7.829 13.624 8.992 13.624 10.302V12.026H17.218L16.73 15.181H13.624V23.877C19.481 23.083 24 18.075 24 12C24 5.373 18.627 0 12 0Z",
+    fill: "#1089FB"
+  }));
 });
 Facebook.displayName = 'Facebook';

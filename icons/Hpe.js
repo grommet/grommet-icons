@@ -15,7 +15,7 @@ var Hpe = exports.Hpe = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
-    d: "M2 6H46V18H2V6ZM5 9H43V15H5V9Z",
+    d: "M0 8.72726H24V15.2727H0V8.72726ZM1.63636 10.3636H22.3636V13.6364H1.63636V10.3636Z",
     fill: "#00C781"
   }));
 });

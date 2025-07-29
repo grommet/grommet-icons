@@ -12,27 +12,29 @@ var Figma = exports.Figma = /*#__PURE__*/(0, _react.forwardRef)(function (props,
     ref: ref,
     viewBox: "0 0 24 24",
     a11yTitle: "Figma"
-  }, props), /*#__PURE__*/_react["default"].createElement("g", {
-    fill: "none",
-    fillRule: "evenodd",
-    transform: "translate(4)"
-  }, /*#__PURE__*/_react["default"].createElement("circle", {
-    cx: "12",
-    cy: "12",
-    r: "4",
+  }, props), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M16 16C18.2091 16 20 14.2091 20 12C20 9.79086 18.2091 8 16 8C13.7909 8 12 9.79086 12 12C12 14.2091 13.7909 16 16 16Z",
     fill: "#19BCFE"
   }), /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "#09CF83",
-    d: "M4,24 C6.209139,24 8,22.209139 8,20 C8,19.3969461 8,18.0636128 8,16 C6.20303877,16 4.86970543,16 4,16 C1.790861,16 0,17.790861 0,20 C0,22.209139 1.790861,24 4,24 Z"
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M8 24C10.2091 24 12 22.2091 12 20C12 19.3969 12 18.0636 12 16C10.203 16 8.86971 16 8 16C5.79086 16 4 17.7909 4 20C4 22.2091 5.79086 24 8 24Z",
+    fill: "#09CF83"
   }), /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "#A259FF",
-    d: "M4,16 C4.73637967,16 6.069713,16 8,16 L8,8 C6.069713,8 4.73637967,8 4,8 C1.790861,8 0,9.790861 0,12 C0,14.209139 1.790861,16 4,16 Z"
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M8 16C8.73638 16 10.0697 16 12 16V8C10.0697 8 8.73638 8 8 8C5.79086 8 4 9.79086 4 12C4 14.2091 5.79086 16 8 16Z",
+    fill: "#A259FF"
   }), /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "#F24E1E",
-    d: "M4,8 C4.73637967,8 6.069713,8 8,8 L8,0 C6.069713,0 4.73637967,0 4,0 C1.790861,0 0,1.790861 0,4 C0,6.209139 1.790861,8 4,8 Z"
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M8 8C8.73638 8 10.0697 8 12 8V0C10.0697 0 8.73638 0 8 0C5.79086 0 4 1.79086 4 4C4 6.20914 5.79086 8 8 8Z",
+    fill: "#F24E1E"
   }), /*#__PURE__*/_react["default"].createElement("path", {
-    fill: "#FF7262",
-    d: "M12,8 L8,8 L8,8 L8,0 L12,0 L12,0 C14.209139,0 16,1.790861 16,4 C16,6.209139 14.209139,8 12,8 Z"
-  })));
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M16 8H12V0H16C18.2091 0 20 1.79086 20 4C20 6.20914 18.2091 8 16 8Z",
+    fill: "#FF7262"
+  }));
 });
 Figma.displayName = 'Figma';
