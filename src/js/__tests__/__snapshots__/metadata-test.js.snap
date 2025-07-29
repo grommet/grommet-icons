@@ -2,6 +2,22 @@
 
 exports[`metadata 1`] = `
 {
+  "AIGen": [
+    "ai",
+    "sparkle",
+    "gen ai",
+    "generative",
+    "generative ai",
+    "artificial intelligence",
+  ],
+  "AIGenFill": [
+    "ai",
+    "sparkle",
+    "gen ai",
+    "generative",
+    "generative ai",
+    "artificial intelligence",
+  ],
   "Accessibility": [
     "body",
     "disabled",
@@ -1689,22 +1705,6 @@ exports[`metadata 1`] = `
     "miscellaneous",
     "shape",
   ],
-  "GenAI": [
-    "ai",
-    "sparkle",
-    "gen ai",
-    "generative",
-    "generative ai",
-    "artificial intelligence",
-  ],
-  "GenAIFill": [
-    "ai",
-    "sparkle",
-    "gen ai",
-    "generative",
-    "generative ai",
-    "artificial intelligence",
-  ],
   "Gift": [
     "birthday",
     "box",
@@ -3085,7 +3085,7 @@ exports[`metadata 1`] = `
     "stop",
     "warning",
   ],
-  "StatusCriticalSmall": [
+  "StatusCriticalFill": [
     "error",
     "halt",
     "stop",
@@ -3094,7 +3094,7 @@ exports[`metadata 1`] = `
   "StatusDisabled": [
     "off",
   ],
-  "StatusDisabledSmall": [
+  "StatusDisabledFill": [
     "off",
   ],
   "StatusGood": [
@@ -3102,7 +3102,7 @@ exports[`metadata 1`] = `
     "check",
     "ok",
   ],
-  "StatusGoodSmall": [
+  "StatusGoodFill": [
     "accept",
     "check",
     "ok",
@@ -3113,7 +3113,7 @@ exports[`metadata 1`] = `
     "hint",
     "information",
   ],
-  "StatusInfoSmall": [
+  "StatusInfoFill": [
     "faq",
     "help",
     "hint",
@@ -3125,13 +3125,13 @@ exports[`metadata 1`] = `
   "StatusUnknown": [
     "question",
   ],
-  "StatusUnknownSmall": [
+  "StatusUnknownFill": [
     "question",
   ],
   "StatusWarning": [
     "exclamation",
   ],
-  "StatusWarningSmall": [
+  "StatusWarningFill": [
     "exclamation",
   ],
   "Steps": [
