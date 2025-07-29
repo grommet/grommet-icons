@@ -8,7 +8,7 @@ var StatusGoodFill = /*#__PURE__*/forwardRef(function (props, ref) {
     a11yTitle: "StatusGoodFill"
   }, props), /*#__PURE__*/React.createElement("path", {
     d: "M12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23Z",
-    fill: "#009A71"
+    fill: "#000"
   }));
 });
 StatusGoodFill.displayName = 'StatusGoodFill';
