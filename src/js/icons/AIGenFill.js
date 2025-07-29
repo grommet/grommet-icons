@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
 
-const GenAIFill = forwardRef((props, ref) => (
-  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="GenAIFill" {...props}>
+const AIGenFill = forwardRef((props, ref) => (
+  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="AIGenFill" {...props}>
     <path
       d="M18.8974 12.8572C19.7935 13.0788 19.7935 14.3526 18.8974 14.5742C15.0741 15.5198 12.0888 18.505 11.1433 22.3284C10.9217 23.2245 9.64788 23.2245 9.42628 22.3284C8.48072 18.505 5.49548 15.5198 1.67211 14.5742C0.776046 14.3526 0.776046 13.0788 1.67211 12.8572C5.49548 11.9117 8.48073 8.92644 9.42628 5.10307C9.64788 4.20701 10.9217 4.20701 11.1433 5.10307C12.0888 8.92644 15.0741 11.9117 18.8974 12.8572Z"
       fill="#000"
@@ -14,5 +14,5 @@ const GenAIFill = forwardRef((props, ref) => (
   </StyledIcon>
 ));
 
-GenAIFill.displayName = 'GenAIFill';
-export { GenAIFill };
+AIGenFill.displayName = 'AIGenFill';
+export { AIGenFill };

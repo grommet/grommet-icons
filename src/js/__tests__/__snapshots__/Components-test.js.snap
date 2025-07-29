@@ -2,6 +2,14 @@
 
 exports[`Components loads 1`] = `
 {
+  "AIGen": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "AIGenFill": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Accessibility": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1007,14 +1015,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "GenAI": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "GenAIFill": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Gift": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1324,6 +1324,10 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Lock": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "Lodging": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2039,7 +2043,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusCriticalSmall": {
+  "StatusCriticalFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2047,7 +2051,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusDisabledSmall": {
+  "StatusDisabledFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2055,7 +2059,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusGoodSmall": {
+  "StatusGoodFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2063,7 +2067,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusInfoSmall": {
+  "StatusInfoFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2071,7 +2075,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusPlaceholderSmall": {
+  "StatusPlaceholderFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2079,7 +2083,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusUnknownSmall": {
+  "StatusUnknownFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2087,7 +2091,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusWarningSmall": {
+  "StatusWarningFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2148,6 +2152,10 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Switch": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "SwitchOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
