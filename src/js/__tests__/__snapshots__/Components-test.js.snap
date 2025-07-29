@@ -42,6 +42,14 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "AiGen": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "AiGenFill": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "AiSystems": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1004,14 +1012,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Gem": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Genai": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "GenaiFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2043,7 +2043,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusCriticalSmall": {
+  "StatusCriticalFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2051,7 +2051,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusDisabledSmall": {
+  "StatusDisabledFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2059,7 +2059,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusGoodSmall": {
+  "StatusGoodFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2067,7 +2067,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusInfoSmall": {
+  "StatusInfoFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2075,7 +2075,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusPlaceholderSmall": {
+  "StatusPlaceholderFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2083,7 +2083,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusUnknownSmall": {
+  "StatusUnknownFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2091,7 +2091,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusWarningSmall": {
+  "StatusWarningFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },

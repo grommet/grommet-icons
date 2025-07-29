@@ -3,7 +3,7 @@ import { StyledIcon } from '../StyledIcon';
 
 const HpeLabs = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="HpeLabs" {...props}>
-    <polyline fill="none" stroke="#01A982" strokeWidth="2" points="14 23 5 23 5 2 17 2 17 15 13 15 13 6 9 6 9 19 20 19"/>
+    <path d="M18 1V16H12V7H10V18H20V20H8V5H14V14H16V3H6V22H14V24H4V1H18Z" fill="#01A982"/>
   </StyledIcon>
 ));
 
