@@ -663,10 +663,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "DislikeOption": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Docker": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1260,10 +1256,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "LikeFill": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "LikeOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },

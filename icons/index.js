@@ -991,12 +991,6 @@ Object.keys(_DislikeFill).forEach(function (key) {
   if (key in exports && exports[key] === _DislikeFill[key]) return;
   exports[key] = _DislikeFill[key];
 });
-var _DislikeOption = require("./DislikeOption");
-Object.keys(_DislikeOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _DislikeOption[key]) return;
-  exports[key] = _DislikeOption[key];
-});
 var _Dislike = require("./Dislike");
 Object.keys(_Dislike).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -1890,12 +1884,6 @@ Object.keys(_LikeFill).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _LikeFill[key]) return;
   exports[key] = _LikeFill[key];
-});
-var _LikeOption = require("./LikeOption");
-Object.keys(_LikeOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _LikeOption[key]) return;
-  exports[key] = _LikeOption[key];
 });
 var _Like = require("./Like");
 Object.keys(_Like).forEach(function (key) {
