@@ -93,7 +93,6 @@ export default {
   CirclePlay: ['music', 'video'],
   CircleQuestion: ['faq', 'help', 'support'],
   Clear: ['forbidden', 'no', 'prohibited', 'stop'],
-  ClearOption: ['paintbrush'],
   Cli: ['dos', 'line', 'command', 'console'],
   Clipboard: ['document', 'list', 'report'],
   Clock: ['core', 'date', 'hands', 'hour', 'time', 'timer', 'watch'],

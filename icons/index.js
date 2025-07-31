@@ -619,12 +619,6 @@ Object.keys(_CircleStop).forEach(function (key) {
   if (key in exports && exports[key] === _CircleStop[key]) return;
   exports[key] = _CircleStop[key];
 });
-var _ClearOption = require("./ClearOption");
-Object.keys(_ClearOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _ClearOption[key]) return;
-  exports[key] = _ClearOption[key];
-});
 var _Clear = require("./Clear");
 Object.keys(_Clear).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;

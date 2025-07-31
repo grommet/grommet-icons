@@ -598,9 +598,6 @@ exports[`metadata 1`] = `
     "prohibited",
     "stop",
   ],
-  "ClearOption": [
-    "paintbrush",
-  ],
   "Cli": [
     "dos",
     "line",

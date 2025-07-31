@@ -101,7 +101,6 @@ export * from './CircleInformation';
 export * from './CirclePlay';
 export * from './CircleQuestion';
 export * from './CircleStop';
-export * from './ClearOption';
 export * from './Clear';
 export * from './Cli';
 export * from './Clipboard';
