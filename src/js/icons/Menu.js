@@ -1,13 +1,13 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const Menu = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Menu" {...props}>
-    <path fill="none" stroke="#000" strokeWidth="2" d="M2 19h20M2 5h20M2 12h20" />
+    <path d="M22 20C22.5523 20 23 20.4477 23 21C23 21.5523 22.5523 22 22 22H2C1.44772 22 1 21.5523 1 21C1 20.4477 1.44772 20 2 20H22Z" fill="#555555"/>
+<path d="M22 11C22.5523 11 23 11.4477 23 12C23 12.5523 22.5523 13 22 13H2C1.44772 13 1 12.5523 1 12C1 11.4477 1.44772 11 2 11H22Z" fill="#555555"/>
+<path d="M22 2C22.5523 2 23 2.44772 23 3C23 3.55228 22.5523 4 22 4H2C1.44772 4 1 3.55228 1 3C1 2.44772 1.44772 2 2 2H22Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 Menu.displayName = 'Menu';
-
 export { Menu };

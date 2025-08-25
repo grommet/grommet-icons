@@ -1,13 +1,12 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const PhoneHorizontal = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="PhoneHorizontal" {...props}>
-    <path fillRule="evenodd" clipRule="evenodd" d="M23 7a2 2 0 0 0-2-2H3a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V7zm-2 5.996V17H3V7h18v4.004a1.038 1.038 0 0 0-.094-.004h-1a1 1 0 0 0 0 2h1c.032 0 .063-.002.094-.004z" fill="#000" />
+    <path d="M5 10C5.55228 10 6 10.4477 6 11V13C6 13.5523 5.55228 14 5 14C4.44772 14 4 13.5523 4 13V11C4 10.4477 4.44772 10 5 10Z" fill="#555555"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M20.1543 5.00391C21.7394 5.08421 23 6.39489 23 8V16L22.9961 16.1543C22.9184 17.6883 21.6883 18.9184 20.1543 18.9961L20 19H4C2.3949 19 1.08421 17.7394 1.00391 16.1543L1 16V8C1 6.34315 2.34315 5 4 5H20L20.1543 5.00391ZM4 7C3.44772 7 3 7.44772 3 8V16L3.00488 16.1025C3.05621 16.6067 3.48232 17 4 17H17V7H4ZM19 17H20L20.1025 16.9951C20.573 16.9472 20.9472 16.573 20.9951 16.1025L21 16V8L20.9951 7.89746C20.9472 7.42703 20.573 7.05278 20.1025 7.00488L20 7H19V17Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 PhoneHorizontal.displayName = 'PhoneHorizontal';
-
 export { PhoneHorizontal };

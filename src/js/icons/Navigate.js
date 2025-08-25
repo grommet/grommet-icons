@@ -1,13 +1,11 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const Navigate = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Navigate" {...props}>
-    <path fill="none" stroke="#000" strokeWidth="2" d="m20 11 2-3-2-3h-8v6h8zm-8 13V0M4 2 2 5l2 3h8V2H4z" />
+    <path fillRule="evenodd" clipRule="evenodd" d="M12 1C12.5523 1.00001 13 1.44772 13 2V6H20C20.3344 6 20.6466 6.16712 20.8321 6.44531L22.8321 9.44531C23.056 9.78121 23.056 10.2188 22.8321 10.5547L20.8321 13.5547C20.6466 13.8329 20.3344 14 20 14H13V22H11V11H4.00004C3.66569 11 3.35348 10.8329 3.16801 10.5547L1.16801 7.55469C0.944078 7.21879 0.944078 6.78121 1.16801 6.44531L3.16801 3.44531L3.24321 3.34668C3.43179 3.12817 3.70737 3 4.00004 3H11V2C11 1.44772 11.4478 1 12 1ZM13 12H19.4649L20.7979 10L19.4649 8H13V12ZM3.20121 7L4.5352 9H11V5H4.5352L3.20121 7Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 Navigate.displayName = 'Navigate';
-
 export { Navigate };

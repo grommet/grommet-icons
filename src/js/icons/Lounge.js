@@ -1,13 +1,12 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const Lounge = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Lounge" {...props}>
-    <path fill="none" stroke="#000" strokeWidth="2" d="M5 5.997C5 5.447 5.45 5 6.007 5h11.986C18.55 5 19 5.453 19 5.997V13H5V5.997zM22 8v7.003c0 .55-.455.997-.992.997H2.992A.999.999 0 0 1 2 15.003V8m3 8v2-2zm14 0v2-2z" />
+    <path d="M22 8C22.5523 8 23 8.44772 23 9V14C23 16.4189 21.2822 18.4361 19 18.8994V22C19 22.5523 18.5523 23 18 23C17.4477 23 17 22.5523 17 22V19H7V22C7 22.5523 6.55228 23 6 23C5.44772 23 5 22.5523 5 22V18.8994C2.71781 18.4361 1 16.4189 1 14V9C1 8.44772 1.44772 8 2 8C2.55228 8 3 8.44772 3 9V14C3 15.6569 4.34315 17 6 17H18C19.6569 17 21 15.6569 21 14V9C21 8.44772 21.4477 8 22 8Z" fill="#555555"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M15 1C17.7614 1 20 3.23858 20 6V14C20 15.1046 19.1046 16 18 16H6C4.89543 16 4 15.1046 4 14V6C4 3.23858 6.23858 1 9 1H15ZM6 14H18V13H6V14ZM9 3C7.34315 3 6 4.34315 6 6V11H18V6C18 4.34315 16.6569 3 15 3H9Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 Lounge.displayName = 'Lounge';
-
 export { Lounge };

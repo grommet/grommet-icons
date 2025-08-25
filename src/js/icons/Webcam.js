@@ -1,42 +1,12 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const Webcam = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Webcam" {...props}>
-    <path d="M20 22H4" stroke="#000" strokeWidth="2" strokeLinecap="round" fill="none" />
-    <path d="M15.5 18v3m-7.5.5V18" stroke="#000" strokeWidth="2" fill="none" />
-    <path
-      clipRule="evenodd"
-      d="M12 19a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"
-      stroke="#000"
-      strokeWidth="2"
-      fill="none"
-    />
-    <path
-      clipRule="evenodd"
-      d="M12 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"
-      stroke="#000"
-      strokeWidth="2"
-      fill="none"
-    />
-    <path
-      clipRule="evenodd"
-      d="M12 14a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"
-      stroke="#000"
-      strokeWidth="2"
-      fill="none"
-    />
-    <path
-      clipRule="evenodd"
-      d="M12 11a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-      stroke="#000"
-      strokeWidth="2"
-      fill="none"
-    />
+    <path fillRule="evenodd" clipRule="evenodd" d="M12 6C14.2091 6 16 7.79086 16 10C16 12.2091 14.2091 14 12 14C9.79086 14 8 12.2091 8 10C8 7.79086 9.79086 6 12 6ZM12 8C10.8954 8 10 8.89543 10 10C10 11.1046 10.8954 12 12 12C13.1046 12 14 11.1046 14 10C14 8.89543 13.1046 8 12 8Z" fill="#555555"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M12 1C16.9706 1 21 5.02944 21 10C21 13.9184 18.4952 17.2496 15 18.4854V21H16C16.5523 21 17 21.4477 17 22C17 22.5523 16.5523 23 16 23H8C7.44772 23 7 22.5523 7 22C7 21.4477 7.44772 21 8 21H9V18.4854C5.50484 17.2496 3 13.9184 3 10C3 5.02944 7.02944 1 12 1ZM13 18.9424C12.6716 18.9787 12.3381 19 12 19C11.6619 19 11.3284 18.9787 11 18.9424V21H13V18.9424ZM12 3C8.13401 3 5 6.13401 5 10C5 13.866 8.13401 17 12 17C15.866 17 19 13.866 19 10C19 6.13401 15.866 3 12 3Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 Webcam.displayName = 'Webcam';
-
 export { Webcam };

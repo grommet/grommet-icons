@@ -1,13 +1,19 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const Qr = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Qr" {...props}>
-    <g fill="none" fillRule="evenodd"><path fill="#000" d="M13 14h1v1h-1v-1zm1 1h1v1h-1v-1zm0 1h1v1h-1v-1zm2 0h1v1h-1v-1zm0 1h1v1h-1v-1zm-3-1h1v1h-1v-1zm2 0h1v1h-1v-1zm0 1h1v1h-1v-1zm3-1h1v1h-1v-1zm0-1h1v1h-1v-1zm1-1h1v1h-1v-1zm-2 2h1v1h-1v-1zm0 1h1v1h-1v-1zm-1 1h1v1h-1v-1zm-1 0h1v1h-1v-1zm2 0h1v1h-1v-1zm1 0h1v1h-1v-1zm-2 1h1v1h-1v-1zm-2 0h1v1h-1v-1zm1 0h1v1h-1v-1zm-2 0h1v1h-1v-1zm0 1h1v1h-1v-1zm1 1h1v1h-1v-1zm1 0h1v1h-1v-1zm2 0h1v1h-1v-1zm1 0h1v1h-1v-1zm-1-2h1v1h-1v-1zm1 0h1v1h-1v-1zm1-1h1v1h-1v-1zm0-1h1v1h-1v-1zm0 3h1v1h-1v-1zm0-1h1v1h-1v-1zm1-1h1v1h-1v-1zm0-1h1v1h-1v-1zm1 3h1v1h-1v-1zm0-2h1v1h-1v-1zm0 1h1v1h-1v-1zm-2-3h1v1h-1v-1zm-6 1h1v1h-1v-1zm-1 0h1v1h-1v-1zm0 1h1v1h-1v-1zm2 0h1v1h-1v-1zm-3 0h1v1h-1v-1zm2 0h1v1h-1v-1zm-2 1h1v1h-1v-1zm0 1h1v1h-1v-1zm0-19h1v1h-1V1zm1 1h1v1h-1V2zm-1 2h1v1h-1V4zm1 1h1v1h-1V5zm-1 1h1v1h-1V6zm1 0h1v1h-1V6zm0 1h1v1h-1V7zm0 1h1v1h-1V8zm-1 1h1v1h-1V9zm1 0h1v1h-1V9zm-1 1h1v1h-1v-1zM1 11h1v1H1v-1zm1 1h1v1H2v-1zm2-1h1v1H4v-1zm0 1h1v1H4v-1zm1-1h1v1H5v-1zm1 1h1v1H6v-1zm1-1h1v1H7v-1zm1 1h1v1H8v-1zm0-1h1v1H8v-1zm1 0h1v1H9v-1zm1 0h1v1h-1v-1zm1 1h1v1h-1v-1zm2 0h1v1h-1v-1zm1-1h1v1h-1v-1zm1 0h1v1h-1v-1zm1 0h1v1h-1v-1zm-1 2h1v1h-1v-1zm-2 9h1v1h-1v-1zm-1 0h1v1h-1v-1zm0-9h1v1h-1v-1zm-1 0h1v1h-1v-1zm0 1h1v1h-1v-1zm0 1h1v1h-1v-1zm11-1h1v1h-1v-1zm-1 1h1v1h-1v-1zm1 2h1v1h-1v-1zm-5-4h1v1h-1v-1zm1-1h1v1h-1v-1zm4 0h1v1h-1v-1zm0 1h1v1h-1v-1zm-1 0h1v1h-1v-1zm1 8h1v1h-1v-1zm-1 1h1v1h-1v-1zm-2 0h1v1h-1v-1zm3 0h1v1h-1v-1z" /><path stroke="#000" strokeWidth="2" d="M15 2h7v7h-7V2zM2 2h7v7H2V2zm0 13h7v7H2v-7zM18 5h1v1h-1V5zM5 5h1v1H5V5zm0 13h1v1H5v-1z" /></g>
+    <path d="M14 17C14.5523 17 15 17.4477 15 18V18.0098C15 18.562 14.5523 19.0098 14 19.0098C13.4477 19.0098 13 18.562 13 18.0098V18C13 17.4477 13.4477 17 14 17Z" fill="#555555"/>
+<path d="M18 17C18.5523 17 19 17.4477 19 18V18.0098C19 18.562 18.5523 19.0098 18 19.0098C17.4477 19.0098 17 18.562 17 18.0098V18C17 17.4477 17.4477 17 18 17Z" fill="#555555"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M9 13C10.1046 13 11 13.8954 11 15V17C11 18.1046 10.1046 19 9 19H7C5.89543 19 5 18.1046 5 17V15C5 13.8954 5.89543 13 7 13H9ZM7 17H9V15H7V17Z" fill="#555555"/>
+<path d="M16 15C16.5523 15 17 15.4477 17 16V16.0098C17 16.5621 16.5523 17.0098 16 17.0098C15.4477 17.0098 15 16.5621 15 16.0098V16C15 15.4477 15.4477 15 16 15Z" fill="#555555"/>
+<path d="M14 13C14.5523 13 15 13.4477 15 14V14.0098C15 14.5621 14.5523 15.0098 14 15.0098C13.4477 15.0098 13 14.5621 13 14.0098V14C13 13.4477 13.4477 13 14 13Z" fill="#555555"/>
+<path d="M18 13C18.5523 13 19 13.4477 19 14V14.0098C19 14.5621 18.5523 15.0098 18 15.0098C17.4477 15.0098 17 14.5621 17 14.0098V14C17 13.4477 17.4477 13 18 13Z" fill="#555555"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M9 5C10.1046 5 11 5.89543 11 7V9C11 10.1046 10.1046 11 9 11H7C5.89543 11 5 10.1046 5 9V7C5 5.89543 5.89543 5 7 5H9ZM7 9H9V7H7V9Z" fill="#555555"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M17 5C18.1046 5 19 5.89543 19 7V9C19 10.1046 18.1046 11 17 11H15C13.8954 11 13 10.1046 13 9V7C13 5.89543 13.8954 5 15 5H17ZM15 9H17V7H15V9Z" fill="#555555"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M18 1C20.7614 1 23 3.23858 23 6V18C23 20.7614 20.7614 23 18 23H6C3.23858 23 1 20.7614 1 18V6C1 3.23858 3.23858 1 6 1H18ZM6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 Qr.displayName = 'Qr';
-
 export { Qr };

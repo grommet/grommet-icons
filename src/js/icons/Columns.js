@@ -1,13 +1,11 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const Columns = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Columns" {...props}>
-    <path fill="none" stroke="#000" strokeWidth="2" d="M17 2v20V2zm-5 0v20V2zM7 2v20V2zM2 22h20V2H2v20z" />
+    <path fillRule="evenodd" clipRule="evenodd" d="M18 1C20.7614 1 23 3.23858 23 6V18C23 20.7614 20.7614 23 18 23H6C3.23858 23 1 20.7614 1 18V6C1 3.23858 3.23858 1 6 1H18ZM6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21V3ZM8 21H11V3H8V21ZM13 21H16V3H13V21ZM18 21C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3V21Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 Columns.displayName = 'Columns';
-
 export { Columns };

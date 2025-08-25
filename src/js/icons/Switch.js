@@ -1,13 +1,12 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const Switch = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Switch" {...props}>
-    <path fillRule="evenodd" clipRule="evenodd" d="M5 1h14v22H5V1zm2.5 10H17v10H7V11h.5zM15 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-4 13v-5h2v5h-2zm1-13.998a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" fill="#000" />
+    <path fillRule="evenodd" clipRule="evenodd" d="M18 13C20.7614 13 23 15.2386 23 18C23 20.7614 20.7614 23 18 23H6C3.23858 23 1 20.7614 1 18C1 15.2386 3.23858 13 6 13H18ZM6 15C4.34315 15 3 16.3431 3 18C3 19.6569 4.34315 21 6 21C7.65685 21 9 19.6569 9 18C9 16.3431 7.65685 15 6 15ZM10 15C10.6278 15.8357 11 16.8743 11 18C11 19.1257 10.6278 20.1643 10 21H18C19.6569 21 21 19.6569 21 18C21 16.3431 19.6569 15 18 15H10Z" fill="#555555"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M18 1C20.7614 1 23 3.23858 23 6C23 8.76142 20.7614 11 18 11H6C3.23858 11 1 8.76142 1 6C1 3.23858 3.23858 1 6 1H18ZM6 3C4.34315 3 3 4.34315 3 6C3 7.65685 4.34315 9 6 9H14C13.3722 8.16431 13 7.12568 13 6C13 4.87432 13.3722 3.83569 14 3H6ZM18 3C16.3431 3 15 4.34315 15 6C15 7.65685 16.3431 9 18 9C19.6569 9 21 7.65685 21 6C21 4.34315 19.6569 3 18 3Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 Switch.displayName = 'Switch';
-
 export { Switch };

@@ -1,13 +1,11 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const Desktop = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Desktop" {...props}>
-    <path fill="none" stroke="#000" strokeWidth="2" d="M1 1h22v18H1V1zm4 22h14H5zm5-4v4-4zm4 0v4-4z" />
+    <path fillRule="evenodd" clipRule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V16C23 17.6569 21.6569 19 20 19H16.5967L16.9307 21H18V23H6V21H7.06934L7.40332 19H4C2.34315 19 1 17.6569 1 16V4C1 2.34315 2.34315 1 4 1H20ZM9.09668 21H14.9033L14.5693 19H9.43066L9.09668 21ZM3 16C3 16.5523 3.44772 17 4 17H20C20.5523 17 21 16.5523 21 16V15H3V16ZM4 3C3.44772 3 3 3.44772 3 4V13H21V4C21 3.44772 20.5523 3 20 3H4Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 Desktop.displayName = 'Desktop';
-
 export { Desktop };

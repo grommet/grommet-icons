@@ -1,23 +1,12 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const StatusGood = forwardRef((props, ref) => (
-  <StyledIcon
-    ref={ref}
-    viewBox="0 0 24 24"
-    a11yTitle="Status is okay"
-    {...props}
-  >
-    <path
-      fill="none"
-      stroke="#000"
-      strokeWidth="2"
-      d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zM7 12l4 3 5-7"
-    />
+  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="StatusGood" {...props}>
+    <path d="M15.1523 7.46973C15.4451 7.00167 16.0621 6.85971 16.5303 7.15234C16.9983 7.44514 17.1403 8.06205 16.8477 8.53027L11.8477 16.5303C11.6861 16.7885 11.4159 16.9587 11.1133 16.9932C10.8105 17.0276 10.5085 16.9225 10.293 16.707L7.29297 13.707C6.90244 13.3165 6.90244 12.6835 7.29297 12.293C7.68349 11.9024 8.31651 11.9024 8.70703 12.293L10.8174 14.4033L15.1523 7.46973Z" fill="#555555"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1ZM12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 StatusGood.displayName = 'StatusGood';
-
 export { StatusGood };

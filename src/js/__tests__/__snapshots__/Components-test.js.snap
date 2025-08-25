@@ -30,10 +30,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "AdobeCreativeCloud": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Aed": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -42,11 +38,19 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Aid": {
+  "AiGen": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "AidOption": {
+  "AiGenFill": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "AiSystems": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "Aid": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -58,11 +62,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Amazon": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Amex": {
+  "AlertCircle": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -74,27 +74,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Android": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Announce": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Apple": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "AppleAppStore": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "AppleMusic": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "ApplePodcasts": {
+  "App": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -110,15 +94,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Archlinux": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Article": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Aruba": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -166,15 +142,27 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "Battery": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "BatteryEmpty": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "BatteryFull": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "BatteryLow": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Beacon": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "Bike": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Bitcoin": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -187,10 +175,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Blank": [Function],
-  "BlockQuote": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Blog": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -199,19 +183,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Bold": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Book": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "Bookmark": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "BottomCorner": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -259,11 +235,19 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Camera": {
+  "CalendarDay": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Capacity": {
+  "CalendarMonth": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "CalendarWeek": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "Camera": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -275,31 +259,15 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CaretDownFill": {
+  "CaretLeft": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CaretLeftFill": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "CaretNext": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "CaretPrevious": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "CaretRightFill": {
+  "CaretRight": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "CaretUp": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "CaretUpFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -308,14 +276,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Catalog": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "CatalogOption": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Centos": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -343,7 +303,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ChatOption": {
+  "ChatConversation": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -359,35 +319,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Chrome": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "CircleAlert": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "CircleInformation": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "CirclePlay": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "CircleQuestion": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Clear": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "ClearOption": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Cli": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -415,6 +347,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "CloudAdd": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "CloudComputer": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -423,15 +359,19 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "CloudLocked": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "CloudOffline": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "CloudSoftware": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "CloudUpload": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Cloudlinux": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -444,14 +384,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Code": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "CodeSandbox": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Codepen": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -515,10 +447,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "CreativeCommons": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "CreditCard": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -556,10 +484,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Database": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Debian": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -612,10 +536,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "DislikeFill": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Docker": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -731,6 +651,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "DocumentWarning": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "DocumentWindows": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -747,19 +671,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Dos": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Down": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "Download": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "DownloadOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -771,31 +687,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Dribbble": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "DriveCage": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Dropbox": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Duplicate": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Dxc": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Ebay": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Edge": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -815,10 +711,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Emoji": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "EmptyCircle": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -835,23 +727,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Ezmeral": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Facebook": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FacebookOption": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Fan": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FanOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -860,14 +736,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Favorite": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Fedora": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Figma": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -883,11 +751,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Firefox": {
+  "Firewall": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Firewall": {
+  "Fiveg": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -895,15 +763,19 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FlagFill": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Flows": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "Focus": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Folder": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "FolderAdd": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -915,119 +787,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "FormAdd": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormAttachment": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormCalendar": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormCheckmark": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormClock": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormClose": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormCut": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormDown": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormEdit": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormFilter": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormFolder": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormLocation": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormLock": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormNext": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormNextLink": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormPin": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormPrevious": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormPreviousLink": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormRefresh": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormSchedule": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormSearch": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormSubtract": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormTrash": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormUp": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormUpload": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormView": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "FormViewHide": {
+  "FolderSearch": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "ForwardTen": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Freebsd": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1043,19 +807,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Gatsbyjs": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Gem": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "GenAI": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "GenAIFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1063,51 +815,15 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Github": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Globe": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Golang": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Google": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "GooglePay": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "GooglePlay": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "GooglePlus": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "GoogleWallet": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "GraphQl": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Gremlin": {
+  "Gpu": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "Grid": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Grommet": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1116,10 +832,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Grow": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Hadoop": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1135,11 +847,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "HelpOption": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Heroku": {
+  "HelpCenter": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1155,39 +863,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "HomeOption": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "HomeRounded": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Horton": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Host": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "HostMaintenance": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Hp": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Hpe": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "HpeLabs": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Hpi": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1223,6 +903,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "InformationCircle": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Inherit": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1235,27 +919,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Instagram": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Install": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "InstallOption": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Integration": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "InternetExplorer": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Italic": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1279,23 +947,15 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Kubernetes": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Language": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Lastfm": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Launch": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Layer": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "Left": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1327,11 +987,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "LinkNext": {
+  "LinkLeft": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "LinkPrevious": {
+  "LinkRight": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1343,15 +1003,15 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Linkedin": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "LinkedinOption": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "List": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "ListOrdered": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "ListUnordered": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1368,6 +1028,10 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Lock": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "Lodging": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1391,14 +1055,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "MailOption": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Mandriva": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Manual": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1407,15 +1063,15 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "MapAdd": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "MapLocation": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Mastercard": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Medium": {
+  "Meeting": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1427,15 +1083,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Meta": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Microfocus": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Microphone": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "Mode": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1444,10 +1096,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Monitor": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Monospace": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1479,10 +1127,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Mysql": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Navigate": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1495,6 +1139,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "NetworkSwitch": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "New": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1503,19 +1151,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Next": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Node": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Nodes": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Norton": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1531,10 +1167,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Npm": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "ObjectGroup": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1547,23 +1179,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Onedrive": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Opera": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Optimize": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Oracle": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "OrderedList": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1595,10 +1211,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Paypal": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Performance": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1627,23 +1239,15 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PiedPiper": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Pin": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Pinterest": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Plan": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Play": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "PlayCircle": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1652,10 +1256,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Plug": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Pocket": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1675,19 +1275,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "PowerShutdown": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Previous": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Print": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "ProductHunt": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1704,22 +1292,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "RadialSelected": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Raspberry": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Reactjs": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Reddit": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Redhat": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1747,6 +1319,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "RestroomUnisex": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "RestroomWomen": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1764,6 +1340,10 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Rewind": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "Right": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1791,14 +1371,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "SafariOption": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "SamsungPay": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Sans": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1815,10 +1387,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Schedule": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "ScheduleNew": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1828,10 +1396,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Schedules": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Sco": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1875,6 +1439,18 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "Sensor": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "SensorLocked": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "SensorOff": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Server": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1895,7 +1471,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "SettingsOption": {
+  "Settings": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1903,19 +1479,23 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ShareOption": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "ShareRounded": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Shield": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "ShieldCheck": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "ShieldEmergency": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "ShieldSecurity": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "ShieldUnsecure": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1935,35 +1515,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Skype": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Slack": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Snapchat": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Solaris": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Sort": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Soundcloud": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Spa": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Spectrum": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1975,18 +1527,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Spotify": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Square": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "StackOverflow": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Stakeholder": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -1995,11 +1535,15 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "StarFill": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "StarHalf": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StarOutline": {
+  "StarHalfFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2007,7 +1551,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusCriticalSmall": {
+  "StatusCriticalFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2015,7 +1559,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusDisabledSmall": {
+  "StatusDisabledFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2023,7 +1567,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusGoodSmall": {
+  "StatusGoodFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2031,7 +1575,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusInfoSmall": {
+  "StatusInfoFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2039,15 +1583,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusPlaceholderSmall": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "StatusUnknown": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusUnknownSmall": {
+  "StatusUnknownFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2055,7 +1595,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StatusWarningSmall": {
+  "StatusWarningFill": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2063,11 +1603,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StepsOption": {
+  "Stop": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Stop": {
+  "StopCircle": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2083,18 +1623,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "StrikeThrough": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Stripe": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Subscript": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Subtract": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -2107,19 +1635,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Superscript": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Support": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Suse": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Swift": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2147,15 +1663,19 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "TableAddColumn": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "TableSearch": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "Tag": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "Tape": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "TapeOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2175,11 +1695,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Template": {
+  "Temperature": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Terminal": {
+  "Template": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2191,27 +1711,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TextAlignCenter": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "TextAlignFull": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "TextAlignLeft": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "TextAlignRight": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "TextWrap": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Threads": {
+  "Theme": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2223,19 +1727,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "ThreeDffects": {
+  "ThreeDEffects": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "Ticket": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Tictok": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Tiktok": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2259,10 +1755,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TopCorner": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Train": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -2279,7 +1771,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "TreeOption": {
+  "TreeNode": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2299,30 +1791,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Tumblr": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Turbolinux": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Twitch": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Twitter": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Ubuntu": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Underline": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Undo": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -2332,10 +1800,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Unlock": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "UnorderedList": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2356,10 +1820,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Upload": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "UploadOption": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2415,19 +1875,11 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Venmo": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Video": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
   "View": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Vimeo": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2439,15 +1891,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Visa": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "VmMaintenance": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Vmware": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2475,15 +1919,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "WeChat": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Webcam": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "WhatsApp": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2499,6 +1935,10 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
+  "WifiLocked": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
   "WifiLow": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -2511,15 +1951,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Windows": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "WindowsLegacy": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Wordpress": {
+  "WifiOff": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -2527,23 +1959,7 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "X": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Xing": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Yoga": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Youtube": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Zoom": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },

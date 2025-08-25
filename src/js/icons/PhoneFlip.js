@@ -1,13 +1,12 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const PhoneFlip = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="PhoneFlip" {...props}>
-    <path fillRule="evenodd" clipRule="evenodd" d="M8 1a1 1 0 0 0-.928.629l-4 10a1 1 0 0 0 0 .742l4 10A1 1 0 0 0 8 23h10a1 1 0 0 0 .928-1.371L15.078 12l3.851-9.629A1 1 0 0 0 18 1H8zM5.477 11l3.2-8h2.794a1 1 0 0 0 1 1h.057a1 1 0 0 0 1.001-1h2.994l-3.2 8H5.477zm0 2 3.2 8h7.846l-3.2-8H5.477zm5.558 6.773a1 1 0 0 1 .937-1.351h.056a1 1 0 1 1 0 2h-.056a1 1 0 0 1-.937-.649z" fill="#000" />
+    <path d="M14.9995 6H10.9995V4H14.9995V6Z" fill="#555555"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M18.3813 1C19.8218 1 20.7747 2.46869 20.228 3.76953L20.1704 3.89453L16.1177 12L20.1704 20.1055C20.8353 21.4353 19.8681 23 18.3813 23H8.67626C7.90976 22.9997 7.21523 22.5621 6.88134 21.8818L6.81982 21.7432L3.21923 12.7432C3.02857 12.2664 3.02857 11.7336 3.21923 11.2568L6.81982 2.25684L6.88134 2.11816C7.21523 1.43787 7.90976 1.00028 8.67626 1H18.3813ZM8.67626 21H18.3813L17.3813 19H7.87646L8.67626 21ZM7.07665 17H16.3813L14.3813 13H5.47704L7.07665 17ZM5.47704 11H14.3813L18.3813 3H8.67626L5.47704 11Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 PhoneFlip.displayName = 'PhoneFlip';
-
 export { PhoneFlip };

@@ -1,13 +1,12 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const NetworkDrive = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="NetworkDrive" {...props}>
-    <path stroke="#000" strokeWidth="2" fill="none" d="M12 14v4M22 6v6a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1zM12 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM6 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+    <path d="M6 7C7.10457 7 8 7.89543 8 9C8 10.1046 7.10457 11 6 11C4.89543 11 4 10.1046 4 9C4 7.89543 4.89543 7 6 7Z" fill="#555555"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M18 4C20.7614 4 23 6.23858 23 9C23 11.7614 20.7614 14 18 14H13V16.1738C14.1647 16.5859 15 17.6941 15 19C15 20.6569 13.6569 22 12 22C10.3431 22 9 20.6569 9 19C9 17.6941 9.83532 16.5859 11 16.1738V14H6C3.23858 14 1 11.7614 1 9C1 6.23858 3.23858 4 6 4H18ZM12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18ZM6 6C4.34315 6 3 7.34315 3 9C3 10.6569 4.34315 12 6 12H18C19.6569 12 21 10.6569 21 9C21 7.34315 19.6569 6 18 6H6Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 NetworkDrive.displayName = 'NetworkDrive';
-
 export { NetworkDrive };

@@ -1,23 +1,11 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
-import { useScaleProps } from '../utils';
 
-const Down = forwardRef((props, ref) => {
-  const scaleProps = useScaleProps(props);
-  return (
-    <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Down" {...props}>
-      <path
-        fill="none"
-        stroke="#000"
-        strokeWidth="2"
-        d="m2 8.35 10.173 9.823L21.997 8"
-        {...scaleProps}
-      />
-    </StyledIcon>
-  );
-});
+const Down = forwardRef((props, ref) => (
+  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Down" {...props}>
+    <path d="M21.293 6.29302C21.6836 5.90249 22.3166 5.90249 22.7071 6.29302C23.0975 6.68355 23.0976 7.31658 22.7071 7.70708L12.7071 17.7071C12.5196 17.8946 12.2653 18 12.0001 18C11.7349 18 11.4806 17.8946 11.293 17.7071L1.29304 7.70708C0.902521 7.31656 0.902524 6.68354 1.29304 6.29302C1.68357 5.90249 2.31658 5.90249 2.70711 6.29302L12.0001 15.586L21.293 6.29302Z" fill="#555555"/>
+  </StyledIcon>
+));
 
 Down.displayName = 'Down';
-
 export { Down };

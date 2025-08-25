@@ -1,13 +1,12 @@
 import React, { forwardRef } from 'react';
-
 import { StyledIcon } from '../StyledIcon';
 
 const Resume = forwardRef((props, ref) => (
   <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Resume" {...props}>
-    <path fill="none" stroke="#000" strokeWidth="2" d="M1 20h5V4H1v16zm10-1 11-7-11-7v14z" />
+    <path fillRule="evenodd" clipRule="evenodd" d="M4 1C5.65685 1 7 2.34315 7 4V20C7 21.6569 5.65685 23 4 23C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1ZM4 3C3.44772 3 3 3.44772 3 4V20C3 20.5523 3.44772 21 4 21C4.55228 21 5 20.5523 5 20V4C5 3.44772 4.55228 3 4 3Z" fill="#555555"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M9.55273 2.10547C9.89146 1.93611 10.2966 1.97304 10.5996 2.2002L22.5996 11.2002C22.8514 11.389 23 11.6852 23 12C23 12.3148 22.8514 12.611 22.5996 12.7998L10.5996 21.7998C10.2966 22.027 9.89146 22.0639 9.55273 21.8945C9.21395 21.7251 9 21.3788 9 21V3C9 2.62123 9.21395 2.27486 9.55273 2.10547ZM11 19L20.334 12L11 4.99902V19Z" fill="#555555"/>
   </StyledIcon>
 ));
 
 Resume.displayName = 'Resume';
-
 export { Resume };
