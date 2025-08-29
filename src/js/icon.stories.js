@@ -47,7 +47,7 @@ export const Color = () => {
   );
 };
 
-export const Plain = () => <Icons.Pocket color="plain" />;
+export const Plain = () => <Icons.Accessibility color="plain" />;
 
 export const CustomTheme = () => {
   const Icon = Icons[text('Icon', 'Accessibility')];
