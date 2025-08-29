@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
 
-const Fiveg = forwardRef((props, ref) => (
-  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="Fiveg" {...props}>
+const FiveG = forwardRef((props, ref) => (
+  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="FiveG" {...props}>
     <path
       d="M19.9087 4.72314C24.0304 8.8652 24.0304 15.5811 19.9087 19.7231L18.5519 18.3587C21.924 14.9698 21.9242 9.47548 18.5519 6.08661L19.9087 4.72314Z"
       fill="#000"
@@ -22,5 +22,5 @@ const Fiveg = forwardRef((props, ref) => (
   </StyledIcon>
 ));
 
-Fiveg.displayName = 'Fiveg';
-export { Fiveg };
+FiveG.displayName = 'FiveG';
+export { FiveG };
