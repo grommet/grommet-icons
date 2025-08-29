@@ -6,7 +6,8 @@ export * from './Ad';
 export * from './Add';
 export * from './Aed';
 export * from './Aggregate';
-export * from './AiGen';
+// eslint-disable-next-line import/no-unresolved
+export * from './AIGen';
 export * from './AiSystems';
 export * from './Aid';
 export * from './Alarm';
