@@ -50,7 +50,7 @@ var Color = exports.Color = function Color() {
   }));
 };
 var Plain = exports.Plain = function Plain() {
-  return /*#__PURE__*/_react["default"].createElement(Icons.Pocket, {
+  return /*#__PURE__*/_react["default"].createElement(Icons.Accessibility, {
     color: "plain"
   });
 };

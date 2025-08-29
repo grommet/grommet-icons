@@ -576,6 +576,10 @@ exports[`metadata 1`] = `
     "status",
     "validation",
   ],
+  "CircleEmpty": [
+    "chart",
+    "donut",
+  ],
   "CircleInformation": [
     "document",
     "faq",
@@ -906,6 +910,11 @@ exports[`metadata 1`] = `
     "iot",
     "technology",
     "tv",
+  ],
+  "Dial": [
+    "audio",
+    "sound",
+    "speaker",
   ],
   "Diamond": [
     "gem",
@@ -1315,10 +1324,6 @@ exports[`metadata 1`] = `
     "emoticon",
     "reaction",
     "comment",
-  ],
-  "EmptyCircle": [
-    "chart",
-    "donut",
   ],
   "Erase": [
     "delete",
@@ -3703,11 +3708,6 @@ exports[`metadata 1`] = `
     "virtual",
   ],
   "Volume": [
-    "audio",
-    "sound",
-    "speaker",
-  ],
-  "VolumeControl": [
     "audio",
     "sound",
     "speaker",

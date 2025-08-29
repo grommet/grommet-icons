@@ -11,15 +11,12 @@ var Tooltip = exports.Tooltip = /*#__PURE__*/(0, _react.forwardRef)(function (pr
   return /*#__PURE__*/_react["default"].createElement(_StyledIcon.StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
-    a11yTitle: "Tooltip"
+    a11yTitle: "Tip"
   }, props), /*#__PURE__*/_react["default"].createElement("path", {
-    d: "M8.00977 9C8.56205 9 9.00977 9.44772 9.00977 10C9.00977 10.5523 8.56205 11 8.00977 11H8C7.44772 11 7 10.5523 7 10C7 9.44772 7.44772 9 8 9H8.00977Z",
+    d: "M12 9C12.5523 9 13 9.44772 13 10V14C13 14.5523 12.5523 15 12 15C11.4477 15 11 14.5523 11 14V10C11 9.44772 11.4477 9 12 9Z",
     fill: "#000"
   }), /*#__PURE__*/_react["default"].createElement("path", {
-    d: "M12.0098 9C12.5621 9 13.0098 9.44772 13.0098 10C13.0098 10.5523 12.5621 11 12.0098 11H12C11.4477 11 11 10.5523 11 10C11 9.44772 11.4477 9 12 9H12.0098Z",
-    fill: "#000"
-  }), /*#__PURE__*/_react["default"].createElement("path", {
-    d: "M16.0098 9C16.5621 9 17.0098 9.44772 17.0098 10C17.0098 10.5523 16.5621 11 16.0098 11H16C15.4477 11 15 10.5523 15 10C15 9.44772 15.4477 9 16 9H16.0098Z",
+    d: "M12 5.5C12.5523 5.5 13 5.94772 13 6.5V6.59961C13 7.15189 12.5523 7.59961 12 7.59961C11.4477 7.59961 11 7.15189 11 6.59961V6.5C11 5.94772 11.4477 5.5 12 5.5Z",
     fill: "#000"
   }), /*#__PURE__*/_react["default"].createElement("path", {
     fillRule: "evenodd",

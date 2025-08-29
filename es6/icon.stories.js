@@ -43,7 +43,7 @@ export var Color = function Color() {
   }));
 };
 export var Plain = function Plain() {
-  return /*#__PURE__*/React.createElement(Icons.Pocket, {
+  return /*#__PURE__*/React.createElement(Icons.Accessibility, {
     color: "plain"
   });
 };

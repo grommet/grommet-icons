@@ -31,23 +31,11 @@ Object.keys(_Ad).forEach(function (key) {
   if (key in exports && exports[key] === _Ad[key]) return;
   exports[key] = _Ad[key];
 });
-var _AddCircle = require("./AddCircle");
-Object.keys(_AddCircle).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _AddCircle[key]) return;
-  exports[key] = _AddCircle[key];
-});
 var _Add = require("./Add");
 Object.keys(_Add).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Add[key]) return;
   exports[key] = _Add[key];
-});
-var _AdobeCreativeCloud = require("./AdobeCreativeCloud");
-Object.keys(_AdobeCreativeCloud).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _AdobeCreativeCloud[key]) return;
-  exports[key] = _AdobeCreativeCloud[key];
 });
 var _Aed = require("./Aed");
 Object.keys(_Aed).forEach(function (key) {
@@ -61,12 +49,6 @@ Object.keys(_Aggregate).forEach(function (key) {
   if (key in exports && exports[key] === _Aggregate[key]) return;
   exports[key] = _Aggregate[key];
 });
-var _AIGenFill = require("./AIGenFill");
-Object.keys(_AIGenFill).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _AIGenFill[key]) return;
-  exports[key] = _AIGenFill[key];
-});
 var _AIGen = require("./AIGen");
 Object.keys(_AIGen).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -78,12 +60,6 @@ Object.keys(_AiSystems).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _AiSystems[key]) return;
   exports[key] = _AiSystems[key];
-});
-var _AidOption = require("./AidOption");
-Object.keys(_AidOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _AidOption[key]) return;
-  exports[key] = _AidOption[key];
 });
 var _Aid = require("./Aid");
 Object.keys(_Aid).forEach(function (key) {
@@ -103,18 +79,6 @@ Object.keys(_Alert).forEach(function (key) {
   if (key in exports && exports[key] === _Alert[key]) return;
   exports[key] = _Alert[key];
 });
-var _Amazon = require("./Amazon");
-Object.keys(_Amazon).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Amazon[key]) return;
-  exports[key] = _Amazon[key];
-});
-var _Amex = require("./Amex");
-Object.keys(_Amex).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Amex[key]) return;
-  exports[key] = _Amex[key];
-});
 var _Analytics = require("./Analytics");
 Object.keys(_Analytics).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -126,12 +90,6 @@ Object.keys(_Anchor).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Anchor[key]) return;
   exports[key] = _Anchor[key];
-});
-var _Android = require("./Android");
-Object.keys(_Android).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Android[key]) return;
-  exports[key] = _Android[key];
 });
 var _Announce = require("./Announce");
 Object.keys(_Announce).forEach(function (key) {
@@ -145,36 +103,6 @@ Object.keys(_App).forEach(function (key) {
   if (key in exports && exports[key] === _App[key]) return;
   exports[key] = _App[key];
 });
-var _AppleAppStore = require("./AppleAppStore");
-Object.keys(_AppleAppStore).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _AppleAppStore[key]) return;
-  exports[key] = _AppleAppStore[key];
-});
-var _AppleMusic = require("./AppleMusic");
-Object.keys(_AppleMusic).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _AppleMusic[key]) return;
-  exports[key] = _AppleMusic[key];
-});
-var _ApplePodcasts = require("./ApplePodcasts");
-Object.keys(_ApplePodcasts).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _ApplePodcasts[key]) return;
-  exports[key] = _ApplePodcasts[key];
-});
-var _Apple = require("./Apple");
-Object.keys(_Apple).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Apple[key]) return;
-  exports[key] = _Apple[key];
-});
-var _AppsRounded = require("./AppsRounded");
-Object.keys(_AppsRounded).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _AppsRounded[key]) return;
-  exports[key] = _AppsRounded[key];
-});
 var _Apps = require("./Apps");
 Object.keys(_Apps).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -187,23 +115,11 @@ Object.keys(_Archive).forEach(function (key) {
   if (key in exports && exports[key] === _Archive[key]) return;
   exports[key] = _Archive[key];
 });
-var _Archlinux = require("./Archlinux");
-Object.keys(_Archlinux).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Archlinux[key]) return;
-  exports[key] = _Archlinux[key];
-});
 var _Article = require("./Article");
 Object.keys(_Article).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Article[key]) return;
   exports[key] = _Article[key];
-});
-var _Aruba = require("./Aruba");
-Object.keys(_Aruba).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Aruba[key]) return;
-  exports[key] = _Aruba[key];
 });
 var _Ascend = require("./Ascend");
 Object.keys(_Ascend).forEach(function (key) {
@@ -265,11 +181,29 @@ Object.keys(_Bar).forEach(function (key) {
   if (key in exports && exports[key] === _Bar[key]) return;
   exports[key] = _Bar[key];
 });
-var _Basket = require("./Basket");
-Object.keys(_Basket).forEach(function (key) {
+var _BatteryEmpty = require("./BatteryEmpty");
+Object.keys(_BatteryEmpty).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Basket[key]) return;
-  exports[key] = _Basket[key];
+  if (key in exports && exports[key] === _BatteryEmpty[key]) return;
+  exports[key] = _BatteryEmpty[key];
+});
+var _BatteryFull = require("./BatteryFull");
+Object.keys(_BatteryFull).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _BatteryFull[key]) return;
+  exports[key] = _BatteryFull[key];
+});
+var _BatteryLow = require("./BatteryLow");
+Object.keys(_BatteryLow).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _BatteryLow[key]) return;
+  exports[key] = _BatteryLow[key];
+});
+var _Battery = require("./Battery");
+Object.keys(_Battery).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _Battery[key]) return;
+  exports[key] = _Battery[key];
 });
 var _Beacon = require("./Beacon");
 Object.keys(_Beacon).forEach(function (key) {
@@ -282,12 +216,6 @@ Object.keys(_Bike).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Bike[key]) return;
   exports[key] = _Bike[key];
-});
-var _Bitcoin = require("./Bitcoin");
-Object.keys(_Bitcoin).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Bitcoin[key]) return;
-  exports[key] = _Bitcoin[key];
 });
 var _BladesHorizontal = require("./BladesHorizontal");
 Object.keys(_BladesHorizontal).forEach(function (key) {
@@ -330,12 +258,6 @@ Object.keys(_Bookmark).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Bookmark[key]) return;
   exports[key] = _Bookmark[key];
-});
-var _BottomCorner = require("./BottomCorner");
-Object.keys(_BottomCorner).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _BottomCorner[key]) return;
-  exports[key] = _BottomCorner[key];
 });
 var _Braille = require("./Braille");
 Object.keys(_Braille).forEach(function (key) {
@@ -397,12 +319,6 @@ Object.keys(_Calculator).forEach(function (key) {
   if (key in exports && exports[key] === _Calculator[key]) return;
   exports[key] = _Calculator[key];
 });
-var _CalendarOption = require("./CalendarOption");
-Object.keys(_CalendarOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CalendarOption[key]) return;
-  exports[key] = _CalendarOption[key];
-});
 var _Calendar = require("./Calendar");
 Object.keys(_Calendar).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -415,47 +331,11 @@ Object.keys(_Camera).forEach(function (key) {
   if (key in exports && exports[key] === _Camera[key]) return;
   exports[key] = _Camera[key];
 });
-var _CapacityEmpty = require("./CapacityEmpty");
-Object.keys(_CapacityEmpty).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CapacityEmpty[key]) return;
-  exports[key] = _CapacityEmpty[key];
-});
-var _CapacityFull = require("./CapacityFull");
-Object.keys(_CapacityFull).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CapacityFull[key]) return;
-  exports[key] = _CapacityFull[key];
-});
-var _CapacityLow = require("./CapacityLow");
-Object.keys(_CapacityLow).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CapacityLow[key]) return;
-  exports[key] = _CapacityLow[key];
-});
-var _CapacityMedium = require("./CapacityMedium");
-Object.keys(_CapacityMedium).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CapacityMedium[key]) return;
-  exports[key] = _CapacityMedium[key];
-});
-var _Capacity = require("./Capacity");
-Object.keys(_Capacity).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Capacity[key]) return;
-  exports[key] = _Capacity[key];
-});
 var _Car = require("./Car");
 Object.keys(_Car).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Car[key]) return;
   exports[key] = _Car[key];
-});
-var _CaretDownFill = require("./CaretDownFill");
-Object.keys(_CaretDownFill).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CaretDownFill[key]) return;
-  exports[key] = _CaretDownFill[key];
 });
 var _CaretDown = require("./CaretDown");
 Object.keys(_CaretDown).forEach(function (key) {
@@ -463,35 +343,17 @@ Object.keys(_CaretDown).forEach(function (key) {
   if (key in exports && exports[key] === _CaretDown[key]) return;
   exports[key] = _CaretDown[key];
 });
-var _CaretLeftFill = require("./CaretLeftFill");
-Object.keys(_CaretLeftFill).forEach(function (key) {
+var _CaretLeft = require("./CaretLeft");
+Object.keys(_CaretLeft).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CaretLeftFill[key]) return;
-  exports[key] = _CaretLeftFill[key];
+  if (key in exports && exports[key] === _CaretLeft[key]) return;
+  exports[key] = _CaretLeft[key];
 });
-var _CaretNext = require("./CaretNext");
-Object.keys(_CaretNext).forEach(function (key) {
+var _CaretRight = require("./CaretRight");
+Object.keys(_CaretRight).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CaretNext[key]) return;
-  exports[key] = _CaretNext[key];
-});
-var _CaretPrevious = require("./CaretPrevious");
-Object.keys(_CaretPrevious).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CaretPrevious[key]) return;
-  exports[key] = _CaretPrevious[key];
-});
-var _CaretRightFill = require("./CaretRightFill");
-Object.keys(_CaretRightFill).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CaretRightFill[key]) return;
-  exports[key] = _CaretRightFill[key];
-});
-var _CaretUpFill = require("./CaretUpFill");
-Object.keys(_CaretUpFill).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CaretUpFill[key]) return;
-  exports[key] = _CaretUpFill[key];
+  if (key in exports && exports[key] === _CaretRight[key]) return;
+  exports[key] = _CaretRight[key];
 });
 var _CaretUp = require("./CaretUp");
 Object.keys(_CaretUp).forEach(function (key) {
@@ -505,23 +367,11 @@ Object.keys(_Cart).forEach(function (key) {
   if (key in exports && exports[key] === _Cart[key]) return;
   exports[key] = _Cart[key];
 });
-var _CatalogOption = require("./CatalogOption");
-Object.keys(_CatalogOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CatalogOption[key]) return;
-  exports[key] = _CatalogOption[key];
-});
 var _Catalog = require("./Catalog");
 Object.keys(_Catalog).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Catalog[key]) return;
   exports[key] = _Catalog[key];
-});
-var _Centos = require("./Centos");
-Object.keys(_Centos).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Centos[key]) return;
-  exports[key] = _Centos[key];
 });
 var _Certificate = require("./Certificate");
 Object.keys(_Certificate).forEach(function (key) {
@@ -553,11 +403,11 @@ Object.keys(_ChapterPrevious).forEach(function (key) {
   if (key in exports && exports[key] === _ChapterPrevious[key]) return;
   exports[key] = _ChapterPrevious[key];
 });
-var _ChatOption = require("./ChatOption");
-Object.keys(_ChatOption).forEach(function (key) {
+var _ChatConversation = require("./ChatConversation");
+Object.keys(_ChatConversation).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _ChatOption[key]) return;
-  exports[key] = _ChatOption[key];
+  if (key in exports && exports[key] === _ChatConversation[key]) return;
+  exports[key] = _ChatConversation[key];
 });
 var _Chat = require("./Chat");
 Object.keys(_Chat).forEach(function (key) {
@@ -565,71 +415,17 @@ Object.keys(_Chat).forEach(function (key) {
   if (key in exports && exports[key] === _Chat[key]) return;
   exports[key] = _Chat[key];
 });
-var _CheckboxSelected = require("./CheckboxSelected");
-Object.keys(_CheckboxSelected).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CheckboxSelected[key]) return;
-  exports[key] = _CheckboxSelected[key];
-});
-var _Checkbox = require("./Checkbox");
-Object.keys(_Checkbox).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Checkbox[key]) return;
-  exports[key] = _Checkbox[key];
-});
 var _Checkmark = require("./Checkmark");
 Object.keys(_Checkmark).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Checkmark[key]) return;
   exports[key] = _Checkmark[key];
 });
-var _Chrome = require("./Chrome");
-Object.keys(_Chrome).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Chrome[key]) return;
-  exports[key] = _Chrome[key];
-});
-var _CircleAlert = require("./CircleAlert");
-Object.keys(_CircleAlert).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CircleAlert[key]) return;
-  exports[key] = _CircleAlert[key];
-});
-var _CircleInformation = require("./CircleInformation");
-Object.keys(_CircleInformation).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CircleInformation[key]) return;
-  exports[key] = _CircleInformation[key];
-});
-var _CirclePlay = require("./CirclePlay");
-Object.keys(_CirclePlay).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CirclePlay[key]) return;
-  exports[key] = _CirclePlay[key];
-});
-var _CircleQuestion = require("./CircleQuestion");
-Object.keys(_CircleQuestion).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CircleQuestion[key]) return;
-  exports[key] = _CircleQuestion[key];
-});
-var _CircleStop = require("./CircleStop");
-Object.keys(_CircleStop).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CircleStop[key]) return;
-  exports[key] = _CircleStop[key];
-});
 var _Clear = require("./Clear");
 Object.keys(_Clear).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Clear[key]) return;
   exports[key] = _Clear[key];
-});
-var _Cli = require("./Cli");
-Object.keys(_Cli).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Cli[key]) return;
-  exports[key] = _Cli[key];
 });
 var _Clipboard = require("./Clipboard");
 Object.keys(_Clipboard).forEach(function (key) {
@@ -709,12 +505,6 @@ Object.keys(_Cloud).forEach(function (key) {
   if (key in exports && exports[key] === _Cloud[key]) return;
   exports[key] = _Cloud[key];
 });
-var _Cloudlinux = require("./Cloudlinux");
-Object.keys(_Cloudlinux).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Cloudlinux[key]) return;
-  exports[key] = _Cloudlinux[key];
-});
 var _Cluster = require("./Cluster");
 Object.keys(_Cluster).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -727,29 +517,11 @@ Object.keys(_CoatCheck).forEach(function (key) {
   if (key in exports && exports[key] === _CoatCheck[key]) return;
   exports[key] = _CoatCheck[key];
 });
-var _CodeOption = require("./CodeOption");
-Object.keys(_CodeOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CodeOption[key]) return;
-  exports[key] = _CodeOption[key];
-});
-var _CodeSandbox = require("./CodeSandbox");
-Object.keys(_CodeSandbox).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CodeSandbox[key]) return;
-  exports[key] = _CodeSandbox[key];
-});
 var _Code = require("./Code");
 Object.keys(_Code).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Code[key]) return;
   exports[key] = _Code[key];
-});
-var _Codepen = require("./Codepen");
-Object.keys(_Codepen).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Codepen[key]) return;
-  exports[key] = _Codepen[key];
 });
 var _Coffee = require("./Coffee");
 Object.keys(_Coffee).forEach(function (key) {
@@ -817,12 +589,6 @@ Object.keys(_ContactInfo).forEach(function (key) {
   if (key in exports && exports[key] === _ContactInfo[key]) return;
   exports[key] = _ContactInfo[key];
 });
-var _Contact = require("./Contact");
-Object.keys(_Contact).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Contact[key]) return;
-  exports[key] = _Contact[key];
-});
 var _Contract = require("./Contract");
 Object.keys(_Contract).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -840,12 +606,6 @@ Object.keys(_Cpu).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Cpu[key]) return;
   exports[key] = _Cpu[key];
-});
-var _CreativeCommons = require("./CreativeCommons");
-Object.keys(_CreativeCommons).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _CreativeCommons[key]) return;
-  exports[key] = _CreativeCommons[key];
 });
 var _CreditCard = require("./CreditCard");
 Object.keys(_CreditCard).forEach(function (key) {
@@ -906,12 +666,6 @@ Object.keys(_Database).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Database[key]) return;
   exports[key] = _Database[key];
-});
-var _Debian = require("./Debian");
-Object.keys(_Debian).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Debian[key]) return;
-  exports[key] = _Debian[key];
 });
 var _Deliver = require("./Deliver");
 Object.keys(_Deliver).forEach(function (key) {
@@ -990,12 +744,6 @@ Object.keys(_Dislike).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Dislike[key]) return;
   exports[key] = _Dislike[key];
-});
-var _Docker = require("./Docker");
-Object.keys(_Docker).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Docker[key]) return;
-  exports[key] = _Docker[key];
 });
 var _DocumentCloud = require("./DocumentCloud");
 Object.keys(_DocumentCloud).forEach(function (key) {
@@ -1195,23 +943,11 @@ Object.keys(_Domain).forEach(function (key) {
   if (key in exports && exports[key] === _Domain[key]) return;
   exports[key] = _Domain[key];
 });
-var _Dos = require("./Dos");
-Object.keys(_Dos).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Dos[key]) return;
-  exports[key] = _Dos[key];
-});
 var _Down = require("./Down");
 Object.keys(_Down).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Down[key]) return;
   exports[key] = _Down[key];
-});
-var _DownloadOption = require("./DownloadOption");
-Object.keys(_DownloadOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _DownloadOption[key]) return;
-  exports[key] = _DownloadOption[key];
 });
 var _Download = require("./Download");
 Object.keys(_Download).forEach(function (key) {
@@ -1225,53 +961,17 @@ Object.keys(_Drag).forEach(function (key) {
   if (key in exports && exports[key] === _Drag[key]) return;
   exports[key] = _Drag[key];
 });
-var _Drawer = require("./Drawer");
-Object.keys(_Drawer).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Drawer[key]) return;
-  exports[key] = _Drawer[key];
-});
-var _Dribbble = require("./Dribbble");
-Object.keys(_Dribbble).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Dribbble[key]) return;
-  exports[key] = _Dribbble[key];
-});
 var _DriveCage = require("./DriveCage");
 Object.keys(_DriveCage).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _DriveCage[key]) return;
   exports[key] = _DriveCage[key];
 });
-var _Dropbox = require("./Dropbox");
-Object.keys(_Dropbox).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Dropbox[key]) return;
-  exports[key] = _Dropbox[key];
-});
 var _Duplicate = require("./Duplicate");
 Object.keys(_Duplicate).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Duplicate[key]) return;
   exports[key] = _Duplicate[key];
-});
-var _Dxc = require("./Dxc");
-Object.keys(_Dxc).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Dxc[key]) return;
-  exports[key] = _Dxc[key];
-});
-var _Ebay = require("./Ebay");
-Object.keys(_Ebay).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Ebay[key]) return;
-  exports[key] = _Ebay[key];
-});
-var _Edge = require("./Edge");
-Object.keys(_Edge).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Edge[key]) return;
-  exports[key] = _Edge[key];
 });
 var _Edit = require("./Edit");
 Object.keys(_Edit).forEach(function (key) {
@@ -1291,12 +991,6 @@ Object.keys(_Elevator).forEach(function (key) {
   if (key in exports && exports[key] === _Elevator[key]) return;
   exports[key] = _Elevator[key];
 });
-var _EmergencyFill = require("./EmergencyFill");
-Object.keys(_EmergencyFill).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _EmergencyFill[key]) return;
-  exports[key] = _EmergencyFill[key];
-});
 var _Emergency = require("./Emergency");
 Object.keys(_Emergency).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -1308,12 +1002,6 @@ Object.keys(_EmptyCircle).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _EmptyCircle[key]) return;
   exports[key] = _EmptyCircle[key];
-});
-var _EraseOption = require("./EraseOption");
-Object.keys(_EraseOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _EraseOption[key]) return;
-  exports[key] = _EraseOption[key];
 });
 var _Erase = require("./Erase");
 Object.keys(_Erase).forEach(function (key) {
@@ -1333,24 +1021,6 @@ Object.keys(_Expand).forEach(function (key) {
   if (key in exports && exports[key] === _Expand[key]) return;
   exports[key] = _Expand[key];
 });
-var _Ezmeral = require("./Ezmeral");
-Object.keys(_Ezmeral).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Ezmeral[key]) return;
-  exports[key] = _Ezmeral[key];
-});
-var _FacebookOption = require("./FacebookOption");
-Object.keys(_FacebookOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _FacebookOption[key]) return;
-  exports[key] = _FacebookOption[key];
-});
-var _Facebook = require("./Facebook");
-Object.keys(_Facebook).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Facebook[key]) return;
-  exports[key] = _Facebook[key];
-});
 var _Fan = require("./Fan");
 Object.keys(_Fan).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -1369,18 +1039,6 @@ Object.keys(_Favorite).forEach(function (key) {
   if (key in exports && exports[key] === _Favorite[key]) return;
   exports[key] = _Favorite[key];
 });
-var _Fedora = require("./Fedora");
-Object.keys(_Fedora).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Fedora[key]) return;
-  exports[key] = _Fedora[key];
-});
-var _Figma = require("./Figma");
-Object.keys(_Figma).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Figma[key]) return;
-  exports[key] = _Figma[key];
-});
 var _Filter = require("./Filter");
 Object.keys(_Filter).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -1393,18 +1051,6 @@ Object.keys(_FingerPrint).forEach(function (key) {
   if (key in exports && exports[key] === _FingerPrint[key]) return;
   exports[key] = _FingerPrint[key];
 });
-var _Fireball = require("./Fireball");
-Object.keys(_Fireball).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Fireball[key]) return;
-  exports[key] = _Fireball[key];
-});
-var _Firefox = require("./Firefox");
-Object.keys(_Firefox).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Firefox[key]) return;
-  exports[key] = _Firefox[key];
-});
 var _Firewall = require("./Firewall");
 Object.keys(_Firewall).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -1416,12 +1062,6 @@ Object.keys(_Fiveg).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Fiveg[key]) return;
   exports[key] = _Fiveg[key];
-});
-var _FlagFill = require("./FlagFill");
-Object.keys(_FlagFill).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _FlagFill[key]) return;
-  exports[key] = _FlagFill[key];
 });
 var _Flag = require("./Flag");
 Object.keys(_Flag).forEach(function (key) {
@@ -1477,12 +1117,6 @@ Object.keys(_ForwardTen).forEach(function (key) {
   if (key in exports && exports[key] === _ForwardTen[key]) return;
   exports[key] = _ForwardTen[key];
 });
-var _Freebsd = require("./Freebsd");
-Object.keys(_Freebsd).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Freebsd[key]) return;
-  exports[key] = _Freebsd[key];
-});
 var _Gallery = require("./Gallery");
 Object.keys(_Gallery).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -1501,12 +1135,6 @@ Object.keys(_Gateway).forEach(function (key) {
   if (key in exports && exports[key] === _Gateway[key]) return;
   exports[key] = _Gateway[key];
 });
-var _Gatsbyjs = require("./Gatsbyjs");
-Object.keys(_Gatsbyjs).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Gatsbyjs[key]) return;
-  exports[key] = _Gatsbyjs[key];
-});
 var _Gem = require("./Gem");
 Object.keys(_Gem).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -1519,53 +1147,11 @@ Object.keys(_Gift).forEach(function (key) {
   if (key in exports && exports[key] === _Gift[key]) return;
   exports[key] = _Gift[key];
 });
-var _Github = require("./Github");
-Object.keys(_Github).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Github[key]) return;
-  exports[key] = _Github[key];
-});
 var _Globe = require("./Globe");
 Object.keys(_Globe).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Globe[key]) return;
   exports[key] = _Globe[key];
-});
-var _Golang = require("./Golang");
-Object.keys(_Golang).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Golang[key]) return;
-  exports[key] = _Golang[key];
-});
-var _GooglePay = require("./GooglePay");
-Object.keys(_GooglePay).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _GooglePay[key]) return;
-  exports[key] = _GooglePay[key];
-});
-var _GooglePlay = require("./GooglePlay");
-Object.keys(_GooglePlay).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _GooglePlay[key]) return;
-  exports[key] = _GooglePlay[key];
-});
-var _GooglePlus = require("./GooglePlus");
-Object.keys(_GooglePlus).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _GooglePlus[key]) return;
-  exports[key] = _GooglePlus[key];
-});
-var _GoogleWallet = require("./GoogleWallet");
-Object.keys(_GoogleWallet).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _GoogleWallet[key]) return;
-  exports[key] = _GoogleWallet[key];
-});
-var _Google = require("./Google");
-Object.keys(_Google).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Google[key]) return;
-  exports[key] = _Google[key];
 });
 var _Gpu = require("./Gpu");
 Object.keys(_Gpu).forEach(function (key) {
@@ -1573,29 +1159,11 @@ Object.keys(_Gpu).forEach(function (key) {
   if (key in exports && exports[key] === _Gpu[key]) return;
   exports[key] = _Gpu[key];
 });
-var _GraphQl = require("./GraphQl");
-Object.keys(_GraphQl).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _GraphQl[key]) return;
-  exports[key] = _GraphQl[key];
-});
-var _Gremlin = require("./Gremlin");
-Object.keys(_Gremlin).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Gremlin[key]) return;
-  exports[key] = _Gremlin[key];
-});
 var _Grid = require("./Grid");
 Object.keys(_Grid).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Grid[key]) return;
   exports[key] = _Grid[key];
-});
-var _Grommet = require("./Grommet");
-Object.keys(_Grommet).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Grommet[key]) return;
-  exports[key] = _Grommet[key];
 });
 var _Group = require("./Group");
 Object.keys(_Group).forEach(function (key) {
@@ -1609,12 +1177,6 @@ Object.keys(_Grow).forEach(function (key) {
   if (key in exports && exports[key] === _Grow[key]) return;
   exports[key] = _Grow[key];
 });
-var _Hadoop = require("./Hadoop");
-Object.keys(_Hadoop).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Hadoop[key]) return;
-  exports[key] = _Hadoop[key];
-});
 var _Halt = require("./Halt");
 Object.keys(_Halt).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -1627,23 +1189,11 @@ Object.keys(_HelpBook).forEach(function (key) {
   if (key in exports && exports[key] === _HelpBook[key]) return;
   exports[key] = _HelpBook[key];
 });
-var _HelpOption = require("./HelpOption");
-Object.keys(_HelpOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _HelpOption[key]) return;
-  exports[key] = _HelpOption[key];
-});
 var _Help = require("./Help");
 Object.keys(_Help).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Help[key]) return;
   exports[key] = _Help[key];
-});
-var _Heroku = require("./Heroku");
-Object.keys(_Heroku).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Heroku[key]) return;
-  exports[key] = _Heroku[key];
 });
 var _Hide = require("./Hide");
 Object.keys(_Hide).forEach(function (key) {
@@ -1657,23 +1207,11 @@ Object.keys(_History).forEach(function (key) {
   if (key in exports && exports[key] === _History[key]) return;
   exports[key] = _History[key];
 });
-var _HomeOption = require("./HomeOption");
-Object.keys(_HomeOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _HomeOption[key]) return;
-  exports[key] = _HomeOption[key];
-});
 var _Home = require("./Home");
 Object.keys(_Home).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Home[key]) return;
   exports[key] = _Home[key];
-});
-var _Horton = require("./Horton");
-Object.keys(_Horton).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Horton[key]) return;
-  exports[key] = _Horton[key];
 });
 var _HostMaintenance = require("./HostMaintenance");
 Object.keys(_HostMaintenance).forEach(function (key) {
@@ -1686,30 +1224,6 @@ Object.keys(_Host).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Host[key]) return;
   exports[key] = _Host[key];
-});
-var _Hp = require("./Hp");
-Object.keys(_Hp).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Hp[key]) return;
-  exports[key] = _Hp[key];
-});
-var _HpeLabs = require("./HpeLabs");
-Object.keys(_HpeLabs).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _HpeLabs[key]) return;
-  exports[key] = _HpeLabs[key];
-});
-var _Hpe = require("./Hpe");
-Object.keys(_Hpe).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Hpe[key]) return;
-  exports[key] = _Hpe[key];
-});
-var _Hpi = require("./Hpi");
-Object.keys(_Hpi).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Hpi[key]) return;
-  exports[key] = _Hpi[key];
 });
 var _Html = require("./Html5");
 Object.keys(_Html).forEach(function (key) {
@@ -1747,12 +1261,6 @@ Object.keys(_Inbox).forEach(function (key) {
   if (key in exports && exports[key] === _Inbox[key]) return;
   exports[key] = _Inbox[key];
 });
-var _Indicator = require("./Indicator");
-Object.keys(_Indicator).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Indicator[key]) return;
-  exports[key] = _Indicator[key];
-});
 var _Info = require("./Info");
 Object.keys(_Info).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -1777,18 +1285,6 @@ Object.keys(_Inspect).forEach(function (key) {
   if (key in exports && exports[key] === _Inspect[key]) return;
   exports[key] = _Inspect[key];
 });
-var _Instagram = require("./Instagram");
-Object.keys(_Instagram).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Instagram[key]) return;
-  exports[key] = _Instagram[key];
-});
-var _InstallOption = require("./InstallOption");
-Object.keys(_InstallOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _InstallOption[key]) return;
-  exports[key] = _InstallOption[key];
-});
 var _Install = require("./Install");
 Object.keys(_Install).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -1800,12 +1296,6 @@ Object.keys(_Integration).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Integration[key]) return;
   exports[key] = _Integration[key];
-});
-var _InternetExplorer = require("./InternetExplorer");
-Object.keys(_InternetExplorer).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _InternetExplorer[key]) return;
-  exports[key] = _InternetExplorer[key];
 });
 var _Iteration = require("./Iteration");
 Object.keys(_Iteration).forEach(function (key) {
@@ -1837,29 +1327,11 @@ Object.keys(_Keyboard).forEach(function (key) {
   if (key in exports && exports[key] === _Keyboard[key]) return;
   exports[key] = _Keyboard[key];
 });
-var _Kubernetes = require("./Kubernetes");
-Object.keys(_Kubernetes).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Kubernetes[key]) return;
-  exports[key] = _Kubernetes[key];
-});
 var _Language = require("./Language");
 Object.keys(_Language).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Language[key]) return;
   exports[key] = _Language[key];
-});
-var _Lastfm = require("./Lastfm");
-Object.keys(_Lastfm).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Lastfm[key]) return;
-  exports[key] = _Lastfm[key];
-});
-var _Launch = require("./Launch");
-Object.keys(_Launch).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Launch[key]) return;
-  exports[key] = _Launch[key];
 });
 var _Layer = require("./Layer");
 Object.keys(_Layer).forEach(function (key) {
@@ -1867,11 +1339,11 @@ Object.keys(_Layer).forEach(function (key) {
   if (key in exports && exports[key] === _Layer[key]) return;
   exports[key] = _Layer[key];
 });
-var _License = require("./License");
-Object.keys(_License).forEach(function (key) {
+var _Left = require("./Left");
+Object.keys(_Left).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _License[key]) return;
-  exports[key] = _License[key];
+  if (key in exports && exports[key] === _Left[key]) return;
+  exports[key] = _Left[key];
 });
 var _LikeFill = require("./LikeFill");
 Object.keys(_LikeFill).forEach(function (key) {
@@ -1897,11 +1369,11 @@ Object.keys(_LinkBottom).forEach(function (key) {
   if (key in exports && exports[key] === _LinkBottom[key]) return;
   exports[key] = _LinkBottom[key];
 });
-var _LinkDown = require("./LinkDown");
-Object.keys(_LinkDown).forEach(function (key) {
+var _LinkPrevious = require("./LinkPrevious");
+Object.keys(_LinkPrevious).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _LinkDown[key]) return;
-  exports[key] = _LinkDown[key];
+  if (key in exports && exports[key] === _LinkPrevious[key]) return;
+  exports[key] = _LinkPrevious[key];
 });
 var _LinkNext = require("./LinkNext");
 Object.keys(_LinkNext).forEach(function (key) {
@@ -1909,23 +1381,11 @@ Object.keys(_LinkNext).forEach(function (key) {
   if (key in exports && exports[key] === _LinkNext[key]) return;
   exports[key] = _LinkNext[key];
 });
-var _LinkPrevious = require("./LinkPrevious");
-Object.keys(_LinkPrevious).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _LinkPrevious[key]) return;
-  exports[key] = _LinkPrevious[key];
-});
 var _LinkTop = require("./LinkTop");
 Object.keys(_LinkTop).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _LinkTop[key]) return;
   exports[key] = _LinkTop[key];
-});
-var _LinkUp = require("./LinkUp");
-Object.keys(_LinkUp).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _LinkUp[key]) return;
-  exports[key] = _LinkUp[key];
 });
 var _Link = require("./Link");
 Object.keys(_Link).forEach(function (key) {
@@ -1933,17 +1393,17 @@ Object.keys(_Link).forEach(function (key) {
   if (key in exports && exports[key] === _Link[key]) return;
   exports[key] = _Link[key];
 });
-var _LinkedinOption = require("./LinkedinOption");
-Object.keys(_LinkedinOption).forEach(function (key) {
+var _ListOrdered = require("./ListOrdered");
+Object.keys(_ListOrdered).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _LinkedinOption[key]) return;
-  exports[key] = _LinkedinOption[key];
+  if (key in exports && exports[key] === _ListOrdered[key]) return;
+  exports[key] = _ListOrdered[key];
 });
-var _Linkedin = require("./Linkedin");
-Object.keys(_Linkedin).forEach(function (key) {
+var _ListUnordered = require("./ListUnordered");
+Object.keys(_ListUnordered).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Linkedin[key]) return;
-  exports[key] = _Linkedin[key];
+  if (key in exports && exports[key] === _ListUnordered[key]) return;
+  exports[key] = _ListUnordered[key];
 });
 var _List = require("./List");
 Object.keys(_List).forEach(function (key) {
@@ -1987,42 +1447,6 @@ Object.keys(_Login).forEach(function (key) {
   if (key in exports && exports[key] === _Login[key]) return;
   exports[key] = _Login[key];
 });
-var _LogoAruba = require("./LogoAruba");
-Object.keys(_LogoAruba).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _LogoAruba[key]) return;
-  exports[key] = _LogoAruba[key];
-});
-var _LogoGreenlake = require("./LogoGreenlake");
-Object.keys(_LogoGreenlake).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _LogoGreenlake[key]) return;
-  exports[key] = _LogoGreenlake[key];
-});
-var _LogoGrommet = require("./LogoGrommet");
-Object.keys(_LogoGrommet).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _LogoGrommet[key]) return;
-  exports[key] = _LogoGrommet[key];
-});
-var _LogoHpeDefault = require("./LogoHpeDefault");
-Object.keys(_LogoHpeDefault).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _LogoHpeDefault[key]) return;
-  exports[key] = _LogoHpeDefault[key];
-});
-var _LogoHpeLabs = require("./LogoHpeLabs");
-Object.keys(_LogoHpeLabs).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _LogoHpeLabs[key]) return;
-  exports[key] = _LogoHpeLabs[key];
-});
-var _LogoHpe = require("./LogoHpe");
-Object.keys(_LogoHpe).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _LogoHpe[key]) return;
-  exports[key] = _LogoHpe[key];
-});
 var _Logout = require("./Logout");
 Object.keys(_Logout).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -2041,23 +1465,11 @@ Object.keys(_Magic).forEach(function (key) {
   if (key in exports && exports[key] === _Magic[key]) return;
   exports[key] = _Magic[key];
 });
-var _MailOption = require("./MailOption");
-Object.keys(_MailOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _MailOption[key]) return;
-  exports[key] = _MailOption[key];
-});
 var _Mail = require("./Mail");
 Object.keys(_Mail).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Mail[key]) return;
   exports[key] = _Mail[key];
-});
-var _Mandriva = require("./Mandriva");
-Object.keys(_Mandriva).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Mandriva[key]) return;
-  exports[key] = _Mandriva[key];
 });
 var _Manual = require("./Manual");
 Object.keys(_Manual).forEach(function (key) {
@@ -2071,35 +1483,11 @@ Object.keys(_MapAdd).forEach(function (key) {
   if (key in exports && exports[key] === _MapAdd[key]) return;
   exports[key] = _MapAdd[key];
 });
-var _MapLocation = require("./MapLocation");
-Object.keys(_MapLocation).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _MapLocation[key]) return;
-  exports[key] = _MapLocation[key];
-});
-var _MapOption = require("./MapOption");
-Object.keys(_MapOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _MapOption[key]) return;
-  exports[key] = _MapOption[key];
-});
 var _Map = require("./Map");
 Object.keys(_Map).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Map[key]) return;
   exports[key] = _Map[key];
-});
-var _Mastercard = require("./Mastercard");
-Object.keys(_Mastercard).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Mastercard[key]) return;
-  exports[key] = _Mastercard[key];
-});
-var _Medium = require("./Medium");
-Object.keys(_Medium).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Medium[key]) return;
-  exports[key] = _Medium[key];
 });
 var _Meeting = require("./Meeting");
 Object.keys(_Meeting).forEach(function (key) {
@@ -2118,18 +1506,6 @@ Object.keys(_Menu).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Menu[key]) return;
   exports[key] = _Menu[key];
-});
-var _Meta = require("./Meta");
-Object.keys(_Meta).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Meta[key]) return;
-  exports[key] = _Meta[key];
-});
-var _Microfocus = require("./Microfocus");
-Object.keys(_Microfocus).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Microfocus[key]) return;
-  exports[key] = _Microfocus[key];
 });
 var _Microphone = require("./Microphone");
 Object.keys(_Microphone).forEach(function (key) {
@@ -2197,12 +1573,6 @@ Object.keys(_Music).forEach(function (key) {
   if (key in exports && exports[key] === _Music[key]) return;
   exports[key] = _Music[key];
 });
-var _Mysql = require("./Mysql");
-Object.keys(_Mysql).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Mysql[key]) return;
-  exports[key] = _Mysql[key];
-});
 var _Navigate = require("./Navigate");
 Object.keys(_Navigate).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -2214,6 +1584,12 @@ Object.keys(_NetworkDrive).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _NetworkDrive[key]) return;
   exports[key] = _NetworkDrive[key];
+});
+var _NetworkSwitch = require("./NetworkSwitch");
+Object.keys(_NetworkSwitch).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _NetworkSwitch[key]) return;
+  exports[key] = _NetworkSwitch[key];
 });
 var _Network = require("./Network");
 Object.keys(_Network).forEach(function (key) {
@@ -2233,29 +1609,11 @@ Object.keys(_New).forEach(function (key) {
   if (key in exports && exports[key] === _New[key]) return;
   exports[key] = _New[key];
 });
-var _Next = require("./Next");
-Object.keys(_Next).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Next[key]) return;
-  exports[key] = _Next[key];
-});
-var _Node = require("./Node");
-Object.keys(_Node).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Node[key]) return;
-  exports[key] = _Node[key];
-});
 var _Nodes = require("./Nodes");
 Object.keys(_Nodes).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Nodes[key]) return;
   exports[key] = _Nodes[key];
-});
-var _Norton = require("./Norton");
-Object.keys(_Norton).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Norton[key]) return;
-  exports[key] = _Norton[key];
 });
 var _Note = require("./Note");
 Object.keys(_Note).forEach(function (key) {
@@ -2275,12 +1633,6 @@ Object.keys(_Notification).forEach(function (key) {
   if (key in exports && exports[key] === _Notification[key]) return;
   exports[key] = _Notification[key];
 });
-var _Npm = require("./Npm");
-Object.keys(_Npm).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Npm[key]) return;
-  exports[key] = _Npm[key];
-});
 var _ObjectGroup = require("./ObjectGroup");
 Object.keys(_ObjectGroup).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -2299,35 +1651,11 @@ Object.keys(_OfflineStorage).forEach(function (key) {
   if (key in exports && exports[key] === _OfflineStorage[key]) return;
   exports[key] = _OfflineStorage[key];
 });
-var _Onedrive = require("./Onedrive");
-Object.keys(_Onedrive).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Onedrive[key]) return;
-  exports[key] = _Onedrive[key];
-});
-var _Opera = require("./Opera");
-Object.keys(_Opera).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Opera[key]) return;
-  exports[key] = _Opera[key];
-});
 var _Optimize = require("./Optimize");
 Object.keys(_Optimize).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Optimize[key]) return;
   exports[key] = _Optimize[key];
-});
-var _Oracle = require("./Oracle");
-Object.keys(_Oracle).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Oracle[key]) return;
-  exports[key] = _Oracle[key];
-});
-var _OrderedList = require("./OrderedList");
-Object.keys(_OrderedList).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _OrderedList[key]) return;
-  exports[key] = _OrderedList[key];
 });
 var _Organization = require("./Organization");
 Object.keys(_Organization).forEach(function (key) {
@@ -2371,12 +1699,6 @@ Object.keys(_Pause).forEach(function (key) {
   if (key in exports && exports[key] === _Pause[key]) return;
   exports[key] = _Pause[key];
 });
-var _Paypal = require("./Paypal");
-Object.keys(_Paypal).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Paypal[key]) return;
-  exports[key] = _Paypal[key];
-});
 var _Performance = require("./Performance");
 Object.keys(_Performance).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -2419,29 +1741,11 @@ Object.keys(_PieChart).forEach(function (key) {
   if (key in exports && exports[key] === _PieChart[key]) return;
   exports[key] = _PieChart[key];
 });
-var _PiedPiper = require("./PiedPiper");
-Object.keys(_PiedPiper).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _PiedPiper[key]) return;
-  exports[key] = _PiedPiper[key];
-});
 var _Pin = require("./Pin");
 Object.keys(_Pin).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Pin[key]) return;
   exports[key] = _Pin[key];
-});
-var _Pinterest = require("./Pinterest");
-Object.keys(_Pinterest).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Pinterest[key]) return;
-  exports[key] = _Pinterest[key];
-});
-var _Plan = require("./Plan");
-Object.keys(_Plan).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Plan[key]) return;
-  exports[key] = _Plan[key];
 });
 var _PlayFill = require("./PlayFill");
 Object.keys(_PlayFill).forEach(function (key) {
@@ -2461,12 +1765,6 @@ Object.keys(_Plug).forEach(function (key) {
   if (key in exports && exports[key] === _Plug[key]) return;
   exports[key] = _Plug[key];
 });
-var _Pocket = require("./Pocket");
-Object.keys(_Pocket).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Pocket[key]) return;
-  exports[key] = _Pocket[key];
-});
 var _PowerCycle = require("./PowerCycle");
 Object.keys(_PowerCycle).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -2485,35 +1783,17 @@ Object.keys(_PowerReset).forEach(function (key) {
   if (key in exports && exports[key] === _PowerReset[key]) return;
   exports[key] = _PowerReset[key];
 });
-var _PowerShutdown = require("./PowerShutdown");
-Object.keys(_PowerShutdown).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _PowerShutdown[key]) return;
-  exports[key] = _PowerShutdown[key];
-});
 var _Power = require("./Power");
 Object.keys(_Power).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Power[key]) return;
   exports[key] = _Power[key];
 });
-var _Previous = require("./Previous");
-Object.keys(_Previous).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Previous[key]) return;
-  exports[key] = _Previous[key];
-});
 var _Print = require("./Print");
 Object.keys(_Print).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Print[key]) return;
   exports[key] = _Print[key];
-});
-var _ProductHunt = require("./ProductHunt");
-Object.keys(_ProductHunt).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _ProductHunt[key]) return;
-  exports[key] = _ProductHunt[key];
 });
 var _Projects = require("./Projects");
 Object.keys(_Projects).forEach(function (key) {
@@ -2526,42 +1806,6 @@ Object.keys(_Qr).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Qr[key]) return;
   exports[key] = _Qr[key];
-});
-var _RadialSelected = require("./RadialSelected");
-Object.keys(_RadialSelected).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _RadialSelected[key]) return;
-  exports[key] = _RadialSelected[key];
-});
-var _Radial = require("./Radial");
-Object.keys(_Radial).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Radial[key]) return;
-  exports[key] = _Radial[key];
-});
-var _Raspberry = require("./Raspberry");
-Object.keys(_Raspberry).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Raspberry[key]) return;
-  exports[key] = _Raspberry[key];
-});
-var _Reactjs = require("./Reactjs");
-Object.keys(_Reactjs).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Reactjs[key]) return;
-  exports[key] = _Reactjs[key];
-});
-var _Reddit = require("./Reddit");
-Object.keys(_Reddit).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Reddit[key]) return;
-  exports[key] = _Reddit[key];
-});
-var _Redhat = require("./Redhat");
-Object.keys(_Redhat).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Redhat[key]) return;
-  exports[key] = _Redhat[key];
 });
 var _Redo = require("./Redo");
 Object.keys(_Redo).forEach(function (key) {
@@ -2635,6 +1879,12 @@ Object.keys(_Rewind).forEach(function (key) {
   if (key in exports && exports[key] === _Rewind[key]) return;
   exports[key] = _Rewind[key];
 });
+var _Right = require("./Right");
+Object.keys(_Right).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _Right[key]) return;
+  exports[key] = _Right[key];
+});
 var _Risk = require("./Risk");
 Object.keys(_Risk).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -2671,18 +1921,6 @@ Object.keys(_Run).forEach(function (key) {
   if (key in exports && exports[key] === _Run[key]) return;
   exports[key] = _Run[key];
 });
-var _SafariOption = require("./SafariOption");
-Object.keys(_SafariOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _SafariOption[key]) return;
-  exports[key] = _SafariOption[key];
-});
-var _SamsungPay = require("./SamsungPay");
-Object.keys(_SamsungPay).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _SamsungPay[key]) return;
-  exports[key] = _SamsungPay[key];
-});
 var _Sans = require("./Sans");
 Object.keys(_Sans).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -2707,36 +1945,6 @@ Object.keys(_Scan).forEach(function (key) {
   if (key in exports && exports[key] === _Scan[key]) return;
   exports[key] = _Scan[key];
 });
-var _ScheduleNew = require("./ScheduleNew");
-Object.keys(_ScheduleNew).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _ScheduleNew[key]) return;
-  exports[key] = _ScheduleNew[key];
-});
-var _SchedulePlay = require("./SchedulePlay");
-Object.keys(_SchedulePlay).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _SchedulePlay[key]) return;
-  exports[key] = _SchedulePlay[key];
-});
-var _Schedule = require("./Schedule");
-Object.keys(_Schedule).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Schedule[key]) return;
-  exports[key] = _Schedule[key];
-});
-var _Schedules = require("./Schedules");
-Object.keys(_Schedules).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Schedules[key]) return;
-  exports[key] = _Schedules[key];
-});
-var _Sco = require("./Sco");
-Object.keys(_Sco).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Sco[key]) return;
-  exports[key] = _Sco[key];
-});
 var _Scorecard = require("./Scorecard");
 Object.keys(_Scorecard).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -2760,12 +1968,6 @@ Object.keys(_SearchAdvanced).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _SearchAdvanced[key]) return;
   exports[key] = _SearchAdvanced[key];
-});
-var _SearchOption = require("./SearchOption");
-Object.keys(_SearchOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _SearchOption[key]) return;
-  exports[key] = _SearchOption[key];
 });
 var _Search = require("./Search");
 Object.keys(_Search).forEach(function (key) {
@@ -2851,23 +2053,11 @@ Object.keys(_Services).forEach(function (key) {
   if (key in exports && exports[key] === _Services[key]) return;
   exports[key] = _Services[key];
 });
-var _SettingsOption = require("./SettingsOption");
-Object.keys(_SettingsOption).forEach(function (key) {
+var _Settings = require("./Settings");
+Object.keys(_Settings).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _SettingsOption[key]) return;
-  exports[key] = _SettingsOption[key];
-});
-var _ShareOption = require("./ShareOption");
-Object.keys(_ShareOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _ShareOption[key]) return;
-  exports[key] = _ShareOption[key];
-});
-var _ShareRounded = require("./ShareRounded");
-Object.keys(_ShareRounded).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _ShareRounded[key]) return;
-  exports[key] = _ShareRounded[key];
+  if (key in exports && exports[key] === _Settings[key]) return;
+  exports[key] = _Settings[key];
 });
 var _Share = require("./Share");
 Object.keys(_Share).forEach(function (key) {
@@ -2929,53 +2119,11 @@ Object.keys(_Sign).forEach(function (key) {
   if (key in exports && exports[key] === _Sign[key]) return;
   exports[key] = _Sign[key];
 });
-var _Skype = require("./Skype");
-Object.keys(_Skype).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Skype[key]) return;
-  exports[key] = _Skype[key];
-});
-var _Slack = require("./Slack");
-Object.keys(_Slack).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Slack[key]) return;
-  exports[key] = _Slack[key];
-});
-var _Snapchat = require("./Snapchat");
-Object.keys(_Snapchat).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Snapchat[key]) return;
-  exports[key] = _Snapchat[key];
-});
-var _Solaris = require("./Solaris");
-Object.keys(_Solaris).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Solaris[key]) return;
-  exports[key] = _Solaris[key];
-});
-var _Sort = require("./Sort");
-Object.keys(_Sort).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Sort[key]) return;
-  exports[key] = _Sort[key];
-});
-var _Soundcloud = require("./Soundcloud");
-Object.keys(_Soundcloud).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Soundcloud[key]) return;
-  exports[key] = _Soundcloud[key];
-});
 var _Spa = require("./Spa");
 Object.keys(_Spa).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Spa[key]) return;
   exports[key] = _Spa[key];
-});
-var _Spectrum = require("./Spectrum");
-Object.keys(_Spectrum).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Spectrum[key]) return;
-  exports[key] = _Spectrum[key];
 });
 var _Split = require("./Split");
 Object.keys(_Split).forEach(function (key) {
@@ -2988,24 +2136,6 @@ Object.keys(_Splits).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Splits[key]) return;
   exports[key] = _Splits[key];
-});
-var _Spotify = require("./Spotify");
-Object.keys(_Spotify).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Spotify[key]) return;
-  exports[key] = _Spotify[key];
-});
-var _Square = require("./Square");
-Object.keys(_Square).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Square[key]) return;
-  exports[key] = _Square[key];
-});
-var _StackOverflow = require("./StackOverflow");
-Object.keys(_StackOverflow).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _StackOverflow[key]) return;
-  exports[key] = _StackOverflow[key];
 });
 var _Stakeholder = require("./Stakeholder");
 Object.keys(_Stakeholder).forEach(function (key) {
@@ -3031,23 +2161,17 @@ Object.keys(_StarHalf).forEach(function (key) {
   if (key in exports && exports[key] === _StarHalf[key]) return;
   exports[key] = _StarHalf[key];
 });
-var _StarOutline = require("./StarOutline");
-Object.keys(_StarOutline).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _StarOutline[key]) return;
-  exports[key] = _StarOutline[key];
-});
 var _Star = require("./Star");
 Object.keys(_Star).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Star[key]) return;
   exports[key] = _Star[key];
 });
-var _StatusCriticalFill = require("./StatusCriticalFill");
-Object.keys(_StatusCriticalFill).forEach(function (key) {
+var _StatusCriticalSmall = require("./StatusCriticalSmall");
+Object.keys(_StatusCriticalSmall).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _StatusCriticalFill[key]) return;
-  exports[key] = _StatusCriticalFill[key];
+  if (key in exports && exports[key] === _StatusCriticalSmall[key]) return;
+  exports[key] = _StatusCriticalSmall[key];
 });
 var _StatusCritical = require("./StatusCritical");
 Object.keys(_StatusCritical).forEach(function (key) {
@@ -3055,23 +2179,17 @@ Object.keys(_StatusCritical).forEach(function (key) {
   if (key in exports && exports[key] === _StatusCritical[key]) return;
   exports[key] = _StatusCritical[key];
 });
-var _StatusDisabledFill = require("./StatusDisabledFill");
-Object.keys(_StatusDisabledFill).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _StatusDisabledFill[key]) return;
-  exports[key] = _StatusDisabledFill[key];
-});
 var _StatusDisabled = require("./StatusDisabled");
 Object.keys(_StatusDisabled).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _StatusDisabled[key]) return;
   exports[key] = _StatusDisabled[key];
 });
-var _StatusGoodFill = require("./StatusGoodFill");
-Object.keys(_StatusGoodFill).forEach(function (key) {
+var _StatusGoodSmall = require("./StatusGoodSmall");
+Object.keys(_StatusGoodSmall).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _StatusGoodFill[key]) return;
-  exports[key] = _StatusGoodFill[key];
+  if (key in exports && exports[key] === _StatusGoodSmall[key]) return;
+  exports[key] = _StatusGoodSmall[key];
 });
 var _StatusGood = require("./StatusGood");
 Object.keys(_StatusGood).forEach(function (key) {
@@ -3079,35 +2197,11 @@ Object.keys(_StatusGood).forEach(function (key) {
   if (key in exports && exports[key] === _StatusGood[key]) return;
   exports[key] = _StatusGood[key];
 });
-var _StatusInfoFill = require("./StatusInfoFill");
-Object.keys(_StatusInfoFill).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _StatusInfoFill[key]) return;
-  exports[key] = _StatusInfoFill[key];
-});
 var _StatusInfo = require("./StatusInfo");
 Object.keys(_StatusInfo).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _StatusInfo[key]) return;
   exports[key] = _StatusInfo[key];
-});
-var _StatusPlaceholderFill = require("./StatusPlaceholderFill");
-Object.keys(_StatusPlaceholderFill).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _StatusPlaceholderFill[key]) return;
-  exports[key] = _StatusPlaceholderFill[key];
-});
-var _StatusPlaceholder = require("./StatusPlaceholder");
-Object.keys(_StatusPlaceholder).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _StatusPlaceholder[key]) return;
-  exports[key] = _StatusPlaceholder[key];
-});
-var _StatusUnknownFill = require("./StatusUnknownFill");
-Object.keys(_StatusUnknownFill).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _StatusUnknownFill[key]) return;
-  exports[key] = _StatusUnknownFill[key];
 });
 var _StatusUnknown = require("./StatusUnknown");
 Object.keys(_StatusUnknown).forEach(function (key) {
@@ -3115,23 +2209,17 @@ Object.keys(_StatusUnknown).forEach(function (key) {
   if (key in exports && exports[key] === _StatusUnknown[key]) return;
   exports[key] = _StatusUnknown[key];
 });
-var _StatusWarningFill = require("./StatusWarningFill");
-Object.keys(_StatusWarningFill).forEach(function (key) {
+var _StatusWarningSmall = require("./StatusWarningSmall");
+Object.keys(_StatusWarningSmall).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _StatusWarningFill[key]) return;
-  exports[key] = _StatusWarningFill[key];
+  if (key in exports && exports[key] === _StatusWarningSmall[key]) return;
+  exports[key] = _StatusWarningSmall[key];
 });
 var _StatusWarning = require("./StatusWarning");
 Object.keys(_StatusWarning).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _StatusWarning[key]) return;
   exports[key] = _StatusWarning[key];
-});
-var _StepsOption = require("./StepsOption");
-Object.keys(_StepsOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _StepsOption[key]) return;
-  exports[key] = _StepsOption[key];
 });
 var _Steps = require("./Steps");
 Object.keys(_Steps).forEach(function (key) {
@@ -3163,18 +2251,6 @@ Object.keys(_StreetView).forEach(function (key) {
   if (key in exports && exports[key] === _StreetView[key]) return;
   exports[key] = _StreetView[key];
 });
-var _Stripe = require("./Stripe");
-Object.keys(_Stripe).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Stripe[key]) return;
-  exports[key] = _Stripe[key];
-});
-var _SubtractCircle = require("./SubtractCircle");
-Object.keys(_SubtractCircle).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _SubtractCircle[key]) return;
-  exports[key] = _SubtractCircle[key];
-});
 var _Subtract = require("./Subtract");
 Object.keys(_Subtract).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -3193,29 +2269,11 @@ Object.keys(_Support).forEach(function (key) {
   if (key in exports && exports[key] === _Support[key]) return;
   exports[key] = _Support[key];
 });
-var _Suse = require("./Suse");
-Object.keys(_Suse).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Suse[key]) return;
-  exports[key] = _Suse[key];
-});
-var _Swift = require("./Swift");
-Object.keys(_Swift).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Swift[key]) return;
-  exports[key] = _Swift[key];
-});
 var _Swim = require("./Swim");
 Object.keys(_Swim).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Swim[key]) return;
   exports[key] = _Swim[key];
-});
-var _SwitchOption = require("./SwitchOption");
-Object.keys(_SwitchOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _SwitchOption[key]) return;
-  exports[key] = _SwitchOption[key];
 });
 var _Switch = require("./Switch");
 Object.keys(_Switch).forEach(function (key) {
@@ -3265,12 +2323,6 @@ Object.keys(_Tag).forEach(function (key) {
   if (key in exports && exports[key] === _Tag[key]) return;
   exports[key] = _Tag[key];
 });
-var _TapeOption = require("./TapeOption");
-Object.keys(_TapeOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _TapeOption[key]) return;
-  exports[key] = _TapeOption[key];
-});
 var _Tape = require("./Tape");
 Object.keys(_Tape).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -3289,11 +2341,11 @@ Object.keys(_Task).forEach(function (key) {
   if (key in exports && exports[key] === _Task[key]) return;
   exports[key] = _Task[key];
 });
-var _Tasks = require("./Tasks");
-Object.keys(_Tasks).forEach(function (key) {
+var _Progress = require("./Progress");
+Object.keys(_Progress).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Tasks[key]) return;
-  exports[key] = _Tasks[key];
+  if (key in exports && exports[key] === _Progress[key]) return;
+  exports[key] = _Progress[key];
 });
 var _Technology = require("./Technology");
 Object.keys(_Technology).forEach(function (key) {
@@ -3312,12 +2364,6 @@ Object.keys(_Template).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Template[key]) return;
   exports[key] = _Template[key];
-});
-var _Terminal = require("./Terminal");
-Object.keys(_Terminal).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Terminal[key]) return;
-  exports[key] = _Terminal[key];
 });
 var _TestDesktop = require("./TestDesktop");
 Object.keys(_TestDesktop).forEach(function (key) {
@@ -3343,12 +2389,6 @@ Object.keys(_Theme).forEach(function (key) {
   if (key in exports && exports[key] === _Theme[key]) return;
   exports[key] = _Theme[key];
 });
-var _Threads = require("./Threads");
-Object.keys(_Threads).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Threads[key]) return;
-  exports[key] = _Threads[key];
-});
 var _Threats = require("./Threats");
 Object.keys(_Threats).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -3373,29 +2413,11 @@ Object.keys(_Ticket).forEach(function (key) {
   if (key in exports && exports[key] === _Ticket[key]) return;
   exports[key] = _Ticket[key];
 });
-var _Tiktok = require("./Tiktok");
-Object.keys(_Tiktok).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Tiktok[key]) return;
-  exports[key] = _Tiktok[key];
-});
 var _Time = require("./Time");
 Object.keys(_Time).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Time[key]) return;
   exports[key] = _Time[key];
-});
-var _Tip = require("./Tip");
-Object.keys(_Tip).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Tip[key]) return;
-  exports[key] = _Tip[key];
-});
-var _Toast = require("./Toast");
-Object.keys(_Toast).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Toast[key]) return;
-  exports[key] = _Toast[key];
 });
 var _Tools = require("./Tools");
 Object.keys(_Tools).forEach(function (key) {
@@ -3408,12 +2430,6 @@ Object.keys(_Tooltip).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Tooltip[key]) return;
   exports[key] = _Tooltip[key];
-});
-var _TopCorner = require("./TopCorner");
-Object.keys(_TopCorner).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _TopCorner[key]) return;
-  exports[key] = _TopCorner[key];
 });
 var _Train = require("./Train");
 Object.keys(_Train).forEach(function (key) {
@@ -3433,11 +2449,11 @@ Object.keys(_Trash).forEach(function (key) {
   if (key in exports && exports[key] === _Trash[key]) return;
   exports[key] = _Trash[key];
 });
-var _TreeOption = require("./TreeOption");
-Object.keys(_TreeOption).forEach(function (key) {
+var _TreeNode = require("./TreeNode");
+Object.keys(_TreeNode).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _TreeOption[key]) return;
-  exports[key] = _TreeOption[key];
+  if (key in exports && exports[key] === _TreeNode[key]) return;
+  exports[key] = _TreeNode[key];
 });
 var _Tree = require("./Tree");
 Object.keys(_Tree).forEach(function (key) {
@@ -3457,47 +2473,11 @@ Object.keys(_Trophy).forEach(function (key) {
   if (key in exports && exports[key] === _Trophy[key]) return;
   exports[key] = _Trophy[key];
 });
-var _Troubleshoot = require("./Troubleshoot");
-Object.keys(_Troubleshoot).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Troubleshoot[key]) return;
-  exports[key] = _Troubleshoot[key];
-});
 var _Tty = require("./Tty");
 Object.keys(_Tty).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Tty[key]) return;
   exports[key] = _Tty[key];
-});
-var _Tumblr = require("./Tumblr");
-Object.keys(_Tumblr).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Tumblr[key]) return;
-  exports[key] = _Tumblr[key];
-});
-var _Turbolinux = require("./Turbolinux");
-Object.keys(_Turbolinux).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Turbolinux[key]) return;
-  exports[key] = _Turbolinux[key];
-});
-var _Twitch = require("./Twitch");
-Object.keys(_Twitch).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Twitch[key]) return;
-  exports[key] = _Twitch[key];
-});
-var _Twitter = require("./Twitter");
-Object.keys(_Twitter).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Twitter[key]) return;
-  exports[key] = _Twitter[key];
-});
-var _Ubuntu = require("./Ubuntu");
-Object.keys(_Ubuntu).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Ubuntu[key]) return;
-  exports[key] = _Ubuntu[key];
 });
 var _Undo = require("./Undo");
 Object.keys(_Undo).forEach(function (key) {
@@ -3516,12 +2496,6 @@ Object.keys(_Unlock).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Unlock[key]) return;
   exports[key] = _Unlock[key];
-});
-var _UnorderedList = require("./UnorderedList");
-Object.keys(_UnorderedList).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _UnorderedList[key]) return;
-  exports[key] = _UnorderedList[key];
 });
 var _Unsorted = require("./Unsorted");
 Object.keys(_Unsorted).forEach(function (key) {
@@ -3546,12 +2520,6 @@ Object.keys(_Upgrade).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Upgrade[key]) return;
   exports[key] = _Upgrade[key];
-});
-var _UploadOption = require("./UploadOption");
-Object.keys(_UploadOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _UploadOption[key]) return;
-  exports[key] = _UploadOption[key];
 });
 var _Upload = require("./Upload");
 Object.keys(_Upload).forEach(function (key) {
@@ -3637,12 +2605,6 @@ Object.keys(_Vend).forEach(function (key) {
   if (key in exports && exports[key] === _Vend[key]) return;
   exports[key] = _Vend[key];
 });
-var _Venmo = require("./Venmo");
-Object.keys(_Venmo).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Venmo[key]) return;
-  exports[key] = _Venmo[key];
-});
 var _Video = require("./Video");
 Object.keys(_Video).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -3654,12 +2616,6 @@ Object.keys(_View).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _View[key]) return;
   exports[key] = _View[key];
-});
-var _Vimeo = require("./Vimeo");
-Object.keys(_Vimeo).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Vimeo[key]) return;
-  exports[key] = _Vimeo[key];
 });
 var _VirtualMachine = require("./VirtualMachine");
 Object.keys(_VirtualMachine).forEach(function (key) {
@@ -3673,29 +2629,17 @@ Object.keys(_VirtualStorage).forEach(function (key) {
   if (key in exports && exports[key] === _VirtualStorage[key]) return;
   exports[key] = _VirtualStorage[key];
 });
-var _Visa = require("./Visa");
-Object.keys(_Visa).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Visa[key]) return;
-  exports[key] = _Visa[key];
-});
 var _VmMaintenance = require("./VmMaintenance");
 Object.keys(_VmMaintenance).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _VmMaintenance[key]) return;
   exports[key] = _VmMaintenance[key];
 });
-var _Vmware = require("./Vmware");
-Object.keys(_Vmware).forEach(function (key) {
+var _Dial = require("./Dial");
+Object.keys(_Dial).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Vmware[key]) return;
-  exports[key] = _Vmware[key];
-});
-var _VolumeControl = require("./VolumeControl");
-Object.keys(_VolumeControl).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _VolumeControl[key]) return;
-  exports[key] = _VolumeControl[key];
+  if (key in exports && exports[key] === _Dial[key]) return;
+  exports[key] = _Dial[key];
 });
 var _VolumeLow = require("./VolumeLow");
 Object.keys(_VolumeLow).forEach(function (key) {
@@ -3727,29 +2671,11 @@ Object.keys(_Waypoint).forEach(function (key) {
   if (key in exports && exports[key] === _Waypoint[key]) return;
   exports[key] = _Waypoint[key];
 });
-var _WebcamOption = require("./WebcamOption");
-Object.keys(_WebcamOption).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _WebcamOption[key]) return;
-  exports[key] = _WebcamOption[key];
-});
 var _Webcam = require("./Webcam");
 Object.keys(_Webcam).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Webcam[key]) return;
   exports[key] = _Webcam[key];
-});
-var _WeChat = require("./WeChat");
-Object.keys(_WeChat).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _WeChat[key]) return;
-  exports[key] = _WeChat[key];
-});
-var _WhatsApp = require("./WhatsApp");
-Object.keys(_WhatsApp).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _WhatsApp[key]) return;
-  exports[key] = _WhatsApp[key];
 });
 var _WheelchairActive = require("./WheelchairActive");
 Object.keys(_WheelchairActive).forEach(function (key) {
@@ -3799,53 +2725,17 @@ Object.keys(_Wifi).forEach(function (key) {
   if (key in exports && exports[key] === _Wifi[key]) return;
   exports[key] = _Wifi[key];
 });
-var _WindowsLegacy = require("./WindowsLegacy");
-Object.keys(_WindowsLegacy).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _WindowsLegacy[key]) return;
-  exports[key] = _WindowsLegacy[key];
-});
-var _Windows = require("./Windows");
-Object.keys(_Windows).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Windows[key]) return;
-  exports[key] = _Windows[key];
-});
-var _Wordpress = require("./Wordpress");
-Object.keys(_Wordpress).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Wordpress[key]) return;
-  exports[key] = _Wordpress[key];
-});
 var _Workshop = require("./Workshop");
 Object.keys(_Workshop).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Workshop[key]) return;
   exports[key] = _Workshop[key];
 });
-var _X = require("./X");
-Object.keys(_X).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _X[key]) return;
-  exports[key] = _X[key];
-});
-var _Xing = require("./Xing");
-Object.keys(_Xing).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Xing[key]) return;
-  exports[key] = _Xing[key];
-});
 var _Yoga = require("./Yoga");
 Object.keys(_Yoga).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _Yoga[key]) return;
   exports[key] = _Yoga[key];
-});
-var _Youtube = require("./Youtube");
-Object.keys(_Youtube).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Youtube[key]) return;
-  exports[key] = _Youtube[key];
 });
 var _ZoomIn = require("./ZoomIn");
 Object.keys(_ZoomIn).forEach(function (key) {
@@ -3858,10 +2748,4 @@ Object.keys(_ZoomOut).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (key in exports && exports[key] === _ZoomOut[key]) return;
   exports[key] = _ZoomOut[key];
-});
-var _Zoom = require("./Zoom");
-Object.keys(_Zoom).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _Zoom[key]) return;
-  exports[key] = _Zoom[key];
 });

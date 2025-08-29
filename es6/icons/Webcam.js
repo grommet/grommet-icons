@@ -5,7 +5,7 @@ var Webcam = /*#__PURE__*/forwardRef(function (props, ref) {
   return /*#__PURE__*/React.createElement(StyledIcon, _extends({
     ref: ref,
     viewBox: "0 0 24 24",
-    a11yTitle: "Webcam"
+    a11yTitle: "WebcamOption"
   }, props), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
@@ -14,7 +14,7 @@ var Webcam = /*#__PURE__*/forwardRef(function (props, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
-    d: "M12 1C16.9706 1 21 5.02944 21 10C21 13.9184 18.4952 17.2496 15 18.4854V21H16C16.5523 21 17 21.4477 17 22C17 22.5523 16.5523 23 16 23H8C7.44772 23 7 22.5523 7 22C7 21.4477 7.44772 21 8 21H9V18.4854C5.50484 17.2496 3 13.9184 3 10C3 5.02944 7.02944 1 12 1ZM13 18.9424C12.6716 18.9787 12.3381 19 12 19C11.6619 19 11.3284 18.9787 11 18.9424V21H13V18.9424ZM12 3C8.13401 3 5 6.13401 5 10C5 13.866 8.13401 17 12 17C15.866 17 19 13.866 19 10C19 6.13401 15.866 3 12 3Z",
+    d: "M16 3C19.866 3 23 6.13401 23 10C23 13.866 19.866 17 16 17H15V21H16C16.5523 21 17 21.4477 17 22C17 22.5523 16.5523 23 16 23H8C7.44772 23 7 22.5523 7 22C7 21.4477 7.44772 21 8 21H9V17H8C4.13401 17 1 13.866 1 10C1 6.13401 4.13401 3 8 3H16ZM11 21H13V17H11V21ZM8 5C5.23858 5 3 7.23858 3 10C3 12.7614 5.23858 15 8 15H16C18.7614 15 21 12.7614 21 10C21 7.23858 18.7614 5 16 5H8Z",
     fill: "#000"
   }));
 });
