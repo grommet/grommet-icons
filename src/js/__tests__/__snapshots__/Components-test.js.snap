@@ -6,10 +6,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "AISystems": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Accessibility": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -39,6 +35,10 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Aggregate": {
+    "$$typeof": Symbol(react.forward_ref),
+    "render": [Function],
+  },
+  "AiSystems": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
