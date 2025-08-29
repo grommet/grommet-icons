@@ -461,7 +461,7 @@ export default {
   Elevator: ['down', 'lift', 'up', 'transportation'],
   Emergency: ['alert', 'asterisk'],
   Emoji: ['emoticon', 'reaction', 'comment'],
-  EmptyCircle: ['chart', 'donut'],
+  CircleEmpty: ['chart', 'donut'],
   Erase: ['delete', 'eraser', 'remove'],
   Escalator: [
     'stairs',
@@ -1232,7 +1232,7 @@ export default {
   VmMaintenance: ['tools', 'vmware', 'wrench'],
   Vmware: ['logo', 'virtual'],
   Volume: ['audio', 'sound', 'speaker'],
-  VolumeControl: ['audio', 'sound', 'speaker'],
+  Dial: ['audio', 'sound', 'speaker'],
   VolumeLow: ['audio', 'sound', 'speaker'],
   VolumeMute: ['audio', 'mute', 'sound', 'speaker'],
   Vulnerability: ['aim', 'crosshairs', 'hunting', 'security', 'target'],

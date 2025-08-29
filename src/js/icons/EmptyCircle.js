@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import { StyledIcon } from '../StyledIcon';
 
-const EmptyCircle = forwardRef((props, ref) => (
-  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="EmptyCircle" {...props}>
+const CircleEmpty = forwardRef((props, ref) => (
+  <StyledIcon ref={ref} viewBox="0 0 24 24" a11yTitle="CircleEmpty" {...props}>
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -12,5 +12,5 @@ const EmptyCircle = forwardRef((props, ref) => (
   </StyledIcon>
 ));
 
-EmptyCircle.displayName = 'EmptyCircle';
-export { EmptyCircle };
+CircleEmpty.displayName = 'CircleEmpty';
+export { CircleEmpty };
