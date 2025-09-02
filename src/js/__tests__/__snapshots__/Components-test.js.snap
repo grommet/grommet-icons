@@ -451,10 +451,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Css3": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Cube": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -747,10 +743,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Fireball": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "Firewall": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -871,10 +863,6 @@ exports[`Components loads 1`] = `
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
-  "Html5": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
   "IceCream": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
@@ -928,14 +916,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "Iteration": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Java": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Js": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
@@ -1252,10 +1232,6 @@ exports[`Components loads 1`] = `
     "render": [Function],
   },
   "PlayFill": {
-    "$$typeof": Symbol(react.forward_ref),
-    "render": [Function],
-  },
-  "Plug": {
     "$$typeof": Symbol(react.forward_ref),
     "render": [Function],
   },
