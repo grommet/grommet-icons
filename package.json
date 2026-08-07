@@ -27,6 +27,9 @@
     "release-stable": "babel-node ./tools/release-stable --branch=stable",
     "release-next-stable": "babel-node ./tools/release-stable --branch=NEXT-stable",
     "lint": "eslint src",
+    "license": "node ./tools/license-header.js",
+    "license-check": "node ./tools/license-header.js --check",
+    "license-staged": "node ./tools/license-header.js --staged",
     "storybook": "storybook dev -p 9002 -c storybook",
     "build-storybook": "storybook build -c storybook -o storybook-static",
     "test": "jest",
@@ -115,6 +118,7 @@
     "jackspeak": "2.1.1"
   },
   "pre-commit": [
+    "license-staged",
     "lint",
     "test"
   ]
