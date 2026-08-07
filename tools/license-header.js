@@ -15,7 +15,8 @@
  *                                           (progressive migration) and
  *                                           re-stage anything it corrects.
  *   node tools/license-header.js [paths...] Limit to the given files/dirs.
- *                                           usable with --check or --staged.
+ *                                           usable with --check (ignored when
+ *                                           --staged is set).
  */
 
 const fs = require('fs');
@@ -46,11 +47,11 @@ function isIncluded(filePath) {
 
 // This is meant for progressive migration: only touch
 // files that are staged for commit and live under a managed
-// root and are eligible for a header licence text.
+// root and are eligible for a header license text.
 function collectStagedFiles() {
   const output = execFileSync(
     'git',
-    ['diff', '--cached', '--name-only', '--diff-filter=ACM'],
+    ['diff', '--cached', '--name-only', '--diff-filter=ACMR'],
     { encoding: 'utf8' },
   );
   return output
