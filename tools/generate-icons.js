@@ -1,3 +1,5 @@
+// SPDX-FileCopyrightText: © Hewlett Packard Enterprise Development LP
+// SPDX-License-Identifier: Apache-2.0
 import pascalCase from 'just-pascal-case';
 import camelCase from 'just-camel-case';
 import del from 'del';
