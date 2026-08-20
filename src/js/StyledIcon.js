@@ -60,11 +60,11 @@ const colorCss = css`
     stroke: inherit;
   }
 
-  *:not([stroke]) {
-    &[fill='none'] {
-      stroke-width: 0;
-    }
-  }
+  // *:not([stroke]) {
+  //   &[fill='none'] {
+  //     stroke-width: 0;
+  //   }
+  // }
 
   *[stroke*='#'],
   *[STROKE*='#'] {
@@ -83,7 +83,13 @@ const colorCss = css`
 
 const IconInner = forwardRef(
   ({ a11yTitle, color, size, theme, ...rest }, ref) => (
-    <svg ref={ref} aria-label={a11yTitle} {...rest} />
+    <svg
+      ref={ref}
+      aria-label={a11yTitle}
+      fill="currentColor"
+      stroke="currentColor"
+      {...rest}
+    />
   ),
 );
 IconInner.displayName = 'Icon';

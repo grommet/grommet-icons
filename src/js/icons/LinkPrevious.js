@@ -16,7 +16,6 @@ const LinkPrevious = forwardRef((props, ref) => {
     >
       <path
         fill="none"
-        stroke="#000"
         strokeWidth="2"
         d="M22 12H2m9-9-9 9 9 9"
         {...scaleProps}
