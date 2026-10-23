@@ -53,8 +53,7 @@ const calculatePad = (value, iconDimension) =>
 // iconPad applies padding to icon to ensure it aligns
 // with text line-height or desired width
 export function iconPad(props) {
-  const { height, size = 'medium', width } = props;
-  const theme = useContext(ThemeContext);
+  const { height, size = 'medium', width, theme } = props;
   const iconDimension = parseMetricToNum(theme?.icon?.size?.[size] || size);
 
   let style = '';
